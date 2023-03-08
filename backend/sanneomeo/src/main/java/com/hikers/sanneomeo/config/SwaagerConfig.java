@@ -1,4 +1,4 @@
-package com.ssafy.raonzena.config;
+package com.hikers.sanneomeo.config;
 
 import org.springframework.context.annotation.Bean;
 
@@ -21,7 +21,7 @@ public class SwaagerConfig {
 	public Docket api() {
 		return new Docket(DocumentationType.SWAGGER_2)
 				.select()
-				.apis(RequestHandlerSelectors.basePackage("com.ssafy.raonzena.api.controller"))
+				.apis(RequestHandlerSelectors.basePackage("com.hikers.sanneomeo.api.controller"))
 //				.paths(PathSelectors.ant("/api/**"))
 				.paths(PathSelectors.any())
 				.build()
@@ -31,8 +31,8 @@ public class SwaagerConfig {
 
 	private ApiInfo apiInfo() {
 		return new ApiInfoBuilder()
-				.title("Raonzena Swaager")
-				.description("Raonzena swagger")
+				.title("Sanneomeo Swaager")
+				.description("Sanneomeo swagger")
 				.version("v2")
 				.build();
 	}
