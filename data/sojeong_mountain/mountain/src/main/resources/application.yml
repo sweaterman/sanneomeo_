@@ -1,0 +1,17 @@
+spring:
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+  datasource:
+    driverClassName: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/sanneomeo?serverTimezone=UTC&characterEncoding=utf84&useSSL=false&useUnicode=true
+    username: root
+    password: A708
