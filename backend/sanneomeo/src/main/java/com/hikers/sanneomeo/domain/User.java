@@ -1,6 +1,7 @@
 package com.hikers.sanneomeo.domain;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
@@ -9,6 +10,7 @@ import java.sql.Timestamp;
 @Entity
 @Getter
 @Table(name = "tbl_user")
+@NoArgsConstructor
 public class User {
 
     @Id
@@ -46,12 +48,6 @@ public class User {
     @Column(name = "social_id")
     private String socialId;
 
-    @Column(name = "created_at")
-    private Timestamp createdAt;
-
-    @Column(name = "updated_at")
-    private Timestamp updatedAt;
-
     @Column(name = "total_duration")
     private String totalDuration;
 
@@ -64,6 +60,10 @@ public class User {
     @Column(name = "profile_image")
     private String profileImage;
 
+    @Column(name = "created_at")
+    private Timestamp createdAt;
 
+    @Column(name = "updated_at")
+    private Timestamp updatedAt;
 
 }
