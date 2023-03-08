@@ -1,6 +1,7 @@
 package com.hikers.sanneomeo.domain;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
@@ -8,6 +9,7 @@ import java.math.BigDecimal;
 @Entity
 @Getter
 @Table(name = "tbl_mountain_spot")
+@NoArgsConstructor
 public class MountainSpot {
 
     @Id

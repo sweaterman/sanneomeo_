@@ -1,6 +1,7 @@
 package com.hikers.sanneomeo.domain;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.sql.Timestamp;
@@ -8,6 +9,7 @@ import java.sql.Timestamp;
 @Entity
 @Getter
 @Table(name = "tbl_keep")
+@NoArgsConstructor
 public class Keep {
 
     @Id
