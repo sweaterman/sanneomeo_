@@ -12,12 +12,12 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 public class Trail {
     @Id
-    @Column(name = "trail_seq")
+    @Column(name = "trail_seq", nullable = false)
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long trailSeq;
 
-    @Column(name = "mountain_seq")
-    private Long mountainSeq;
+    @Column(name = "mountain_seq", nullable = false)
+    private String mountainSeq;
 
     @Column(name = "no")
     private Integer no;

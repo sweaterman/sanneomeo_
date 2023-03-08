@@ -12,14 +12,14 @@ import java.sql.Timestamp;
 @NoArgsConstructor
 public class Record {
     @Id
-    @Column(name = "record_seq")
+    @Column(name = "record_seq", nullable = false)
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long recordSeq;
 
-    @Column(name = "trail_seq")
+    @Column(name = "trail_seq", nullable = false)
     private Long trailSeq;
 
-    @Column(name = "user_seq")
+    @Column(name = "user_seq", nullable = false)
     private Long userSeq;
 
     @Column(name = "duration")

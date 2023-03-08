@@ -29,7 +29,7 @@ public class RecordPhoto {
     @Column(name = "longitude")
     private BigDecimal longitude;
 
-    @Column(name = "is_public", columnDefinition = "TINYINT(1)" default 0)
+    @Column(name = "is_public", columnDefinition = "TINYINT(1) default 0")
     private boolean isPublic = false;
 
     @Column(name = "created_at")
