@@ -1,0 +1,603 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 24855,
+        "MNTN_CODE" : "431501501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "버스정류장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "등곡산",
+        "PAST_SPOT_" : "4315015010001",
+        "MNTN_ID" : "431501501"
+      },
+      "geometry" : {
+        "x" : 297237.35050000064,
+        "y" : 481076.38109999895
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 24856,
+        "MNTN_CODE" : "431501501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "중치재",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "등곡산",
+        "PAST_SPOT_" : "4315015010002",
+        "MNTN_ID" : "431501501"
+      },
+      "geometry" : {
+        "x" : 296681.59180000145,
+        "y" : 481375.61580000259
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 24857,
+        "MNTN_CODE" : "431501501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "무덤",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "등곡산",
+        "PAST_SPOT_" : "4315015010003",
+        "MNTN_ID" : "431501501"
+      },
+      "geometry" : {
+        "x" : 296560.00210000016,
+        "y" : 482074.36600000039
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 24858,
+        "MNTN_CODE" : "431501501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "제2봉(520m)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "등곡산",
+        "PAST_SPOT_" : "4315015010004",
+        "MNTN_ID" : "431501501"
+      },
+      "geometry" : {
+        "x" : 296281.88120000064,
+        "y" : 482505.73340000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 24859,
+        "MNTN_CODE" : "431501501",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상(표지석)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "등곡산",
+        "PAST_SPOT_" : "4315015010005",
+        "MNTN_ID" : "431501501"
+      },
+      "geometry" : {
+        "x" : 296031.62129999977,
+        "y" : 482629.3356999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 24860,
+        "MNTN_CODE" : "431501501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안부(빗댕이골),안부(빗댕이골),빚댕이 갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "등곡산",
+        "PAST_SPOT_" : "4315015010006",
+        "MNTN_ID" : "431501501"
+      },
+      "geometry" : {
+        "x" : 296315.56920000073,
+        "y" : 482887.84210000373
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 24861,
+        "MNTN_CODE" : "431501501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "상탄지리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "등곡산",
+        "PAST_SPOT_" : "4315015010007",
+        "MNTN_ID" : "431501501"
+      },
+      "geometry" : {
+        "x" : 297331.50310000032,
+        "y" : 481082.52030000277
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 24862,
+        "MNTN_CODE" : "431501501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "422m",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "등곡산",
+        "PAST_SPOT_" : "4315015010008",
+        "MNTN_ID" : "431501501"
+      },
+      "geometry" : {
+        "x" : 297428.52379999962,
+        "y" : 482064.9784000013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 24863,
+        "MNTN_CODE" : "431501501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼각점(측량표시)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "등곡산",
+        "PAST_SPOT_" : "4315015010009",
+        "MNTN_ID" : "431501501"
+      },
+      "geometry" : {
+        "x" : 297206.06689999998,
+        "y" : 482509.84120000154
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 24864,
+        "MNTN_CODE" : "431501501",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "등곡산",
+        "PAST_SPOT_" : "4315015010010",
+        "MNTN_ID" : "431501501"
+      },
+      "geometry" : {
+        "x" : 297749.92310000118,
+        "y" : 482782.69800000452
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 24865,
+        "MNTN_CODE" : "431501501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쇠시리재",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "등곡산",
+        "PAST_SPOT_" : "4315015010011",
+        "MNTN_ID" : "431501501"
+      },
+      "geometry" : {
+        "x" : 299085.38310000021,
+        "y" : 482509.7509000022
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 24866,
+        "MNTN_CODE" : "431501501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산불감시초소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "등곡산",
+        "PAST_SPOT_" : "4315015010012",
+        "MNTN_ID" : "431501501"
+      },
+      "geometry" : {
+        "x" : 298871.72550000064,
+        "y" : 482612.90430000052
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 24867,
+        "MNTN_CODE" : "431501501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "상탄지리(월악주유소)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "등곡산",
+        "PAST_SPOT_" : "4315015010013",
+        "MNTN_ID" : "431501501"
+      },
+      "geometry" : {
+        "x" : 297587.41669999994,
+        "y" : 480917.18100000173
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 24868,
+        "MNTN_CODE" : "431501501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "북봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "등곡산",
+        "PAST_SPOT_" : "4315015010014",
+        "MNTN_ID" : "431501501"
+      },
+      "geometry" : {
+        "x" : 299249.18169999961,
+        "y" : 481891.08819999918
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 24869,
+        "MNTN_CODE" : "431501501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "510봉(520m)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "등곡산",
+        "PAST_SPOT_" : "4315015010015",
+        "MNTN_ID" : "431501501"
+      },
+      "geometry" : {
+        "x" : 299075.24270000029,
+        "y" : 481679.7061999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 24870,
+        "MNTN_CODE" : "431501501",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상(535m)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "등곡산",
+        "PAST_SPOT_" : "4315015010016",
+        "MNTN_ID" : "431501501"
+      },
+      "geometry" : {
+        "x" : 298965.02760000154,
+        "y" : 481173.67860000022
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 24871,
+        "MNTN_CODE" : "431501501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "456.7봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "등곡산",
+        "PAST_SPOT_" : "4315015010017",
+        "MNTN_ID" : "431501501"
+      },
+      "geometry" : {
+        "x" : 298473.96540000103,
+        "y" : 480819.03040000424
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 24872,
+        "MNTN_CODE" : "431501501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "상탄지 전원주택",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "등곡산",
+        "PAST_SPOT_" : "4315015010018",
+        "MNTN_ID" : "431501501"
+      },
+      "geometry" : {
+        "x" : 297762.97270000074,
+        "y" : 481052.92930000462
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 24873,
+        "MNTN_CODE" : "431501501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "월악주유소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "등곡산",
+        "PAST_SPOT_" : "4315015010019",
+        "MNTN_ID" : "431501501"
+      },
+      "geometry" : {
+        "x" : 297594.89329999965,
+        "y" : 480931.54790000245
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 24874,
+        "MNTN_CODE" : "431501501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "전원주택",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "등곡산",
+        "PAST_SPOT_" : "4315015010020",
+        "MNTN_ID" : "431501501"
+      },
+      "geometry" : {
+        "x" : 297777.92299999949,
+        "y" : 481098.07500000298
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 24875,
+        "MNTN_CODE" : "431501501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "마지막 민가",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "등곡산",
+        "PAST_SPOT_" : "4315015010021",
+        "MNTN_ID" : "431501501"
+      },
+      "geometry" : {
+        "x" : 298236.25430000015,
+        "y" : 481555.70500000194
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 24876,
+        "MNTN_CODE" : "431501501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "상탄지 들머리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "등곡산",
+        "PAST_SPOT_" : "4315015010022",
+        "MNTN_ID" : "431501501"
+      },
+      "geometry" : {
+        "x" : 297531.33459999971,
+        "y" : 480983.43009999953
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 24877,
+        "MNTN_CODE" : "431501501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "등곡산",
+        "PAST_SPOT_" : "4315015010023",
+        "MNTN_ID" : "431501501"
+      },
+      "geometry" : {
+        "x" : 296313.76080000028,
+        "y" : 482890.70900000073
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 24878,
+        "MNTN_CODE" : "431501501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "등곡산",
+        "PAST_SPOT_" : "4315015010024",
+        "MNTN_ID" : "431501501"
+      },
+      "geometry" : {
+        "x" : 297206.34130000044,
+        "y" : 482508.59760000184
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 24879,
+        "MNTN_CODE" : "431501501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "등곡산",
+        "PAST_SPOT_" : "4315015010025",
+        "MNTN_ID" : "431501501"
+      },
+      "geometry" : {
+        "x" : 297326.56769999955,
+        "y" : 481078.82979999855
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 24880,
+        "MNTN_CODE" : "431501501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "등곡산",
+        "PAST_SPOT_" : "4315015010026",
+        "MNTN_ID" : "431501501"
+      },
+      "geometry" : {
+        "x" : 297531.84590000007,
+        "y" : 480983.94429999962
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 24881,
+        "MNTN_CODE" : "431501501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "등곡산",
+        "PAST_SPOT_" : "4315015010027",
+        "MNTN_ID" : "431501501"
+      },
+      "geometry" : {
+        "x" : 297747.20410000067,
+        "y" : 481080.05100000091
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 24882,
+        "MNTN_CODE" : "431501501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "등곡산",
+        "PAST_SPOT_" : "4315015010028",
+        "MNTN_ID" : "431501501"
+      },
+      "geometry" : {
+        "x" : 299083.26150000095,
+        "y" : 482503.20959999971
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 96176,
+        "MNTN_CODE" : "431501501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "등곡산",
+        "PAST_SPOT_" : "4315015010029",
+        "MNTN_ID" : "431501501"
+      },
+      "geometry" : {
+        "x" : 296414.5078999995,
+        "y" : 482919.26669999945
+      }
+    }
+  ]
+}

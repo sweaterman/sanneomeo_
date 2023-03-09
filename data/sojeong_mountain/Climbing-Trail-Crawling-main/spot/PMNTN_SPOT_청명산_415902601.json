@@ -1,0 +1,531 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 85471,
+        "MNTN_CODE" : "415902601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청명산",
+        "PAST_SPOT_" : "4159026010001",
+        "MNTN_ID" : "415902601"
+      },
+      "geometry" : {
+        "x" : 175526.18790000118,
+        "y" : 507755.375
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 85472,
+        "MNTN_CODE" : "415902601",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "평의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청명산",
+        "PAST_SPOT_" : "21440626000002",
+        "MNTN_ID" : "2144062600"
+      },
+      "geometry" : {
+        "x" : 175725.30030000117,
+        "y" : 508700.47739999928
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 85473,
+        "MNTN_CODE" : "415902601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "절벽,공장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청명산",
+        "PAST_SPOT_" : "21440626000003",
+        "MNTN_ID" : "2144062600"
+      },
+      "geometry" : {
+        "x" : 174752.45629999973,
+        "y" : 508831.68239999935
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 85474,
+        "MNTN_CODE" : "415902601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청명산",
+        "PAST_SPOT_" : "21440626000004",
+        "MNTN_ID" : "2144062600"
+      },
+      "geometry" : {
+        "x" : 175135.04940000083,
+        "y" : 508524.40260000154
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 85475,
+        "MNTN_CODE" : "415902601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청명산",
+        "PAST_SPOT_" : "21440626000005",
+        "MNTN_ID" : "2144062600"
+      },
+      "geometry" : {
+        "x" : 175132.88100000191,
+        "y" : 508514.93110000156
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 85476,
+        "MNTN_CODE" : "415902601",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청명산",
+        "PAST_SPOT_" : "21440626000006",
+        "MNTN_ID" : "2144062600"
+      },
+      "geometry" : {
+        "x" : 175121.54330000374,
+        "y" : 508492.06900000013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 85477,
+        "MNTN_CODE" : "415902601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표(홍법사,각골,진장골",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청명산",
+        "PAST_SPOT_" : "21440626000007",
+        "MNTN_ID" : "2144062600"
+      },
+      "geometry" : {
+        "x" : 175119.25780000072,
+        "y" : 508464.097000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 85478,
+        "MNTN_CODE" : "415902601",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "평의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청명산",
+        "PAST_SPOT_" : "21440626000008",
+        "MNTN_ID" : "2144062600"
+      },
+      "geometry" : {
+        "x" : 175261.28550000116,
+        "y" : 508321.19649999961
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 85479,
+        "MNTN_CODE" : "415902601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청명산",
+        "PAST_SPOT_" : "21440626000009",
+        "MNTN_ID" : "2144062600"
+      },
+      "geometry" : {
+        "x" : 175163.83880000189,
+        "y" : 508451.73440000229
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 85480,
+        "MNTN_CODE" : "415902601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,법흥사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청명산",
+        "PAST_SPOT_" : "21440626000010",
+        "MNTN_ID" : "2144062600"
+      },
+      "geometry" : {
+        "x" : 174785.16309999954,
+        "y" : 508687.06179999933
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 85481,
+        "MNTN_CODE" : "415902601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,단독주택",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청명산",
+        "PAST_SPOT_" : "21440626000011",
+        "MNTN_ID" : "2144062600"
+      },
+      "geometry" : {
+        "x" : 174970.43370000087,
+        "y" : 508402.34530000016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 85482,
+        "MNTN_CODE" : "415902601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청명산",
+        "PAST_SPOT_" : "21440626000012",
+        "MNTN_ID" : "2144062600"
+      },
+      "geometry" : {
+        "x" : 175126.18120000139,
+        "y" : 508460.60869999975
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 85483,
+        "MNTN_CODE" : "415902601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,평의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청명산",
+        "PAST_SPOT_" : "21440626000013",
+        "MNTN_ID" : "2144062600"
+      },
+      "geometry" : {
+        "x" : 175135.22499999963,
+        "y" : 508622.47780000418
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 85484,
+        "MNTN_CODE" : "415902601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,삼밭골버스정류장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청명산",
+        "PAST_SPOT_" : "21440626000014",
+        "MNTN_ID" : "2144062600"
+      },
+      "geometry" : {
+        "x" : 175229.3301000027,
+        "y" : 507543.60480000265
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 85485,
+        "MNTN_CODE" : "415902601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,홍법사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청명산",
+        "PAST_SPOT_" : "21440626000015",
+        "MNTN_ID" : "2144062600"
+      },
+      "geometry" : {
+        "x" : 175274.14380000159,
+        "y" : 508456.1138000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 85486,
+        "MNTN_CODE" : "415902601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표(각골,삼밭골,홍법사)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청명산",
+        "PAST_SPOT_" : "21440626000016",
+        "MNTN_ID" : "2144062600"
+      },
+      "geometry" : {
+        "x" : 175345.08670000266,
+        "y" : 508203.3629999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 85487,
+        "MNTN_CODE" : "415902601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,낚시터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청명산",
+        "PAST_SPOT_" : "21440626000017",
+        "MNTN_ID" : "2144062600"
+      },
+      "geometry" : {
+        "x" : 175374.40310000069,
+        "y" : 508429.85960000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 85488,
+        "MNTN_CODE" : "415902601",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "평의자,운동기구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청명산",
+        "PAST_SPOT_" : "21440626000018",
+        "MNTN_ID" : "2144062600"
+      },
+      "geometry" : {
+        "x" : 175558.6882000016,
+        "y" : 508626.62550000288
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 85489,
+        "MNTN_CODE" : "415902601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청명산",
+        "PAST_SPOT_" : "21440626000019",
+        "MNTN_ID" : "2144062600"
+      },
+      "geometry" : {
+        "x" : 175670.84470000025,
+        "y" : 508611.9822000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 85490,
+        "MNTN_CODE" : "415902601",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "청명산정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청명산",
+        "PAST_SPOT_" : "21440626000020",
+        "MNTN_ID" : "2144062600"
+      },
+      "geometry" : {
+        "x" : 175693.95110000391,
+        "y" : 508534.85619999841
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 85491,
+        "MNTN_CODE" : "415902601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점(백곡리)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청명산",
+        "PAST_SPOT_" : "21440626000021",
+        "MNTN_ID" : "2144062600"
+      },
+      "geometry" : {
+        "x" : 175765.4766000025,
+        "y" : 509452.50410000049
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 85492,
+        "MNTN_CODE" : "415902601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,홍성 묘",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청명산",
+        "PAST_SPOT_" : "21440626000022",
+        "MNTN_ID" : "2144062600"
+      },
+      "geometry" : {
+        "x" : 175980.04430000111,
+        "y" : 508016.92090000212
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 85493,
+        "MNTN_CODE" : "415902601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청명산",
+        "PAST_SPOT_" : "21440626000023",
+        "MNTN_ID" : "2144062600"
+      },
+      "geometry" : {
+        "x" : 176104.71380000096,
+        "y" : 508086.06179999933
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 85494,
+        "MNTN_CODE" : "415902601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,안내판또는지도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청명산",
+        "PAST_SPOT_" : "21440626000024",
+        "MNTN_ID" : "2144062600"
+      },
+      "geometry" : {
+        "x" : 176324.65869999956,
+        "y" : 508648.4422999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 85495,
+        "MNTN_CODE" : "415902601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,BBS공장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청명산",
+        "PAST_SPOT_" : "21440626000025",
+        "MNTN_ID" : "2144062600"
+      },
+      "geometry" : {
+        "x" : 176690.94310000073,
+        "y" : 507416.49410000257
+      }
+    }
+  ]
+}

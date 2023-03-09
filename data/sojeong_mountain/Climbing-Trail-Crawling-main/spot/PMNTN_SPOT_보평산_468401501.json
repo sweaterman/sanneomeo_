@@ -1,0 +1,369 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 40141,
+        "MNTN_CODE" : "468401501",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보평산",
+        "PAST_SPOT_" : "4684015010001",
+        "MNTN_ID" : "468401501"
+      },
+      "geometry" : {
+        "x" : 151600.16650000028,
+        "y" : 269551.54849999957
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 40142,
+        "MNTN_CODE" : "468401501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암석노출",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보평산",
+        "PAST_SPOT_" : "4684015010002",
+        "MNTN_ID" : "468401501"
+      },
+      "geometry" : {
+        "x" : 151461.98169999942,
+        "y" : 269406.7547999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 40143,
+        "MNTN_CODE" : "468401501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표 벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보평산",
+        "PAST_SPOT_" : "4684015010003",
+        "MNTN_ID" : "468401501"
+      },
+      "geometry" : {
+        "x" : 151378.80290000141,
+        "y" : 268961.31670000032
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 40144,
+        "MNTN_CODE" : "468401501",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "정자 운동기구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보평산",
+        "PAST_SPOT_" : "4684015010004",
+        "MNTN_ID" : "468401501"
+      },
+      "geometry" : {
+        "x" : 151343.0783000011,
+        "y" : 268925.37810000032
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 40145,
+        "MNTN_CODE" : "468401501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보평산",
+        "PAST_SPOT_" : "4684015010005",
+        "MNTN_ID" : "468401501"
+      },
+      "geometry" : {
+        "x" : 151339.62090000138,
+        "y" : 268888.50680000335
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 40146,
+        "MNTN_CODE" : "468401501",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보평산",
+        "PAST_SPOT_" : "4684015010006",
+        "MNTN_ID" : "468401501"
+      },
+      "geometry" : {
+        "x" : 151332.90100000054,
+        "y" : 268821.1988999974
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 40147,
+        "MNTN_CODE" : "468401501",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보평산",
+        "PAST_SPOT_" : "4684015010007",
+        "MNTN_ID" : "468401501"
+      },
+      "geometry" : {
+        "x" : 151326.12379999924,
+        "y" : 268614.29330000095
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 40148,
+        "MNTN_CODE" : "468401501",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보평산",
+        "PAST_SPOT_" : "4684015010008",
+        "MNTN_ID" : "468401501"
+      },
+      "geometry" : {
+        "x" : 151287.91569999978,
+        "y" : 268498.77209999785
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 40149,
+        "MNTN_CODE" : "468401501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보평산",
+        "PAST_SPOT_" : "4684015010009",
+        "MNTN_ID" : "468401501"
+      },
+      "geometry" : {
+        "x" : 151089.80990000069,
+        "y" : 268597.90360000357
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 40150,
+        "MNTN_CODE" : "468401501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보평산",
+        "PAST_SPOT_" : "4684015010010",
+        "MNTN_ID" : "468401501"
+      },
+      "geometry" : {
+        "x" : 151485.12580000143,
+        "y" : 269238.85400000401
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 40151,
+        "MNTN_CODE" : "468401501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보평산",
+        "PAST_SPOT_" : "4684015010011",
+        "MNTN_ID" : "468401501"
+      },
+      "geometry" : {
+        "x" : 151604.26490000077,
+        "y" : 269547.05740000308
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 40152,
+        "MNTN_CODE" : "468401501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보평산",
+        "PAST_SPOT_" : "4684015010012",
+        "MNTN_ID" : "468401501"
+      },
+      "geometry" : {
+        "x" : 152162.18400000129,
+        "y" : 268694.42060000449
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 40153,
+        "MNTN_CODE" : "468401501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보평산",
+        "PAST_SPOT_" : "4684015010013",
+        "MNTN_ID" : "468401501"
+      },
+      "geometry" : {
+        "x" : 151363.37520000059,
+        "y" : 268937.30910000205
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 40154,
+        "MNTN_CODE" : "468401501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보평산",
+        "PAST_SPOT_" : "4684015010014",
+        "MNTN_ID" : "468401501"
+      },
+      "geometry" : {
+        "x" : 151140.11925078742,
+        "y" : 269198.14861778915
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 40155,
+        "MNTN_CODE" : "468401501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보평산",
+        "PAST_SPOT_" : "4684015010015",
+        "MNTN_ID" : "468401501"
+      },
+      "geometry" : {
+        "x" : 150949.61090357602,
+        "y" : 269276.63154373132
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 40156,
+        "MNTN_CODE" : "468401501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보평산",
+        "PAST_SPOT_" : "4684015010016",
+        "MNTN_ID" : "468401501"
+      },
+      "geometry" : {
+        "x" : 151206.8785861358,
+        "y" : 269236.57594252378
+      }
+    }
+  ]
+}

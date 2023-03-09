@@ -1,0 +1,855 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 52728,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010001",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 166701.98450000118,
+        "y" : 416659.47350000218
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 52729,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010002",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 166891.01700000092,
+        "y" : 416501.37539999932
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 52730,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010003",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 166906.90240000002,
+        "y" : 415473.07030000165
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 52731,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010004",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 166935.65479999967,
+        "y" : 416478.84550000168
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 52732,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010005",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 166969.8376000002,
+        "y" : 415491.40440000035
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 52733,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010006",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 166999.4822000023,
+        "y" : 416784.07110000402
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 52734,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010007",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 167100.31020000204,
+        "y" : 415980.3121000044
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 52735,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010008",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 167274.32020000089,
+        "y" : 416405.56140000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 52736,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010009",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 167303.49650000036,
+        "y" : 415866.30800000019
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 52737,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010010",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 167314.23160000052,
+        "y" : 416111.98069999926
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 52738,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010011",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 167495.26890000049,
+        "y" : 416774.37980000116
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 52739,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010012",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 167502.44540000055,
+        "y" : 415286.90880000032
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 52740,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010013",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 167576.49909999873,
+        "y" : 416834.0783000011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 52741,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010014",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 167700.59900000039,
+        "y" : 416668.99420000054
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 52742,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010015",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 167863.65319999959,
+        "y" : 416455.98540000245
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 52743,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010016",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 167924.5867000008,
+        "y" : 416559.09970000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 52744,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010017",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 168095.76260000002,
+        "y" : 419936.51590000279
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 52745,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010018",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 168634.28520000074,
+        "y" : 417916.06540000066
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 52746,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010019",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 168698.45070000086,
+        "y" : 417986.68109999783
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 52747,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010020",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 169058.65119999927,
+        "y" : 416405.474700002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 52748,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010021",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 169302.40540000144,
+        "y" : 415178.35490000434
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 52749,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010022",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 169312.6408000011,
+        "y" : 419613.65680000186
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 52750,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010023",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 169739.35190000013,
+        "y" : 414912.2594000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 52751,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010024",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 169802.05800000019,
+        "y" : 415022.74109999835
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 52752,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010025",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 169896.85210000072,
+        "y" : 415139.26610000245
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 52753,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010026",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 170095.53190000076,
+        "y" : 414651.30859999917
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 52754,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010027",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 170339.15199999977,
+        "y" : 415533.49160000123
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 52755,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010028",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 170691.35649999976,
+        "y" : 415647.61700000241
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 52756,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010029",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 170778.16060000006,
+        "y" : 420410.60290000029
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 52757,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010030",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 171051.08940000087,
+        "y" : 419205.43470000103
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 52758,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010031",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 171537.74220000021,
+        "y" : 415647.63429999724
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 52759,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010032",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 171603.0092000002,
+        "y" : 415488.33730000071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 52760,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010033",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 171659.63819999993,
+        "y" : 418908.69160000235
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 52761,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010034",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 171790.27150000166,
+        "y" : 415917.65440000035
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 52762,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010035",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 171975.47759999987,
+        "y" : 416874.32340000197
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 52763,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010036",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 171998.90350000001,
+        "y" : 417549.51640000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 52764,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010037",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 172038.02310000081,
+        "y" : 415372.17190000229
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 52765,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010038",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 172044.97709999979,
+        "y" : 417612.15069999918
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 52766,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010039",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 172085.3478000015,
+        "y" : 415507.23170000128
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 52767,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010040",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 172267.87280000094,
+        "y" : 416398.9635000024
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 52768,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010041",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 172294.02699999977,
+        "y" : 415951.52480000071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 52769,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010042",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 172655.674300001,
+        "y" : 418910.09430000186
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 52770,
+        "MNTN_CODE" : "441801201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주산",
+        "PAST_SPOT_" : "4418012010043",
+        "MNTN_ID" : "441801201"
+      },
+      "geometry" : {
+        "x" : 173491.45170000102,
+        "y" : 418862.14420000277
+      }
+    }
+  ]
+}

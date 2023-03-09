@@ -1,0 +1,891 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 51916,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4281030010001",
+        "MNTN_ID" : "428103001"
+      },
+      "geometry" : {
+        "x" : 314031.06950000301,
+        "y" : 621105.95590000041
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 51917,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4281030010002",
+        "MNTN_ID" : "428103001"
+      },
+      "geometry" : {
+        "x" : 317652.56700000074,
+        "y" : 614138.10950000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 51918,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4281030010003",
+        "MNTN_ID" : "428103001"
+      },
+      "geometry" : {
+        "x" : 318122.46790000144,
+        "y" : 616057.40090000071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 51919,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4281030010004",
+        "MNTN_ID" : "428103001"
+      },
+      "geometry" : {
+        "x" : 318952.56900000386,
+        "y" : 622164.43799999915
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 51920,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4281030010005",
+        "MNTN_ID" : "428103001"
+      },
+      "geometry" : {
+        "x" : 320707.91630000249,
+        "y" : 618397.64920000173
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 51921,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4281030010006",
+        "MNTN_ID" : "428103001"
+      },
+      "geometry" : {
+        "x" : 320975.78770000674,
+        "y" : 618293.75560000353
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 51922,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4281030010007",
+        "MNTN_ID" : "428103001"
+      },
+      "geometry" : {
+        "x" : 321747.17230000254,
+        "y" : 617989.92810000293
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 51923,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4281030010008",
+        "MNTN_ID" : "428103001"
+      },
+      "geometry" : {
+        "x" : 322981.13150000665,
+        "y" : 612040.01270000264
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 51924,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4281030010009",
+        "MNTN_ID" : "428103001"
+      },
+      "geometry" : {
+        "x" : 323305.17780000251,
+        "y" : 617644.85490000062
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 51925,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4283026010010",
+        "MNTN_ID" : "428302601"
+      },
+      "geometry" : {
+        "x" : 323359.23150000814,
+        "y" : 611735.6162000075
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 51926,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4281030010011",
+        "MNTN_ID" : "428103001"
+      },
+      "geometry" : {
+        "x" : 323975.2330000028,
+        "y" : 617198.5577000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 51927,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4281030010012",
+        "MNTN_ID" : "428103001"
+      },
+      "geometry" : {
+        "x" : 324076.83320000209,
+        "y" : 617303.33290000074
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 51928,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4281030010013",
+        "MNTN_ID" : "428103001"
+      },
+      "geometry" : {
+        "x" : 324085.56450000405,
+        "y" : 617284.28289999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 51929,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4281030010014",
+        "MNTN_ID" : "428103001"
+      },
+      "geometry" : {
+        "x" : 324486.57240000367,
+        "y" : 621016.53889999911
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 51930,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4281030010015",
+        "MNTN_ID" : "428103001"
+      },
+      "geometry" : {
+        "x" : 324660.66330000572,
+        "y" : 621448.75400000066
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 51931,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4281030010016",
+        "MNTN_ID" : "428103001"
+      },
+      "geometry" : {
+        "x" : 324775.33460000157,
+        "y" : 617558.12720000185
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 51932,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4281030010017",
+        "MNTN_ID" : "428103001"
+      },
+      "geometry" : {
+        "x" : 325146.81040000357,
+        "y" : 617690.68370000087
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 51933,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4281030010018",
+        "MNTN_ID" : "428103001"
+      },
+      "geometry" : {
+        "x" : 325999.29960000515,
+        "y" : 618503.48530000076
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 51934,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4281030010019",
+        "MNTN_ID" : "428103001"
+      },
+      "geometry" : {
+        "x" : 326017.55590000469,
+        "y" : 618522.53540000133
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 51935,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4221009010020",
+        "MNTN_ID" : "422100901"
+      },
+      "geometry" : {
+        "x" : 326027.86600000598,
+        "y" : 618658.98460000753
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 51936,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4281030010021",
+        "MNTN_ID" : "428103001"
+      },
+      "geometry" : {
+        "x" : 326630.33210000489,
+        "y" : 616559.58770000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 51937,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4281030010022",
+        "MNTN_ID" : "428103001"
+      },
+      "geometry" : {
+        "x" : 326827.97630000394,
+        "y" : 615413.41040000133
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 51938,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4281030010023",
+        "MNTN_ID" : "428103001"
+      },
+      "geometry" : {
+        "x" : 326924.02020000294,
+        "y" : 615276.88510000147
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 51939,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4283026010024",
+        "MNTN_ID" : "428302601"
+      },
+      "geometry" : {
+        "x" : 327121.80400000233,
+        "y" : 610391.21660000086
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 51940,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4281030010025",
+        "MNTN_ID" : "428103001"
+      },
+      "geometry" : {
+        "x" : 327731.25750000495,
+        "y" : 614948.66719999909
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 51941,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4281030010026",
+        "MNTN_ID" : "428103001"
+      },
+      "geometry" : {
+        "x" : 327970.42170000169,
+        "y" : 614498.93860000186
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 51942,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4281030010027",
+        "MNTN_ID" : "428103001"
+      },
+      "geometry" : {
+        "x" : 328162.36090000253,
+        "y" : 616421.75679999962
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 51943,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4281030010028",
+        "MNTN_ID" : "428103001"
+      },
+      "geometry" : {
+        "x" : 328378.30989999883,
+        "y" : 615959.82840000279
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 51944,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4281030010029",
+        "MNTN_ID" : "428103001"
+      },
+      "geometry" : {
+        "x" : 328394.93010000698,
+        "y" : 615936.77459999919
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 51945,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4281030010030",
+        "MNTN_ID" : "428103001"
+      },
+      "geometry" : {
+        "x" : 328422.61510000098,
+        "y" : 615741.62510000169
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 51946,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4221009010031",
+        "MNTN_ID" : "422100901"
+      },
+      "geometry" : {
+        "x" : 328482.12940000556,
+        "y" : 614252.89530000277
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 51947,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4221009010032",
+        "MNTN_ID" : "422100901"
+      },
+      "geometry" : {
+        "x" : 328526.54100000393,
+        "y" : 619075.50130000152
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 51948,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4221009010033",
+        "MNTN_ID" : "422100901"
+      },
+      "geometry" : {
+        "x" : 328624.7571000047,
+        "y" : 614244.2666000016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 51949,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4283026010034",
+        "MNTN_ID" : "428302601"
+      },
+      "geometry" : {
+        "x" : 328852.75020000525,
+        "y" : 613920.27740000188
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 51950,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4283026010035",
+        "MNTN_ID" : "428302601"
+      },
+      "geometry" : {
+        "x" : 329084.52560000308,
+        "y" : 609338.74330000207
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 51951,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4221009010036",
+        "MNTN_ID" : "422100901"
+      },
+      "geometry" : {
+        "x" : 329120.0344000021,
+        "y" : 619994.44899999909
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 51952,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4283026010037",
+        "MNTN_ID" : "428302601"
+      },
+      "geometry" : {
+        "x" : 329452.03260000329,
+        "y" : 613790.10220000148
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 51953,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4283026010038",
+        "MNTN_ID" : "428302601"
+      },
+      "geometry" : {
+        "x" : 329508.38900000509,
+        "y" : 612910.62540000118
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 51954,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4221009010039",
+        "MNTN_ID" : "422100901"
+      },
+      "geometry" : {
+        "x" : 330268.32840000559,
+        "y" : 620363.54340000264
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 51955,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4221009010040",
+        "MNTN_ID" : "422100901"
+      },
+      "geometry" : {
+        "x" : 330615.96750000585,
+        "y" : 620039.37370000407
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 51956,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4283026010041",
+        "MNTN_ID" : "428302601"
+      },
+      "geometry" : {
+        "x" : 330766.16050000582,
+        "y" : 613117.16550000012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 51957,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4283026010042",
+        "MNTN_ID" : "428302601"
+      },
+      "geometry" : {
+        "x" : 331636.90600000322,
+        "y" : 611374.88070000149
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 51958,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4283026010043",
+        "MNTN_ID" : "428302601"
+      },
+      "geometry" : {
+        "x" : 331987.34060000256,
+        "y" : 609431.440200001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 51959,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4283026010044",
+        "MNTN_ID" : "428302601"
+      },
+      "geometry" : {
+        "x" : 332001.60190000292,
+        "y" : 611096.4617999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 51960,
+        "MNTN_CODE" : "428302602",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "설악산_대청봉",
+        "PAST_SPOT_" : "4283026010045",
+        "MNTN_ID" : "428302601"
+      },
+      "geometry" : {
+        "x" : 332012.3505000053,
+        "y" : 611075.6363999974
+      }
+    }
+  ]
+}

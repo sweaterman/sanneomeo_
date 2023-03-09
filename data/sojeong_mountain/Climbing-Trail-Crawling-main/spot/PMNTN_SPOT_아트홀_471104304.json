@@ -1,0 +1,639 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 58304,
+        "MNTN_CODE" : "471104304",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아트홀",
+        "PAST_SPOT_" : "4711103010001",
+        "MNTN_ID" : "471110301"
+      },
+      "geometry" : {
+        "x" : 409773.75260009244,
+        "y" : 383485.95290000737
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 58305,
+        "MNTN_CODE" : "471104304",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아트홀",
+        "PAST_SPOT_" : "4711103010002",
+        "MNTN_ID" : "471110301"
+      },
+      "geometry" : {
+        "x" : 409979.82640008722,
+        "y" : 382326.76490000635
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 58306,
+        "MNTN_CODE" : "471104304",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아트홀",
+        "PAST_SPOT_" : "4711103010003",
+        "MNTN_ID" : "471110301"
+      },
+      "geometry" : {
+        "x" : 410098.6551000895,
+        "y" : 382001.76060000807
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 58307,
+        "MNTN_CODE" : "471104304",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아트홀",
+        "PAST_SPOT_" : "4711103010004",
+        "MNTN_ID" : "471110301"
+      },
+      "geometry" : {
+        "x" : 410110.89780009072,
+        "y" : 382809.77900000662
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 58308,
+        "MNTN_CODE" : "471104304",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아트홀",
+        "PAST_SPOT_" : "4711103010005",
+        "MNTN_ID" : "471110301"
+      },
+      "geometry" : {
+        "x" : 410143.85890009161,
+        "y" : 382580.93460000679
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 58309,
+        "MNTN_CODE" : "471104304",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아트홀",
+        "PAST_SPOT_" : "4711103010006",
+        "MNTN_ID" : "471110301"
+      },
+      "geometry" : {
+        "x" : 410159.63200008869,
+        "y" : 382547.21060000546
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 58310,
+        "MNTN_CODE" : "471104304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "방화수",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아트홀",
+        "PAST_SPOT_" : "4711103010007",
+        "MNTN_ID" : "471110301"
+      },
+      "geometry" : {
+        "x" : 409979.23300017696,
+        "y" : 382106.57280000858
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 58311,
+        "MNTN_CODE" : "471104304",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아트홀",
+        "PAST_SPOT_" : "4711103010008",
+        "MNTN_ID" : "471110301"
+      },
+      "geometry" : {
+        "x" : 409998.65730017424,
+        "y" : 382191.90240000933
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 58312,
+        "MNTN_CODE" : "471104304",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아트홀",
+        "PAST_SPOT_" : "4711103010009",
+        "MNTN_ID" : "471110301"
+      },
+      "geometry" : {
+        "x" : 409981.7776001757,
+        "y" : 382323.98320001177
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 58313,
+        "MNTN_CODE" : "471104304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : "종점",
+        "MNTN_NM" : "아트홀",
+        "PAST_SPOT_" : "4711103010010",
+        "MNTN_ID" : "471110301"
+      },
+      "geometry" : {
+        "x" : 409848.27070017718,
+        "y" : 382347.73410000838
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 58314,
+        "MNTN_CODE" : "471104304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "방화수",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아트홀",
+        "PAST_SPOT_" : "4711103010011",
+        "MNTN_ID" : "471110301"
+      },
+      "geometry" : {
+        "x" : 410115.95680017769,
+        "y" : 382358.1637000069
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 58315,
+        "MNTN_CODE" : "471104304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : "시점",
+        "MNTN_NM" : "아트홀",
+        "PAST_SPOT_" : "4711103010012",
+        "MNTN_ID" : "471110301"
+      },
+      "geometry" : {
+        "x" : 409861.71360017546,
+        "y" : 382362.83610000834
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 58316,
+        "MNTN_CODE" : "471104304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : "시점",
+        "MNTN_NM" : "아트홀",
+        "PAST_SPOT_" : "4711103010013",
+        "MNTN_ID" : "471110301"
+      },
+      "geometry" : {
+        "x" : 410120.16030017845,
+        "y" : 382365.73800001107
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 58317,
+        "MNTN_CODE" : "471104304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아트홀",
+        "PAST_SPOT_" : "4711103010014",
+        "MNTN_ID" : "471110301"
+      },
+      "geometry" : {
+        "x" : 410128.13770018145,
+        "y" : 382383.00850001164
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 58318,
+        "MNTN_CODE" : "471104304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : "종점",
+        "MNTN_NM" : "아트홀",
+        "PAST_SPOT_" : "4711103010015",
+        "MNTN_ID" : "471110301"
+      },
+      "geometry" : {
+        "x" : 410149.82340017986,
+        "y" : 382400.86240001209
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 58319,
+        "MNTN_CODE" : "471104304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "축구장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아트홀",
+        "PAST_SPOT_" : "4711103010016",
+        "MNTN_ID" : "471110301"
+      },
+      "geometry" : {
+        "x" : 409843.60020017624,
+        "y" : 382407.66790000908
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 58320,
+        "MNTN_CODE" : "471104304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아트홀",
+        "PAST_SPOT_" : "4711103010017",
+        "MNTN_ID" : "471110301"
+      },
+      "geometry" : {
+        "x" : 410175.4465001775,
+        "y" : 382436.65650000982
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 58321,
+        "MNTN_CODE" : "471104304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "통신안테나",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아트홀",
+        "PAST_SPOT_" : "4711103010018",
+        "MNTN_ID" : "471110301"
+      },
+      "geometry" : {
+        "x" : 410166.42810017895,
+        "y" : 382516.45340001397
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 58322,
+        "MNTN_CODE" : "471104304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "방화수",
+        "ETC_MATTER" : "시점",
+        "MNTN_NM" : "아트홀",
+        "PAST_SPOT_" : "4711103010019",
+        "MNTN_ID" : "471110301"
+      },
+      "geometry" : {
+        "x" : 410106.741200177,
+        "y" : 382724.59080000781
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 58323,
+        "MNTN_CODE" : "471104304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "방화수",
+        "ETC_MATTER" : "종점",
+        "MNTN_NM" : "아트홀",
+        "PAST_SPOT_" : "4711103010020",
+        "MNTN_ID" : "471110301"
+      },
+      "geometry" : {
+        "x" : 410110.18820017669,
+        "y" : 382730.96990001202
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 58324,
+        "MNTN_CODE" : "471104304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "끝지점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아트홀",
+        "PAST_SPOT_" : "4711103010021",
+        "MNTN_ID" : "471110301"
+      },
+      "geometry" : {
+        "x" : 409996.67140017822,
+        "y" : 382750.12130000815
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 58325,
+        "MNTN_CODE" : "471104304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "방화수",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아트홀",
+        "PAST_SPOT_" : "4711103010022",
+        "MNTN_ID" : "471110301"
+      },
+      "geometry" : {
+        "x" : 410112.93230017833,
+        "y" : 382783.70730000921
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 58326,
+        "MNTN_CODE" : "471104304",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아트홀",
+        "PAST_SPOT_" : "4711103010023",
+        "MNTN_ID" : "471110301"
+      },
+      "geometry" : {
+        "x" : 410130.5611001784,
+        "y" : 382833.83570000902
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 58327,
+        "MNTN_CODE" : "471104304",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아트홀",
+        "PAST_SPOT_" : "4711103010024",
+        "MNTN_ID" : "471110301"
+      },
+      "geometry" : {
+        "x" : 410149.73890017718,
+        "y" : 382842.96760000847
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 58328,
+        "MNTN_CODE" : "471104304",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아트홀",
+        "PAST_SPOT_" : "4711103010025",
+        "MNTN_ID" : "471110301"
+      },
+      "geometry" : {
+        "x" : 410161.97480017878,
+        "y" : 382846.2477000095
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 58329,
+        "MNTN_CODE" : "471104304",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아트홀",
+        "PAST_SPOT_" : "4711103010026",
+        "MNTN_ID" : "471110301"
+      },
+      "geometry" : {
+        "x" : 410149.94800018054,
+        "y" : 383037.45730000734
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 58330,
+        "MNTN_CODE" : "471104304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아트홀",
+        "PAST_SPOT_" : "4711103010027",
+        "MNTN_ID" : "471110301"
+      },
+      "geometry" : {
+        "x" : 410131.99640017655,
+        "y" : 383160.71700000949
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 58331,
+        "MNTN_CODE" : "471104304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아트홀",
+        "PAST_SPOT_" : "4711103010028",
+        "MNTN_ID" : "471110301"
+      },
+      "geometry" : {
+        "x" : 410135.42910017818,
+        "y" : 383179.37810000777
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 58332,
+        "MNTN_CODE" : "471104304",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아트홀",
+        "PAST_SPOT_" : "4711103010029",
+        "MNTN_ID" : "471110301"
+      },
+      "geometry" : {
+        "x" : 410133.08480017912,
+        "y" : 383189.88300001249
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 58333,
+        "MNTN_CODE" : "471104304",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아트홀",
+        "PAST_SPOT_" : "4711103010030",
+        "MNTN_ID" : "471110301"
+      },
+      "geometry" : {
+        "x" : 410144.09940017946,
+        "y" : 383243.80670000985
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 58334,
+        "MNTN_CODE" : "471104304",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아트홀",
+        "PAST_SPOT_" : "4711103010031",
+        "MNTN_ID" : "471110301"
+      },
+      "geometry" : {
+        "x" : 409954.87800017558,
+        "y" : 383591.10330001079
+      }
+    }
+  ]
+}

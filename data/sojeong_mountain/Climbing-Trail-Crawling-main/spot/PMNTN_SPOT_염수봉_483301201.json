@@ -1,0 +1,837 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 64273,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "4833012010001",
+        "MNTN_ID" : "483301201"
+      },
+      "geometry" : {
+        "x" : 379540.18490003515,
+        "y" : 320163.07970000058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 64274,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "4833012010002",
+        "MNTN_ID" : "483301201"
+      },
+      "geometry" : {
+        "x" : 379869.43890003953,
+        "y" : 317527.70879999921
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 64275,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "4833012010003",
+        "MNTN_ID" : "483301201"
+      },
+      "geometry" : {
+        "x" : 380680.33830003627,
+        "y" : 318379.80870000832
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 64276,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "4833012010004",
+        "MNTN_ID" : "483301201"
+      },
+      "geometry" : {
+        "x" : 380733.59501913004,
+        "y" : 318533.75509345531
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 64277,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "4833012010005",
+        "MNTN_ID" : "483301201"
+      },
+      "geometry" : {
+        "x" : 380742.89657106996,
+        "y" : 318479.01614454016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 64278,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "4833012010006",
+        "MNTN_ID" : "483301201"
+      },
+      "geometry" : {
+        "x" : 381524.51904033031,
+        "y" : 320851.55801730789
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 64279,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "4833012010007",
+        "MNTN_ID" : "483301201"
+      },
+      "geometry" : {
+        "x" : 382421.79532899614,
+        "y" : 319499.56714243814
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 64280,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "4833012010008",
+        "MNTN_ID" : "483301201"
+      },
+      "geometry" : {
+        "x" : 380066.26450007409,
+        "y" : 315397.95150000975
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 64281,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점에서 본 바위 모습",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000009",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 380001.53650003579,
+        "y" : 319107.45480000414
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 64282,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점에서의 전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000010",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 380264.02130003553,
+        "y" : 319118.33159999922
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 64283,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "상수도 보호구역에 있는 다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000011",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 379757.52680003922,
+        "y" : 320547.78220000304
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 64284,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000012",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 382539.94650003966,
+        "y" : 318723.06700000353
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 64285,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "서비스도로끝부분",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000013",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 380682.98180003837,
+        "y" : 318375.53220000677
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 64286,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로 모습",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000014",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 380726.98170003947,
+        "y" : 318596.37570000812
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 64287,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "바리케이트",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000015",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 380581.6228000382,
+        "y" : 318803.10390000418
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 64288,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "연화당 이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000016",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 383025.6740000397,
+        "y" : 319566.23390000127
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 64289,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "청운사(건축중)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000017",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 383656.0916000437,
+        "y" : 319978.87720000371
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 64290,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000018",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 382219.16130003985,
+        "y" : 321512.85870000347
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 64291,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "월명암 표지석",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000019",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 382408.1263000397,
+        "y" : 319702.61840000376
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 64292,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "궁녀암 이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000020",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 382663.51660004538,
+        "y" : 320202.91350000352
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 64293,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점에서의 전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000021",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 381264.7812000392,
+        "y" : 319174.38850000314
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 64294,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "어곡1051도로",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000022",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 379872.09180003684,
+        "y" : 317513.99910000339
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 64295,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,청매실민박등산로",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000023",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 378395.66290003154,
+        "y" : 318791.74530000053
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 64296,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,하양대입구등산로",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000024",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 378554.1880000364,
+        "y" : 319636.46060000174
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 64297,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "등산로 모습",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000025",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 379084.48570003547,
+        "y" : 319175.91560000554
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 64298,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000026",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 379234.38410003576,
+        "y" : 320594.69480000623
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 64299,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000027",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 379714.11010003742,
+        "y" : 319220.24639999866
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 64300,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,선리등산로입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000028",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 380366.11990003567,
+        "y" : 323118.00190000795
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 64301,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,배네선리마을입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000029",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 380620.87060003914,
+        "y" : 323756.84300000593
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 64302,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상에서의 조망,노수봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000030",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 380696.83330003824,
+        "y" : 319424.98610000499
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 64303,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000031",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 380858.77550003864,
+        "y" : 319216.62079999782
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 64304,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000032",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 381487.80830003787,
+        "y" : 321195.78690000623
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 64305,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "등산로 모습",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000033",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 381665.1627000412,
+        "y" : 321633.14110000432
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 64306,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000034",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 382096.2768000355,
+        "y" : 323788.58670000546
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 64307,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "도라지고개",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000035",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 382101.67980003916,
+        "y" : 321618.04800000601
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 64308,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000036",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 382497.96080003958,
+        "y" : 319294.99970000051
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 64309,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "구불사(주차장 있음)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000037",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 382516.65650004055,
+        "y" : 319237.25720000081
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 64310,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000038",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 382871.03520004172,
+        "y" : 319119.7405000031
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 64311,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "염수봉 등산로 안내도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000039",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 383194.55130004417,
+        "y" : 318974.14220000431
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 64312,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,내석정류소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000040",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 383508.25270004012,
+        "y" : 318804.00200000405
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 64313,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000041",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 380582.64216822665,
+        "y" : 319411.92704044841
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 64314,
+        "MNTN_CODE" : "483301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염수봉",
+        "PAST_SPOT_" : "28101506000042",
+        "MNTN_ID" : "2810150600"
+      },
+      "geometry" : {
+        "x" : 381134.89794020262,
+        "y" : 319964.20247491635
+      }
+    }
+  ]
+}

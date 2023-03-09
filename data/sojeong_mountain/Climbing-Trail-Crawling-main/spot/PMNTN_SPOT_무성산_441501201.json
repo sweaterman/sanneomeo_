@@ -1,0 +1,1971 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 29619,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "폭포",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000001",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 204774.17070000339,
+        "y" : 439812.84190000407
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 29620,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000002",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 204989.55879999977,
+        "y" : 439404.06850000471
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 29621,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "홍길동성",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000003",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205247.33130000066,
+        "y" : 438988.09750000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 29622,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000004",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205256.67219999991,
+        "y" : 438990.16589999944
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 29623,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000005",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205291.24019999988,
+        "y" : 438888.02879999951
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 29624,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000006",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205267.16560000088,
+        "y" : 437953.30769999884
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 29625,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000007",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205245.53430000134,
+        "y" : 438144.88690000214
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 29626,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000008",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205285.23530000076,
+        "y" : 438293.69090000354
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 29627,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000009",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205368.48370000254,
+        "y" : 438576.02860000171
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 29628,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사유임도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000010",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205749.67460000049,
+        "y" : 443171.42860000022
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 29629,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "특이식물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000011",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206280.86510000098,
+        "y" : 441376.122299999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 29630,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼각점",
+        "ETC_MATTER" : "1979.447.전의",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000012",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206155.77500000224,
+        "y" : 441307.34750000387
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 29631,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000013",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206172.07000000216,
+        "y" : 441163.24490000494
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 29632,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "봉화대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000014",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205887.99010000098,
+        "y" : 440837.54700000398
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 29633,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000015",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205451.16540000029,
+        "y" : 439233.57330000028
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 29634,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000016",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205429.00980000105,
+        "y" : 439208.58459999971
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 29635,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000017",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205702.17670000158,
+        "y" : 436974.26280000247
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 29636,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도표시",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000018",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205542.86240000091,
+        "y" : 436368.48100000061
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 29637,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "저수지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000019",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 204994.5353000015,
+        "y" : 434224.75909999944
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 29638,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000020",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206221.69090000074,
+        "y" : 439263.78849999979
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 29639,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000021",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206258.40400000196,
+        "y" : 439306.23360000364
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 29640,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도시설공사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000022",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206280.82400000375,
+        "y" : 439317.24090000242
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 29641,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단(통나무)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000023",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206328.40180000104,
+        "y" : 440656.94080000371
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 29642,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000024",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206445.91940000188,
+        "y" : 440751.26259999909
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 29643,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000025",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206631.27020000108,
+        "y" : 440496.01500000246
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 29644,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로표시판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000026",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206858.81469999999,
+        "y" : 437429.32570000365
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 29645,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "KTF통신기지국",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000027",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206805.01260000002,
+        "y" : 437478.73000000045
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 29646,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000028",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 207033.07139999978,
+        "y" : 437814.84840000421
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 29647,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000029",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206938.46860000305,
+        "y" : 438545.2201000005
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 29648,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000030",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 207162.9755000025,
+        "y" : 437988.61060000211
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 29649,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000031",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206873.77720000222,
+        "y" : 439048.30729999766
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 29650,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000032",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206235.46410000138,
+        "y" : 436626.28670000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 29651,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단(통나무)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000033",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206201.1826000018,
+        "y" : 436401.24880000204
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 29652,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000034",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206190.33990000095,
+        "y" : 436370.57169999927
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 29653,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000035",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205836.8116999995,
+        "y" : 436655.32120000198
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 29654,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000036",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205800.49140000157,
+        "y" : 436985.7714000009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 29655,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000037",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205759.02739999909,
+        "y" : 437313.02040000074
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 29656,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000038",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205557.55370000098,
+        "y" : 437687.92240000144
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 29657,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000039",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205242.7079000026,
+        "y" : 438154.41340000182
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 29658,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단(통나무)",
+        "ETC_MATTER" : "통나무계단은 정비가 필요함",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000040",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205384.00830000173,
+        "y" : 438546.16210000217
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 29659,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단(통나무)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000041",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205476.5036000032,
+        "y" : 438506.22039999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 29660,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단(통나무)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000042",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205543.709900002,
+        "y" : 438422.31110000424
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 29661,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단(통나무)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000043",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205626.69260000251,
+        "y" : 438392.88480000012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 29662,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단(통나무)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000044",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205676.19490000047,
+        "y" : 438429.18160000257
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 29663,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000045",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205986.51040000003,
+        "y" : 439283.98939999938
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 29664,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000046",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206085.69260000158,
+        "y" : 439501.30230000056
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 29665,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000047",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205962.41300000343,
+        "y" : 439474.49679999985
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 29666,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "통나무계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000048",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205964.38990000077,
+        "y" : 439477.66930000111
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 29667,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "통나무계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000049",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206392.72740000207,
+        "y" : 441186.13790000044
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 29668,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "통나무계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000050",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206557.07299999986,
+        "y" : 439746.10730000399
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 50,
+        "PMNTN_SPOT" : 29669,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "통나무계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000051",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206587.41340000089,
+        "y" : 439751.24919999763
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 51,
+        "PMNTN_SPOT" : 29670,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000052",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206657.00009999983,
+        "y" : 439756.13920000196
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 52,
+        "PMNTN_SPOT" : 29671,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "통나무계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000053",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206670.68830000237,
+        "y" : 439766.96920000203
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 53,
+        "PMNTN_SPOT" : 29672,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "통나무계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000054",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206799.14190000016,
+        "y" : 439868.19199999794
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 54,
+        "PMNTN_SPOT" : 29673,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000055",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206908.04080000147,
+        "y" : 440101.31320000254
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 55,
+        "PMNTN_SPOT" : 29674,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "통나무계단",
+        "ETC_MATTER" : "120m",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000056",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206193.83789999969,
+        "y" : 439749.5046000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 56,
+        "PMNTN_SPOT" : 29675,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "통나무계단",
+        "ETC_MATTER" : "30m",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000057",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205954.43499999866,
+        "y" : 439693.44260000437
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 57,
+        "PMNTN_SPOT" : 29676,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000058",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205677.63190000318,
+        "y" : 439777.63020000234
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 58,
+        "PMNTN_SPOT" : 29677,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "홍길동성",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000059",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205294.11170000117,
+        "y" : 438857.33240000159
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 59,
+        "PMNTN_SPOT" : 29678,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000060",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205292.63210000005,
+        "y" : 438873.69400000013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 60,
+        "PMNTN_SPOT" : 29679,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "표시판",
+        "ETC_MATTER" : "종점",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000061",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206254.72230000142,
+        "y" : 436716.62849999964
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 61,
+        "PMNTN_SPOT" : 29680,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "한천약수터(안내판)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000062",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205986.51040000003,
+        "y" : 439283.98939999938
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 62,
+        "PMNTN_SPOT" : 29681,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000063",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205898.02940000128,
+        "y" : 439727.2685000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 63,
+        "PMNTN_SPOT" : 29682,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000064",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 203335.1648000041,
+        "y" : 440313.09450000152
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 64,
+        "PMNTN_SPOT" : 29683,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "사곡면 계실리",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000065",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 203543.32300000172,
+        "y" : 436511.25310000218
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 65,
+        "PMNTN_SPOT" : 29684,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "대중리",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000066",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 203701.73709999956,
+        "y" : 438464.51850000024
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 66,
+        "PMNTN_SPOT" : 29685,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "화월1리 새마을 회관",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000067",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 203722.98740000091,
+        "y" : 433384.42789999954
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 67,
+        "PMNTN_SPOT" : 29686,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000068",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 203897.43840000127,
+        "y" : 442161.70950000174
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 68,
+        "PMNTN_SPOT" : 29687,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000069",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 204203.09450000059,
+        "y" : 443194.02910000272
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 69,
+        "PMNTN_SPOT" : 29688,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000070",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205264.73630000092,
+        "y" : 438988.26900000125
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 70,
+        "PMNTN_SPOT" : 29689,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000071",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205267.271300002,
+        "y" : 437959.03500000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 71,
+        "PMNTN_SPOT" : 29690,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "무성산 정상부",
+        "ETC_MATTER" : "1984년",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000072",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205278.28960000165,
+        "y" : 438909.33300000429
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 72,
+        "PMNTN_SPOT" : 29691,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000073",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205368.78590000048,
+        "y" : 438578.94520000182
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 73,
+        "PMNTN_SPOT" : 29692,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000074",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205388.20779999997,
+        "y" : 435642.43260000646
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 74,
+        "PMNTN_SPOT" : 29693,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000075",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205432.26410000119,
+        "y" : 438512.86050000228
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 75,
+        "PMNTN_SPOT" : 29694,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000076",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205434.24840000086,
+        "y" : 438508.8256000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 76,
+        "PMNTN_SPOT" : 29695,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000077",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205714.11139999889,
+        "y" : 436903.73860000446
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 77,
+        "PMNTN_SPOT" : 29696,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000078",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205715.84979999997,
+        "y" : 438413.05199999921
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 78,
+        "PMNTN_SPOT" : 29697,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "임도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000079",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205804.80110000074,
+        "y" : 436910.4039000012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 79,
+        "PMNTN_SPOT" : 29698,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "임도끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000080",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205819.03040000144,
+        "y" : 436024.54870000109
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 80,
+        "PMNTN_SPOT" : 29699,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000081",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206172.78130000178,
+        "y" : 441159.39400000125
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 81,
+        "PMNTN_SPOT" : 29700,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000082",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206207.47970000096,
+        "y" : 439323.05649999902
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 82,
+        "PMNTN_SPOT" : 29701,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000083",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206221.17039999925,
+        "y" : 439265.9645000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 83,
+        "PMNTN_SPOT" : 29702,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000084",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206233.67830000352,
+        "y" : 439278.85190000013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 84,
+        "PMNTN_SPOT" : 29703,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000085",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206261.02299999911,
+        "y" : 439308.04160000384
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 85,
+        "PMNTN_SPOT" : 29704,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "평정저수지(표지판)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000086",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206338.84790000133,
+        "y" : 439728.69250000268
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 86,
+        "PMNTN_SPOT" : 29705,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000087",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206360.08930000011,
+        "y" : 441889.01750000194
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 87,
+        "PMNTN_SPOT" : 29706,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "사곡면 월가리 임도와 만나는지점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000088",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206371.86319999956,
+        "y" : 441758.3133000005
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 88,
+        "PMNTN_SPOT" : 29707,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000089",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206429.66060000006,
+        "y" : 441571.5746000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 89,
+        "PMNTN_SPOT" : 29708,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000090",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206492.37760000024,
+        "y" : 441303.92620000057
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 90,
+        "PMNTN_SPOT" : 29709,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000091",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206505.04509999976,
+        "y" : 436182.81959999911
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 91,
+        "PMNTN_SPOT" : 29710,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000092",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206521.61319086328,
+        "y" : 438942.84059702419
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 92,
+        "PMNTN_SPOT" : 29711,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000093",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206537.94790000096,
+        "y" : 441179.83820000105
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 93,
+        "PMNTN_SPOT" : 29712,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000094",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206599.78949999996,
+        "y" : 440861.25110000372
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 94,
+        "PMNTN_SPOT" : 29713,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000095",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206604.70980000123,
+        "y" : 441612.91829999909
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 95,
+        "PMNTN_SPOT" : 29714,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000096",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206681.74480000325,
+        "y" : 437320.44540000334
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 96,
+        "PMNTN_SPOT" : 29715,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000097",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206709.77940000314,
+        "y" : 437301.95160000212
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 97,
+        "PMNTN_SPOT" : 29716,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "샘골",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000098",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206931.40010000207,
+        "y" : 437151.94650000334
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 98,
+        "PMNTN_SPOT" : 29717,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "표시판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000099",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206940.9226000011,
+        "y" : 440110.08890000172
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 99,
+        "PMNTN_SPOT" : 29718,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000100",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 207005.30780000146,
+        "y" : 439193.63740000315
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 100,
+        "PMNTN_SPOT" : 29719,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "안내판",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000101",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 207582.01620000135,
+        "y" : 439468.6221000012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 101,
+        "PMNTN_SPOT" : 29720,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000102",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 208222.16750000045,
+        "y" : 441950.3200000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 102,
+        "PMNTN_SPOT" : 29721,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "평정1구 마을회관",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000103",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 208300.50560000073,
+        "y" : 439212.95600000396
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 103,
+        "PMNTN_SPOT" : 29722,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000104",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 205551.43429204263,
+        "y" : 435209.82602194138
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 104,
+        "PMNTN_SPOT" : 29723,
+        "MNTN_CODE" : "441501201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무성산",
+        "PAST_SPOT_" : "24022213000105",
+        "MNTN_ID" : "2402221300"
+      },
+      "geometry" : {
+        "x" : 206248.43510000128,
+        "y" : 439968.67160000093
+      }
+    }
+  ]
+}

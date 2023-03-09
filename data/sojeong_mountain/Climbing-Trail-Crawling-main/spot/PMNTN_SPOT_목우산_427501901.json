@@ -1,0 +1,981 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 28901,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010001",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 350492.01510001253,
+        "y" : 505517.68789999932
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 28902,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010002",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 351548.80500001833,
+        "y" : 503277.66720000282
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 28903,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010003",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 351595.74360002019,
+        "y" : 503283.10650000162
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 28904,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010004",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 351512.28460002225,
+        "y" : 503297.64100000635
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 28905,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상표지목",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010005",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 351843.83810002171,
+        "y" : 503306.20629999973
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 28906,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010006",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 351831.37520001922,
+        "y" : 503313.45439999923
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 28907,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010007",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 351859.05560001917,
+        "y" : 503314.38529999927
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 28908,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010008",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 351446.33780002128,
+        "y" : 503315.39950000122
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 28909,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010009",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 351729.74580002017,
+        "y" : 503316.87920000404
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 28910,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010010",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 351650.22580001876,
+        "y" : 503318.04869999923
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 28911,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010011",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 351727.20270001888,
+        "y" : 503318.86530000158
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 28912,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010012",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 351866.59460001811,
+        "y" : 503319.38390000165
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 28913,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010013",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 351665.08040001709,
+        "y" : 503324.65520000085
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 28914,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010014",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 351438.99360001925,
+        "y" : 503326.79260000028
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 28915,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010015",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 351914.66440001968,
+        "y" : 503347.42870000564
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 28916,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010016",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 351968.40980001818,
+        "y" : 503351.09390000068
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 28917,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010017",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 351906.3878000211,
+        "y" : 503358.71580000222
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 28918,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010018",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 351941.78970001824,
+        "y" : 503362.89470000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 28919,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010019",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 352000.00290002301,
+        "y" : 503368.78329999931
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 28920,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010020",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 352005.98390002269,
+        "y" : 503369.93470000103
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 28921,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010021",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 352005.8457000209,
+        "y" : 503371.6865000017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 28922,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010022",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 351998.71580002178,
+        "y" : 503398.79360000044
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 28923,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010023",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 352006.08610001672,
+        "y" : 503409.69620000012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 28924,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "쓰러진나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010024",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 351209.96760001872,
+        "y" : 503429.03140000068
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 28925,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010025",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 352059.13170002215,
+        "y" : 503456.63979999907
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 28926,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "쓰러진나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010026",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 352076.11450001691,
+        "y" : 503492.16420000792
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 28927,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010027",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 352280.25440001581,
+        "y" : 503514.17470000125
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 28928,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "쓰러진나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010028",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 352279.2022000188,
+        "y" : 503559.20050000027
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 28929,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010029",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 352279.2022000188,
+        "y" : 503559.20050000027
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 28930,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "목우종",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010030",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 352281.59660002124,
+        "y" : 503582.22680000216
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 28931,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010031",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 352287.46240002103,
+        "y" : 503590.73760000244
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 28932,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "쓰러진나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010032",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 350906.95730001666,
+        "y" : 503628.6136000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 28933,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010033",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 352195.5174000226,
+        "y" : 503955.22210000083
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 28934,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010034",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 352224.59840001818,
+        "y" : 504013.94820000045
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 28935,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010035",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 352258.6081000194,
+        "y" : 504187.32389999926
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 28936,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010036",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 352246.21180001833,
+        "y" : 504569.45359999873
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 28937,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "쓰러진나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010037",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 352194.88170001842,
+        "y" : 504613.21730000339
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 28938,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "동랑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010038",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 352066.02880001813,
+        "y" : 504689.61470000073
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 28939,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "쓰러진나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010039",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 352066.02880001813,
+        "y" : 504689.61470000073
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 28940,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "도랑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010040",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 352073.55220002215,
+        "y" : 504693.92500000075
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 28941,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "쓰러진나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010041",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 351958.08690002281,
+        "y" : 504776.4276000075
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 28942,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "쓰러진나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010042",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 351798.55540002044,
+        "y" : 504884.69720000774
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 28943,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "너덜지대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010043",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 351794.67640002258,
+        "y" : 504887.33660000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 28944,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "도랑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010044",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 351707.45820002258,
+        "y" : 504935.2873999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 28945,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010045",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 351644.73630002048,
+        "y" : 504994.89320000261
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 28946,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "농가",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010046",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 351611.11450002156,
+        "y" : 504995.43270000443
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 28947,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "콘크리트포장도로",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010047",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 351544.95430001989,
+        "y" : 505020.33620000258
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 28948,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "물탱크",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010048",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 351248.75040001981,
+        "y" : 505233.54990000091
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 28949,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "응고개공원",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010049",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 350552.53470001835,
+        "y" : 505539.15259999968
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 28950,
+        "MNTN_CODE" : "427501901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "목우산",
+        "PAST_SPOT_" : "4275019010050",
+        "MNTN_ID" : "427501901"
+      },
+      "geometry" : {
+        "x" : 350522.81440849509,
+        "y" : 505505.24307067692
+      }
+    }
+  ]
+}

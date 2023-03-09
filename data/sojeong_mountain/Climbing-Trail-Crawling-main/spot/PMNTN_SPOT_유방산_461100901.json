@@ -1,0 +1,657 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 73645,
+        "MNTN_CODE" : "461100901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "무덤",
+        "ETC_MATTER" : "천주교 무덤",
+        "MNTN_NM" : "유방산",
+        "PAST_SPOT_" : "26089909000001",
+        "MNTN_ID" : "2608990900"
+      },
+      "geometry" : {
+        "x" : 143890.29080000054,
+        "y" : 247251.48530000076
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 73646,
+        "MNTN_CODE" : "461100901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "유방산",
+        "PAST_SPOT_" : "26089909000002",
+        "MNTN_ID" : "2608990900"
+      },
+      "geometry" : {
+        "x" : 143865.84740000218,
+        "y" : 247207.67669999972
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 73647,
+        "MNTN_CODE" : "461100901",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등,숲길훼손",
+        "ETC_MATTER" : "자갈길",
+        "MNTN_NM" : "유방산",
+        "PAST_SPOT_" : "26089909000003",
+        "MNTN_ID" : "2608990900"
+      },
+      "geometry" : {
+        "x" : 143795.35890000034,
+        "y" : 246937.46250000037
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 73648,
+        "MNTN_CODE" : "461100901",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등,벤치,운동기구,등산로전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "유방산",
+        "PAST_SPOT_" : "26089909000004",
+        "MNTN_ID" : "2608990900"
+      },
+      "geometry" : {
+        "x" : 143782.33100000024,
+        "y" : 246898.07650000229
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 73649,
+        "MNTN_CODE" : "461100901",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등,운동기구,벤치",
+        "ETC_MATTER" : "4개,3개",
+        "MNTN_NM" : "유방산",
+        "PAST_SPOT_" : "26089909000005",
+        "MNTN_ID" : "2608990900"
+      },
+      "geometry" : {
+        "x" : 143760.09020000044,
+        "y" : 246824.1053000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 73650,
+        "MNTN_CODE" : "461100901",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등,숲길훼손",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "유방산",
+        "PAST_SPOT_" : "26089909000006",
+        "MNTN_ID" : "2608990900"
+      },
+      "geometry" : {
+        "x" : 143765.69660000317,
+        "y" : 246776.15640000254
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 73651,
+        "MNTN_CODE" : "461100901",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등,입구",
+        "ETC_MATTER" : "목계단",
+        "MNTN_NM" : "유방산",
+        "PAST_SPOT_" : "26089909000007",
+        "MNTN_ID" : "2608990900"
+      },
+      "geometry" : {
+        "x" : 143808.16239999887,
+        "y" : 246712.46800000034
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 73652,
+        "MNTN_CODE" : "461100901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "유방산",
+        "PAST_SPOT_" : "26089909000008",
+        "MNTN_ID" : "2608990900"
+      },
+      "geometry" : {
+        "x" : 143891.74320000038,
+        "y" : 246616.49060000107
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 73653,
+        "MNTN_CODE" : "461100901",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등,숲길훼손",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "유방산",
+        "PAST_SPOT_" : "26089909000009",
+        "MNTN_ID" : "2608990900"
+      },
+      "geometry" : {
+        "x" : 143967.13080000039,
+        "y" : 246582.32850000076
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 73654,
+        "MNTN_CODE" : "461100901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단,숲길훼손",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "유방산",
+        "PAST_SPOT_" : "26089909000010",
+        "MNTN_ID" : "2608990900"
+      },
+      "geometry" : {
+        "x" : 144027.62469999958,
+        "y" : 246530.64570000395
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 73655,
+        "MNTN_CODE" : "461100901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "유방산",
+        "PAST_SPOT_" : "26089909000011",
+        "MNTN_ID" : "2608990900"
+      },
+      "geometry" : {
+        "x" : 144191.85720000323,
+        "y" : 246555.91890000366
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 73656,
+        "MNTN_CODE" : "461100901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단,전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "유방산",
+        "PAST_SPOT_" : "26089909000012",
+        "MNTN_ID" : "2608990900"
+      },
+      "geometry" : {
+        "x" : 144384.8825000003,
+        "y" : 246591.03760000132
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 73657,
+        "MNTN_CODE" : "461100901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "유방산",
+        "PAST_SPOT_" : "26089909000013",
+        "MNTN_ID" : "2608990900"
+      },
+      "geometry" : {
+        "x" : 144096.69370000064,
+        "y" : 246491.77419999987
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 73658,
+        "MNTN_CODE" : "461100901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "유방산",
+        "PAST_SPOT_" : "26089909000014",
+        "MNTN_ID" : "2608990900"
+      },
+      "geometry" : {
+        "x" : 144164.1294000037,
+        "y" : 246450.14950000122
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 73659,
+        "MNTN_CODE" : "461100901",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등,돌무덤,목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "유방산",
+        "PAST_SPOT_" : "26089909000015",
+        "MNTN_ID" : "2608990900"
+      },
+      "geometry" : {
+        "x" : 143901.52770000044,
+        "y" : 246578.52000000328
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 73660,
+        "MNTN_CODE" : "461100901",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "유방산",
+        "PAST_SPOT_" : "26089909000016",
+        "MNTN_ID" : "2608990900"
+      },
+      "geometry" : {
+        "x" : 143878.03899999987,
+        "y" : 246567.62980000116
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 73661,
+        "MNTN_CODE" : "461100901",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "유방산",
+        "PAST_SPOT_" : "26089909000017",
+        "MNTN_ID" : "2608990900"
+      },
+      "geometry" : {
+        "x" : 143858.50779999979,
+        "y" : 246561.05150000378
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 73662,
+        "MNTN_CODE" : "461100901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "유방산",
+        "PAST_SPOT_" : "26089909000018",
+        "MNTN_ID" : "2608990900"
+      },
+      "geometry" : {
+        "x" : 143856.7637000028,
+        "y" : 246952.81680000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 73663,
+        "MNTN_CODE" : "461100901",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등,운동기구,벤치,경보기,노선내분기,종점",
+        "ETC_MATTER" : "운동기구 3개,벤치 2개,1-4구간종점",
+        "MNTN_NM" : "유방산",
+        "PAST_SPOT_" : "26089909000019",
+        "MNTN_ID" : "2608990900"
+      },
+      "geometry" : {
+        "x" : 143802.04780000262,
+        "y" : 246984.90550000034
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 73664,
+        "MNTN_CODE" : "461100901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "현대아파트 길",
+        "MNTN_NM" : "유방산",
+        "PAST_SPOT_" : "26089909000020",
+        "MNTN_ID" : "2608990900"
+      },
+      "geometry" : {
+        "x" : 143830.52000000048,
+        "y" : 246560.94899999909
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 73665,
+        "MNTN_CODE" : "461100901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "광일공업사 건너편 가스충전소 옆",
+        "MNTN_NM" : "유방산",
+        "PAST_SPOT_" : "26089909000021",
+        "MNTN_ID" : "2608990900"
+      },
+      "geometry" : {
+        "x" : 143852.70770000014,
+        "y" : 247385.0428000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 73666,
+        "MNTN_CODE" : "461100901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,가로등",
+        "ETC_MATTER" : "백련마을 찻길",
+        "MNTN_NM" : "유방산",
+        "PAST_SPOT_" : "26089909000022",
+        "MNTN_ID" : "2608990900"
+      },
+      "geometry" : {
+        "x" : 143885.32410000078,
+        "y" : 246900.68779999949
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 73667,
+        "MNTN_CODE" : "461100901",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등,시점,노선내분기",
+        "ETC_MATTER" : "유방산 I구간",
+        "MNTN_NM" : "유방산",
+        "PAST_SPOT_" : "26089909000023",
+        "MNTN_ID" : "2608990900"
+      },
+      "geometry" : {
+        "x" : 143931.00380000193,
+        "y" : 246588.76879999973
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 73668,
+        "MNTN_CODE" : "461100901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산불감시초소,삼각점,벤치,노선내분기",
+        "ETC_MATTER" : "2개",
+        "MNTN_NM" : "유방산",
+        "PAST_SPOT_" : "26089909000024",
+        "MNTN_ID" : "2608990900"
+      },
+      "geometry" : {
+        "x" : 144083.95460000169,
+        "y" : 246521.86009999923
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 73669,
+        "MNTN_CODE" : "461100901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "시청 주차장",
+        "MNTN_NM" : "유방산",
+        "PAST_SPOT_" : "26089909000025",
+        "MNTN_ID" : "2608990900"
+      },
+      "geometry" : {
+        "x" : 144218.56480000261,
+        "y" : 246385.30629999936
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 73670,
+        "MNTN_CODE" : "461100901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "조망점,운동기구,벤치,삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "유방산",
+        "PAST_SPOT_" : "26089909000026",
+        "MNTN_ID" : "2608990900"
+      },
+      "geometry" : {
+        "x" : 144249.16720000003,
+        "y" : 246558.43270000257
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 73671,
+        "MNTN_CODE" : "461100901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "용해동호반아파트",
+        "MNTN_NM" : "유방산",
+        "PAST_SPOT_" : "26089909000027",
+        "MNTN_ID" : "2608990900"
+      },
+      "geometry" : {
+        "x" : 144390.92110000364,
+        "y" : 246773.56390000135
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 73672,
+        "MNTN_CODE" : "461100901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "유방산",
+        "PAST_SPOT_" : "26089909000028",
+        "MNTN_ID" : "2608990900"
+      },
+      "geometry" : {
+        "x" : 144449.33520000055,
+        "y" : 246596.25090000033
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 73673,
+        "MNTN_CODE" : "461100901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "노선내분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "유방산",
+        "PAST_SPOT_" : "26089909000029",
+        "MNTN_ID" : "2608990900"
+      },
+      "geometry" : {
+        "x" : 144503.78290000372,
+        "y" : 246645.83920000121
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 73674,
+        "MNTN_CODE" : "461100901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "유방산",
+        "PAST_SPOT_" : "26089909000030",
+        "MNTN_ID" : "2608990900"
+      },
+      "geometry" : {
+        "x" : 144564.33516841941,
+        "y" : 246577.41137919389
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 73675,
+        "MNTN_CODE" : "461100901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "유방산",
+        "PAST_SPOT_" : "26089909000031",
+        "MNTN_ID" : "2608990900"
+      },
+      "geometry" : {
+        "x" : 144580.64919799287,
+        "y" : 246454.64284016564
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 73676,
+        "MNTN_CODE" : "461100901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "유방산",
+        "PAST_SPOT_" : "26089909000032",
+        "MNTN_ID" : "2608990900"
+      },
+      "geometry" : {
+        "x" : 144366.25258695707,
+        "y" : 246411.93736326136
+      }
+    }
+  ]
+}

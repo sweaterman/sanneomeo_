@@ -1,0 +1,621 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 69709,
+        "MNTN_CODE" : "488804501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우두산",
+        "PAST_SPOT_" : "28200102010001",
+        "MNTN_ID" : "2820010201"
+      },
+      "geometry" : {
+        "x" : 292527.99360000342,
+        "y" : 349855.68400000036
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 69710,
+        "MNTN_CODE" : "488804501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우두산",
+        "PAST_SPOT_" : "28200102010002",
+        "MNTN_ID" : "2820010201"
+      },
+      "geometry" : {
+        "x" : 293827.01350000221,
+        "y" : 350733.95170000382
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 69711,
+        "MNTN_CODE" : "488804501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우두산",
+        "PAST_SPOT_" : "28200102010003",
+        "MNTN_ID" : "2820010201"
+      },
+      "geometry" : {
+        "x" : 293929.33440000098,
+        "y" : 349239.3395000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 69712,
+        "MNTN_CODE" : "488804501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우두산",
+        "PAST_SPOT_" : "28200102010004",
+        "MNTN_ID" : "2820010201"
+      },
+      "geometry" : {
+        "x" : 294017.83349999972,
+        "y" : 350239.43680000119
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 69713,
+        "MNTN_CODE" : "488804501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우두산",
+        "PAST_SPOT_" : "28200102010005",
+        "MNTN_ID" : "2820010201"
+      },
+      "geometry" : {
+        "x" : 294071.39320000354,
+        "y" : 349318.14580000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 69714,
+        "MNTN_CODE" : "488804501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우두산",
+        "PAST_SPOT_" : "28200102010006",
+        "MNTN_ID" : "2820010201"
+      },
+      "geometry" : {
+        "x" : 294090.30140000395,
+        "y" : 349156.90059999749
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 69715,
+        "MNTN_CODE" : "488804501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우두산",
+        "PAST_SPOT_" : "28200102010007",
+        "MNTN_ID" : "2820010201"
+      },
+      "geometry" : {
+        "x" : 294107.98809999973,
+        "y" : 350789.62539999932
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 69716,
+        "MNTN_CODE" : "488804501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우두산",
+        "PAST_SPOT_" : "28200102010008",
+        "MNTN_ID" : "2820010201"
+      },
+      "geometry" : {
+        "x" : 294135.46510000341,
+        "y" : 350851.98010000028
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 69717,
+        "MNTN_CODE" : "488804501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우두산",
+        "PAST_SPOT_" : "28200102010009",
+        "MNTN_ID" : "2820010201"
+      },
+      "geometry" : {
+        "x" : 294140.00760000106,
+        "y" : 349309.50140000135
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 69718,
+        "MNTN_CODE" : "488804501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우두산",
+        "PAST_SPOT_" : "28200102010010",
+        "MNTN_ID" : "2820010201"
+      },
+      "geometry" : {
+        "x" : 294148.16010000184,
+        "y" : 349310.6333000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 69719,
+        "MNTN_CODE" : "488804501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우두산",
+        "PAST_SPOT_" : "28200102010011",
+        "MNTN_ID" : "2820010201"
+      },
+      "geometry" : {
+        "x" : 294157.88290000148,
+        "y" : 349333.92310000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 69720,
+        "MNTN_CODE" : "488804501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우두산",
+        "PAST_SPOT_" : "28200102010012",
+        "MNTN_ID" : "2820010201"
+      },
+      "geometry" : {
+        "x" : 294182.95580000244,
+        "y" : 350835.71670000069
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 69721,
+        "MNTN_CODE" : "488804501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우두산",
+        "PAST_SPOT_" : "28200102010013",
+        "MNTN_ID" : "2820010201"
+      },
+      "geometry" : {
+        "x" : 294546.90410000086,
+        "y" : 349552.75850000232
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 69722,
+        "MNTN_CODE" : "488804501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우두산",
+        "PAST_SPOT_" : "28200102010014",
+        "MNTN_ID" : "2820010201"
+      },
+      "geometry" : {
+        "x" : 294560.1221000012,
+        "y" : 350858.1416000016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 69723,
+        "MNTN_CODE" : "488804501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우두산",
+        "PAST_SPOT_" : "28200102010015",
+        "MNTN_ID" : "2820010201"
+      },
+      "geometry" : {
+        "x" : 294612.43580000289,
+        "y" : 349880.03879999928
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 69724,
+        "MNTN_CODE" : "488804501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우두산",
+        "PAST_SPOT_" : "28200102010016",
+        "MNTN_ID" : "2820010201"
+      },
+      "geometry" : {
+        "x" : 294982.50179999974,
+        "y" : 350186.18320000172
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 69725,
+        "MNTN_CODE" : "488804501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우두산",
+        "PAST_SPOT_" : "28200102010017",
+        "MNTN_ID" : "2820010201"
+      },
+      "geometry" : {
+        "x" : 295380.63360000122,
+        "y" : 349400.40050000139
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 69726,
+        "MNTN_CODE" : "488804501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우두산",
+        "PAST_SPOT_" : "28200102010018",
+        "MNTN_ID" : "2820010201"
+      },
+      "geometry" : {
+        "x" : 295396.30630000029,
+        "y" : 349583.35569999926
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 69727,
+        "MNTN_CODE" : "488804501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우두산",
+        "PAST_SPOT_" : "28200102010019",
+        "MNTN_ID" : "2820010201"
+      },
+      "geometry" : {
+        "x" : 295479.26500000339,
+        "y" : 349601.33539999835
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 69728,
+        "MNTN_CODE" : "488804501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우두산",
+        "PAST_SPOT_" : "28200102010020",
+        "MNTN_ID" : "2820010201"
+      },
+      "geometry" : {
+        "x" : 295496.75450000167,
+        "y" : 349634.42330000363
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 69729,
+        "MNTN_CODE" : "488804501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우두산",
+        "PAST_SPOT_" : "28200102010021",
+        "MNTN_ID" : "2820010201"
+      },
+      "geometry" : {
+        "x" : 295568.75040000118,
+        "y" : 349460.6091000028
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 69730,
+        "MNTN_CODE" : "488804501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "1018봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우두산",
+        "PAST_SPOT_" : "28200102010022",
+        "MNTN_ID" : "2820010201"
+      },
+      "geometry" : {
+        "x" : 293345.34060000256,
+        "y" : 350673.95600000024
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 69731,
+        "MNTN_CODE" : "488804501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "견암폭포",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우두산",
+        "PAST_SPOT_" : "28200102010023",
+        "MNTN_ID" : "2820010201"
+      },
+      "geometry" : {
+        "x" : 294128.90430000145,
+        "y" : 349482.20769999921
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 69732,
+        "MNTN_CODE" : "488804501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "고견사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우두산",
+        "PAST_SPOT_" : "28200102010024",
+        "MNTN_ID" : "2820010201"
+      },
+      "geometry" : {
+        "x" : 294025.75290000159,
+        "y" : 350231.29820000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 69733,
+        "MNTN_CODE" : "488804501",
+        "MANAGE_SP1" : "18",
+        "MANAGE_SP2" : "주차장",
+        "DETAIL_SPO" : "고견사주차장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우두산",
+        "PAST_SPOT_" : "28200102010025",
+        "MNTN_ID" : "2820010201"
+      },
+      "geometry" : {
+        "x" : 294145.837600003,
+        "y" : 349310.02859999985
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 69734,
+        "MNTN_CODE" : "488804501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "마장재",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우두산",
+        "PAST_SPOT_" : "28200102010026",
+        "MNTN_ID" : "2820010201"
+      },
+      "geometry" : {
+        "x" : 295497.34870000184,
+        "y" : 349633.47160000168
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 69735,
+        "MNTN_CODE" : "488804501",
+        "MANAGE_SP1" : "20",
+        "MANAGE_SP2" : "동굴",
+        "DETAIL_SPO" : "쌀굴",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우두산",
+        "PAST_SPOT_" : "28200102010027",
+        "MNTN_ID" : "2820010201"
+      },
+      "geometry" : {
+        "x" : 294449.352400003,
+        "y" : 350343.81800000183
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 69736,
+        "MNTN_CODE" : "488804501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "우두산상봉(1046.3m)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우두산",
+        "PAST_SPOT_" : "28200102010028",
+        "MNTN_ID" : "2820010201"
+      },
+      "geometry" : {
+        "x" : 294449.09920000099,
+        "y" : 351045.47490000166
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 69737,
+        "MNTN_CODE" : "488804501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "우두산의상봉(1032.0m)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우두산",
+        "PAST_SPOT_" : "28200102010029",
+        "MNTN_ID" : "2820010201"
+      },
+      "geometry" : {
+        "x" : 294110.88640000392,
+        "y" : 350790.2052000016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 69738,
+        "MNTN_CODE" : "488804501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "장군봉(956.0m)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우두산",
+        "PAST_SPOT_" : "28200102010030",
+        "MNTN_ID" : "2820010201"
+      },
+      "geometry" : {
+        "x" : 292441.6603000043,
+        "y" : 349811.79839999974
+      }
+    }
+  ]
+}

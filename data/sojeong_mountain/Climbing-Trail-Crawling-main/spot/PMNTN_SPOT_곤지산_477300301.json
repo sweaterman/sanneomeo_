@@ -1,0 +1,495 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 6693,
+        "MNTN_CODE" : "477300301",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "문암산 정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "곤지산",
+        "PAST_SPOT_" : "4773003010001",
+        "MNTN_ID" : "477300301"
+      },
+      "geometry" : {
+        "x" : 327173.22060000058,
+        "y" : 428750.912200002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 6694,
+        "MNTN_CODE" : "477300301",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "곤지산 정상, 보호수",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "곤지산",
+        "PAST_SPOT_" : "4773003010002",
+        "MNTN_ID" : "477300301"
+      },
+      "geometry" : {
+        "x" : 328642.10500000045,
+        "y" : 427138.22100000083
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 6695,
+        "MNTN_CODE" : "477300301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "곤지산",
+        "PAST_SPOT_" : "4773003010003",
+        "MNTN_ID" : "477300301"
+      },
+      "geometry" : {
+        "x" : 329140.01350000035,
+        "y" : 427043.19739999808
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 6696,
+        "MNTN_CODE" : "477300301",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "곤지산",
+        "PAST_SPOT_" : "4773003010004",
+        "MNTN_ID" : "477300301"
+      },
+      "geometry" : {
+        "x" : 329496.78090000059,
+        "y" : 426776.18750000186
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 6697,
+        "MNTN_CODE" : "477300301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "곤지산",
+        "PAST_SPOT_" : "4773003010005",
+        "MNTN_ID" : "477300301"
+      },
+      "geometry" : {
+        "x" : 329688.74349999987,
+        "y" : 426576.7435999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 6698,
+        "MNTN_CODE" : "477300301",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "정자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "곤지산",
+        "PAST_SPOT_" : "4773003010006",
+        "MNTN_ID" : "477300301"
+      },
+      "geometry" : {
+        "x" : 329456.83820000105,
+        "y" : 426417.27119999938
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 6699,
+        "MNTN_CODE" : "477300301",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "곤지산",
+        "PAST_SPOT_" : "4773003010007",
+        "MNTN_ID" : "477300301"
+      },
+      "geometry" : {
+        "x" : 329455.12690000143,
+        "y" : 426429.52880000137
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 6700,
+        "MNTN_CODE" : "477300301",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "곤지산",
+        "PAST_SPOT_" : "4773003010008",
+        "MNTN_ID" : "477300301"
+      },
+      "geometry" : {
+        "x" : 329463.00960000139,
+        "y" : 426413.38640000112
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 6701,
+        "MNTN_CODE" : "477300301",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "곤지산",
+        "PAST_SPOT_" : "4773003010009",
+        "MNTN_ID" : "477300301"
+      },
+      "geometry" : {
+        "x" : 329459.59950000048,
+        "y" : 426404.46460000239
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 6702,
+        "MNTN_CODE" : "477300301",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "곤지산",
+        "PAST_SPOT_" : "4773003010010",
+        "MNTN_ID" : "477300301"
+      },
+      "geometry" : {
+        "x" : 329456.32990000211,
+        "y" : 426396.86620000377
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 6703,
+        "MNTN_CODE" : "477300301",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "곤지산",
+        "PAST_SPOT_" : "4773003010011",
+        "MNTN_ID" : "477300301"
+      },
+      "geometry" : {
+        "x" : 329372.73550000228,
+        "y" : 426313.23420000449
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 6704,
+        "MNTN_CODE" : "477300301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "곤지산",
+        "PAST_SPOT_" : "4773003010012",
+        "MNTN_ID" : "477300301"
+      },
+      "geometry" : {
+        "x" : 325856.54800000042,
+        "y" : 428995.90600000136
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 6705,
+        "MNTN_CODE" : "477300301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "곤지산",
+        "PAST_SPOT_" : "4773003010013",
+        "MNTN_ID" : "477300301"
+      },
+      "geometry" : {
+        "x" : 326455.07052754145,
+        "y" : 427842.24707028456
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 6706,
+        "MNTN_CODE" : "477300301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "곤지산",
+        "PAST_SPOT_" : "4773003010014",
+        "MNTN_ID" : "477300301"
+      },
+      "geometry" : {
+        "x" : 326486.55979503039,
+        "y" : 428099.98599983007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 6707,
+        "MNTN_CODE" : "477300301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "곤지산",
+        "PAST_SPOT_" : "4773003010015",
+        "MNTN_ID" : "477300301"
+      },
+      "geometry" : {
+        "x" : 326708.18541864119,
+        "y" : 428793.22955574654
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 6708,
+        "MNTN_CODE" : "477300301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "곤지산",
+        "PAST_SPOT_" : "4773003010016",
+        "MNTN_ID" : "477300301"
+      },
+      "geometry" : {
+        "x" : 327231.19899503235,
+        "y" : 427033.04098903574
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 6709,
+        "MNTN_CODE" : "477300301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "곤지산",
+        "PAST_SPOT_" : "4773003010017",
+        "MNTN_ID" : "477300301"
+      },
+      "geometry" : {
+        "x" : 327366.43662246969,
+        "y" : 428112.22537667491
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 6710,
+        "MNTN_CODE" : "477300301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "곤지산",
+        "PAST_SPOT_" : "4773003010018",
+        "MNTN_ID" : "477300301"
+      },
+      "geometry" : {
+        "x" : 327454.59970000014,
+        "y" : 428283.82000000216
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 6711,
+        "MNTN_CODE" : "477300301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "곤지산",
+        "PAST_SPOT_" : "4773003010019",
+        "MNTN_ID" : "477300301"
+      },
+      "geometry" : {
+        "x" : 327616.19000000041,
+        "y" : 427980.22260000184
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 6712,
+        "MNTN_CODE" : "477300301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "곤지산",
+        "PAST_SPOT_" : "4773003010020",
+        "MNTN_ID" : "477300301"
+      },
+      "geometry" : {
+        "x" : 327842.4504000023,
+        "y" : 427636.08320000209
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 6713,
+        "MNTN_CODE" : "477300301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "곤지산",
+        "PAST_SPOT_" : "4773003010021",
+        "MNTN_ID" : "477300301"
+      },
+      "geometry" : {
+        "x" : 329340.21050000098,
+        "y" : 426285.7434000019
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 95921,
+        "MNTN_CODE" : "477300301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "EP",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "곤지산",
+        "PAST_SPOT_" : "4773003010022",
+        "MNTN_ID" : "477300301"
+      },
+      "geometry" : {
+        "x" : 325856.07930000068,
+        "y" : 428994.62340000179
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 95922,
+        "MNTN_CODE" : "477300301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "BP",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "곤지산",
+        "PAST_SPOT_" : "4773003010023",
+        "MNTN_ID" : "477300301"
+      },
+      "geometry" : {
+        "x" : 329343.85960000055,
+        "y" : 426289.55289999908
+      }
+    }
+  ]
+}

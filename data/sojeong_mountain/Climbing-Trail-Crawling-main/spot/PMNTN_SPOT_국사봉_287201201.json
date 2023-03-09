@@ -1,0 +1,603 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 10803,
+        "MNTN_CODE" : "287201201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "자월선착장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "국사봉",
+        "PAST_SPOT_" : "2872012010001",
+        "MNTN_ID" : "287201201"
+      },
+      "geometry" : {
+        "x" : 139527.53160000034,
+        "y" : 516326.59270000085
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 10804,
+        "MNTN_CODE" : "287201201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "국사봉",
+        "PAST_SPOT_" : "2872012010002",
+        "MNTN_ID" : "287201201"
+      },
+      "geometry" : {
+        "x" : 139348.53469999973,
+        "y" : 516848.86570000276
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 10805,
+        "MNTN_CODE" : "287201201",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "국사봉",
+        "PAST_SPOT_" : "2872012010003",
+        "MNTN_ID" : "287201201"
+      },
+      "geometry" : {
+        "x" : 139245.57890000008,
+        "y" : 516930.39800000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 10806,
+        "MNTN_CODE" : "287201201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "국사봉",
+        "PAST_SPOT_" : "2872012010004",
+        "MNTN_ID" : "287201201"
+      },
+      "geometry" : {
+        "x" : 138759.61230000015,
+        "y" : 517576.01940000057
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 10807,
+        "MNTN_CODE" : "287201201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "국사봉",
+        "PAST_SPOT_" : "2872012010005",
+        "MNTN_ID" : "287201201"
+      },
+      "geometry" : {
+        "x" : 139138.14110000059,
+        "y" : 517717.84659999982
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 10808,
+        "MNTN_CODE" : "287201201",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "밴치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "국사봉",
+        "PAST_SPOT_" : "2872012010006",
+        "MNTN_ID" : "287201201"
+      },
+      "geometry" : {
+        "x" : 139202.01380000077,
+        "y" : 517689.46520000137
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 10809,
+        "MNTN_CODE" : "287201201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "국사봉",
+        "PAST_SPOT_" : "2872012010007",
+        "MNTN_ID" : "287201201"
+      },
+      "geometry" : {
+        "x" : 139229.53090000059,
+        "y" : 517542.94660000131
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 10810,
+        "MNTN_CODE" : "287201201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "국사봉",
+        "PAST_SPOT_" : "2872012010008",
+        "MNTN_ID" : "287201201"
+      },
+      "geometry" : {
+        "x" : 139638.27350000106,
+        "y" : 517643.38350000046
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 10811,
+        "MNTN_CODE" : "287201201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "국사봉",
+        "PAST_SPOT_" : "2872012010009",
+        "MNTN_ID" : "287201201"
+      },
+      "geometry" : {
+        "x" : 138696.50899999961,
+        "y" : 518153.67349999771
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 10812,
+        "MNTN_CODE" : "287201201",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "약수터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "국사봉",
+        "PAST_SPOT_" : "2872012010010",
+        "MNTN_ID" : "287201201"
+      },
+      "geometry" : {
+        "x" : 138017.7630000012,
+        "y" : 518484.21210000105
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 10813,
+        "MNTN_CODE" : "287201201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "국사봉",
+        "PAST_SPOT_" : "2872012010011",
+        "MNTN_ID" : "287201201"
+      },
+      "geometry" : {
+        "x" : 137819.69079999998,
+        "y" : 518446.724700002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 10814,
+        "MNTN_CODE" : "287201201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "국사봉",
+        "PAST_SPOT_" : "2872012010012",
+        "MNTN_ID" : "287201201"
+      },
+      "geometry" : {
+        "x" : 137742.55379999988,
+        "y" : 518547.02630000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 10815,
+        "MNTN_CODE" : "287201201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기념물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "국사봉",
+        "PAST_SPOT_" : "2872012010013",
+        "MNTN_ID" : "287201201"
+      },
+      "geometry" : {
+        "x" : 138718.19110000134,
+        "y" : 516987.9926999975
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 10816,
+        "MNTN_CODE" : "287201201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "면사무소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "국사봉",
+        "PAST_SPOT_" : "2872012010014",
+        "MNTN_ID" : "287201201"
+      },
+      "geometry" : {
+        "x" : 138880.51250000112,
+        "y" : 517002.76449999958
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 10817,
+        "MNTN_CODE" : "287201201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "국사봉",
+        "PAST_SPOT_" : "2872012010015",
+        "MNTN_ID" : "287201201"
+      },
+      "geometry" : {
+        "x" : 137116.36069194227,
+        "y" : 518658.84594291635
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 10818,
+        "MNTN_CODE" : "287201201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "국사봉",
+        "PAST_SPOT_" : "2872012010016",
+        "MNTN_ID" : "287201201"
+      },
+      "geometry" : {
+        "x" : 138430.42320000008,
+        "y" : 517976.8674999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 10819,
+        "MNTN_CODE" : "287201201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "국사봉",
+        "PAST_SPOT_" : "2872012010017",
+        "MNTN_ID" : "287201201"
+      },
+      "geometry" : {
+        "x" : 138606.4645000007,
+        "y" : 518019.39320000261
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 10820,
+        "MNTN_CODE" : "287201201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "국사봉",
+        "PAST_SPOT_" : "2872012010018",
+        "MNTN_ID" : "287201201"
+      },
+      "geometry" : {
+        "x" : 138796.83540000115,
+        "y" : 518179.06030000187
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 10821,
+        "MNTN_CODE" : "287201201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "국사봉",
+        "PAST_SPOT_" : "2872012010019",
+        "MNTN_ID" : "287201201"
+      },
+      "geometry" : {
+        "x" : 138971.96310000028,
+        "y" : 517814.00049999915
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 10822,
+        "MNTN_CODE" : "287201201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "국사봉",
+        "PAST_SPOT_" : "2872012010020",
+        "MNTN_ID" : "287201201"
+      },
+      "geometry" : {
+        "x" : 139030.61129999999,
+        "y" : 517012.93359999917
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 10823,
+        "MNTN_CODE" : "287201201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "국사봉",
+        "PAST_SPOT_" : "2872012010021",
+        "MNTN_ID" : "287201201"
+      },
+      "geometry" : {
+        "x" : 139056.50840000063,
+        "y" : 517770.43380000256
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 10824,
+        "MNTN_CODE" : "287201201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "국사봉",
+        "PAST_SPOT_" : "2872012010022",
+        "MNTN_ID" : "287201201"
+      },
+      "geometry" : {
+        "x" : 139525.75460000057,
+        "y" : 516324.6053999979
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 10825,
+        "MNTN_CODE" : "287201201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "국사봉",
+        "PAST_SPOT_" : "2872012010023",
+        "MNTN_ID" : "287201201"
+      },
+      "geometry" : {
+        "x" : 138424.52210000064,
+        "y" : 517918.78570000082
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 10826,
+        "MNTN_CODE" : "287201201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "국사봉",
+        "PAST_SPOT_" : "2872012010024",
+        "MNTN_ID" : "287201201"
+      },
+      "geometry" : {
+        "x" : 139745.57050000131,
+        "y" : 517458.72780000046
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 10827,
+        "MNTN_CODE" : "287201201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "국사봉",
+        "PAST_SPOT_" : "2872012010025",
+        "MNTN_ID" : "287201201"
+      },
+      "geometry" : {
+        "x" : 139758.54590000119,
+        "y" : 517429.53460000269
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 10828,
+        "MNTN_CODE" : "287201201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "국사봉",
+        "PAST_SPOT_" : "2872012010026",
+        "MNTN_ID" : "287201201"
+      },
+      "geometry" : {
+        "x" : 140088.74665337056,
+        "y" : 517189.93833639473
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 10829,
+        "MNTN_CODE" : "287201201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "국사봉",
+        "PAST_SPOT_" : "2872012010027",
+        "MNTN_ID" : "287201201"
+      },
+      "geometry" : {
+        "x" : 139763.64193883818,
+        "y" : 516999.45002084039
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 10830,
+        "MNTN_CODE" : "287201201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "국사봉",
+        "PAST_SPOT_" : "2872012010028",
+        "MNTN_ID" : "287201201"
+      },
+      "geometry" : {
+        "x" : 139624.66054637544,
+        "y" : 516879.67459970154
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 96017,
+        "MNTN_CODE" : "287201201",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "국사봉",
+        "PAST_SPOT_" : "2872012010029",
+        "MNTN_ID" : "287201201"
+      },
+      "geometry" : {
+        "x" : 139287.67290000062,
+        "y" : 517690.58500000078
+      }
+    }
+  ]
+}

@@ -1,0 +1,567 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 45627,
+        "MNTN_CODE" : "418202201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "불기산",
+        "PAST_SPOT_" : "21010720000001",
+        "MNTN_ID" : "2101072000"
+      },
+      "geometry" : {
+        "x" : 241350.17560000252,
+        "y" : 578155.12450000271
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 45628,
+        "MNTN_CODE" : "418202201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "바리게이트",
+        "MNTN_NM" : "불기산",
+        "PAST_SPOT_" : "21010720000002",
+        "MNTN_ID" : "2101072000"
+      },
+      "geometry" : {
+        "x" : 241161.55380000174,
+        "y" : 578091.4020000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 45629,
+        "MNTN_CODE" : "418202201",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : "불기산",
+        "MNTN_NM" : "불기산",
+        "PAST_SPOT_" : "21010720000003",
+        "MNTN_ID" : "2101072000"
+      },
+      "geometry" : {
+        "x" : 239877.14590000082,
+        "y" : 578250.70690000243
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 45630,
+        "MNTN_CODE" : "418202201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "종점",
+        "MNTN_NM" : "불기산",
+        "PAST_SPOT_" : "21010720000004",
+        "MNTN_ID" : "2101072000"
+      },
+      "geometry" : {
+        "x" : 240813.5466000028,
+        "y" : 577196.67030000128
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 45631,
+        "MNTN_CODE" : "418202201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "수리재버스종점",
+        "MNTN_NM" : "불기산",
+        "PAST_SPOT_" : "21010720000005",
+        "MNTN_ID" : "2101072000"
+      },
+      "geometry" : {
+        "x" : 238145.70790000074,
+        "y" : 577028.6026000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 45632,
+        "MNTN_CODE" : "418202201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "불기산",
+        "PAST_SPOT_" : "21010720000006",
+        "MNTN_ID" : "2101072000"
+      },
+      "geometry" : {
+        "x" : 238556.9374000011,
+        "y" : 577806.64399999939
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 45633,
+        "MNTN_CODE" : "418202201",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : "헬기장",
+        "MNTN_NM" : "불기산",
+        "PAST_SPOT_" : "21010720000007",
+        "MNTN_ID" : "2101072000"
+      },
+      "geometry" : {
+        "x" : 239126.64439999964,
+        "y" : 578238.65880000219
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 45634,
+        "MNTN_CODE" : "418202201",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : "사랑의요양원,새사랑교회",
+        "MNTN_NM" : "불기산",
+        "PAST_SPOT_" : "21010720000008",
+        "MNTN_ID" : "2101072000"
+      },
+      "geometry" : {
+        "x" : 239331.31280000322,
+        "y" : 579217.93590000086
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 45635,
+        "MNTN_CODE" : "418202201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "삼각점",
+        "MNTN_NM" : "불기산",
+        "PAST_SPOT_" : "21010720000009",
+        "MNTN_ID" : "2101072000"
+      },
+      "geometry" : {
+        "x" : 237079.85620000027,
+        "y" : 578119.26240000315
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 45636,
+        "MNTN_CODE" : "418202201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "불기산",
+        "PAST_SPOT_" : "21010720000010",
+        "MNTN_ID" : "2101072000"
+      },
+      "geometry" : {
+        "x" : 239598.59900000412,
+        "y" : 578011.76649999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 45637,
+        "MNTN_CODE" : "418202201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "불기산",
+        "PAST_SPOT_" : "21010720000011",
+        "MNTN_ID" : "2101072000"
+      },
+      "geometry" : {
+        "x" : 240145.28140000068,
+        "y" : 577506.6173000019
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 45638,
+        "MNTN_CODE" : "418202201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "샘말쉼터,이정표없음",
+        "MNTN_NM" : "불기산",
+        "PAST_SPOT_" : "21010720000012",
+        "MNTN_ID" : "2101072000"
+      },
+      "geometry" : {
+        "x" : 240641.31020000111,
+        "y" : 577035.94109999947
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 45639,
+        "MNTN_CODE" : "418202201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "전경사진",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "불기산",
+        "PAST_SPOT_" : "21010720000013",
+        "MNTN_ID" : "2101072000"
+      },
+      "geometry" : {
+        "x" : 238145.70790000074,
+        "y" : 577028.6026000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 45640,
+        "MNTN_CODE" : "418202201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,노선내분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "불기산",
+        "PAST_SPOT_" : "21010720000014",
+        "MNTN_ID" : "2101072000"
+      },
+      "geometry" : {
+        "x" : 236910.89980000071,
+        "y" : 578438.76369999908
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 45641,
+        "MNTN_CODE" : "418202201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "기타,노선내분기",
+        "ETC_MATTER" : "성황당",
+        "MNTN_NM" : "불기산",
+        "PAST_SPOT_" : "21010720000015",
+        "MNTN_ID" : "2101072000"
+      },
+      "geometry" : {
+        "x" : 238587.07220000122,
+        "y" : 578388.14110000059
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 45642,
+        "MNTN_CODE" : "418202201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "과수원입구",
+        "MNTN_NM" : "불기산",
+        "PAST_SPOT_" : "21010720000016",
+        "MNTN_ID" : "2101072000"
+      },
+      "geometry" : {
+        "x" : 238757.26630000025,
+        "y" : 579151.28670000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 45643,
+        "MNTN_CODE" : "418202201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "사랑의요양원입구",
+        "MNTN_NM" : "불기산",
+        "PAST_SPOT_" : "21010720000017",
+        "MNTN_ID" : "2101072000"
+      },
+      "geometry" : {
+        "x" : 239194.7341,
+        "y" : 579399.64260000363
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 45644,
+        "MNTN_CODE" : "418202201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "노선내분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "불기산",
+        "PAST_SPOT_" : "21010720000018",
+        "MNTN_ID" : "2101072000"
+      },
+      "geometry" : {
+        "x" : 239249.34060000069,
+        "y" : 578179.99090000056
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 45645,
+        "MNTN_CODE" : "418202201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "노선내분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "불기산",
+        "PAST_SPOT_" : "21010720000019",
+        "MNTN_ID" : "2101072000"
+      },
+      "geometry" : {
+        "x" : 239768.74760000035,
+        "y" : 578040.76620000042
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 45646,
+        "MNTN_CODE" : "418202201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "불기산",
+        "MNTN_NM" : "불기산",
+        "PAST_SPOT_" : "21010720000020",
+        "MNTN_ID" : "2101072000"
+      },
+      "geometry" : {
+        "x" : 239877.14590000082,
+        "y" : 578250.70690000243
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 45647,
+        "MNTN_CODE" : "418202201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "노선내분기",
+        "ETC_MATTER" : "삼거리 이정표없음",
+        "MNTN_NM" : "불기산",
+        "PAST_SPOT_" : "21010720000021",
+        "MNTN_ID" : "2101072000"
+      },
+      "geometry" : {
+        "x" : 239967.23379999958,
+        "y" : 578290.52420000173
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 45648,
+        "MNTN_CODE" : "418202201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "불기산",
+        "PAST_SPOT_" : "21010720000022",
+        "MNTN_ID" : "2101072000"
+      },
+      "geometry" : {
+        "x" : 240782.47050000355,
+        "y" : 576762.90160000138
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 45649,
+        "MNTN_CODE" : "418202201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "등산로 입구",
+        "MNTN_NM" : "불기산",
+        "PAST_SPOT_" : "21010720000023",
+        "MNTN_ID" : "2101072000"
+      },
+      "geometry" : {
+        "x" : 240845.98270000238,
+        "y" : 576916.10830000415
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 45650,
+        "MNTN_CODE" : "418202201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,학생교육원",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "불기산",
+        "PAST_SPOT_" : "21010720000024",
+        "MNTN_ID" : "2101072000"
+      },
+      "geometry" : {
+        "x" : 241627.25390000083,
+        "y" : 578054.39930000156
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 45651,
+        "MNTN_CODE" : "418202201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "불기산",
+        "PAST_SPOT_" : "21010720000025",
+        "MNTN_ID" : "2101072000"
+      },
+      "geometry" : {
+        "x" : 237988.87459999975,
+        "y" : 576633.68229999952
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 45652,
+        "MNTN_CODE" : "418202201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "등산로 입구",
+        "MNTN_NM" : "불기산",
+        "PAST_SPOT_" : "21010720000026",
+        "MNTN_ID" : "2101072000"
+      },
+      "geometry" : {
+        "x" : 241068.34518877044,
+        "y" : 577143.79560534284
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 45653,
+        "MNTN_CODE" : "418202201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "노선내분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "불기산",
+        "PAST_SPOT_" : "21010720000027",
+        "MNTN_ID" : "2101072000"
+      },
+      "geometry" : {
+        "x" : 240851.01027702913,
+        "y" : 577122.28651972115
+      }
+    }
+  ]
+}

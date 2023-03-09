@@ -1,0 +1,495 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 74247,
+        "MNTN_CODE" : "441302701",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은석산",
+        "PAST_SPOT_" : "24131435000001",
+        "MNTN_ID" : "2413143500"
+      },
+      "geometry" : {
+        "x" : 225363.78380000219,
+        "y" : 466819.04219999909
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 74248,
+        "MNTN_CODE" : "441302701",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은석산",
+        "PAST_SPOT_" : "24131435000002",
+        "MNTN_ID" : "2413143500"
+      },
+      "geometry" : {
+        "x" : 225402.41640000138,
+        "y" : 466810.45109999925
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 74249,
+        "MNTN_CODE" : "441302701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "이정표,은석사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은석산",
+        "PAST_SPOT_" : "24131435000003",
+        "MNTN_ID" : "2413143500"
+      },
+      "geometry" : {
+        "x" : 225038.92380000371,
+        "y" : 465409.56709999964
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 74250,
+        "MNTN_CODE" : "441302701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "박어사묘",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은석산",
+        "PAST_SPOT_" : "24131435000004",
+        "MNTN_ID" : "2413143500"
+      },
+      "geometry" : {
+        "x" : 225018.53310000058,
+        "y" : 465761.88560000248
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 74251,
+        "MNTN_CODE" : "441302701",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은석산",
+        "PAST_SPOT_" : "24131435000005",
+        "MNTN_ID" : "2413143500"
+      },
+      "geometry" : {
+        "x" : 225322.18930000067,
+        "y" : 464703.25800000131
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 74252,
+        "MNTN_CODE" : "441302701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은석산",
+        "PAST_SPOT_" : "24131435000006",
+        "MNTN_ID" : "2413143500"
+      },
+      "geometry" : {
+        "x" : 224277.90170000028,
+        "y" : 464453.2602000013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 74253,
+        "MNTN_CODE" : "441302701",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "등의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은석산",
+        "PAST_SPOT_" : "24131435000007",
+        "MNTN_ID" : "2413143500"
+      },
+      "geometry" : {
+        "x" : 224748.55510000139,
+        "y" : 464454.86040000059
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 74254,
+        "MNTN_CODE" : "441302701",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "등의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은석산",
+        "PAST_SPOT_" : "24131435000008",
+        "MNTN_ID" : "2413143500"
+      },
+      "geometry" : {
+        "x" : 224816.45640000049,
+        "y" : 464514.42100000009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 74255,
+        "MNTN_CODE" : "441302701",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "등의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은석산",
+        "PAST_SPOT_" : "24131435000009",
+        "MNTN_ID" : "2413143500"
+      },
+      "geometry" : {
+        "x" : 224987.90530000161,
+        "y" : 465038.53529999964
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 74256,
+        "MNTN_CODE" : "441302701",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "등의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은석산",
+        "PAST_SPOT_" : "24131435000010",
+        "MNTN_ID" : "2413143500"
+      },
+      "geometry" : {
+        "x" : 225065.19759999961,
+        "y" : 465277.38580000028
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 74257,
+        "MNTN_CODE" : "441302701",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "등의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은석산",
+        "PAST_SPOT_" : "24131435000011",
+        "MNTN_ID" : "2413143500"
+      },
+      "geometry" : {
+        "x" : 225063.3617000021,
+        "y" : 465401.2683000043
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 74258,
+        "MNTN_CODE" : "441302701",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "등의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은석산",
+        "PAST_SPOT_" : "24131435000012",
+        "MNTN_ID" : "2413143500"
+      },
+      "geometry" : {
+        "x" : 224883.72710000072,
+        "y" : 464702.35329999961
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 74259,
+        "MNTN_CODE" : "441302701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,고령박씨재실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은석산",
+        "PAST_SPOT_" : "24131435000013",
+        "MNTN_ID" : "2413143500"
+      },
+      "geometry" : {
+        "x" : 224236.40220000036,
+        "y" : 464464.93800000288
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 74260,
+        "MNTN_CODE" : "441302701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기, 이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은석산",
+        "PAST_SPOT_" : "24131435000014",
+        "MNTN_ID" : "2413143500"
+      },
+      "geometry" : {
+        "x" : 224418.35929999966,
+        "y" : 464466.8729000017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 74261,
+        "MNTN_CODE" : "441302701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은석산",
+        "PAST_SPOT_" : "24131435000015",
+        "MNTN_ID" : "2413143500"
+      },
+      "geometry" : {
+        "x" : 225022.33499999996,
+        "y" : 465837.84270000271
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 74262,
+        "MNTN_CODE" : "441302701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은석산",
+        "PAST_SPOT_" : "24131435000016",
+        "MNTN_ID" : "2413143500"
+      },
+      "geometry" : {
+        "x" : 225048.70450000092,
+        "y" : 465395.47700000182
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 74263,
+        "MNTN_CODE" : "441302701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은석산",
+        "PAST_SPOT_" : "24131435000017",
+        "MNTN_ID" : "2413143500"
+      },
+      "geometry" : {
+        "x" : 225052.88870000094,
+        "y" : 465867.10630000196
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 74264,
+        "MNTN_CODE" : "441302701",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상,조망점,이정표,경계석,삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은석산",
+        "PAST_SPOT_" : "24131435000018",
+        "MNTN_ID" : "2413143500"
+      },
+      "geometry" : {
+        "x" : 225086.58990000002,
+        "y" : 465990.21010000072
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 74265,
+        "MNTN_CODE" : "441302701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은석산",
+        "PAST_SPOT_" : "24131435000019",
+        "MNTN_ID" : "2413143500"
+      },
+      "geometry" : {
+        "x" : 225231.9775000019,
+        "y" : 465341.34530000202
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 74266,
+        "MNTN_CODE" : "441302701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은석산",
+        "PAST_SPOT_" : "24131435000020",
+        "MNTN_ID" : "2413143500"
+      },
+      "geometry" : {
+        "x" : 225239.8470999999,
+        "y" : 465650.7751000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 74267,
+        "MNTN_CODE" : "441302701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은석산",
+        "PAST_SPOT_" : "24131435000021",
+        "MNTN_ID" : "2413143500"
+      },
+      "geometry" : {
+        "x" : 225512.68609999958,
+        "y" : 466813.06259999983
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 74268,
+        "MNTN_CODE" : "441302701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은석산",
+        "PAST_SPOT_" : "24131435000022",
+        "MNTN_ID" : "2413143500"
+      },
+      "geometry" : {
+        "x" : 226043.41270000115,
+        "y" : 464211.9765000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 74269,
+        "MNTN_CODE" : "441302701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은석산",
+        "PAST_SPOT_" : "24131435000023",
+        "MNTN_ID" : "2413143500"
+      },
+      "geometry" : {
+        "x" : 226087.16009999998,
+        "y" : 464896.46290000342
+      }
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 17675,
+        "MNTN_CODE" : "488901501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "비석",
+        "ETC_MATTER" : "비석",
+        "MNTN_NM" : "단봉산",
+        "PAST_SPOT_" : "28201314000001",
+        "MNTN_ID" : "2820131400"
+      },
+      "geometry" : {
+        "x" : 314574.54760000296,
+        "y" : 330030.03790000081
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 17676,
+        "MNTN_CODE" : "488901501",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "대나무숲",
+        "ETC_MATTER" : "대나무숲",
+        "MNTN_NM" : "단봉산",
+        "PAST_SPOT_" : "28201314000002",
+        "MNTN_ID" : "2820131400"
+      },
+      "geometry" : {
+        "x" : 314508.19250000548,
+        "y" : 330458.51990000345
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 17677,
+        "MNTN_CODE" : "488901501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "목계단",
+        "MNTN_NM" : "단봉산",
+        "PAST_SPOT_" : "28201314000003",
+        "MNTN_ID" : "2820131400"
+      },
+      "geometry" : {
+        "x" : 314766.64020000305,
+        "y" : 330921.67510000058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 17678,
+        "MNTN_CODE" : "488901501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "도로",
+        "ETC_MATTER" : "도로",
+        "MNTN_NM" : "단봉산",
+        "PAST_SPOT_" : "28201314000004",
+        "MNTN_ID" : "2820131400"
+      },
+      "geometry" : {
+        "x" : 313820.33860000316,
+        "y" : 330879.16670000367
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 17679,
+        "MNTN_CODE" : "488901501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "갈림길",
+        "MNTN_NM" : "단봉산",
+        "PAST_SPOT_" : "28201314000005",
+        "MNTN_ID" : "2820131400"
+      },
+      "geometry" : {
+        "x" : 314363.84680000134,
+        "y" : 330697.1528000012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 17680,
+        "MNTN_CODE" : "488901501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "갈림길",
+        "MNTN_NM" : "단봉산",
+        "PAST_SPOT_" : "28201314000006",
+        "MNTN_ID" : "2820131400"
+      },
+      "geometry" : {
+        "x" : 314402.91370000225,
+        "y" : 330729.18080000207
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 17681,
+        "MNTN_CODE" : "488901501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "갈림길",
+        "MNTN_NM" : "단봉산",
+        "PAST_SPOT_" : "28201314000007",
+        "MNTN_ID" : "2820131400"
+      },
+      "geometry" : {
+        "x" : 314412.26450000517,
+        "y" : 330808.14509999752
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 17682,
+        "MNTN_CODE" : "488901501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "갈림길",
+        "MNTN_NM" : "단봉산",
+        "PAST_SPOT_" : "28201314000008",
+        "MNTN_ID" : "2820131400"
+      },
+      "geometry" : {
+        "x" : 314429.47160000354,
+        "y" : 330584.77120000124
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 17683,
+        "MNTN_CODE" : "488901501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "끝(산소)",
+        "ETC_MATTER" : "끝(산소)",
+        "MNTN_NM" : "단봉산",
+        "PAST_SPOT_" : "28201314000009",
+        "MNTN_ID" : "2820131400"
+      },
+      "geometry" : {
+        "x" : 314430.83980000298,
+        "y" : 331133.0680999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 17684,
+        "MNTN_CODE" : "488901501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,교촌마을",
+        "ETC_MATTER" : "교촌마을",
+        "MNTN_NM" : "단봉산",
+        "PAST_SPOT_" : "28201314000010",
+        "MNTN_ID" : "2820131400"
+      },
+      "geometry" : {
+        "x" : 314447.36780000385,
+        "y" : 330030.4168000035
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 17685,
+        "MNTN_CODE" : "488901501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "갈림길",
+        "MNTN_NM" : "단봉산",
+        "PAST_SPOT_" : "28201314000011",
+        "MNTN_ID" : "2820131400"
+      },
+      "geometry" : {
+        "x" : 314452.7032000022,
+        "y" : 330680.39930000156
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 17686,
+        "MNTN_CODE" : "488901501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "갈림길",
+        "MNTN_NM" : "단봉산",
+        "PAST_SPOT_" : "28201314000012",
+        "MNTN_ID" : "2820131400"
+      },
+      "geometry" : {
+        "x" : 314460.86700000335,
+        "y" : 330510.77180000208
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 17687,
+        "MNTN_CODE" : "488901501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "갈림길",
+        "MNTN_NM" : "단봉산",
+        "PAST_SPOT_" : "28201314000013",
+        "MNTN_ID" : "2820131400"
+      },
+      "geometry" : {
+        "x" : 314461.67570000142,
+        "y" : 330472.5401000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 17688,
+        "MNTN_CODE" : "488901501",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상(삼각점)",
+        "ETC_MATTER" : "정상(삼각점)",
+        "MNTN_NM" : "단봉산",
+        "PAST_SPOT_" : "28201314000014",
+        "MNTN_ID" : "2820131400"
+      },
+      "geometry" : {
+        "x" : 314461.85550000146,
+        "y" : 330784.96970000118
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 17689,
+        "MNTN_CODE" : "488901501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "갈림길",
+        "MNTN_NM" : "단봉산",
+        "PAST_SPOT_" : "28201314000015",
+        "MNTN_ID" : "2820131400"
+      },
+      "geometry" : {
+        "x" : 314467.24170000292,
+        "y" : 330674.79960000142
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 17690,
+        "MNTN_CODE" : "488901501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,초계향교",
+        "ETC_MATTER" : "초계향교",
+        "MNTN_NM" : "단봉산",
+        "PAST_SPOT_" : "28201314000016",
+        "MNTN_ID" : "2820131400"
+      },
+      "geometry" : {
+        "x" : 314522.91020000167,
+        "y" : 329975.68490000255
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 17691,
+        "MNTN_CODE" : "488901501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,오서터널밑",
+        "ETC_MATTER" : "오서터널밑",
+        "MNTN_NM" : "단봉산",
+        "PAST_SPOT_" : "28201314000017",
+        "MNTN_ID" : "2820131400"
+      },
+      "geometry" : {
+        "x" : 314955.17910000216,
+        "y" : 330471.9327000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 17692,
+        "MNTN_CODE" : "488901501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,오서터널밑",
+        "ETC_MATTER" : "오서터널밑",
+        "MNTN_NM" : "단봉산",
+        "PAST_SPOT_" : "28201314000018",
+        "MNTN_ID" : "2820131400"
+      },
+      "geometry" : {
+        "x" : 315030.25570000149,
+        "y" : 330591.50530000217
+      }
+    }
+  ]
+}

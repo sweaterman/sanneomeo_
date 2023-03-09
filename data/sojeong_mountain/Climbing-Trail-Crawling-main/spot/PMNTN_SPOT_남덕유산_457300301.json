@@ -1,0 +1,747 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 15707,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "4574004010001",
+        "MNTN_ID" : "457400401"
+      },
+      "geometry" : {
+        "x" : 259762.27070000023,
+        "y" : 347018.08800000139
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 15708,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "4887008010002",
+        "MNTN_ID" : "488700801"
+      },
+      "geometry" : {
+        "x" : 259883.00390000083,
+        "y" : 350403.85850000009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 15709,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "4574004010003",
+        "MNTN_ID" : "457400401"
+      },
+      "geometry" : {
+        "x" : 259918.23940000031,
+        "y" : 349521.51140000112
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 15710,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "4574004010004",
+        "MNTN_ID" : "457400401"
+      },
+      "geometry" : {
+        "x" : 260094.72014992777,
+        "y" : 352458.09792042896
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 15711,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "이정표설치요",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000005",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 257517.61340000387,
+        "y" : 353623.28690000251
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 15712,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "이정표설치요",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000006",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 257655.76870000362,
+        "y" : 353500.71480000205
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 15713,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "이정표설치요",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000007",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 257751.54340000171,
+        "y" : 353417.47170000151
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 15714,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "작은참샘",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000008",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 259390.4011000013,
+        "y" : 353399.35239999928
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 15715,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "이정표설치요",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000009",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 259651.86630000174,
+        "y" : 353569.8796000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 15716,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000010",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 259623.20680000167,
+        "y" : 353582.68090000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 15717,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "구조요청안내판,헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000011",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 259912.25910000131,
+        "y" : 353423.45260000043
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 15718,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "구조요청안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000012",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 260151.85200000275,
+        "y" : 353321.3329000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 15719,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "구조요청안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000013",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 260383.45240000077,
+        "y" : 352965.8254000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 15720,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000014",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 260461.41110000201,
+        "y" : 352888.82590000331
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 15721,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000015",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 259732.05280000065,
+        "y" : 356192.37989999913
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 15722,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000016",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 260004.48810000066,
+        "y" : 356140.30110000446
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 15723,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계곡폭포",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000017",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 260648.36130000185,
+        "y" : 355654.26429999806
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 15724,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000018",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 260783.35529999994,
+        "y" : 355562.31140000187
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 15725,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "구조요청번호",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000019",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 261033.70950000081,
+        "y" : 355191.36950000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 15726,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "구조요청번호",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000020",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 261440.980100004,
+        "y" : 354801.22409999743
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 15727,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000021",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 261878.35210941359,
+        "y" : 353529.41852772608
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 15728,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "구조요청안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000022",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 258973.98700000066,
+        "y" : 352181.824400004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 15729,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000023",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 259093.87800000329,
+        "y" : 352236.36020000093
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 15730,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000024",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 259211.5157000022,
+        "y" : 352324.81510000117
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 15731,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000025",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 259291.10850000195,
+        "y" : 352319.29850000143
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 15732,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000026",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 259547.05100000091,
+        "y" : 352324.52789999917
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 15733,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "구조요청안내판,헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000027",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 260243.7891000025,
+        "y" : 353138.47860000096
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 15734,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "토옥동횟집",
+        "ETC_MATTER" : "이정표설치요",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000028",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 259473.61200000253,
+        "y" : 356240.73260000162
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 15735,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000029",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 260576.98890000116,
+        "y" : 355724.48270000145
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 15736,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "안내판 및\n이정표 설치요",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000030",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 257399.56159999967,
+        "y" : 353768.35000000149
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 15737,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000031",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 258348.9476000024,
+        "y" : 351821.96180000342
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 15738,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,토옥동주차장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000032",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 258940.18940000236,
+        "y" : 356345.37310000323
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 15739,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000033",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 263729.486800001,
+        "y" : 355105.42060000077
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 15740,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "이정표설치요",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000034",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 260403.04530000407,
+        "y" : 352899.80250000209
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 15741,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "이정표설치요",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000035",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 260420.66420000046,
+        "y" : 352920.60579999909
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 15742,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "서봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000036",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 260544.58720000274,
+        "y" : 352910.24239999987
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 15743,
+        "MNTN_CODE" : "457300301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "월성치",
+        "ETC_MATTER" : "옥동~월성치구간은 자연자원보호 및 등산객 안전사고 예방을 위해 폐쇄조치함",
+        "MNTN_NM" : "남덕유산",
+        "PAST_SPOT_" : "25050805000037",
+        "MNTN_ID" : "2505080500"
+      },
+      "geometry" : {
+        "x" : 261878.35210941359,
+        "y" : 353529.41852772608
+      }
+    }
+  ]
+}

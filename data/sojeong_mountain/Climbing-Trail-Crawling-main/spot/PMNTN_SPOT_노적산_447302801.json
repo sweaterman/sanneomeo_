@@ -1,0 +1,621 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 17328,
+        "MNTN_CODE" : "447302801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "구간시점(旌閭門)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적산",
+        "PAST_SPOT_" : "4473028010001",
+        "MNTN_ID" : "447302801"
+      },
+      "geometry" : {
+        "x" : 228034.50079999957,
+        "y" : 435687.99120000005
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 17329,
+        "MNTN_CODE" : "447302801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지이장지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적산",
+        "PAST_SPOT_" : "4473028010002",
+        "MNTN_ID" : "447302801"
+      },
+      "geometry" : {
+        "x" : 227599.68569999933,
+        "y" : 435787.22629999928
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 17330,
+        "MNTN_CODE" : "447302801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "구간종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적산",
+        "PAST_SPOT_" : "4473028010003",
+        "MNTN_ID" : "447302801"
+      },
+      "geometry" : {
+        "x" : 227572.93680000026,
+        "y" : 435769.81739999913
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 17331,
+        "MNTN_CODE" : "447302801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘이장지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적산",
+        "PAST_SPOT_" : "4473028010004",
+        "MNTN_ID" : "447302801"
+      },
+      "geometry" : {
+        "x" : 227523.59650000092,
+        "y" : 435812.94340000302
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 17332,
+        "MNTN_CODE" : "447302801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "마을內산길입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적산",
+        "PAST_SPOT_" : "4473028010005",
+        "MNTN_ID" : "447302801"
+      },
+      "geometry" : {
+        "x" : 227782.40350000095,
+        "y" : 435741.43610000238
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 17333,
+        "MNTN_CODE" : "447302801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "숲길전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적산",
+        "PAST_SPOT_" : "4473028010006",
+        "MNTN_ID" : "447302801"
+      },
+      "geometry" : {
+        "x" : 227395.30080000032,
+        "y" : 435777.02199999988
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 17334,
+        "MNTN_CODE" : "447302801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "숲길전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적산",
+        "PAST_SPOT_" : "4473028010007",
+        "MNTN_ID" : "447302801"
+      },
+      "geometry" : {
+        "x" : 227375.41640000045,
+        "y" : 435766.49480000138
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 17335,
+        "MNTN_CODE" : "447302801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "숲길전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적산",
+        "PAST_SPOT_" : "4473028010008",
+        "MNTN_ID" : "447302801"
+      },
+      "geometry" : {
+        "x" : 227354.78060000017,
+        "y" : 435739.62260000221
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 17336,
+        "MNTN_CODE" : "447302801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "숲길전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적산",
+        "PAST_SPOT_" : "4473028010009",
+        "MNTN_ID" : "447302801"
+      },
+      "geometry" : {
+        "x" : 227337.21460000146,
+        "y" : 435722.42440000363
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 17337,
+        "MNTN_CODE" : "447302801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "숲길전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적산",
+        "PAST_SPOT_" : "4473028010010",
+        "MNTN_ID" : "447302801"
+      },
+      "geometry" : {
+        "x" : 227288.60900000017,
+        "y" : 435687.13900000416
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 17338,
+        "MNTN_CODE" : "447302801",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "정자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적산",
+        "PAST_SPOT_" : "4473028010011",
+        "MNTN_ID" : "447302801"
+      },
+      "geometry" : {
+        "x" : 228014.93560000043,
+        "y" : 435735.35180000216
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 17339,
+        "MNTN_CODE" : "447302801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "봉기리전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적산",
+        "PAST_SPOT_" : "4473028010012",
+        "MNTN_ID" : "447302801"
+      },
+      "geometry" : {
+        "x" : 227233.3646999998,
+        "y" : 435638.05749999918
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 17340,
+        "MNTN_CODE" : "447302801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "합강리전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적산",
+        "PAST_SPOT_" : "4473028010013",
+        "MNTN_ID" : "447302801"
+      },
+      "geometry" : {
+        "x" : 227246.909500001,
+        "y" : 435492.81210000254
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 17341,
+        "MNTN_CODE" : "447302801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "頂上部",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적산",
+        "PAST_SPOT_" : "4473028010014",
+        "MNTN_ID" : "447302801"
+      },
+      "geometry" : {
+        "x" : 227195.91480000131,
+        "y" : 435355.1297999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 17342,
+        "MNTN_CODE" : "447302801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "숲길전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적산",
+        "PAST_SPOT_" : "4473028010015",
+        "MNTN_ID" : "447302801"
+      },
+      "geometry" : {
+        "x" : 227160.44489999861,
+        "y" : 434838.38070000149
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 17343,
+        "MNTN_CODE" : "447302801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "한전철책계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적산",
+        "PAST_SPOT_" : "4473028010016",
+        "MNTN_ID" : "447302801"
+      },
+      "geometry" : {
+        "x" : 227538.51929999888,
+        "y" : 435176.48579999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 17344,
+        "MNTN_CODE" : "447302801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "구간종점(보호수)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적산",
+        "PAST_SPOT_" : "4473028010017",
+        "MNTN_ID" : "447302801"
+      },
+      "geometry" : {
+        "x" : 227682.0989000015,
+        "y" : 435410.02960000187
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 17345,
+        "MNTN_CODE" : "447302801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "마을입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적산",
+        "PAST_SPOT_" : "4473028010018",
+        "MNTN_ID" : "447302801"
+      },
+      "geometry" : {
+        "x" : 228008.30829999968,
+        "y" : 435739.34850000218
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 17346,
+        "MNTN_CODE" : "447302801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "버스정류소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적산",
+        "PAST_SPOT_" : "4473028010019",
+        "MNTN_ID" : "447302801"
+      },
+      "geometry" : {
+        "x" : 227926.88479999918,
+        "y" : 435710.11050000228
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 17347,
+        "MNTN_CODE" : "447302801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "山祭堂",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적산",
+        "PAST_SPOT_" : "4473028010020",
+        "MNTN_ID" : "447302801"
+      },
+      "geometry" : {
+        "x" : 227783.23010000028,
+        "y" : 435578.06860000268
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 17348,
+        "MNTN_CODE" : "447302801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산길입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적산",
+        "PAST_SPOT_" : "4473028010021",
+        "MNTN_ID" : "447302801"
+      },
+      "geometry" : {
+        "x" : 227767.05140000023,
+        "y" : 435566.25019999966
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 17349,
+        "MNTN_CODE" : "447302801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "숲길전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적산",
+        "PAST_SPOT_" : "4473028010022",
+        "MNTN_ID" : "447302801"
+      },
+      "geometry" : {
+        "x" : 227747.76530000009,
+        "y" : 435631.10280000232
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 17350,
+        "MNTN_CODE" : "447302801",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손시점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적산",
+        "PAST_SPOT_" : "4473028010023",
+        "MNTN_ID" : "447302801"
+      },
+      "geometry" : {
+        "x" : 227730.0549999997,
+        "y" : 435658.99659999833
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 17351,
+        "MNTN_CODE" : "447302801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "구간시점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적산",
+        "PAST_SPOT_" : "4473028010024",
+        "MNTN_ID" : "447302801"
+      },
+      "geometry" : {
+        "x" : 227649.59169999976,
+        "y" : 435711.59630000219
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 17352,
+        "MNTN_CODE" : "447302801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적산",
+        "PAST_SPOT_" : "4473028010025",
+        "MNTN_ID" : "447302801"
+      },
+      "geometry" : {
+        "x" : 227230.59349999949,
+        "y" : 434726.29430000111
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 17353,
+        "MNTN_CODE" : "447302801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적산",
+        "PAST_SPOT_" : "4473028010026",
+        "MNTN_ID" : "447302801"
+      },
+      "geometry" : {
+        "x" : 227709.85950000025,
+        "y" : 435696.62940000184
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 17354,
+        "MNTN_CODE" : "447302801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적산",
+        "PAST_SPOT_" : "4473028010027",
+        "MNTN_ID" : "447302801"
+      },
+      "geometry" : {
+        "x" : 227797.66210000031,
+        "y" : 435744.5577000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 98798,
+        "MNTN_CODE" : "447302801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적산",
+        "PAST_SPOT_" : "4473028010028",
+        "MNTN_ID" : "447302801"
+      },
+      "geometry" : {
+        "x" : 227710.16670000093,
+        "y" : 435696.45460000064
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 98799,
+        "MNTN_CODE" : "447302801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적산",
+        "PAST_SPOT_" : "4473028010029",
+        "MNTN_ID" : "447302801"
+      },
+      "geometry" : {
+        "x" : 227222.98819999959,
+        "y" : 434727.20290000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 98800,
+        "MNTN_CODE" : "447302801",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적산",
+        "PAST_SPOT_" : "4473028010030",
+        "MNTN_ID" : "447302801"
+      },
+      "geometry" : {
+        "x" : 227647.81939999963,
+        "y" : 435709.21130000066
+      }
+    }
+  ]
+}

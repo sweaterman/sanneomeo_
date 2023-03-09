@@ -1,0 +1,837 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 52263,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "휴양림사무실 및 시점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000001",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 236847.29349999968,
+        "y" : 337916.19050000049
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 52264,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "구름재 삼거리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000002",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 238135.78099999949,
+        "y" : 337607.89130000211
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 52265,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000003",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 238154.16450000275,
+        "y" : 337596.51980000176
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 52266,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "능선입구및나대지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000004",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 238627.97500000056,
+        "y" : 336606.40080000833
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 52267,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000005",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 238675.04800000135,
+        "y" : 336640.59630000032
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 52268,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철조망지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000006",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 238540.96060000081,
+        "y" : 337952.78000000305
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 52269,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "상이암입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000007",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 238187.8702999996,
+        "y" : 337658.96950000152
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 52270,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000008",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 238530.13000000268,
+        "y" : 338296.84779999964
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 52271,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000009",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 238777.97279999964,
+        "y" : 338408.94270000048
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 52272,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "전망대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000010",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 237954.14170000236,
+        "y" : 337916.38510000147
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 52273,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산림욕장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000011",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 236924.88570000138,
+        "y" : 338110.05910000205
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 52274,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "휴양림사무실 및 시점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000012",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 236902.47230000235,
+        "y" : 337952.55260000192
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 52275,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000013",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 238493.08050000202,
+        "y" : 338289.1173000019
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 52276,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼거리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000014",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 238528.16050000116,
+        "y" : 338267.9982999973
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 52277,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내도",
+        "ETC_MATTER" : "성수산 휴양림 안내도",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000015",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 236075.37670000084,
+        "y" : 337851.53430000134
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 52278,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : "휴양림 야영장",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000016",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 236709.059799999,
+        "y" : 337910.91250000149
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 52279,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "상이암,접점",
+        "ETC_MATTER" : "상이암",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000017",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 238122.05420000199,
+        "y" : 337639.95920000412
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 52280,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사진정보",
+        "ETC_MATTER" : "숲길모습사진",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000018",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 238386.22840000317,
+        "y" : 337693.42780000158
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 52281,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "정상부 전경",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000019",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 238516.85940000135,
+        "y" : 338299.38850000128
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 52282,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사진정보",
+        "ETC_MATTER" : "숲길모습사진",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000020",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 237970.57710000407,
+        "y" : 338290.1269000005
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 52283,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "숲길모습사진",
+        "ETC_MATTER" : "성수산 전망대",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000021",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 238487.23270000052,
+        "y" : 337693.70680000074
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 52284,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "숲길모습사진",
+        "ETC_MATTER" : "신암리 계곡",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000022",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 239057.01510000136,
+        "y" : 339842.19610000215
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 52285,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "태평리 저수지",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000023",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 235848.52199999988,
+        "y" : 338789.8647000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 52286,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000024",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 236890.02730000298,
+        "y" : 337910.1484999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 52287,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "거봉산장 삼거리이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000025",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 236984.53799999971,
+        "y" : 338695.27490000054
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 52288,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "사진정보",
+        "ETC_MATTER" : "숲길모습사진",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000026",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 237352.92939999979,
+        "y" : 338677.83379999921
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 52289,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "정자",
+        "ETC_MATTER" : "성수산 전망대",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000027",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 237939.20020000357,
+        "y" : 337883.1400000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 52290,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "정자",
+        "ETC_MATTER" : "성수산 전망대",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000028",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 237954.37440000195,
+        "y" : 337918.83239999972
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 52291,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000029",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 238122.29750000034,
+        "y" : 337594.00989999808
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 52292,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000030",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 238153.03000000119,
+        "y" : 337576.91300000064
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 52293,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000031",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 238163.86470000073,
+        "y" : 337618.5354999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 52294,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : "상이암입구 안내판",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000032",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 238191.16580000054,
+        "y" : 337652.93650000356
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 52295,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로입구및종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000033",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 238309.78710000124,
+        "y" : 337824.29910000414
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 52296,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : "정상부 839M",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000034",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 238458.21770000271,
+        "y" : 337880.74100000039
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 52297,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "삼거리 이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000035",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 238483.23390000127,
+        "y" : 337933.97120000049
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 52298,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "숲길모습사진",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000036",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 238516.71300000045,
+        "y" : 338297.63480000198
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 52299,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000037",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 238800.83169999905,
+        "y" : 338390.12400000356
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 52300,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000038",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 238802.95889999997,
+        "y" : 338429.84670000523
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 52301,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "상이암삼거리및시점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000039",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 238893.25010000076,
+        "y" : 338146.82310000435
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 52302,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "두원마을",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000040",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 239094.68140000198,
+        "y" : 339946.95960000157
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 52303,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000041",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 239155.709900002,
+        "y" : 337700.33870000392
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 52304,
+        "MNTN_CODE" : "457501401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성수산",
+        "PAST_SPOT_" : "25150319000042",
+        "MNTN_ID" : "2515031900"
+      },
+      "geometry" : {
+        "x" : 235701.62940000091,
+        "y" : 337811.13400000334
+      }
+    }
+  ]
+}

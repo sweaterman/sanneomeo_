@@ -1,0 +1,567 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 84,
+        "MNTN_CODE" : "447702301",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "희리산",
+        "PAST_SPOT_" : "24091005020001",
+        "MNTN_ID" : "2409100502"
+      },
+      "geometry" : {
+        "x" : 169771.71829999983,
+        "y" : 390591.48560000211
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 85,
+        "MNTN_CODE" : "447702301",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "종합안내도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "희리산",
+        "PAST_SPOT_" : "24091005020002",
+        "MNTN_ID" : "2409100502"
+      },
+      "geometry" : {
+        "x" : 169823.66370000038,
+        "y" : 390640.90249999799
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 86,
+        "MNTN_CODE" : "447702301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "이용자준수사항",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "희리산",
+        "PAST_SPOT_" : "24091005020003",
+        "MNTN_ID" : "2409100502"
+      },
+      "geometry" : {
+        "x" : 169826.63110000268,
+        "y" : 390639.21279999986
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 87,
+        "MNTN_CODE" : "447702301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "희리산",
+        "PAST_SPOT_" : "24091005020004",
+        "MNTN_ID" : "2409100502"
+      },
+      "geometry" : {
+        "x" : 169838.37950000167,
+        "y" : 390647.91900000349
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 88,
+        "MNTN_CODE" : "447702301",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "희리산",
+        "PAST_SPOT_" : "24091005020005",
+        "MNTN_ID" : "2409100502"
+      },
+      "geometry" : {
+        "x" : 169881.38480000198,
+        "y" : 390712.58900000155
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 89,
+        "MNTN_CODE" : "447702301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "희리산",
+        "PAST_SPOT_" : "24091005020006",
+        "MNTN_ID" : "2409100502"
+      },
+      "geometry" : {
+        "x" : 169893.15050000139,
+        "y" : 390732.50240000151
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 90,
+        "MNTN_CODE" : "447702301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "희리산",
+        "PAST_SPOT_" : "24091005020007",
+        "MNTN_ID" : "2409100502"
+      },
+      "geometry" : {
+        "x" : 169911.97440000251,
+        "y" : 390742.58220000193
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 91,
+        "MNTN_CODE" : "447702301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "희리산",
+        "PAST_SPOT_" : "24091005020008",
+        "MNTN_ID" : "2409100502"
+      },
+      "geometry" : {
+        "x" : 169938.94199999981,
+        "y" : 390786.69749999978
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 92,
+        "MNTN_CODE" : "447702301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "희리산",
+        "PAST_SPOT_" : "24091005020009",
+        "MNTN_ID" : "2409100502"
+      },
+      "geometry" : {
+        "x" : 169935.43560000043,
+        "y" : 390789.69610000029
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 93,
+        "MNTN_CODE" : "447702301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "희리산",
+        "PAST_SPOT_" : "24091005020010",
+        "MNTN_ID" : "2409100502"
+      },
+      "geometry" : {
+        "x" : 169933.22109999973,
+        "y" : 390796.21959999949
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 94,
+        "MNTN_CODE" : "447702301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "희리산",
+        "PAST_SPOT_" : "24091005020011",
+        "MNTN_ID" : "2409100502"
+      },
+      "geometry" : {
+        "x" : 169819.99870000128,
+        "y" : 390912.05819999985
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 95,
+        "MNTN_CODE" : "447702301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "희리산",
+        "PAST_SPOT_" : "24091005020012",
+        "MNTN_ID" : "2409100502"
+      },
+      "geometry" : {
+        "x" : 169817.94420000073,
+        "y" : 390922.24150000326
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 96,
+        "MNTN_CODE" : "447702301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "희리산",
+        "PAST_SPOT_" : "24091005020013",
+        "MNTN_ID" : "2409100502"
+      },
+      "geometry" : {
+        "x" : 169758.57690000068,
+        "y" : 390948.12550000101
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 97,
+        "MNTN_CODE" : "447702301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "휴식공간",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "희리산",
+        "PAST_SPOT_" : "24091005020014",
+        "MNTN_ID" : "2409100502"
+      },
+      "geometry" : {
+        "x" : 169816.11720000021,
+        "y" : 391035.37319999933
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 98,
+        "MNTN_CODE" : "447702301",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "희리산",
+        "PAST_SPOT_" : "24091005020015",
+        "MNTN_ID" : "2409100502"
+      },
+      "geometry" : {
+        "x" : 169812.0130000012,
+        "y" : 391036.22619999945
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 99,
+        "MNTN_CODE" : "447702301",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "희리산",
+        "PAST_SPOT_" : "24091005020016",
+        "MNTN_ID" : "2409100502"
+      },
+      "geometry" : {
+        "x" : 170380.46620000247,
+        "y" : 392067.35870000161
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 100,
+        "MNTN_CODE" : "447702301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "희리산",
+        "PAST_SPOT_" : "24091005020017",
+        "MNTN_ID" : "2409100502"
+      },
+      "geometry" : {
+        "x" : 170531.40610000398,
+        "y" : 392109.53500000201
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 101,
+        "MNTN_CODE" : "447702301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "희리산",
+        "PAST_SPOT_" : "24091005020018",
+        "MNTN_ID" : "2409100502"
+      },
+      "geometry" : {
+        "x" : 170909.10330000054,
+        "y" : 391314.37839999981
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 102,
+        "MNTN_CODE" : "447702301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "희리산",
+        "PAST_SPOT_" : "24091005020019",
+        "MNTN_ID" : "2409100502"
+      },
+      "geometry" : {
+        "x" : 169813.99480000138,
+        "y" : 390477.52380000055
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 103,
+        "MNTN_CODE" : "447702301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "희리산",
+        "PAST_SPOT_" : "24091005020020",
+        "MNTN_ID" : "2409100502"
+      },
+      "geometry" : {
+        "x" : 169894.00879999995,
+        "y" : 390485.30529999919
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 104,
+        "MNTN_CODE" : "447702301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "희리산",
+        "PAST_SPOT_" : "24091005020021",
+        "MNTN_ID" : "2409100502"
+      },
+      "geometry" : {
+        "x" : 169939.48050000053,
+        "y" : 390444.32340000197
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 105,
+        "MNTN_CODE" : "447702301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "희리산",
+        "PAST_SPOT_" : "24091005020022",
+        "MNTN_ID" : "2409100502"
+      },
+      "geometry" : {
+        "x" : 170564.99430000037,
+        "y" : 390497.42970000207
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 106,
+        "MNTN_CODE" : "447702301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "희리산",
+        "PAST_SPOT_" : "24091005020023",
+        "MNTN_ID" : "2409100502"
+      },
+      "geometry" : {
+        "x" : 169783.61430000234,
+        "y" : 390593.58280000277
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 107,
+        "MNTN_CODE" : "447702301",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "종합안내도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "희리산",
+        "PAST_SPOT_" : "24091005020024",
+        "MNTN_ID" : "2409100502"
+      },
+      "geometry" : {
+        "x" : 169747.2778000012,
+        "y" : 390515.18640000187
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 108,
+        "MNTN_CODE" : "447702301",
+        "MANAGE_SP1" : "18",
+        "MANAGE_SP2" : "주차장",
+        "DETAIL_SPO" : "주차장안내도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "희리산",
+        "PAST_SPOT_" : "24091005020025",
+        "MNTN_ID" : "2409100502"
+      },
+      "geometry" : {
+        "x" : 169784.00260000397,
+        "y" : 390565.19710000232
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 109,
+        "MNTN_CODE" : "447702301",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "희리산",
+        "PAST_SPOT_" : "24091005020026",
+        "MNTN_ID" : "2409100502"
+      },
+      "geometry" : {
+        "x" : 170906.64829999954,
+        "y" : 391313.13010000437
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 110,
+        "MNTN_CODE" : "447702301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "희리산",
+        "PAST_SPOT_" : "24091005020027",
+        "MNTN_ID" : "2409100502"
+      },
+      "geometry" : {
+        "x" : 171618.83490000386,
+        "y" : 390965.96240000054
+      }
+    }
+  ]
+}

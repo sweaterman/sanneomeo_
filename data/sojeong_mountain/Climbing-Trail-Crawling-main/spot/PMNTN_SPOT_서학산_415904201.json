@@ -1,0 +1,603 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 50784,
+        "MNTN_CODE" : "415904201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "등산안내판,안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서학산",
+        "PAST_SPOT_" : "4159042010001",
+        "MNTN_ID" : "415904201"
+      },
+      "geometry" : {
+        "x" : 191965.99660000019,
+        "y" : 506257.47210000269
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 50785,
+        "MNTN_CODE" : "415904201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단,약수터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서학산",
+        "PAST_SPOT_" : "4159042010002",
+        "MNTN_ID" : "415904201"
+      },
+      "geometry" : {
+        "x" : 192015.26740000211,
+        "y" : 506268.39270000346
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 50786,
+        "MNTN_CODE" : "415904201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서학산",
+        "PAST_SPOT_" : "4159042010003",
+        "MNTN_ID" : "415904201"
+      },
+      "geometry" : {
+        "x" : 191426.01720000152,
+        "y" : 505514.29540000111
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 50787,
+        "MNTN_CODE" : "415904201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서학산",
+        "PAST_SPOT_" : "4159042010004",
+        "MNTN_ID" : "415904201"
+      },
+      "geometry" : {
+        "x" : 191124.48190000094,
+        "y" : 504938.17300000228
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 50788,
+        "MNTN_CODE" : "415904201",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치,약수터,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서학산",
+        "PAST_SPOT_" : "4159042010005",
+        "MNTN_ID" : "415904201"
+      },
+      "geometry" : {
+        "x" : 191447.49030000065,
+        "y" : 504976.35050000437
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 50789,
+        "MNTN_CODE" : "415904201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단,시설물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서학산",
+        "PAST_SPOT_" : "4159042010006",
+        "MNTN_ID" : "415904201"
+      },
+      "geometry" : {
+        "x" : 191445.14010000043,
+        "y" : 505067.41300000064
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 50790,
+        "MNTN_CODE" : "415904201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서학산",
+        "PAST_SPOT_" : "4159042010007",
+        "MNTN_ID" : "415904201"
+      },
+      "geometry" : {
+        "x" : 191414.81290000025,
+        "y" : 505129.2480999995
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 50791,
+        "MNTN_CODE" : "415904201",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서학산",
+        "PAST_SPOT_" : "4159042010008",
+        "MNTN_ID" : "415904201"
+      },
+      "geometry" : {
+        "x" : 191483.97540000081,
+        "y" : 505281.87490000203
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 50792,
+        "MNTN_CODE" : "415904201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "문화재",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서학산",
+        "PAST_SPOT_" : "4159042010009",
+        "MNTN_ID" : "415904201"
+      },
+      "geometry" : {
+        "x" : 192603.7694000015,
+        "y" : 505950.62890000083
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 50793,
+        "MNTN_CODE" : "415904201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서학산",
+        "PAST_SPOT_" : "4159042010010",
+        "MNTN_ID" : "415904201"
+      },
+      "geometry" : {
+        "x" : 191067.06419999991,
+        "y" : 505109.54770000093
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 50794,
+        "MNTN_CODE" : "415904201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서학산",
+        "PAST_SPOT_" : "4159042010011",
+        "MNTN_ID" : "415904201"
+      },
+      "geometry" : {
+        "x" : 191077.67220000084,
+        "y" : 505516.16389999911
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 50795,
+        "MNTN_CODE" : "415904201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서학산",
+        "PAST_SPOT_" : "4159042010012",
+        "MNTN_ID" : "415904201"
+      },
+      "geometry" : {
+        "x" : 191181.88930000085,
+        "y" : 505026.44879999943
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 50796,
+        "MNTN_CODE" : "415904201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서학산",
+        "PAST_SPOT_" : "4159042010013",
+        "MNTN_ID" : "415904201"
+      },
+      "geometry" : {
+        "x" : 191317.03230000008,
+        "y" : 504797.33430000022
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 50797,
+        "MNTN_CODE" : "415904201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서학산",
+        "PAST_SPOT_" : "4159042010014",
+        "MNTN_ID" : "415904201"
+      },
+      "geometry" : {
+        "x" : 191393.31260000076,
+        "y" : 505176.14310000092
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 50798,
+        "MNTN_CODE" : "415904201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서학산",
+        "PAST_SPOT_" : "4159042010015",
+        "MNTN_ID" : "415904201"
+      },
+      "geometry" : {
+        "x" : 191397.49780000001,
+        "y" : 505258.98610000126
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 50799,
+        "MNTN_CODE" : "415904201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서학산",
+        "PAST_SPOT_" : "4159042010016",
+        "MNTN_ID" : "415904201"
+      },
+      "geometry" : {
+        "x" : 191433.05590000097,
+        "y" : 505404.15920000337
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 50800,
+        "MNTN_CODE" : "415904201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서학산",
+        "PAST_SPOT_" : "4159042010017",
+        "MNTN_ID" : "415904201"
+      },
+      "geometry" : {
+        "x" : 191449.05590000097,
+        "y" : 505067.15360000171
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 50801,
+        "MNTN_CODE" : "415904201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서학산",
+        "PAST_SPOT_" : "4159042010018",
+        "MNTN_ID" : "415904201"
+      },
+      "geometry" : {
+        "x" : 191669.15000000037,
+        "y" : 505720.80690000206
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 50802,
+        "MNTN_CODE" : "415904201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서학산",
+        "PAST_SPOT_" : "4159042010019",
+        "MNTN_ID" : "415904201"
+      },
+      "geometry" : {
+        "x" : 191673.81900000013,
+        "y" : 505705.88969999924
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 50803,
+        "MNTN_CODE" : "415904201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서학산",
+        "PAST_SPOT_" : "4159042010020",
+        "MNTN_ID" : "415904201"
+      },
+      "geometry" : {
+        "x" : 191710.0122000007,
+        "y" : 504634.76240000129
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 50804,
+        "MNTN_CODE" : "415904201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서학산",
+        "PAST_SPOT_" : "4159042010021",
+        "MNTN_ID" : "415904201"
+      },
+      "geometry" : {
+        "x" : 191967.88650000095,
+        "y" : 506258.19300000183
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 50805,
+        "MNTN_CODE" : "415904201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서학산",
+        "PAST_SPOT_" : "4159042010022",
+        "MNTN_ID" : "415904201"
+      },
+      "geometry" : {
+        "x" : 192088.35660000052,
+        "y" : 506048.97570000403
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 50806,
+        "MNTN_CODE" : "415904201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서학산",
+        "PAST_SPOT_" : "4159042010023",
+        "MNTN_ID" : "415904201"
+      },
+      "geometry" : {
+        "x" : 192121.44720000122,
+        "y" : 505213.83200000226
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 50807,
+        "MNTN_CODE" : "415904201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서학산",
+        "PAST_SPOT_" : "4159042010024",
+        "MNTN_ID" : "415904201"
+      },
+      "geometry" : {
+        "x" : 192568.12959999964,
+        "y" : 505964.81460000202
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 50808,
+        "MNTN_CODE" : "415904201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서학산",
+        "PAST_SPOT_" : "4159042010025",
+        "MNTN_ID" : "415904201"
+      },
+      "geometry" : {
+        "x" : 192616.18640000001,
+        "y" : 505942.43700000085
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 50809,
+        "MNTN_CODE" : "415904201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서학산",
+        "PAST_SPOT_" : "4159042010026",
+        "MNTN_ID" : "415904201"
+      },
+      "geometry" : {
+        "x" : 192654.01989999972,
+        "y" : 505674.47350000404
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 97617,
+        "MNTN_CODE" : "415904201",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물(운동기구등)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서학산",
+        "PAST_SPOT_" : "4159042010027",
+        "MNTN_ID" : "415904201"
+      },
+      "geometry" : {
+        "x" : 192103.05929999967,
+        "y" : 506053.84559999971
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 97618,
+        "MNTN_CODE" : "415904201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서학산",
+        "PAST_SPOT_" : "4159042010028",
+        "MNTN_ID" : "415904201"
+      },
+      "geometry" : {
+        "x" : 191435.65129999965,
+        "y" : 505417.61630000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 97619,
+        "MNTN_CODE" : "415904201",
+        "MANAGE_SP1" : "13",
+        "MANAGE_SP2" : "유적(문화, 역사)",
+        "DETAIL_SPO" : "유적(문화,역사)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서학산",
+        "PAST_SPOT_" : "4159042010029",
+        "MNTN_ID" : "415904201"
+      },
+      "geometry" : {
+        "x" : 192687.27570000116,
+        "y" : 505693.20829999977
+      }
+    }
+  ]
+}

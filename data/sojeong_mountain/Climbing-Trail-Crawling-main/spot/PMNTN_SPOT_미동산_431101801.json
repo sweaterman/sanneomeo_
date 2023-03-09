@@ -1,0 +1,891 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 31359,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "전망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010001",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 261463.84600000177,
+        "y" : 448810.57699999958
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 31360,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010002",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 261090.37000000011,
+        "y" : 449080.85500000045
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 31361,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010003",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 261108.06000000052,
+        "y" : 449061.90699999966
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 31362,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010004",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 260265.15000000224,
+        "y" : 448147.24699999951
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 31363,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010005",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 260026.69000000134,
+        "y" : 447889.55599999987
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 31364,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010006",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 259818.27699999977,
+        "y" : 447604.74700000137
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 31365,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010007",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 260153.14400000125,
+        "y" : 447613.1950000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 31366,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010008",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 260121.23100000061,
+        "y" : 447774.98700000159
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 31367,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010009",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 260277.23200000077,
+        "y" : 447897.58500000089
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 31368,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010010",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 260368.39699999988,
+        "y" : 447888.30700000189
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 31369,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010011",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 260731.57100000139,
+        "y" : 448357.4299999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 31370,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010012",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 260924.78800000064,
+        "y" : 448294.66999999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 31371,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010013",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 260874.79399999976,
+        "y" : 448563.63700000197
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 31372,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010014",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 261018.94099999964,
+        "y" : 448599.01000000164
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 31373,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010015",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 260941.5560000008,
+        "y" : 449198.16000000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 31374,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010016",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 260741.91300000157,
+        "y" : 448957.60100000165
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 31375,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010017",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 260511.19099999964,
+        "y" : 448818.89000000246
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 31376,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010018",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 260306.43699999992,
+        "y" : 448783.34999999963
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 31377,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010019",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 260161.29600000102,
+        "y" : 448702.54900000244
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 31378,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010020",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 260171.48900000006,
+        "y" : 448553.74200000241
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 31379,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010021",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 260122.19699999969,
+        "y" : 448492.31500000134
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 31380,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010022",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 260107.18499999959,
+        "y" : 448488.04399999976
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 31381,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010023",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 260115.69099999964,
+        "y" : 448348.79499999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 31382,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010024",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 259867.5120000001,
+        "y" : 448360.30100000091
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 31383,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010025",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 260998.82400000095,
+        "y" : 447963.62700000405
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 31384,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010026",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 260400.62800000049,
+        "y" : 447449.07100000232
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 31385,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010027",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 260162.85700000077,
+        "y" : 447181.16800000146
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 31386,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010028",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 259846.78500000015,
+        "y" : 447229.01300000213
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 31387,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010029",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 259556.34200000204,
+        "y" : 447995.39900000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 31388,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010030",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 259536.53110000119,
+        "y" : 447826.23610000126
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 31389,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010031",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 259539.82130000088,
+        "y" : 447669.34540000185
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 31390,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010032",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 259568.31720000226,
+        "y" : 447526.34420000017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 31391,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010033",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 259722.89500000142,
+        "y" : 447806.26900000125
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 31392,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010034",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 259809.50900000054,
+        "y" : 449437.82900000177
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 31393,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010035",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 260562.59160000179,
+        "y" : 448175.68550000153
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 31394,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010036",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 260647.06620000117,
+        "y" : 450461.06460000202
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 31395,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010037",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 260869.31320000067,
+        "y" : 449140.68420000374
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 31396,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010038",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 261013.43420000002,
+        "y" : 448117.52960000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 31397,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010039",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 261050.5242000008,
+        "y" : 449136.71639999934
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 31398,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010040",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 261081.39809999987,
+        "y" : 448994.40800000168
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 31399,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010041",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 261084.59190000035,
+        "y" : 449093.48120000027
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 31400,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010042",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 261087.61270000134,
+        "y" : 449018.98939999938
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 31401,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010043",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 261092.29040000122,
+        "y" : 449105.25990000181
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 31402,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010044",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 261155.74990000203,
+        "y" : 449153.85219999962
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 31403,
+        "MNTN_CODE" : "431101801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "미동산",
+        "PAST_SPOT_" : "4311018010045",
+        "MNTN_ID" : "431101801"
+      },
+      "geometry" : {
+        "x" : 262553.58449999988,
+        "y" : 447076.85480000079
+      }
+    }
+  ]
+}

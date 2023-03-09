@@ -1,0 +1,531 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 22793,
+        "MNTN_CODE" : "428305904",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도화리",
+        "PAST_SPOT_" : "4283010010001",
+        "MNTN_ID" : "428301001"
+      },
+      "geometry" : {
+        "x" : 345575.53930000681,
+        "y" : 610094.7077000048
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 22794,
+        "MNTN_CODE" : "428305904",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도화리",
+        "PAST_SPOT_" : "4283010010002",
+        "MNTN_ID" : "428301001"
+      },
+      "geometry" : {
+        "x" : 345603.99980000686,
+        "y" : 609591.04639999941
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 22795,
+        "MNTN_CODE" : "428305904",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도화리",
+        "PAST_SPOT_" : "4283010010003",
+        "MNTN_ID" : "428301001"
+      },
+      "geometry" : {
+        "x" : 345804.73950000759,
+        "y" : 609615.65599999949
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 22796,
+        "MNTN_CODE" : "428305904",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도화리",
+        "PAST_SPOT_" : "4283010010004",
+        "MNTN_ID" : "428301001"
+      },
+      "geometry" : {
+        "x" : 345852.70640000701,
+        "y" : 609665.73020000011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 22797,
+        "MNTN_CODE" : "428305904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "공항 출발지",
+        "MNTN_NM" : "도화리",
+        "PAST_SPOT_" : "4283010010005",
+        "MNTN_ID" : "428301001"
+      },
+      "geometry" : {
+        "x" : 345593.48350001313,
+        "y" : 609596.41540000401
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 22798,
+        "MNTN_CODE" : "428305904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "하층식생 정리 요망",
+        "MNTN_NM" : "도화리",
+        "PAST_SPOT_" : "4283010010006",
+        "MNTN_ID" : "428301001"
+      },
+      "geometry" : {
+        "x" : 345644.3919000132,
+        "y" : 609597.13540000096
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 22799,
+        "MNTN_CODE" : "428305904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "주변 환경 정리 요망",
+        "MNTN_NM" : "도화리",
+        "PAST_SPOT_" : "4283010010007",
+        "MNTN_ID" : "428301001"
+      },
+      "geometry" : {
+        "x" : 345736.80840001069,
+        "y" : 609605.89299999923
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 22800,
+        "MNTN_CODE" : "428305904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도화리",
+        "PAST_SPOT_" : "4283010010008",
+        "MNTN_ID" : "428301001"
+      },
+      "geometry" : {
+        "x" : 345601.29600001499,
+        "y" : 609610.1799999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 22801,
+        "MNTN_CODE" : "428305904",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "성황당,나무",
+        "ETC_MATTER" : "학포리 넘어가는길",
+        "MNTN_NM" : "도화리",
+        "PAST_SPOT_" : "4283010010009",
+        "MNTN_ID" : "428301001"
+      },
+      "geometry" : {
+        "x" : 345797.57150001079,
+        "y" : 609616.11780000106
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 22802,
+        "MNTN_CODE" : "428305904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "도화리(마을) 진입로",
+        "MNTN_NM" : "도화리",
+        "PAST_SPOT_" : "4283010010010",
+        "MNTN_ID" : "428301001"
+      },
+      "geometry" : {
+        "x" : 345832.24830001127,
+        "y" : 609663.04340000451
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 22803,
+        "MNTN_CODE" : "428305904",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "조망점,정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도화리",
+        "PAST_SPOT_" : "4283010010011",
+        "MNTN_ID" : "428301001"
+      },
+      "geometry" : {
+        "x" : 345808.76210000645,
+        "y" : 609725.6969000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 22804,
+        "MNTN_CODE" : "428305904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "하층식생 정리 요망",
+        "MNTN_NM" : "도화리",
+        "PAST_SPOT_" : "4283010010012",
+        "MNTN_ID" : "428301001"
+      },
+      "geometry" : {
+        "x" : 345796.90880001336,
+        "y" : 609763.68439999968
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 22805,
+        "MNTN_CODE" : "428305904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "주변 환경 정리 요망",
+        "MNTN_NM" : "도화리",
+        "PAST_SPOT_" : "4283010010013",
+        "MNTN_ID" : "428301001"
+      },
+      "geometry" : {
+        "x" : 345794.54470001254,
+        "y" : 609781.03180000558
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 22806,
+        "MNTN_CODE" : "428305904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도화리",
+        "PAST_SPOT_" : "4283010010014",
+        "MNTN_ID" : "428301001"
+      },
+      "geometry" : {
+        "x" : 345799.82970001269,
+        "y" : 609848.2639000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 22807,
+        "MNTN_CODE" : "428305904",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물",
+        "ETC_MATTER" : "쉼터 설치요망",
+        "MNTN_NM" : "도화리",
+        "PAST_SPOT_" : "4283010010015",
+        "MNTN_ID" : "428301001"
+      },
+      "geometry" : {
+        "x" : 345798.62770001311,
+        "y" : 609865.90970000252
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 22808,
+        "MNTN_CODE" : "428305904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도화리",
+        "PAST_SPOT_" : "4283010010016",
+        "MNTN_ID" : "428301001"
+      },
+      "geometry" : {
+        "x" : 345758.54820001312,
+        "y" : 609888.52380000241
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 22809,
+        "MNTN_CODE" : "428305904",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도화리",
+        "PAST_SPOT_" : "4283010010017",
+        "MNTN_ID" : "428301001"
+      },
+      "geometry" : {
+        "x" : 345733.99760001525,
+        "y" : 609917.46750000119
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 22810,
+        "MNTN_CODE" : "428305904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "하층식생 정리 요망",
+        "MNTN_NM" : "도화리",
+        "PAST_SPOT_" : "4283010010018",
+        "MNTN_ID" : "428301001"
+      },
+      "geometry" : {
+        "x" : 345720.68280001357,
+        "y" : 609925.76900000498
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 22811,
+        "MNTN_CODE" : "428305904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도화리",
+        "PAST_SPOT_" : "4283010010019",
+        "MNTN_ID" : "428301001"
+      },
+      "geometry" : {
+        "x" : 345687.58740001265,
+        "y" : 609960.85640000179
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 22812,
+        "MNTN_CODE" : "428305904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "주변 환경 정리 요망",
+        "MNTN_NM" : "도화리",
+        "PAST_SPOT_" : "4283010010020",
+        "MNTN_ID" : "428301001"
+      },
+      "geometry" : {
+        "x" : 345675.71380001213,
+        "y" : 609985.28509999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 22813,
+        "MNTN_CODE" : "428305904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "하층식생 정리 요망",
+        "MNTN_NM" : "도화리",
+        "PAST_SPOT_" : "4283010010021",
+        "MNTN_ID" : "428301001"
+      },
+      "geometry" : {
+        "x" : 345653.12830001395,
+        "y" : 610002.0382000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 22814,
+        "MNTN_CODE" : "428305904",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물",
+        "ETC_MATTER" : "계단 설치요망 주변 환경 정리 요망",
+        "MNTN_NM" : "도화리",
+        "PAST_SPOT_" : "4283010010022",
+        "MNTN_ID" : "428301001"
+      },
+      "geometry" : {
+        "x" : 345636.57900001016,
+        "y" : 610019.93170000054
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 22815,
+        "MNTN_CODE" : "428305904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "하층식생 정리 요망",
+        "MNTN_NM" : "도화리",
+        "PAST_SPOT_" : "4283010010023",
+        "MNTN_ID" : "428301001"
+      },
+      "geometry" : {
+        "x" : 345635.6971000107,
+        "y" : 610037.86080000363
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 22816,
+        "MNTN_CODE" : "428305904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "논둑길",
+        "MNTN_NM" : "도화리",
+        "PAST_SPOT_" : "4283010010024",
+        "MNTN_ID" : "428301001"
+      },
+      "geometry" : {
+        "x" : 345624.85540001281,
+        "y" : 610060.55350000411
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 22817,
+        "MNTN_CODE" : "428305904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "도착지",
+        "ETC_MATTER" : "마을 회관 앞길",
+        "MNTN_NM" : "도화리",
+        "PAST_SPOT_" : "4283010010025",
+        "MNTN_ID" : "428301001"
+      },
+      "geometry" : {
+        "x" : 345575.15550000966,
+        "y" : 610095.0672999993
+      }
+    }
+  ]
+}

@@ -1,0 +1,621 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 23254,
+        "MNTN_CODE" : "312000101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동대산",
+        "PAST_SPOT_" : "3120001010001",
+        "MNTN_ID" : "312000101"
+      },
+      "geometry" : {
+        "x" : 414044.25099928863,
+        "y" : 342294.25246738829
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 23255,
+        "MNTN_CODE" : "312000101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동대산",
+        "PAST_SPOT_" : "3120001010002",
+        "MNTN_ID" : "312000101"
+      },
+      "geometry" : {
+        "x" : 414318.41304546967,
+        "y" : 340893.76805907674
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 23256,
+        "MNTN_CODE" : "312000101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동대산",
+        "PAST_SPOT_" : "3120001010003",
+        "MNTN_ID" : "312000101"
+      },
+      "geometry" : {
+        "x" : 414326.16872977652,
+        "y" : 340878.45207869634
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 23257,
+        "MNTN_CODE" : "312000101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동대산",
+        "PAST_SPOT_" : "3120001010004",
+        "MNTN_ID" : "312000101"
+      },
+      "geometry" : {
+        "x" : 414330.1570522422,
+        "y" : 341726.76203374192
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 23258,
+        "MNTN_CODE" : "312000101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동대산",
+        "PAST_SPOT_" : "3120001010005",
+        "MNTN_ID" : "312000101"
+      },
+      "geometry" : {
+        "x" : 414387.64654638153,
+        "y" : 342083.14244769886
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 23259,
+        "MNTN_CODE" : "312000101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동대산",
+        "PAST_SPOT_" : "3120001010006",
+        "MNTN_ID" : "312000101"
+      },
+      "geometry" : {
+        "x" : 414530.56428365223,
+        "y" : 339699.67025277577
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 23260,
+        "MNTN_CODE" : "312000101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동대산",
+        "PAST_SPOT_" : "3120001010007",
+        "MNTN_ID" : "312000101"
+      },
+      "geometry" : {
+        "x" : 414593.70436246786,
+        "y" : 339726.20172757283
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 23261,
+        "MNTN_CODE" : "312000101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동대산",
+        "PAST_SPOT_" : "3120001010008",
+        "MNTN_ID" : "312000101"
+      },
+      "geometry" : {
+        "x" : 414877.96601989865,
+        "y" : 338701.08238281682
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 23262,
+        "MNTN_CODE" : "312000101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동대산",
+        "PAST_SPOT_" : "3120001010009",
+        "MNTN_ID" : "312000101"
+      },
+      "geometry" : {
+        "x" : 415003.85724905506,
+        "y" : 337425.36574172042
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 23263,
+        "MNTN_CODE" : "312000101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동대산",
+        "PAST_SPOT_" : "3120001010010",
+        "MNTN_ID" : "312000101"
+      },
+      "geometry" : {
+        "x" : 415120.59187647607,
+        "y" : 343703.99686381221
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 23264,
+        "MNTN_CODE" : "312000101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동대산",
+        "PAST_SPOT_" : "3120001010011",
+        "MNTN_ID" : "312000101"
+      },
+      "geometry" : {
+        "x" : 415176.10555979982,
+        "y" : 342778.15282034874
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 23265,
+        "MNTN_CODE" : "312000101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동대산",
+        "PAST_SPOT_" : "3120001010012",
+        "MNTN_ID" : "312000101"
+      },
+      "geometry" : {
+        "x" : 415264.04176836088,
+        "y" : 343602.23630735464
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 23266,
+        "MNTN_CODE" : "312000101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동대산",
+        "PAST_SPOT_" : "3120001010013",
+        "MNTN_ID" : "312000101"
+      },
+      "geometry" : {
+        "x" : 415312.51623139903,
+        "y" : 341699.46361034177
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 23267,
+        "MNTN_CODE" : "312000101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동대산",
+        "PAST_SPOT_" : "3120001010014",
+        "MNTN_ID" : "312000101"
+      },
+      "geometry" : {
+        "x" : 415488.32042183261,
+        "y" : 340436.32881169766
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 23268,
+        "MNTN_CODE" : "312000101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동대산",
+        "PAST_SPOT_" : "3120001010015",
+        "MNTN_ID" : "312000101"
+      },
+      "geometry" : {
+        "x" : 415566.51101670694,
+        "y" : 342503.63072391413
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 23269,
+        "MNTN_CODE" : "312000101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동대산",
+        "PAST_SPOT_" : "3120001010016",
+        "MNTN_ID" : "312000101"
+      },
+      "geometry" : {
+        "x" : 415616.77745744679,
+        "y" : 339450.11125870049
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 23270,
+        "MNTN_CODE" : "312000101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동대산",
+        "PAST_SPOT_" : "3120001010017",
+        "MNTN_ID" : "312000101"
+      },
+      "geometry" : {
+        "x" : 415650.2009787336,
+        "y" : 341829.15372102894
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 23271,
+        "MNTN_CODE" : "312000101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동대산",
+        "PAST_SPOT_" : "3120001010018",
+        "MNTN_ID" : "312000101"
+      },
+      "geometry" : {
+        "x" : 415689.34451413341,
+        "y" : 339906.9238799531
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 23272,
+        "MNTN_CODE" : "312000101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동대산",
+        "PAST_SPOT_" : "3120001010019",
+        "MNTN_ID" : "312000101"
+      },
+      "geometry" : {
+        "x" : 415689.55212434568,
+        "y" : 339508.32935620658
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 23273,
+        "MNTN_CODE" : "312000101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동대산",
+        "PAST_SPOT_" : "3120001010020",
+        "MNTN_ID" : "312000101"
+      },
+      "geometry" : {
+        "x" : 415859.95758716669,
+        "y" : 339694.59900631011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 23274,
+        "MNTN_CODE" : "312000101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동대산",
+        "PAST_SPOT_" : "3120001010021",
+        "MNTN_ID" : "312000101"
+      },
+      "geometry" : {
+        "x" : 415906.99689987767,
+        "y" : 339578.25564846955
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 23275,
+        "MNTN_CODE" : "312000101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동대산",
+        "PAST_SPOT_" : "3120001010022",
+        "MNTN_ID" : "312000101"
+      },
+      "geometry" : {
+        "x" : 416066.65609689616,
+        "y" : 339677.20601806231
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 23276,
+        "MNTN_CODE" : "312000101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동대산",
+        "PAST_SPOT_" : "3120001010023",
+        "MNTN_ID" : "312000101"
+      },
+      "geometry" : {
+        "x" : 416159.64757023565,
+        "y" : 339716.59742968902
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 23277,
+        "MNTN_CODE" : "312000101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동대산",
+        "PAST_SPOT_" : "3120001010024",
+        "MNTN_ID" : "312000101"
+      },
+      "geometry" : {
+        "x" : 416312.63908120804,
+        "y" : 339364.80417362973
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 23278,
+        "MNTN_CODE" : "312000101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동대산",
+        "PAST_SPOT_" : "3120001010025",
+        "MNTN_ID" : "312000101"
+      },
+      "geometry" : {
+        "x" : 416345.52838401496,
+        "y" : 339382.15703083016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 23279,
+        "MNTN_CODE" : "312000101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동대산",
+        "PAST_SPOT_" : "3120001010026",
+        "MNTN_ID" : "312000101"
+      },
+      "geometry" : {
+        "x" : 416498.24030604307,
+        "y" : 343142.84532015584
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 23280,
+        "MNTN_CODE" : "312000101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동대산",
+        "PAST_SPOT_" : "3120001010027",
+        "MNTN_ID" : "312000101"
+      },
+      "geometry" : {
+        "x" : 416990.82832664996,
+        "y" : 337316.15269127674
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 23281,
+        "MNTN_CODE" : "312000101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동대산",
+        "PAST_SPOT_" : "3120001010028",
+        "MNTN_ID" : "312000101"
+      },
+      "geometry" : {
+        "x" : 419487.68521284498,
+        "y" : 341668.3312555626
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 23282,
+        "MNTN_CODE" : "312000101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동대산",
+        "PAST_SPOT_" : "3120001010029",
+        "MNTN_ID" : "312000101"
+      },
+      "geometry" : {
+        "x" : 419501.8900716519,
+        "y" : 341686.34043484554
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 23283,
+        "MNTN_CODE" : "312000101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동대산",
+        "PAST_SPOT_" : "3120001010030",
+        "MNTN_ID" : "312000101"
+      },
+      "geometry" : {
+        "x" : 419807.38553286809,
+        "y" : 341546.57544031367
+      }
+    }
+  ]
+}

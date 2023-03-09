@@ -1,0 +1,963 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 37161,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000001",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 350575.91440000944,
+        "y" : 525141.12209999934
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 37162,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : "보수필요",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000002",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 350622.12520000897,
+        "y" : 525130.91550000571
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 37163,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : "보수필요",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000003",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 350645.77670000959,
+        "y" : 524999.17770000361
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 37164,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "1.경사지 시점",
+        "ETC_MATTER" : "계단및로프필요",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000004",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 350870.34020000976,
+        "y" : 524441.66499999911
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 37165,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000005",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 350938.79180001002,
+        "y" : 524314.10940000229
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 37166,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000006",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 350960.7296000123,
+        "y" : 524255.75659999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 37167,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : "벤치필요",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000007",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351040.7831000099,
+        "y" : 524223.36620000377
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 37168,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판,위험",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000008",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351070.58140000887,
+        "y" : 524214.67610000074
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 37169,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000009",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351315.77980001085,
+        "y" : 524165.45650000311
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 37170,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "2.물길 끝점",
+        "ETC_MATTER" : "등산로우회필요",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000010",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351402.45900001097,
+        "y" : 524129.75810000114
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 37171,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000011",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351413.59240001068,
+        "y" : 523988.64680000767
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 37172,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,안내판,위험",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000012",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351399.01680000871,
+        "y" : 523925.40550000221
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 37173,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : "벤치필요",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000013",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351469.54380001035,
+        "y" : 523902.15160000324
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 37174,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "3.경사지 끝점",
+        "ETC_MATTER" : "계단및로프필요",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000014",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351518.53530001175,
+        "y" : 523893.62090000138
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 37175,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : "계단및로프필요",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000015",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351555.19170000963,
+        "y" : 523881.99180000648
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 37176,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : "계단필요",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000016",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351693.4424000103,
+        "y" : 523832.68290000036
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 37177,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : "계단및로프필요",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000017",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351697.16300001182,
+        "y" : 523812.35330000147
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 37178,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : "계단및로프필요",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000018",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351662.6403000094,
+        "y" : 523936.98599999957
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 37179,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : "계단및로프필요",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000019",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351677.81050001178,
+        "y" : 523987.83610000648
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 37180,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000020",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351737.30220001005,
+        "y" : 524250.47440000251
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 37181,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험",
+        "ETC_MATTER" : "안내판 필요",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000021",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351660.04580001347,
+        "y" : 524388.94600000605
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 37182,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : "로프필요",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000022",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351653.25180000719,
+        "y" : 524404.15689999983
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 37183,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : "벤치 필요",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000023",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351510.53720000945,
+        "y" : 523091.04869999923
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 37184,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000024",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351674.66100000963,
+        "y" : 523043.08339999989
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 37185,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000025",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351765.68340001162,
+        "y" : 523053.90090000071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 37186,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000026",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351866.28140000813,
+        "y" : 523088.98699999787
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 37187,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : "이정표 필요",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000027",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351904.64100001194,
+        "y" : 523104.52670000121
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 37188,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : "계단,로프 필요",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000028",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351954.88530001137,
+        "y" : 523223.49880000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 37189,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : "계단 필요",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000029",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351941.72160001006,
+        "y" : 523338.08029999956
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 37190,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : "이정표 필요",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000030",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351890.52150001191,
+        "y" : 523414.9766000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 37191,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : "이정표 필요",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000031",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351762.8427000111,
+        "y" : 523699.24340000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 37192,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000032",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351712.90560000855,
+        "y" : 524040.44580000453
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 37193,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험",
+        "ETC_MATTER" : "안내판 훼손",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000033",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351680.05220000912,
+        "y" : 524375.86170000024
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 37194,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "오선암",
+        "ETC_MATTER" : "이정표 필요",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000034",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351379.41820001043,
+        "y" : 523132.40660000406
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 37195,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000035",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351588.25850001071,
+        "y" : 523061.80750000291
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 37196,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "샘터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000036",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351765.68340001162,
+        "y" : 523053.90090000071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 37197,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000037",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351255.17620001175,
+        "y" : 524211.07499999925
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 37198,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000038",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351281.21100000758,
+        "y" : 524202.56200000457
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 37199,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "3.경사지 시점",
+        "ETC_MATTER" : "계단및로프필요",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000039",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351372.87300000805,
+        "y" : 524146.78949999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 37200,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "운암사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000040",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 350778.1991000101,
+        "y" : 524816.93209999986
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 37201,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : "보수필요",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000041",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 350778.1991000101,
+        "y" : 524816.93209999986
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 37202,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000042",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 350820.4426000081,
+        "y" : 524730.57520000264
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 37203,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000043",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 350829.92440001015,
+        "y" : 524705.87429999746
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 37204,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000044",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 350855.28710000962,
+        "y" : 524578.83110000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 37205,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "이정표 필요",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000045",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 350198.11010001041,
+        "y" : 523487.85510000214
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 37206,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,안내판,화장실,벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000046",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 350520.94850000832,
+        "y" : 525116.58530000411
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 37207,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000047",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351637.13860000949,
+        "y" : 524426.8059000019
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 37208,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000048",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351641.83770000935,
+        "y" : 523899.61420000158
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 37209,
+        "MNTN_CODE" : "427703701",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "백이산정상부,조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백이산",
+        "PAST_SPOT_" : "22110220000049",
+        "MNTN_ID" : "2211022000"
+      },
+      "geometry" : {
+        "x" : 351717.08910001069,
+        "y" : 523791.52850000188
+      }
+    }
+  ]
+}

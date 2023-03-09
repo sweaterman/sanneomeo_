@@ -1,0 +1,1953 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 33192,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "4817011010001",
+        "MNTN_ID" : "481701101"
+      },
+      "geometry" : {
+        "x" : 318338.78300000355,
+        "y" : 293696.59050000273
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 33193,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "\"",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000002",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 316539.17850000411,
+        "y" : 297401.10690000281
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 33194,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000003",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 316678.62430000305,
+        "y" : 297308.57799999788
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 33195,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단시점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000004",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 316862.0567000024,
+        "y" : 296939.73940000124
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 33196,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000005",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 316877.80100000557,
+        "y" : 296897.66190000251
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 33197,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000006",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 316917.32690000162,
+        "y" : 296691.76120000146
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 33198,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "벼랑바위",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000007",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317408.53610000201,
+        "y" : 295951.60360000096
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 33199,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000008",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317695.46140000317,
+        "y" : 295979.63690000027
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 33200,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000009",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317866.55090000294,
+        "y" : 296353.29670000263
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 33201,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000010",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318182.97200000193,
+        "y" : 296373.07459999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 33202,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000011",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318223.61730000377,
+        "y" : 296529.52539999969
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 33203,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "약수터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000012",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318205.58530000597,
+        "y" : 296620.73269999959
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 33204,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000013",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318484.16290000454,
+        "y" : 295373.69470000081
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 33205,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "마애불",
+        "ETC_MATTER" : "보수,수리중",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000014",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318486.6827000035,
+        "y" : 295299.48579999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 33206,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "조난위치판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000015",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318489.27110000234,
+        "y" : 295289.53200000152
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 33207,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000016",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318573.60030000471,
+        "y" : 295224.82920000143
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 33208,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "나무벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000017",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318549.87120000273,
+        "y" : 295187.67459999956
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 33209,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000018",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318535.35330000333,
+        "y" : 295142.31770000048
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 33210,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "나무벤치",
+        "ETC_MATTER" : "벤치다리훼손",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000019",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318559.83120000362,
+        "y" : 295143.19329999946
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 33211,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "조난위치표찰",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000020",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318524.64340000227,
+        "y" : 295118.98360000364
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 33212,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "나무벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000021",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318506.78440000396,
+        "y" : 295078.46590000205
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 33213,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "조난위치표찰",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000022",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318538.85090000182,
+        "y" : 295042.15350000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 33214,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼각점",
+        "ETC_MATTER" : "대리석",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000023",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318670.5015000049,
+        "y" : 294229.54860000126
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 33215,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "마당바위",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000024",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318792.84910000488,
+        "y" : 294335.13720000163
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 33216,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000025",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318539.87109261751,
+        "y" : 292788.56603583135
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 33217,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000026",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 319847.28400000464,
+        "y" : 292580.32530000247
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 33218,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000027",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 319319.61700000335,
+        "y" : 292520.97509999946
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 33219,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000028",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318881.96950000525,
+        "y" : 292679.57030000351
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 33220,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "괘방산정상",
+        "ETC_MATTER" : "해발 451m",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000029",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318879.4972000001,
+        "y" : 292715.27160000056
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 33221,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000030",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318900.23320000339,
+        "y" : 292883.66999999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 33222,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "조망바위",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000031",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318909.32090000249,
+        "y" : 293765.2592999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 33223,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "방어산고개",
+        "ETC_MATTER" : "조난위치표찰",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000032",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317914.81040000264,
+        "y" : 294564.57619999908
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 33224,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000033",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317884.83290000353,
+        "y" : 294908.76029999927
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 33225,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000034",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317975.68840000592,
+        "y" : 295006.71430000104
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 33226,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000035",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318003.64500000514,
+        "y" : 295041.03710000217
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 33227,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000036",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318007.42130000424,
+        "y" : 295058.62030000053
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 33228,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "간이헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000037",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318210.53849999886,
+        "y" : 295475.87300000153
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 33229,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000038",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318168.93920000456,
+        "y" : 295614.93520000204
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 33230,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000039",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317862.15630000178,
+        "y" : 295866.39479999989
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 33231,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000040",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317730.08150000311,
+        "y" : 295977.42420000024
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 33232,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000041",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 316479.06110000145,
+        "y" : 295051.78320000134
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 33233,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000042",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317184.73730000574,
+        "y" : 295460.01549999975
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 33234,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000043",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317128.77720000409,
+        "y" : 295453.07610000297
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 33235,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "조립식건물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000044",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317112.79020000342,
+        "y" : 295473.56570000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 33236,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "18",
+        "MANAGE_SP2" : "주차장",
+        "DETAIL_SPO" : "주차장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000045",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317096.70240000263,
+        "y" : 295229.72529999912
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 33237,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도사거리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000046",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317503.481200004,
+        "y" : 295110.72080000117
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 33238,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도 끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000047",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317459.353500003,
+        "y" : 295085.60019999929
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 33239,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000048",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317191.22560000233,
+        "y" : 293569.52770000137
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 33240,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000049",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317519.49680000264,
+        "y" : 294085.20750000142
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 33241,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "13",
+        "MANAGE_SP2" : "유적(문화, 역사)",
+        "DETAIL_SPO" : "유적",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000050",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317603.09300000593,
+        "y" : 294092.57479999959
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 50,
+        "PMNTN_SPOT" : 33242,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000051",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317721.66060000286,
+        "y" : 294458.93260000087
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 51,
+        "PMNTN_SPOT" : 33243,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000052",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317083.48650000151,
+        "y" : 295485.49330000207
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 52,
+        "PMNTN_SPOT" : 33244,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000053",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317061.21350000426,
+        "y" : 295500.03109999932
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 53,
+        "PMNTN_SPOT" : 33245,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로주변  사진",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000054",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 316989.07580000348,
+        "y" : 295562.13080000132
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 54,
+        "PMNTN_SPOT" : 33246,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000055",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 316907.8766000038,
+        "y" : 295605.59250000119
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 55,
+        "PMNTN_SPOT" : 33247,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000056",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 316938.81980000343,
+        "y" : 295670.97880000249
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 56,
+        "PMNTN_SPOT" : 33248,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000057",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317303.42580000311,
+        "y" : 295817.43680000119
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 57,
+        "PMNTN_SPOT" : 33249,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암벽",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000058",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317360.52180000488,
+        "y" : 295893.08510000445
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 58,
+        "PMNTN_SPOT" : 33250,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000059",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317409.00430000294,
+        "y" : 295930.96849999949
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 59,
+        "PMNTN_SPOT" : 33251,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000060",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317415.04950000253,
+        "y" : 295940.72400000133
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 60,
+        "PMNTN_SPOT" : 33252,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철계단. 로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000061",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317690.17740000226,
+        "y" : 295975.77280000225
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 61,
+        "PMNTN_SPOT" : 33253,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "마당바위",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000062",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317723.88470000122,
+        "y" : 295979.34109999798
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 62,
+        "PMNTN_SPOT" : 33254,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로 노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000063",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317789.25650000479,
+        "y" : 295463.28520000167
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 63,
+        "PMNTN_SPOT" : 33255,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로 노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000064",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317903.49520000536,
+        "y" : 295575.09329999983
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 64,
+        "PMNTN_SPOT" : 33256,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로 노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000065",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318001.14130000398,
+        "y" : 295700.42510000244
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 65,
+        "PMNTN_SPOT" : 33257,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000066",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318028.78830000479,
+        "y" : 295733.87849999964
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 66,
+        "PMNTN_SPOT" : 33258,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000067",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 316668.25410000235,
+        "y" : 294978.60400000028
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 67,
+        "PMNTN_SPOT" : 33259,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사방댐",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000068",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 316784.08430000395,
+        "y" : 294960.9002000019
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 68,
+        "PMNTN_SPOT" : 33260,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000069",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 316067.11460000277,
+        "y" : 295281.16630000435
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 69,
+        "PMNTN_SPOT" : 33261,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000070",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 316314.76820000168,
+        "y" : 295011.12800000235
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 70,
+        "PMNTN_SPOT" : 33262,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,가덕마을",
+        "ETC_MATTER" : "스티커로된 이정표",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000071",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 316487.6535000056,
+        "y" : 297430.18370000273
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 71,
+        "PMNTN_SPOT" : 33263,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000072",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 316800.38490000088,
+        "y" : 294954.90720000304
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 72,
+        "PMNTN_SPOT" : 33264,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000073",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317039.97410000302,
+        "y" : 295245.44849999994
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 73,
+        "PMNTN_SPOT" : 33265,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "관음사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000074",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317114.23420000356,
+        "y" : 295487.8889000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 74,
+        "PMNTN_SPOT" : 33266,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000075",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317162.65250000171,
+        "y" : 295435.4039000012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 75,
+        "PMNTN_SPOT" : 33267,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000076",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317321.58100000303,
+        "y" : 298052.30050000176
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 76,
+        "PMNTN_SPOT" : 33268,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000077",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317381.72800000291,
+        "y" : 295531.10229999945
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 77,
+        "PMNTN_SPOT" : 33269,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "장승",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000078",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317423.43810000177,
+        "y" : 295941.63849999942
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 78,
+        "PMNTN_SPOT" : 33270,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000079",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317690.70190000255,
+        "y" : 295405.23890000209
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 79,
+        "PMNTN_SPOT" : 33271,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000080",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317716.180800003,
+        "y" : 295436.16599999927
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 80,
+        "PMNTN_SPOT" : 33272,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000081",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317722.10110000335,
+        "y" : 295982.09219999984
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 81,
+        "PMNTN_SPOT" : 33273,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도 끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000082",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317731.47550000437,
+        "y" : 295123.51520000398
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 82,
+        "PMNTN_SPOT" : 33274,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000083",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317771.29200000223,
+        "y" : 296314.87900000252
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 83,
+        "PMNTN_SPOT" : 33275,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000084",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317814.61400000285,
+        "y" : 294610.21279999986
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 84,
+        "PMNTN_SPOT" : 33276,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표훼손",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000085",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318026.98060000315,
+        "y" : 295736.3740000017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 85,
+        "PMNTN_SPOT" : 33277,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "조난위치판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000086",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318236.37490000296,
+        "y" : 295421.83000000194
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 86,
+        "PMNTN_SPOT" : 33278,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,마애사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000087",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318604.7330000056,
+        "y" : 294870.89550000057
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 87,
+        "PMNTN_SPOT" : 33279,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000088",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318661.59840000235,
+        "y" : 294221.10870000161
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 88,
+        "PMNTN_SPOT" : 33280,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000089",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318733.53820000589,
+        "y" : 296895.24560000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 89,
+        "PMNTN_SPOT" : 33281,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000090",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318910.24180000369,
+        "y" : 293801.41850000061
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 90,
+        "PMNTN_SPOT" : 33282,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000091",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 319922.75630000327,
+        "y" : 292581.87970000133
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 91,
+        "PMNTN_SPOT" : 33283,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000092",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 319949.00000000373,
+        "y" : 293741.80420000292
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 92,
+        "PMNTN_SPOT" : 33284,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,하림마을",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000093",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 320239.16440000292,
+        "y" : 294557.70810000226
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 93,
+        "PMNTN_SPOT" : 33285,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000094",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 319767.85471997596,
+        "y" : 294192.6795144435
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 94,
+        "PMNTN_SPOT" : 33286,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000095",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 319436.80404178426,
+        "y" : 296110.17670378275
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 95,
+        "PMNTN_SPOT" : 33287,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000096",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318712.04152467474,
+        "y" : 296749.8294941131
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 96,
+        "PMNTN_SPOT" : 33288,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000097",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 315890.92319655791,
+        "y" : 293477.68146685697
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 97,
+        "PMNTN_SPOT" : 33289,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000098",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 315900.28748290055,
+        "y" : 293285.63048181683
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 98,
+        "PMNTN_SPOT" : 33290,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000099",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317847.46800287534,
+        "y" : 293996.06028452516
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 99,
+        "PMNTN_SPOT" : 33291,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000100",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 317677.23007932305,
+        "y" : 294549.86454836279
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 100,
+        "PMNTN_SPOT" : 33292,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000101",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 316988.91031320393,
+        "y" : 293183.6163400244
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 101,
+        "PMNTN_SPOT" : 33293,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000102",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318208.29778203741,
+        "y" : 293428.6621059943
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 102,
+        "PMNTN_SPOT" : 33294,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000103",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318341.28173013125,
+        "y" : 294134.3635905385
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 103,
+        "PMNTN_SPOT" : 33295,
+        "MNTN_CODE" : "481701101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "방어산",
+        "PAST_SPOT_" : "28123801000104",
+        "MNTN_ID" : "2812380100"
+      },
+      "geometry" : {
+        "x" : 318238.61866946053,
+        "y" : 296130.12429599464
+      }
+    }
+  ]
+}

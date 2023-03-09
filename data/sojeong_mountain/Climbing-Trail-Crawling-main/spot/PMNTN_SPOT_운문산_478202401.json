@@ -1,0 +1,2313 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 70613,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "4827037010001",
+        "MNTN_ID" : "482703701"
+      },
+      "geometry" : {
+        "x" : 376978.95120003447,
+        "y" : 334164.47540000081
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 70614,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "4827037010002",
+        "MNTN_ID" : "482703701"
+      },
+      "geometry" : {
+        "x" : 377133.33220003173,
+        "y" : 336999.88380000554
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 70615,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000003",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 379792.8952000374,
+        "y" : 340065.49610000476
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 70616,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "운문사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000004",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 377594.58070003521,
+        "y" : 342295.43130000494
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 70617,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "출입 통제소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000005",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 377563.55320003442,
+        "y" : 342109.78130000457
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 70618,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000006",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 377561.49920003396,
+        "y" : 341909.90690000355
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 70619,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "문수선원",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000007",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 377595.21190003492,
+        "y" : 341619.53130000643
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 70620,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000008",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 377762.26600003336,
+        "y" : 341157.13580000401
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 70621,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000009",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 378674.67770003714,
+        "y" : 339563.76720000617
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 70622,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000010",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 378453.33320003655,
+        "y" : 338397.3356999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 70623,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000011",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 378146.62360003311,
+        "y" : 338097.00210000388
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 70624,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "독수리바위",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000012",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 377985.61240003537,
+        "y" : 337686.71940000169
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 70625,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000013",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 377887.78710003383,
+        "y" : 337516.38970000483
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 70626,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "못골안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000014",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 377272.04650003277,
+        "y" : 340595.97390000336
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 70627,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "천문지골",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000015",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 377631.1648000339,
+        "y" : 339552.15500000492
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 70628,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "18",
+        "MANAGE_SP2" : "주차장",
+        "DETAIL_SPO" : "황정리주차장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000016",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 377016.23040003236,
+        "y" : 343511.20099999942
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 70629,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "등심바위조망",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000017",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 376521.99830003176,
+        "y" : 342546.15960000455
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 70630,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼각점 443",
+        "ETC_MATTER" : "1982 재설",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000018",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 376500.87450003065,
+        "y" : 342164.57930000313
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 70631,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼각점 318",
+        "ETC_MATTER" : "1982 복구",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000019",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 376285.44090003055,
+        "y" : 341224.06230000593
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 70632,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000020",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 376281.48940003477,
+        "y" : 341118.51740000024
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 70633,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000021",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 376034.72650003061,
+        "y" : 340614.05859999917
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 70634,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000022",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375879.15200003237,
+        "y" : 339926.38020000793
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 70635,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000023",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375644.55870003067,
+        "y" : 342402.91650000401
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 70636,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "대비지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000024",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375279.86190003343,
+        "y" : 341983.11510000564
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 70637,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "대비사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000025",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375360.03790003154,
+        "y" : 341592.43390000239
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 70638,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000026",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 374760.88330002874,
+        "y" : 339957.96570000611
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 70639,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000027",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 377609.86860002857,
+        "y" : 337510.91640000418
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 70640,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000028",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 374691.10310003068,
+        "y" : 339357.11030000634
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 70641,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000029",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 377352.06890003383,
+        "y" : 337787.02960000373
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 70642,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000030",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 377264.84880003519,
+        "y" : 337842.65420000814
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 70643,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "딱밭재",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000031",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 376696.19620003179,
+        "y" : 338406.80540000647
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 70644,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000032",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 374620.97560002934,
+        "y" : 336922.3021000009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 70645,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000033",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375868.27900003269,
+        "y" : 339023.22800000198
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 70646,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000034",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375706.80140003189,
+        "y" : 339092.20370000787
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 70647,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000035",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375345.5253000306,
+        "y" : 338798.29560000263
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 70648,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000036",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375261.43830003217,
+        "y" : 337466.29719999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 70649,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "등산안내도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000037",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 374693.9580000313,
+        "y" : 337205.37590000406
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 70650,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "석골사,석골폭포,식수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000038",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 374634.39170002937,
+        "y" : 337083.94230000488
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 70651,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "고정로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000039",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375359.00160003174,
+        "y" : 337421.95870000124
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 70652,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000040",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375403.97640003264,
+        "y" : 337374.8535999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 70653,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000041",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375592.13770003151,
+        "y" : 337477.98050000519
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 70654,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "비로암폭포",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000042",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 376054.66900003236,
+        "y" : 337621.85710000806
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 70655,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "표시틀림",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000043",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 376702.24630003422,
+        "y" : 337720.46860000305
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 70656,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000044",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 376848.99100003392,
+        "y" : 337710.4261000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 70657,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000045",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 376940.41490003373,
+        "y" : 337747.39550000802
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 70658,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000046",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375481.36730002891,
+        "y" : 336961.79839999974
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 70659,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "선녀폭포",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000047",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 377030.82200003136,
+        "y" : 337667.6321000047
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 70660,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "고정로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000048",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 377174.23450003192,
+        "y" : 337448.42650000192
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 70661,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "상운암,식수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000049",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 377273.67690003384,
+        "y" : 337474.62129999883
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 70662,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000050",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 377328.34750003368,
+        "y" : 337764.35430000164
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 50,
+        "PMNTN_SPOT" : 70663,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000051",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 376120.57000003103,
+        "y" : 337492.47680000216
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 51,
+        "PMNTN_SPOT" : 70664,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000052",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 376183.08640003297,
+        "y" : 337310.5342000071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 52,
+        "PMNTN_SPOT" : 70665,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "고정로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000053",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 376503.97290003486,
+        "y" : 337128.1512000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 53,
+        "PMNTN_SPOT" : 70666,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000054",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 376532.43950003572,
+        "y" : 337063.954800006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 54,
+        "PMNTN_SPOT" : 70667,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000055",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 376543.107300031,
+        "y" : 337052.25180000626
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 55,
+        "PMNTN_SPOT" : 70668,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000056",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375993.122100031,
+        "y" : 337726.92530000396
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 56,
+        "PMNTN_SPOT" : 70669,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000057",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 376055.5877000317,
+        "y" : 337741.13420000486
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 57,
+        "PMNTN_SPOT" : 70670,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000058",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 376656.78790003341,
+        "y" : 338032.26630000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 58,
+        "PMNTN_SPOT" : 70671,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000059",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 376011.19330003299,
+        "y" : 337828.91790000349
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 59,
+        "PMNTN_SPOT" : 70672,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000060",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375462.16960003134,
+        "y" : 337553.50720000453
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 60,
+        "PMNTN_SPOT" : 70673,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000061",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375727.16830003262,
+        "y" : 337982.43889999762
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 61,
+        "PMNTN_SPOT" : 70674,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000062",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375803.3609000314,
+        "y" : 338102.35880000517
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 62,
+        "PMNTN_SPOT" : 70675,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000063",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 376695.16910003219,
+        "y" : 336933.95710000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 63,
+        "PMNTN_SPOT" : 70676,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000064",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375783.87330003269,
+        "y" : 339036.68250000477
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 64,
+        "PMNTN_SPOT" : 70677,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000065",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 374569.38150003273,
+        "y" : 336775.59340000711
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 65,
+        "PMNTN_SPOT" : 70678,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000066",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 374224.94970002864,
+        "y" : 336911.82530000247
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 66,
+        "PMNTN_SPOT" : 70679,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000067",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 373639.29420002922,
+        "y" : 337208.89740000293
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 67,
+        "PMNTN_SPOT" : 70680,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "고정로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000068",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 373640.58350002859,
+        "y" : 337375.44490000233
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 68,
+        "PMNTN_SPOT" : 70681,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000069",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 373291.76140002813,
+        "y" : 338066.20170000009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 69,
+        "PMNTN_SPOT" : 70682,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000070",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 373470.34480003081,
+        "y" : 338282.4534999989
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 70,
+        "PMNTN_SPOT" : 70683,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000071",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 377190.77740003075,
+        "y" : 337008.55050000735
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 71,
+        "PMNTN_SPOT" : 70684,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000072",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 374821.77040002961,
+        "y" : 339006.40530000255
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 72,
+        "PMNTN_SPOT" : 70685,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000073",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 374875.00360003207,
+        "y" : 339064.80800000392
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 73,
+        "PMNTN_SPOT" : 70686,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "고정로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000074",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375114.83030002937,
+        "y" : 339082.46920000389
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 74,
+        "PMNTN_SPOT" : 70687,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000075",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375153.14490002859,
+        "y" : 339134.89599999972
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 75,
+        "PMNTN_SPOT" : 70688,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "고정로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000076",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375046.55720003042,
+        "y" : 339101.34710000269
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 76,
+        "PMNTN_SPOT" : 70689,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000077",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 374647.89750003256,
+        "y" : 338399.74300000817
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 77,
+        "PMNTN_SPOT" : 70690,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000078",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 377855.42550003435,
+        "y" : 334742.21760000288
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 78,
+        "PMNTN_SPOT" : 70691,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000079",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 378068.81660003681,
+        "y" : 335408.87840000726
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 79,
+        "PMNTN_SPOT" : 70692,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "안내판필요",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000080",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 378295.58990003541,
+        "y" : 336991.71410000511
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 80,
+        "PMNTN_SPOT" : 70693,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "고정로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000081",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 378245.54730003607,
+        "y" : 336993.42030000128
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 81,
+        "PMNTN_SPOT" : 70694,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000082",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 378080.42310003377,
+        "y" : 337022.57070000097
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 82,
+        "PMNTN_SPOT" : 70695,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000083",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 378049.71990003437,
+        "y" : 337033.5427000057
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 83,
+        "PMNTN_SPOT" : 70696,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000084",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 377613.25840003416,
+        "y" : 337113.17020000517
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 84,
+        "PMNTN_SPOT" : 70697,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000085",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 378178.48250003532,
+        "y" : 337030.08030000329
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 85,
+        "PMNTN_SPOT" : 70698,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사자바위봉",
+        "ETC_MATTER" : "정상석필요",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000086",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 373347.11500003003,
+        "y" : 338227.05810000189
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 86,
+        "PMNTN_SPOT" : 70699,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,오봉리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000087",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 373416.29040002916,
+        "y" : 341450.75260000303
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 87,
+        "PMNTN_SPOT" : 70700,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000088",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 374625.59600002784,
+        "y" : 336955.38640000485
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 88,
+        "PMNTN_SPOT" : 70701,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000089",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 374738.50460003037,
+        "y" : 337245.10420000181
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 89,
+        "PMNTN_SPOT" : 70702,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000090",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 374793.73000003118,
+        "y" : 337510.77410000376
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 90,
+        "PMNTN_SPOT" : 70703,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000091",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 374960.22500003129,
+        "y" : 338033.96419999935
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 91,
+        "PMNTN_SPOT" : 70704,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000092",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 374960.94630002882,
+        "y" : 339149.75700000115
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 92,
+        "PMNTN_SPOT" : 70705,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "억산2봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000093",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375019.94380003214,
+        "y" : 339185.09340000525
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 93,
+        "PMNTN_SPOT" : 70706,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000094",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375045.27390003018,
+        "y" : 339086.19390000589
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 94,
+        "PMNTN_SPOT" : 70707,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000095",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375092.10850003082,
+        "y" : 339085.72330000252
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 95,
+        "PMNTN_SPOT" : 70708,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000096",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375097.26050003152,
+        "y" : 337440.86850000732
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 96,
+        "PMNTN_SPOT" : 70709,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000097",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375276.95270003099,
+        "y" : 339144.07290000096
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 97,
+        "PMNTN_SPOT" : 70710,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000098",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375311.42300003301,
+        "y" : 337613.4511000067
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 98,
+        "PMNTN_SPOT" : 70711,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000099",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375336.8292000303,
+        "y" : 338779.62180000544
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 99,
+        "PMNTN_SPOT" : 70712,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000100",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375455.58530003205,
+        "y" : 337493.1639000047
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 100,
+        "PMNTN_SPOT" : 70713,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000101",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375542.26600003242,
+        "y" : 337475.52199999988
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 101,
+        "PMNTN_SPOT" : 70714,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000102",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375771.9802000327,
+        "y" : 337548.50760000199
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 102,
+        "PMNTN_SPOT" : 70715,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000103",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375818.93870003335,
+        "y" : 339074.06230000034
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 103,
+        "PMNTN_SPOT" : 70716,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000104",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375904.26680003293,
+        "y" : 337603.30969999917
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 104,
+        "PMNTN_SPOT" : 70717,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "정구지바위",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000105",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 376111.71610003058,
+        "y" : 337634.7733999975
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 105,
+        "PMNTN_SPOT" : 70718,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "장군봉,등심바위,고정로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000106",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 376162.87410003506,
+        "y" : 343157.13340000063
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 106,
+        "PMNTN_SPOT" : 70719,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "범봉",
+        "ETC_MATTER" : "표시잘못",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000107",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 376189.68460003193,
+        "y" : 338811.24279999919
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 107,
+        "PMNTN_SPOT" : 70720,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "명태재",
+        "ETC_MATTER" : "운문사방면,대비사방면",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000108",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 376388.41120003164,
+        "y" : 342710.33090000413
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 108,
+        "PMNTN_SPOT" : 70721,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000109",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 376575.91370003298,
+        "y" : 337002.0885000024
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 109,
+        "PMNTN_SPOT" : 70722,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000110",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 376714.08930003364,
+        "y" : 338357.22130000591
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 110,
+        "PMNTN_SPOT" : 70723,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000111",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 376940.7658000309,
+        "y" : 338034.19750000164
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 111,
+        "PMNTN_SPOT" : 70724,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000112",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 377193.72400003485,
+        "y" : 337848.6415000055
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 112,
+        "PMNTN_SPOT" : 70725,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000113",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 377214.18060003221,
+        "y" : 343634.55900000595
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 113,
+        "PMNTN_SPOT" : 70726,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000114",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 377323.18340003211,
+        "y" : 337492.25840000063
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 114,
+        "PMNTN_SPOT" : 70727,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "함화산",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000115",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 377360.48570003547,
+        "y" : 337060.03160000592
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 115,
+        "PMNTN_SPOT" : 70728,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000116",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 377460.80080003571,
+        "y" : 337713.33110000379
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 116,
+        "PMNTN_SPOT" : 70729,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000117",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 377544.19420003425,
+        "y" : 341944.71770000271
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 117,
+        "PMNTN_SPOT" : 70730,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "운문산",
+        "ETC_MATTER" : "이정표훼손",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000118",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 377550.82330003381,
+        "y" : 337149.01420000382
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 118,
+        "PMNTN_SPOT" : 70731,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000119",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 377600.91820003279,
+        "y" : 337277.60070000216
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 119,
+        "PMNTN_SPOT" : 70732,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000120",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 377622.54030003399,
+        "y" : 337405.7019000072
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 120,
+        "PMNTN_SPOT" : 70733,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000121",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 377780.90130003355,
+        "y" : 334592.9627000019
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 121,
+        "PMNTN_SPOT" : 70734,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,주차장,화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000122",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 378736.96470003668,
+        "y" : 340700.977400003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 122,
+        "PMNTN_SPOT" : 70735,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000123",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 375264.24100003112,
+        "y" : 337469.32990000024
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 123,
+        "PMNTN_SPOT" : 70736,
+        "MNTN_CODE" : "478202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "운문산",
+        "PAST_SPOT_" : "27200523000124",
+        "MNTN_ID" : "2720052300"
+      },
+      "geometry" : {
+        "x" : 378748.56683665887,
+        "y" : 336930.48314287327
+      }
+    }
+  ]
+}

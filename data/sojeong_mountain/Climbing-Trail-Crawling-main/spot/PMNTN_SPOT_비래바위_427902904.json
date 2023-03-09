@@ -1,0 +1,603 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 45956,
+        "MNTN_CODE" : "427902904",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비래바위",
+        "PAST_SPOT_" : "4279011010001",
+        "MNTN_ID" : "427901101"
+      },
+      "geometry" : {
+        "x" : 249996.83020000067,
+        "y" : 618901.97240000032
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 45957,
+        "MNTN_CODE" : "427902904",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비래바위",
+        "PAST_SPOT_" : "4279011010002",
+        "MNTN_ID" : "427901101"
+      },
+      "geometry" : {
+        "x" : 251963.36410000082,
+        "y" : 616109.63940000162
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 45958,
+        "MNTN_CODE" : "427902904",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비래바위",
+        "PAST_SPOT_" : "4279011010003",
+        "MNTN_ID" : "427901101"
+      },
+      "geometry" : {
+        "x" : 252055.79119999986,
+        "y" : 616750.5503000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 45959,
+        "MNTN_CODE" : "427902904",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비래바위",
+        "PAST_SPOT_" : "4279011010004",
+        "MNTN_ID" : "427901101"
+      },
+      "geometry" : {
+        "x" : 252369.73269999959,
+        "y" : 616119.79860000126
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 45960,
+        "MNTN_CODE" : "427902904",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비래바위",
+        "PAST_SPOT_" : "4279011010005",
+        "MNTN_ID" : "427901101"
+      },
+      "geometry" : {
+        "x" : 252376.98930000048,
+        "y" : 616848.35950000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 45961,
+        "MNTN_CODE" : "427902904",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비래바위",
+        "PAST_SPOT_" : "4279011010006",
+        "MNTN_ID" : "427901101"
+      },
+      "geometry" : {
+        "x" : 252551.14730000123,
+        "y" : 618076.17330000177
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 45962,
+        "MNTN_CODE" : "427902904",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "등산로이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비래바위",
+        "PAST_SPOT_" : "4279011010007",
+        "MNTN_ID" : "427901101"
+      },
+      "geometry" : {
+        "x" : 251960.20200000424,
+        "y" : 616119.35390000232
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 45963,
+        "MNTN_CODE" : "427902904",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "등산로안내도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비래바위",
+        "PAST_SPOT_" : "4279011010008",
+        "MNTN_ID" : "427901101"
+      },
+      "geometry" : {
+        "x" : 252377.48990000319,
+        "y" : 616125.92520000413
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 45964,
+        "MNTN_CODE" : "427902904",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "등산로이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비래바위",
+        "PAST_SPOT_" : "4279011010009",
+        "MNTN_ID" : "427901101"
+      },
+      "geometry" : {
+        "x" : 252457.30220000073,
+        "y" : 616178.2762000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 45965,
+        "MNTN_CODE" : "427902904",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "등산로이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비래바위",
+        "PAST_SPOT_" : "4279011010010",
+        "MNTN_ID" : "427901101"
+      },
+      "geometry" : {
+        "x" : 251930.79639999941,
+        "y" : 616492.5976000037
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 45966,
+        "MNTN_CODE" : "427902904",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "등산로이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비래바위",
+        "PAST_SPOT_" : "4279011010011",
+        "MNTN_ID" : "427901101"
+      },
+      "geometry" : {
+        "x" : 252470.34620000049,
+        "y" : 616527.59830000065
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 45967,
+        "MNTN_CODE" : "427902904",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비래바위",
+        "PAST_SPOT_" : "4279011010012",
+        "MNTN_ID" : "427901101"
+      },
+      "geometry" : {
+        "x" : 252469.28099999949,
+        "y" : 616595.04560000263
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 45968,
+        "MNTN_CODE" : "427902904",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "로프난간시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비래바위",
+        "PAST_SPOT_" : "4279011010013",
+        "MNTN_ID" : "427901101"
+      },
+      "geometry" : {
+        "x" : 252042.33690000046,
+        "y" : 616659.54560000263
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 45969,
+        "MNTN_CODE" : "427902904",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "로프난간끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비래바위",
+        "PAST_SPOT_" : "4279011010014",
+        "MNTN_ID" : "427901101"
+      },
+      "geometry" : {
+        "x" : 252011.71460000053,
+        "y" : 616672.5541999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 45970,
+        "MNTN_CODE" : "427902904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비래바위",
+        "PAST_SPOT_" : "4279011010015",
+        "MNTN_ID" : "427901101"
+      },
+      "geometry" : {
+        "x" : 252054.92100000009,
+        "y" : 616727.70119999908
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 45971,
+        "MNTN_CODE" : "427902904",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "비래바위정상안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비래바위",
+        "PAST_SPOT_" : "4279011010016",
+        "MNTN_ID" : "427901101"
+      },
+      "geometry" : {
+        "x" : 252051.380400002,
+        "y" : 616740.29020000249
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 45972,
+        "MNTN_CODE" : "427902904",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비래바위",
+        "PAST_SPOT_" : "4279011010017",
+        "MNTN_ID" : "427901101"
+      },
+      "geometry" : {
+        "x" : 252063.12840000354,
+        "y" : 616794.4793999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 45973,
+        "MNTN_CODE" : "427902904",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "등산로이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비래바위",
+        "PAST_SPOT_" : "4279011010018",
+        "MNTN_ID" : "427901101"
+      },
+      "geometry" : {
+        "x" : 252115.3936999999,
+        "y" : 616803.51050000265
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 45974,
+        "MNTN_CODE" : "427902904",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "로프난간",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비래바위",
+        "PAST_SPOT_" : "4279011010019",
+        "MNTN_ID" : "427901101"
+      },
+      "geometry" : {
+        "x" : 252082.65890000202,
+        "y" : 616806.94769999944
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 45975,
+        "MNTN_CODE" : "427902904",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "로프난간",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비래바위",
+        "PAST_SPOT_" : "4279011010020",
+        "MNTN_ID" : "427901101"
+      },
+      "geometry" : {
+        "x" : 252105.50040000025,
+        "y" : 616821.66660000198
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 45976,
+        "MNTN_CODE" : "427902904",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "등산로이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비래바위",
+        "PAST_SPOT_" : "4279011010021",
+        "MNTN_ID" : "427901101"
+      },
+      "geometry" : {
+        "x" : 252088.7079999987,
+        "y" : 616825.53820000216
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 45977,
+        "MNTN_CODE" : "427902904",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "비래바위안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비래바위",
+        "PAST_SPOT_" : "4279011010022",
+        "MNTN_ID" : "427901101"
+      },
+      "geometry" : {
+        "x" : 252381.97049999982,
+        "y" : 616842.3933000043
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 45978,
+        "MNTN_CODE" : "427902904",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비래바위",
+        "PAST_SPOT_" : "4279011010023",
+        "MNTN_ID" : "427901101"
+      },
+      "geometry" : {
+        "x" : 252396.75379999913,
+        "y" : 616862.15579999983
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 45979,
+        "MNTN_CODE" : "427902904",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "목계단끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비래바위",
+        "PAST_SPOT_" : "4279011010024",
+        "MNTN_ID" : "427901101"
+      },
+      "geometry" : {
+        "x" : 252430.23740000091,
+        "y" : 616903.57380000129
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 45980,
+        "MNTN_CODE" : "427902904",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "목계단시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비래바위",
+        "PAST_SPOT_" : "4279011010025",
+        "MNTN_ID" : "427901101"
+      },
+      "geometry" : {
+        "x" : 252411.62590000406,
+        "y" : 616927.53399999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 45981,
+        "MNTN_CODE" : "427902904",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비래바위",
+        "PAST_SPOT_" : "4279011010026",
+        "MNTN_ID" : "427901101"
+      },
+      "geometry" : {
+        "x" : 250323.10799999908,
+        "y" : 617178.29130000062
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 45982,
+        "MNTN_CODE" : "427902904",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비래바위",
+        "PAST_SPOT_" : "4279011010027",
+        "MNTN_ID" : "427901101"
+      },
+      "geometry" : {
+        "x" : 252147.42910000123,
+        "y" : 617774.54270000011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 45983,
+        "MNTN_CODE" : "427902904",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비래바위",
+        "PAST_SPOT_" : "4279011010028",
+        "MNTN_ID" : "427901101"
+      },
+      "geometry" : {
+        "x" : 252368.22589999996,
+        "y" : 618063.13910000212
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 45984,
+        "MNTN_CODE" : "427902904",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "등산로안내도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비래바위",
+        "PAST_SPOT_" : "4279011010029",
+        "MNTN_ID" : "427901101"
+      },
+      "geometry" : {
+        "x" : 252544.79019999877,
+        "y" : 618080.23560000025
+      }
+    }
+  ]
+}

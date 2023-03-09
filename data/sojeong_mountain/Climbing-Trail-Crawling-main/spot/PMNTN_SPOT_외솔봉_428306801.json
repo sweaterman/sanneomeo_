@@ -1,0 +1,567 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 68551,
+        "MNTN_CODE" : "428306801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "외솔봉",
+        "PAST_SPOT_" : "4283036010001",
+        "MNTN_ID" : "428303601"
+      },
+      "geometry" : {
+        "x" : 348990.52530000731,
+        "y" : 604710.76559999958
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 68552,
+        "MNTN_CODE" : "428306801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "외솔봉",
+        "PAST_SPOT_" : "4283036010002",
+        "MNTN_ID" : "428303601"
+      },
+      "geometry" : {
+        "x" : 349002.61940000765,
+        "y" : 604621.42380000278
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 68553,
+        "MNTN_CODE" : "428306801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "외솔봉",
+        "PAST_SPOT_" : "4283036010003",
+        "MNTN_ID" : "428303601"
+      },
+      "geometry" : {
+        "x" : 349705.07280000858,
+        "y" : 604914.56140000373
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 68554,
+        "MNTN_CODE" : "428306801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "외솔봉",
+        "PAST_SPOT_" : "4283036010004",
+        "MNTN_ID" : "428303601"
+      },
+      "geometry" : {
+        "x" : 349961.44980000891,
+        "y" : 604464.28390000202
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 68555,
+        "MNTN_CODE" : "428306801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "목계단 보수 요망",
+        "MNTN_NM" : "외솔봉",
+        "PAST_SPOT_" : "4283036010005",
+        "MNTN_ID" : "428303601"
+      },
+      "geometry" : {
+        "x" : 349519.66740001366,
+        "y" : 604043.29539999925
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 68556,
+        "MNTN_CODE" : "428306801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "주변 하층식생 정리 요망",
+        "MNTN_NM" : "외솔봉",
+        "PAST_SPOT_" : "4283036010006",
+        "MNTN_ID" : "428303601"
+      },
+      "geometry" : {
+        "x" : 349246.18640001211,
+        "y" : 604098.17180000246
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 68557,
+        "MNTN_CODE" : "428306801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "목계단 설치 요망",
+        "MNTN_NM" : "외솔봉",
+        "PAST_SPOT_" : "4283036010007",
+        "MNTN_ID" : "428303601"
+      },
+      "geometry" : {
+        "x" : 349388.41420001723,
+        "y" : 604101.37050000019
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 68558,
+        "MNTN_CODE" : "428306801",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "(좌)급경사,지대,휀스,및,안전,로프,설치요망",
+        "ETC_MATTER" : "주변 하층식생 정리 요망",
+        "MNTN_NM" : "외솔봉",
+        "PAST_SPOT_" : "4283036010008",
+        "MNTN_ID" : "428303601"
+      },
+      "geometry" : {
+        "x" : 349542.34930001386,
+        "y" : 604117.64499999955
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 68559,
+        "MNTN_CODE" : "428306801",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : "안전로프 설치요망",
+        "MNTN_NM" : "외솔봉",
+        "PAST_SPOT_" : "4283036010009",
+        "MNTN_ID" : "428303601"
+      },
+      "geometry" : {
+        "x" : 349229.0943000149,
+        "y" : 604128.8526000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 68560,
+        "MNTN_CODE" : "428306801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "주변 하층 식생 정리 요망",
+        "MNTN_NM" : "외솔봉",
+        "PAST_SPOT_" : "4283036010010",
+        "MNTN_ID" : "428303601"
+      },
+      "geometry" : {
+        "x" : 349548.87340001669,
+        "y" : 604171.05540000275
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 68561,
+        "MNTN_CODE" : "428306801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "주변하층식생정리요망",
+        "MNTN_NM" : "외솔봉",
+        "PAST_SPOT_" : "4283036010011",
+        "MNTN_ID" : "428303601"
+      },
+      "geometry" : {
+        "x" : 349184.88920001499,
+        "y" : 604184.35680000111
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 68562,
+        "MNTN_CODE" : "428306801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : "벤치 설치 요망",
+        "MNTN_NM" : "외솔봉",
+        "PAST_SPOT_" : "4283036010012",
+        "MNTN_ID" : "428303601"
+      },
+      "geometry" : {
+        "x" : 349575.53630001564,
+        "y" : 604197.76140000485
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 68563,
+        "MNTN_CODE" : "428306801",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : "안전로프 설치요망",
+        "MNTN_NM" : "외솔봉",
+        "PAST_SPOT_" : "4283036010013",
+        "MNTN_ID" : "428303601"
+      },
+      "geometry" : {
+        "x" : 349131.15650001448,
+        "y" : 604212.78089999966
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 68564,
+        "MNTN_CODE" : "428306801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "주변 환경 개선 요망",
+        "MNTN_NM" : "외솔봉",
+        "PAST_SPOT_" : "4283036010014",
+        "MNTN_ID" : "428303601"
+      },
+      "geometry" : {
+        "x" : 349786.0047000153,
+        "y" : 604311.74160000309
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 68565,
+        "MNTN_CODE" : "428306801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : "벤치및 쉼터 설치요망",
+        "MNTN_NM" : "외솔봉",
+        "PAST_SPOT_" : "4283036010015",
+        "MNTN_ID" : "428303601"
+      },
+      "geometry" : {
+        "x" : 349111.7454000134,
+        "y" : 604369.12350000255
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 68566,
+        "MNTN_CODE" : "428306801",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : "안전로프 설치요망",
+        "MNTN_NM" : "외솔봉",
+        "PAST_SPOT_" : "4283036010016",
+        "MNTN_ID" : "428303601"
+      },
+      "geometry" : {
+        "x" : 349109.90100001264,
+        "y" : 604396.06289999932
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 68567,
+        "MNTN_CODE" : "428306801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "주변 하층식생 정리 요망",
+        "MNTN_NM" : "외솔봉",
+        "PAST_SPOT_" : "4283036010017",
+        "MNTN_ID" : "428303601"
+      },
+      "geometry" : {
+        "x" : 349780.87730001286,
+        "y" : 604429.95630000532
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 68568,
+        "MNTN_CODE" : "428306801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "심미아파트 뒷편 주차장",
+        "MNTN_NM" : "외솔봉",
+        "PAST_SPOT_" : "4283036010018",
+        "MNTN_ID" : "428303601"
+      },
+      "geometry" : {
+        "x" : 349959.25710001308,
+        "y" : 604470.80650000274
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 68569,
+        "MNTN_CODE" : "428306801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "주변 하층식생 정리 요망",
+        "MNTN_NM" : "외솔봉",
+        "PAST_SPOT_" : "4283036010019",
+        "MNTN_ID" : "428303601"
+      },
+      "geometry" : {
+        "x" : 349927.39580001403,
+        "y" : 604489.12189999968
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 68570,
+        "MNTN_CODE" : "428306801",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : "안전로프 및 휀스 설치요망",
+        "MNTN_NM" : "외솔봉",
+        "PAST_SPOT_" : "4283036010020",
+        "MNTN_ID" : "428303601"
+      },
+      "geometry" : {
+        "x" : 349841.81980001274,
+        "y" : 604493.659500001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 68571,
+        "MNTN_CODE" : "428306801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "목계단 설치 요망",
+        "MNTN_NM" : "외솔봉",
+        "PAST_SPOT_" : "4283036010021",
+        "MNTN_ID" : "428303601"
+      },
+      "geometry" : {
+        "x" : 349008.32990001515,
+        "y" : 604627.42840000056
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 68572,
+        "MNTN_CODE" : "428306801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "군부대",
+        "ETC_MATTER" : "3500부대 뒷문",
+        "MNTN_NM" : "외솔봉",
+        "PAST_SPOT_" : "4283036010022",
+        "MNTN_ID" : "428303601"
+      },
+      "geometry" : {
+        "x" : 349134.71900001541,
+        "y" : 604641.28330000117
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 68573,
+        "MNTN_CODE" : "428306801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "목계단 설치요망",
+        "MNTN_NM" : "외솔봉",
+        "PAST_SPOT_" : "4283036010023",
+        "MNTN_ID" : "428303601"
+      },
+      "geometry" : {
+        "x" : 348977.8685000129,
+        "y" : 604648.61560000107
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 68574,
+        "MNTN_CODE" : "428306801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "주변하층식생정리요망",
+        "MNTN_NM" : "외솔봉",
+        "PAST_SPOT_" : "4283036010024",
+        "MNTN_ID" : "428303601"
+      },
+      "geometry" : {
+        "x" : 349087.63940001372,
+        "y" : 604658.1026000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 68575,
+        "MNTN_CODE" : "428306801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "주변하층식생정리요망",
+        "MNTN_NM" : "외솔봉",
+        "PAST_SPOT_" : "4283036010025",
+        "MNTN_ID" : "428303601"
+      },
+      "geometry" : {
+        "x" : 348975.73340001423,
+        "y" : 604697.30360000208
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 68576,
+        "MNTN_CODE" : "428306801",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부,조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "외솔봉",
+        "PAST_SPOT_" : "4283036010026",
+        "MNTN_ID" : "428303601"
+      },
+      "geometry" : {
+        "x" : 348987.6792000141,
+        "y" : 604706.9271000009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 68577,
+        "MNTN_CODE" : "428306801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "도착지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "외솔봉",
+        "PAST_SPOT_" : "4283036010027",
+        "MNTN_ID" : "428303601"
+      },
+      "geometry" : {
+        "x" : 349434.60680001322,
+        "y" : 604759.99689999968
+      }
+    }
+  ]
+}

@@ -1,0 +1,585 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 29464,
+        "MNTN_CODE" : "412200801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무봉산",
+        "PAST_SPOT_" : "4122008010001",
+        "MNTN_ID" : "412200801"
+      },
+      "geometry" : {
+        "x" : 207405.63439999986,
+        "y" : 502112.59560000151
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 29465,
+        "MNTN_CODE" : "412200801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무봉산",
+        "PAST_SPOT_" : "4122008010002",
+        "MNTN_ID" : "412200801"
+      },
+      "geometry" : {
+        "x" : 207994.64059999958,
+        "y" : 502214.38419999927
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 29466,
+        "MNTN_CODE" : "412200801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무봉산",
+        "PAST_SPOT_" : "4122008010003",
+        "MNTN_ID" : "412200801"
+      },
+      "geometry" : {
+        "x" : 208068.15700000059,
+        "y" : 502009.72460000031
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 29467,
+        "MNTN_CODE" : "412200801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무봉산",
+        "PAST_SPOT_" : "4122008010004",
+        "MNTN_ID" : "412200801"
+      },
+      "geometry" : {
+        "x" : 208128.48210000154,
+        "y" : 501613.64250000194
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 29468,
+        "MNTN_CODE" : "412200801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무봉산",
+        "PAST_SPOT_" : "4122008010005",
+        "MNTN_ID" : "412200801"
+      },
+      "geometry" : {
+        "x" : 208171.34470000118,
+        "y" : 502154.18740000017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 29469,
+        "MNTN_CODE" : "412200801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무봉산",
+        "PAST_SPOT_" : "4122008010006",
+        "MNTN_ID" : "412200801"
+      },
+      "geometry" : {
+        "x" : 208234.84020000044,
+        "y" : 502397.02329999954
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 29470,
+        "MNTN_CODE" : "412200801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무봉산",
+        "PAST_SPOT_" : "4122008010007",
+        "MNTN_ID" : "412200801"
+      },
+      "geometry" : {
+        "x" : 208260.46780000348,
+        "y" : 502267.19550000131
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 29471,
+        "MNTN_CODE" : "412200801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무봉산",
+        "PAST_SPOT_" : "4122008010008",
+        "MNTN_ID" : "412200801"
+      },
+      "geometry" : {
+        "x" : 208338.13530000113,
+        "y" : 502260.15699999966
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 29472,
+        "MNTN_CODE" : "412200801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무봉산",
+        "PAST_SPOT_" : "4122008010009",
+        "MNTN_ID" : "412200801"
+      },
+      "geometry" : {
+        "x" : 208365.01549999975,
+        "y" : 502185.88529999927
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 29473,
+        "MNTN_CODE" : "412200801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무봉산",
+        "PAST_SPOT_" : "4122008010010",
+        "MNTN_ID" : "412200801"
+      },
+      "geometry" : {
+        "x" : 208380.89050000161,
+        "y" : 502386.70450000279
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 29474,
+        "MNTN_CODE" : "412200801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무봉산",
+        "PAST_SPOT_" : "4122008010011",
+        "MNTN_ID" : "412200801"
+      },
+      "geometry" : {
+        "x" : 208387.24050000124,
+        "y" : 502285.10429999977
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 29475,
+        "MNTN_CODE" : "412200801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무봉산",
+        "PAST_SPOT_" : "4122008010012",
+        "MNTN_ID" : "412200801"
+      },
+      "geometry" : {
+        "x" : 208390.54079999961,
+        "y" : 502220.14090000279
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 29476,
+        "MNTN_CODE" : "412200801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무봉산",
+        "PAST_SPOT_" : "4122008010013",
+        "MNTN_ID" : "412200801"
+      },
+      "geometry" : {
+        "x" : 208520.59080000222,
+        "y" : 501911.24730000272
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 29477,
+        "MNTN_CODE" : "412200801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무봉산",
+        "PAST_SPOT_" : "4122008010014",
+        "MNTN_ID" : "412200801"
+      },
+      "geometry" : {
+        "x" : 208571.87520000245,
+        "y" : 502171.77080000192
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 29478,
+        "MNTN_CODE" : "412200801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무봉산",
+        "PAST_SPOT_" : "4122008010015",
+        "MNTN_ID" : "412200801"
+      },
+      "geometry" : {
+        "x" : 208607.10970000084,
+        "y" : 501857.2722000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 29479,
+        "MNTN_CODE" : "412200801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무봉산",
+        "PAST_SPOT_" : "4122008010016",
+        "MNTN_ID" : "412200801"
+      },
+      "geometry" : {
+        "x" : 208615.04720000084,
+        "y" : 501881.0847000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 29480,
+        "MNTN_CODE" : "412200801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무봉산",
+        "PAST_SPOT_" : "4122008010017",
+        "MNTN_ID" : "412200801"
+      },
+      "geometry" : {
+        "x" : 208638.85970000178,
+        "y" : 501873.94100000151
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 29481,
+        "MNTN_CODE" : "412200801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무봉산",
+        "PAST_SPOT_" : "4122008010018",
+        "MNTN_ID" : "412200801"
+      },
+      "geometry" : {
+        "x" : 208649.17850000039,
+        "y" : 501913.62859999947
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 29482,
+        "MNTN_CODE" : "412200801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무봉산",
+        "PAST_SPOT_" : "4122008010019",
+        "MNTN_ID" : "412200801"
+      },
+      "geometry" : {
+        "x" : 208726.43700000085,
+        "y" : 501949.08280000277
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 29483,
+        "MNTN_CODE" : "412200801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무봉산",
+        "PAST_SPOT_" : "4122008010020",
+        "MNTN_ID" : "412200801"
+      },
+      "geometry" : {
+        "x" : 208778.56000000052,
+        "y" : 501788.21580000222
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 29484,
+        "MNTN_CODE" : "412200801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무봉산",
+        "PAST_SPOT_" : "4122008010021",
+        "MNTN_ID" : "412200801"
+      },
+      "geometry" : {
+        "x" : 208830.15390000213,
+        "y" : 501836.63460000046
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 29485,
+        "MNTN_CODE" : "412200801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무봉산",
+        "PAST_SPOT_" : "4122008010022",
+        "MNTN_ID" : "412200801"
+      },
+      "geometry" : {
+        "x" : 208834.33999999892,
+        "y" : 501892.98190000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 29486,
+        "MNTN_CODE" : "412200801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무봉산",
+        "PAST_SPOT_" : "4122008010023",
+        "MNTN_ID" : "412200801"
+      },
+      "geometry" : {
+        "x" : 208868.51850000117,
+        "y" : 502199.90830000304
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 29487,
+        "MNTN_CODE" : "412200801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무봉산",
+        "PAST_SPOT_" : "4122008010024",
+        "MNTN_ID" : "412200801"
+      },
+      "geometry" : {
+        "x" : 209287.44000000041,
+        "y" : 502142.39379999973
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 29488,
+        "MNTN_CODE" : "412200801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무봉산",
+        "PAST_SPOT_" : "4122008010025",
+        "MNTN_ID" : "412200801"
+      },
+      "geometry" : {
+        "x" : 209354.29450000171,
+        "y" : 501910.18899999931
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 29489,
+        "MNTN_CODE" : "412200801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무봉산",
+        "PAST_SPOT_" : "4122008010026",
+        "MNTN_ID" : "412200801"
+      },
+      "geometry" : {
+        "x" : 209468.33019999973,
+        "y" : 501304.82110000215
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 29490,
+        "MNTN_CODE" : "412200801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무봉산",
+        "PAST_SPOT_" : "4122008010027",
+        "MNTN_ID" : "412200801"
+      },
+      "geometry" : {
+        "x" : 209540.03239999991,
+        "y" : 501485.53190000355
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 29491,
+        "MNTN_CODE" : "412200801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무봉산",
+        "PAST_SPOT_" : "4122008010028",
+        "MNTN_ID" : "412200801"
+      },
+      "geometry" : {
+        "x" : 209620.99500000197,
+        "y" : 501998.29540000111
+      }
+    }
+  ]
+}

@@ -1,0 +1,495 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 28959,
+        "MNTN_CODE" : "263800504",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대,음수대,헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "몰운대",
+        "PAST_SPOT_" : "2638005040001",
+        "MNTN_ID" : "263800504"
+      },
+      "geometry" : {
+        "x" : 379676.81610000134,
+        "y" : 273305.56890000403
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 28960,
+        "MNTN_CODE" : "263800504",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "몰운대",
+        "PAST_SPOT_" : "2638005040002",
+        "MNTN_ID" : "263800504"
+      },
+      "geometry" : {
+        "x" : 379679.49289999995,
+        "y" : 273263.77940000407
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 28961,
+        "MNTN_CODE" : "263800504",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "다대포객사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "몰운대",
+        "PAST_SPOT_" : "2638005040003",
+        "MNTN_ID" : "263800504"
+      },
+      "geometry" : {
+        "x" : 379675.18620000128,
+        "y" : 273236.17170000076
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 28962,
+        "MNTN_CODE" : "263800504",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,이정표,음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "몰운대",
+        "PAST_SPOT_" : "2638005040004",
+        "MNTN_ID" : "263800504"
+      },
+      "geometry" : {
+        "x" : 379680.5875000013,
+        "y" : 273194.37079999968
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 28963,
+        "MNTN_CODE" : "263800504",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기,분기,음수대,화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "몰운대",
+        "PAST_SPOT_" : "2638005040005",
+        "MNTN_ID" : "263800504"
+      },
+      "geometry" : {
+        "x" : 379801.111800001,
+        "y" : 273106.15750000253
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 28964,
+        "MNTN_CODE" : "263800504",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "몰운대",
+        "PAST_SPOT_" : "2638005040006",
+        "MNTN_ID" : "263800504"
+      },
+      "geometry" : {
+        "x" : 379891.8814000003,
+        "y" : 273031.43500000052
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 28965,
+        "MNTN_CODE" : "263800504",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "몰운대",
+        "PAST_SPOT_" : "2638005040007",
+        "MNTN_ID" : "263800504"
+      },
+      "geometry" : {
+        "x" : 380026.95160000119,
+        "y" : 273630.03200000152
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 28966,
+        "MNTN_CODE" : "263800504",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동시설,운동시설,화장실,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "몰운대",
+        "PAST_SPOT_" : "2638005040008",
+        "MNTN_ID" : "263800504"
+      },
+      "geometry" : {
+        "x" : 380111.10929999873,
+        "y" : 273533.83200000226
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 28967,
+        "MNTN_CODE" : "263800504",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "몰운대",
+        "PAST_SPOT_" : "2638005040009",
+        "MNTN_ID" : "263800504"
+      },
+      "geometry" : {
+        "x" : 380374.09170000069,
+        "y" : 273414.78690000437
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 28968,
+        "MNTN_CODE" : "263800504",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "몰운대",
+        "PAST_SPOT_" : "2638005040010",
+        "MNTN_ID" : "263800504"
+      },
+      "geometry" : {
+        "x" : 380116.32540000044,
+        "y" : 273496.46579999849
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 28969,
+        "MNTN_CODE" : "263800504",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "몰운대",
+        "PAST_SPOT_" : "2638005040011",
+        "MNTN_ID" : "263800504"
+      },
+      "geometry" : {
+        "x" : 379669.43580000009,
+        "y" : 273897.03920000233
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 28970,
+        "MNTN_CODE" : "263800504",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "몰운대",
+        "PAST_SPOT_" : "2638005040012",
+        "MNTN_ID" : "263800504"
+      },
+      "geometry" : {
+        "x" : 379669.71670000069,
+        "y" : 273736.21130000241
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 28971,
+        "MNTN_CODE" : "263800504",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "몰운대",
+        "PAST_SPOT_" : "2638005040013",
+        "MNTN_ID" : "263800504"
+      },
+      "geometry" : {
+        "x" : 379792.91580000054,
+        "y" : 273056.1940999981
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 28972,
+        "MNTN_CODE" : "263800504",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "몰운대",
+        "PAST_SPOT_" : "2638005040014",
+        "MNTN_ID" : "263800504"
+      },
+      "geometry" : {
+        "x" : 379864.03050000034,
+        "y" : 273067.97240000032
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 28973,
+        "MNTN_CODE" : "263800504",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "몰운대",
+        "PAST_SPOT_" : "2638005040015",
+        "MNTN_ID" : "263800504"
+      },
+      "geometry" : {
+        "x" : 379881.00760000013,
+        "y" : 273734.59500000253
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 28974,
+        "MNTN_CODE" : "263800504",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "몰운대",
+        "PAST_SPOT_" : "2638005040016",
+        "MNTN_ID" : "263800504"
+      },
+      "geometry" : {
+        "x" : 379892.91770000011,
+        "y" : 273033.59549999982
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 28975,
+        "MNTN_CODE" : "263800504",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "몰운대",
+        "PAST_SPOT_" : "2638005040017",
+        "MNTN_ID" : "263800504"
+      },
+      "geometry" : {
+        "x" : 379957.58999999985,
+        "y" : 273419.18330000155
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 28976,
+        "MNTN_CODE" : "263800504",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "몰운대",
+        "PAST_SPOT_" : "2638005040018",
+        "MNTN_ID" : "263800504"
+      },
+      "geometry" : {
+        "x" : 380014.61130000092,
+        "y" : 273688.08149999939
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 28977,
+        "MNTN_CODE" : "263800504",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "몰운대",
+        "PAST_SPOT_" : "2638005040019",
+        "MNTN_ID" : "263800504"
+      },
+      "geometry" : {
+        "x" : 380107.16220000107,
+        "y" : 273467.62659999914
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 28978,
+        "MNTN_CODE" : "263800504",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "몰운대",
+        "PAST_SPOT_" : "2638005040020",
+        "MNTN_ID" : "263800504"
+      },
+      "geometry" : {
+        "x" : 380110.92449999973,
+        "y" : 273528.47829999961
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 28979,
+        "MNTN_CODE" : "263800504",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "몰운대",
+        "PAST_SPOT_" : "2638005040021",
+        "MNTN_ID" : "263800504"
+      },
+      "geometry" : {
+        "x" : 380145.00050000008,
+        "y" : 273607.33860000037
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 28980,
+        "MNTN_CODE" : "263800504",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "몰운대",
+        "PAST_SPOT_" : "2638005040022",
+        "MNTN_ID" : "263800504"
+      },
+      "geometry" : {
+        "x" : 380474.75659999996,
+        "y" : 273382.14140000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 96231,
+        "MNTN_CODE" : "263800504",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "몰운대",
+        "PAST_SPOT_" : "2638005040023",
+        "MNTN_ID" : "263800504"
+      },
+      "geometry" : {
+        "x" : 380116.05669999926,
+        "y" : 273466.34170000098
+      }
+    }
+  ]
+}

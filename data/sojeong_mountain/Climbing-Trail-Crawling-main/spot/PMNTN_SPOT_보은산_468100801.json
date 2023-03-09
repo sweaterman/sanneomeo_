@@ -1,0 +1,981 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 40091,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000001",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 178612.88350000139,
+        "y" : 228208.42950000241
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 40092,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000002",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 178682.39100000169,
+        "y" : 228321.9104999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 40093,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,나무계단",
+        "ETC_MATTER" : "47-46",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000003",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 178347.49320000317,
+        "y" : 227410.21399999969
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 40094,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : "48-47",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000004",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 178360.11590000335,
+        "y" : 227673.76760000363
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 40095,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "충혼탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000005",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 178564.87820000108,
+        "y" : 227519.81880000234
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 40096,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사찰",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000006",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 179657.54890000075,
+        "y" : 230127.89770000055
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 40097,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동기구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000007",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 178441.46880000085,
+        "y" : 227987.39140000194
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 40098,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "정각",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000008",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 178483.17750000022,
+        "y" : 227640.75240000151
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 40099,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000009",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 178617.80090000108,
+        "y" : 227607.55660000071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 40100,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : "3~6",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000010",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 179723.98850000091,
+        "y" : 230093.17180000246
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 40101,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000011",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 179721.14979999978,
+        "y" : 230061.26180000044
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 40102,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점,나무계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000012",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 178366.50829999987,
+        "y" : 227495.63409999944
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 40103,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : "3~6",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000013",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 179929.16680000164,
+        "y" : 230491.32490000129
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 40104,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : "64~65",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000014",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 178333.86490000132,
+        "y" : 229246.21270000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 40105,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : "64~65",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000015",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 178358.94360000268,
+        "y" : 229214.50349999964
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 40106,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000016",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 178355.10450000037,
+        "y" : 229059.75690000132
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 40107,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000017",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 179951.39810000081,
+        "y" : 230527.17520000041
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 40108,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000018",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 179983.04090000317,
+        "y" : 230612.90410000272
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 40109,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000019",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 178919.56680000387,
+        "y" : 228665.33060000092
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 40110,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,운동기구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000020",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 179299.92590000108,
+        "y" : 229331.61130000465
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 40111,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치,운동기구,약수터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000021",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 178477.56790000107,
+        "y" : 228693.41349999979
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 40112,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기점",
+        "ETC_MATTER" : "금곡사",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000022",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 178370.26440000348,
+        "y" : 227494.4048999995
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 40113,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000023",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 178403.77369999979,
+        "y" : 228094.1668999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 40114,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000024",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 178433.35840000026,
+        "y" : 227906.83779999986
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 40115,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000025",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 178438.87650000397,
+        "y" : 227312.5858999975
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 40116,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치,분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000026",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 178449.50730000064,
+        "y" : 227638.93430000171
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 40117,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000027",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 178471.11660000309,
+        "y" : 228405.17280000076
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 40118,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기점,벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000028",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 178489.18570000213,
+        "y" : 228475.55250000209
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 40119,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000029",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 178561.44940000027,
+        "y" : 227653.40460000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 40120,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000030",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 178599.99450000096,
+        "y" : 227501.94460000098
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 40121,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000031",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 178600.70000000019,
+        "y" : 228047.30140000768
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 40122,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,이정표",
+        "ETC_MATTER" : "자연석이정표",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000032",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 178645.42920000013,
+        "y" : 227495.65500000119
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 40123,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "신양무정",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000033",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 178647.9385000011,
+        "y" : 227828.89200000279
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 40124,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "구양무정",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000034",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 178653.77640000172,
+        "y" : 227662.29730000347
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 40125,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000035",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 178663.89540000074,
+        "y" : 230078.69160000235
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 40126,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부,조망점,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000036",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 178700.7639000006,
+        "y" : 229833.60190000013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 40127,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000037",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 178773.92420000304,
+        "y" : 228402.79260000028
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 40128,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000038",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 178780.88440000173,
+        "y" : 230207.63870000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 40129,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000039",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 178949.3132000016,
+        "y" : 230530.72940000147
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 40130,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,유적",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000040",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 179057.45480000041,
+        "y" : 228268.80760000274
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 40131,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부,조망점,이정표",
+        "ETC_MATTER" : "산태봉",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000041",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 179467.19810000341,
+        "y" : 230807.8313999977
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 40132,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000042",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 179689.61649999954,
+        "y" : 230043.48190000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 40133,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000043",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 179710.69900000375,
+        "y" : 230768.95740000159
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 40134,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000044",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 179735.35890000314,
+        "y" : 229991.59580000117
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 40135,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000045",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 179736.34750000015,
+        "y" : 229779.39519999921
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 40136,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000046",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 179738.15730000101,
+        "y" : 230391.20360000059
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 40137,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000047",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 179752.82850000262,
+        "y" : 229526.15860000066
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 40138,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000048",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 179869.65749999974,
+        "y" : 230738.58779999986
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 40139,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000049",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 179984.76560000051,
+        "y" : 230596.81460000388
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 40140,
+        "MNTN_CODE" : "468100801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보은산",
+        "PAST_SPOT_" : "26010108000050",
+        "MNTN_ID" : "2601010800"
+      },
+      "geometry" : {
+        "x" : 180380.53639999963,
+        "y" : 230793.61460000277
+      }
+    }
+  ]
+}

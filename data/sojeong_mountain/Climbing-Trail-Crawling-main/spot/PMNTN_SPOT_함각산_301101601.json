@@ -1,0 +1,189 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 91429,
+        "MNTN_CODE" : "301101601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산입구",
+        "ETC_MATTER" : "이정표설치요망",
+        "MNTN_NM" : "함각산",
+        "PAST_SPOT_" : "16024616000001",
+        "MNTN_ID" : "1602461600"
+      },
+      "geometry" : {
+        "x" : 243036.75030000042,
+        "y" : 422479.85810000077
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 91430,
+        "MNTN_CODE" : "301101601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "불당고개",
+        "ETC_MATTER" : "이정표설치요망",
+        "MNTN_NM" : "함각산",
+        "PAST_SPOT_" : "16024616000002",
+        "MNTN_ID" : "1602461600"
+      },
+      "geometry" : {
+        "x" : 242992.87530000042,
+        "y" : 422281.7795000039
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 91431,
+        "MNTN_CODE" : "301101601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "모래망고개",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함각산",
+        "PAST_SPOT_" : "16024616000003",
+        "MNTN_ID" : "1602461600"
+      },
+      "geometry" : {
+        "x" : 242900.13140000403,
+        "y" : 421987.24799999967
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 91432,
+        "MNTN_CODE" : "301101601",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "함각산정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함각산",
+        "PAST_SPOT_" : "16024616000004",
+        "MNTN_ID" : "1602461600"
+      },
+      "geometry" : {
+        "x" : 242747.28280000109,
+        "y" : 422064.71920000203
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 91433,
+        "MNTN_CODE" : "301101601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,화령재",
+        "ETC_MATTER" : "이정표설치요망",
+        "MNTN_NM" : "함각산",
+        "PAST_SPOT_" : "16024616000005",
+        "MNTN_ID" : "1602461600"
+      },
+      "geometry" : {
+        "x" : 242894.87710000388,
+        "y" : 421777.45910000242
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 91434,
+        "MNTN_CODE" : "301101601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함각산",
+        "PAST_SPOT_" : "16024616000006",
+        "MNTN_ID" : "1602461600"
+      },
+      "geometry" : {
+        "x" : 242996.01030000299,
+        "y" : 422819.8505000025
+      }
+    }
+  ]
+}

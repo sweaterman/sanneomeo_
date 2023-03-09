@@ -1,0 +1,711 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 75000,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000001",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 389896.2900000494,
+        "y" : 371545.31890000403
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 75001,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "쉼터",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000002",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 389808.92670004815,
+        "y" : 371377.43200000562
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 75002,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점,쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000003",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 390038.5867000483,
+        "y" : 370493.65500000492
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 75003,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000004",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 390009.46420004871,
+        "y" : 370511.82940000296
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 75004,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "이정표 설치필요",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000005",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 390492.01530005038,
+        "y" : 371957.25040000491
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 75005,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "이정표 설치필요",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000006",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 389708.4532000469,
+        "y" : 373022.94980000332
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 75006,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000007",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 390598.41850004904,
+        "y" : 371982.32340000384
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 75007,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "조망점",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000008",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 390635.70590004884,
+        "y" : 371887.15310000442
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 75008,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000009",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 390691.33690004982,
+        "y" : 371780.73440000415
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 75009,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "이정표 설치필요",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000010",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 390849.73500005249,
+        "y" : 371297.54360000789
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 75010,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000011",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 390886.68490004726,
+        "y" : 371235.10800000653
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 75011,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000012",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 390806.80080005061,
+        "y" : 371058.18590000644
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 75012,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "남사봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000013",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 390930.13620005082,
+        "y" : 370913.87800000422
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 75013,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000014",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 390583.98410004936,
+        "y" : 370444.47540000081
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 75014,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000015",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 390499.26080004871,
+        "y" : 370426.97960000485
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 75015,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "조망점",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000016",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 390472.71910004877,
+        "y" : 370319.03910000622
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 75016,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "최재우동상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000017",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 393808.4063826669,
+        "y" : 368434.20269290358
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 75017,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "용담정",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000018",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 393701.37170005403,
+        "y" : 368176.44960000366
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 75018,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "교량 설치필요",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000019",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 393429.49510005675,
+        "y" : 368091.25410000421
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 75019,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "이정표 설치필요",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000020",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 393240.10210005473,
+        "y" : 367961.81350000761
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 75020,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "급경사지",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000021",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 393179.000600053,
+        "y" : 367994.44260000437
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 75021,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "이정표 설치필요",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000022",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 393014.08610005956,
+        "y" : 368092.04740000516
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 75022,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "이정표 설치필요",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000023",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 392679.93800005596,
+        "y" : 367833.64260000363
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 75023,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "이정표 설치필요",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000024",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 391214.64930005185,
+        "y" : 369088.22100000456
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 75024,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000025",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 390956.88320004847,
+        "y" : 369519.87210000493
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 75025,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "들머리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000026",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 390487.80720004998,
+        "y" : 370210.56150000356
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 75026,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "안내판 설치필요",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000027",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 389172.10980004817,
+        "y" : 372603.46400000341
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 75027,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "안내판 설치필요",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000028",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 389240.63990004919,
+        "y" : 372590.42029999755
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 75028,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "인내산 정상",
+        "ETC_MATTER" : "인내산",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000029",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 389739.89530005027,
+        "y" : 371215.90280000307
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 75029,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000030",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 390084.20190004911,
+        "y" : 370463.0410999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 75030,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000031",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 390185.87460004818,
+        "y" : 370405.62940000743
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 75031,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "임도",
+        "ETC_MATTER" : "분기점",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000032",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 390225.78860004805,
+        "y" : 370368.93570000492
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 75032,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "이정표 설치필요",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000033",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 390465.38470004965,
+        "y" : 370343.47950000316
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 75033,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000034",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 391390.61370005179,
+        "y" : 369078.1182000041
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 75034,
+        "MNTN_CODE" : "471304601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "인내산",
+        "PAST_SPOT_" : "27022538000035",
+        "MNTN_ID" : "2702253800"
+      },
+      "geometry" : {
+        "x" : 391399.91350005195,
+        "y" : 369225.76640000567
+      }
+    }
+  ]
+}

@@ -1,0 +1,477 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 49152,
+        "MNTN_CODE" : "428306304",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상광정리",
+        "PAST_SPOT_" : "4283022010001",
+        "MNTN_ID" : "428302201"
+      },
+      "geometry" : {
+        "x" : 348335.9902000064,
+        "y" : 602470.27660000697
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 49153,
+        "MNTN_CODE" : "428306304",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상광정리",
+        "PAST_SPOT_" : "4283022010002",
+        "MNTN_ID" : "428302201"
+      },
+      "geometry" : {
+        "x" : 348431.03400000837,
+        "y" : 602697.32330000214
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 49154,
+        "MNTN_CODE" : "428306304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "주변환경 정리요망",
+        "MNTN_NM" : "상광정리",
+        "PAST_SPOT_" : "4283022010003",
+        "MNTN_ID" : "428302201"
+      },
+      "geometry" : {
+        "x" : 348350.07130001392,
+        "y" : 602230.25290000439
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 49155,
+        "MNTN_CODE" : "428306304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "하층식생 정리요망",
+        "MNTN_NM" : "상광정리",
+        "PAST_SPOT_" : "4283022010004",
+        "MNTN_ID" : "428302201"
+      },
+      "geometry" : {
+        "x" : 348376.2492000144,
+        "y" : 602231.48300000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 49156,
+        "MNTN_CODE" : "428306304",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : "안전로프및 휀스 설치요망",
+        "MNTN_NM" : "상광정리",
+        "PAST_SPOT_" : "4283022010005",
+        "MNTN_ID" : "428302201"
+      },
+      "geometry" : {
+        "x" : 348444.12340001017,
+        "y" : 602252.21450000256
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 49157,
+        "MNTN_CODE" : "428306304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "계단설치 요망",
+        "MNTN_NM" : "상광정리",
+        "PAST_SPOT_" : "4283022010006",
+        "MNTN_ID" : "428302201"
+      },
+      "geometry" : {
+        "x" : 348443.59760001395,
+        "y" : 602282.14269999973
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 49158,
+        "MNTN_CODE" : "428306304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상광정리",
+        "PAST_SPOT_" : "4283022010007",
+        "MNTN_ID" : "428302201"
+      },
+      "geometry" : {
+        "x" : 348303.29100001603,
+        "y" : 602282.72800000571
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 49159,
+        "MNTN_CODE" : "428306304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "하층식생 정리요망",
+        "MNTN_NM" : "상광정리",
+        "PAST_SPOT_" : "4283022010008",
+        "MNTN_ID" : "428302201"
+      },
+      "geometry" : {
+        "x" : 348480.24040001538,
+        "y" : 602353.47720000893
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 49160,
+        "MNTN_CODE" : "428306304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "하층식생 정리요망",
+        "MNTN_NM" : "상광정리",
+        "PAST_SPOT_" : "4283022010009",
+        "MNTN_ID" : "428302201"
+      },
+      "geometry" : {
+        "x" : 348275.30530001316,
+        "y" : 602384.58170000464
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 49161,
+        "MNTN_CODE" : "428306304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "계단설치 요망",
+        "MNTN_NM" : "상광정리",
+        "PAST_SPOT_" : "4283022010010",
+        "MNTN_ID" : "428302201"
+      },
+      "geometry" : {
+        "x" : 348511.62600001693,
+        "y" : 602389.15970000066
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 49162,
+        "MNTN_CODE" : "428306304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "주변환경 정리요망",
+        "MNTN_NM" : "상광정리",
+        "PAST_SPOT_" : "4283022010011",
+        "MNTN_ID" : "428302201"
+      },
+      "geometry" : {
+        "x" : 348529.24540001433,
+        "y" : 602400.57320000418
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 49163,
+        "MNTN_CODE" : "428306304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상광정리",
+        "PAST_SPOT_" : "4283022010012",
+        "MNTN_ID" : "428302201"
+      },
+      "geometry" : {
+        "x" : 348294.76790001336,
+        "y" : 602426.1435000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 49164,
+        "MNTN_CODE" : "428306304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "주변환경 정리요망",
+        "MNTN_NM" : "상광정리",
+        "PAST_SPOT_" : "4283022010013",
+        "MNTN_ID" : "428302201"
+      },
+      "geometry" : {
+        "x" : 348303.54180001188,
+        "y" : 602454.89680000022
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 49165,
+        "MNTN_CODE" : "428306304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "하층식생 정리요망",
+        "MNTN_NM" : "상광정리",
+        "PAST_SPOT_" : "4283022010014",
+        "MNTN_ID" : "428302201"
+      },
+      "geometry" : {
+        "x" : 348310.49980001431,
+        "y" : 602462.67400000058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 49166,
+        "MNTN_CODE" : "428306304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "주변환경 정리요망",
+        "MNTN_NM" : "상광정리",
+        "PAST_SPOT_" : "4283022010015",
+        "MNTN_ID" : "428302201"
+      },
+      "geometry" : {
+        "x" : 348587.55430001393,
+        "y" : 602476.66599999927
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 49167,
+        "MNTN_CODE" : "428306304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "하층식생 정리요망",
+        "MNTN_NM" : "상광정리",
+        "PAST_SPOT_" : "4283022010016",
+        "MNTN_ID" : "428302201"
+      },
+      "geometry" : {
+        "x" : 348618.9132000152,
+        "y" : 602504.09780000336
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 49168,
+        "MNTN_CODE" : "428306304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상광정리",
+        "PAST_SPOT_" : "4283022010017",
+        "MNTN_ID" : "428302201"
+      },
+      "geometry" : {
+        "x" : 348650.32050001435,
+        "y" : 602533.20739999972
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 49169,
+        "MNTN_CODE" : "428306304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "주변환경 정리요망",
+        "MNTN_NM" : "상광정리",
+        "PAST_SPOT_" : "4283022010018",
+        "MNTN_ID" : "428302201"
+      },
+      "geometry" : {
+        "x" : 348626.2139000129,
+        "y" : 602602.70549999923
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 49170,
+        "MNTN_CODE" : "428306304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "하층식생 정리요망",
+        "MNTN_NM" : "상광정리",
+        "PAST_SPOT_" : "4283022010019",
+        "MNTN_ID" : "428302201"
+      },
+      "geometry" : {
+        "x" : 348610.4842000138,
+        "y" : 602618.83200000785
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 49171,
+        "MNTN_CODE" : "428306304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "주변환경 정리요망",
+        "MNTN_NM" : "상광정리",
+        "PAST_SPOT_" : "4283022010020",
+        "MNTN_ID" : "428302201"
+      },
+      "geometry" : {
+        "x" : 348548.18590001576,
+        "y" : 602656.47680000588
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 49172,
+        "MNTN_CODE" : "428306304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "주변환경 정리요망",
+        "MNTN_NM" : "상광정리",
+        "PAST_SPOT_" : "4283022010021",
+        "MNTN_ID" : "428302201"
+      },
+      "geometry" : {
+        "x" : 348573.29040001426,
+        "y" : 602662.55180000141
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 49173,
+        "MNTN_CODE" : "428306304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "출발지(계단설치요망)",
+        "MNTN_NM" : "상광정리",
+        "PAST_SPOT_" : "4283022010022",
+        "MNTN_ID" : "428302201"
+      },
+      "geometry" : {
+        "x" : 348452.5821000142,
+        "y" : 602682.97890000418
+      }
+    }
+  ]
+}

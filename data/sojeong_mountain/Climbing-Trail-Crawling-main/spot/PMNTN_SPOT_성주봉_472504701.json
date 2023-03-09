@@ -1,0 +1,801 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 52630,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "119 5번지점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010001",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 293383.25320000295,
+        "y" : 436709.21550000086
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 52631,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010002",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 293423.06590000447,
+        "y" : 436174.86230000295
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 52632,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010003",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 293244.83000000007,
+        "y" : 435731.73739999905
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 52633,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010004",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 293087.52029999904,
+        "y" : 435470.80660000257
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 52634,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010005",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 292967.04510000348,
+        "y" : 435477.61109999754
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 52635,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010006",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 293052.65780000295,
+        "y" : 436250.06350000016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 52636,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "숲속교실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010007",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 293086.92100000009,
+        "y" : 436425.61580000073
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 52637,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산림욕장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010008",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 293095.22820000071,
+        "y" : 436469.36790000089
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 52638,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "정 자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010009",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 293163.63720000163,
+        "y" : 437166.99840000272
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 52639,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010010",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 293191.56490000058,
+        "y" : 437835.75810000114
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 52640,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산딸기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010011",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 293029.64020000305,
+        "y" : 437424.12160000019
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 52641,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010012",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 292811.67410000321,
+        "y" : 436945.44889999926
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 52642,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "눈사람바위",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010013",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 292699.00329999998,
+        "y" : 436775.45940000378
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 52643,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010014",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 292641.71310000215,
+        "y" : 436625.68820000067
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 52644,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010015",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 292737.74370000046,
+        "y" : 436518.79480000213
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 52645,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010016",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 293444.30560000241,
+        "y" : 437412.15260000154
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 52646,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010017",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 293500.70740000065,
+        "y" : 437398.2239000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 52647,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "바위속샘물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010018",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 293735.23080000281,
+        "y" : 437146.8489999976
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 52648,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010019",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 293745.86490000132,
+        "y" : 437032.87990000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 52649,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암벽등반",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010020",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 293633.55340000242,
+        "y" : 436977.70960000157
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 52650,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010021",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 293514.01280000247,
+        "y" : 436944.76000000164
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 52651,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010022",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 293446.84179999772,
+        "y" : 436976.81850000098
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 52652,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "숲속3,5호",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010023",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 293270.75750000216,
+        "y" : 437132.28390000202
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 52653,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010024",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 293193.22770000156,
+        "y" : 437178.21680000424
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 52654,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010025",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 293884.50189999957,
+        "y" : 436828.53690000251
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 52655,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010026",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 293883.08249999955,
+        "y" : 436805.02530000173
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 52656,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010027",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 292444.63450000063,
+        "y" : 436174.2762000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 52657,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "바위",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010028",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 292440.3060999997,
+        "y" : 436212.90899999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 52658,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010029",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 292606.8302000016,
+        "y" : 436452.0401000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 52659,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010030",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 292574.77960000094,
+        "y" : 435695.67199999839
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 52660,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010031",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 292544.92100000195,
+        "y" : 435974.7517000027
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 52661,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010032",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 292635.64500000048,
+        "y" : 436463.64670000225
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 52662,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010033",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 292784.13650000282,
+        "y" : 435601.10100000352
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 52663,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "숲길끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010034",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 293109.8469000021,
+        "y" : 436941.20969999768
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 52664,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010035",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 293138.72880000062,
+        "y" : 437228.18080000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 52665,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010036",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 293188.23580000177,
+        "y" : 437158.50420000404
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 52666,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010037",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 293221.08434189111,
+        "y" : 437654.12857329473
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 52667,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010038",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 293527.46070000064,
+        "y" : 436360.76270000264
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 52668,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010039",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 293772.70330000017,
+        "y" : 436971.79460000619
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 52669,
+        "MNTN_CODE" : "472504701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "성주봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성주봉",
+        "PAST_SPOT_" : "27093607010040",
+        "MNTN_ID" : "2709360701"
+      },
+      "geometry" : {
+        "x" : 293874.06130000111,
+        "y" : 436941.53980000131
+      }
+    }
+  ]
+}

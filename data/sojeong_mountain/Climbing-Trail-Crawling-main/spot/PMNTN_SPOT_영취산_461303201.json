@@ -1,0 +1,1413 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 65078,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "START",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000001",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 266098.67040000204,
+        "y" : 249409.26170000061
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 65079,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "END",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000002",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 266121.65759999957,
+        "y" : 249399.15330000035
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 65080,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "START",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000003",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 266138.59729999956,
+        "y" : 249386.64940000325
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 65081,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "END",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000004",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 266149.67620000057,
+        "y" : 249380.1166999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 65082,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000005",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 265915.62210000306,
+        "y" : 248691.88360000215
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 65083,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000006",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 266004.29069999978,
+        "y" : 248374.00190000422
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 65084,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000007",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 265773.00790000055,
+        "y" : 248541.35009999946
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 65085,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철계단",
+        "ETC_MATTER" : "START",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000008",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 265770.59360000119,
+        "y" : 248538.65900000185
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 65086,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "철계단 등반주의 안내문,철계단",
+        "ETC_MATTER" : "END",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000009",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 265752.60840000119,
+        "y" : 248536.03410000354
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 65087,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "공동묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000010",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 267789.10830000322,
+        "y" : 249765.15610000119
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 65088,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "이동식화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000011",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 266628.5373999998,
+        "y" : 249381.92220000178
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 65089,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "임도시설안내판,이정표,임도,골명치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000012",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 266618.85059999954,
+        "y" : 249379.34450000152
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 65090,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철탑,목계단",
+        "ETC_MATTER" : "START",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000013",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 267037.70249999966,
+        "y" : 248964.96119999886
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 65091,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "END",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000014",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 267005.76420000009,
+        "y" : 248951.52560000122
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 65092,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "진달래 기념비",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000015",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 265976.46650000289,
+        "y" : 249632.5858000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 65093,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "START",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000016",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 266965.20490000118,
+        "y" : 248931.02660000138
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 65094,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "END",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000017",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 266930.57919999957,
+        "y" : 248917.2610000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 65095,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도",
+        "ETC_MATTER" : "이정표요",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000018",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 266737.07980000041,
+        "y" : 248806.42700000107
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 65096,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경비초소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000019",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 266350.37829999998,
+        "y" : 248800.22200000286
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 65097,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "초소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000020",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 266200.51950000133,
+        "y" : 248739.70729999989
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 65098,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "산림안내간판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000021",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 266296.690200001,
+        "y" : 248214.9991999995
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 65099,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000022",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 265881.95550000388,
+        "y" : 248108.52720000036
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 65100,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "START",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000023",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 266010.98280000221,
+        "y" : 249577.32679999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 65101,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,음수대,목계단(침목)",
+        "ETC_MATTER" : "START",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000024",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 265597.60180000123,
+        "y" : 247958.43590000458
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 65102,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : "도솔암길",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000025",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 265434.03740000073,
+        "y" : 248302.96980000101
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 65103,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "스탠난간",
+        "ETC_MATTER" : "START",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000026",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 265435.52840000391,
+        "y" : 248314.57440000027
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 65104,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단, 스탠난간",
+        "ETC_MATTER" : "END",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000027",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 265433.3860000018,
+        "y" : 248322.51400000229
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 65105,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000028",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 265487.75670000073,
+        "y" : 248340.3973999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 65106,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "END",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000029",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 266020.34470000211,
+        "y" : 249567.83040000312
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 65107,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "편백림",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000030",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 264899.4775000019,
+        "y" : 246113.61270000413
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 65108,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼각점",
+        "ETC_MATTER" : "1996년 광양312 대리석",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000031",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 264889.74500000104,
+        "y" : 246184.43880000152
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 65109,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망,헬기장1",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000032",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 265309.96729999967,
+        "y" : 246976.67410000227
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 65110,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000033",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 265556.93019999936,
+        "y" : 247427.67600000277
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 65111,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장2",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000034",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 265696.43149999995,
+        "y" : 247608.39400000125
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 65112,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망,헬기장3",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000035",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 265676.02930000238,
+        "y" : 247772.29429999925
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 65113,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "119구조.구급함",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000036",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 265598.51470000111,
+        "y" : 247924.09320000187
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 65114,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "영취산진달래 군락지안내도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000037",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 263919.28060000017,
+        "y" : 247519.67430000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 65115,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000038",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 263960.28840000182,
+        "y" : 247535.40310000069
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 65116,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "START",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000039",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 266037.76220000163,
+        "y" : 249538.42129999958
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 65117,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "자연보호안내판,수렵금지안내판,조수보호구역안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000040",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 263985.69130000286,
+        "y" : 247565.02490000427
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 65118,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000041",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 264039.30620000325,
+        "y" : 247599.18120000139
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 65119,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000042",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 264377.13379999995,
+        "y" : 247723.32540000044
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 65120,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "영취산숯가마",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000043",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 264686.19840000011,
+        "y" : 247856.41080000438
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 65121,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "등산안내도,화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000044",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 265578.53569999989,
+        "y" : 247945.56320000067
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 65122,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "등산안내도요",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000045",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 262988.4550999999,
+        "y" : 248433.56270000152
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 65123,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "개발제한구역표지석",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000046",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 263106.3489000015,
+        "y" : 248565.77570000105
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 65124,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000047",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 263546.71090000402,
+        "y" : 248717.90929999948
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 65125,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000048",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 264234.83560000081,
+        "y" : 248286.8040000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 65126,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "END",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000049",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 266056.27550000045,
+        "y" : 249496.54979999922
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 65127,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000050",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 264634.79520000052,
+        "y" : 248369.85419999994
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 50,
+        "PMNTN_SPOT" : 65128,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000051",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 264777.00810000207,
+        "y" : 248442.67070000246
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 51,
+        "PMNTN_SPOT" : 65129,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000052",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 264925.39259999897,
+        "y" : 248515.67730000056
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 52,
+        "PMNTN_SPOT" : 65130,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000053",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 264970.37719999999,
+        "y" : 248511.50170000084
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 53,
+        "PMNTN_SPOT" : 65131,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "START",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000054",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 266054.95920000039,
+        "y" : 249472.24290000275
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 54,
+        "PMNTN_SPOT" : 65132,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "END",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000055",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 266076.69460000005,
+        "y" : 249459.36280000769
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 55,
+        "PMNTN_SPOT" : 65133,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000056",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 262941.49310000055,
+        "y" : 248428.70340000093
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 56,
+        "PMNTN_SPOT" : 65134,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000057",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 263790.4531000033,
+        "y" : 247608.77960000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 57,
+        "PMNTN_SPOT" : 65135,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,등산안내도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000058",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 264892.96680000052,
+        "y" : 246044.18100000173
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 58,
+        "PMNTN_SPOT" : 65136,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000059",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 265401.13389999978,
+        "y" : 248313.9857000038
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 59,
+        "PMNTN_SPOT" : 65137,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000060",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 265429.10120000131,
+        "y" : 248292.1174000036
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 60,
+        "PMNTN_SPOT" : 65138,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상,조망,헬기장,송신안테나",
+        "ETC_MATTER" : "END POINT, 정상표지석",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000061",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 265533.92779999971,
+        "y" : 248411.24420000054
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 61,
+        "PMNTN_SPOT" : 65139,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "봉우치 주차장,접점",
+        "ETC_MATTER" : "봉우제,END POINT",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000062",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 265602.67880000081,
+        "y" : 247945.71319999918
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 62,
+        "PMNTN_SPOT" : 65140,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,우회로",
+        "ETC_MATTER" : "우회로 종점",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000063",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 265722.79580000043,
+        "y" : 248535.76549999975
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 63,
+        "PMNTN_SPOT" : 65141,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000064",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 265818.4514000034,
+        "y" : 249946.21010000259
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 64,
+        "PMNTN_SPOT" : 65142,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,우회로",
+        "ETC_MATTER" : "우회로 시점",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000065",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 265861.0821000021,
+        "y" : 248627.78700000234
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 65,
+        "PMNTN_SPOT" : 65143,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "조망점,이정표,접점",
+        "ETC_MATTER" : "삼거리,END POINT",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000066",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 265962.81920000073,
+        "y" : 248814.08250000328
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 66,
+        "PMNTN_SPOT" : 65144,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "조망점,이정표,접점",
+        "ETC_MATTER" : "삼거리,END POINT",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000067",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 265974.19230000209,
+        "y" : 248779.39710000344
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 67,
+        "PMNTN_SPOT" : 65145,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "조망점,이정표,접점",
+        "ETC_MATTER" : "삼거리,END POINT",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000068",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 265987.24680000078,
+        "y" : 248795.78979999945
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 68,
+        "PMNTN_SPOT" : 65146,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "이정표요,END POINT",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000069",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 266001.92540000007,
+        "y" : 248373.41910000704
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 69,
+        "PMNTN_SPOT" : 65147,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "END POINT",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000070",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 266155.29570000153,
+        "y" : 249280.58200000413
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 70,
+        "PMNTN_SPOT" : 65148,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000071",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 266262.52529999986,
+        "y" : 248229.46450000443
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 71,
+        "PMNTN_SPOT" : 65149,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000072",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 267036.02070000023,
+        "y" : 247949.77000000514
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 72,
+        "PMNTN_SPOT" : 65150,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000073",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 267212.83100000117,
+        "y" : 249002.14940000325
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 73,
+        "PMNTN_SPOT" : 65151,
+        "MNTN_CODE" : "461303201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영취산",
+        "PAST_SPOT_" : "26132431000074",
+        "MNTN_ID" : "2613243100"
+      },
+      "geometry" : {
+        "x" : 267718.43870000262,
+        "y" : 249065.89800000004
+      }
+    }
+  ]
+}

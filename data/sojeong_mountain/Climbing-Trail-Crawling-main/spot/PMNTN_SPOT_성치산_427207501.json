@@ -1,0 +1,513 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 52800,
+        "MNTN_CODE" : "427207501",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "소정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성치산",
+        "PAST_SPOT_" : "4272075010001",
+        "MNTN_ID" : "427207501"
+      },
+      "geometry" : {
+        "x" : 274355.45280000102,
+        "y" : 571853.0549000036
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 52801,
+        "MNTN_CODE" : "427207501",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상,전경사진",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성치산",
+        "PAST_SPOT_" : "4272075010002",
+        "MNTN_ID" : "427207501"
+      },
+      "geometry" : {
+        "x" : 274968.8329999987,
+        "y" : 571670.84690000117
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 52802,
+        "MNTN_CODE" : "427207501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "송전탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성치산",
+        "PAST_SPOT_" : "4272075010003",
+        "MNTN_ID" : "427207501"
+      },
+      "geometry" : {
+        "x" : 274846.4282000009,
+        "y" : 571346.46939999983
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 52803,
+        "MNTN_CODE" : "427207501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "불금봉,삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성치산",
+        "PAST_SPOT_" : "4272075010004",
+        "MNTN_ID" : "427207501"
+      },
+      "geometry" : {
+        "x" : 274655.47160000075,
+        "y" : 570708.45170000196
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 52804,
+        "MNTN_CODE" : "427207501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길사라짐",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성치산",
+        "PAST_SPOT_" : "4272075010005",
+        "MNTN_ID" : "427207501"
+      },
+      "geometry" : {
+        "x" : 273961.89290000033,
+        "y" : 569938.11850000359
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 52805,
+        "MNTN_CODE" : "427207501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "송전탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성치산",
+        "PAST_SPOT_" : "4272075010006",
+        "MNTN_ID" : "427207501"
+      },
+      "geometry" : {
+        "x" : 275252.77280000132,
+        "y" : 570806.05390000343
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 52806,
+        "MNTN_CODE" : "427207501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성치산",
+        "PAST_SPOT_" : "4272075010007",
+        "MNTN_ID" : "427207501"
+      },
+      "geometry" : {
+        "x" : 273352.18410000205,
+        "y" : 571459.35110000148
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 52807,
+        "MNTN_CODE" : "427207501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성치산",
+        "PAST_SPOT_" : "4272075010008",
+        "MNTN_ID" : "427207501"
+      },
+      "geometry" : {
+        "x" : 273821.4907000009,
+        "y" : 570115.4832000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 52808,
+        "MNTN_CODE" : "427207501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성치산",
+        "PAST_SPOT_" : "4272075010009",
+        "MNTN_ID" : "427207501"
+      },
+      "geometry" : {
+        "x" : 274816.00510000065,
+        "y" : 570870.5829000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 52809,
+        "MNTN_CODE" : "427207501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성치산",
+        "PAST_SPOT_" : "4272075010010",
+        "MNTN_ID" : "427207501"
+      },
+      "geometry" : {
+        "x" : 275229.13769999892,
+        "y" : 570726.24070000276
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 52810,
+        "MNTN_CODE" : "427207501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성치산",
+        "PAST_SPOT_" : "4272075010011",
+        "MNTN_ID" : "427207501"
+      },
+      "geometry" : {
+        "x" : 275305.10010000225,
+        "y" : 567904.55949999951
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 52811,
+        "MNTN_CODE" : "427207501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성치산",
+        "PAST_SPOT_" : "4272075010012",
+        "MNTN_ID" : "427207501"
+      },
+      "geometry" : {
+        "x" : 276600.16030000057,
+        "y" : 570341.64980000257
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 97655,
+        "MNTN_CODE" : "427207501",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성치산",
+        "PAST_SPOT_" : "4272075010013",
+        "MNTN_ID" : "427207501"
+      },
+      "geometry" : {
+        "x" : 274730.18059999857,
+        "y" : 571894.42099999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 97656,
+        "MNTN_CODE" : "427207501",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "송전탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성치산",
+        "PAST_SPOT_" : "4272075010014",
+        "MNTN_ID" : "427207501"
+      },
+      "geometry" : {
+        "x" : 274845.60480000061,
+        "y" : 570875.17509999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 97657,
+        "MNTN_CODE" : "427207501",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "불금봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성치산",
+        "PAST_SPOT_" : "4272075010015",
+        "MNTN_ID" : "427207501"
+      },
+      "geometry" : {
+        "x" : 274785.13410000061,
+        "y" : 570147.40000000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 97658,
+        "MNTN_CODE" : "427207501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길사라짐",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성치산",
+        "PAST_SPOT_" : "4272075010016",
+        "MNTN_ID" : "427207501"
+      },
+      "geometry" : {
+        "x" : 273821.03050000028,
+        "y" : 570115.71180000016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 97659,
+        "MNTN_CODE" : "427207501",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "송전탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성치산",
+        "PAST_SPOT_" : "4272075010017",
+        "MNTN_ID" : "427207501"
+      },
+      "geometry" : {
+        "x" : 275225.8713000007,
+        "y" : 570724.64790000068
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 97660,
+        "MNTN_CODE" : "427207501",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성치산",
+        "PAST_SPOT_" : "4272075010018",
+        "MNTN_ID" : "427207501"
+      },
+      "geometry" : {
+        "x" : 243545.97520000121,
+        "y" : 379065.8082999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 97661,
+        "MNTN_CODE" : "427207501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성치산",
+        "PAST_SPOT_" : "4272075010019",
+        "MNTN_ID" : "427207501"
+      },
+      "geometry" : {
+        "x" : 242525.959200001,
+        "y" : 378361.47560000035
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 97662,
+        "MNTN_CODE" : "427207501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성치산",
+        "PAST_SPOT_" : "4272075010020",
+        "MNTN_ID" : "427207501"
+      },
+      "geometry" : {
+        "x" : 242349.76449999894,
+        "y" : 377958.1982000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 97663,
+        "MNTN_CODE" : "427207501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성치산",
+        "PAST_SPOT_" : "4272075010021",
+        "MNTN_ID" : "427207501"
+      },
+      "geometry" : {
+        "x" : 242199.5400000001,
+        "y" : 377466.42229999986
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 97664,
+        "MNTN_CODE" : "427207501",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "성봉정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성치산",
+        "PAST_SPOT_" : "4272075010022",
+        "MNTN_ID" : "427207501"
+      },
+      "geometry" : {
+        "x" : 242510.34969999999,
+        "y" : 377060.32239999948
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 97665,
+        "MNTN_CODE" : "427207501",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "신동재정상, 이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성치산",
+        "PAST_SPOT_" : "4272075010023",
+        "MNTN_ID" : "427207501"
+      },
+      "geometry" : {
+        "x" : 241988.77969999908,
+        "y" : 376818.70260000072
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 97666,
+        "MNTN_CODE" : "427207501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "광대정마을",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성치산",
+        "PAST_SPOT_" : "4272075010024",
+        "MNTN_ID" : "427207501"
+      },
+      "geometry" : {
+        "x" : 213808.60559999931,
+        "y" : 423910.28910000063
+      }
+    }
+  ]
+}

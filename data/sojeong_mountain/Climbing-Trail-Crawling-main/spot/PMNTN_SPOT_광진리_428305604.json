@@ -1,0 +1,765 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 8614,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010001",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 354739.25180000905,
+        "y" : 597068.38450000063
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 8615,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010002",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 354799.04380001314,
+        "y" : 597457.6427000016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 8616,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010003",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 354830.16010001116,
+        "y" : 597247.76050000079
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 8617,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010004",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 354835.65120000951,
+        "y" : 597269.72499999963
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 8618,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010005",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 354867.25070000906,
+        "y" : 597251.98310000077
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 8619,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010006",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 354888.12170000933,
+        "y" : 597243.48970000073
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 8620,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010007",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 354916.18740000948,
+        "y" : 597242.26940000057
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 8621,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010008",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 354936.32140001189,
+        "y" : 597177.59640000388
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 8622,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010009",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 354958.8960000081,
+        "y" : 597247.15040000156
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 8623,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010010",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 355156.39200001024,
+        "y" : 597231.76610000432
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 8624,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010011",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 354806.45610002056,
+        "y" : 597074.49699999951
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 8625,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "이후로 송이산임.",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010012",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 354749.30420001782,
+        "y" : 597079.78000000119
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 8626,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "주변환경 정리 요망",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010013",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 354825.54430001881,
+        "y" : 597101.44280000031
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 8627,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010014",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 354826.56610001717,
+        "y" : 597122.27260000259
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 8628,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "하층식생 정리 요망",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010015",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 354824.44960001856,
+        "y" : 597157.95690000057
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 8629,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "작물보호제 실용화 시험 포장지",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010016",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 354939.43440001644,
+        "y" : 597182.91860000044
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 8630,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010017",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 354885.02290001698,
+        "y" : 597229.75129999965
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 8631,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010018",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 354890.58550001681,
+        "y" : 597234.54270000197
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 8632,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "시작점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010019",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 355150.48400001787,
+        "y" : 597237.84119999968
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 8633,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "밤나무",
+        "ETC_MATTER" : "작물보호제 실용화 시험 포장지",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010020",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 355011.25540001877,
+        "y" : 597243.35559999757
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 8634,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "계단 설치 요망",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010021",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 354918.47330001835,
+        "y" : 597247.10790000111
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 8635,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "밤나무",
+        "ETC_MATTER" : "작물보호제 실용화 시험 포장지",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010022",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 354957.68140001781,
+        "y" : 597247.31660000049
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 8636,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "공동묘지",
+        "ETC_MATTER" : "마을에서 전체적으로 관리함",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010023",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 354834.0089000212,
+        "y" : 597248.97520000115
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 8637,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "주변 환경 정리 요망",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010024",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 355037.27670001797,
+        "y" : 597255.11960000359
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 8638,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "계단 설치 요망",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010025",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 355130.71290001459,
+        "y" : 597255.83410000056
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 8639,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "주변환경 정리 요망",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010026",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 354858.05970002152,
+        "y" : 597259.87959999964
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 8640,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "밤나무",
+        "ETC_MATTER" : "작물보호제 실용화 시험포장지",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010027",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 355080.66260001902,
+        "y" : 597260.81610000134
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 8641,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "밭길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010028",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 355110.4877000181,
+        "y" : 597265.31210000068
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 8642,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010029",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 354834.03090001922,
+        "y" : 597266.87659999914
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 8643,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "하층식생 정리 요망",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010030",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 354929.3430000199,
+        "y" : 597273.90960000828
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 8644,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : "안전로프 설치 요망",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010031",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 354928.58190001827,
+        "y" : 597323.90040000342
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 8645,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "하층식생 정리 요망",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010032",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 354934.5466000177,
+        "y" : 597340.42620000057
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 8646,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "마을 입구",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010033",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 354960.3413000172,
+        "y" : 597380.88060000353
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 8647,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "계단 설치 요망",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010034",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 354950.54160002246,
+        "y" : 597403.01590000466
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 8648,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "암석지대",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010035",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 354951.14020001795,
+        "y" : 597424.34860000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 8649,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : "안전 로프 및 휀스 설치 요망",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010036",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 354911.42640001792,
+        "y" : 597443.47490000352
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 8650,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "하층식생 정리 요망",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010037",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 354894.51420001779,
+        "y" : 597450.7507000044
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 8651,
+        "MNTN_CODE" : "428305604",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "마을 입구",
+        "MNTN_NM" : "광진리",
+        "PAST_SPOT_" : "4283005010038",
+        "MNTN_ID" : "428300501"
+      },
+      "geometry" : {
+        "x" : 354796.03500001878,
+        "y" : 597458.8161999993
+      }
+    }
+  ]
+}

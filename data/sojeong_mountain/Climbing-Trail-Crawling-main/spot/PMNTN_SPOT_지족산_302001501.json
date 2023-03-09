@@ -1,0 +1,945 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 81136,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010001",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227407.01540000085,
+        "y" : 419524.61120000295
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 81137,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010002",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227457.03199999966,
+        "y" : 419397.57770000212
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 81138,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010003",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227491.22929999977,
+        "y" : 419376.26650000177
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 81139,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010004",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227528.61950000003,
+        "y" : 420627.65609999932
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 81140,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010005",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227572.85070000123,
+        "y" : 419466.91490000114
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 81141,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010006",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227644.90180000104,
+        "y" : 420236.98750000261
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 81142,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010007",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227693.52850000188,
+        "y" : 420493.18899999745
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 81143,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010008",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227710.85190000013,
+        "y" : 419514.61900000088
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 81144,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010009",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227726.36060000118,
+        "y" : 420707.12840000167
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 81145,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010010",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227739.73849999998,
+        "y" : 420642.44349999912
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 81146,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010011",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227757.66789999977,
+        "y" : 420250.57360000163
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 81147,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010012",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227768.77560000122,
+        "y" : 420236.81579999812
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 81148,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010013",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227783.85190000013,
+        "y" : 420264.14100000076
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 81149,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010014",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227793.34760000184,
+        "y" : 419103.94740000181
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 81150,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010015",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227820.01370000001,
+        "y" : 419635.13500000164
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 81151,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010016",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227829.816300001,
+        "y" : 419549.86550000124
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 81152,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010017",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227845.49650000129,
+        "y" : 419717.31030000187
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 81153,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010018",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227847.99220000021,
+        "y" : 419401.7052999977
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 81154,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010019",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227848.56190000009,
+        "y" : 419545.21249999851
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 81155,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010020",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227852.60750000086,
+        "y" : 419864.78690000065
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 81156,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010021",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227863.05960000213,
+        "y" : 421114.74570000172
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 81157,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010022",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227866.7818,
+        "y" : 421026.58720000088
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 81158,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010023",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227879.60699999984,
+        "y" : 420879.6846000012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 81159,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010024",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227905.92340000067,
+        "y" : 420924.37800000422
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 81160,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010025",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227920.67370000016,
+        "y" : 421010.4422999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 81161,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010026",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227922.70660000108,
+        "y" : 420843.0607000012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 81162,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010027",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227925.87230000086,
+        "y" : 420991.10080000386
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 81163,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010028",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227932.46120000072,
+        "y" : 420981.752700001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 81164,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010029",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227951.46480000205,
+        "y" : 419700.59070000425
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 81165,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010030",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227956.91380000021,
+        "y" : 419133.21590000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 81166,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010031",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227958.54540000018,
+        "y" : 419326.15650000051
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 81167,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010032",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227968.55440000072,
+        "y" : 420476.30220000073
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 81168,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010033",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227983.48710000049,
+        "y" : 419300.11480000243
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 81169,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010034",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227996.16970000044,
+        "y" : 420633.51029999927
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 81170,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010035",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 227998.9849999994,
+        "y" : 420500.22480000183
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 81171,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010036",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 228008.43120000046,
+        "y" : 420570.64210000075
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 81172,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010037",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 228021.37700000033,
+        "y" : 420615.80330000259
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 81173,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010038",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 228065.57899999991,
+        "y" : 418871.85800000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 81174,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010039",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 228074.4495000001,
+        "y" : 421012.58490000106
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 81175,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010040",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 228085.71600000095,
+        "y" : 419236.78859999962
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 81176,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010041",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 228115.76150000002,
+        "y" : 419186.2293999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 81177,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010042",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 228161.66369999945,
+        "y" : 420912.93960000202
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 81178,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010043",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 228216.00459999871,
+        "y" : 419078.4859000016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 81179,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010044",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 228264.96950000059,
+        "y" : 419758.29940000176
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 81180,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010045",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 228287.24679999985,
+        "y" : 419597.03049999848
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 81181,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010046",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 228306.81060000136,
+        "y" : 420631.27460000105
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 81182,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010047",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 228371.8191000009,
+        "y" : 420772.90020000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 81183,
+        "MNTN_CODE" : "302001501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지족산",
+        "PAST_SPOT_" : "3020015010048",
+        "MNTN_ID" : "302001501"
+      },
+      "geometry" : {
+        "x" : 228460.62160000019,
+        "y" : 420650.74019999988
+      }
+    }
+  ]
+}

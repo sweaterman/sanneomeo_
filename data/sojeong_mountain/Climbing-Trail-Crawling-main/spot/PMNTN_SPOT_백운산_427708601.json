@@ -1,0 +1,423 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 36740,
+        "MNTN_CODE" : "427708601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백운산",
+        "PAST_SPOT_" : "4276025010001",
+        "MNTN_ID" : "427602501"
+      },
+      "geometry" : {
+        "x" : 340375.98059617635,
+        "y" : 521398.91094039753
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 36741,
+        "MNTN_CODE" : "427708601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "능선갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백운산",
+        "PAST_SPOT_" : "4276025010002",
+        "MNTN_ID" : "427602501"
+      },
+      "geometry" : {
+        "x" : 341287.3111178223,
+        "y" : 521361.59669371881
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 36743,
+        "MNTN_CODE" : "427708601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표, 백운산방팬션",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백운산",
+        "PAST_SPOT_" : "22150344000004",
+        "MNTN_ID" : "2215034400"
+      },
+      "geometry" : {
+        "x" : 339990.59140000492,
+        "y" : 521252.24960000254
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 36744,
+        "MNTN_CODE" : "427708601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백운산",
+        "PAST_SPOT_" : "22150344000005",
+        "MNTN_ID" : "2215034400"
+      },
+      "geometry" : {
+        "x" : 340375.98059617635,
+        "y" : 521398.91094039753
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 36745,
+        "MNTN_CODE" : "427708601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백운산",
+        "PAST_SPOT_" : "22150344000006",
+        "MNTN_ID" : "2215034400"
+      },
+      "geometry" : {
+        "x" : 341157.79530000687,
+        "y" : 521074.98990000226
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 36746,
+        "MNTN_CODE" : "427708601",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실, 음수대, 가로등, 이정표, 안내판또는지도, 문희마을",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백운산",
+        "PAST_SPOT_" : "22150344000007",
+        "MNTN_ID" : "2215034400"
+      },
+      "geometry" : {
+        "x" : 339893.70050000772,
+        "y" : 521144.89000000618
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 36747,
+        "MNTN_CODE" : "427708601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표, 칠족령",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백운산",
+        "PAST_SPOT_" : "22150344000008",
+        "MNTN_ID" : "2215034400"
+      },
+      "geometry" : {
+        "x" : 340281.55750000663,
+        "y" : 519872.72990000062
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 36748,
+        "MNTN_CODE" : "427708601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백운산",
+        "PAST_SPOT_" : "22150344000009",
+        "MNTN_ID" : "2215034400"
+      },
+      "geometry" : {
+        "x" : 340343.61440000962,
+        "y" : 520124.77160000242
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 36749,
+        "MNTN_CODE" : "427708601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백운산",
+        "PAST_SPOT_" : "22150344000010",
+        "MNTN_ID" : "2215034400"
+      },
+      "geometry" : {
+        "x" : 341386.72660000436,
+        "y" : 521246.51690000109
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 36750,
+        "MNTN_CODE" : "427708601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "백운산",
+        "ETC_MATTER" : "이정표설치요망",
+        "MNTN_NM" : "백운산",
+        "PAST_SPOT_" : "22150344000011",
+        "MNTN_ID" : "2215034400"
+      },
+      "geometry" : {
+        "x" : 341552.16030000616,
+        "y" : 521281.74490000494
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 100607,
+        "MNTN_CODE" : "427708601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단, 살개목재",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백운산",
+        "PAST_SPOT_" : "22150344000012",
+        "MNTN_ID" : "2215034400"
+      },
+      "geometry" : {
+        "x" : 340505.54390794283,
+        "y" : 520547.76116735127
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 100608,
+        "MNTN_CODE" : "427708601",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "사고지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백운산",
+        "PAST_SPOT_" : "22150344000013",
+        "MNTN_ID" : "2215034400"
+      },
+      "geometry" : {
+        "x" : 340396.80577900656,
+        "y" : 520315.53262198361
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 100609,
+        "MNTN_CODE" : "427708601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백운산",
+        "PAST_SPOT_" : "22150344000014",
+        "MNTN_ID" : "2215034400"
+      },
+      "geometry" : {
+        "x" : 340336.06948406436,
+        "y" : 520116.18653230258
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 100610,
+        "MNTN_CODE" : "427708601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백운산",
+        "PAST_SPOT_" : "22150344000015",
+        "MNTN_ID" : "2215034400"
+      },
+      "geometry" : {
+        "x" : 340349.22273601539,
+        "y" : 520070.14625438239
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 100611,
+        "MNTN_CODE" : "427708601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표, 성터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백운산",
+        "PAST_SPOT_" : "22150344000016",
+        "MNTN_ID" : "2215034400"
+      },
+      "geometry" : {
+        "x" : 340127.61676294298,
+        "y" : 520611.80255122401
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 100612,
+        "MNTN_CODE" : "427708601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백운산",
+        "PAST_SPOT_" : "22150344000017",
+        "MNTN_ID" : "2215034400"
+      },
+      "geometry" : {
+        "x" : 341376.50125369348,
+        "y" : 521227.50910370279
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 100613,
+        "MNTN_CODE" : "427708601",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백운산",
+        "PAST_SPOT_" : "22150344000018",
+        "MNTN_ID" : "2215034400"
+      },
+      "geometry" : {
+        "x" : 341557.17979835463,
+        "y" : 521281.42368201533
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 100614,
+        "MNTN_CODE" : "427708601",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판또는지도, 위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백운산",
+        "PAST_SPOT_" : "22150344000019",
+        "MNTN_ID" : "2215034400"
+      },
+      "geometry" : {
+        "x" : 341154.40512493392,
+        "y" : 521075.18744567508
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 100615,
+        "MNTN_CODE" : "427708601",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백운산",
+        "PAST_SPOT_" : "22150344000020",
+        "MNTN_ID" : "2215034400"
+      },
+      "geometry" : {
+        "x" : 340916.21974397532,
+        "y" : 520903.59883029066
+      }
+    }
+  ]
+}

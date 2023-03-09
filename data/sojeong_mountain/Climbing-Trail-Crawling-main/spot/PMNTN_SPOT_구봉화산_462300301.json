@@ -1,0 +1,711 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 10562,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점,벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000001",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 261694.7200000016,
+        "y" : 261072.89380000159
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 10563,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점,체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000002",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 260441.72430000082,
+        "y" : 260475.85290000029
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 10564,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산불감시초소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000003",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 258749.18200000003,
+        "y" : 260228.6101000011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 10565,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000004",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 258871.91330000199,
+        "y" : 259301.49470000155
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 10566,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "정자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000005",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 258760.20693843812,
+        "y" : 260252.42893848009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 10567,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000006",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 258983.38909331709,
+        "y" : 259005.38248438761
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 10568,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설(운동기구5,벤치2)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000007",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 258492.1286000004,
+        "y" : 259274.1416000016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 10569,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000008",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 261655.60557677411,
+        "y" : 261091.71625990421
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 10570,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설(운동기구5,밴치)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000009",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 258434.29170000367,
+        "y" : 260163.76600000076
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 10571,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "목계단 시작(정상까지)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000010",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 258615.2059990624,
+        "y" : 260171.65560376644
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 10572,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000011",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 259849.02550000325,
+        "y" : 261482.67909999937
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 10573,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "지도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000012",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 261616.32701714057,
+        "y" : 261061.00777018815
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 10574,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "정자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000013",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 258681.25902127661,
+        "y" : 260223.97619943507
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 10575,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "임도 분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000014",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 259757.12060000096,
+        "y" : 259755.53610000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 10576,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "콘크리트길 끝,숲길시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000015",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 259834.36440000031,
+        "y" : 259311.00760000199
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 10577,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "콘크리트길 끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000016",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 257468.55670000054,
+        "y" : 260252.62700000219
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 10578,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "임도분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000017",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 257839.68589999992,
+        "y" : 259811.59759999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 10579,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000018",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 258416.81248224061,
+        "y" : 260165.26017229073
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 10580,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동기구1",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000019",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 261694.7200000016,
+        "y" : 261072.89380000159
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 10581,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000020",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 257081.17280000355,
+        "y" : 261127.56350000016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 10582,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설(밴2,운5),분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000021",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 257946.74530000146,
+        "y" : 259320.71859999746
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 10583,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "헬기장,분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000022",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 258433.11900000088,
+        "y" : 260167.3403000012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 10584,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,황곡저수지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000023",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 258645.06979999971,
+        "y" : 258669.56379999965
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 10585,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : "구봉산정상",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000024",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 258694.05290000048,
+        "y" : 260255.96650000103
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 10586,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "구봉산정상",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000025",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 258720.63750000298,
+        "y" : 260231.33369999938
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 10587,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000026",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 258988.92910000309,
+        "y" : 260258.32389999926
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 10588,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,황곡마을시작점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000027",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 259036.89590000361,
+        "y" : 258627.22830000147
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 10589,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대(약수터)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000028",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 259108.89650000259,
+        "y" : 260025.5923999995
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 10590,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000029",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 259832.43331845757,
+        "y" : 260057.67976695858
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 10591,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,통사마을회관(콘크리트시작)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000030",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 260086.57820000406,
+        "y" : 259070.96119999886
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 10592,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,구간진입로",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000031",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 260374.2510000011,
+        "y" : 261235.31800000183
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 10593,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000032",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 260828.25410000235,
+        "y" : 260546.38620000146
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 10594,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,도이마을회관",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000033",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 261463.19070000201,
+        "y" : 259990.42730000243
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 10595,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "성황동",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000034",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 261891.24840000086,
+        "y" : 260580.56159999967
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 10596,
+        "MNTN_CODE" : "462300301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉화산",
+        "PAST_SPOT_" : "26040103000035",
+        "MNTN_ID" : "2604010300"
+      },
+      "geometry" : {
+        "x" : 258584.20290000085,
+        "y" : 258071.14580000378
+      }
+    }
+  ]
+}

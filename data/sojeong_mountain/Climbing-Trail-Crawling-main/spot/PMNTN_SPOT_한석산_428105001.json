@@ -1,0 +1,495 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 91323,
+        "MNTN_CODE" : "428105001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사방댐",
+        "ETC_MATTER" : "* 36번에서 40번까지 농로구간임  41번부터 47번까지 숲길이나 2006년 수해로 일부숲길이 유실되었고 42번부터 45번까지는 길의 형태를",
+        "MNTN_NM" : "한석산",
+        "PAST_SPOT_" : "22100626000001",
+        "MNTN_ID" : "2210062600"
+      },
+      "geometry" : {
+        "x" : 307106.55010000337,
+        "y" : 606684.67410000227
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 91324,
+        "MNTN_CODE" : "428105001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "종점(가리산아파트)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "한석산",
+        "PAST_SPOT_" : "22100626000002",
+        "MNTN_ID" : "2210062600"
+      },
+      "geometry" : {
+        "x" : 307315.99760000315,
+        "y" : 606527.5943
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 91325,
+        "MNTN_CODE" : "428105001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "한석산",
+        "PAST_SPOT_" : "22100626000003",
+        "MNTN_ID" : "2210062600"
+      },
+      "geometry" : {
+        "x" : 307890.89029999916,
+        "y" : 606966.46319999732
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 91326,
+        "MNTN_CODE" : "428105001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "한석산",
+        "PAST_SPOT_" : "22100626000004",
+        "MNTN_ID" : "2210062600"
+      },
+      "geometry" : {
+        "x" : 308916.58670000173,
+        "y" : 607085.50860000029
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 91327,
+        "MNTN_CODE" : "428105001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "한석산",
+        "PAST_SPOT_" : "22100626000005",
+        "MNTN_ID" : "2210062600"
+      },
+      "geometry" : {
+        "x" : 309068.20090000331,
+        "y" : 607147.27470000274
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 91328,
+        "MNTN_CODE" : "428105001",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : "군유격훈련장",
+        "MNTN_NM" : "한석산",
+        "PAST_SPOT_" : "22100626000006",
+        "MNTN_ID" : "2210062600"
+      },
+      "geometry" : {
+        "x" : 312858.07780000288,
+        "y" : 606707.71070000157
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 91329,
+        "MNTN_CODE" : "428105001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "교각",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "한석산",
+        "PAST_SPOT_" : "22100626000007",
+        "MNTN_ID" : "2210062600"
+      },
+      "geometry" : {
+        "x" : 307542.50870000105,
+        "y" : 603925.7873999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 91330,
+        "MNTN_CODE" : "428105001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "교각",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "한석산",
+        "PAST_SPOT_" : "22100626000008",
+        "MNTN_ID" : "2210062600"
+      },
+      "geometry" : {
+        "x" : 307749.60920000169,
+        "y" : 604206.39500000142
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 91331,
+        "MNTN_CODE" : "428105001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "한석산",
+        "PAST_SPOT_" : "22100626000009",
+        "MNTN_ID" : "2210062600"
+      },
+      "geometry" : {
+        "x" : 308111.39230000228,
+        "y" : 604569.51209999807
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 91332,
+        "MNTN_CODE" : "428105001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사방댐",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "한석산",
+        "PAST_SPOT_" : "22100626000010",
+        "MNTN_ID" : "2210062600"
+      },
+      "geometry" : {
+        "x" : 308303.79610000364,
+        "y" : 604450.98850000277
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 91333,
+        "MNTN_CODE" : "428105001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "연수원",
+        "ETC_MATTER" : "임도종점(숲길시작)",
+        "MNTN_NM" : "한석산",
+        "PAST_SPOT_" : "22100626000011",
+        "MNTN_ID" : "2210062600"
+      },
+      "geometry" : {
+        "x" : 309245.39290000498,
+        "y" : 605100.03380000032
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 91334,
+        "MNTN_CODE" : "428105001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계곡",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "한석산",
+        "PAST_SPOT_" : "22100626000012",
+        "MNTN_ID" : "2210062600"
+      },
+      "geometry" : {
+        "x" : 309529.40670000017,
+        "y" : 605236.75450000167
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 91335,
+        "MNTN_CODE" : "428105001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "화전밭터",
+        "ETC_MATTER" : "길형태 불확실((비고) 주차장에서 연수원건물까지 임도가 이어지며 그후 작은 숲길이 시작되나 29point 부터정상까지는 길을 분간하기",
+        "MNTN_NM" : "한석산",
+        "PAST_SPOT_" : "22100626000013",
+        "MNTN_ID" : "2210062600"
+      },
+      "geometry" : {
+        "x" : 310353.62700000312,
+        "y" : 605428.1054999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 91336,
+        "MNTN_CODE" : "428105001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "오른쪽으로 노선변경",
+        "MNTN_NM" : "한석산",
+        "PAST_SPOT_" : "22100626000014",
+        "MNTN_ID" : "2210062600"
+      },
+      "geometry" : {
+        "x" : 310362.61890000105,
+        "y" : 605639.27400000207
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 91337,
+        "MNTN_CODE" : "428105001",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "샘터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "한석산",
+        "PAST_SPOT_" : "22100626000015",
+        "MNTN_ID" : "2210062600"
+      },
+      "geometry" : {
+        "x" : 310352.70040000416,
+        "y" : 606082.28460000083
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 91338,
+        "MNTN_CODE" : "428105001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "한석산",
+        "PAST_SPOT_" : "22100626000016",
+        "MNTN_ID" : "2210062600"
+      },
+      "geometry" : {
+        "x" : 305634.13270000368,
+        "y" : 605572.46649999917
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 91339,
+        "MNTN_CODE" : "428105001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "한석산",
+        "PAST_SPOT_" : "22100626000017",
+        "MNTN_ID" : "2210062600"
+      },
+      "geometry" : {
+        "x" : 310263.31310000177,
+        "y" : 606464.11320000142
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 91340,
+        "MNTN_CODE" : "428105001",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "한석산정상부",
+        "ETC_MATTER" : "한석산",
+        "MNTN_NM" : "한석산",
+        "PAST_SPOT_" : "22100626000018",
+        "MNTN_ID" : "2210062600"
+      },
+      "geometry" : {
+        "x" : 310271.45030000061,
+        "y" : 606475.81189999916
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 91341,
+        "MNTN_CODE" : "428105001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "한석산",
+        "PAST_SPOT_" : "22100626000019",
+        "MNTN_ID" : "2210062600"
+      },
+      "geometry" : {
+        "x" : 312293.8702000035,
+        "y" : 607270.0289000012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 91342,
+        "MNTN_CODE" : "428105001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "임도구간",
+        "MNTN_NM" : "한석산",
+        "PAST_SPOT_" : "22100626000020",
+        "MNTN_ID" : "2210062600"
+      },
+      "geometry" : {
+        "x" : 314047.75310000218,
+        "y" : 608556.34979999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 91343,
+        "MNTN_CODE" : "428105001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "한석산",
+        "PAST_SPOT_" : "22100626000021",
+        "MNTN_ID" : "2210062600"
+      },
+      "geometry" : {
+        "x" : 316195.60189999826,
+        "y" : 607576.17179999873
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 91344,
+        "MNTN_CODE" : "428105001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "한석산",
+        "PAST_SPOT_" : "22100626000022",
+        "MNTN_ID" : "2210062600"
+      },
+      "geometry" : {
+        "x" : 307260.8730000034,
+        "y" : 603875.06810000353
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 91345,
+        "MNTN_CODE" : "428105001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "한석산",
+        "PAST_SPOT_" : "4281050010023",
+        "MNTN_ID" : "428105001"
+      },
+      "geometry" : {
+        "x" : 313830.42630000319,
+        "y" : 604075.95780000091
+      }
+    }
+  ]
+}
