@@ -1,0 +1,765 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 16397,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010001",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303383.88140000217,
+        "y" : 422613.47520000115
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 16398,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010002",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303414.4606999997,
+        "y" : 422730.31550000235
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 16399,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010003",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303416.39150000177,
+        "y" : 422732.3825000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 16400,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010004",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303419.02469999995,
+        "y" : 423890.9589000009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 16401,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010005",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303456.90650000051,
+        "y" : 423772.29310000129
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 16402,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010006",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303461.14690000284,
+        "y" : 423774.99550000019
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 16403,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010007",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303488.14609999955,
+        "y" : 422735.31600000151
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 16404,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010008",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303515.78310000338,
+        "y" : 422830.72500000149
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 16405,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010009",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303544.84580000024,
+        "y" : 423656.03670000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 16406,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010010",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303551.61370000243,
+        "y" : 423787.09140000306
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 16407,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010011",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303679.17680000048,
+        "y" : 423774.11870000325
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 16408,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010012",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303763.625,
+        "y" : 423865.69989999942
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 16409,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010013",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303766.35060000326,
+        "y" : 423864.94370000064
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 16410,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010014",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303817.92460000142,
+        "y" : 423910.12800000235
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 16411,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010015",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303383.97430000361,
+        "y" : 422608.60740000196
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 16412,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010016",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303573.39660000242,
+        "y" : 422738.96010000259
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 16413,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010017",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303443.20969999954,
+        "y" : 422764.62060000189
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 16414,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안뜸쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010018",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303421.67400000058,
+        "y" : 422771.48929999955
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 16415,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010019",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303515.76339999959,
+        "y" : 422789.41569999978
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 16416,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010020",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303514.8541000057,
+        "y" : 422831.75819999911
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 16417,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010021",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303531.36980000045,
+        "y" : 422981.55749999732
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 16418,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010022",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303590.66530000046,
+        "y" : 423063.74269999936
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 16419,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010023",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303539.40770000499,
+        "y" : 423165.0185000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 16420,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "신기쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010024",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303370.94130000006,
+        "y" : 423287.8599000033
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 16421,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "봉대쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010025",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303729.35350000393,
+        "y" : 423312.62910000049
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 16422,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010026",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303336.8477000026,
+        "y" : 423338.24210000224
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 16423,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010027",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303731.96940000355,
+        "y" : 423343.70409999974
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 16424,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010028",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303497.36900000274,
+        "y" : 423539.5931000039
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 16425,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010029",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303511.93020000402,
+        "y" : 423598.97960000113
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 16426,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "밤골쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010030",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303440.71860000305,
+        "y" : 423650.26120000146
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 16427,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치,운동시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010031",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303557.53980000224,
+        "y" : 423665.36310000159
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 16428,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "배드민턴장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010032",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303693.64869999979,
+        "y" : 423778.82280000113
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 16429,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "주차장,음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010033",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303549.28740000352,
+        "y" : 423792.90210000239
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 16430,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치,음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010034",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303614.502700001,
+        "y" : 423825.16899999976
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 16431,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "이동식화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010035",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303735.80030000024,
+        "y" : 423852.08060000278
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 16432,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010036",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303746.28019999992,
+        "y" : 423875.22520000115
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 16433,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010037",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303422.20480000041,
+        "y" : 423890.56490000151
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 16434,
+        "MNTN_CODE" : "472504904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기상대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "남산근린공원",
+        "PAST_SPOT_" : "4725008010038",
+        "MNTN_ID" : "472500801"
+      },
+      "geometry" : {
+        "x" : 303818.78589999955,
+        "y" : 423908.42449999973
+      }
+    }
+  ]
+}

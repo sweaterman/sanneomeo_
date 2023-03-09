@@ -1,0 +1,747 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 10668,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "조립식건물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000001",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 340256.3158000065,
+        "y" : 324918.19500000216
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 10669,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "분묘",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000002",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 339999.223400007,
+        "y" : 325312.08610000275
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 10670,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "계곡물(음수)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000003",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 339460.24980000686,
+        "y" : 325593.80490000173
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 10671,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점1",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000004",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 339115.43990000617,
+        "y" : 325135.06579999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 10672,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점2",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000005",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 339094.92060000356,
+        "y" : 325122.88209999911
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 10673,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "도랑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000006",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 339763.7215000093,
+        "y" : 325619.42590000108
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 10674,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "간이이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000007",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 339793.98600000702,
+        "y" : 325642.56280000135
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 10675,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "대나무밭",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000008",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 339862.58890000917,
+        "y" : 325634.92139999941
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 10676,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "농로접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000009",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 339956.56330000702,
+        "y" : 325618.34029999934
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 10677,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000010",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 340169.92810000945,
+        "y" : 325543.80509999953
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 10678,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "수련원",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000011",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 340365.49130000826,
+        "y" : 325490.03030000068
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 10679,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "농로접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000012",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 337227.95380000677,
+        "y" : 325671.787200002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 10680,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "수질보호안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000013",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 337871.08550000936,
+        "y" : 325616.11769999936
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 10681,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "과수원입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000014",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 337972.90850000642,
+        "y" : 325617.19800000079
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 10682,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "분묘",
+        "ETC_MATTER" : "공동묘지",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000015",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 340097.16660000663,
+        "y" : 323678.28710000217
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 10683,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "절벽",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000016",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 339901.45820001047,
+        "y" : 324009.32210000046
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 10684,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "절벽",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000017",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 339790.06620000768,
+        "y" : 324260.15370000154
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 10685,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000018",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 339742.33220000658,
+        "y" : 324288.39959999919
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 10686,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "절벽",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000019",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 339741.15430000704,
+        "y" : 324284.78520000167
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 10687,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "절벽",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000020",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 339717.01570000965,
+        "y" : 324296.25130000338
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 10688,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "절벽",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000021",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 339699.86670000665,
+        "y" : 324300.06830000132
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 10689,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000022",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 339443.41190000623,
+        "y" : 324421.04740000144
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 10690,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안부(오르막)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000023",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 339120.91440000664,
+        "y" : 324801.38000000268
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 10691,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "절벽",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000024",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 339793.26040000934,
+        "y" : 324036.87900000438
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 10692,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점,절벽,",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000025",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 339793.18450000789,
+        "y" : 324120.8311999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 10693,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000026",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 336851.15670000855,
+        "y" : 325605.43990000151
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 10694,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "구현산",
+        "ETC_MATTER" : "2개",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000027",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 339049.19680000935,
+        "y" : 325082.89239999838
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 10695,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "비들재능선,임도능선상단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000028",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 339181.16700000688,
+        "y" : 325692.79780000076
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 10696,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "비들재능선,임도능선상단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000029",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 339199.31520000659,
+        "y" : 325694.97430000454
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 10697,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "제2봉정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000030",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 339202.76770000905,
+        "y" : 324451.32250000164
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 10698,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "제1봉정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000031",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 339470.47000000812,
+        "y" : 324353.76439999975
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 10699,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "간이이정표,분기접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000032",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 339711.45430000685,
+        "y" : 325576.34470000118
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 10700,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000033",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 339796.37680000905,
+        "y" : 323923.261900004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 10701,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "안부(접점)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000034",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 339825.54670000914,
+        "y" : 324184.92300000414
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 10702,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000035",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 340122.0285000084,
+        "y" : 323657.85410000011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 10703,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000036",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 340565.22640000656,
+        "y" : 325489.09440000169
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 10704,
+        "MNTN_CODE" : "487400501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구현산",
+        "PAST_SPOT_" : "28141406000037",
+        "MNTN_ID" : "2814140600"
+      },
+      "geometry" : {
+        "x" : 340576.90620000754,
+        "y" : 324984.71920000017
+      }
+    }
+  ]
+}

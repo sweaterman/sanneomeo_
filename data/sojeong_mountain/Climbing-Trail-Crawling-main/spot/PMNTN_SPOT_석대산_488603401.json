@@ -1,0 +1,531 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 50931,
+        "MNTN_CODE" : "488603401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "진자마을",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "석대산",
+        "PAST_SPOT_" : "28090231000001",
+        "MNTN_ID" : "2809023100"
+      },
+      "geometry" : {
+        "x" : 282099.09717199858,
+        "y" : 301583.08250930347
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 50932,
+        "MNTN_CODE" : "488603401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "석대산",
+        "PAST_SPOT_" : "28090231000002",
+        "MNTN_ID" : "2809023100"
+      },
+      "geometry" : {
+        "x" : 282194.44773462787,
+        "y" : 301365.29220773652
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 50933,
+        "MNTN_CODE" : "488603401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길(사거리)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "석대산",
+        "PAST_SPOT_" : "28090231000003",
+        "MNTN_ID" : "2809023100"
+      },
+      "geometry" : {
+        "x" : 282890.93040788546,
+        "y" : 301054.47250996344
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 50934,
+        "MNTN_CODE" : "488603401",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "바위길(위험구간)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "석대산",
+        "PAST_SPOT_" : "28090231000004",
+        "MNTN_ID" : "2809023100"
+      },
+      "geometry" : {
+        "x" : 283002.80695070978,
+        "y" : 301378.67836080119
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 50935,
+        "MNTN_CODE" : "488603401",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "석대산",
+        "PAST_SPOT_" : "28090231000005",
+        "MNTN_ID" : "2809023100"
+      },
+      "geometry" : {
+        "x" : 283067.53352530301,
+        "y" : 301828.17671941966
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 50936,
+        "MNTN_CODE" : "488603401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "아랫진자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "석대산",
+        "PAST_SPOT_" : "28090231000006",
+        "MNTN_ID" : "2809023100"
+      },
+      "geometry" : {
+        "x" : 282054.61970557831,
+        "y" : 301428.37841455638
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 50937,
+        "MNTN_CODE" : "488603401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "중촌마을(이정표)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "석대산",
+        "PAST_SPOT_" : "28090231000007",
+        "MNTN_ID" : "2809023100"
+      },
+      "geometry" : {
+        "x" : 283544.21402901877,
+        "y" : 300152.80498725176
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 50938,
+        "MNTN_CODE" : "488603401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "석대농기계보관창고",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "석대산",
+        "PAST_SPOT_" : "28090231000008",
+        "MNTN_ID" : "2809023100"
+      },
+      "geometry" : {
+        "x" : 284223.17618350778,
+        "y" : 301636.53441442363
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 50939,
+        "MNTN_CODE" : "488603401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "상수도물탱크(등산 입구)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "석대산",
+        "PAST_SPOT_" : "28090231000009",
+        "MNTN_ID" : "2809023100"
+      },
+      "geometry" : {
+        "x" : 283692.81489169132,
+        "y" : 302064.04821466282
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 50940,
+        "MNTN_CODE" : "488603401",
+        "MANAGE_SP1" : "20",
+        "MANAGE_SP2" : "동굴",
+        "DETAIL_SPO" : "토굴",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "석대산",
+        "PAST_SPOT_" : "28090231000010",
+        "MNTN_ID" : "2809023100"
+      },
+      "geometry" : {
+        "x" : 283497.32077763695,
+        "y" : 301964.85782396235
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 50941,
+        "MNTN_CODE" : "488603401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "송곳바위",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "석대산",
+        "PAST_SPOT_" : "28090231000011",
+        "MNTN_ID" : "2809023100"
+      },
+      "geometry" : {
+        "x" : 283153.95447618235,
+        "y" : 301861.4140029531
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 50942,
+        "MNTN_CODE" : "488603401",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "석대산 정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "석대산",
+        "PAST_SPOT_" : "28090231000012",
+        "MNTN_ID" : "2809023100"
+      },
+      "geometry" : {
+        "x" : 282932.87567374483,
+        "y" : 302052.74598006904
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 50943,
+        "MNTN_CODE" : "488603401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "지리산 장작골",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "석대산",
+        "PAST_SPOT_" : "28090231000013",
+        "MNTN_ID" : "2809023100"
+      },
+      "geometry" : {
+        "x" : 282487.52172040101,
+        "y" : 305229.7536498867
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 50944,
+        "MNTN_CODE" : "488603401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "석대산",
+        "PAST_SPOT_" : "28090231000014",
+        "MNTN_ID" : "2809023100"
+      },
+      "geometry" : {
+        "x" : 282506.73207338993,
+        "y" : 305346.37346452475
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 50945,
+        "MNTN_CODE" : "488603401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "석대산",
+        "PAST_SPOT_" : "28090231000015",
+        "MNTN_ID" : "2809023100"
+      },
+      "geometry" : {
+        "x" : 283242.72778494563,
+        "y" : 305526.0934299659
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 50946,
+        "MNTN_CODE" : "488603401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "상투바위",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "석대산",
+        "PAST_SPOT_" : "28090231000016",
+        "MNTN_ID" : "2809023100"
+      },
+      "geometry" : {
+        "x" : 283303.43734237086,
+        "y" : 305276.11403319798
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 50947,
+        "MNTN_CODE" : "488603401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "수리봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "석대산",
+        "PAST_SPOT_" : "28090231000017",
+        "MNTN_ID" : "2809023100"
+      },
+      "geometry" : {
+        "x" : 283370.39579425473,
+        "y" : 305139.27019868605
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 50948,
+        "MNTN_CODE" : "488603401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철탑(능선)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "석대산",
+        "PAST_SPOT_" : "28090231000018",
+        "MNTN_ID" : "2809023100"
+      },
+      "geometry" : {
+        "x" : 283487.93758457713,
+        "y" : 304298.63220384158
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 50949,
+        "MNTN_CODE" : "488603401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "석대산",
+        "PAST_SPOT_" : "28090231000019",
+        "MNTN_ID" : "2809023100"
+      },
+      "geometry" : {
+        "x" : 283476.18577885814,
+        "y" : 303798.50246062689
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 50950,
+        "MNTN_CODE" : "488603401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "석대산",
+        "PAST_SPOT_" : "28090231000020",
+        "MNTN_ID" : "2809023100"
+      },
+      "geometry" : {
+        "x" : 283444.97164430283,
+        "y" : 303699.11502580158
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 50951,
+        "MNTN_CODE" : "488603401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "석대산",
+        "PAST_SPOT_" : "28090231000021",
+        "MNTN_ID" : "2809023100"
+      },
+      "geometry" : {
+        "x" : 282957.70681554452,
+        "y" : 302262.15405749157
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 50952,
+        "MNTN_CODE" : "488603401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "한재(이정표)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "석대산",
+        "PAST_SPOT_" : "28090231000022",
+        "MNTN_ID" : "2809023100"
+      },
+      "geometry" : {
+        "x" : 282488.73796501942,
+        "y" : 306192.23404500261
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 50953,
+        "MNTN_CODE" : "488603401",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "석대산",
+        "PAST_SPOT_" : "28090231000023",
+        "MNTN_ID" : "2809023100"
+      },
+      "geometry" : {
+        "x" : 282771.71421395522,
+        "y" : 306006.80715944618
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 50954,
+        "MNTN_CODE" : "488603401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "청계버스정류장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "석대산",
+        "PAST_SPOT_" : "28090231000024",
+        "MNTN_ID" : "2809023100"
+      },
+      "geometry" : {
+        "x" : 282307.29513907339,
+        "y" : 303979.87866020575
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 50955,
+        "MNTN_CODE" : "488603401",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "청계약수터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "석대산",
+        "PAST_SPOT_" : "28090231000025",
+        "MNTN_ID" : "2809023100"
+      },
+      "geometry" : {
+        "x" : 282248.50083940662,
+        "y" : 304059.08505772427
+      }
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 84821,
+        "MNTN_CODE" : "422101501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청대산",
+        "PAST_SPOT_" : "4221015010001",
+        "MNTN_ID" : "422101501"
+      },
+      "geometry" : {
+        "x" : 338610.80980000552,
+        "y" : 620797.39030000195
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 84822,
+        "MNTN_CODE" : "422101501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청대산",
+        "PAST_SPOT_" : "4221015010002",
+        "MNTN_ID" : "422101501"
+      },
+      "geometry" : {
+        "x" : 339654.20700030029,
+        "y" : 621202.5922997836
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 84823,
+        "MNTN_CODE" : "422101501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청대산",
+        "PAST_SPOT_" : "4221015010003",
+        "MNTN_ID" : "422101501"
+      },
+      "geometry" : {
+        "x" : 339807.47056993935,
+        "y" : 621387.58856151067
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 84824,
+        "MNTN_CODE" : "422101501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청대산",
+        "PAST_SPOT_" : "4221015010004",
+        "MNTN_ID" : "422101501"
+      },
+      "geometry" : {
+        "x" : 339598.85636098776,
+        "y" : 621608.7614853885
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 84825,
+        "MNTN_CODE" : "422101501",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치,조망점,산불감시장비",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청대산",
+        "PAST_SPOT_" : "22051003000005",
+        "MNTN_ID" : "2205100300"
+      },
+      "geometry" : {
+        "x" : 337759.77990000602,
+        "y" : 620968.1715000011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 84826,
+        "MNTN_CODE" : "422101501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산불감시초소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청대산",
+        "PAST_SPOT_" : "22051003000006",
+        "MNTN_ID" : "2205100300"
+      },
+      "geometry" : {
+        "x" : 338182.41495172121,
+        "y" : 621694.36014927179
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 84827,
+        "MNTN_CODE" : "422101501",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청대산",
+        "PAST_SPOT_" : "22051003000007",
+        "MNTN_ID" : "2205100300"
+      },
+      "geometry" : {
+        "x" : 337428.97330000531,
+        "y" : 621082.49660000019
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 84828,
+        "MNTN_CODE" : "422101501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,벤치,음수대,역사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청대산",
+        "PAST_SPOT_" : "22051003000008",
+        "MNTN_ID" : "2205100300"
+      },
+      "geometry" : {
+        "x" : 337064.68960000388,
+        "y" : 620672.753800001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 84829,
+        "MNTN_CODE" : "422101501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청대산",
+        "PAST_SPOT_" : "22051003000009",
+        "MNTN_ID" : "2205100300"
+      },
+      "geometry" : {
+        "x" : 337072.68870000355,
+        "y" : 620364.74720000103
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 84830,
+        "MNTN_CODE" : "422101501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청대산",
+        "PAST_SPOT_" : "22051003000010",
+        "MNTN_ID" : "2205100300"
+      },
+      "geometry" : {
+        "x" : 337199.35880000331,
+        "y" : 620681.35529999994
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 84831,
+        "MNTN_CODE" : "422101501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청대산",
+        "PAST_SPOT_" : "22051003000011",
+        "MNTN_ID" : "2205100300"
+      },
+      "geometry" : {
+        "x" : 337496.68330000527,
+        "y" : 621597.88910000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 84832,
+        "MNTN_CODE" : "422101501",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치,운동기구",
+        "ETC_MATTER" : "24-2 : 철봉.아령.훌라후프.벤치프레스.줄넘기 외5",
+        "MNTN_NM" : "청대산",
+        "PAST_SPOT_" : "22051003000012",
+        "MNTN_ID" : "2205100300"
+      },
+      "geometry" : {
+        "x" : 337503.19660000596,
+        "y" : 621004.93290000223
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 84833,
+        "MNTN_CODE" : "422101501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청대산",
+        "PAST_SPOT_" : "22051003000013",
+        "MNTN_ID" : "2205100300"
+      },
+      "geometry" : {
+        "x" : 337540.87530000508,
+        "y" : 620913.43970000185
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 84834,
+        "MNTN_CODE" : "422101501",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "청대산정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청대산",
+        "PAST_SPOT_" : "22051003000014",
+        "MNTN_ID" : "2205100300"
+      },
+      "geometry" : {
+        "x" : 337615.29600000475,
+        "y" : 620857.74620000087
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 84835,
+        "MNTN_CODE" : "422101501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청대산",
+        "PAST_SPOT_" : "22051003000015",
+        "MNTN_ID" : "2205100300"
+      },
+      "geometry" : {
+        "x" : 337741.74570000358,
+        "y" : 621748.20900000073
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 84836,
+        "MNTN_CODE" : "422101501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청대산",
+        "PAST_SPOT_" : "22051003000016",
+        "MNTN_ID" : "2205100300"
+      },
+      "geometry" : {
+        "x" : 337828.74120000564,
+        "y" : 620954.50840000063
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 84837,
+        "MNTN_CODE" : "422101501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산불감시초소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청대산",
+        "PAST_SPOT_" : "22051003000017",
+        "MNTN_ID" : "2205100300"
+      },
+      "geometry" : {
+        "x" : 337607.82677495573,
+        "y" : 620874.76028383709
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 84838,
+        "MNTN_CODE" : "422101501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청대산",
+        "PAST_SPOT_" : "22051003000018",
+        "MNTN_ID" : "2205100300"
+      },
+      "geometry" : {
+        "x" : 338184.11350000463,
+        "y" : 621236.48430000059
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 84839,
+        "MNTN_CODE" : "422101501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청대산",
+        "PAST_SPOT_" : "22051003000019",
+        "MNTN_ID" : "2205100300"
+      },
+      "geometry" : {
+        "x" : 338217.81510000583,
+        "y" : 621816.14590000734
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 84840,
+        "MNTN_CODE" : "422101501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청대산",
+        "PAST_SPOT_" : "22051003000020",
+        "MNTN_ID" : "2205100300"
+      },
+      "geometry" : {
+        "x" : 338462.9560000049,
+        "y" : 621759.35840000398
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 84841,
+        "MNTN_CODE" : "422101501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청대산",
+        "PAST_SPOT_" : "22051003000021",
+        "MNTN_ID" : "2205100300"
+      },
+      "geometry" : {
+        "x" : 338519.31510000583,
+        "y" : 621568.26539999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 84842,
+        "MNTN_CODE" : "422101501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "12 : 안내판 설치 요망",
+        "MNTN_NM" : "청대산",
+        "PAST_SPOT_" : "22051003000022",
+        "MNTN_ID" : "2205100300"
+      },
+      "geometry" : {
+        "x" : 338593.28980000503,
+        "y" : 620741.6492999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 84843,
+        "MNTN_CODE" : "422101501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청대산",
+        "PAST_SPOT_" : "22051003000023",
+        "MNTN_ID" : "2205100300"
+      },
+      "geometry" : {
+        "x" : 338601.24330000579,
+        "y" : 621574.80410000123
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 84844,
+        "MNTN_CODE" : "422101501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청대산",
+        "PAST_SPOT_" : "22051003000024",
+        "MNTN_ID" : "2205100300"
+      },
+      "geometry" : {
+        "x" : 337155.90202483255,
+        "y" : 620702.40681228787
+      }
+    }
+  ]
+}

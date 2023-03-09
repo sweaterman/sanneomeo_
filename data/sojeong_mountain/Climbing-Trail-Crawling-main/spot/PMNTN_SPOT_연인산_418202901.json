@@ -1,0 +1,981 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 63724,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "공무원휴양소",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000001",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 241712.98020000011,
+        "y" : 584550.09019999951
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 63725,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000002",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 239032.01141578611,
+        "y" : 583400.37863790989
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 63726,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000003",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 240946.82150000334,
+        "y" : 585199.29439999908
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 63727,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000004",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 240863.32590000052,
+        "y" : 585615.40110000409
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 63728,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000005",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 240780.68430000171,
+        "y" : 585675.86309999973
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 63729,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "바리게이트",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000006",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 240153.34000000264,
+        "y" : 585828.74479999952
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 63730,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000007",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 239698.16899625678,
+        "y" : 586165.54941261187
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 63731,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000008",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 238123.01930000074,
+        "y" : 586676.06980000436
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 63732,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000009",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 236469.97250000015,
+        "y" : 588083.14250000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 63733,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000010",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 237414.39310000278,
+        "y" : 586396.22450000048
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 63734,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : "초우쉼터",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000011",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 239543.32410707138,
+        "y" : 588797.97436260246
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 63735,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000012",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 239526.43630000111,
+        "y" : 588746.17040000297
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 63736,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "이정표없음",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000013",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 239515.70898650121,
+        "y" : 588808.44906350598
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 63737,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "철쭉굴락지",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000014",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 238126.33179999981,
+        "y" : 587573.88279999979
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 63738,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000015",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 238809.79820000008,
+        "y" : 588513.92509999871
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 63739,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "바리게이트",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000016",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 235103.88690000027,
+        "y" : 585077.81699999981
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 63740,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : "우측등산로이용",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000017",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 235363.39379999973,
+        "y" : 585351.16959999874
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 63741,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000018",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 235166.96190000139,
+        "y" : 586774.74920000136
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 63742,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000019",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 235211.74409999978,
+        "y" : 587484.42670000345
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 63743,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "명지산방면전경사진",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000020",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 235967.2536000004,
+        "y" : 588448.55649999902
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 63744,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대",
+        "ETC_MATTER" : "연인샘",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000021",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 236402.15550000127,
+        "y" : 588667.24740000069
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 63745,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : "콘테이너",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000022",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 234440.43049999978,
+        "y" : 589973.83330000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 63746,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000023",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 233999.99800000247,
+        "y" : 590159.68859999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 63747,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "제이원입구",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000024",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 233700.40560000204,
+        "y" : 590452.33479999937
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 63748,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000025",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 234174.43600000162,
+        "y" : 590651.61110000126
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 63749,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,안내판",
+        "ETC_MATTER" : "국수당입구",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000026",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 234781.47100000083,
+        "y" : 584777.09059999883
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 63750,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "이정표없음",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000027",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 235801.36270000041,
+        "y" : 588475.81400000118
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 63751,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000028",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 235838.79250000045,
+        "y" : 585981.99490000121
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 63752,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000029",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 236317.03670000285,
+        "y" : 588693.62200000137
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 63753,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : "연인산장",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000030",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 236366.51059999969,
+        "y" : 588586.60510000214
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 63754,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000031",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 236367.26669999864,
+        "y" : 587005.20879999921
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 63755,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "연인산정상부",
+        "ETC_MATTER" : "삼각점,이정표",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000032",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 236450.91110000294,
+        "y" : 588845.90380000137
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 63756,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000033",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 236554.58040000033,
+        "y" : 588639.84400000051
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 63757,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000034",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 236673.36479999963,
+        "y" : 590987.10769999959
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 63758,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000035",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 236729.28860000148,
+        "y" : 588521.32819999754
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 63759,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000036",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 236762.25660000369,
+        "y" : 588534.95050000399
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 63760,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000037",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 236861.97149999999,
+        "y" : 587001.77560000122
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 63761,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000038",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 237037.67040000111,
+        "y" : 588361.21670000069
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 63762,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000039",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 237659.13340000063,
+        "y" : 587484.75600000098
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 63763,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000040",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 238063.8134000022,
+        "y" : 586676.00610000081
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 63764,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "이정표없음",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000041",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 239126.18750000093,
+        "y" : 588531.14049999975
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 63765,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "이정표없음",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000042",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 239238.28270000126,
+        "y" : 587765.71700000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 63766,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000043",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 239305.47990000062,
+        "y" : 586154.95270000212
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 63767,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000044",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 239418.71590000205,
+        "y" : 587660.12750000134
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 63768,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000045",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 239631.58630000055,
+        "y" : 587755.99939999916
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 63769,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000046",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 239698.16900000162,
+        "y" : 586165.54940000176
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 63770,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "버스승차장",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000047",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 240283.85910000093,
+        "y" : 589342.2442000024
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 63771,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000048",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 241100.94910000078,
+        "y" : 581696.77580000274
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 63772,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,이정표",
+        "ETC_MATTER" : "버스종점,주차장",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000049",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 241806.01539999899,
+        "y" : 584378.69180000201
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 63773,
+        "MNTN_CODE" : "418202901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "연인산",
+        "PAST_SPOT_" : "21019925000050",
+        "MNTN_ID" : "2101992500"
+      },
+      "geometry" : {
+        "x" : 242202.66190000065,
+        "y" : 581133.81940000132
+      }
+    }
+  ]
+}

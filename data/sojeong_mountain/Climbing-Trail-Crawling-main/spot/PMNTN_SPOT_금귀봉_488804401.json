@@ -1,0 +1,999 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 12240,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010001",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 283049.74100000318,
+        "y" : 346903.0186999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 12241,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010002",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 283071.89980000164,
+        "y" : 346243.09230000339
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 12242,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010003",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 283788.73070000205,
+        "y" : 346860.98390000127
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 12243,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010004",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 284909.94480000064,
+        "y" : 351050.8860000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 12244,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010005",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 285012.59219999984,
+        "y" : 351008.91420000605
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 12245,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010006",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 285217.22250000294,
+        "y" : 350733.33170000464
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 12246,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010007",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 285281.11580000073,
+        "y" : 350295.91090000235
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 12247,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010008",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 285328.30630000215,
+        "y" : 350359.54590000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 12248,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010009",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 285395.96490000002,
+        "y" : 350308.36150000058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 12249,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010010",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 285845.91669999994,
+        "y" : 348591.35020000301
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 12250,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010011",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 285880.26220000163,
+        "y" : 348057.03249999881
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 12251,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010012",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 285896.15660000127,
+        "y" : 350166.75620000064
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 12252,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010013",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 285980.36980000138,
+        "y" : 347621.54140000232
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 12253,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010014",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 286450.52360000275,
+        "y" : 347931.49010000005
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 12254,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010015",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 286475.52960000001,
+        "y" : 348233.04609999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 12255,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010016",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 286504.50320000388,
+        "y" : 348381.29279999994
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 12256,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010017",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 286593.49750000332,
+        "y" : 350064.05860000104
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 12257,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010018",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 287060.14350000117,
+        "y" : 348825.83390000276
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 12258,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010019",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 287104.92700000014,
+        "y" : 349608.39890000224
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 12259,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010020",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 287136.74450000003,
+        "y" : 349218.58449999988
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 12260,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010021",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 287221.2134000035,
+        "y" : 349763.72120000236
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 12261,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010022",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 287308.13110000268,
+        "y" : 350075.79160000011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 12262,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010023",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 287328.45270000119,
+        "y" : 346334.61440000311
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 12263,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010024",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 287347.54910000041,
+        "y" : 349839.88680000044
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 12264,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010025",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 287713.13009999972,
+        "y" : 351122.55990000069
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 12265,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010026",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 288361.38109999988,
+        "y" : 346518.09710000083
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 12266,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010027",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 288701.02600000333,
+        "y" : 349601.05770000257
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 12267,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010028",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 289558.88170000073,
+        "y" : 349381.60160000063
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 12268,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "528봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010029",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 288332.87260000128,
+        "y" : 347805.29360000044
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 12269,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "666봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010030",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 287069.27540000062,
+        "y" : 348827.29079999961
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 12270,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "거기삼거리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010031",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 284897.236800001,
+        "y" : 351043.66320000216
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 12271,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "고대마을",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010032",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 285757.66290000267,
+        "y" : 350249.05739999935
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 12272,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "고양이봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010033",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 285036.38630000222,
+        "y" : 347799.63370000385
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 12273,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "구례",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010034",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 284844.58590000216,
+        "y" : 348226.35600000247
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 12274,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "구례갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010035",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 285846.08140000328,
+        "y" : 348600.19739999995
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 12275,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "귀이터재1",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010036",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 287226.43110000342,
+        "y" : 349769.83700000308
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 12276,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "귀이터재2",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010037",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 287311.73910000175,
+        "y" : 350073.62270000763
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 12277,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "금귀봉 837.0m",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010038",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 286503.89560000412,
+        "y" : 348380.59860000387
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 12278,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "내장포",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010039",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 285164.68049999978,
+        "y" : 350743.05930000171
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 12279,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "당동",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010040",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 284974.50200000126,
+        "y" : 346710.64100000262
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 12280,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "보해산 911.5m",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010041",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 287716.2470000023,
+        "y" : 351124.79519999959
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 12281,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "봉우재",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010042",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 286404.01220000349,
+        "y" : 347591.0577000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 12282,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사마",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010043",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 283076.89310000185,
+        "y" : 346235.87610000372
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 12283,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "살피재",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010044",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 288359.74060000014,
+        "y" : 346518.28539999947
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 12284,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "서변교",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010045",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 283049.24800000247,
+        "y" : 346906.13380000181
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 12285,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "신촌",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010046",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 287328.26050000172,
+        "y" : 346330.12079999968
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 12286,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "용산숲",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010047",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 289756.706100001,
+        "y" : 349241.04169999994
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 12287,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "우룽박",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010048",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 285980.724700002,
+        "y" : 347617.92180000059
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 12288,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "의동",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010049",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 284094.47809999995,
+        "y" : 346935.59589999914
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 12289,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "정봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010050",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 289588.86150000058,
+        "y" : 349391.59190000221
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 50,
+        "PMNTN_SPOT" : 12290,
+        "MNTN_CODE" : "488804401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "큰재",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금귀봉",
+        "PAST_SPOT_" : "4888006010051",
+        "MNTN_ID" : "488800601"
+      },
+      "geometry" : {
+        "x" : 287135.37060000096,
+        "y" : 349214.87700000219
+      }
+    }
+  ]
+}

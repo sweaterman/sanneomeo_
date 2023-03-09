@@ -1,0 +1,909 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 65279,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : "시점청풍면 풍암리)",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000001",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197475.5632000016,
+        "y" : 260634.48980000056
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 65280,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000002",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197471.80210000277,
+        "y" : 260624.81880000234
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 65281,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000003",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197468.32259999961,
+        "y" : 260581.71120000072
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 65282,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목교",
+        "ETC_MATTER" : "목교파손",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000004",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197461.73270000331,
+        "y" : 260529.75300000049
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 65283,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000005",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197471.8759000022,
+        "y" : 260514.92080000043
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 65284,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "경사도45",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000006",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197504.24729999993,
+        "y" : 260473.58510000445
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 65285,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000007",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197591.03509999998,
+        "y" : 260467.24079999886
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 65286,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "시점",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000008",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197590.32270000037,
+        "y" : 260425.2610000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 65287,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000009",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197640.27730000112,
+        "y" : 260390.77310000174
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 65288,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치(2)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000010",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197666.50730000157,
+        "y" : 260336.04690000415
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 65289,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000011",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197704.5466,
+        "y" : 260281.20630000159
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 65290,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프시설",
+        "ETC_MATTER" : "종점",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000012",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197733.17810000386,
+        "y" : 260270.14530000277
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 65291,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "소나무",
+        "ETC_MATTER" : "벼랑위소나무",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000013",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197759.05429999996,
+        "y" : 260265.51710000075
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 65292,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "유원지,춘양면",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000014",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197784.08950000349,
+        "y" : 260267.3860000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 65293,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프시설",
+        "ETC_MATTER" : "좌측벼랑",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000015",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197777.05760000274,
+        "y" : 260256.34260000102
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 65294,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "바위",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000016",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197663.37700000033,
+        "y" : 260288.36680000462
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 65295,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "경사도심함",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000017",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197712.32670000009,
+        "y" : 260243.73800000362
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 65296,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000018",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197767.99810000416,
+        "y" : 260151.51410000212
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 65297,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000019",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197773.89249999914,
+        "y" : 260131.73000000231
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 65298,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "바위",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000020",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197789.47039999999,
+        "y" : 260092.98870000429
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 65299,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000021",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197795.94479999971,
+        "y" : 260049.38189999945
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 65300,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "고사목",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000022",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197460.07690000068,
+        "y" : 259584.46470000409
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 65301,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "고사목",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000023",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197465.20750000235,
+        "y" : 259262.49190000258
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 65302,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "경사도심함",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000024",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197476.96059999987,
+        "y" : 259191.24130000174
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 65303,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000025",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197460.9012000002,
+        "y" : 259097.29270000383
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 65304,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000026",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197436.78230000008,
+        "y" : 259046.51810000464
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 65305,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000027",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197388.07570000179,
+        "y" : 258916.22399999946
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 65306,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000028",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197246.95640000235,
+        "y" : 258716.38920000196
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 65307,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "경사도심함",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000029",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197238.05510000326,
+        "y" : 258691.75300000235
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 65308,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000030",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197153.23750000075,
+        "y" : 258617.86600000039
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 65309,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "경사도심함",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000031",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197120.98980000149,
+        "y" : 258615.24569999985
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 65310,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000032",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197013.84370000008,
+        "y" : 258760.02370000258
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 65311,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "경사도심함",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000033",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 196744.7097000014,
+        "y" : 258815.28510000184
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 65312,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "이정표불량",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000034",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 196376.9075000016,
+        "y" : 258592.25420000218
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 65313,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험구간",
+        "ETC_MATTER" : "비탈길(시점)",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000035",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 196347.30130000133,
+        "y" : 258611.03979999945
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 65314,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000036",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 196258.06659999955,
+        "y" : 258695.4598999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 65315,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "종점",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000037",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 196129.20120000094,
+        "y" : 258748.2173999995
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 65316,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "이정표불량",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000038",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 196040.15010000113,
+        "y" : 258792.19480000064
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 65317,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "경사도심함",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000039",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 196041.0987999998,
+        "y" : 258839.00880000181
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 65318,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "가봉마을",
+        "ETC_MATTER" : "종점",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000040",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 196160.4609000003,
+        "y" : 259023.80340000056
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 65319,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000041",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 195807.6052000029,
+        "y" : 259929.64780000038
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 65320,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "깃대봉",
+        "ETC_MATTER" : "이정표회손",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000042",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197451.6473000003,
+        "y" : 259416.84200000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 65321,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "예성산,능선부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000043",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197647.63949999958,
+        "y" : 259851.26520000212
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 65322,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼거리",
+        "ETC_MATTER" : "이정표",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000044",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197648.42360000033,
+        "y" : 260362.8376000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 65323,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "전망대",
+        "ETC_MATTER" : "종점(춘양면 가봉리)",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000045",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197762.19530000165,
+        "y" : 260188.93220000155
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 65324,
+        "MNTN_CODE" : "467902701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "예성산",
+        "PAST_SPOT_" : "26221028000046",
+        "MNTN_ID" : "2622102800"
+      },
+      "geometry" : {
+        "x" : 197911.07480000239,
+        "y" : 260622.89719999954
+      }
+    }
+  ]
+}

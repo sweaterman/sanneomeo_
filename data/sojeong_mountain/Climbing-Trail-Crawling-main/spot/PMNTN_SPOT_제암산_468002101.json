@@ -1,0 +1,711 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 78865,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "도끼바위",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010001",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 196840.29519999959,
+        "y" : 233707.24030000158
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 78866,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "119구조안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010002",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 197814.82170000114,
+        "y" : 234910.22610000148
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 78867,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010003",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 197168.08990000095,
+        "y" : 234492.35380000249
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 78868,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "18",
+        "MANAGE_SP2" : "주차장",
+        "DETAIL_SPO" : "공설공원묘지 주차장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010004",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 196160.90369999968,
+        "y" : 233746.84740000218
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 78869,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "초대바위",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010005",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 197149.7519000005,
+        "y" : 234486.41230000183
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 78870,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "형제바위",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010006",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 197196.01790000126,
+        "y" : 234376.50620000251
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 78871,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "공설공원묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010007",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 196251.27799999993,
+        "y" : 233843.45440000296
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 78872,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "망경굴 안내판훼손",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010008",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 197668.29519999865,
+        "y" : 233409.95090000331
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 78873,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "20",
+        "MANAGE_SP2" : "동굴",
+        "DETAIL_SPO" : "망경굴",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010009",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 197668.54349999968,
+        "y" : 233412.82400000095
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 78874,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010010",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 196159.72020000033,
+        "y" : 233626.90619999915
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 78875,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010011",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 196220.78500311449,
+        "y" : 233751.26181643642
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 78876,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010012",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 196266.94240000099,
+        "y" : 233621.8805000037
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 78877,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010013",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 196446.75806787983,
+        "y" : 233658.67524728365
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 78878,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010014",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 196466.04198981822,
+        "y" : 233800.53604469076
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 78879,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010015",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 196506.1897436073,
+        "y" : 233909.53132990934
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 78880,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010016",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 196537.32420000155,
+        "y" : 233913.58270000294
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 78881,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010017",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 196557.52001274284,
+        "y" : 233579.90896004066
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 78882,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010018",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 196586.11740000173,
+        "y" : 233575.55819999985
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 78883,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010019",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 196793.52469999995,
+        "y" : 234122.89770000055
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 78884,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010020",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 196811.34719999973,
+        "y" : 234218.27280000225
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 78885,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010021",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 196845.88609999977,
+        "y" : 233712.63190000132
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 78886,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010022",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 196884.47880000062,
+        "y" : 233669.67999999784
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 78887,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010023",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 197118.20630000066,
+        "y" : 233081.38819999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 78888,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010024",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 197161.54820000101,
+        "y" : 234053.79069999978
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 78889,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010025",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 197235.6035000002,
+        "y" : 234464.68480000272
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 78890,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010026",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 197336.37459999975,
+        "y" : 233387.38880000077
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 78891,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010027",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 197434.55750000197,
+        "y" : 234482.61310000159
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 78892,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010028",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 197465.5447000023,
+        "y" : 233812.849700002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 78893,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010029",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 197466.75200000033,
+        "y" : 233782.94629999995
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 78894,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010030",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 197571.94400000107,
+        "y" : 235856.62650000118
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 78895,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010031",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 197712.51449999958,
+        "y" : 233436.10649999976
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 78896,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010032",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 197754.20230000187,
+        "y" : 233835.72320000269
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 78897,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010033",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 197774.91229999904,
+        "y" : 235846.61410000362
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 78898,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010034",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 197813.43340000045,
+        "y" : 234910.75950000063
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 78899,
+        "MNTN_CODE" : "468002101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제암산",
+        "PAST_SPOT_" : "4680021010035",
+        "MNTN_ID" : "468002101"
+      },
+      "geometry" : {
+        "x" : 197835.90042886697,
+        "y" : 236359.09962661006
+      }
+    }
+  ]
+}

@@ -1,0 +1,999 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 66975,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "나무의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000001",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 180116.69450000022,
+        "y" : 377750.44180000201
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 66976,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "통신시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000002",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 180441.15050000232,
+        "y" : 378408.17120000161
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 66977,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000003",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 180525.39389999956,
+        "y" : 379445.16560000181
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 66978,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "의   자,분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000004",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 180590.51470000111,
+        "y" : 379864.78520000167
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 66979,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000005",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 181618.05250000302,
+        "y" : 380059.01569999941
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 66980,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "납골당",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000006",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 180236.97080000024,
+        "y" : 377679.09859999828
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 66981,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "배수장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000007",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 180510.39570000023,
+        "y" : 378642.95320000127
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 66982,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "성흥사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000008",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 180334.95940000098,
+        "y" : 378400.65360000171
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 66983,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "일광사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000009",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 180857.35660000052,
+        "y" : 379453.58530000225
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 66984,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "돌의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000010",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 180209.71949999966,
+        "y" : 380286.85910000093
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 66985,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000011",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 178747.3200999992,
+        "y" : 379859.54700000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 66986,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "바위산",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000012",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 178721.6677000029,
+        "y" : 379738.85060000233
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 66987,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "참호",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000013",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 178751.56540000066,
+        "y" : 379574.06740000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 66988,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "성덕제방뚝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000014",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 179205.73470000084,
+        "y" : 379916.5866000019
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 66989,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "정자,나무의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000015",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 180322.44680000097,
+        "y" : 378233.45300000161
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 66990,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "의   자,화장실,기상대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000016",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 180538.23460000101,
+        "y" : 379495.09139999934
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 66991,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망대,음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000017",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 180558.78150000051,
+        "y" : 379528.23399999924
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 66992,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,거척마을",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000018",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 178739.07320000138,
+        "y" : 378546.14769999869
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 66993,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,요동마을",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000019",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 178785.95660000294,
+        "y" : 379343.64000000432
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 66994,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000020",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 178871.16820000019,
+        "y" : 379483.02380000241
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 66995,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,수자원공사(금강)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000021",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 178948.26319999993,
+        "y" : 378253.96730000339
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 66996,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000022",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 178980.9746000031,
+        "y" : 378358.63489999995
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 66997,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,안정마을",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000023",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 179028.34479999915,
+        "y" : 378324.76730000041
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 66998,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,706지방도(성덕)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000024",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 179185.76500000339,
+        "y" : 380108.41909999959
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 66999,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000025",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 179188.63850000314,
+        "y" : 379223.77010000125
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 67000,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,지방도(성덕)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000026",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 179322.41110000014,
+        "y" : 379890.0783000011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 67001,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,둔덕마을임도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000027",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 179532.45870000217,
+        "y" : 379173.90790000372
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 67002,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,대동마을",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000028",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 179762.0025000032,
+        "y" : 378004.54619999975
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 67003,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,근로자아파트뒤",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000029",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 179762.72589999996,
+        "y" : 378666.85749999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 67004,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,709도로변",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000030",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 179882.73990000039,
+        "y" : 377713.53170000017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 67005,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,709국도변",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000031",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 180120.24149999954,
+        "y" : 377359.73079999909
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 67006,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,수자원공사709지방도변",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000032",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 180155.70370000135,
+        "y" : 380686.00850000232
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 67007,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000033",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 180165.83270000014,
+        "y" : 377919.98760000058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 67008,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000034",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 180195.33770000096,
+        "y" : 377879.70219999924
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 67009,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000035",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 180322.60259999987,
+        "y" : 378843.18240000121
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 67010,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,군장대후면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000036",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 180338.17180000059,
+        "y" : 377953.39760000072
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 67011,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,농 지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000037",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 180358.37440000195,
+        "y" : 377505.41380000301
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 67012,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000038",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 180367.08860000037,
+        "y" : 379064.15930000134
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 67013,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000039",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 180368.4924000036,
+        "y" : 378864.26859999821
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 67014,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,운동기구,분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000040",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 180390.30350000039,
+        "y" : 378598.66029999964
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 67015,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,의자,분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000041",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 180450.55330000073,
+        "y" : 379120.07459999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 67016,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000042",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 180535.32880000025,
+        "y" : 378646.01850000024
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 67017,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000043",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 180560.75150000118,
+        "y" : 379841.93799999915
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 67018,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부,오성묘역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000044",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 180585.88840000052,
+        "y" : 379568.38859999925
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 67019,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부,오성묘역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000045",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 180586.01470000297,
+        "y" : 379568.26349999942
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 67020,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000046",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 180809.91420000326,
+        "y" : 379908.98440000415
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 67021,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,706지방도변",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000047",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 180870.95220000111,
+        "y" : 378187.03460000269
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 67022,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "영모제",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000048",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 180931.66780000087,
+        "y" : 379201.89690000191
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 67023,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000049",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 181225.13170000166,
+        "y" : 379153.37050000206
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 67024,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,706지방도변",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000050",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 181490.25899999961,
+        "y" : 378932.64729999937
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 50,
+        "PMNTN_SPOT" : 67025,
+        "MNTN_CODE" : "451302701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,서왕마을",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오성산",
+        "PAST_SPOT_" : "25021227000051",
+        "MNTN_ID" : "2502122700"
+      },
+      "geometry" : {
+        "x" : 181642.61760000326,
+        "y" : 379883.76800000109
+      }
+    }
+  ]
+}

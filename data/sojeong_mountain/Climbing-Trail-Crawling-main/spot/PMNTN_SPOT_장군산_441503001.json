@@ -1,0 +1,891 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 76574,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010001",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 218651.71569999959,
+        "y" : 427318.3022000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 76575,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010002",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 218593.46350000147,
+        "y" : 427515.92100000009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 76576,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010003",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 218297.6193000013,
+        "y" : 428270.65240000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 76577,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010004",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 218004.92299999949,
+        "y" : 429864.97890000045
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 76578,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010005",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 218216.30880000163,
+        "y" : 430103.11579999886
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 76579,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010006",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 218538.18820000067,
+        "y" : 429921.2631000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 76580,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010007",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 218835.70789999887,
+        "y" : 429943.54130000249
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 76581,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010008",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 219177.26120000053,
+        "y" : 429713.69570000283
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 76582,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010009",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 219224.03020000085,
+        "y" : 429601.50530000217
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 76583,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010010",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 218465.96059999987,
+        "y" : 432261.54319999926
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 76584,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010011",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 218207.41060000006,
+        "y" : 431982.56910000183
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 76585,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010012",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 218101.88240000047,
+        "y" : 431757.20030000061
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 76586,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010013",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 217986.23860000074,
+        "y" : 431304.64650000259
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 76587,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010014",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 217960.99410000164,
+        "y" : 430776.60690000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 76588,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010015",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 218132.92320000101,
+        "y" : 430244.86830000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 76589,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "방공호",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010016",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 217759.60369999986,
+        "y" : 429733.41640000232
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 76590,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010017",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 217451.93039999995,
+        "y" : 430076.4616000019
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 76591,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010018",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 217186.15580000076,
+        "y" : 430720.87849999964
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 76592,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010019",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 217071.51659999974,
+        "y" : 431226.11009999923
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 76593,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010020",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 219240.67620000057,
+        "y" : 430135.74220000207
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 76594,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010021",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 219535.79399999976,
+        "y" : 430501.93539999984
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 76595,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010022",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 219546.6248000022,
+        "y" : 430744.98380000144
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 76596,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010023",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 219460.64719999954,
+        "y" : 431039.96590000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 76597,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010024",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 219234.42060000077,
+        "y" : 431011.82499999925
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 76598,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010025",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 219548.86250000168,
+        "y" : 430430.05670000054
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 76599,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010026",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 219837.98190000094,
+        "y" : 430591.61879999936
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 76600,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010027",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 220192.88990000077,
+        "y" : 430626.84650000185
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 76601,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010028",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 216761.38460000046,
+        "y" : 432041.23399999924
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 76602,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010029",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 218005.71879999992,
+        "y" : 429868.86850000359
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 76603,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010030",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 218213.32940000016,
+        "y" : 430100.90670000017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 76604,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010031",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 218465.68910000008,
+        "y" : 432262.10070000216
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 76605,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010032",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 218823.70600000024,
+        "y" : 427238.93660000339
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 76606,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010033",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 219057.04610000178,
+        "y" : 431063.25860000029
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 76607,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010034",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 219057.43780000135,
+        "y" : 429896.70470000245
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 76608,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010035",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 219358.23000000231,
+        "y" : 429609.45130000077
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 76609,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010036",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 219517.45920000039,
+        "y" : 430484.24939999916
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 76610,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010037",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 220454.07660000119,
+        "y" : 430632.33540000208
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 99111,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010038",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 219332.32029999903,
+        "y" : 429635.5943
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 99112,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표, 안내판또는지도, 기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010039",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 218434.16340000101,
+        "y" : 432256.81540000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 99113,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물(운동기구등)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010040",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 217480.76300000085,
+        "y" : 430043.23079999961
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 99114,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010041",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 216762.80840000024,
+        "y" : 432046.78040000069
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 99115,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010042",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 219054.78359999982,
+        "y" : 429892.41819999943
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 99116,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010043",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 219174.20700000011,
+        "y" : 430967.75180000067
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 99117,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물(운동기구등)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010044",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 220121.06620000006,
+        "y" : 430643.43050000095
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 99118,
+        "MNTN_CODE" : "441503001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장군산",
+        "PAST_SPOT_" : "4415030010045",
+        "MNTN_ID" : "441503001"
+      },
+      "geometry" : {
+        "x" : 220445.99020000041,
+        "y" : 430624.88409999956
+      }
+    }
+  ]
+}

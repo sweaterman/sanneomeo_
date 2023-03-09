@@ -1,0 +1,819 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 79878,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010001",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 210042.63829999976,
+        "y" : 425914.13770000264
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 79879,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010002",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 210088.41839999985,
+        "y" : 425485.57870000042
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 79880,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010003",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 210100.05069999956,
+        "y" : 425567.6568
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 79881,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010004",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 210141.44209999871,
+        "y" : 425612.42970000207
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 79882,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010005",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 210157.73220000044,
+        "y" : 425896.74560000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 79883,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010006",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 210172.02350000013,
+        "y" : 425729.34950000234
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 79884,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010007",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 210184.215499999,
+        "y" : 425718.33230000176
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 79885,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010008",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 210212.37000000104,
+        "y" : 425783.49029999971
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 79886,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010009",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 210406.7239000015,
+        "y" : 425957.35210000165
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 79887,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010010",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 210435.47720000055,
+        "y" : 425404.21360000409
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 79888,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010011",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 210501.75960000046,
+        "y" : 426190.20310000144
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 79889,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010012",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 210504.25989999995,
+        "y" : 426032.68340000138
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 79890,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010013",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 210544.99089999869,
+        "y" : 425519.72809999995
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 79891,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010014",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 210599.41469999962,
+        "y" : 425860.51109999977
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 79892,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010015",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 210608.6502000019,
+        "y" : 426292.3515000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 79893,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010016",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 210623.25069999974,
+        "y" : 425793.26220000163
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 79894,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010017",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 210684.63200000022,
+        "y" : 426666.31360000186
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 79895,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010018",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 210749.79060000088,
+        "y" : 425171.32570000179
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 79896,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010019",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 210847.11590000056,
+        "y" : 426041.90790000372
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 79897,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010020",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 210847.52870000061,
+        "y" : 426071.54700000212
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 79898,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010021",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 210861.97709999979,
+        "y" : 426834.97130000032
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 79899,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010022",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 210866.78110000119,
+        "y" : 426392.58710000105
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 79900,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010023",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 210870.78160000127,
+        "y" : 426066.29640000127
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 79901,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010024",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 210927.19419999979,
+        "y" : 427092.7936000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 79902,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010025",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 210962.66480000038,
+        "y" : 426926.12790000066
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 79903,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010026",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 210979.54519999959,
+        "y" : 426250.81940000132
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 79904,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010027",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 210995.49660000112,
+        "y" : 426458.22150000185
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 79905,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010028",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 210998.33100000024,
+        "y" : 425152.02370000072
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 79906,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010029",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 211053.38300000131,
+        "y" : 424342.96450000256
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 79907,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010030",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 211055.5493999999,
+        "y" : 425101.14200000092
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 79908,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010031",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 211059.00630000141,
+        "y" : 425450.68099999987
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 79909,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010032",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 211065.8060000008,
+        "y" : 426320.5781000033
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 79910,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010033",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 211122.79910000134,
+        "y" : 425652.51300000027
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 79911,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010034",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 211181.44880000129,
+        "y" : 426037.3041999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 79912,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010035",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 211224.28120000008,
+        "y" : 425982.30050000176
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 79913,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010036",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 211258.94290000014,
+        "y" : 426308.50560000353
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 79914,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010037",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 211360.97590000089,
+        "y" : 426634.1165000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 79915,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010038",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 212006.99629999977,
+        "y" : 426326.26220000349
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 79916,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010039",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 212023.60089999996,
+        "y" : 426284.08720000274
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 79917,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010040",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 212048.61870000139,
+        "y" : 426312.58380000107
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 79918,
+        "MNTN_CODE" : "441507901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주미산",
+        "PAST_SPOT_" : "4415079010041",
+        "MNTN_ID" : "441507901"
+      },
+      "geometry" : {
+        "x" : 212350.68750000093,
+        "y" : 426723.94129999913
+      }
+    }
+  ]
+}

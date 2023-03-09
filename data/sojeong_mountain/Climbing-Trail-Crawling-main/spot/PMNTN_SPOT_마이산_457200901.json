@@ -1,0 +1,2691 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 25637,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내도",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000001",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 231971.72200000193,
+        "y" : 350974.84470000118
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 25638,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000002",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 231975.47940000053,
+        "y" : 350966.18129999936
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 25639,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "방공호",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000003",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 231975.33130000066,
+        "y" : 350959.55660000257
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 25640,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단 시작",
+        "ETC_MATTER" : "보수필요",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000004",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 232085.74299999978,
+        "y" : 350814.5110000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 25641,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단 끝",
+        "ETC_MATTER" : "보수필요",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000005",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 232086.33519999962,
+        "y" : 350805.80289999954
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 25642,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단 시작",
+        "ETC_MATTER" : "보수필요",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000006",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 232188.5446000034,
+        "y" : 350651.41970000044
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 25643,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단 끝",
+        "ETC_MATTER" : "보수필요",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000007",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 232183.45689999964,
+        "y" : 350630.1751000043
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 25644,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단 시작",
+        "ETC_MATTER" : "보수필요",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000008",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 232238.56000000052,
+        "y" : 350589.43119999953
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 25645,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단 끝",
+        "ETC_MATTER" : "보수필요",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000009",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 232247.16079999972,
+        "y" : 350582.16139999963
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 25646,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "보수필요",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000010",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 232449.36909999978,
+        "y" : 350675.43430000171
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 25647,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철난간",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000011",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 232722.05510000139,
+        "y" : 350845.68660000153
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 25648,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000012",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 232875.74360000063,
+        "y" : 350898.36950000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 25649,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철난간",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000013",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 232883.00810000114,
+        "y" : 350897.8748000022
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 25650,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000014",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 233451.65419999976,
+        "y" : 350795.78200000152
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 25651,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "마이산전경",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000015",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 233131.09928341582,
+        "y" : 351013.34384589642
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 25652,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철난간",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000016",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 234625.74929999933,
+        "y" : 350771.92139999755
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 25653,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철난간",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000017",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 234824.20930000301,
+        "y" : 350891.25390000083
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 25654,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철난간",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000018",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 235004.36370000243,
+        "y" : 351052.89360000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 25655,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철계단",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000019",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 235021.17239999864,
+        "y" : 351060.99310000055
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 25656,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000020",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 235036.26169999968,
+        "y" : 351076.20930000022
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 25657,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000021",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 235193.63660000078,
+        "y" : 351200.94759999961
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 25658,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "유적",
+        "ETC_MATTER" : "부도탑",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000022",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 235230.12970000226,
+        "y" : 351548.25689999945
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 25659,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "13",
+        "MANAGE_SP2" : "유적(문화, 역사)",
+        "DETAIL_SPO" : "유적",
+        "ETC_MATTER" : "고금당",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000023",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 235287.71650000289,
+        "y" : 351547.02040000446
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 25660,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철난간",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000024",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 235386.3331000004,
+        "y" : 351757.83259999938
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 25661,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철난간",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000025",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 235434.70720000099,
+        "y" : 351773.74780000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 25662,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "등산로 전경",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000026",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 235472.82930000219,
+        "y" : 351781.98850000277
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 25663,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단 시작",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000027",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 235473.70480000041,
+        "y" : 351780.15010000207
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 25664,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단 끝",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000028",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 235556.12120000366,
+        "y" : 351790.89800000191
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 25665,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "등산로 전경",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000029",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 235567.42770000082,
+        "y" : 351790.39950000122
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 25666,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등반로프",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000030",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 235567.58170000091,
+        "y" : 351790.33349999785
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 25667,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등반로프",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000031",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 235699.11300000176,
+        "y" : 351816.97980000265
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 25668,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "보수필요",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000032",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 235727.23810000066,
+        "y" : 351839.59500000067
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 25669,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000033",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 235823.89790000301,
+        "y" : 351836.69920000061
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 25670,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "마이산전경",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000034",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 235824.73220000323,
+        "y" : 351829.39049999975
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 25671,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철계단",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000035",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 235828.3172000004,
+        "y" : 351837.44939999841
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 25672,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "마이산전경",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000036",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 235859.39490000252,
+        "y" : 351847.62729999982
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 25673,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "정자",
+        "ETC_MATTER" : "비룡대",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000037",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 235867.03030000161,
+        "y" : 351869.39480000176
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 25674,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철난간",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000038",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 235881.88900000136,
+        "y" : 351878.30920000188
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 25675,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철난간",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000039",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 235931.35500000138,
+        "y" : 351898.94730000012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 25676,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000040",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236044.06010000035,
+        "y" : 351917.70010000095
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 25677,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "고무계단",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000041",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236205.66970000137,
+        "y" : 351945.80730000138
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 25678,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "비룡대전경",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000042",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236248.63470000215,
+        "y" : 351939.23599999771
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 25679,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "고무계단",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000043",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236417.40770000033,
+        "y" : 351887.32000000216
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 25680,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "고무계단",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000044",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236432.23410000186,
+        "y" : 351884.10740000382
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 25681,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "고무계단",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000045",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236447.96970000025,
+        "y" : 351870.87910000235
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 25682,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등반로프",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000046",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236542.37019999884,
+        "y" : 351907.25
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 25683,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등반로프",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000047",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236622.21329999994,
+        "y" : 351865.92460000515
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 25684,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "고무계단",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000048",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236733.28890000004,
+        "y" : 351808.20720000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 25685,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "고무계단",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000049",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236739.95460000075,
+        "y" : 351794.90870000236
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 25686,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000050",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236694.75080000143,
+        "y" : 351574.40369999968
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 50,
+        "PMNTN_SPOT" : 25687,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "마이산전경",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000051",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236769.2675999999,
+        "y" : 351557.91220000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 51,
+        "PMNTN_SPOT" : 25688,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "고무계단",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000052",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236758.10880000144,
+        "y" : 351489.73790000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 52,
+        "PMNTN_SPOT" : 25689,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "고무계단",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000053",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236763.95790000167,
+        "y" : 351459.64800000191
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 53,
+        "PMNTN_SPOT" : 25690,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "고무계단",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000054",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236866.20680000167,
+        "y" : 351455.72150000185
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 54,
+        "PMNTN_SPOT" : 25691,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000055",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236941.10120000131,
+        "y" : 351496.70940000378
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 55,
+        "PMNTN_SPOT" : 25692,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000056",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236966.13060000073,
+        "y" : 351510.77180000022
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 56,
+        "PMNTN_SPOT" : 25693,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철난간",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000057",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236959.4068,
+        "y" : 351494.3553999979
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 57,
+        "PMNTN_SPOT" : 25694,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "마이산전경",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000058",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236991.19330000319,
+        "y" : 351286.18580000103
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 58,
+        "PMNTN_SPOT" : 25695,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철난간",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000059",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 237000.64690000191,
+        "y" : 351257.32049999945
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 59,
+        "PMNTN_SPOT" : 25696,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000060",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 237051.25040000398,
+        "y" : 351235.228500003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 60,
+        "PMNTN_SPOT" : 25697,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "입구전경",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000061",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 235630.57050000038,
+        "y" : 351311.39149999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 61,
+        "PMNTN_SPOT" : 25698,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단 시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000062",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 235572.56890000217,
+        "y" : 351461.24110000208
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 62,
+        "PMNTN_SPOT" : 25699,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단 끝",
+        "ETC_MATTER" : "보수필요",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000063",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 235502.21390000358,
+        "y" : 351504.9328000024
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 63,
+        "PMNTN_SPOT" : 25700,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "13",
+        "MANAGE_SP2" : "유적(문화, 역사)",
+        "DETAIL_SPO" : "유적",
+        "ETC_MATTER" : "5층석탑",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000064",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 235900.86270000134,
+        "y" : 351250.55220000446
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 64,
+        "PMNTN_SPOT" : 25701,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "비룡대전경",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000065",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236058.05910000112,
+        "y" : 351783.87480000407
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 65,
+        "PMNTN_SPOT" : 25702,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내도",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000066",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 232039.20960000064,
+        "y" : 349202.46849999949
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 66,
+        "PMNTN_SPOT" : 25703,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000067",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 232122.18259999994,
+        "y" : 349447.88260000199
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 67,
+        "PMNTN_SPOT" : 25704,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "유적",
+        "ETC_MATTER" : "합미산성",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000068",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 232141.37959999964,
+        "y" : 349454.98650000058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 68,
+        "PMNTN_SPOT" : 25705,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000069",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 232186.97930000257,
+        "y" : 349490.22470000386
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 69,
+        "PMNTN_SPOT" : 25706,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로 점거",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000070",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 232197.42690000031,
+        "y" : 349497.81860000268
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 70,
+        "PMNTN_SPOT" : 25707,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "13",
+        "MANAGE_SP2" : "유적(문화, 역사)",
+        "DETAIL_SPO" : "유적",
+        "ETC_MATTER" : "건물흔적",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000071",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 232226.25310000125,
+        "y" : 349513.64550000243
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 71,
+        "PMNTN_SPOT" : 25708,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철난간",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000072",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 232276.06120000035,
+        "y" : 349430.78550000302
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 72,
+        "PMNTN_SPOT" : 25709,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철난간",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000073",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 233127.24120000098,
+        "y" : 349841.05680000409
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 73,
+        "PMNTN_SPOT" : 25710,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "등산로전경",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000074",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 233179.61490000226,
+        "y" : 349909.01339999959
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 74,
+        "PMNTN_SPOT" : 25711,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000075",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 233887.29590000119,
+        "y" : 350438.91459999979
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 75,
+        "PMNTN_SPOT" : 25712,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000076",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 233895.85500000324,
+        "y" : 350485.73800000362
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 76,
+        "PMNTN_SPOT" : 25713,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000077",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 234002.26379999984,
+        "y" : 350503.41980000027
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 77,
+        "PMNTN_SPOT" : 25714,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000078",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 234074.52699999977,
+        "y" : 350504.7946000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 78,
+        "PMNTN_SPOT" : 25715,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000079",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 234384.35440000333,
+        "y" : 350412.23770000413
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 79,
+        "PMNTN_SPOT" : 25716,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "마이산전경",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000080",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 234414.68070000038,
+        "y" : 350433.66980000027
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 80,
+        "PMNTN_SPOT" : 25717,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철난간",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000081",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 234462.03850000072,
+        "y" : 350578.94109999947
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 81,
+        "PMNTN_SPOT" : 25718,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철난간",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000082",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 234559.91359999962,
+        "y" : 350678.74970000237
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 82,
+        "PMNTN_SPOT" : 25719,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "유적",
+        "ETC_MATTER" : "보흥사",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000083",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 233929.29430000018,
+        "y" : 349996.64279999956
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 83,
+        "PMNTN_SPOT" : 25720,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "13",
+        "MANAGE_SP2" : "유적(문화, 역사)",
+        "DETAIL_SPO" : "유적",
+        "ETC_MATTER" : "5층석탑",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000084",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 233938.55010000058,
+        "y" : 350017.37160000205
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 84,
+        "PMNTN_SPOT" : 25721,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단 시작",
+        "ETC_MATTER" : "보수필요",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000085",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 234151.59230000339,
+        "y" : 350303.54660000093
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 85,
+        "PMNTN_SPOT" : 25722,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단 끝",
+        "ETC_MATTER" : "보수필요",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000086",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 234165.58660000097,
+        "y" : 350331.42840000428
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 86,
+        "PMNTN_SPOT" : 25723,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철난간",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000087",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 234168.00310000032,
+        "y" : 350335.74279999919
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 87,
+        "PMNTN_SPOT" : 25724,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철난간",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000088",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 234195.91100000311,
+        "y" : 350403.01259999909
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 88,
+        "PMNTN_SPOT" : 25725,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "입구",
+        "ETC_MATTER" : "금당사",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000089",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 238763.50300000049,
+        "y" : 351008.9560000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 89,
+        "PMNTN_SPOT" : 25726,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로점거",
+        "ETC_MATTER" : "보수필요",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000090",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 238456.47160000075,
+        "y" : 351237.1742000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 90,
+        "PMNTN_SPOT" : 25727,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "마이산전경",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000091",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 237872.12720000092,
+        "y" : 351574.97670000046
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 91,
+        "PMNTN_SPOT" : 25728,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "반월제전경",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000092",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 237858.36060000118,
+        "y" : 351577.55900000408
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 92,
+        "PMNTN_SPOT" : 25729,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "마이산전경",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000093",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 237528.24040000234,
+        "y" : 351447.34900000319
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 93,
+        "PMNTN_SPOT" : 25730,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "마이산전경",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000094",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 237604.10120000131,
+        "y" : 351845.29920000024
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 94,
+        "PMNTN_SPOT" : 25731,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : "출입통제안내",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000095",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 237550.11780000385,
+        "y" : 352550.68850000203
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 95,
+        "PMNTN_SPOT" : 25732,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "마이산전경",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000096",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 237339.38060000073,
+        "y" : 353617.42130000144
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 96,
+        "PMNTN_SPOT" : 25733,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사진정보",
+        "ETC_MATTER" : "숲길모습사진",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000097",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 237206.8284,
+        "y" : 353394.94860000163
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 97,
+        "PMNTN_SPOT" : 25734,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "칠형제바위",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000098",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236904.15180000011,
+        "y" : 353034.69250000082
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 98,
+        "PMNTN_SPOT" : 25735,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사진정보",
+        "ETC_MATTER" : "숲길모습사진",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000099",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236804.48620000016,
+        "y" : 352899.48730000295
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 99,
+        "PMNTN_SPOT" : 25736,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "칠형제바위",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000100",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236822.99890000187,
+        "y" : 352256.64940000139
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 100,
+        "PMNTN_SPOT" : 25737,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "칠형제바위",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000101",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236706.72819999978,
+        "y" : 352187.33040000126
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 101,
+        "PMNTN_SPOT" : 25738,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "마이산전경",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000102",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236670.04060000088,
+        "y" : 351969.96740000136
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 102,
+        "PMNTN_SPOT" : 25739,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "정상부전경",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000103",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236671.78090000153,
+        "y" : 351920.75350000151
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 103,
+        "PMNTN_SPOT" : 25740,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "이정표",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000104",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236709.11890000012,
+        "y" : 351840.24090000056
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 104,
+        "PMNTN_SPOT" : 25741,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사진정보",
+        "ETC_MATTER" : "숲길모습사진",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000105",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236727.62600000016,
+        "y" : 351823.93990000337
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 105,
+        "PMNTN_SPOT" : 25742,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "마이산전경",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000106",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236773.75910000131,
+        "y" : 351560.90450000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 106,
+        "PMNTN_SPOT" : 25743,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "이정표",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000107",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 237035.47929999977,
+        "y" : 351236.93820000067
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 107,
+        "PMNTN_SPOT" : 25744,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : "화장실",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000108",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 237098.76580000389,
+        "y" : 351251.02720000409
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 108,
+        "PMNTN_SPOT" : 25745,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "유적",
+        "ETC_MATTER" : "마이산탑사",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000109",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 237221.30400000326,
+        "y" : 351344.23340000212
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 109,
+        "PMNTN_SPOT" : 25746,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사진정보",
+        "ETC_MATTER" : "화장실",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000110",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 237357.63680000231,
+        "y" : 351378.05890000239
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 110,
+        "PMNTN_SPOT" : 25747,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "은수사",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000111",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 237455.32280000113,
+        "y" : 351407.78470000252
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 111,
+        "PMNTN_SPOT" : 25748,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사진정보",
+        "ETC_MATTER" : "신당",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000112",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 237516.03390000109,
+        "y" : 351450.95910000242
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 112,
+        "PMNTN_SPOT" : 25749,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "은수산전경",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000113",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 237542.16160000023,
+        "y" : 351451.03600000404
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 113,
+        "PMNTN_SPOT" : 25750,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "성수산전경",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000114",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 237856.23690000083,
+        "y" : 351583.55280000158
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 114,
+        "PMNTN_SPOT" : 25751,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사진정보",
+        "ETC_MATTER" : "숲길모습사진",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000115",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 237972.68769999966,
+        "y" : 351593.54710000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 115,
+        "PMNTN_SPOT" : 25752,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사진정보",
+        "ETC_MATTER" : "숲길모습사진",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000116",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 238514.23740000091,
+        "y" : 350867.18960000016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 116,
+        "PMNTN_SPOT" : 25753,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000117",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 231971.72200000193,
+        "y" : 350974.84470000118
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 117,
+        "PMNTN_SPOT" : 25754,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000118",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 232039.09260000195,
+        "y" : 349202.30169999786
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 118,
+        "PMNTN_SPOT" : 25755,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "중간전경",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000119",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 232334.26449999958,
+        "y" : 350612.5764000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 119,
+        "PMNTN_SPOT" : 25756,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "중간전경",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000120",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 232335.71110000275,
+        "y" : 350613.54370000027
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 120,
+        "PMNTN_SPOT" : 25757,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000121",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 233907.39580000285,
+        "y" : 349987.11860000342
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 121,
+        "PMNTN_SPOT" : 25758,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "광대봉",
+        "ETC_MATTER" : "광대봉630m",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000122",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 234022.15330000315,
+        "y" : 350504.74740000255
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 122,
+        "PMNTN_SPOT" : 25759,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000123",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 234214.9385000011,
+        "y" : 350441.47700000182
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 123,
+        "PMNTN_SPOT" : 25760,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000124",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 234601.49779999908,
+        "y" : 350791.28910000063
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 124,
+        "PMNTN_SPOT" : 25761,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000125",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 235359.26810000092,
+        "y" : 351597.86790000275
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 125,
+        "PMNTN_SPOT" : 25762,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "안내도",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000126",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 235645.35770000145,
+        "y" : 351259.99910000153
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 126,
+        "PMNTN_SPOT" : 25763,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "금당사",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000127",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 235871.39010000229,
+        "y" : 351252.25310000218
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 127,
+        "PMNTN_SPOT" : 25764,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나봉암",
+        "ETC_MATTER" : "나봉암",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000128",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 235874.79510000255,
+        "y" : 351875.63240000047
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 128,
+        "PMNTN_SPOT" : 25765,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "고무계단",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000129",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236050.04140000045,
+        "y" : 351925.74660000205
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 129,
+        "PMNTN_SPOT" : 25766,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "부부시비입",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000130",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236492.36400000285,
+        "y" : 351147.05510000139
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 130,
+        "PMNTN_SPOT" : 25767,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000131",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236515.76030000113,
+        "y" : 351908.21710000187
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 131,
+        "PMNTN_SPOT" : 25768,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "상태양호",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000132",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236723.40660000313,
+        "y" : 351825.1763000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 132,
+        "PMNTN_SPOT" : 25769,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000133",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236758.9028000012,
+        "y" : 351512.08810000122
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 133,
+        "PMNTN_SPOT" : 25770,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000134",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236761.04090000223,
+        "y" : 351422.08070000261
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 134,
+        "PMNTN_SPOT" : 25771,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000135",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236769.94299999997,
+        "y" : 351427.29519999959
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 135,
+        "PMNTN_SPOT" : 25772,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000136",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236773.46499999892,
+        "y" : 351583.916000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 136,
+        "PMNTN_SPOT" : 25773,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사진정보",
+        "ETC_MATTER" : "숲길모습사진",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000137",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 236897.4699000027,
+        "y" : 351460.50020000152
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 137,
+        "PMNTN_SPOT" : 25774,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "활인동치",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000138",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 237464.11099999957,
+        "y" : 354004.66990000196
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 138,
+        "PMNTN_SPOT" : 25775,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사진정보",
+        "ETC_MATTER" : "숲길모습사진",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000139",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 237486.47070000134,
+        "y" : 353681.85089999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 139,
+        "PMNTN_SPOT" : 25776,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "13",
+        "MANAGE_SP2" : "유적(문화, 역사)",
+        "DETAIL_SPO" : "유적",
+        "ETC_MATTER" : "신당",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000140",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 237507.93099999987,
+        "y" : 351441.64710000344
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 140,
+        "PMNTN_SPOT" : 25777,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "임도",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000141",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 237527.16080000065,
+        "y" : 352734.91059999913
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 141,
+        "PMNTN_SPOT" : 25778,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "마이산전경",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000142",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 237729.57139999978,
+        "y" : 351592.60180000216
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 142,
+        "PMNTN_SPOT" : 25779,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "마이산전경",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000143",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 237739.24580000062,
+        "y" : 351590.34899999946
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 143,
+        "PMNTN_SPOT" : 25780,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000144",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 237776.19060000405,
+        "y" : 350420.16010000184
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 144,
+        "PMNTN_SPOT" : 25781,
+        "MNTN_CODE" : "457200901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "시종점",
+        "MNTN_NM" : "마이산",
+        "PAST_SPOT_" : "25150210000145",
+        "MNTN_ID" : "2515021000"
+      },
+      "geometry" : {
+        "x" : 238774.43490000069,
+        "y" : 351007.32990000211
+      }
+    }
+  ]
+}

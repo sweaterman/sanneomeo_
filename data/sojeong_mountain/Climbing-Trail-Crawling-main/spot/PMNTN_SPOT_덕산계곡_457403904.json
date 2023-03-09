@@ -1,0 +1,783 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 21390,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "갈림길,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040001",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 251861.09950000048,
+        "y" : 337180.22580000199
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 21391,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "갈림길,이정표,계단시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040002",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 252142.19980000053,
+        "y" : 336944.52380000055
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 21392,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040003",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 252200.16569999885,
+        "y" : 336898.42659999989
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 21393,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단 시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040004",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 252774.68970000092,
+        "y" : 337114.40930000134
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 21394,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단 끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040005",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 252778.18910000008,
+        "y" : 337103.22330000252
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 21395,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단 시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040006",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 252808.20180000085,
+        "y" : 337072.43230000138
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 21396,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단 끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040007",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 252794.55999999959,
+        "y" : 337064.64010000229
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 21397,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단 시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040008",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 252794.44370000158,
+        "y" : 337035.26879999973
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 21398,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040009",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 252820.00569999963,
+        "y" : 337012.66249999963
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 21399,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단,로프 끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040010",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 252833.96120000072,
+        "y" : 336975.097000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 21400,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단 시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040011",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 252834.26889999956,
+        "y" : 336965.96700000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 21401,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단 끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040012",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 252846.76720000058,
+        "y" : 336940.45400000364
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 21402,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단 시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040013",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 252842.48300000001,
+        "y" : 336906.65310000256
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 21403,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단 끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040014",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 252837.17090000119,
+        "y" : 336896.52450000122
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 21404,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040015",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 252854.75890000071,
+        "y" : 336846.78630000167
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 21405,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단,로프 시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040016",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 252946.09130000137,
+        "y" : 336824.08149999939
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 21406,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단,로프끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040017",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 252979.0820000004,
+        "y" : 336816.87629999965
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 21407,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프 시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040018",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 252982.65420000069,
+        "y" : 336813.32459999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 21408,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프 끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040019",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 252994.84750000015,
+        "y" : 336814.89489999972
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 21409,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040020",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 253474.79129999969,
+        "y" : 336787.55270000175
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 21410,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040021",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 253489.96490000095,
+        "y" : 336789.15259999968
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 21411,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040022",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 253728.95710000023,
+        "y" : 336782.69800000079
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 21412,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040023",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 253755.51980000176,
+        "y" : 336779.47360000201
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 21413,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단,로프 끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040024",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 252139.52290000115,
+        "y" : 336909.60089999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 21414,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단,로프 시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040025",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 252131.50570000056,
+        "y" : 336877.01010000147
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 21415,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단,로프 끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040026",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 252130.56240000203,
+        "y" : 336863.23479999974
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 21416,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단,로프 시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040027",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 252129.18930000067,
+        "y" : 336820.65230000205
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 21417,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단 끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040028",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 252112.53050000034,
+        "y" : 336789.45360000245
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 21418,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단 시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040029",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 252111.29530000035,
+        "y" : 336772.91369999945
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 21419,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "계단 끝,이정표,벤치,위",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040030",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 252111.76080000028,
+        "y" : 336526.9785999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 21420,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단 시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040031",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 252087.90079999994,
+        "y" : 336540.53160000034
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 21421,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "연주",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040032",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 250754.64159999974,
+        "y" : 336065.80400000326
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 21422,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "중봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040033",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 253766.50040000118,
+        "y" : 336779.34000000171
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 21423,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040034",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 250759.61659315042,
+        "y" : 336059.29294173233
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 21424,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040035",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 252021.38680000324,
+        "y" : 336582.31800000183
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 21425,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040036",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 252096.67792079505,
+        "y" : 336966.58556875028
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 21426,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040037",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 252103.43820000347,
+        "y" : 336532.20630000345
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 21427,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040038",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 252144.27878921386,
+        "y" : 336948.11428917013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 21428,
+        "MNTN_CODE" : "457403904",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕산계곡",
+        "PAST_SPOT_" : "4574039040039",
+        "MNTN_ID" : "457403904"
+      },
+      "geometry" : {
+        "x" : 253767.04667061195,
+        "y" : 336781.33706102893
+      }
+    }
+  ]
+}

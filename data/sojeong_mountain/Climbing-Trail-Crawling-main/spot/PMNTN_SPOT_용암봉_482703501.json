@@ -1,0 +1,927 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 69142,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "마을입구",
+        "ETC_MATTER" : "오치마을",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000001",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 367831.62350002583,
+        "y" : 333948.43160000257
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 69143,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "디실재",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000002",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 365941.32690002304,
+        "y" : 329356.43820000626
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 69144,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "마을통과",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000003",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 366027.78960002121,
+        "y" : 330690.58709999919
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 69145,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "시멘트다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000004",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 366174.49770002533,
+        "y" : 330685.53209999949
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 69146,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "포장도로",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000005",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 366229.82520002406,
+        "y" : 330397.10630000196
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 69147,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "감밭",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000006",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 366200.0955000231,
+        "y" : 330235.31359999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 69148,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암릉시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000007",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 366842.82160002273,
+        "y" : 329838.51989999972
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 69149,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암릉끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000008",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 366887.16250002664,
+        "y" : 329837.68240000121
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 69150,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "너덜지대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000009",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 366939.7088000197,
+        "y" : 329888.10689999908
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 69151,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000010",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 367001.27120002452,
+        "y" : 329932.25060000084
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 69152,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암릉시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000011",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 367062.13650002517,
+        "y" : 330655.74599999934
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 69153,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000012",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 367065.44450002629,
+        "y" : 330673.85800000466
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 69154,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000013",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 367086.54040002264,
+        "y" : 331169.84180000052
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 69155,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "과수원임도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000014",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 364701.37080002483,
+        "y" : 333438.12949999794
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 69156,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암릉끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000015",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 367167.65510002244,
+        "y" : 332028.01820000261
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 69157,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000016",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 367137.15530002303,
+        "y" : 331960.5532000009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 69158,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암릉통과",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000017",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 367030.75890002213,
+        "y" : 331797.99930000491
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 69159,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "통천문",
+        "ETC_MATTER" : "바위사이길",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000018",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 366973.92390002217,
+        "y" : 331683.62970000133
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 69160,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "포장도로",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000019",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 367778.07400002237,
+        "y" : 333045.26800000481
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 69161,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암릉시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000020",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 366882.05710002128,
+        "y" : 334197.2198000066
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 69162,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000021",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 366856.67420002259,
+        "y" : 334203.20610000752
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 69163,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000022",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 365202.89130001981,
+        "y" : 334733.58330000192
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 69164,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "숲길끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000023",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 365023.19030002132,
+        "y" : 334257.72920000181
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 69165,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "오치사슴목장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000024",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 367895.49060002528,
+        "y" : 333006.95610000566
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 69166,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "독립가옥",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000025",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 368034.42660002224,
+        "y" : 332912.35779999942
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 69167,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사과밭",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000026",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 368107.31800002512,
+        "y" : 332900.53050000034
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 69168,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "숲길시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000027",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 368184.40940002445,
+        "y" : 332764.9066000022
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 69169,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000028",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 368118.17580002453,
+        "y" : 332502.46360000037
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 69170,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "독립가옥",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000029",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 368307.99970002379,
+        "y" : 332422.3813000042
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 69171,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,신곡교회",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000030",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 364743.5378000224,
+        "y" : 333452.84999999963
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 69172,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,팔각쉘타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000031",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 365150.64440002013,
+        "y" : 333964.40430000238
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 69173,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "소천봉",
+        "ETC_MATTER" : "632m",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000032",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 365264.80840002187,
+        "y" : 332166.41710000113
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 69174,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시점",
+        "ETC_MATTER" : "중산 분기점",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000033",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 365489.3232000228,
+        "y" : 328902.71950000152
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 69175,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,문중회",
+        "ETC_MATTER" : "경주이씨문중",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000034",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 365939.57660002075,
+        "y" : 333273.78380000219
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 69176,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,마을회관",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000035",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 365995.08320002258,
+        "y" : 330686.49389999919
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 69177,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000036",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 366035.14100002311,
+        "y" : 329406.4130000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 69178,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000037",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 366125.43210002314,
+        "y" : 329496.53050000407
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 69179,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "종지봉",
+        "ETC_MATTER" : "539m",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000038",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 366179.81370001938,
+        "y" : 334925.86160000786
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 69180,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,운상원",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000039",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 366460.59310002252,
+        "y" : 328904.6117000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 69181,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "용암봉,분기",
+        "ETC_MATTER" : "686m",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000040",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 366958.6154000219,
+        "y" : 331609.76669999957
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 69182,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "536고지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000041",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 367051.60840002354,
+        "y" : 333866.72400000505
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 69183,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000042",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 367058.739200023,
+        "y" : 333935.45569999889
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 69184,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "임도접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000043",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 367286.22930002213,
+        "y" : 333130.6874000039
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 69185,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "548고지,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000044",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 367363.87200002372,
+        "y" : 332503.18349999934
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 69186,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "산내면 용전리 저전마을",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000045",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 368298.42920002528,
+        "y" : 331888.66350000165
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 69187,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,탁삼재",
+        "ETC_MATTER" : "산내면 봉의리 봉촌",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000046",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 369439.30630002543,
+        "y" : 333985.83229999803
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 69188,
+        "MNTN_CODE" : "482703501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용암봉",
+        "PAST_SPOT_" : "28071531000047",
+        "MNTN_ID" : "2807153100"
+      },
+      "geometry" : {
+        "x" : 367438.76152846403,
+        "y" : 334282.4879033044
+      }
+    }
+  ]
+}

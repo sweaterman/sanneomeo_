@@ -1,0 +1,315 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 73083,
+        "MNTN_CODE" : "479202801",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "삼각점, 정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월암산",
+        "PAST_SPOT_" : "4792028010001",
+        "MNTN_ID" : "479202801"
+      },
+      "geometry" : {
+        "x" : 375702.3908000011,
+        "y" : 478812.28360000066
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 73084,
+        "MNTN_CODE" : "479202801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경고문,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월암산",
+        "PAST_SPOT_" : "4792028010002",
+        "MNTN_ID" : "479202801"
+      },
+      "geometry" : {
+        "x" : 375477.42420000024,
+        "y" : 478502.2453999985
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 73085,
+        "MNTN_CODE" : "479202801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월암산",
+        "PAST_SPOT_" : "4792028010003",
+        "MNTN_ID" : "479202801"
+      },
+      "geometry" : {
+        "x" : 375587.2714000009,
+        "y" : 477871.6294000037
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 73086,
+        "MNTN_CODE" : "479202801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월암산",
+        "PAST_SPOT_" : "4792028010004",
+        "MNTN_ID" : "479202801"
+      },
+      "geometry" : {
+        "x" : 375094.29179999977,
+        "y" : 478752.69810000248
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 73087,
+        "MNTN_CODE" : "479202801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월암산",
+        "PAST_SPOT_" : "4792028010005",
+        "MNTN_ID" : "479202801"
+      },
+      "geometry" : {
+        "x" : 375477.5708999997,
+        "y" : 478503.3376000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 73088,
+        "MNTN_CODE" : "479202801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월암산",
+        "PAST_SPOT_" : "4792028010006",
+        "MNTN_ID" : "479202801"
+      },
+      "geometry" : {
+        "x" : 375564.97100000177,
+        "y" : 477788.69099999964
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 73089,
+        "MNTN_CODE" : "479202801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월암산",
+        "PAST_SPOT_" : "4792028010007",
+        "MNTN_ID" : "479202801"
+      },
+      "geometry" : {
+        "x" : 375577.78220000118,
+        "y" : 479062.53590000048
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 73090,
+        "MNTN_CODE" : "479202801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월암산",
+        "PAST_SPOT_" : "4792028010008",
+        "MNTN_ID" : "479202801"
+      },
+      "geometry" : {
+        "x" : 375618.316300001,
+        "y" : 478786.98069999926
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 73091,
+        "MNTN_CODE" : "479202801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월암산",
+        "PAST_SPOT_" : "4792028010009",
+        "MNTN_ID" : "479202801"
+      },
+      "geometry" : {
+        "x" : 375631.80979999993,
+        "y" : 478489.76750000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 73092,
+        "MNTN_CODE" : "479202801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월암산",
+        "PAST_SPOT_" : "4792028010010",
+        "MNTN_ID" : "479202801"
+      },
+      "geometry" : {
+        "x" : 375718.81910000183,
+        "y" : 478725.25450000167
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 73093,
+        "MNTN_CODE" : "479202801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월암산",
+        "PAST_SPOT_" : "4792028010011",
+        "MNTN_ID" : "479202801"
+      },
+      "geometry" : {
+        "x" : 375865.48420000076,
+        "y" : 479097.16620000079
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 73094,
+        "MNTN_CODE" : "479202801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월암산",
+        "PAST_SPOT_" : "4792028010012",
+        "MNTN_ID" : "479202801"
+      },
+      "geometry" : {
+        "x" : 376201.67660000082,
+        "y" : 479169.14950000122
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 98839,
+        "MNTN_CODE" : "479202801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월암산",
+        "PAST_SPOT_" : "4792028010013",
+        "MNTN_ID" : "479202801"
+      },
+      "geometry" : {
+        "x" : 375569.05550000095,
+        "y" : 477790.60520000017
+      }
+    }
+  ]
+}

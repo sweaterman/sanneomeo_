@@ -1,0 +1,927 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 88324,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "4713054010001",
+        "MNTN_ID" : "471305401"
+      },
+      "geometry" : {
+        "x" : 409607.87090009078,
+        "y" : 359743.87870000489
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 88325,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "4713054010002",
+        "MNTN_ID" : "471305401"
+      },
+      "geometry" : {
+        "x" : 410365.11000009347,
+        "y" : 359836.74760000408
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 88326,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "4713054010003",
+        "MNTN_ID" : "471305401"
+      },
+      "geometry" : {
+        "x" : 410467.50390009303,
+        "y" : 359333.50910000689
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 88327,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "4713054010004",
+        "MNTN_ID" : "471305401"
+      },
+      "geometry" : {
+        "x" : 411414.8342984505,
+        "y" : 359219.43719178252
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 88328,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "불국사 일주문",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000005",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 410883.28070009593,
+        "y" : 356934.04470000602
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 88329,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "불국사 매표소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000006",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 410902.15400009602,
+        "y" : 356932.45340000652
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 88330,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000007",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 410906.23970009573,
+        "y" : 356913.03880000487
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 88331,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "청마시비",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000008",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 411086.05930009577,
+        "y" : 357057.02460000478
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 88332,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000009",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 411660.97450009454,
+        "y" : 357253.64500000328
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 88333,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000010",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 411963.0471000988,
+        "y" : 357170.92340000719
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 88334,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000011",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 412196.6685000984,
+        "y" : 357478.51740000397
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 88335,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "안내판 설치 필요",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000012",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 413508.38570010103,
+        "y" : 359801.34910000302
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 88336,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "워험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000013",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 413459.97890010197,
+        "y" : 359747.32500000484
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 88337,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "벤치 설치 필요",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000014",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 413074.63820010144,
+        "y" : 359056.89540000819
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 88338,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "워험지역",
+        "ETC_MATTER" : "벤치 설치 필요",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000015",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 413090.08940010052,
+        "y" : 358939.26630000584
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 88339,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "벤치 설치 필요",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000016",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 412897.54810010083,
+        "y" : 358703.93080000952
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 88340,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000017",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 412533.92620009836,
+        "y" : 358664.17980000749
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 88341,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "이정표 보수 필요",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000018",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 411281.36940009519,
+        "y" : 359461.51420000754
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 88342,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "워험지역",
+        "ETC_MATTER" : "계단 설치 필요",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000019",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 411194.97070009355,
+        "y" : 360442.34790000506
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 88343,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "워험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000020",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 411615.34080009628,
+        "y" : 358689.14900000766
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 88344,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "워험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000021",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 411395.21880009584,
+        "y" : 358408.94850000367
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 88345,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "워험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000022",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 410914.58940009307,
+        "y" : 358208.50720000826
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 88346,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "마동사지 삼층석탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000023",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 409927.55050009117,
+        "y" : 357264.167600004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 88347,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "벤치 설치 필요",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000024",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 412844.36480010115,
+        "y" : 358010.72460001148
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 88348,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "이정표 설치 필요",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000025",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 412622.47410009988,
+        "y" : 357955.9361000061
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 88349,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "벤치 설치 필요",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000026",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 412553.9036000995,
+        "y" : 358026.6106000077
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 88350,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "헬기장",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000027",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 412041.82240009867,
+        "y" : 358538.91290000454
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 88351,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "석굴암매표소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000028",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 412428.8625001004,
+        "y" : 357459.05670000985
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 88352,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000029",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 412425.38210009877,
+        "y" : 357473.50520000607
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 88353,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "성화 채화지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000030",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 412209.53090009652,
+        "y" : 358013.12250000797
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 88354,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "이정표 보수 필요",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000031",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 412212.49720010161,
+        "y" : 357971.77880000696
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 88355,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "안내판 설치 필요",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000032",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 409791.54830009118,
+        "y" : 357092.06240000576
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 88356,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000033",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 410882.98480009194,
+        "y" : 356901.53040000796
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 88357,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000034",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 410905.67630009353,
+        "y" : 360950.93780000322
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 88358,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "이정표 설치 필요",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000035",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 411113.79190009553,
+        "y" : 360253.75060000829
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 88359,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "안내판 설치 필요",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000036",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 411568.46120009571,
+        "y" : 360891.80070000514
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 88360,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "이정표 보수 필요",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000037",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 411671.10950009525,
+        "y" : 358884.32280000485
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 88361,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000038",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 411805.77380009647,
+        "y" : 357181.32870000415
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 88362,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "오동수",
+        "ETC_MATTER" : "약수터",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000039",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 411888.66600009892,
+        "y" : 357200.12060000375
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 88363,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "토함산",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000040",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 412006.67100009788,
+        "y" : 358586.70230000652
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 88364,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000041",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 412160.48010009807,
+        "y" : 358412.53680001199
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 88365,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "이정표  설치 필요",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000042",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 412243.11400009878,
+        "y" : 358030.49670000747
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 88366,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "포수우물",
+        "ETC_MATTER" : "약수터",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000043",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 412301.25250009913,
+        "y" : 358795.60630000569
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 88367,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000044",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 412333.76130009815,
+        "y" : 358683.54920000769
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 88368,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "석굴암입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000045",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 412433.2606001012,
+        "y" : 357476.27940001152
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 88369,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "안내판 설치 필요",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000046",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 413445.59650010616,
+        "y" : 358243.77510000579
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 88370,
+        "MNTN_CODE" : "471305401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,백년찻집",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "토함산",
+        "PAST_SPOT_" : "27025846000047",
+        "MNTN_ID" : "2702584600"
+      },
+      "geometry" : {
+        "x" : 413510.77940010093,
+        "y" : 359806.11090000533
+      }
+    }
+  ]
+}

@@ -1,0 +1,549 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 18962,
+        "MNTN_CODE" : "468700401",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대덕산",
+        "PAST_SPOT_" : "4687004010001",
+        "MNTN_ID" : "468700401"
+      },
+      "geometry" : {
+        "x" : 150167.88000000082,
+        "y" : 306154.66999999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 18963,
+        "MNTN_CODE" : "468700401",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물,시설물,벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대덕산",
+        "PAST_SPOT_" : "4687004010002",
+        "MNTN_ID" : "468700401"
+      },
+      "geometry" : {
+        "x" : 150215.73000000138,
+        "y" : 305898.99000000022
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 18964,
+        "MNTN_CODE" : "468700401",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대덕산",
+        "PAST_SPOT_" : "4687004010003",
+        "MNTN_ID" : "468700401"
+      },
+      "geometry" : {
+        "x" : 150333.01000000071,
+        "y" : 305770.30000000261
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 18965,
+        "MNTN_CODE" : "468700401",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대덕산",
+        "PAST_SPOT_" : "4687004010004",
+        "MNTN_ID" : "468700401"
+      },
+      "geometry" : {
+        "x" : 150356.94000000227,
+        "y" : 305674.97000000067
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 18966,
+        "MNTN_CODE" : "468700401",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대덕산",
+        "PAST_SPOT_" : "4687004010005",
+        "MNTN_ID" : "468700401"
+      },
+      "geometry" : {
+        "x" : 150346.06000000052,
+        "y" : 305648.06000000238
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 18967,
+        "MNTN_CODE" : "468700401",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치,벤치,종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대덕산",
+        "PAST_SPOT_" : "4687004010006",
+        "MNTN_ID" : "468700401"
+      },
+      "geometry" : {
+        "x" : 150305.80999999959,
+        "y" : 305554.31000000425
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 18968,
+        "MNTN_CODE" : "468700401",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대덕산",
+        "PAST_SPOT_" : "4687004010007",
+        "MNTN_ID" : "468700401"
+      },
+      "geometry" : {
+        "x" : 150294.8900000006,
+        "y" : 305535.29000000097
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 18969,
+        "MNTN_CODE" : "468700401",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대덕산",
+        "PAST_SPOT_" : "4687004010008",
+        "MNTN_ID" : "468700401"
+      },
+      "geometry" : {
+        "x" : 150244.80999999959,
+        "y" : 305472.10000000335
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 18970,
+        "MNTN_CODE" : "468700401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대덕산",
+        "PAST_SPOT_" : "4687004010009",
+        "MNTN_ID" : "468700401"
+      },
+      "geometry" : {
+        "x" : 150147.30000000168,
+        "y" : 305184.6099999994
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 18971,
+        "MNTN_CODE" : "468700401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대덕산",
+        "PAST_SPOT_" : "4687004010010",
+        "MNTN_ID" : "468700401"
+      },
+      "geometry" : {
+        "x" : 150242.31000000052,
+        "y" : 305152.90000000037
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 18972,
+        "MNTN_CODE" : "468700401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대덕산",
+        "PAST_SPOT_" : "4687004010011",
+        "MNTN_ID" : "468700401"
+      },
+      "geometry" : {
+        "x" : 149928.97000000067,
+        "y" : 304997.09000000171
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 18973,
+        "MNTN_CODE" : "468700401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대덕산",
+        "PAST_SPOT_" : "4687004010012",
+        "MNTN_ID" : "468700401"
+      },
+      "geometry" : {
+        "x" : 149650.37999999989,
+        "y" : 304311.52000000142
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 18974,
+        "MNTN_CODE" : "468700401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대덕산",
+        "PAST_SPOT_" : "4687004010013",
+        "MNTN_ID" : "468700401"
+      },
+      "geometry" : {
+        "x" : 148604.4207000006,
+        "y" : 304817.16990000196
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 18975,
+        "MNTN_CODE" : "468700401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대덕산",
+        "PAST_SPOT_" : "4687004010014",
+        "MNTN_ID" : "468700401"
+      },
+      "geometry" : {
+        "x" : 149550.19689999986,
+        "y" : 304786.20549999923
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 18976,
+        "MNTN_CODE" : "468700401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대덕산",
+        "PAST_SPOT_" : "4687004010015",
+        "MNTN_ID" : "468700401"
+      },
+      "geometry" : {
+        "x" : 149700.06300000008,
+        "y" : 304717.93029999919
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 18977,
+        "MNTN_CODE" : "468700401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대덕산",
+        "PAST_SPOT_" : "4687004010016",
+        "MNTN_ID" : "468700401"
+      },
+      "geometry" : {
+        "x" : 150105.45289999992,
+        "y" : 306262.40149999969
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 18978,
+        "MNTN_CODE" : "468700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대덕산",
+        "PAST_SPOT_" : "4687004010017",
+        "MNTN_ID" : "468700401"
+      },
+      "geometry" : {
+        "x" : 150143.71389999893,
+        "y" : 305166.47250000387
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 18979,
+        "MNTN_CODE" : "468700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대덕산",
+        "PAST_SPOT_" : "4687004010018",
+        "MNTN_ID" : "468700401"
+      },
+      "geometry" : {
+        "x" : 150147.3701000018,
+        "y" : 305170.4718000032
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 18980,
+        "MNTN_CODE" : "468700401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대덕산",
+        "PAST_SPOT_" : "4687004010019",
+        "MNTN_ID" : "468700401"
+      },
+      "geometry" : {
+        "x" : 150199.26470000111,
+        "y" : 305607.20209999941
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 18981,
+        "MNTN_CODE" : "468700401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대덕산",
+        "PAST_SPOT_" : "4687004010020",
+        "MNTN_ID" : "468700401"
+      },
+      "geometry" : {
+        "x" : 150217.26340000145,
+        "y" : 305628.76009999961
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 18982,
+        "MNTN_CODE" : "468700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대덕산",
+        "PAST_SPOT_" : "4687004010021",
+        "MNTN_ID" : "468700401"
+      },
+      "geometry" : {
+        "x" : 150241.07079999987,
+        "y" : 305851.53280000389
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 18983,
+        "MNTN_CODE" : "468700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대덕산",
+        "PAST_SPOT_" : "4687004010022",
+        "MNTN_ID" : "468700401"
+      },
+      "geometry" : {
+        "x" : 150311.36149999965,
+        "y" : 305550.06820000149
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 18984,
+        "MNTN_CODE" : "468700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대덕산",
+        "PAST_SPOT_" : "4687004010023",
+        "MNTN_ID" : "468700401"
+      },
+      "geometry" : {
+        "x" : 150330.33279999997,
+        "y" : 305106.1061000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 18985,
+        "MNTN_CODE" : "468700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대덕산",
+        "PAST_SPOT_" : "4687004010024",
+        "MNTN_ID" : "468700401"
+      },
+      "geometry" : {
+        "x" : 150554.37459999882,
+        "y" : 305382.46529999934
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 18986,
+        "MNTN_CODE" : "468700401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대덕산",
+        "PAST_SPOT_" : "4687004010025",
+        "MNTN_ID" : "468700401"
+      },
+      "geometry" : {
+        "x" : 150817.8161000004,
+        "y" : 305416.34999999963
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 18987,
+        "MNTN_CODE" : "468700401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대덕산",
+        "PAST_SPOT_" : "4687004010026",
+        "MNTN_ID" : "468700401"
+      },
+      "geometry" : {
+        "x" : 150847.84590000007,
+        "y" : 305287.34200000018
+      }
+    }
+  ]
+}

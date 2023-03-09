@@ -1,0 +1,639 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 49690,
+        "MNTN_CODE" : "427207401",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "등산안내도,화장실\n주차장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새득이봉",
+        "PAST_SPOT_" : "4272074010001",
+        "MNTN_ID" : "427207401"
+      },
+      "geometry" : {
+        "x" : 286653.68230000045,
+        "y" : 585409.91020000353
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 49691,
+        "MNTN_CODE" : "427207401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새득이봉",
+        "PAST_SPOT_" : "4272074010002",
+        "MNTN_ID" : "427207401"
+      },
+      "geometry" : {
+        "x" : 285534.29540000204,
+        "y" : 585814.74990000017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 49692,
+        "MNTN_CODE" : "427207401",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새득이봉",
+        "PAST_SPOT_" : "4272074010003",
+        "MNTN_ID" : "427207401"
+      },
+      "geometry" : {
+        "x" : 284902.33860000037,
+        "y" : 585681.05220000073
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 49693,
+        "MNTN_CODE" : "427207401",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역,훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새득이봉",
+        "PAST_SPOT_" : "4272074010004",
+        "MNTN_ID" : "427207401"
+      },
+      "geometry" : {
+        "x" : 284635.36100000143,
+        "y" : 585549.88210000284
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 49694,
+        "MNTN_CODE" : "427207401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새득이봉",
+        "PAST_SPOT_" : "4272074010005",
+        "MNTN_ID" : "427207401"
+      },
+      "geometry" : {
+        "x" : 284540.1725000022,
+        "y" : 585544.39820000157
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 49695,
+        "MNTN_CODE" : "427207401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새득이봉",
+        "PAST_SPOT_" : "4272074010006",
+        "MNTN_ID" : "427207401"
+      },
+      "geometry" : {
+        "x" : 284445.8554999996,
+        "y" : 585923.32090000249
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 49696,
+        "MNTN_CODE" : "427207401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새득이봉",
+        "PAST_SPOT_" : "4272074010007",
+        "MNTN_ID" : "427207401"
+      },
+      "geometry" : {
+        "x" : 284328.34119999968,
+        "y" : 586102.67130000144
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 49697,
+        "MNTN_CODE" : "427207401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새득이봉",
+        "PAST_SPOT_" : "4272074010008",
+        "MNTN_ID" : "427207401"
+      },
+      "geometry" : {
+        "x" : 284200.18970000092,
+        "y" : 586043.86229999922
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 49698,
+        "MNTN_CODE" : "427207401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새득이봉",
+        "PAST_SPOT_" : "4272074010009",
+        "MNTN_ID" : "427207401"
+      },
+      "geometry" : {
+        "x" : 284221.73620000109,
+        "y" : 586103.43810000271
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 49699,
+        "MNTN_CODE" : "427207401",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험구간",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새득이봉",
+        "PAST_SPOT_" : "4272074010010",
+        "MNTN_ID" : "427207401"
+      },
+      "geometry" : {
+        "x" : 284155.63880000077,
+        "y" : 586085.5932
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 49700,
+        "MNTN_CODE" : "427207401",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "이정표,정상부\n조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새득이봉",
+        "PAST_SPOT_" : "4272074010011",
+        "MNTN_ID" : "427207401"
+      },
+      "geometry" : {
+        "x" : 284158.90369999968,
+        "y" : 586152.77879999951
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 49701,
+        "MNTN_CODE" : "427207401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새득이봉",
+        "PAST_SPOT_" : "4272074010012",
+        "MNTN_ID" : "427207401"
+      },
+      "geometry" : {
+        "x" : 284190.30690000113,
+        "y" : 586221.44380000047
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 49702,
+        "MNTN_CODE" : "427207401",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험구간",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새득이봉",
+        "PAST_SPOT_" : "4272074010013",
+        "MNTN_ID" : "427207401"
+      },
+      "geometry" : {
+        "x" : 284215.10060000047,
+        "y" : 586267.84950000048
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 49703,
+        "MNTN_CODE" : "427207401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새득이봉",
+        "PAST_SPOT_" : "4272074010014",
+        "MNTN_ID" : "427207401"
+      },
+      "geometry" : {
+        "x" : 284245.85550000053,
+        "y" : 586263.03800000064
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 49704,
+        "MNTN_CODE" : "427207401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새득이봉",
+        "PAST_SPOT_" : "4272074010015",
+        "MNTN_ID" : "427207401"
+      },
+      "geometry" : {
+        "x" : 284368.28820000123,
+        "y" : 586450.94790000096
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 49705,
+        "MNTN_CODE" : "427207401",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새득이봉",
+        "PAST_SPOT_" : "4272074010016",
+        "MNTN_ID" : "427207401"
+      },
+      "geometry" : {
+        "x" : 285582.63570000138,
+        "y" : 587392.93219999969
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 49706,
+        "MNTN_CODE" : "427207401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새득이봉",
+        "PAST_SPOT_" : "4272074010017",
+        "MNTN_ID" : "427207401"
+      },
+      "geometry" : {
+        "x" : 286272.64209999982,
+        "y" : 587168.33610000461
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 49707,
+        "MNTN_CODE" : "427207401",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새득이봉",
+        "PAST_SPOT_" : "4272074010018",
+        "MNTN_ID" : "427207401"
+      },
+      "geometry" : {
+        "x" : 286780.93120000046,
+        "y" : 586929.82430000231
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 49708,
+        "MNTN_CODE" : "427207401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새득이봉",
+        "PAST_SPOT_" : "4272074010019",
+        "MNTN_ID" : "427207401"
+      },
+      "geometry" : {
+        "x" : 284196.35900000017,
+        "y" : 586046.71310000308
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 49709,
+        "MNTN_CODE" : "427207401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새득이봉",
+        "PAST_SPOT_" : "4272074010020",
+        "MNTN_ID" : "427207401"
+      },
+      "geometry" : {
+        "x" : 284321.19440000132,
+        "y" : 586108.15600000322
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 49710,
+        "MNTN_CODE" : "427207401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새득이봉",
+        "PAST_SPOT_" : "4272074010021",
+        "MNTN_ID" : "427207401"
+      },
+      "geometry" : {
+        "x" : 285105.99190000072,
+        "y" : 587029.7416999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 49711,
+        "MNTN_CODE" : "427207401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새득이봉",
+        "PAST_SPOT_" : "4272074010022",
+        "MNTN_ID" : "427207401"
+      },
+      "geometry" : {
+        "x" : 285504.32010000013,
+        "y" : 585847.16260000132
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 49712,
+        "MNTN_CODE" : "427207401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새득이봉",
+        "PAST_SPOT_" : "4272074010023",
+        "MNTN_ID" : "427207401"
+      },
+      "geometry" : {
+        "x" : 286265.34110000078,
+        "y" : 587165.38670000248
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 49713,
+        "MNTN_CODE" : "427207401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새득이봉",
+        "PAST_SPOT_" : "4272074010024",
+        "MNTN_ID" : "427207401"
+      },
+      "geometry" : {
+        "x" : 286530.3535000002,
+        "y" : 585403.10820000432
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 49714,
+        "MNTN_CODE" : "427207401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새득이봉",
+        "PAST_SPOT_" : "4272074010025",
+        "MNTN_ID" : "427207401"
+      },
+      "geometry" : {
+        "x" : 286653.68340000045,
+        "y" : 585408.2909000013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 49715,
+        "MNTN_CODE" : "427207401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새득이봉",
+        "PAST_SPOT_" : "4272074010026",
+        "MNTN_ID" : "427207401"
+      },
+      "geometry" : {
+        "x" : 286780.83229999989,
+        "y" : 586930.68579999916
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 97531,
+        "MNTN_CODE" : "427207401",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새득이봉",
+        "PAST_SPOT_" : "4272074010027",
+        "MNTN_ID" : "427207401"
+      },
+      "geometry" : {
+        "x" : 284686.76040000003,
+        "y" : 585609.94360000081
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 97532,
+        "MNTN_CODE" : "427207401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새득이봉",
+        "PAST_SPOT_" : "4272074010028",
+        "MNTN_ID" : "427207401"
+      },
+      "geometry" : {
+        "x" : 285097.4390000006,
+        "y" : 587029.33789999981
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 97533,
+        "MNTN_CODE" : "427207401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새득이봉",
+        "PAST_SPOT_" : "4272074010029",
+        "MNTN_ID" : "427207401"
+      },
+      "geometry" : {
+        "x" : 285413.14359999995,
+        "y" : 585948.48230000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 97534,
+        "MNTN_CODE" : "427207401",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새득이봉",
+        "PAST_SPOT_" : "4272074010030",
+        "MNTN_ID" : "427207401"
+      },
+      "geometry" : {
+        "x" : 285645.94139999966,
+        "y" : 587416.24039999966
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 97535,
+        "MNTN_CODE" : "427207401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새득이봉",
+        "PAST_SPOT_" : "4272074010031",
+        "MNTN_ID" : "427207401"
+      },
+      "geometry" : {
+        "x" : 286661.1865999999,
+        "y" : 587083.4562999995
+      }
+    }
+  ]
+}

@@ -1,0 +1,531 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 89394,
+        "MNTN_CODE" : "468802901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,나무계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "팔암산",
+        "PAST_SPOT_" : "26170632000001",
+        "MNTN_ID" : "2617063200"
+      },
+      "geometry" : {
+        "x" : 170005.89690000005,
+        "y" : 296403.94800000265
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 89395,
+        "MNTN_CODE" : "468802901",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "철봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "팔암산",
+        "PAST_SPOT_" : "26170632000002",
+        "MNTN_ID" : "2617063200"
+      },
+      "geometry" : {
+        "x" : 169903.90330000129,
+        "y" : 296611.81720000133
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 89396,
+        "MNTN_CODE" : "468802901",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "팔암산",
+        "PAST_SPOT_" : "26170632000003",
+        "MNTN_ID" : "2617063200"
+      },
+      "geometry" : {
+        "x" : 169910.47630000301,
+        "y" : 296610.04219999909
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 89397,
+        "MNTN_CODE" : "468802901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "팔암산",
+        "PAST_SPOT_" : "26170632000004",
+        "MNTN_ID" : "2617063200"
+      },
+      "geometry" : {
+        "x" : 169812.12849999964,
+        "y" : 296563.67380000278
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 89398,
+        "MNTN_CODE" : "468802901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점2,나무계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "팔암산",
+        "PAST_SPOT_" : "26170632000005",
+        "MNTN_ID" : "2617063200"
+      },
+      "geometry" : {
+        "x" : 169783.26930000167,
+        "y" : 296540.59369999915
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 89399,
+        "MNTN_CODE" : "468802901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "팔각정",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "팔암산",
+        "PAST_SPOT_" : "26170632000006",
+        "MNTN_ID" : "2617063200"
+      },
+      "geometry" : {
+        "x" : 169780.41750000045,
+        "y" : 296536.80890000053
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 89400,
+        "MNTN_CODE" : "468802901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "바위",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "팔암산",
+        "PAST_SPOT_" : "26170632000007",
+        "MNTN_ID" : "2617063200"
+      },
+      "geometry" : {
+        "x" : 169525.79540000111,
+        "y" : 296491.30310000107
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 89401,
+        "MNTN_CODE" : "468802901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점1",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "팔암산",
+        "PAST_SPOT_" : "26170632000008",
+        "MNTN_ID" : "2617063200"
+      },
+      "geometry" : {
+        "x" : 169517.68640000187,
+        "y" : 296456.02690000087
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 89402,
+        "MNTN_CODE" : "468802901",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "팔암산",
+        "PAST_SPOT_" : "26170632000009",
+        "MNTN_ID" : "2617063200"
+      },
+      "geometry" : {
+        "x" : 169448.72200000286,
+        "y" : 296298.44840000011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 89403,
+        "MNTN_CODE" : "468802901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "팔암산",
+        "PAST_SPOT_" : "26170632000010",
+        "MNTN_ID" : "2617063200"
+      },
+      "geometry" : {
+        "x" : 169437.10690000094,
+        "y" : 296278.58379999921
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 89404,
+        "MNTN_CODE" : "468802901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "팔암산",
+        "PAST_SPOT_" : "26170632000011",
+        "MNTN_ID" : "2617063200"
+      },
+      "geometry" : {
+        "x" : 169372.08409999963,
+        "y" : 296247.76180000044
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 89405,
+        "MNTN_CODE" : "468802901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "팔암산",
+        "PAST_SPOT_" : "26170632000012",
+        "MNTN_ID" : "2617063200"
+      },
+      "geometry" : {
+        "x" : 169335.50340000167,
+        "y" : 296218.57400000095
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 89406,
+        "MNTN_CODE" : "468802901",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "팔암산",
+        "PAST_SPOT_" : "26170632000013",
+        "MNTN_ID" : "2617063200"
+      },
+      "geometry" : {
+        "x" : 170136.80950000044,
+        "y" : 296687.63900000416
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 89407,
+        "MNTN_CODE" : "468802901",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "팔암산",
+        "PAST_SPOT_" : "26170632000014",
+        "MNTN_ID" : "2617063200"
+      },
+      "geometry" : {
+        "x" : 170234.88329999987,
+        "y" : 296715.4058000017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 89408,
+        "MNTN_CODE" : "468802901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "감시초소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "팔암산",
+        "PAST_SPOT_" : "26170632000015",
+        "MNTN_ID" : "2617063200"
+      },
+      "geometry" : {
+        "x" : 170236.26009999961,
+        "y" : 296719.01810000092
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 89409,
+        "MNTN_CODE" : "468802901",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "팔암산",
+        "PAST_SPOT_" : "26170632000016",
+        "MNTN_ID" : "2617063200"
+      },
+      "geometry" : {
+        "x" : 170235.37780000083,
+        "y" : 296721.85019999929
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 89410,
+        "MNTN_CODE" : "468802901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "팔암산",
+        "PAST_SPOT_" : "26170632000017",
+        "MNTN_ID" : "2617063200"
+      },
+      "geometry" : {
+        "x" : 170080.35900000017,
+        "y" : 297016.28839999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 89411,
+        "MNTN_CODE" : "468802901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "공터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "팔암산",
+        "PAST_SPOT_" : "26170632000018",
+        "MNTN_ID" : "2617063200"
+      },
+      "geometry" : {
+        "x" : 169959.74150000047,
+        "y" : 297879.00220000185
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 89412,
+        "MNTN_CODE" : "468802901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "사창 상무약국",
+        "MNTN_NM" : "팔암산",
+        "PAST_SPOT_" : "26170632000019",
+        "MNTN_ID" : "2617063200"
+      },
+      "geometry" : {
+        "x" : 169298.81530000083,
+        "y" : 296189.95250000246
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 89413,
+        "MNTN_CODE" : "468802901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철탑",
+        "ETC_MATTER" : "한전 철탑 숲길끊김",
+        "MNTN_NM" : "팔암산",
+        "PAST_SPOT_" : "26170632000020",
+        "MNTN_ID" : "2617063200"
+      },
+      "geometry" : {
+        "x" : 169769.51550000068,
+        "y" : 297201.11130000092
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 89414,
+        "MNTN_CODE" : "468802901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "팔암산",
+        "PAST_SPOT_" : "26170632000021",
+        "MNTN_ID" : "2617063200"
+      },
+      "geometry" : {
+        "x" : 169857.74509999994,
+        "y" : 297321.05230000243
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 89415,
+        "MNTN_CODE" : "468802901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "팔암산",
+        "PAST_SPOT_" : "26170632000022",
+        "MNTN_ID" : "2617063200"
+      },
+      "geometry" : {
+        "x" : 169903.46740000322,
+        "y" : 296606.62619999982
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 89416,
+        "MNTN_CODE" : "468802901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "사창 금호APT",
+        "MNTN_NM" : "팔암산",
+        "PAST_SPOT_" : "26170632000023",
+        "MNTN_ID" : "2617063200"
+      },
+      "geometry" : {
+        "x" : 170014.08129999973,
+        "y" : 296380.52180000208
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 89417,
+        "MNTN_CODE" : "468802901",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "팔암산정상,철탑",
+        "ETC_MATTER" : "감시철탑",
+        "MNTN_NM" : "팔암산",
+        "PAST_SPOT_" : "26170632000024",
+        "MNTN_ID" : "2617063200"
+      },
+      "geometry" : {
+        "x" : 170128.54250000231,
+        "y" : 298700.84370000102
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 89418,
+        "MNTN_CODE" : "468802901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,전경사진",
+        "ETC_MATTER" : "전경사진",
+        "MNTN_NM" : "팔암산",
+        "PAST_SPOT_" : "26170632000025",
+        "MNTN_ID" : "2617063200"
+      },
+      "geometry" : {
+        "x" : 171229.27010000031,
+        "y" : 298701.0867999997
+      }
+    }
+  ]
+}

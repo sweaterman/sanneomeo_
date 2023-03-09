@@ -1,0 +1,2583 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 43191,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "소나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010001",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 174947.25880000088,
+        "y" : 542599.95069999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 43192,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산림감시초소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010002",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175232.78870000131,
+        "y" : 542419.42020000145
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 43193,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010003",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 174991.34210000001,
+        "y" : 542603.21380000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 43194,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010004",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 174986.44850000087,
+        "y" : 542647.42659999989
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 43195,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010005",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175466.29360000044,
+        "y" : 542498.3805999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 43196,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010006",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175432.77680000104,
+        "y" : 542644.20009999909
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 43197,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단1시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010007",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175738.22040000185,
+        "y" : 542361.59410000034
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 43198,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단1끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010008",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175771.7555999998,
+        "y" : 542375.283400001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 43199,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "부남배드민턴장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010009",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175858.55929999985,
+        "y" : 542425.09950000048
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 43200,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "부남배드민턴클럽준공기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010010",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175888.34460000228,
+        "y" : 542452.24280000106
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 43201,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010011",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175982.76120000053,
+        "y" : 542432.86180000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 43202,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010012",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175939.83880000096,
+        "y" : 542359.48350000009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 43203,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상배드민턴클럽",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010013",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175906.53490000218,
+        "y" : 542359.03100000322
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 43204,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010014",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175911.55220000073,
+        "y" : 542404.5262000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 43205,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010015",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175942.50569999963,
+        "y" : 542417.77710000239
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 43206,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010016",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175882.2678000005,
+        "y" : 542358.33830000088
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 43207,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010017",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175847.17420000024,
+        "y" : 542333.89900000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 43208,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "팔각정(버스식당)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010018",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175838.0588000007,
+        "y" : 542319.78500000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 43209,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "버스식당",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010019",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175951.30739999935,
+        "y" : 542320.75970000029
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 43210,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010020",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176014.2686999999,
+        "y" : 542252.45300000161
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 43211,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010021",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176025.11790000089,
+        "y" : 542232.79260000028
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 43212,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "포장마차쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010022",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176276.50650000013,
+        "y" : 542141.36020000279
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 43213,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "산마을",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010023",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176298.25069999974,
+        "y" : 542591.71670000255
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 43214,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "백조약수터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010024",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176411.47360000107,
+        "y" : 541524.72559999861
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 43215,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "군사보호구역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010025",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176337.11670000106,
+        "y" : 542045.22849999927
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 43216,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "버스식당",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010026",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176391.38200000208,
+        "y" : 541726.7854999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 43217,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010027",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176257.9991000006,
+        "y" : 541615.17630000226
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 43218,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010028",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 174806.84800000116,
+        "y" : 542613.77209999971
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 43219,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010029",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 174866.05879999977,
+        "y" : 542583.82159999944
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 43220,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010030",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 174874.41260000132,
+        "y" : 542683.75459999964
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 43221,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010031",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 174911.87849999871,
+        "y" : 542637.38430000097
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 43222,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010032",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 174973.7901999997,
+        "y" : 542762.70290000178
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 43223,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010033",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 174984.87789999973,
+        "y" : 542753.18499999866
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 43224,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010034",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 174997.80415863357,
+        "y" : 542600.79253517091
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 43225,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010035",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 174999.06500000041,
+        "y" : 542602.54870000109
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 43226,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010036",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175072.06160762068,
+        "y" : 542682.84772617929
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 43227,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010037",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175077.51620000042,
+        "y" : 542530.44380000047
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 43228,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010038",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175081.29860000219,
+        "y" : 542625.65249999985
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 43229,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010039",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175119.0680999998,
+        "y" : 542601.54649999924
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 43230,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010040",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175170.81224931031,
+        "y" : 542546.21097950637
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 43231,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010041",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175202.12355254777,
+        "y" : 542487.00614870712
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 43232,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010042",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175237.06710000057,
+        "y" : 542415.58000000194
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 43233,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010043",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175315.9691522764,
+        "y" : 542410.10934712552
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 43234,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010044",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175320.52051345818,
+        "y" : 542408.64155660942
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 43235,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010045",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175430.83265159652,
+        "y" : 542388.06575297937
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 43236,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010046",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175434.72549999971,
+        "y" : 542661.4141000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 43237,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010047",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175454.41592150088,
+        "y" : 542459.35612045228
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 43238,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010048",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175457.61980000138,
+        "y" : 542410.61520000361
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 43239,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010049",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175486.08839999977,
+        "y" : 542403.40110000037
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 43240,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010050",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175492.35090000089,
+        "y" : 542397.69409999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 50,
+        "PMNTN_SPOT" : 43241,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010051",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175738.52869246155,
+        "y" : 542357.67671598494
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 51,
+        "PMNTN_SPOT" : 43242,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010052",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175829.48806171864,
+        "y" : 542326.31273792684
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 52,
+        "PMNTN_SPOT" : 43243,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010053",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175906.83700000122,
+        "y" : 542354.68180000223
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 53,
+        "PMNTN_SPOT" : 43244,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010054",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175910.90797595959,
+        "y" : 542401.29775158502
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 54,
+        "PMNTN_SPOT" : 43245,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010055",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175928.23199618142,
+        "y" : 542314.78185101971
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 55,
+        "PMNTN_SPOT" : 43246,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010056",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175931.19529999979,
+        "y" : 542418.79590000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 56,
+        "PMNTN_SPOT" : 43247,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010057",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175970.12919316068,
+        "y" : 542309.89230866171
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 57,
+        "PMNTN_SPOT" : 43248,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010058",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175971.14400000125,
+        "y" : 542412.35460000113
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 58,
+        "PMNTN_SPOT" : 43249,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010059",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175982.59183794633,
+        "y" : 542433.45374450646
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 59,
+        "PMNTN_SPOT" : 43250,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010060",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176004.72975072637,
+        "y" : 542500.9278189335
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 60,
+        "PMNTN_SPOT" : 43251,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010061",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176005.76364813372,
+        "y" : 542502.45952595957
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 61,
+        "PMNTN_SPOT" : 43252,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010062",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176007.12970783934,
+        "y" : 542259.89034406468
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 62,
+        "PMNTN_SPOT" : 43253,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010063",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176048.0476000011,
+        "y" : 542848.34610000439
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 63,
+        "PMNTN_SPOT" : 43254,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010064",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176161.69619988091,
+        "y" : 542254.8248399552
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 64,
+        "PMNTN_SPOT" : 43255,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010065",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176149.37055029348,
+        "y" : 542229.29705500603
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 65,
+        "PMNTN_SPOT" : 43256,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010066",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176172.89200000092,
+        "y" : 542313.43400000036
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 66,
+        "PMNTN_SPOT" : 43257,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010067",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176234.24750000052,
+        "y" : 541539.02710000239
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 67,
+        "PMNTN_SPOT" : 43258,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010068",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176287.92850000039,
+        "y" : 542111.52779999934
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 68,
+        "PMNTN_SPOT" : 43259,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010069",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176384.87640000135,
+        "y" : 541694.15630000457
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 69,
+        "PMNTN_SPOT" : 43260,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010070",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176394.39710000064,
+        "y" : 541713.13379999995
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 70,
+        "PMNTN_SPOT" : 43261,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010071",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176406.06727126241,
+        "y" : 541704.7146355994
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 71,
+        "PMNTN_SPOT" : 43262,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010072",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176415.26659999974,
+        "y" : 541517.80280000344
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 72,
+        "PMNTN_SPOT" : 43263,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "부평삼거리역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010073",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 174431.99789999984,
+        "y" : 542217.17620000057
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 73,
+        "PMNTN_SPOT" : 43264,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "능혜정사입구\n등반로",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010074",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 174919.2034,
+        "y" : 542424.3404000029
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 74,
+        "PMNTN_SPOT" : 43265,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010075",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 174872.27030000091,
+        "y" : 542160.00020000152
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 75,
+        "PMNTN_SPOT" : 43266,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점 및\n측량점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010076",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 174641.12729999982,
+        "y" : 542250.65059999935
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 76,
+        "PMNTN_SPOT" : 43267,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010077",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175193.38000000082,
+        "y" : 542392.93129999936
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 77,
+        "PMNTN_SPOT" : 43268,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "감시탑 및 측량점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010078",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175232.46480000019,
+        "y" : 542422.70510000177
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 78,
+        "PMNTN_SPOT" : 43269,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010079",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 174432.19209999964,
+        "y" : 542217.34679999948
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 79,
+        "PMNTN_SPOT" : 43270,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010080",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 174629.05010000058,
+        "y" : 542267.7583000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 80,
+        "PMNTN_SPOT" : 43271,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010081",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 174702.36969999969,
+        "y" : 542229.96070000157
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 81,
+        "PMNTN_SPOT" : 43272,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010082",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 174875.36770000122,
+        "y" : 542160.95350000076
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 82,
+        "PMNTN_SPOT" : 43273,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010083",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 174884.0783000011,
+        "y" : 542315.24090000056
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 83,
+        "PMNTN_SPOT" : 43274,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010084",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 174927.81999999937,
+        "y" : 542424.75610000268
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 84,
+        "PMNTN_SPOT" : 43275,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010085",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175003.83920000028,
+        "y" : 542358.19459999911
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 85,
+        "PMNTN_SPOT" : 43276,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010086",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175224.21810000017,
+        "y" : 542406.69920000248
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 86,
+        "PMNTN_SPOT" : 97087,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "소나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010087",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 174990.83570000069,
+        "y" : 542599.97789999982
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 87,
+        "PMNTN_SPOT" : 97088,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010088",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176463.05400000006,
+        "y" : 541025.2662000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 88,
+        "PMNTN_SPOT" : 97089,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점, 산림감시초소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010089",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175283.24650000021,
+        "y" : 542399.49239999976
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 89,
+        "PMNTN_SPOT" : 97090,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010090",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175434.2779999999,
+        "y" : 542389.10999999929
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 90,
+        "PMNTN_SPOT" : 97091,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010091",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 174974.50679999878,
+        "y" : 542758.90200000035
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 91,
+        "PMNTN_SPOT" : 97092,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물(운동기구등)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010092",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 174924.83290000021,
+        "y" : 542558.16440000013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 92,
+        "PMNTN_SPOT" : 97093,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010093",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 174984.11029999892,
+        "y" : 542750.09129999951
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 93,
+        "PMNTN_SPOT" : 97094,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010094",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175081.34359999938,
+        "y" : 542529.22770000063
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 94,
+        "PMNTN_SPOT" : 97095,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010095",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175245.00110000023,
+        "y" : 542464.99609999848
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 95,
+        "PMNTN_SPOT" : 97096,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010096",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175313.28050000116,
+        "y" : 542412.32509999909
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 96,
+        "PMNTN_SPOT" : 97097,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010097",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176481.54409999942,
+        "y" : 541620.55189999903
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 97,
+        "PMNTN_SPOT" : 97098,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010098",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175457.67879999912,
+        "y" : 542415.2844999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 98,
+        "PMNTN_SPOT" : 97099,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010099",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175463.50090000138,
+        "y" : 542483.9971999987
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 99,
+        "PMNTN_SPOT" : 97100,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010100",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175459.56479999877,
+        "y" : 542567.21399999969
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 100,
+        "PMNTN_SPOT" : 97101,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010101",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175434.88919999992,
+        "y" : 542661.6461999981
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 101,
+        "PMNTN_SPOT" : 97102,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단1끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010102",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175829.42430000094,
+        "y" : 542402.40120000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 102,
+        "PMNTN_SPOT" : 97103,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010103",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175845.52679999941,
+        "y" : 542417.68569999887
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 103,
+        "PMNTN_SPOT" : 97104,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "부남배드민턴장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010104",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175857.42259999935,
+        "y" : 542429.39150000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 104,
+        "PMNTN_SPOT" : 97105,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "부남배드민턴클럽준공기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010105",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175912.18859999999,
+        "y" : 542452.81569999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 105,
+        "PMNTN_SPOT" : 97106,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010106",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175916.57259999908,
+        "y" : 542453.68689999951
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 106,
+        "PMNTN_SPOT" : 97107,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010107",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175951.86399999983,
+        "y" : 542459.60389999987
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 107,
+        "PMNTN_SPOT" : 97108,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010108",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175995.88160000046,
+        "y" : 542501.71199999901
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 108,
+        "PMNTN_SPOT" : 97109,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판또는지도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010109",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176005.51480000094,
+        "y" : 542507.81490000011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 109,
+        "PMNTN_SPOT" : 97110,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판또는지도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010110",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176050.59939999873,
+        "y" : 542848.89700000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 110,
+        "PMNTN_SPOT" : 97111,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010111",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176010.31159999897,
+        "y" : 542554.21319999918
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 111,
+        "PMNTN_SPOT" : 97112,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010112",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176012.03930000094,
+        "y" : 542523.45279999985
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 112,
+        "PMNTN_SPOT" : 97113,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010113",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176470.57790000006,
+        "y" : 541609.94030000072
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 113,
+        "PMNTN_SPOT" : 97114,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010114",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175974.08180000089,
+        "y" : 542410.44830000028
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 114,
+        "PMNTN_SPOT" : 97115,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010115",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175940.88929999928,
+        "y" : 542350.97760000068
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 115,
+        "PMNTN_SPOT" : 97116,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판또는지도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010116",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175933.50530000005,
+        "y" : 542320.24359999946
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 116,
+        "PMNTN_SPOT" : 97117,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010117",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176002.75279999885,
+        "y" : 542496.10119999945
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 117,
+        "PMNTN_SPOT" : 97118,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "팔각정(버스식당)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010118",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175841.4508999986,
+        "y" : 542300.71360000083
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 118,
+        "PMNTN_SPOT" : 97119,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010119",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175844.50729999997,
+        "y" : 542286.02470000135
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 119,
+        "PMNTN_SPOT" : 97120,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "정자, 시설물(운동기구등)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010120",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175873.62959999882,
+        "y" : 542293.98729999899
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 120,
+        "PMNTN_SPOT" : 97121,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010121",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175893.57329999993,
+        "y" : 542306.96289999934
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 121,
+        "PMNTN_SPOT" : 97122,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "버스식당",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010122",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175973.13100000028,
+        "y" : 542309.59820000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 122,
+        "PMNTN_SPOT" : 97123,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010123",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176156.27670000016,
+        "y" : 542237.94200000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 123,
+        "PMNTN_SPOT" : 97124,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010124",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176436.36290000071,
+        "y" : 541574.13729999925
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 124,
+        "PMNTN_SPOT" : 97125,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010125",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176161.57360000076,
+        "y" : 542257.29539999983
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 125,
+        "PMNTN_SPOT" : 97126,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판또는지도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010126",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176440.45829999977,
+        "y" : 541575.07449999987
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 126,
+        "PMNTN_SPOT" : 97127,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010127",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176250.90539999862,
+        "y" : 542169.69530000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 127,
+        "PMNTN_SPOT" : 97128,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "포장마차쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010128",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176287.97289999953,
+        "y" : 542124.6846999994
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 128,
+        "PMNTN_SPOT" : 97129,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010129",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176440.29760000031,
+        "y" : 541557.55770000047
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 129,
+        "PMNTN_SPOT" : 97130,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물(운동기구등)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010130",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176431.5691999993,
+        "y" : 541546.52119999949
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 130,
+        "PMNTN_SPOT" : 97131,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010131",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 175982.80439999935,
+        "y" : 542432.42449999985
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 131,
+        "PMNTN_SPOT" : 97132,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010132",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 174876.26469999924,
+        "y" : 542685.33269999968
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 132,
+        "PMNTN_SPOT" : 97133,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "군사보호구역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010133",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176363.68140000026,
+        "y" : 541883.31059999915
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 133,
+        "PMNTN_SPOT" : 97134,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판또는지도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010134",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176380.50069999919,
+        "y" : 541863.74550000078
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 134,
+        "PMNTN_SPOT" : 97135,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010135",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176378.02850000092,
+        "y" : 541792.03649999888
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 135,
+        "PMNTN_SPOT" : 97136,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "버스식당",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010136",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176409.42479999978,
+        "y" : 541704.53759999957
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 136,
+        "PMNTN_SPOT" : 97137,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010137",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176243.38209999981,
+        "y" : 541580.24840000109
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 137,
+        "PMNTN_SPOT" : 97138,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판또는지도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010138",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176422.94600000052,
+        "y" : 541520.26499999955
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 138,
+        "PMNTN_SPOT" : 97139,
+        "MNTN_CODE" : "282370201",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "부개산",
+        "PAST_SPOT_" : "2823702010139",
+        "MNTN_ID" : "282370201"
+      },
+      "geometry" : {
+        "x" : 176240.9618000004,
+        "y" : 541540.14139999938
+      }
+    }
+  ]
+}

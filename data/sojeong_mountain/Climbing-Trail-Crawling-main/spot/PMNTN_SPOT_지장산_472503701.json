@@ -1,0 +1,567 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 81066,
+        "MNTN_CODE" : "472503701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "지장저수지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지장산",
+        "PAST_SPOT_" : "27091734000001",
+        "MNTN_ID" : "2709173400"
+      },
+      "geometry" : {
+        "x" : 286511.9205000028,
+        "y" : 407368.92620000243
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 81067,
+        "MNTN_CODE" : "472503701",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지장산",
+        "PAST_SPOT_" : "27091734000002",
+        "MNTN_ID" : "2709173400"
+      },
+      "geometry" : {
+        "x" : 286838.53480000049,
+        "y" : 407270.35859999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 81068,
+        "MNTN_CODE" : "472503701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로입구",
+        "ETC_MATTER" : "항무산등산로입구",
+        "MNTN_NM" : "지장산",
+        "PAST_SPOT_" : "27091734000003",
+        "MNTN_ID" : "2709173400"
+      },
+      "geometry" : {
+        "x" : 289364.07220000308,
+        "y" : 402796.16310000047
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 81069,
+        "MNTN_CODE" : "472503701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "후리경노당",
+        "ETC_MATTER" : "후리경노당",
+        "MNTN_NM" : "지장산",
+        "PAST_SPOT_" : "27091734000004",
+        "MNTN_ID" : "2709173400"
+      },
+      "geometry" : {
+        "x" : 289265.67200000118,
+        "y" : 402893.6875
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 81070,
+        "MNTN_CODE" : "472503701",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "전망대",
+        "MNTN_NM" : "지장산",
+        "PAST_SPOT_" : "27091734000005",
+        "MNTN_ID" : "2709173400"
+      },
+      "geometry" : {
+        "x" : 289432.6016000025,
+        "y" : 404643.90440000035
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 81071,
+        "MNTN_CODE" : "472503701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "중계소",
+        "ETC_MATTER" : "중계소",
+        "MNTN_NM" : "지장산",
+        "PAST_SPOT_" : "27091734000006",
+        "MNTN_ID" : "2709173400"
+      },
+      "geometry" : {
+        "x" : 289616.26500000153,
+        "y" : 405524.09129999951
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 81072,
+        "MNTN_CODE" : "472503701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : "돌계단",
+        "MNTN_NM" : "지장산",
+        "PAST_SPOT_" : "27091734000007",
+        "MNTN_ID" : "2709173400"
+      },
+      "geometry" : {
+        "x" : 289598.01470000204,
+        "y" : 405554.42980000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 81073,
+        "MNTN_CODE" : "472503701",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점,돌계단",
+        "ETC_MATTER" : "돌계단,전망대",
+        "MNTN_NM" : "지장산",
+        "PAST_SPOT_" : "27091734000008",
+        "MNTN_ID" : "2709173400"
+      },
+      "geometry" : {
+        "x" : 289676.42710000277,
+        "y" : 405537.1950000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 81074,
+        "MNTN_CODE" : "472503701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "갈대숲",
+        "ETC_MATTER" : "갈대숲",
+        "MNTN_NM" : "지장산",
+        "PAST_SPOT_" : "27091734000009",
+        "MNTN_ID" : "2709173400"
+      },
+      "geometry" : {
+        "x" : 289715.2003000034,
+        "y" : 405565.62550000101
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 81075,
+        "MNTN_CODE" : "472503701",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : "헬기장",
+        "MNTN_NM" : "지장산",
+        "PAST_SPOT_" : "27091734000010",
+        "MNTN_ID" : "2709173400"
+      },
+      "geometry" : {
+        "x" : 289745.85680000391,
+        "y" : 405571.07550000027
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 81076,
+        "MNTN_CODE" : "472503701",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "철죽.참나무",
+        "ETC_MATTER" : "철죽,참나무군락",
+        "MNTN_NM" : "지장산",
+        "PAST_SPOT_" : "27091734000011",
+        "MNTN_ID" : "2709173400"
+      },
+      "geometry" : {
+        "x" : 288822.65610000305,
+        "y" : 406152.17500000075
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 81077,
+        "MNTN_CODE" : "472503701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : "쉼터,봉우리",
+        "MNTN_NM" : "지장산",
+        "PAST_SPOT_" : "27091734000012",
+        "MNTN_ID" : "2709173400"
+      },
+      "geometry" : {
+        "x" : 287789.06060000136,
+        "y" : 407225.41659999825
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 81078,
+        "MNTN_CODE" : "472503701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : "쉼터,산림욕장",
+        "MNTN_NM" : "지장산",
+        "PAST_SPOT_" : "27091734000013",
+        "MNTN_ID" : "2709173400"
+      },
+      "geometry" : {
+        "x" : 288170.77060000226,
+        "y" : 407713.92230000161
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 81079,
+        "MNTN_CODE" : "472503701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로입구",
+        "ETC_MATTER" : "갈림길",
+        "MNTN_NM" : "지장산",
+        "PAST_SPOT_" : "27091734000014",
+        "MNTN_ID" : "2709173400"
+      },
+      "geometry" : {
+        "x" : 287982.89800000098,
+        "y" : 409673.27580000274
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 81080,
+        "MNTN_CODE" : "472503701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지장산",
+        "PAST_SPOT_" : "27091734000015",
+        "MNTN_ID" : "2709173400"
+      },
+      "geometry" : {
+        "x" : 288377.80910000112,
+        "y" : 407998.43689999916
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 81081,
+        "MNTN_CODE" : "472503701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,농촌체험학습관",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지장산",
+        "PAST_SPOT_" : "27091734000016",
+        "MNTN_ID" : "2709173400"
+      },
+      "geometry" : {
+        "x" : 286072.41460000072,
+        "y" : 407680.55690000206
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 81082,
+        "MNTN_CODE" : "472503701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지장산",
+        "PAST_SPOT_" : "27091734000017",
+        "MNTN_ID" : "2709173400"
+      },
+      "geometry" : {
+        "x" : 286213.9571000021,
+        "y" : 407478.65730000101
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 81083,
+        "MNTN_CODE" : "472503701",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "지장산정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지장산",
+        "PAST_SPOT_" : "27091734000018",
+        "MNTN_ID" : "2709173400"
+      },
+      "geometry" : {
+        "x" : 287933.3143000016,
+        "y" : 406679.42360000126
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 81084,
+        "MNTN_CODE" : "472503701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지장산",
+        "PAST_SPOT_" : "27091734000019",
+        "MNTN_ID" : "2709173400"
+      },
+      "geometry" : {
+        "x" : 287965.8311999999,
+        "y" : 406685.50249999948
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 81085,
+        "MNTN_CODE" : "472503701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "지장산등산로입구",
+        "MNTN_NM" : "지장산",
+        "PAST_SPOT_" : "27091734000020",
+        "MNTN_ID" : "2709173400"
+      },
+      "geometry" : {
+        "x" : 288186.14090000186,
+        "y" : 407733.67789999954
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 81086,
+        "MNTN_CODE" : "472503701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지장산",
+        "PAST_SPOT_" : "27091734000021",
+        "MNTN_ID" : "2709173400"
+      },
+      "geometry" : {
+        "x" : 288202.01560000051,
+        "y" : 410069.07579999976
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 81087,
+        "MNTN_CODE" : "472503701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,도로입구",
+        "ETC_MATTER" : "큰도로입구",
+        "MNTN_NM" : "지장산",
+        "PAST_SPOT_" : "27091734000022",
+        "MNTN_ID" : "2709173400"
+      },
+      "geometry" : {
+        "x" : 289292.36820000038,
+        "y" : 402563.53750000335
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 81088,
+        "MNTN_CODE" : "472503701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "갈림길",
+        "MNTN_NM" : "지장산",
+        "PAST_SPOT_" : "27091734000023",
+        "MNTN_ID" : "2709173400"
+      },
+      "geometry" : {
+        "x" : 289490.02419999987,
+        "y" : 405728.97480000183
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 81089,
+        "MNTN_CODE" : "472503701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지장산",
+        "PAST_SPOT_" : "27091734000024",
+        "MNTN_ID" : "2709173400"
+      },
+      "geometry" : {
+        "x" : 289529.23700000066,
+        "y" : 408259.48040000163
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 81090,
+        "MNTN_CODE" : "472503701",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : "학무산정상",
+        "MNTN_NM" : "지장산",
+        "PAST_SPOT_" : "27091734000025",
+        "MNTN_ID" : "2709173400"
+      },
+      "geometry" : {
+        "x" : 289925.92750000022,
+        "y" : 405524.96370000206
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 81091,
+        "MNTN_CODE" : "472503701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지장산",
+        "PAST_SPOT_" : "27091734000026",
+        "MNTN_ID" : "2709173400"
+      },
+      "geometry" : {
+        "x" : 286195.07351228036,
+        "y" : 407464.97782023996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 81092,
+        "MNTN_CODE" : "472503701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지장산",
+        "PAST_SPOT_" : "27091734000027",
+        "MNTN_ID" : "2709173400"
+      },
+      "geometry" : {
+        "x" : 289982.68983497098,
+        "y" : 405553.20675839484
+      }
+    }
+  ]
+}

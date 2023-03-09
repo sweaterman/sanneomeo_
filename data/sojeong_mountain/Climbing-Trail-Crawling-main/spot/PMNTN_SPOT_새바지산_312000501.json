@@ -1,0 +1,693 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 49724,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010001",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 415721.17686381843,
+        "y" : 331513.92708828859
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 49725,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010002",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 416280.40174400434,
+        "y" : 330652.42554110847
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 49726,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010003",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 416508.31095443293,
+        "y" : 330777.68450528011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 49727,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010004",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 416640.22445757408,
+        "y" : 330034.40703593008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 49728,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010005",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 416675.10935721267,
+        "y" : 331818.99901397154
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 49729,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010006",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 416707.07718717959,
+        "y" : 331884.28989973105
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 49730,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010007",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 416756.5289188195,
+        "y" : 331113.58911493607
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 49731,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010008",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 416833.07380178478,
+        "y" : 331784.85443998687
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 49732,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010009",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 416839.04070390109,
+        "y" : 331756.82124823891
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 49733,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010010",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 417031.5905852681,
+        "y" : 329082.89688026719
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 49734,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010011",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 417052.2397787543,
+        "y" : 329239.60139249638
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 49735,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010012",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 417160.53037337586,
+        "y" : 331141.05705862306
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 49736,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010013",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 417227.70414132252,
+        "y" : 329200.25019075908
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 49737,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010014",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 417298.71499705687,
+        "y" : 332863.82629568689
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 49738,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010015",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 417460.89699177537,
+        "y" : 334109.77051891573
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 49739,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010016",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 417560.986052325,
+        "y" : 331996.9105067309
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 49740,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010017",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 417572.44931784924,
+        "y" : 328436.07795038074
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 49741,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010018",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 417597.14430092461,
+        "y" : 328160.86303258501
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 49742,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010019",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 417613.94952413812,
+        "y" : 331629.44146509655
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 49743,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010020",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 417647.97014560457,
+        "y" : 332385.079141289
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 49744,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010021",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 417675.30831997376,
+        "y" : 332293.3496894408
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 49745,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010022",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 417795.64048553724,
+        "y" : 329868.3474964425
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 49746,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010023",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 417935.52147842012,
+        "y" : 328677.25524677709
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 49747,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010024",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 418146.35901310481,
+        "y" : 329748.80490912125
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 49748,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010025",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 418178.354851312,
+        "y" : 329854.93294789828
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 49749,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010026",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 418260.40378323849,
+        "y" : 330599.93372449279
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 49750,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010027",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 418491.0904336432,
+        "y" : 332080.96133933775
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 49751,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010028",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 418920.9320745673,
+        "y" : 331699.35585454106
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 49752,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010029",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 419449.83007166348,
+        "y" : 333212.08173657954
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 49753,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010030",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 420100.80168269388,
+        "y" : 333534.67928260192
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 49754,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010031",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 420132.25636639073,
+        "y" : 334013.50891175866
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 49755,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010032",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 420475.40316028055,
+        "y" : 333903.5279399883
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 49756,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010033",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 421147.43802775629,
+        "y" : 333741.30834845826
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 49757,
+        "MNTN_CODE" : "312000501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "새바지산",
+        "PAST_SPOT_" : "3120005010034",
+        "MNTN_ID" : "312000501"
+      },
+      "geometry" : {
+        "x" : 422293.67114811018,
+        "y" : 331684.71838212572
+      }
+    }
+  ]
+}

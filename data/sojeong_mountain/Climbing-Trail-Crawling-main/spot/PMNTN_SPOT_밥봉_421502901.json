@@ -1,0 +1,747 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 33103,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000001",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 381358.57870002836,
+        "y" : 557669.18370000646
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 33104,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000002",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 381279.30260002613,
+        "y" : 558606.85070000589
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 33105,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "KBS중계소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000003",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 381062.66900002398,
+        "y" : 558948.69499999844
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 33106,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000004",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 381030.90590002388,
+        "y" : 559099.2779000029
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 33107,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산길시점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000005",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 379891.83110002521,
+        "y" : 556565.77210000344
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 33108,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000006",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 382743.583300028,
+        "y" : 557484.0427000057
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 33109,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000007",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 382301.87150002643,
+        "y" : 557851.16790000536
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 33110,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000008",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 382510.293400025,
+        "y" : 558302.07680000737
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 33111,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "옻재",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000009",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 381269.91380002443,
+        "y" : 555139.3786000032
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 33112,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "실버타운",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000010",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 381869.69890002627,
+        "y" : 556702.34510000609
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 33113,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "당재",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000011",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 379702.27330002561,
+        "y" : 557520.22140000574
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 33114,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000012",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 379710.64940002654,
+        "y" : 557967.22520000488
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 33115,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000013",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 379771.93750002421,
+        "y" : 556623.70080000721
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 33116,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000014",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 380012.50050002523,
+        "y" : 557021.84670000337
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 33117,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000015",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 380091.62380002812,
+        "y" : 557169.35240000486
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 33118,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000016",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 380095.32840002421,
+        "y" : 557239.47890000418
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 33119,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000017",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 380383.8867000239,
+        "y" : 557326.93270000629
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 33120,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,샘터안내판,벤치,운동기구,정자,기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000018",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 380390.11160002649,
+        "y" : 558451.74380000308
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 33121,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000019",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 380685.19599763863,
+        "y" : 558844.06316529587
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 33122,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000020",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 380697.99210002553,
+        "y" : 558893.39940000325
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 33123,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000021",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 380859.49480002467,
+        "y" : 558397.98529999889
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 33124,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000022",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 380926.93850002438,
+        "y" : 559268.67450000532
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 33125,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000023",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 381189.57410002593,
+        "y" : 558716.26180000603
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 33126,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000024",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 381203.02170002833,
+        "y" : 554822.299100006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 33127,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "여리미재",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000025",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 381236.18860002421,
+        "y" : 554634.21640000492
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 33128,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "밥봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000026",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 381322.01170002576,
+        "y" : 557431.16890000366
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 33129,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000027",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 381485.41460002586,
+        "y" : 557096.5053000059
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 33130,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000028",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 381540.62900002766,
+        "y" : 556940.17310000584
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 33131,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "망운산정상,채석장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000029",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 381856.43820002768,
+        "y" : 556268.92080000602
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 33132,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000030",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 382027.79440002702,
+        "y" : 557372.89200000651
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 33133,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000031",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 382195.80060002301,
+        "y" : 557343.8614000082
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 33134,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000032",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 382220.10890002735,
+        "y" : 558287.54940000735
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 33135,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000033",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 382231.50940002687,
+        "y" : 557739.70380000584
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 33136,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000034",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 382371.66310002562,
+        "y" : 557445.51570000499
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 33137,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000035",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 382589.33490002621,
+        "y" : 558527.26190000772
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 33138,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000036",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 383168.24330002721,
+        "y" : 557717.10780000314
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 33139,
+        "MNTN_CODE" : "421502901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "밥봉",
+        "PAST_SPOT_" : "22012617000037",
+        "MNTN_ID" : "2201261700"
+      },
+      "geometry" : {
+        "x" : 380573.80070002563,
+        "y" : 555966.5192000065
+      }
+    }
+  ]
+}

@@ -1,0 +1,2943 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 28117,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "4182014010001",
+        "MNTN_ID" : "418201401"
+      },
+      "geometry" : {
+        "x" : 235864.90440000035,
+        "y" : 593163.69010000303
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 28118,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "4182014010002",
+        "MNTN_ID" : "418201401"
+      },
+      "geometry" : {
+        "x" : 234781.93900000025,
+        "y" : 591575.12000000104
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 28119,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "4182014010003",
+        "MNTN_ID" : "418201401"
+      },
+      "geometry" : {
+        "x" : 236680.0055999998,
+        "y" : 590975.41960000247
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 28120,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "음식점,민박",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000004",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 242991.92850000132,
+        "y" : 592973.34280000255
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 28121,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "매표소,생태탐방안내,생태전시관",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000005",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 242853.29600000195,
+        "y" : 592972.17459999956
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 28122,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000006",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 242808.1007000003,
+        "y" : 592990.58699999936
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 28123,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "물레방아",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000007",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 242781.23720000219,
+        "y" : 593000.21510000154
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 28124,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "119신고안내",
+        "ETC_MATTER" : "명지1-1(주차장)",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000008",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 242606.92680000328,
+        "y" : 593064.13330000266
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 28125,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "승천사입구,119신고안내",
+        "ETC_MATTER" : "명지산(1-2)",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000009",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 242292.27529999893,
+        "y" : 593049.96470000036
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 28126,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "천왕문",
+        "ETC_MATTER" : "탑",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000010",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 242037.23440000042,
+        "y" : 592931.32899999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 28127,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "승천사입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000011",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 241977.70220000204,
+        "y" : 592882.62870000117
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 28128,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "생태경관보존지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000012",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 241812.51540000271,
+        "y" : 592847.48760000058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 28129,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "등산로폐쇄",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000013",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 241458.94720000029,
+        "y" : 592843.14310000278
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 28130,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000014",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 241313.36229999922,
+        "y" : 592895.46780000255
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 28131,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "성황당",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000015",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 240816.41959999967,
+        "y" : 592924.50840000249
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 28132,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000016",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 240766.96860000119,
+        "y" : 592933.36490000039
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 28133,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "생태계보존지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000017",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 240676.19030000176,
+        "y" : 592908.38410000317
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 28134,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "명지폭포",
+        "ETC_MATTER" : "안전시설(목계단)",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000018",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 240395.47830000054,
+        "y" : 592712.75029999763
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 28135,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000019",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 240268.78930000402,
+        "y" : 592731.33150000125
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 28136,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌길조성",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000020",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 240005.72090000007,
+        "y" : 592754.91060000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 28137,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌길조성",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000021",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 239867.46640000027,
+        "y" : 592765.78270000219
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 28138,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000022",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 239786.21970000025,
+        "y" : 592768.60800000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 28139,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "다리및계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000023",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 239563.56589999981,
+        "y" : 592798.16899999976
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 28140,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "다리및계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000024",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 239533.32040000055,
+        "y" : 592798.80040000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 28141,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000025",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 239511.82610000018,
+        "y" : 592807.79900000244
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 28142,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "20m목계단필요",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000026",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238473.91710000299,
+        "y" : 593088.92000000179
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 28143,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "20m목계단필요",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000027",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238456.05449999962,
+        "y" : 593092.49939999916
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 28144,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "안전시설(목계단)",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000028",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238419.25670000073,
+        "y" : 593103.42720000073
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 28145,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "안전시설(목계단)",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000029",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238401.96700000204,
+        "y" : 593116.11130000465
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 28146,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000030",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238394.58210000023,
+        "y" : 593116.18779999949
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 28147,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000031",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238382.65429999959,
+        "y" : 593129.00799999759
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 28148,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000032",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238378.43630000297,
+        "y" : 593128.65530000068
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 28149,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000033",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238365.30580000021,
+        "y" : 593135.47600000165
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 28150,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000034",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238349.41860000044,
+        "y" : 593149.05470000207
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 28151,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000035",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238323.22809999995,
+        "y" : 593166.47039999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 28152,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000036",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238289.36430000141,
+        "y" : 593189.28940000013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 28153,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000037",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238278.91990000196,
+        "y" : 593223.42860000208
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 28154,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000038",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238250.38470000122,
+        "y" : 593234.7285999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 28155,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "5m로프필요",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000039",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238219.46970000025,
+        "y" : 593285.2004000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 28156,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000040",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238073.84410000406,
+        "y" : 593352.67799999751
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 28157,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000041",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238063.10980000068,
+        "y" : 593373.71820000187
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 28158,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "10m로프필요",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000042",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238048.30460000038,
+        "y" : 593400.62240000442
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 28159,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "10m로프필요",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000043",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238052.67160000093,
+        "y" : 593406.74760000221
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 28160,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "안전시설",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000044",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238059.16069999989,
+        "y" : 593429.19950000383
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 28161,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "안전시설",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000045",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238058.16289999988,
+        "y" : 593435.85480000079
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 28162,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000046",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238055.84600000177,
+        "y" : 593442.61500000022
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 28163,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000047",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238052.14940000046,
+        "y" : 593462.57780000195
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 28164,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로및돌계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000048",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238053.11170000024,
+        "y" : 593463.58119999804
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 28165,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로및돌계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000049",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238044.34130000137,
+        "y" : 593459.21170000359
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 28166,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000050",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238021.42750000115,
+        "y" : 593471.75950000249
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 50,
+        "PMNTN_SPOT" : 28167,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "출입제한",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000051",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238027.0437000012,
+        "y" : 593492.87539999932
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 51,
+        "PMNTN_SPOT" : 28168,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "83~123안전시설",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000052",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 239479.01879999973,
+        "y" : 592847.60110000148
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 52,
+        "PMNTN_SPOT" : 28169,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단및로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000053",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 239445.19530000165,
+        "y" : 593044.2407000009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 53,
+        "PMNTN_SPOT" : 28170,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단및로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000054",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 239454.12260000221,
+        "y" : 593070.81240000203
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 54,
+        "PMNTN_SPOT" : 28171,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "119신고안내",
+        "ETC_MATTER" : "명지1-4(명지계단)",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000055",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 239447.72710000258,
+        "y" : 593084.54560000263
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 55,
+        "PMNTN_SPOT" : 28172,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000056",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 239360.73570000008,
+        "y" : 593204.56280000135
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 56,
+        "PMNTN_SPOT" : 28173,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000057",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 239214.22820000071,
+        "y" : 593454.49910000153
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 57,
+        "PMNTN_SPOT" : 28174,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000058",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 239176.56850000285,
+        "y" : 593498.83029999956
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 58,
+        "PMNTN_SPOT" : 28175,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단및로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000059",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 239085.57230000198,
+        "y" : 593557.0046000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 59,
+        "PMNTN_SPOT" : 28176,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000060",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 239052.85470000189,
+        "y" : 593597.4748999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 60,
+        "PMNTN_SPOT" : 28177,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "출입금지",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000061",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238826.72790000029,
+        "y" : 593679.0978000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 61,
+        "PMNTN_SPOT" : 28178,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "출입제한",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000062",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238786.39020000212,
+        "y" : 593732.74200000055
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 62,
+        "PMNTN_SPOT" : 28179,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000063",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238353.45450000186,
+        "y" : 593828.83330000192
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 63,
+        "PMNTN_SPOT" : 28180,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000064",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238337.72070000414,
+        "y" : 593828.64880000055
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 64,
+        "PMNTN_SPOT" : 28181,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000065",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238310.8292000005,
+        "y" : 593827.19140000083
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 65,
+        "PMNTN_SPOT" : 28182,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "출입제한",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000066",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238092.7762000002,
+        "y" : 593630.26389999874
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 66,
+        "PMNTN_SPOT" : 28183,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "출입제한",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000067",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238078.0409000013,
+        "y" : 593623.20260000043
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 67,
+        "PMNTN_SPOT" : 28184,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000068",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238066.48440000135,
+        "y" : 593613.04820000194
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 68,
+        "PMNTN_SPOT" : 28185,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "151~121목계단",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000069",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238053.16630000155,
+        "y" : 593584.6817000024
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 69,
+        "PMNTN_SPOT" : 28186,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "3m목계단필요",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000070",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238015.41949999984,
+        "y" : 593440.31900000013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 70,
+        "PMNTN_SPOT" : 28187,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "출입근지",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000071",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237924.817900002,
+        "y" : 593243.20979999937
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 71,
+        "PMNTN_SPOT" : 28188,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000072",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237899.49399999995,
+        "y" : 593168.27950000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 72,
+        "PMNTN_SPOT" : 28189,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000073",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237895.5568000013,
+        "y" : 593126.08170000464
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 73,
+        "PMNTN_SPOT" : 28190,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000074",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237886.58870000206,
+        "y" : 593107.28150000051
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 74,
+        "PMNTN_SPOT" : 28191,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "생태감시초소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000075",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238872.04890000075,
+        "y" : 590191.05370000191
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 75,
+        "PMNTN_SPOT" : 28192,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000076",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237832.41850000061,
+        "y" : 593072.84420000203
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 76,
+        "PMNTN_SPOT" : 28193,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000077",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237829.1986000007,
+        "y" : 593065.72540000081
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 77,
+        "PMNTN_SPOT" : 28194,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000078",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237850.16490000393,
+        "y" : 593037.18420000188
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 78,
+        "PMNTN_SPOT" : 28195,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000079",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237890.2480000006,
+        "y" : 592733.00930000283
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 79,
+        "PMNTN_SPOT" : 28196,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000080",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237891.42160000093,
+        "y" : 592726.35470000096
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 80,
+        "PMNTN_SPOT" : 28197,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000081",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237894.0345999999,
+        "y" : 592693.51109999977
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 81,
+        "PMNTN_SPOT" : 28198,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000082",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237893.10489999969,
+        "y" : 592685.40380000509
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 82,
+        "PMNTN_SPOT" : 28199,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "(좌)출입금지",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000083",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237860.44520000275,
+        "y" : 592561.1564000044
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 83,
+        "PMNTN_SPOT" : 28200,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "(좌)출입금지",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000084",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237862.53630000073,
+        "y" : 592546.18110000342
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 84,
+        "PMNTN_SPOT" : 28201,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000085",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237862.38960000128,
+        "y" : 592539.85350000113
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 85,
+        "PMNTN_SPOT" : 28202,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "5m로프필요",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000086",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237884.2984000016,
+        "y" : 592497.88580000028
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 86,
+        "PMNTN_SPOT" : 28203,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000087",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237945.09010000248,
+        "y" : 592508.04510000162
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 87,
+        "PMNTN_SPOT" : 28204,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000088",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238157.00589999929,
+        "y" : 592519.23790000193
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 88,
+        "PMNTN_SPOT" : 28205,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000089",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238716.92459999863,
+        "y" : 590227.28480000235
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 89,
+        "PMNTN_SPOT" : 28206,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000090",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238222.78060000017,
+        "y" : 592497.56570000201
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 90,
+        "PMNTN_SPOT" : 28207,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000091",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238239.02740000095,
+        "y" : 592501.41520000063
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 91,
+        "PMNTN_SPOT" : 28208,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "30m목계단필요",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000092",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238293.76030000113,
+        "y" : 592585.36330000311
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 92,
+        "PMNTN_SPOT" : 28209,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "25m로프필요",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000093",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238542.87409999967,
+        "y" : 592725.27659999952
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 93,
+        "PMNTN_SPOT" : 28210,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "25m로프필요",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000094",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238560.52730000019,
+        "y" : 592747.78130000085
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 94,
+        "PMNTN_SPOT" : 28211,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "3m로프필요",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000095",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238564.30340000149,
+        "y" : 592748.68700000271
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 95,
+        "PMNTN_SPOT" : 28212,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "5m로프필요",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000096",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238579.86890000012,
+        "y" : 592785.16779999994
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 96,
+        "PMNTN_SPOT" : 28213,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "환경감시소",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000097",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238591.97890000045,
+        "y" : 590279.42210000195
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 97,
+        "PMNTN_SPOT" : 28214,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "물탱크",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000098",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238229.11610000022,
+        "y" : 590510.49210000224
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 98,
+        "PMNTN_SPOT" : 28215,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000099",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237963.18939999957,
+        "y" : 590567.86790000461
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 99,
+        "PMNTN_SPOT" : 28216,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000100",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237753.58139999956,
+        "y" : 590655.9242000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 100,
+        "PMNTN_SPOT" : 28217,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "폭포",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000101",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237745.10470000096,
+        "y" : 590701.83870000392
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 101,
+        "PMNTN_SPOT" : 28218,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000102",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237595.36519999988,
+        "y" : 590948.4581000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 102,
+        "PMNTN_SPOT" : 28219,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000103",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 236842.06170000043,
+        "y" : 590962.92030000128
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 103,
+        "PMNTN_SPOT" : 28220,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "생태계보존지표",
+        "ETC_MATTER" : "아재비고개,우량경보시설",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000104",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 236673.04719999991,
+        "y" : 590984.14270000346
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 104,
+        "PMNTN_SPOT" : 28221,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000105",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 236908.79940000083,
+        "y" : 591453.61160000041
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 105,
+        "PMNTN_SPOT" : 28222,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000106",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 236885.83840000164,
+        "y" : 591534.64870000072
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 106,
+        "PMNTN_SPOT" : 28223,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000107",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 236885.09920000099,
+        "y" : 591542.63720000535
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 107,
+        "PMNTN_SPOT" : 28224,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "구조신고안내",
+        "ETC_MATTER" : "명지산(4-9)",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000108",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 236919.40589999966,
+        "y" : 591578.42180000246
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 108,
+        "PMNTN_SPOT" : 28225,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000109",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 236958.90490000229,
+        "y" : 591750.09230000153
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 109,
+        "PMNTN_SPOT" : 28226,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000110",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 236992.04660000186,
+        "y" : 591868.67700000294
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 110,
+        "PMNTN_SPOT" : 28227,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000111",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 236988.21409999952,
+        "y" : 591880.20360000059
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 111,
+        "PMNTN_SPOT" : 28228,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000112",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237009.21190000232,
+        "y" : 591903.27490000054
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 112,
+        "PMNTN_SPOT" : 28229,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "구조신고안내",
+        "ETC_MATTER" : "명지산(4-8)",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000113",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237020.49530000146,
+        "y" : 591916.3125
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 113,
+        "PMNTN_SPOT" : 28230,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "우량경보시설",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000114",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237119.61330000032,
+        "y" : 592221.56220000423
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 114,
+        "PMNTN_SPOT" : 28231,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "우량경보시설",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000115",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237120.45440000296,
+        "y" : 592230.00190000236
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 115,
+        "PMNTN_SPOT" : 28232,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000116",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237174.74520000257,
+        "y" : 592259.10689999908
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 116,
+        "PMNTN_SPOT" : 28233,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000117",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237185.29279999994,
+        "y" : 592259.70960000157
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 117,
+        "PMNTN_SPOT" : 28234,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000118",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237238.38450000063,
+        "y" : 592262.28089999966
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 118,
+        "PMNTN_SPOT" : 28235,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "구조신고안내",
+        "ETC_MATTER" : "명지산(3-2)",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000119",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237238.38450000063,
+        "y" : 592262.28089999966
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 119,
+        "PMNTN_SPOT" : 28236,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "감시카메라,로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000120",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237245.888199999,
+        "y" : 592255.54390000179
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 120,
+        "PMNTN_SPOT" : 28237,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000121",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237262.16700000037,
+        "y" : 592252.50970000215
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 121,
+        "PMNTN_SPOT" : 28238,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000122",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237397.00470000319,
+        "y" : 592278.65170000307
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 122,
+        "PMNTN_SPOT" : 28239,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000123",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237409.34900000226,
+        "y" : 592290.14079999924
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 123,
+        "PMNTN_SPOT" : 28240,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전시설",
+        "ETC_MATTER" : "등산로폐쇄",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000124",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237793.06170000136,
+        "y" : 592474.15610000119
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 124,
+        "PMNTN_SPOT" : 28241,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000125",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237846.46830000076,
+        "y" : 592503.48350000195
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 125,
+        "PMNTN_SPOT" : 28242,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "5m로프필요",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000126",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237993.65040000062,
+        "y" : 592444.44490000233
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 126,
+        "PMNTN_SPOT" : 28243,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : "위험구간",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000127",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237947.05740000121,
+        "y" : 592329.45670000091
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 127,
+        "PMNTN_SPOT" : 28244,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "10m목계단필요",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000128",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237967.21520000137,
+        "y" : 592305.13000000268
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 128,
+        "PMNTN_SPOT" : 28245,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "10m목계단필요",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000129",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237970.9441000009,
+        "y" : 592297.26630000398
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 129,
+        "PMNTN_SPOT" : 28246,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "15m로프필요",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000130",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237979.93989999965,
+        "y" : 592291.20290000178
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 130,
+        "PMNTN_SPOT" : 28247,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "15m로프필요",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000131",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237983.08980000112,
+        "y" : 592275.45560000092
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 131,
+        "PMNTN_SPOT" : 28248,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "25m목계단필요",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000132",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238161.97050000262,
+        "y" : 591980.02759999968
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 132,
+        "PMNTN_SPOT" : 28249,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "25m목계단필요",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000133",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238163.94050000142,
+        "y" : 591953.39699999988
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 133,
+        "PMNTN_SPOT" : 28250,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "3m로프필요",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000134",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238160.143600001,
+        "y" : 591824.28750000149
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 134,
+        "PMNTN_SPOT" : 28251,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "10m로프필요",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000135",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238175.59030000027,
+        "y" : 591811.37230000272
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 135,
+        "PMNTN_SPOT" : 28252,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "10m로프필요",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000136",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238185.46180000156,
+        "y" : 591806.20119999908
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 136,
+        "PMNTN_SPOT" : 28253,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "30m로프필요",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000137",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238208.4924999997,
+        "y" : 591731.71690000035
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 137,
+        "PMNTN_SPOT" : 28254,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "30m로프필요",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000138",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238226.12239999976,
+        "y" : 591703.16110000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 138,
+        "PMNTN_SPOT" : 28255,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000139",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238346.83220000193,
+        "y" : 591611.48299999908
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 139,
+        "PMNTN_SPOT" : 28256,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000140",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238364.98820000049,
+        "y" : 591602.24379999936
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 140,
+        "PMNTN_SPOT" : 28257,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000141",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238375.10940000229,
+        "y" : 591600.18200000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 141,
+        "PMNTN_SPOT" : 28258,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000142",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238447.29330000095,
+        "y" : 591488.1883000005
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 142,
+        "PMNTN_SPOT" : 28259,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : "5m로프정비필요",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000143",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238439.98899999913,
+        "y" : 591433.09860000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 143,
+        "PMNTN_SPOT" : 28260,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : "5m로프정비필요",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000144",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238442.95029999968,
+        "y" : 591382.71890000254
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 144,
+        "PMNTN_SPOT" : 28261,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000145",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238507.39980000071,
+        "y" : 591251.81970000267
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 145,
+        "PMNTN_SPOT" : 28262,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000146",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238439.14800000004,
+        "y" : 591255.60740000196
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 146,
+        "PMNTN_SPOT" : 28263,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "명지3봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000147",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237154.1734000016,
+        "y" : 592258.79190000333
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 147,
+        "PMNTN_SPOT" : 28264,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "2봉정상,명지2봉,삼각점",
+        "ETC_MATTER" : "119신고지점,1983재설",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000148",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 237877.49620000087,
+        "y" : 592504.95840000175
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 148,
+        "PMNTN_SPOT" : 28265,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000149",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238000.14389999956,
+        "y" : 592504.19250000454
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 149,
+        "PMNTN_SPOT" : 28266,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "1봉정상",
+        "ETC_MATTER" : "정상비",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000150",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238015.08500000276,
+        "y" : 593569.63150000386
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 150,
+        "PMNTN_SPOT" : 28267,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000151",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238033.51360000018,
+        "y" : 593462.49149999954
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 151,
+        "PMNTN_SPOT" : 28268,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "출입금지",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000152",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238759.2769000018,
+        "y" : 592958.17170000263
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 152,
+        "PMNTN_SPOT" : 28269,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000153",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238818.68830000237,
+        "y" : 590183.09060000256
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 153,
+        "PMNTN_SPOT" : 28270,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000154",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 238819.03820000309,
+        "y" : 590183.08339999989
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 154,
+        "PMNTN_SPOT" : 28271,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000155",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 239010.54140000045,
+        "y" : 589982.60019999743
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 155,
+        "PMNTN_SPOT" : 28272,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "다리",
+        "ETC_MATTER" : "삼거리",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000156",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 239494.07570000272,
+        "y" : 592842.67850000225
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 156,
+        "PMNTN_SPOT" : 28273,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000157",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 243031.93699999899,
+        "y" : 592965.10270000249
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 157,
+        "PMNTN_SPOT" : 28274,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000158",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 241811.86340000108,
+        "y" : 592847.19439999945
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 158,
+        "PMNTN_SPOT" : 28275,
+        "MNTN_CODE" : "418201401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명지산",
+        "PAST_SPOT_" : "21010213000159",
+        "MNTN_ID" : "2101021300"
+      },
+      "geometry" : {
+        "x" : 241813.07199999969,
+        "y" : 592848.01860000379
+      }
+    }
+  ]
+}

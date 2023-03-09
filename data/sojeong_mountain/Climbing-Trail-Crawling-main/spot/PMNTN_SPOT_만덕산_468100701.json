@@ -1,0 +1,693 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 26347,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "이정표,사찰",
+        "ETC_MATTER" : "옥련사",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000001",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 177242.039900003,
+        "y" : 223452.67740000598
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 26348,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000002",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 177386.04119999986,
+        "y" : 223308.261900004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 26349,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000003",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 177279.39340000134,
+        "y" : 223283.13160000183
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 26350,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : "낭떨어지",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000004",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 176949.60590000078,
+        "y" : 223029.00080000237
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 26351,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000005",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 175573.34320000187,
+        "y" : 221172.92330000177
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 26352,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000006",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 175446.63020000048,
+        "y" : 220873.25880000181
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 26353,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000007",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 174676.0839000009,
+        "y" : 219147.53439999931
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 26354,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "음수대,화장실,사찰",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000008",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 174599.6716,
+        "y" : 218682.14069999941
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 26355,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점,이정표,정자,가로등",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000009",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 176668.33690000325,
+        "y" : 220589.05180000141
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 26356,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000010",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 176622.75019999873,
+        "y" : 220609.24660000391
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 26357,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기점",
+        "ETC_MATTER" : "옥련사(1-1-1구간)",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000011",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 176059.5203999998,
+        "y" : 221863.95849999972
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 26358,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000012",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 176065.36810000148,
+        "y" : 221674.86570000276
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 26359,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : "기도원",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000013",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 176065.79020000063,
+        "y" : 221290.14210000075
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 26360,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000014",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 176615.62710000016,
+        "y" : 220557.46920000017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 26361,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "유적,음수대,가로등,화장실,돌계단",
+        "ETC_MATTER" : "다산초당",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000015",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 176601.70330000017,
+        "y" : 220595.31120000035
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 26362,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "석문공원",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000016",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 174750.56230000313,
+        "y" : 218363.37600000203
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 26363,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000017",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 175406.74630000349,
+        "y" : 221751.70580000244
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 26364,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기점",
+        "ETC_MATTER" : "임도",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000018",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 176027.2089999998,
+        "y" : 221877.88730000332
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 26365,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기점",
+        "ETC_MATTER" : "기도원,입도",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000019",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 176091.83490000106,
+        "y" : 221557.90469999984
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 26366,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기점",
+        "ETC_MATTER" : "1-3구간,다산초당",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000020",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 176456.66740000341,
+        "y" : 221602.95820000209
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 26367,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000021",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 176531.14020000026,
+        "y" : 220215.25080000237
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 26368,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부,조망점,이정표,분기점",
+        "ETC_MATTER" : "만덕산정상,백련사",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000022",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 176632.83900000062,
+        "y" : 221865.75809999928
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 26369,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000023",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 176647.99530000053,
+        "y" : 220638.81460000202
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 26370,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,안내판,이정표,종점",
+        "ETC_MATTER" : "다산초당입구",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000024",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 176759.22970000189,
+        "y" : 220451.75100000016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 26371,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000025",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 176772.44199999981,
+        "y" : 221048.19180000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 26372,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000026",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 176781.50130000059,
+        "y" : 221064.19899999723
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 26373,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "정자",
+        "ETC_MATTER" : "해월루",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000027",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 176832.86240000185,
+        "y" : 221035.53859999962
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 26374,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000028",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 176837.57820000034,
+        "y" : 221332.03020000271
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 26375,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,이정표,유적,종점",
+        "ETC_MATTER" : "수리중,백련사",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000029",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 176943.76770000067,
+        "y" : 221353.9905999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 26376,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기점",
+        "ETC_MATTER" : "1-1-1구간",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000030",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 177000.20360000152,
+        "y" : 223357.80140000209
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 26377,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기점",
+        "ETC_MATTER" : "강진광업,1-1구간",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000031",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 177086.74580000155,
+        "y" : 223104.74860000052
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 26378,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "강진광업",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000032",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 177127.31409999914,
+        "y" : 223586.8607000038
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 26379,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부,이정표",
+        "ETC_MATTER" : "월봉(190)",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000033",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 177166.76061357278,
+        "y" : 223237.97140744515
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 26380,
+        "MNTN_CODE" : "468100701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,출발",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만덕산",
+        "PAST_SPOT_" : "26010107000034",
+        "MNTN_ID" : "2601010700"
+      },
+      "geometry" : {
+        "x" : 177216.60240000207,
+        "y" : 223525.83550000191
+      }
+    }
+  ]
+}

@@ -1,0 +1,531 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 47827,
+        "MNTN_CODE" : "487202501",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "정자나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "산성산",
+        "PAST_SPOT_" : "28110220000001",
+        "MNTN_ID" : "2811022000"
+      },
+      "geometry" : {
+        "x" : 308890.87550000288,
+        "y" : 314797.35360000096
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 47828,
+        "MNTN_CODE" : "487202501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "산성산",
+        "PAST_SPOT_" : "28110220000002",
+        "MNTN_ID" : "2811022000"
+      },
+      "geometry" : {
+        "x" : 308690.44760000054,
+        "y" : 314805.61400000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 47829,
+        "MNTN_CODE" : "487202501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "주택",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "산성산",
+        "PAST_SPOT_" : "28110220000003",
+        "MNTN_ID" : "2811022000"
+      },
+      "geometry" : {
+        "x" : 308649.88350000046,
+        "y" : 314827.16279999912
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 47830,
+        "MNTN_CODE" : "487202501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "산성산",
+        "PAST_SPOT_" : "28110220000004",
+        "MNTN_ID" : "2811022000"
+      },
+      "geometry" : {
+        "x" : 308822.88730000332,
+        "y" : 314365.82010000013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 47831,
+        "MNTN_CODE" : "487202501",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치,갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "산성산",
+        "PAST_SPOT_" : "28110220000005",
+        "MNTN_ID" : "2811022000"
+      },
+      "geometry" : {
+        "x" : 308116.03400000092,
+        "y" : 312617.25709999911
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 47832,
+        "MNTN_CODE" : "487202501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "산성산",
+        "PAST_SPOT_" : "28110220000006",
+        "MNTN_ID" : "2811022000"
+      },
+      "geometry" : {
+        "x" : 307734.31759999879,
+        "y" : 314080.54539999738
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 47833,
+        "MNTN_CODE" : "487202501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "산성산",
+        "PAST_SPOT_" : "28110220000007",
+        "MNTN_ID" : "2811022000"
+      },
+      "geometry" : {
+        "x" : 307805.30500000156,
+        "y" : 313910.57599999942
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 47834,
+        "MNTN_CODE" : "487202501",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "굴샘",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "산성산",
+        "PAST_SPOT_" : "28110220000008",
+        "MNTN_ID" : "2811022000"
+      },
+      "geometry" : {
+        "x" : 308019.27800000273,
+        "y" : 313700.43170000054
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 47835,
+        "MNTN_CODE" : "487202501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "산성산",
+        "PAST_SPOT_" : "28110220000009",
+        "MNTN_ID" : "2811022000"
+      },
+      "geometry" : {
+        "x" : 307746.6015000036,
+        "y" : 312672.57110000029
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 47836,
+        "MNTN_CODE" : "487202501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "산성산",
+        "PAST_SPOT_" : "28110220000010",
+        "MNTN_ID" : "2811022000"
+      },
+      "geometry" : {
+        "x" : 307530.60450000409,
+        "y" : 312707.15060000308
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 47837,
+        "MNTN_CODE" : "487202501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "산성산",
+        "PAST_SPOT_" : "28110220000011",
+        "MNTN_ID" : "2811022000"
+      },
+      "geometry" : {
+        "x" : 307091.89230000321,
+        "y" : 312965.57480000146
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 47838,
+        "MNTN_CODE" : "487202501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "산성산",
+        "PAST_SPOT_" : "28110220000012",
+        "MNTN_ID" : "2811022000"
+      },
+      "geometry" : {
+        "x" : 306444.7480999995,
+        "y" : 313393.03490000404
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 47839,
+        "MNTN_CODE" : "487202501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "산성산",
+        "PAST_SPOT_" : "28110220000013",
+        "MNTN_ID" : "2811022000"
+      },
+      "geometry" : {
+        "x" : 306473.73800000083,
+        "y" : 313320.13660000265
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 47840,
+        "MNTN_CODE" : "487202501",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : "199-201",
+        "MNTN_NM" : "산성산",
+        "PAST_SPOT_" : "28110220000014",
+        "MNTN_ID" : "2811022000"
+      },
+      "geometry" : {
+        "x" : 308089.35790000297,
+        "y" : 313603.7629000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 47841,
+        "MNTN_CODE" : "487202501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "산성산",
+        "PAST_SPOT_" : "28110220000015",
+        "MNTN_ID" : "2811022000"
+      },
+      "geometry" : {
+        "x" : 308116.03400000092,
+        "y" : 312617.25709999911
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 47842,
+        "MNTN_CODE" : "487202501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "촛대바위",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "산성산",
+        "PAST_SPOT_" : "28110220000016",
+        "MNTN_ID" : "2811022000"
+      },
+      "geometry" : {
+        "x" : 308160.62340000365,
+        "y" : 312840.81230000034
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 47843,
+        "MNTN_CODE" : "487202501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "III 접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "산성산",
+        "PAST_SPOT_" : "28110220000017",
+        "MNTN_ID" : "2811022000"
+      },
+      "geometry" : {
+        "x" : 308165.67349999957,
+        "y" : 313364.60060000047
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 47844,
+        "MNTN_CODE" : "487202501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "산성산",
+        "PAST_SPOT_" : "28110220000018",
+        "MNTN_ID" : "2811022000"
+      },
+      "geometry" : {
+        "x" : 308178.48710000329,
+        "y" : 312833.6443000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 47845,
+        "MNTN_CODE" : "487202501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "III 접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "산성산",
+        "PAST_SPOT_" : "28110220000019",
+        "MNTN_ID" : "2811022000"
+      },
+      "geometry" : {
+        "x" : 308184.19790000282,
+        "y" : 313354.8032000009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 47846,
+        "MNTN_CODE" : "487202501",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "산성산",
+        "PAST_SPOT_" : "28110220000020",
+        "MNTN_ID" : "2811022000"
+      },
+      "geometry" : {
+        "x" : 308262.65980000328,
+        "y" : 313454.8021000009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 47847,
+        "MNTN_CODE" : "487202501",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "진달래군락지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "산성산",
+        "PAST_SPOT_" : "28110220000021",
+        "MNTN_ID" : "2811022000"
+      },
+      "geometry" : {
+        "x" : 308318.93130000308,
+        "y" : 313549.62890000269
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 47848,
+        "MNTN_CODE" : "487202501",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "한우산 정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "산성산",
+        "PAST_SPOT_" : "28110220000022",
+        "MNTN_ID" : "2811022000"
+      },
+      "geometry" : {
+        "x" : 308323.54090000317,
+        "y" : 311602.57800000161
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 47849,
+        "MNTN_CODE" : "487202501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "찰비골",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "산성산",
+        "PAST_SPOT_" : "28110220000023",
+        "MNTN_ID" : "2811022000"
+      },
+      "geometry" : {
+        "x" : 308723.27430000249,
+        "y" : 312743.0193000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 47850,
+        "MNTN_CODE" : "487202501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,화기물초소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "산성산",
+        "PAST_SPOT_" : "28110220000024",
+        "MNTN_ID" : "2811022000"
+      },
+      "geometry" : {
+        "x" : 308886.12090000324,
+        "y" : 314749.6995000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 47851,
+        "MNTN_CODE" : "487202501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,임도길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "산성산",
+        "PAST_SPOT_" : "28110220000025",
+        "MNTN_ID" : "2811022000"
+      },
+      "geometry" : {
+        "x" : 308971.22550000157,
+        "y" : 314448.48369999975
+      }
+    }
+  ]
+}

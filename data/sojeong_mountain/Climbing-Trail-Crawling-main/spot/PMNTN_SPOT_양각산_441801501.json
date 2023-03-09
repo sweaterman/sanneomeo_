@@ -1,0 +1,945 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 62198,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : "60m",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000001",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 168967.62069999985,
+        "y" : 406076.4633000046
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 62199,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : "90m",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000002",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 168829.4839000022,
+        "y" : 406067.87219999917
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 62200,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000003",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 168904.88889999967,
+        "y" : 406006.50249999948
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 62201,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000004",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 169199.54430000111,
+        "y" : 407038.89250000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 62202,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경보기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000005",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 168675.47259999998,
+        "y" : 406814.25020000152
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 62203,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000006",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 167552.61319999956,
+        "y" : 406024.6026000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 62204,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산불발생",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000007",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 167911.81410000008,
+        "y" : 406254.37620000169
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 62205,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000008",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 169389.56460000109,
+        "y" : 405249.11670000106
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 62206,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "40개",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000009",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 169388.38210000098,
+        "y" : 405759.55599999987
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 62207,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000010",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 169426.84650000092,
+        "y" : 405908.16350000165
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 62208,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000011",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 169433.16510000173,
+        "y" : 405826.69590000063
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 62209,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000012",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 169328.84560000338,
+        "y" : 405918.52029999904
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 62210,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000013",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 169045.22890000045,
+        "y" : 406236.42540000565
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 62211,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000014",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 169008.30349999946,
+        "y" : 406335.76430000179
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 62212,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "234개",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000015",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 168970.37050000206,
+        "y" : 406447.2974000033
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 62213,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "142개",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000016",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 168876.52650000341,
+        "y" : 406453.60689999908
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 62214,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : "83개",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000017",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 168787.16700000037,
+        "y" : 406368.33330000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 62215,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : "18개",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000018",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 168766.26719999872,
+        "y" : 406358.11500000209
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 62216,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000019",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 168715.31749999896,
+        "y" : 406349.56890000403
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 62217,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000020",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 168702.77030000277,
+        "y" : 406320.44570000097
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 62218,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : "54개",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000021",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 168692.90670000017,
+        "y" : 406288.12729999982
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 62219,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "20",
+        "MANAGE_SP2" : "동굴",
+        "DETAIL_SPO" : "폐광동굴",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000022",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 168647.51660000067,
+        "y" : 406254.12069999985
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 62220,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000023",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 169098.04170000087,
+        "y" : 406142.33159999922
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 62221,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000024",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 168492.52819999959,
+        "y" : 405953.97670000233
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 62222,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : "30m",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000025",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 169398.76810000278,
+        "y" : 405799.38470000029
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 62223,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000026",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 169403.90750000067,
+        "y" : 405864.77490000241
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 62224,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000027",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 169415.02290000115,
+        "y" : 405926.99330000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 62225,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "평리2리",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000028",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 167154.69860000163,
+        "y" : 407052.58359999955
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 62226,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000029",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 167440.89670000039,
+        "y" : 406016.97810000181
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 62227,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000030",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 167505.84030000214,
+        "y" : 405975.57990000211
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 62228,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000031",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 168504.65850000083,
+        "y" : 405930.7480999995
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 62229,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000032",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 168596.43340000231,
+        "y" : 406091.72990000807
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 62230,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000033",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 168700.83470000234,
+        "y" : 406772.30700000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 62231,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000034",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 168805.68370000087,
+        "y" : 406018.4514000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 62232,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000035",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 168826.84860000014,
+        "y" : 406049.60790000297
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 62233,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000036",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 168929.67789999954,
+        "y" : 406490.11620000005
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 62234,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000037",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 168943.45010000095,
+        "y" : 406497.83039999753
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 62235,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000038",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 169080.85589999985,
+        "y" : 406134.65379999951
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 62236,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000039",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 169168.03990000207,
+        "y" : 405475.99939999729
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 62237,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "등산로없어짐",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000040",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 169176.42810000014,
+        "y" : 405593.01740000211
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 62238,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000041",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 169222.54080000147,
+        "y" : 405796.80189999938
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 62239,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "금강암",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000042",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 169231.15440000128,
+        "y" : 407029.67580000125
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 62240,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000043",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 169353.04240000062,
+        "y" : 405812.42490000464
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 62241,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000044",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 169362.63020000234,
+        "y" : 405833.25119999982
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 62242,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000045",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 169389.96309999935,
+        "y" : 405245.38920000196
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 62243,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000046",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 169395.59489999898,
+        "y" : 405732.0831000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 62244,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000047",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 169407.09049999993,
+        "y" : 405854.60869999975
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 62245,
+        "MNTN_CODE" : "441801501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "양각산",
+        "PAST_SPOT_" : "24060815000048",
+        "MNTN_ID" : "2406081500"
+      },
+      "geometry" : {
+        "x" : 167556.42570000142,
+        "y" : 405915.77830000035
+      }
+    }
+  ]
+}

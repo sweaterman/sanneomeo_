@@ -1,0 +1,459 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 10055,
+        "MNTN_CODE" : "287200101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "숲 길 시작점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉산",
+        "PAST_SPOT_" : "14090401000001",
+        "MNTN_ID" : "1409040100"
+      },
+      "geometry" : {
+        "x" : 150390.38620000053,
+        "y" : 547205.51800000109
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 10056,
+        "MNTN_CODE" : "287200101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "영종도쪽 조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉산",
+        "PAST_SPOT_" : "14090401000002",
+        "MNTN_ID" : "1409040100"
+      },
+      "geometry" : {
+        "x" : 151246.08980000112,
+        "y" : 547141.87290000357
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 10057,
+        "MNTN_CODE" : "287200101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉산",
+        "PAST_SPOT_" : "14090401000003",
+        "MNTN_ID" : "1409040100"
+      },
+      "geometry" : {
+        "x" : 150572.92349999957,
+        "y" : 547487.79470000416
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 10058,
+        "MNTN_CODE" : "287200101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉산",
+        "PAST_SPOT_" : "14090401000004",
+        "MNTN_ID" : "1409040100"
+      },
+      "geometry" : {
+        "x" : 150082.16911950707,
+        "y" : 547567.10940440372
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 10059,
+        "MNTN_CODE" : "287200101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "성지 약수터",
+        "ETC_MATTER" : "약수터의 이름에 종교의미가 강하다.",
+        "MNTN_NM" : "구봉산",
+        "PAST_SPOT_" : "14090401000005",
+        "MNTN_ID" : "1409040100"
+      },
+      "geometry" : {
+        "x" : 150925.04800000042,
+        "y" : 547720.91000000201
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 10060,
+        "MNTN_CODE" : "287200101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉산",
+        "PAST_SPOT_" : "14090401000006",
+        "MNTN_ID" : "1409040100"
+      },
+      "geometry" : {
+        "x" : 151293.4207000006,
+        "y" : 547758.95120000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 10061,
+        "MNTN_CODE" : "287200101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "천주교 대형조형물",
+        "ETC_MATTER" : "구봉산 9부 능선에 서해를 바라다 보는 대형 천주교 조형물.",
+        "MNTN_NM" : "구봉산",
+        "PAST_SPOT_" : "14090401000007",
+        "MNTN_ID" : "1409040100"
+      },
+      "geometry" : {
+        "x" : 151786.43330000062,
+        "y" : 548015.17310000397
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 10062,
+        "MNTN_CODE" : "287200101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉산",
+        "PAST_SPOT_" : "14090401000008",
+        "MNTN_ID" : "1409040100"
+      },
+      "geometry" : {
+        "x" : 150297.11589999963,
+        "y" : 547517.07220000029
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 10063,
+        "MNTN_CODE" : "287200101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,통돌선착장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉산",
+        "PAST_SPOT_" : "14090401000009",
+        "MNTN_ID" : "1409040100"
+      },
+      "geometry" : {
+        "x" : 150431.74530000146,
+        "y" : 546226.54849999957
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 10064,
+        "MNTN_CODE" : "287200101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉산",
+        "PAST_SPOT_" : "14090401000010",
+        "MNTN_ID" : "1409040100"
+      },
+      "geometry" : {
+        "x" : 150443.31200000085,
+        "y" : 546466.65350000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 10065,
+        "MNTN_CODE" : "287200101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉산",
+        "PAST_SPOT_" : "14090401000011",
+        "MNTN_ID" : "1409040100"
+      },
+      "geometry" : {
+        "x" : 150592.2507000016,
+        "y" : 547256.77969999984
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 10066,
+        "MNTN_CODE" : "287200101",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "구봉산 정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉산",
+        "PAST_SPOT_" : "14090401000012",
+        "MNTN_ID" : "1409040100"
+      },
+      "geometry" : {
+        "x" : 150868.46370000299,
+        "y" : 547499.98220000044
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 10067,
+        "MNTN_CODE" : "287200101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉산",
+        "PAST_SPOT_" : "14090401000013",
+        "MNTN_ID" : "1409040100"
+      },
+      "geometry" : {
+        "x" : 151056.18600000162,
+        "y" : 547707.29720000364
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 10068,
+        "MNTN_CODE" : "287200101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "구봉산 정자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉산",
+        "PAST_SPOT_" : "14090401000014",
+        "MNTN_ID" : "1409040100"
+      },
+      "geometry" : {
+        "x" : 151468.08990000095,
+        "y" : 547214.55910000205
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 10069,
+        "MNTN_CODE" : "287200101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉산",
+        "PAST_SPOT_" : "14090401000015",
+        "MNTN_ID" : "1409040100"
+      },
+      "geometry" : {
+        "x" : 152000.62916265894,
+        "y" : 548427.57464165613
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 10070,
+        "MNTN_CODE" : "287200101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,신도4리버스정거장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉산",
+        "PAST_SPOT_" : "14090401000016",
+        "MNTN_ID" : "1409040100"
+      },
+      "geometry" : {
+        "x" : 152045.46430000104,
+        "y" : 548201.06849999726
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 10071,
+        "MNTN_CODE" : "287200101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉산",
+        "PAST_SPOT_" : "14090401000017",
+        "MNTN_ID" : "1409040100"
+      },
+      "geometry" : {
+        "x" : 152048.63850000128,
+        "y" : 547163.87710000202
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 10072,
+        "MNTN_CODE" : "287200101",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "왕봉산 정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉산",
+        "PAST_SPOT_" : "14090401000018",
+        "MNTN_ID" : "1409040100"
+      },
+      "geometry" : {
+        "x" : 152342.45299999975,
+        "y" : 549043.99860000238
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 10073,
+        "MNTN_CODE" : "287200101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉산",
+        "PAST_SPOT_" : "14090401000019",
+        "MNTN_ID" : "1409040100"
+      },
+      "geometry" : {
+        "x" : 150003.46086697746,
+        "y" : 547325.49956561439
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 10074,
+        "MNTN_CODE" : "287200101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉산",
+        "PAST_SPOT_" : "14090401000020",
+        "MNTN_ID" : "1409040100"
+      },
+      "geometry" : {
+        "x" : 152224.33296680637,
+        "y" : 547128.24965534732
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 10075,
+        "MNTN_CODE" : "287200101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구봉산",
+        "PAST_SPOT_" : "14090401000021",
+        "MNTN_ID" : "1409040100"
+      },
+      "geometry" : {
+        "x" : 150304.91775521077,
+        "y" : 547154.71552849375
+      }
+    }
+  ]
+}

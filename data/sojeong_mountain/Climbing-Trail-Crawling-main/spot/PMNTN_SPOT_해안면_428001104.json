@@ -1,0 +1,945 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 91925,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010001",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300091.73039999977,
+        "y" : 632868.37580000237
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 91926,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010002",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300258.87990000285,
+        "y" : 632675.21850000136
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 91927,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010003",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300275.08680000063,
+        "y" : 632759.23130000383
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 91928,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010004",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300297.37710000109,
+        "y" : 632722.23650000058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 91929,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010005",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300354.60350000113,
+        "y" : 632963.82379999943
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 91930,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010006",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300481.52190000564,
+        "y" : 632690.40140000172
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 91931,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : "6-7",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010007",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300310.14070000406,
+        "y" : 632639.13750000112
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 91932,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : "계단,로프필요",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010008",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300293.9905999992,
+        "y" : 632648.76310000196
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 91933,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "3-5",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010009",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300281.10630000196,
+        "y" : 632671.66329999827
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 91934,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단",
+        "ETC_MATTER" : "계단보수필요",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010010",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300265.89680000115,
+        "y" : 632676.7154000029
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 91935,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010011",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300264.25400000252,
+        "y" : 632677.9384999983
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 91936,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010012",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300350.87540000305,
+        "y" : 632701.8935000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 91937,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "로프,계단필요.길보수",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010013",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300335.19339999929,
+        "y" : 632704.819000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 91938,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010014",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300376.67030000314,
+        "y" : 632704.82220000401
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 91939,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010015",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300409.25999999885,
+        "y" : 632709.51180000231
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 91940,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010016",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300399.69370000158,
+        "y" : 632709.68180000409
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 91941,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "41-40",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010017",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300302.69000000134,
+        "y" : 632717.88360000029
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 91942,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010018",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300540.32620000374,
+        "y" : 632729.05720000155
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 91943,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "게이트볼장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010019",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300275.01170000061,
+        "y" : 632759.64120000228
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 91944,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010020",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300281.2135000024,
+        "y" : 632806.45920000039
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 91945,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치,운동기구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010021",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300579.44150000252,
+        "y" : 632814.23230000213
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 91946,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010022",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300571.83350000065,
+        "y" : 632818.77860000171
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 91947,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010023",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300092.46620000061,
+        "y" : 632869.72829999961
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 91948,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010024",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300098.03210000135,
+        "y" : 632885.95110000297
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 91949,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "35-36",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010025",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300104.53240000084,
+        "y" : 632888.1632000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 91950,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010026",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300569.06060000136,
+        "y" : 632894.79590000212
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 91951,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "33-34",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010027",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300103.3368999986,
+        "y" : 632922.58810000122
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 91952,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단",
+        "ETC_MATTER" : "계단보수필요",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010028",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300122.76470000017,
+        "y" : 632927.34699999914
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 91953,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "휀스",
+        "ETC_MATTER" : "33-34",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010029",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300124.12460000068,
+        "y" : 632931.29399999976
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 91954,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : "28-29",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010030",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300354.28520000074,
+        "y" : 632964.79690000042
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 91955,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동기구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010031",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300625.96320000011,
+        "y" : 632967.33560000174
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 91956,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : "로프.계단필요",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010032",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300365.19709999952,
+        "y" : 632968.28510000184
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 91957,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010033",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300633.20569999982,
+        "y" : 632972.47720000148
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 91958,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010034",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300344.54780000169,
+        "y" : 632973.14740000106
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 91959,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : "로프.계단필요",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010035",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300287.09850000497,
+        "y" : 632982.00600000098
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 91960,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : "31-32",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010036",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300271.41390000377,
+        "y" : 632985.8973999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 91961,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : "24-26",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010037",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300446.70910000522,
+        "y" : 632998.2620000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 91962,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010038",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300446.4850000022,
+        "y" : 633005.04279999994
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 91963,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : "길보수필요",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010039",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300443.70170000102,
+        "y" : 633008.627700001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 91964,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동기구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010040",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300496.75790000055,
+        "y" : 633025.90630000271
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 91965,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동기구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010041",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300505.75730000343,
+        "y" : 633029.08230000176
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 91966,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010042",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300498.98170000035,
+        "y" : 633029.33129999973
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 91967,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010043",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300667.76780000329,
+        "y" : 633034.49209999852
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 91968,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : "계단,로프필요",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010044",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300671.60890000407,
+        "y" : 633045.06499999948
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 91969,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : "16-17",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010045",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300668.42499999981,
+        "y" : 633061.86779999919
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 91970,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : "계단,로프필요",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010046",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300653.78419999965,
+        "y" : 633086.66630000435
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 91971,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010047",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300610.1782999998,
+        "y" : 633087.73430000246
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 91972,
+        "MNTN_CODE" : "428001104",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : "18-19",
+        "MNTN_NM" : "해안면",
+        "PAST_SPOT_" : "4280011010048",
+        "MNTN_ID" : "428001101"
+      },
+      "geometry" : {
+        "x" : 300639.28330000024,
+        "y" : 633091.75970000029
+      }
+    }
+  ]
+}

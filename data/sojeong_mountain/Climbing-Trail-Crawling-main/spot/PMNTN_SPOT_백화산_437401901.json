@@ -1,0 +1,747 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 37494,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "다리/화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000001",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 281255.65960000269,
+        "y" : 409240.02850000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 37495,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000002",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 280941.07690000348,
+        "y" : 408918.86140000261
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 37496,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "정각",
+        "ETC_MATTER" : "목계단/벤치1",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000003",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 280920.20110000018,
+        "y" : 408906.08420000225
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 37497,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌 길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000004",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 280894.11490000039,
+        "y" : 408968.84449999966
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 37498,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동기구/벤치",
+        "ETC_MATTER" : "운동기구/벤치1",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000005",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 280789.93780000135,
+        "y" : 409107.39670000039
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 37499,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치/돌계단",
+        "ETC_MATTER" : "벤치5",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000006",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 280866.23240000382,
+        "y" : 409104.0960000027
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 37500,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실,갈림길",
+        "ETC_MATTER" : "1개",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000007",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 281001.33320000302,
+        "y" : 409172.13270000182
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 37501,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "등산/체력단련",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000008",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 281057.49436396081,
+        "y" : 409242.71525055915
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 37502,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사찰(절)",
+        "ETC_MATTER" : "반야사/3층석탑",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000009",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 281714.87550000288,
+        "y" : 409505.47949999943
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 37503,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단/로프",
+        "ETC_MATTER" : "문수전입구,가로등11개",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000010",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 281772.4924000036,
+        "y" : 409706.95079999976
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 37504,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "문수전",
+        "ETC_MATTER" : "암자",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000011",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 281830.2938000001,
+        "y" : 409641.66999999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 37505,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암벽로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000012",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 279785.25570000149,
+        "y" : 409502.92989999987
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 37506,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000013",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 279753.35290000215,
+        "y" : 409366.68010000139
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 37507,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동기구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000014",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 280785.13010000251,
+        "y" : 409174.30629999936
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 37508,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동기구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000015",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 280777.33579999954,
+        "y" : 409254.20340000093
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 37509,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : "1개",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000016",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 280758.33510000352,
+        "y" : 409403.04440000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 37510,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "정자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000017",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 280765.04650000203,
+        "y" : 409482.48430000246
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 37511,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : "2개",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000018",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 280854.60640000086,
+        "y" : 409445.66110000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 37512,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : "3개",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000019",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 280887.7928000018,
+        "y" : 409393.37730000168
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 37513,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "백화정사",
+        "ETC_MATTER" : "암자",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000020",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 281457.36479999963,
+        "y" : 409338.43220000155
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 37514,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000021",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 281416.57469999976,
+        "y" : 410662.77910000272
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 37515,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암벽로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000022",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 279984.74760000128,
+        "y" : 410541.46990000084
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 37516,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암벽로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000023",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 279983.55140000023,
+        "y" : 410525.40770000033
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 37517,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암벽로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000024",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 279850.84190000128,
+        "y" : 409868.79739999957
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 37518,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "칼바위구간",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000025",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 279838.34509999957,
+        "y" : 409751.56690000184
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 37519,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "주행봉(정상)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000026",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 279838.22390000336,
+        "y" : 409595.58330000192
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 37520,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "전망대/체력단련",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000027",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 280764.52528645098,
+        "y" : 409111.5273304265
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 37521,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "등산로/체력단련",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000028",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 280946.57379063405,
+        "y" : 409108.0321670901
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 37522,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "등산로/체력단련",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000029",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 280976.21090000216,
+        "y" : 409052.42890000343
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 37523,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "주차장/체력단련",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000030",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 280962.56550154649,
+        "y" : 409097.84081182256
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 37524,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000031",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 281086.47250000015,
+        "y" : 409200.4541000016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 37525,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,주차장",
+        "ETC_MATTER" : "식당2/화장실1",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000032",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 281189.23890000023,
+        "y" : 409007.9533000011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 37526,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로입구",
+        "ETC_MATTER" : "안내표지판",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000033",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 281269.89549999963,
+        "y" : 409253.46310000122
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 37527,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "포성봉(정상)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000034",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 281301.65120000113,
+        "y" : 411966.58740000427
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 37528,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000035",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 281329.34470000397,
+        "y" : 409242.1985000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 37529,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000036",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 281778.14660000056,
+        "y" : 409633.43630000204
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 37530,
+        "MNTN_CODE" : "437401901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백화산",
+        "PAST_SPOT_" : "23041018000037",
+        "MNTN_ID" : "2304101800"
+      },
+      "geometry" : {
+        "x" : 281708.09400000144,
+        "y" : 409506.944000002
+      }
+    }
+  ]
+}

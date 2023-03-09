@@ -1,0 +1,657 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 42757,
+        "MNTN_CODE" : "467800801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화산",
+        "PAST_SPOT_" : "26100308000001",
+        "MNTN_ID" : "2610030800"
+      },
+      "geometry" : {
+        "x" : 210142.14128205087,
+        "y" : 238747.53898741119
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 42758,
+        "MNTN_CODE" : "467800801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화산",
+        "PAST_SPOT_" : "26100308000002",
+        "MNTN_ID" : "2610030800"
+      },
+      "geometry" : {
+        "x" : 210622.98037105799,
+        "y" : 240277.28530023433
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 42759,
+        "MNTN_CODE" : "467800801",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물(송신탑)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화산",
+        "PAST_SPOT_" : "26100308000003",
+        "MNTN_ID" : "2610030800"
+      },
+      "geometry" : {
+        "x" : 211425.80599999987,
+        "y" : 241638.49600000121
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 42760,
+        "MNTN_CODE" : "467800801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "이정표중복",
+        "MNTN_NM" : "봉화산",
+        "PAST_SPOT_" : "26100308000004",
+        "MNTN_ID" : "2610030800"
+      },
+      "geometry" : {
+        "x" : 211399.11060000211,
+        "y" : 241180.02890000306
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 42761,
+        "MNTN_CODE" : "467800801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화산",
+        "PAST_SPOT_" : "26100308000005",
+        "MNTN_ID" : "2610030800"
+      },
+      "geometry" : {
+        "x" : 211620.22381271143,
+        "y" : 238549.28319926001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 42762,
+        "MNTN_CODE" : "467800801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼각점",
+        "ETC_MATTER" : "복내(1990)",
+        "MNTN_NM" : "봉화산",
+        "PAST_SPOT_" : "26100308000006",
+        "MNTN_ID" : "2610030800"
+      },
+      "geometry" : {
+        "x" : 210793.7070000004,
+        "y" : 240630.02760000154
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 42763,
+        "MNTN_CODE" : "467800801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화산",
+        "PAST_SPOT_" : "26100308000007",
+        "MNTN_ID" : "2610030800"
+      },
+      "geometry" : {
+        "x" : 210622.9934000019,
+        "y" : 240276.2966000028
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 42764,
+        "MNTN_CODE" : "467800801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화산",
+        "PAST_SPOT_" : "26100308000008",
+        "MNTN_ID" : "2610030800"
+      },
+      "geometry" : {
+        "x" : 211603.2344667213,
+        "y" : 238557.77787226252
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 42765,
+        "MNTN_CODE" : "467800801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치(3EA)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화산",
+        "PAST_SPOT_" : "26100308000009",
+        "MNTN_ID" : "2610030800"
+      },
+      "geometry" : {
+        "x" : 209722.38929999899,
+        "y" : 239951.96980000101
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 42766,
+        "MNTN_CODE" : "467800801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치(2EA)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화산",
+        "PAST_SPOT_" : "26100308000010",
+        "MNTN_ID" : "2610030800"
+      },
+      "geometry" : {
+        "x" : 210003.60290000122,
+        "y" : 239891.77759999968
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 42767,
+        "MNTN_CODE" : "467800801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화산",
+        "PAST_SPOT_" : "26100308000011",
+        "MNTN_ID" : "2610030800"
+      },
+      "geometry" : {
+        "x" : 210066.1174000008,
+        "y" : 239831.29930000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 42768,
+        "MNTN_CODE" : "467800801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화산",
+        "PAST_SPOT_" : "26100308000012",
+        "MNTN_ID" : "2610030800"
+      },
+      "geometry" : {
+        "x" : 210073.10370000079,
+        "y" : 239824.82560000382
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 42769,
+        "MNTN_CODE" : "467800801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화산",
+        "PAST_SPOT_" : "26100308000013",
+        "MNTN_ID" : "2610030800"
+      },
+      "geometry" : {
+        "x" : 210155.11600000132,
+        "y" : 239720.03790000081
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 42770,
+        "MNTN_CODE" : "467800801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표(보성사~봉화산)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화산",
+        "PAST_SPOT_" : "26100308000014",
+        "MNTN_ID" : "2610030800"
+      },
+      "geometry" : {
+        "x" : 210298.22690000013,
+        "y" : 239295.50769999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 42771,
+        "MNTN_CODE" : "467800801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화산",
+        "PAST_SPOT_" : "26100308000015",
+        "MNTN_ID" : "2610030800"
+      },
+      "geometry" : {
+        "x" : 210492.36299999896,
+        "y" : 240055.50370000117
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 42772,
+        "MNTN_CODE" : "467800801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표(봇재 등산로 입구)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화산",
+        "PAST_SPOT_" : "26100308000016",
+        "MNTN_ID" : "2610030800"
+      },
+      "geometry" : {
+        "x" : 207980.45960000064,
+        "y" : 235216.13519999944
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 42773,
+        "MNTN_CODE" : "467800801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표(다원위)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화산",
+        "PAST_SPOT_" : "26100308000017",
+        "MNTN_ID" : "2610030800"
+      },
+      "geometry" : {
+        "x" : 208652.99830000103,
+        "y" : 235062.67360000126
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 42774,
+        "MNTN_CODE" : "467800801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표, 벤치",
+        "ETC_MATTER" : "이정표훼손",
+        "MNTN_NM" : "봉화산",
+        "PAST_SPOT_" : "26100308000018",
+        "MNTN_ID" : "2610030800"
+      },
+      "geometry" : {
+        "x" : 208929.45780000091,
+        "y" : 236069.78600000031
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 42775,
+        "MNTN_CODE" : "467800801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표, 벤치, 노선의 접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화산",
+        "PAST_SPOT_" : "26100308000019",
+        "MNTN_ID" : "2610030800"
+      },
+      "geometry" : {
+        "x" : 209487.16430000402,
+        "y" : 236993.48420000263
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 42776,
+        "MNTN_CODE" : "467800801",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물(sk기지국)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화산",
+        "PAST_SPOT_" : "26100308000020",
+        "MNTN_ID" : "2610030800"
+      },
+      "geometry" : {
+        "x" : 209855.48340000119,
+        "y" : 237370.59680000134
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 42777,
+        "MNTN_CODE" : "467800801",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물(송신탑)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화산",
+        "PAST_SPOT_" : "26100308000021",
+        "MNTN_ID" : "2610030800"
+      },
+      "geometry" : {
+        "x" : 209962.83150000125,
+        "y" : 237434.3060999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 42778,
+        "MNTN_CODE" : "467800801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표, 기타건물, 벤치",
+        "ETC_MATTER" : "이정표훼손",
+        "MNTN_NM" : "봉화산",
+        "PAST_SPOT_" : "26100308000022",
+        "MNTN_ID" : "2610030800"
+      },
+      "geometry" : {
+        "x" : 209998.59270000085,
+        "y" : 237448.79050000198
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 42779,
+        "MNTN_CODE" : "467800801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표, 벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화산",
+        "PAST_SPOT_" : "26100308000023",
+        "MNTN_ID" : "2610030800"
+      },
+      "geometry" : {
+        "x" : 210064.32050000038,
+        "y" : 238148.20290000178
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 42780,
+        "MNTN_CODE" : "467800801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화산",
+        "PAST_SPOT_" : "26100308000024",
+        "MNTN_ID" : "2610030800"
+      },
+      "geometry" : {
+        "x" : 210147.76520000119,
+        "y" : 238751.74700000323
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 42781,
+        "MNTN_CODE" : "467800801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화산",
+        "PAST_SPOT_" : "26100308000025",
+        "MNTN_ID" : "2610030800"
+      },
+      "geometry" : {
+        "x" : 208436.42700000014,
+        "y" : 235243.04880000465
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 42782,
+        "MNTN_CODE" : "467800801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화산",
+        "PAST_SPOT_" : "26100308000026",
+        "MNTN_ID" : "2610030800"
+      },
+      "geometry" : {
+        "x" : 209692.96570000239,
+        "y" : 239970.81170000136
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 42783,
+        "MNTN_CODE" : "467800801",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "이정표, 벤치, 정자, 정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화산",
+        "PAST_SPOT_" : "26100308000027",
+        "MNTN_ID" : "2610030800"
+      },
+      "geometry" : {
+        "x" : 210041.62020000163,
+        "y" : 238674.69000000134
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 42784,
+        "MNTN_CODE" : "467800801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표, 벤치(2EA), 노선내 분기점",
+        "ETC_MATTER" : "이정표훼손",
+        "MNTN_NM" : "봉화산",
+        "PAST_SPOT_" : "26100308000028",
+        "MNTN_ID" : "2610030800"
+      },
+      "geometry" : {
+        "x" : 210295.75420000404,
+        "y" : 239297.17510000058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 42785,
+        "MNTN_CODE" : "467800801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화산",
+        "PAST_SPOT_" : "26100308000029",
+        "MNTN_ID" : "2610030800"
+      },
+      "geometry" : {
+        "x" : 211061.37750000134,
+        "y" : 242029.41300000064
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 42786,
+        "MNTN_CODE" : "467800801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화산",
+        "PAST_SPOT_" : "26100308000030",
+        "MNTN_ID" : "2610030800"
+      },
+      "geometry" : {
+        "x" : 211418.09728055354,
+        "y" : 240288.20467045717
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 42787,
+        "MNTN_CODE" : "467800801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화산",
+        "PAST_SPOT_" : "26100308000031",
+        "MNTN_ID" : "2610030800"
+      },
+      "geometry" : {
+        "x" : 211418.0972805554,
+        "y" : 240288.20467045717
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 42788,
+        "MNTN_CODE" : "467800801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "이정표중복",
+        "MNTN_NM" : "봉화산",
+        "PAST_SPOT_" : "26100308000032",
+        "MNTN_ID" : "2610030800"
+      },
+      "geometry" : {
+        "x" : 211061.37751736399,
+        "y" : 242029.41303888336
+      }
+    }
+  ]
+}

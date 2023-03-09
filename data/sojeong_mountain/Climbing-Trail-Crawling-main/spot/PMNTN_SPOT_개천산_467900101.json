@@ -1,0 +1,909 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 2621,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "개천사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000001",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 192256.17109999992,
+        "y" : 256464.62900000066
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 2622,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "시점",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000002",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 192224.99189999979,
+        "y" : 256531.49620000273
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 2623,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험구간",
+        "ETC_MATTER" : "비탈길",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000003",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 192194.79340000078,
+        "y" : 256602.70200000331
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 2624,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험구간",
+        "ETC_MATTER" : "시점",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000004",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 192157.12050000019,
+        "y" : 256650.18370000273
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 2625,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "거북이상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000005",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 192020.22030000109,
+        "y" : 256712.36020000279
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 2626,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "종점",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000006",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 191945.03639999963,
+        "y" : 256872.2750000041
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 2627,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "고사목",
+        "ETC_MATTER" : "비탈길",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000007",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 191931.38850000221,
+        "y" : 256881.61860000156
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 2628,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000008",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 191830.68700000085,
+        "y" : 256802.87450000085
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 2629,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "고사목",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000009",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 191754.78760000318,
+        "y" : 256664.16610000096
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 2630,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "바위",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000010",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 191731.51310000196,
+        "y" : 256530.71050000377
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 2631,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프설치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000011",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 191727.93290000223,
+        "y" : 256503.05870000087
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 2632,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프설치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000012",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 191705.35580000095,
+        "y" : 256494.09410000034
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 2633,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "바위",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000013",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 191691.73259999976,
+        "y" : 256490.3515000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 2634,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내도",
+        "ETC_MATTER" : "안내도훼손",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000014",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 192045.44199999981,
+        "y" : 259146.69299999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 2635,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000015",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 192060.5736000007,
+        "y" : 258708.88870000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 2636,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000016",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 192193.01260000095,
+        "y" : 258188.93660000153
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 2637,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000017",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 192232.66179999989,
+        "y" : 258152.34660000168
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 2638,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000018",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 192350.62080000062,
+        "y" : 257751.94540000148
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 2639,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "약수터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000019",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 192363.65919999965,
+        "y" : 257744.60560000688
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 2640,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000020",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 192334.74890000187,
+        "y" : 257642.12390000373
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 2641,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000021",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 192327.99430000037,
+        "y" : 257360.60960000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 2642,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000022",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 192346.03820000123,
+        "y" : 257238.05370000005
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 2643,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000023",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 192258.94990000036,
+        "y" : 257243.32049999945
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 2644,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험구간",
+        "ETC_MATTER" : "산죽밭",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000024",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 192171.67030000221,
+        "y" : 257155.79540000111
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 2645,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "고사목",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000025",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 192132.00399999972,
+        "y" : 257112.33530000225
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 2646,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "도암면 천태리",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000026",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 192062.73070000112,
+        "y" : 257101.56570000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 2647,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "임도종점",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000027",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 191146.57330000028,
+        "y" : 257425.40819999948
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 2648,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000028",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 191726.39898966532,
+        "y" : 256504.19103610329
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 2649,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "고사목",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000029",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 191425.79760000203,
+        "y" : 257201.71669999883
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 2650,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "시점",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000030",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 191437.63390000258,
+        "y" : 257176.92039999925
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 2651,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "고사목",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000031",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 191498.83270000014,
+        "y" : 257135.70480000041
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 2652,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "종점",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000032",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 191842.10690000001,
+        "y" : 256959.48780000024
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 2653,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "고사목",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000033",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 191869.62899999972,
+        "y" : 256940.41530000232
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 2654,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "고사목",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000034",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 191900.48240000103,
+        "y" : 256921.88490000181
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 2655,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000035",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 191925.57860000245,
+        "y" : 256910.68659999967
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 2656,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000036",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 191950.22980000079,
+        "y" : 256959.1454000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 2657,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "바위",
+        "ETC_MATTER" : "시점",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000037",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 192000.518600001,
+        "y" : 257024.02150000073
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 2658,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험구간",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000038",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 191997.75590000115,
+        "y" : 257133.24840000458
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 2659,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "임도시점",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000039",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 190934.40210000239,
+        "y" : 257512.12190000154
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 2660,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : "산불감시카메라,춘양면 가동리",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000040",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 191659.5753000034,
+        "y" : 256484.30560000613
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 2661,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "홍굴재",
+        "ETC_MATTER" : "이정표",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000041",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 191911.95680000354,
+        "y" : 256899.47680000402
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 2662,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "천태산(봉)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000042",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 191935.58470000047,
+        "y" : 257311.80570000038
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 2663,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등광마을",
+        "ETC_MATTER" : "이정표훼손,청풍면 등광리",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000043",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 192030.44600000046,
+        "y" : 257102.19279999845
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 2664,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,이정표",
+        "ETC_MATTER" : "시점,도암면 안성리,안성마을",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000044",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 192043.32370000053,
+        "y" : 259218.06020000391
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 2665,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,안내도",
+        "ETC_MATTER" : "춘양면 가동리",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000045",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 192889.47559999954,
+        "y" : 256503.64550000057
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 2666,
+        "MNTN_CODE" : "467900101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "임도시점",
+        "MNTN_NM" : "개천산",
+        "PAST_SPOT_" : "26220401000046",
+        "MNTN_ID" : "2622040100"
+      },
+      "geometry" : {
+        "x" : 192232.25904347375,
+        "y" : 256491.66360306926
+      }
+    }
+  ]
+}

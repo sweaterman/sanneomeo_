@@ -1,0 +1,891 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 87412,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000001",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 369463.76320001762,
+        "y" : 562477.27710000239
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 87413,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000002",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 369417.79000001587,
+        "y" : 562484.32120000757
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 87414,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "송전철탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000003",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 368617.21350001637,
+        "y" : 563126.1245000083
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 87415,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000004",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 367282.16420001537,
+        "y" : 563458.55310000479
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 87416,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "칠성산정상,종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000005",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 367062.18210001662,
+        "y" : 563426.47069999948
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 87417,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "법왕사,등산안내도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000006",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 366969.19060001988,
+        "y" : 565590.13379999995
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 87418,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "송전철탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000007",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 367081.7957000155,
+        "y" : 565086.88810000382
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 87419,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000008",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 366789.4058000166,
+        "y" : 564160.5728999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 87420,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암석지대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000009",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 366236.59450001549,
+        "y" : 563752.75630000047
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 87421,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "송전철탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000010",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 366494.23380001355,
+        "y" : 565387.81049999967
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 87422,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000011",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 368074.12030001543,
+        "y" : 564851.46309999749
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 87423,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "송전철탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000012",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 367774.15920001641,
+        "y" : 564411.5289000012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 87424,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000013",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 366078.11800001469,
+        "y" : 567105.16210000776
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 87425,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "송전철탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000014",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 365488.50200001895,
+        "y" : 566374.97579999827
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 87426,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000015",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 365471.40400001407,
+        "y" : 566193.32110000215
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 87427,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000016",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 365372.70690001268,
+        "y" : 565838.1284000054
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 87428,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000017",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 365255.70110001415,
+        "y" : 565704.40650000237
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 87429,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "송전 철탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000018",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 364552.78720001504,
+        "y" : 567241.0678000059
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 87430,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "구룡사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000019",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 363857.8170000175,
+        "y" : 564319.41240000539
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 87431,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000020",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 363895.18650001474,
+        "y" : 564351.01290000416
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 87432,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000021",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 364029.21800001431,
+        "y" : 564360.46420000307
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 87433,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도 차단기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000022",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 364375.13300001435,
+        "y" : 561934.96580000594
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 87434,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사방댐",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000023",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 364611.45300001092,
+        "y" : 562193.62870000489
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 87435,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000024",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 365745.08450001664,
+        "y" : 562458.62530000135
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 87436,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점 (탑동)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000025",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 363080.57100001536,
+        "y" : 564046.86230000295
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 87437,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000026",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 363661.71680001542,
+        "y" : 561927.17100000754
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 87438,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "매봉산,시점,삼각점(2005년 매설 구정 411),청파동분기,대성사분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000027",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 365045.00680001453,
+        "y" : 565504.24120000191
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 87439,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000028",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 365045.82260001265,
+        "y" : 568471.23079999909
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 87440,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "탑동 분기점,종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000029",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 365320.70680001657,
+        "y" : 564650.29230000079
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 87441,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "법왕사분기,종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000030",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 366002.87040001433,
+        "y" : 564301.69090000167
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 87442,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부,삼각점(2005년 매설, 구정 310)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000031",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 366119.5821000142,
+        "y" : 563903.37540000118
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 87443,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000032",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 366145.37890001573,
+        "y" : 563775.07870000787
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 87444,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000033",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 366147.06880001258,
+        "y" : 567125.34810000286
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 87445,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부,헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000034",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 366663.94120001979,
+        "y" : 563668.85390000604
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 87446,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부,칠성대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000035",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 367058.6114466358,
+        "y" : 563432.00599251501
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 87447,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000036",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 367138.27840001695,
+        "y" : 567045.46420000307
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 87448,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "단경골,분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000037",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 367282.35210001562,
+        "y" : 563458.86780000106
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 87449,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000038",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 367410.5149000166,
+        "y" : 563592.04399999976
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 87450,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000039",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 367668.85030001961,
+        "y" : 563233.64360000379
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 87451,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000040",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 367769.42380001675,
+        "y" : 563235.78220000491
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 87452,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000041",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 367836.5876000151,
+        "y" : 564536.61519999988
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 87453,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000042",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 368275.52950001881,
+        "y" : 563053.44050000049
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 87454,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000043",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 368796.32410001755,
+        "y" : 563120.86940000392
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 87455,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000044",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 369013.9402000187,
+        "y" : 562863.61090000346
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 87456,
+        "MNTN_CODE" : "421507001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,자연휴식년제안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "칠성산",
+        "PAST_SPOT_" : "22010501000045",
+        "MNTN_ID" : "2201050100"
+      },
+      "geometry" : {
+        "x" : 369412.17580001801,
+        "y" : 562763.86000000499
+      }
+    }
+  ]
+}

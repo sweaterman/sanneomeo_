@@ -1,0 +1,2583 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 43640,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "헬기장",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000001",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 251348.78469999973,
+        "y" : 595922.03720000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 43641,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000002",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 251523.93960000016,
+        "y" : 595843.06940000132
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 43642,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000003",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 251684.44930000044,
+        "y" : 595807.08180000074
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 43643,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000004",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 252390.5025000032,
+        "y" : 595336.7359000016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 43644,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000005",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253269.2490331661,
+        "y" : 593958.70981338434
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 43645,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "북배산전경",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000006",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253945.16480000131,
+        "y" : 593518.58539999835
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 43646,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000007",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 254081.90859999973,
+        "y" : 592912.55709999986
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 43647,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "헬기장",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000008",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253914.4326000018,
+        "y" : 591939.55340000056
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 43648,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "삼각점",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000009",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253922.35140000004,
+        "y" : 591309.11340000108
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 43649,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000010",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 254317.78090000246,
+        "y" : 590023.61720000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 43650,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "쉬어가는곳,북배산전경",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000011",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 254160.79040000215,
+        "y" : 589424.9916999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 43651,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "헬기장",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000012",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253999.4121000031,
+        "y" : 588979.23500000127
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 43652,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000013",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253602.55009999964,
+        "y" : 588302.30399999954
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 43653,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000014",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253543.11479999963,
+        "y" : 588137.00200000405
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 43654,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "헬기장",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000015",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253458.32940000109,
+        "y" : 587903.24760000035
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 43655,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000016",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253498.33080000244,
+        "y" : 587545.9168999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 43656,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000017",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253583.52310000267,
+        "y" : 587259.77720000409
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 43657,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "삼각점",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000018",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253550.7873000009,
+        "y" : 587159.71839999966
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 43658,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "산경계석,이정표없음",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000019",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253557.1977000013,
+        "y" : 587104.78120000288
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 43659,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000020",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253141.44540000148,
+        "y" : 586331.34930000082
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 43660,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000021",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 252052.32820000034,
+        "y" : 586652.05190000311
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 43661,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000022",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 250834.50850000046,
+        "y" : 590554.1456000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 43662,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000023",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 252007.47120000049,
+        "y" : 590820.97240000404
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 43663,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000024",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 252942.0803000005,
+        "y" : 590887.51400000229
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 43664,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000025",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 252358.94919999968,
+        "y" : 589330.13440000266
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 43665,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000026",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 252993.77030000091,
+        "y" : 590498.80830000341
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 43666,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000027",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253206.30440000072,
+        "y" : 590325.48699999973
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 43667,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000028",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253304.21400000155,
+        "y" : 590513.66999999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 43668,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "가덕산전경",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000029",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 251119.52990000043,
+        "y" : 591473.50620000064
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 43669,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000030",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 251753.81589999981,
+        "y" : 592442.6809000019
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 43670,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000031",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 252419.90430000145,
+        "y" : 592373.58809999935
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 43671,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "오른쪽등산로없음,이정표없음",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000032",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 252934.75070000067,
+        "y" : 592494.37460000254
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 43672,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000033",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253028.74910000246,
+        "y" : 592498.0223999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 43673,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "이정표없음",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000034",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253141.5008000005,
+        "y" : 592554.68510000035
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 43674,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000035",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253730.79480000399,
+        "y" : 592665.82520000264
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 43675,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : "나무제거",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000036",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 254087.56360000093,
+        "y" : 592610.5903000012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 43676,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "사거리이정표없음",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000037",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 251463.62940000091,
+        "y" : 586423.79490000196
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 43677,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "장애물제거요망",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000038",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 251075.88929999992,
+        "y" : 586226.55130000412
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 43678,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "삼거리이정표없음",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000039",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 250981.6276000021,
+        "y" : 586178.43640000187
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 43679,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "삼거리오인",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000040",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 250387.10540000163,
+        "y" : 585711.18260000274
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 43680,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "삼거리이정표없음",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000041",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 250170.37610000093,
+        "y" : 585384.07330000401
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 43681,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "보납산전경사진",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000042",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 249846.1911000004,
+        "y" : 584833.05340000242
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 43682,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "삼거리오인",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000043",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 249798.45350000076,
+        "y" : 584751.01310000196
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 43683,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "삼거리이정표없음",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000044",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 249891.39269999973,
+        "y" : 584505.57740000077
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 43684,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "삼거리오인",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000045",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 249609.94440000039,
+        "y" : 584381.20019999892
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 43685,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "삼거리이정표없음",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000046",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 249592.78160000127,
+        "y" : 584210.45670000091
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 43686,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : "로프설치요망",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000047",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 249551.55719999969,
+        "y" : 584213.59410000034
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 43687,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "헬기장",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000048",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 248568.30800000206,
+        "y" : 584620.30120000057
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 43688,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000049",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 256667.37810000218,
+        "y" : 594835.98380000144
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 43689,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000050",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 256552.47780000046,
+        "y" : 595160.26440000162
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 50,
+        "PMNTN_SPOT" : 43690,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000051",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253927.49360000249,
+        "y" : 593568.30939999968
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 51,
+        "PMNTN_SPOT" : 43691,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000052",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 254690.60329999961,
+        "y" : 592448.18029999919
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 52,
+        "PMNTN_SPOT" : 43692,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000053",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 251683.52190000378,
+        "y" : 595807.80860000104
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 53,
+        "PMNTN_SPOT" : 43693,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000054",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 252389.59160000365,
+        "y" : 595333.49990000017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 54,
+        "PMNTN_SPOT" : 43694,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000055",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 252798.51610000059,
+        "y" : 595310.32390000112
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 55,
+        "PMNTN_SPOT" : 43695,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000056",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 252956.26685134228,
+        "y" : 594394.88669940643
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 56,
+        "PMNTN_SPOT" : 43696,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000057",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253256.74100000039,
+        "y" : 593961.0196000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 57,
+        "PMNTN_SPOT" : 43697,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000058",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 254160.39890000131,
+        "y" : 592652.80719999969
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 58,
+        "PMNTN_SPOT" : 43698,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000059",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 254084.67040000204,
+        "y" : 592915.05060000345
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 59,
+        "PMNTN_SPOT" : 43699,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000060",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 255373.0129000023,
+        "y" : 587238.07180000097
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 60,
+        "PMNTN_SPOT" : 43700,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "싸리재고개",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000061",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253907.19520000368,
+        "y" : 588933.82970000245
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 61,
+        "PMNTN_SPOT" : 43701,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000062",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253603.8768000016,
+        "y" : 588299.84840000235
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 62,
+        "PMNTN_SPOT" : 43702,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000063",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253544.28140000254,
+        "y" : 588136.16599999927
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 63,
+        "PMNTN_SPOT" : 43703,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000064",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253443.3657999998,
+        "y" : 587962.81360000186
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 64,
+        "PMNTN_SPOT" : 43704,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000065",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 257008.07260000333,
+        "y" : 584149.05899999849
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 65,
+        "PMNTN_SPOT" : 43705,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000066",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 254656.0393000003,
+        "y" : 586413.43130000308
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 66,
+        "PMNTN_SPOT" : 43706,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000067",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 254636.13900000229,
+        "y" : 586421.05820000172
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 67,
+        "PMNTN_SPOT" : 43707,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼각점",
+        "ETC_MATTER" : "2005년 재설",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000068",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253553.24899999984,
+        "y" : 587157.27020000294
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 68,
+        "PMNTN_SPOT" : 43708,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000069",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253586.8515000008,
+        "y" : 587255.28109999932
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 69,
+        "PMNTN_SPOT" : 43709,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000070",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253502.31819999963,
+        "y" : 587544.23340000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 70,
+        "PMNTN_SPOT" : 43710,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000071",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253455.28840000089,
+        "y" : 587915.01620000228
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 71,
+        "PMNTN_SPOT" : 43711,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000072",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 257729.03920000419,
+        "y" : 590596.01230000146
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 72,
+        "PMNTN_SPOT" : 43712,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000073",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253907.19520000368,
+        "y" : 588933.82970000245
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 73,
+        "PMNTN_SPOT" : 43713,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000074",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 257278.8526999997,
+        "y" : 591227.14290000126
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 74,
+        "PMNTN_SPOT" : 43714,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000075",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 256538.97350000031,
+        "y" : 592437.28710000217
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 75,
+        "PMNTN_SPOT" : 43715,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000076",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 254148.60710000247,
+        "y" : 592201.02770000137
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 76,
+        "PMNTN_SPOT" : 43716,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000077",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253914.57550000027,
+        "y" : 591939.22140000202
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 77,
+        "PMNTN_SPOT" : 43717,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000078",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 255840.07980000041,
+        "y" : 591626.88130000234
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 78,
+        "PMNTN_SPOT" : 43718,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000079",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 255187.88060000073,
+        "y" : 590737.06360000186
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 79,
+        "PMNTN_SPOT" : 43719,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000080",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253845.84143810347,
+        "y" : 591365.50633810088
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 80,
+        "PMNTN_SPOT" : 43720,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000081",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 256049.95920000225,
+        "y" : 590918.24950000085
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 81,
+        "PMNTN_SPOT" : 43721,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000082",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 257261.25120000076,
+        "y" : 589322.15850000083
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 82,
+        "PMNTN_SPOT" : 43722,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000083",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 255025.30630000215,
+        "y" : 590746.26319999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 83,
+        "PMNTN_SPOT" : 43723,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000084",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 255848.12150000222,
+        "y" : 589026.33959999867
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 84,
+        "PMNTN_SPOT" : 43724,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000085",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 255399.46890000254,
+        "y" : 590061.83990000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 85,
+        "PMNTN_SPOT" : 43725,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안테나시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000086",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 254124.9991000006,
+        "y" : 591221.53320000134
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 86,
+        "PMNTN_SPOT" : 43726,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000087",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253937.76989999972,
+        "y" : 591285.75990000181
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 87,
+        "PMNTN_SPOT" : 43727,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000088",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253926.76170000061,
+        "y" : 591300.32880000211
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 88,
+        "PMNTN_SPOT" : 43728,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000089",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253923.10960000101,
+        "y" : 591306.13240000047
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 89,
+        "PMNTN_SPOT" : 43729,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000090",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 255213.53550000116,
+        "y" : 587686.46790000051
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 90,
+        "PMNTN_SPOT" : 43730,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도,관리사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000091",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 254325.07770000026,
+        "y" : 588597.15900000371
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 91,
+        "PMNTN_SPOT" : 43731,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000092",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253996.28810000047,
+        "y" : 588972.75420000032
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 92,
+        "PMNTN_SPOT" : 43732,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000093",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 254322.15290000103,
+        "y" : 590026.12140000053
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 93,
+        "PMNTN_SPOT" : 43733,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "버스종점",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000094",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 249407.80830000155,
+        "y" : 585883.33709999919
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 94,
+        "PMNTN_SPOT" : 43734,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "목동2리종점",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000095",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 250150.59242161084,
+        "y" : 589587.42021229118
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 95,
+        "PMNTN_SPOT" : 43735,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000096",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 250620.82610000297,
+        "y" : 590589.11310000159
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 96,
+        "PMNTN_SPOT" : 43736,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000097",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 251225.31680000015,
+        "y" : 595861.65730000101
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 97,
+        "PMNTN_SPOT" : 43737,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000098",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 251233.60500000231,
+        "y" : 595881.23430000246
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 98,
+        "PMNTN_SPOT" : 43738,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000099",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 251364.39190000016,
+        "y" : 595895.49440000206
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 99,
+        "PMNTN_SPOT" : 43739,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000100",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 251423.90890000109,
+        "y" : 595897.93180000037
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 100,
+        "PMNTN_SPOT" : 43740,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "싸리재종점",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000101",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 249827.31134547573,
+        "y" : 588620.33341197111
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 101,
+        "PMNTN_SPOT" : 43741,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000102",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 252329.28020000085,
+        "y" : 586393.35600000061
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 102,
+        "PMNTN_SPOT" : 43742,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000103",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 252428.31660000049,
+        "y" : 590727.24159999937
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 103,
+        "PMNTN_SPOT" : 43743,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "삼거리신설등산로",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000104",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 252783.28870000411,
+        "y" : 589359.55460000038
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 104,
+        "PMNTN_SPOT" : 43744,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000105",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 250680.00638039503,
+        "y" : 594372.0400614161
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 105,
+        "PMNTN_SPOT" : 43745,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계관산",
+        "ETC_MATTER" : "계관산정상",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000106",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253444.09330000263,
+        "y" : 587956.45800000243
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 106,
+        "PMNTN_SPOT" : 43746,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000107",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253453.22070000321,
+        "y" : 590910.04520000145
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 107,
+        "PMNTN_SPOT" : 43747,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000108",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253555.35390000232,
+        "y" : 587106.91150000133
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 108,
+        "PMNTN_SPOT" : 43748,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "가덕산정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000109",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253856.43790000025,
+        "y" : 593576.16819999926
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 109,
+        "PMNTN_SPOT" : 43749,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : "북배산정상",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000110",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253869.70220000017,
+        "y" : 591344.52180000208
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 110,
+        "PMNTN_SPOT" : 43750,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "싸리재표시없음",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000111",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253902.96690000221,
+        "y" : 588926.74220000207
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 111,
+        "PMNTN_SPOT" : 43751,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "헬기장",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000112",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253920.84310000017,
+        "y" : 593569.00950000063
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 112,
+        "PMNTN_SPOT" : 43752,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000113",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253933.01650000177,
+        "y" : 592578.82619999722
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 113,
+        "PMNTN_SPOT" : 43753,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "계관산전경",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000114",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 253937.7014000006,
+        "y" : 591287.14770000242
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 114,
+        "PMNTN_SPOT" : 43754,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000115",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 254039.41690000147,
+        "y" : 591232.92480000108
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 115,
+        "PMNTN_SPOT" : 43755,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000116",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 254131.34979999997,
+        "y" : 590820.84579999931
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 116,
+        "PMNTN_SPOT" : 43756,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000117",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 254148.95370000228,
+        "y" : 592181.92589999922
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 117,
+        "PMNTN_SPOT" : 43757,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000118",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 254154.441300001,
+        "y" : 592650.98069999926
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 118,
+        "PMNTN_SPOT" : 43758,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000119",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 254155.80840000138,
+        "y" : 592196.61180000193
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 119,
+        "PMNTN_SPOT" : 43759,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000120",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 254984.53370000329,
+        "y" : 590766.53680000268
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 120,
+        "PMNTN_SPOT" : 43760,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000121",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 255181.01620000321,
+        "y" : 590731.26760000363
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 121,
+        "PMNTN_SPOT" : 43761,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000122",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 255371.09570000041,
+        "y" : 587242.83420000039
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 122,
+        "PMNTN_SPOT" : 43762,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000123",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 255755.64740000106,
+        "y" : 590716.65360000357
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 123,
+        "PMNTN_SPOT" : 43763,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삿갓봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000124",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 255804.1612999998,
+        "y" : 594670.27910000086
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 124,
+        "PMNTN_SPOT" : 43764,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000125",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 256053.60749999993,
+        "y" : 590920.0196000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 125,
+        "PMNTN_SPOT" : 43765,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,석파령",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000126",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 256073.76900000311,
+        "y" : 583351.38209999911
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 126,
+        "PMNTN_SPOT" : 43766,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000127",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 256526.81799999997,
+        "y" : 592382.67840000056
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 127,
+        "PMNTN_SPOT" : 43767,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000128",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 256545.59219999891,
+        "y" : 592432.43739999831
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 128,
+        "PMNTN_SPOT" : 43768,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000129",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 256783.85590000078,
+        "y" : 591696.8003000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 129,
+        "PMNTN_SPOT" : 43769,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000130",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 257204.1102,
+        "y" : 589989.69670000114
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 130,
+        "PMNTN_SPOT" : 43770,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000131",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 257212.31659999955,
+        "y" : 591646.94720000029
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 131,
+        "PMNTN_SPOT" : 43771,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000132",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 257249.71130000148,
+        "y" : 589312.06570000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 132,
+        "PMNTN_SPOT" : 43772,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000133",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 257440.18920000084,
+        "y" : 595208.38090000115
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 133,
+        "PMNTN_SPOT" : 43773,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000134",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 257894.91090000048,
+        "y" : 592906.94300000183
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 134,
+        "PMNTN_SPOT" : 43774,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000135",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 257979.76200000104,
+        "y" : 589300.7320000045
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 135,
+        "PMNTN_SPOT" : 43775,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,장절공묘",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000136",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 258185.97070000134,
+        "y" : 589404.43370000087
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 136,
+        "PMNTN_SPOT" : 43776,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000137",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 258550.71939999983,
+        "y" : 590240.25630000047
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 137,
+        "PMNTN_SPOT" : 43777,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000138",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 249999.28848885093,
+        "y" : 592552.31814852729
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 138,
+        "PMNTN_SPOT" : 43778,
+        "MNTN_CODE" : "418202101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "북배산",
+        "PAST_SPOT_" : "21010219000139",
+        "MNTN_ID" : "2101021900"
+      },
+      "geometry" : {
+        "x" : 247828.15134082176,
+        "y" : 584647.99313920923
+      }
+    }
+  ]
+}

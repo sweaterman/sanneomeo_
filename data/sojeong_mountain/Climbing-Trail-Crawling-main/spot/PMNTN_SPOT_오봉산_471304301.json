@@ -1,0 +1,855 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 66511,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010001",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 384056.2719000401,
+        "y" : 363935.36840000562
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 66512,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010002",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 384093.74440004118,
+        "y" : 363962.6361999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 66513,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010003",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 384485.17040004302,
+        "y" : 362513.80890000612
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 66514,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010004",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 384536.44570004195,
+        "y" : 362468.24800000712
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 66515,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010005",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 384631.59660004172,
+        "y" : 362618.63840000331
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 66516,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010006",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 384744.52690004278,
+        "y" : 362798.8906000033
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 66517,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010007",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 384876.06680004019,
+        "y" : 362664.59509999864
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 66518,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010008",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 384979.61020004377,
+        "y" : 363985.50380000472
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 66519,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010009",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 384981.50880004186,
+        "y" : 361683.99590000696
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 66520,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010010",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 385005.59190004319,
+        "y" : 363924.34840000793
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 66521,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010011",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 385011.00280003902,
+        "y" : 362896.43219999969
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 66522,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010012",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 385056.77880004421,
+        "y" : 363823.04890000448
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 66523,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010013",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 385105.72910004109,
+        "y" : 363766.77170000784
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 66524,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010014",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 385138.37360004149,
+        "y" : 362424.80070000514
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 66525,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010015",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 385150.35250004381,
+        "y" : 363327.0306000039
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 66526,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010016",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 385197.62030004151,
+        "y" : 363434.17290000804
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 66527,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010017",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 385209.7475000415,
+        "y" : 363685.99350000173
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 66528,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010018",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 385233.72800004296,
+        "y" : 363474.63480000384
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 66529,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010019",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 385250.07430004422,
+        "y" : 363694.06790000573
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 66530,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010020",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 385256.42430004291,
+        "y" : 363378.15479999781
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 66531,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010021",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 385279.82950004283,
+        "y" : 363601.12100000679
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 66532,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010022",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 385297.01000004262,
+        "y" : 363008.52850000747
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 66533,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010023",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 385303.19730004389,
+        "y" : 363334.56130000763
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 66534,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010024",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 385307.94480004441,
+        "y" : 361992.31240000762
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 66535,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010025",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 385308.47880004533,
+        "y" : 363660.74540000781
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 66536,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010026",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 385335.96690004319,
+        "y" : 363644.38900000043
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 66537,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010027",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 385358.81820004247,
+        "y" : 367544.55690000206
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 66538,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010028",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 385608.677500044,
+        "y" : 365486.62960000709
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 66539,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010029",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 385667.68450004421,
+        "y" : 363283.51290000416
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 66540,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010030",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 385714.50990004186,
+        "y" : 365666.96790000796
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 66541,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010031",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 385740.80290004332,
+        "y" : 363748.50120000355
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 66542,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010032",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 385746.16900004167,
+        "y" : 363219.40450000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 66543,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010033",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 385873.16930004209,
+        "y" : 364468.76950000413
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 66544,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010034",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 385931.20040004607,
+        "y" : 363952.56040000729
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 66545,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010035",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 385934.10120004229,
+        "y" : 364114.88860000484
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 66546,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010036",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 385968.09810004383,
+        "y" : 364896.05150000751
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 66547,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010037",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 385986.05340004154,
+        "y" : 364005.88640000299
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 66548,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010038",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 386022.39460004587,
+        "y" : 364610.85100000724
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 66549,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010039",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 386724.07100004237,
+        "y" : 364243.34400000051
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 66550,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010040",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 386935.20890004467,
+        "y" : 365257.75850000791
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 66551,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010041",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 387329.7034000447,
+        "y" : 362207.37120000459
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 66552,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010042",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 387698.79790004529,
+        "y" : 361911.30180000328
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 66553,
+        "MNTN_CODE" : "471304301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "오봉산",
+        "PAST_SPOT_" : "4713043010043",
+        "MNTN_ID" : "471304301"
+      },
+      "geometry" : {
+        "x" : 384414.05970008485,
+        "y" : 362531.38260000944
+      }
+    }
+  ]
+}

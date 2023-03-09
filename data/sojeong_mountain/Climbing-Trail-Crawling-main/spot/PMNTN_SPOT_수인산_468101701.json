@@ -1,0 +1,513 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 55371,
+        "MNTN_CODE" : "468101701",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수인산",
+        "PAST_SPOT_" : "4681017010001",
+        "MNTN_ID" : "468101701"
+      },
+      "geometry" : {
+        "x" : 184913.38630000036,
+        "y" : 235099.94400000013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 55372,
+        "MNTN_CODE" : "468101701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수인산",
+        "PAST_SPOT_" : "4681017010002",
+        "MNTN_ID" : "468101701"
+      },
+      "geometry" : {
+        "x" : 184967.26929999888,
+        "y" : 235045.39440000243
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 55373,
+        "MNTN_CODE" : "468101701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수인산",
+        "PAST_SPOT_" : "4681017010003",
+        "MNTN_ID" : "468101701"
+      },
+      "geometry" : {
+        "x" : 185768.80520000216,
+        "y" : 234835.21220000274
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 55374,
+        "MNTN_CODE" : "468101701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수인산",
+        "PAST_SPOT_" : "4681017010004",
+        "MNTN_ID" : "468101701"
+      },
+      "geometry" : {
+        "x" : 186013.74900000077,
+        "y" : 235726.54720000364
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 55375,
+        "MNTN_CODE" : "468101701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수인산",
+        "PAST_SPOT_" : "4681017010005",
+        "MNTN_ID" : "468101701"
+      },
+      "geometry" : {
+        "x" : 186138.55830000062,
+        "y" : 235821.19439999945
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 55376,
+        "MNTN_CODE" : "468101701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수인산",
+        "PAST_SPOT_" : "4681017010006",
+        "MNTN_ID" : "468101701"
+      },
+      "geometry" : {
+        "x" : 186172.11230000108,
+        "y" : 236062.85010000132
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 55377,
+        "MNTN_CODE" : "468101701",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수인산",
+        "PAST_SPOT_" : "4681017010007",
+        "MNTN_ID" : "468101701"
+      },
+      "geometry" : {
+        "x" : 186440.65710000135,
+        "y" : 236101.39329999872
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 55378,
+        "MNTN_CODE" : "468101701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수인산",
+        "PAST_SPOT_" : "4681017010008",
+        "MNTN_ID" : "468101701"
+      },
+      "geometry" : {
+        "x" : 184906.9068,
+        "y" : 236417.88280000165
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 55379,
+        "MNTN_CODE" : "468101701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "출발,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수인산",
+        "PAST_SPOT_" : "4681017010009",
+        "MNTN_ID" : "468101701"
+      },
+      "geometry" : {
+        "x" : 184383.20170000009,
+        "y" : 235982.94199999981
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 55380,
+        "MNTN_CODE" : "468101701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,사찰",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수인산",
+        "PAST_SPOT_" : "4681017010010",
+        "MNTN_ID" : "468101701"
+      },
+      "geometry" : {
+        "x" : 184876.53490000125,
+        "y" : 235664.63910000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 55381,
+        "MNTN_CODE" : "468101701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수인산",
+        "PAST_SPOT_" : "4681017010011",
+        "MNTN_ID" : "468101701"
+      },
+      "geometry" : {
+        "x" : 185584.7611999996,
+        "y" : 235585.72189999931
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 55382,
+        "MNTN_CODE" : "468101701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,음수대,유적",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수인산",
+        "PAST_SPOT_" : "4681017010012",
+        "MNTN_ID" : "468101701"
+      },
+      "geometry" : {
+        "x" : 185957.8683999991,
+        "y" : 235746.3543999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 55383,
+        "MNTN_CODE" : "468101701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수인산",
+        "PAST_SPOT_" : "4681017010013",
+        "MNTN_ID" : "468101701"
+      },
+      "geometry" : {
+        "x" : 185745.11270000041,
+        "y" : 236341.84320000187
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 55384,
+        "MNTN_CODE" : "468101701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수인산",
+        "PAST_SPOT_" : "4681017010014",
+        "MNTN_ID" : "468101701"
+      },
+      "geometry" : {
+        "x" : 184909.3208000008,
+        "y" : 236414.64870000258
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 55385,
+        "MNTN_CODE" : "468101701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수인산",
+        "PAST_SPOT_" : "4681017010015",
+        "MNTN_ID" : "468101701"
+      },
+      "geometry" : {
+        "x" : 186042.84000000078,
+        "y" : 235696.37050000206
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 55386,
+        "MNTN_CODE" : "468101701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수인산",
+        "PAST_SPOT_" : "4681017010016",
+        "MNTN_ID" : "468101701"
+      },
+      "geometry" : {
+        "x" : 186168.39770000149,
+        "y" : 236047.26430000365
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 55387,
+        "MNTN_CODE" : "468101701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수인산",
+        "PAST_SPOT_" : "4681017010017",
+        "MNTN_ID" : "468101701"
+      },
+      "geometry" : {
+        "x" : 186171.82350000087,
+        "y" : 236063.29000000097
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 55388,
+        "MNTN_CODE" : "468101701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수인산",
+        "PAST_SPOT_" : "4681017010018",
+        "MNTN_ID" : "468101701"
+      },
+      "geometry" : {
+        "x" : 186176.98950000107,
+        "y" : 236069.41730000079
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 55389,
+        "MNTN_CODE" : "468101701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수인산",
+        "PAST_SPOT_" : "4681017010019",
+        "MNTN_ID" : "468101701"
+      },
+      "geometry" : {
+        "x" : 186263.2339195041,
+        "y" : 236314.76132732816
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 55390,
+        "MNTN_CODE" : "468101701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수인산",
+        "PAST_SPOT_" : "4681017010020",
+        "MNTN_ID" : "468101701"
+      },
+      "geometry" : {
+        "x" : 186429.60769999959,
+        "y" : 236116.11969999969
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 55391,
+        "MNTN_CODE" : "468101701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수인산",
+        "PAST_SPOT_" : "4681017010021",
+        "MNTN_ID" : "468101701"
+      },
+      "geometry" : {
+        "x" : 186459.8236999996,
+        "y" : 236100.23770000041
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 97760,
+        "MNTN_CODE" : "468101701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수인산",
+        "PAST_SPOT_" : "4681017010022",
+        "MNTN_ID" : "468101701"
+      },
+      "geometry" : {
+        "x" : 186057.34960000144,
+        "y" : 235679.19820000045
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 97761,
+        "MNTN_CODE" : "468101701",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수인산",
+        "PAST_SPOT_" : "4681017010023",
+        "MNTN_ID" : "468101701"
+      },
+      "geometry" : {
+        "x" : 186262.61689999924,
+        "y" : 236315.30949999957
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 97762,
+        "MNTN_CODE" : "468101701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수인산",
+        "PAST_SPOT_" : "4681017010024",
+        "MNTN_ID" : "468101701"
+      },
+      "geometry" : {
+        "x" : 184382.19799999928,
+        "y" : 235984.18040000059
+      }
+    }
+  ]
+}

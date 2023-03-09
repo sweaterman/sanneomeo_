@@ -1,0 +1,909 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 35581,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010001",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186595.40910000075,
+        "y" : 283307.85449999943
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 35582,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010002",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186598.3479000004,
+        "y" : 283261.58669999987
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 35583,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010003",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186589.18059999961,
+        "y" : 283224.65599999949
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 35584,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010004",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186595.16310000047,
+        "y" : 283141.43949999847
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 35585,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010005",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186642.09630000126,
+        "y" : 283019.33229999803
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 35586,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010006",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186649.59190000128,
+        "y" : 282973.05779999867
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 35587,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010007",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186643.42640000116,
+        "y" : 282932.46150000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 35588,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010008",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186672.18670000136,
+        "y" : 282845.43950000033
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 35589,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010009",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186705.38509999961,
+        "y" : 282677.2004000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 35590,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010010",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186753.95850000065,
+        "y" : 282677.12930000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 35591,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010011",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186761.3713000007,
+        "y" : 282573.49730000086
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 35592,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010012",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186179.252700001,
+        "y" : 282511.75020000152
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 35593,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010013",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186476.35990000051,
+        "y" : 283363.47039999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 35594,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010014",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186510.8115000017,
+        "y" : 282671.05470000207
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 35595,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010015",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186746.6456000004,
+        "y" : 282522.26810000092
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 35596,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010016",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186747.85240000021,
+        "y" : 282377.73719999753
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 35597,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010017",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186756.08580000047,
+        "y" : 282074.25950000435
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 35598,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010018",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186767.46620000061,
+        "y" : 282225.38759999909
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 35599,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010019",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186783.78870000131,
+        "y" : 281985.45749999955
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 35600,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010020",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186944.90180000104,
+        "y" : 282235.18270000443
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 35601,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010021",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186960.10589999985,
+        "y" : 282294.75210000016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 35602,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010022",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186647.80406981148,
+        "y" : 281986.53789472766
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 35603,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010023",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186604.7900000019,
+        "y" : 282081.91820000298
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 96714,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010024",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186598.40529999955,
+        "y" : 283300.41680000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 96715,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물(운동기구등)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010025",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186595.30790000124,
+        "y" : 283239.40240000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 96716,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010026",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186587.63520000037,
+        "y" : 283165.52530000027
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 96717,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010027",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186610.32690000028,
+        "y" : 283104.47279999946
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 96718,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010028",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186675.14790000129,
+        "y" : 282814.03810000047
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 96719,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판또는지도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010029",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186764.61009999993,
+        "y" : 282669.68060000055
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 96720,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010030",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186773.6721000009,
+        "y" : 282634.49829999899
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 96721,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물(운동기구등)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010031",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186749.18040000024,
+        "y" : 282525.47650000034
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 96722,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "정자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010032",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186773.07099999976,
+        "y" : 282222.23320000118
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 96723,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010033",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186964.57220000034,
+        "y" : 282301.39159999939
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 96724,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010034",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186888.60760000025,
+        "y" : 282331.12289999961
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 96725,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010035",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186885.6108999991,
+        "y" : 282338.56049999944
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 96726,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010036",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186812.74810000049,
+        "y" : 282370.06310000079
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 96727,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010037",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186780.89400000047,
+        "y" : 282399.73129999975
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 96728,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010038",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186768.78370000055,
+        "y" : 282407.07130000036
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 96729,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010039",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186764.21889999931,
+        "y" : 282401.53070000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 96730,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010040",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186546.50099999903,
+        "y" : 282096.7565000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 96731,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010041",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186696.04410000061,
+        "y" : 282521.89320000121
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 96732,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "주요나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010042",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186679.30809999967,
+        "y" : 282544.1063999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 96733,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010043",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186609.54899999886,
+        "y" : 282577.49219999969
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 96734,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010044",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186553.37739999991,
+        "y" : 282616.40550000063
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 96735,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010045",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186753.44549999983,
+        "y" : 282325.77209999977
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 96736,
+        "MNTN_CODE" : "291400301",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "주요나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백석산",
+        "PAST_SPOT_" : "2914003010046",
+        "MNTN_ID" : "291400301"
+      },
+      "geometry" : {
+        "x" : 186747.40419999982,
+        "y" : 282370.15829999914
+      }
+    }
+  ]
+}

@@ -1,0 +1,801 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 5527,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000001",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230073.1987358015,
+        "y" : 340164.60392655246
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 5528,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000002",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230092.08203580137,
+        "y" : 340167.86752655171
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 5529,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000003",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230097.0945357997,
+        "y" : 340157.76552655175
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 5530,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000004",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230131.27263579983,
+        "y" : 340161.15462655388
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 5531,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000005",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230193.55003579985,
+        "y" : 340171.82652655616
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 5532,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000006",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230270.65273580141,
+        "y" : 340201.51932655275
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 5533,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000007",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230283.59653580096,
+        "y" : 340205.10532655381
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 5534,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000008",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230327.47173580248,
+        "y" : 340217.86402655393
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 5535,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000009",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230428.40713580046,
+        "y" : 340298.28232655488
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 5536,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철계단,산불초소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000010",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230463.14323580079,
+        "y" : 340297.04592655227
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 5537,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철계단,구름다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000011",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230477.67983579915,
+        "y" : 340302.02412655391
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 5538,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000012",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230503.07143580075,
+        "y" : 340305.21512655541
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 5539,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000013",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230535.64423580002,
+        "y" : 340296.0254265517
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 5540,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000014",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230552.49133580178,
+        "y" : 340306.43442655355
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 5541,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000015",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230562.58583580144,
+        "y" : 340308.36262655444
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 5542,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000016",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230581.96613580082,
+        "y" : 340309.53762655519
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 5543,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000017",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230644.53673580009,
+        "y" : 340315.29822655208
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 5544,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터, 바위",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000018",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230691.70513579901,
+        "y" : 340286.93302655406
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 5545,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000019",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230743.72633579932,
+        "y" : 340280.72372655198
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 5546,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000020",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230820.23353580106,
+        "y" : 340239.46972655319
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 5547,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000021",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230828.92783580255,
+        "y" : 340236.66962655447
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 5548,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000022",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230849.28740000259,
+        "y" : 340233.48810000159
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 5549,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000023",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230870.28070000093,
+        "y" : 340229.5008000005
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 5550,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000024",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230904.47380000353,
+        "y" : 340193.79880000278
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 5551,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000025",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230905.64210000075,
+        "y" : 340209.95420000143
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 5552,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000026",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230931.57160000131,
+        "y" : 340222.94930000044
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 5553,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000027",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230932.1707000006,
+        "y" : 340163.98289999925
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 5554,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "덕봉사삼거리,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000028",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230522.02810000163,
+        "y" : 339924.80100000091
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 5555,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000029",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230826.28760000318,
+        "y" : 340034.7228000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 5556,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지2",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000030",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230049.3309000032,
+        "y" : 339741.05709999986
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 5557,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지1",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000031",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 229991.07210000139,
+        "y" : 339682.64450000226
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 5558,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "능선입구,고덕제",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000032",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 229974.00560000353,
+        "y" : 339667.6763000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 5559,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "정자,느티나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000033",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 229977.1222000001,
+        "y" : 340018.87350000069
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 5560,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000034",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230951.97950000037,
+        "y" : 340210.36700000055
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 5561,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000035",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230011.98860000074,
+        "y" : 340059.48399999738
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 5562,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼거리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000036",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230647.6389000006,
+        "y" : 339935.03210000135
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 5563,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표삼거리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000037",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230740.84290000238,
+        "y" : 339946.58729999885
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 5564,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "고덕산정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000038",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230931.2144000018,
+        "y" : 340189.48100000247
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 5565,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "고덕산정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000039",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230936.60340000317,
+        "y" : 340154.15440000035
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 5566,
+        "MNTN_CODE" : "457500201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표삼거리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고덕산",
+        "PAST_SPOT_" : "25100202000040",
+        "MNTN_ID" : "2510020200"
+      },
+      "geometry" : {
+        "x" : 230967.41029777564,
+        "y" : 340119.95338556729
+      }
+    }
+  ]
+}

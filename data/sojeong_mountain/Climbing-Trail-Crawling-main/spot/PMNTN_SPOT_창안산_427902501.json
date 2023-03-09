@@ -1,0 +1,495 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 81468,
+        "MNTN_CODE" : "427902501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "창안산",
+        "PAST_SPOT_" : "4279025010001",
+        "MNTN_ID" : "427902501"
+      },
+      "geometry" : {
+        "x" : 246045.37550000008,
+        "y" : 609774.76730000041
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 81469,
+        "MNTN_CODE" : "427902501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "창안산",
+        "PAST_SPOT_" : "4279025010002",
+        "MNTN_ID" : "427902501"
+      },
+      "geometry" : {
+        "x" : 246731.56137379445,
+        "y" : 608817.03118656576
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 81470,
+        "MNTN_CODE" : "427902501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "창안산",
+        "PAST_SPOT_" : "4279025010003",
+        "MNTN_ID" : "427902501"
+      },
+      "geometry" : {
+        "x" : 246887.74739999976,
+        "y" : 609482.92190000229
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 81471,
+        "MNTN_CODE" : "427902501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "창안산",
+        "PAST_SPOT_" : "4279025010004",
+        "MNTN_ID" : "427902501"
+      },
+      "geometry" : {
+        "x" : 247647.20870000124,
+        "y" : 610861.44920000434
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 81472,
+        "MNTN_CODE" : "427902501",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동시설과 벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "창안산",
+        "PAST_SPOT_" : "22170223000005",
+        "MNTN_ID" : "2217022300"
+      },
+      "geometry" : {
+        "x" : 246433.68240000028,
+        "y" : 608540.48919999972
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 81473,
+        "MNTN_CODE" : "427902501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "창안산",
+        "PAST_SPOT_" : "22170223000006",
+        "MNTN_ID" : "2217022300"
+      },
+      "geometry" : {
+        "x" : 246444.92210000008,
+        "y" : 608552.05939999968
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 81474,
+        "MNTN_CODE" : "427902501",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "창안산",
+        "PAST_SPOT_" : "22170223000007",
+        "MNTN_ID" : "2217022300"
+      },
+      "geometry" : {
+        "x" : 246537.2191000022,
+        "y" : 608500.93290000223
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 81475,
+        "MNTN_CODE" : "427902501",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치와 운동시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "창안산",
+        "PAST_SPOT_" : "22170223000008",
+        "MNTN_ID" : "2217022300"
+      },
+      "geometry" : {
+        "x" : 246678.11789999995,
+        "y" : 608611.78649999946
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 81476,
+        "MNTN_CODE" : "427902501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "등산로 입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "창안산",
+        "PAST_SPOT_" : "22170223000009",
+        "MNTN_ID" : "2217022300"
+      },
+      "geometry" : {
+        "x" : 245884.57110000122,
+        "y" : 608809.38839999959
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 81477,
+        "MNTN_CODE" : "427902501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "등산로 입구(운동시설과 정자가 있다)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "창안산",
+        "PAST_SPOT_" : "22170223000010",
+        "MNTN_ID" : "2217022300"
+      },
+      "geometry" : {
+        "x" : 245999.47290000133,
+        "y" : 608514.24660000019
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 81478,
+        "MNTN_CODE" : "427902501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "창안산",
+        "PAST_SPOT_" : "22170223000011",
+        "MNTN_ID" : "2217022300"
+      },
+      "geometry" : {
+        "x" : 246053.33620000351,
+        "y" : 608504.48559999838
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 81479,
+        "MNTN_CODE" : "427902501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "창안산",
+        "PAST_SPOT_" : "22170223000012",
+        "MNTN_ID" : "2217022300"
+      },
+      "geometry" : {
+        "x" : 246148.83789999876,
+        "y" : 608505.97120000236
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 81480,
+        "MNTN_CODE" : "427902501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "창안산",
+        "PAST_SPOT_" : "22170223000013",
+        "MNTN_ID" : "2217022300"
+      },
+      "geometry" : {
+        "x" : 246157.62660000287,
+        "y" : 608461.78850000165
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 81481,
+        "MNTN_CODE" : "427902501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "창안산",
+        "PAST_SPOT_" : "22170223000014",
+        "MNTN_ID" : "2217022300"
+      },
+      "geometry" : {
+        "x" : 246177.06470000278,
+        "y" : 608475.40500000119
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 81482,
+        "MNTN_CODE" : "427902501",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "대성사샘터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "창안산",
+        "PAST_SPOT_" : "22170223000015",
+        "MNTN_ID" : "2217022300"
+      },
+      "geometry" : {
+        "x" : 246195.69280000031,
+        "y" : 608473.98790000193
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 81483,
+        "MNTN_CODE" : "427902501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "창안산",
+        "PAST_SPOT_" : "22170223000016",
+        "MNTN_ID" : "2217022300"
+      },
+      "geometry" : {
+        "x" : 246621.33320000209,
+        "y" : 608333.42570000142
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 81484,
+        "MNTN_CODE" : "427902501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "창안산",
+        "PAST_SPOT_" : "22170223000017",
+        "MNTN_ID" : "2217022300"
+      },
+      "geometry" : {
+        "x" : 246641.72590000276,
+        "y" : 608501.58440000005
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 81485,
+        "MNTN_CODE" : "427902501",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부에서의 조망",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "창안산",
+        "PAST_SPOT_" : "22170223000018",
+        "MNTN_ID" : "2217022300"
+      },
+      "geometry" : {
+        "x" : 246679.50329999998,
+        "y" : 608625.96540000103
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 81486,
+        "MNTN_CODE" : "427902501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "창안산",
+        "PAST_SPOT_" : "22170223000019",
+        "MNTN_ID" : "2217022300"
+      },
+      "geometry" : {
+        "x" : 246733.49789999984,
+        "y" : 608765.53590000048
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 81487,
+        "MNTN_CODE" : "427902501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "창안산",
+        "PAST_SPOT_" : "22170223000020",
+        "MNTN_ID" : "2217022300"
+      },
+      "geometry" : {
+        "x" : 246807.19770000037,
+        "y" : 607687.14740000106
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 81488,
+        "MNTN_CODE" : "427902501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "창안산",
+        "PAST_SPOT_" : "22170223000021",
+        "MNTN_ID" : "2217022300"
+      },
+      "geometry" : {
+        "x" : 246852.75329999998,
+        "y" : 608014.35570000112
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 81489,
+        "MNTN_CODE" : "427902501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "등산로 입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "창안산",
+        "PAST_SPOT_" : "22170223000022",
+        "MNTN_ID" : "2217022300"
+      },
+      "geometry" : {
+        "x" : 247113.32309999876,
+        "y" : 607813.8292999994
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 81490,
+        "MNTN_CODE" : "427902501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "등산로 입구(혜림수양원)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "창안산",
+        "PAST_SPOT_" : "22170223000023",
+        "MNTN_ID" : "2217022300"
+      },
+      "geometry" : {
+        "x" : 247268.81590000167,
+        "y" : 608404.72290000133
+      }
+    }
+  ]
+}

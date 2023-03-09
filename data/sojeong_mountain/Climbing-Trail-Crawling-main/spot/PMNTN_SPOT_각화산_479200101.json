@@ -1,0 +1,639 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 1291,
+        "MNTN_CODE" : "479200101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "시작(각화사)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각화산",
+        "PAST_SPOT_" : "4792001010001",
+        "MNTN_ID" : "479200101"
+      },
+      "geometry" : {
+        "x" : 369951.93369999994,
+        "y" : 489725.9571000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 1292,
+        "MNTN_CODE" : "479200101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각화산",
+        "PAST_SPOT_" : "4792001010002",
+        "MNTN_ID" : "479200101"
+      },
+      "geometry" : {
+        "x" : 369941.73639999982,
+        "y" : 489742.28209999949
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 1293,
+        "MNTN_CODE" : "479200101",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장,삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각화산",
+        "PAST_SPOT_" : "4792001010003",
+        "MNTN_ID" : "479200101"
+      },
+      "geometry" : {
+        "x" : 369725.57390000019,
+        "y" : 490962.17259999923
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 1294,
+        "MNTN_CODE" : "479200101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각화산",
+        "PAST_SPOT_" : "4792001010004",
+        "MNTN_ID" : "479200101"
+      },
+      "geometry" : {
+        "x" : 369912.11200000066,
+        "y" : 490915.27150000073
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 1295,
+        "MNTN_CODE" : "479200101",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각화산",
+        "PAST_SPOT_" : "4792001010005",
+        "MNTN_ID" : "479200101"
+      },
+      "geometry" : {
+        "x" : 370408.16620000079,
+        "y" : 490677.82129999995
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 1296,
+        "MNTN_CODE" : "479200101",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각화산",
+        "PAST_SPOT_" : "4792001010006",
+        "MNTN_ID" : "479200101"
+      },
+      "geometry" : {
+        "x" : 370901.24469999969,
+        "y" : 489599.19440000132
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 1297,
+        "MNTN_CODE" : "479200101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "종점(각화사귀부)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각화산",
+        "PAST_SPOT_" : "4792001010007",
+        "MNTN_ID" : "479200101"
+      },
+      "geometry" : {
+        "x" : 369977.61209999956,
+        "y" : 489670.7126000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 1298,
+        "MNTN_CODE" : "479200101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "시작(각화사)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각화산",
+        "PAST_SPOT_" : "4792001010008",
+        "MNTN_ID" : "479200101"
+      },
+      "geometry" : {
+        "x" : 370033.04360000137,
+        "y" : 489817.47309999913
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 1299,
+        "MNTN_CODE" : "479200101",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "하천,상수도보호구역안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각화산",
+        "PAST_SPOT_" : "4792001010009",
+        "MNTN_ID" : "479200101"
+      },
+      "geometry" : {
+        "x" : 370028.88100000005,
+        "y" : 489838.51689999923
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 1300,
+        "MNTN_CODE" : "479200101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "난간시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각화산",
+        "PAST_SPOT_" : "4792001010010",
+        "MNTN_ID" : "479200101"
+      },
+      "geometry" : {
+        "x" : 369967.77929999959,
+        "y" : 490714.26329999976
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 1301,
+        "MNTN_CODE" : "479200101",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "난간끝,난간훼손,태백산사고지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각화산",
+        "PAST_SPOT_" : "4792001010011",
+        "MNTN_ID" : "479200101"
+      },
+      "geometry" : {
+        "x" : 369916.64969999995,
+        "y" : 490724.76930000447
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 1302,
+        "MNTN_CODE" : "479200101",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각화산",
+        "PAST_SPOT_" : "4792001010012",
+        "MNTN_ID" : "479200101"
+      },
+      "geometry" : {
+        "x" : 369542.58310000133,
+        "y" : 491026.63680000417
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 1303,
+        "MNTN_CODE" : "479200101",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "나무,벤치,운동기구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각화산",
+        "PAST_SPOT_" : "4792001010013",
+        "MNTN_ID" : "479200101"
+      },
+      "geometry" : {
+        "x" : 368859.73310000077,
+        "y" : 488036.8825000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 1304,
+        "MNTN_CODE" : "479200101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각화산",
+        "PAST_SPOT_" : "4792001010014",
+        "MNTN_ID" : "479200101"
+      },
+      "geometry" : {
+        "x" : 368862.01620000135,
+        "y" : 488028.35600000061
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 1305,
+        "MNTN_CODE" : "479200101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각화산",
+        "PAST_SPOT_" : "4792001010015",
+        "MNTN_ID" : "479200101"
+      },
+      "geometry" : {
+        "x" : 368884.0055000009,
+        "y" : 488040.44650000334
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 1306,
+        "MNTN_CODE" : "479200101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산죽길시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각화산",
+        "PAST_SPOT_" : "4792001010016",
+        "MNTN_ID" : "479200101"
+      },
+      "geometry" : {
+        "x" : 369208.71680000052,
+        "y" : 494130.20490000024
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 1307,
+        "MNTN_CODE" : "479200101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산죽길끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각화산",
+        "PAST_SPOT_" : "4792001010017",
+        "MNTN_ID" : "479200101"
+      },
+      "geometry" : {
+        "x" : 369204.43910000101,
+        "y" : 494216.50910000317
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 1308,
+        "MNTN_CODE" : "479200101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각화산",
+        "PAST_SPOT_" : "4792001010018",
+        "MNTN_ID" : "479200101"
+      },
+      "geometry" : {
+        "x" : 368531.331100001,
+        "y" : 495700.72639999911
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 1309,
+        "MNTN_CODE" : "479200101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각화산",
+        "PAST_SPOT_" : "4792001010019",
+        "MNTN_ID" : "479200101"
+      },
+      "geometry" : {
+        "x" : 368653.03110000119,
+        "y" : 488650.71750000305
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 1310,
+        "MNTN_CODE" : "479200101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각화산",
+        "PAST_SPOT_" : "4792001010020",
+        "MNTN_ID" : "479200101"
+      },
+      "geometry" : {
+        "x" : 368670.33910000045,
+        "y" : 488032.78889999911
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 1311,
+        "MNTN_CODE" : "479200101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각화산",
+        "PAST_SPOT_" : "4792001010021",
+        "MNTN_ID" : "479200101"
+      },
+      "geometry" : {
+        "x" : 368777.334900002,
+        "y" : 487992.31270000152
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 1312,
+        "MNTN_CODE" : "479200101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각화산",
+        "PAST_SPOT_" : "4792001010022",
+        "MNTN_ID" : "479200101"
+      },
+      "geometry" : {
+        "x" : 369522.76270000078,
+        "y" : 491030.81930000149
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 1313,
+        "MNTN_CODE" : "479200101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각화산",
+        "PAST_SPOT_" : "4792001010023",
+        "MNTN_ID" : "479200101"
+      },
+      "geometry" : {
+        "x" : 369557.63590000011,
+        "y" : 490424.23709999956
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 1314,
+        "MNTN_CODE" : "479200101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각화산",
+        "PAST_SPOT_" : "4792001010024",
+        "MNTN_ID" : "479200101"
+      },
+      "geometry" : {
+        "x" : 369688.57420000061,
+        "y" : 490986.2257000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 1315,
+        "MNTN_CODE" : "479200101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각화산",
+        "PAST_SPOT_" : "4792001010025",
+        "MNTN_ID" : "479200101"
+      },
+      "geometry" : {
+        "x" : 369726.70990000106,
+        "y" : 490961.73000000231
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 1316,
+        "MNTN_CODE" : "479200101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각화산",
+        "PAST_SPOT_" : "4792001010026",
+        "MNTN_ID" : "479200101"
+      },
+      "geometry" : {
+        "x" : 369994.36030000076,
+        "y" : 489723.24100000225
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 1317,
+        "MNTN_CODE" : "479200101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각화산",
+        "PAST_SPOT_" : "4792001010027",
+        "MNTN_ID" : "479200101"
+      },
+      "geometry" : {
+        "x" : 370583.25210000109,
+        "y" : 490395.45329999924
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 95827,
+        "MNTN_CODE" : "479200101",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각화산",
+        "PAST_SPOT_" : "4792001010028",
+        "MNTN_ID" : "479200101"
+      },
+      "geometry" : {
+        "x" : 369929.33910000062,
+        "y" : 489753.27669999935
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 95828,
+        "MNTN_CODE" : "479200101",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각화산",
+        "PAST_SPOT_" : "4792001010029",
+        "MNTN_ID" : "479200101"
+      },
+      "geometry" : {
+        "x" : 370824.72579999978,
+        "y" : 489965.81890000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 95829,
+        "MNTN_CODE" : "479200101",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각화산",
+        "PAST_SPOT_" : "4792001010030",
+        "MNTN_ID" : "479200101"
+      },
+      "geometry" : {
+        "x" : 370528.41089999996,
+        "y" : 489906.08259999962
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 95830,
+        "MNTN_CODE" : "479200101",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각화산",
+        "PAST_SPOT_" : "4792001010031",
+        "MNTN_ID" : "479200101"
+      },
+      "geometry" : {
+        "x" : 369903.56890000124,
+        "y" : 490719.65790000028
+      }
+    }
+  ]
+}
