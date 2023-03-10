@@ -42,6 +42,18 @@ public class User {
     @Column(name = "longitude")
     private BigDecimal longitude;
 
+    @Column(name = "level")
+    private Integer level;
+
+    @Column(name = "prefer_region")
+    private Integer preferRegion;
+
+    @Column(name = "purpose")
+    private Integer purpose;
+
+    @Column(name = "prefer_climb_duration")
+    private Integer preferClimbDuration;
+
     @Column(name = "social")
     private String social;
 
@@ -65,11 +77,5 @@ public class User {
 
     @Column(name = "updated_at")
     private Timestamp updatedAt;
-
-    @Column(name = "level")
-    private Integer level;
-
-    @Column(name = "prefer_region")
-    private Integer preferRegion;
 
 }
