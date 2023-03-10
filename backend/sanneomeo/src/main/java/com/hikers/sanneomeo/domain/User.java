@@ -66,4 +66,10 @@ public class User {
     @Column(name = "updated_at")
     private Timestamp updatedAt;
 
+    @Column(name = "level")
+    private Integer level;
+
+    @Column(name = "prefer_region")
+    private Integer preferRegion;
+
 }
