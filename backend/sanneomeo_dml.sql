@@ -87,7 +87,7 @@ CREATE TABLE `tbl_trail_path` (
 CREATE TABLE `tbl_keep` (
 	`keep_seq`	BIGINT	NOT NULL,
 	`user_seq`	BIGINT	NOT NULL,
-	`montain_seq`	VARCHAR(10)	NOT NULL,
+	`mountain_seq`	VARCHAR(10)	NOT NULL,
 	`created_at`	DATETIME	NULL
 );
 
@@ -186,7 +186,7 @@ REFERENCES `tbl_user` (
 );
 
 ALTER TABLE `tbl_keep` ADD CONSTRAINT `FK_tbl_mountain_TO_tbl_keep_1` FOREIGN KEY (
-	`montain_seq`
+	`mountain_seq`
 )
 REFERENCES `tbl_mountain` (
 	`mountain_seq`
