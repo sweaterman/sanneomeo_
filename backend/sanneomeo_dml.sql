@@ -52,6 +52,11 @@ CREATE TABLE `tbl_user` (
 	`dong`	VARCHAR(20)	NULL,
 	`latitude`	DECIMAL(18,10)	NULL,
 	`longitude`	DECIMAL(18,10)	NULL,
+    `level`	INT	NULL,
+    `difficulty`	INT	NULL,
+    `prefer_region`	INT	NULL,
+	`purpose`	INT	NULL,
+	`prefer_climb_duration`	INT	NULL,
 	`social`	VARCHAR(10)	NULL,
 	`social_id`	VARCHAR(30)	NULL,
 	`total_duration`	VARCHAR(100)	NULL	DEFAULT 0,
@@ -83,7 +88,7 @@ CREATE TABLE `tbl_trail_path` (
 CREATE TABLE `tbl_keep` (
 	`keep_seq`	BIGINT	NOT NULL,
 	`user_seq`	BIGINT	NOT NULL,
-	`montain_seq`	VARCHAR(10)	NOT NULL,
+	`mountain_seq`	VARCHAR(10)	NOT NULL,
 	`created_at`	DATETIME	NULL
 );
 
@@ -182,7 +187,7 @@ REFERENCES `tbl_user` (
 );
 
 ALTER TABLE `tbl_keep` ADD CONSTRAINT `FK_tbl_mountain_TO_tbl_keep_1` FOREIGN KEY (
-	`montain_seq`
+	`mountain_seq`
 )
 REFERENCES `tbl_mountain` (
 	`mountain_seq`
