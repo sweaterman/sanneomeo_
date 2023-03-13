@@ -1,0 +1,31 @@
+version: "3"
+
+services:
+  spring:
+    container_name: spring
+    build: ./backend/sanneomeo
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+    volumes:
+      - /spring:/image
+    restart: on-failure
+
+  flask:
+    container_name: flask
+    build: ./backend/flask
+    ports:
+      - "5000:5000"
+    volumes:
+      - /flask:/image
+    restart: on-failure
+	
+  react:
+    container_name: react
+    build: ./frontend/overmountain
+    ports:
+      - "80:80"
+    volumes:
+      - /react:/image
+    restart: on-failure
