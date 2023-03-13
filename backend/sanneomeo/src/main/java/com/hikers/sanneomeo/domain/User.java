@@ -45,6 +45,9 @@ public class User {
     @Column(name = "level")
     private Integer level;
 
+    @Column(name = "difficulty")
+    private Integer difficulty;
+
     @Column(name = "prefer_region")
     private Integer preferRegion;
 

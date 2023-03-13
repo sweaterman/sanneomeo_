@@ -53,6 +53,7 @@ CREATE TABLE `tbl_user` (
 	`latitude`	DECIMAL(18,10)	NULL,
 	`longitude`	DECIMAL(18,10)	NULL,
     `level`	INT	NULL,
+    `difficulty`	INT	NULL,
     `prefer_region`	INT	NULL,
 	`purpose`	INT	NULL,
 	`prefer_climb_duration`	INT	NULL,
