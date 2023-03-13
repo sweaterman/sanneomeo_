@@ -11,7 +11,6 @@ services:
     volumes:
       - /spring:/image
     restart: on-failure
-
   flask:
     container_name: flask
     build: ./backend/flask
@@ -20,7 +19,6 @@ services:
     volumes:
       - /flask:/image
     restart: on-failure
-	
   react:
     container_name: react
     build: ./frontend/overmountain
