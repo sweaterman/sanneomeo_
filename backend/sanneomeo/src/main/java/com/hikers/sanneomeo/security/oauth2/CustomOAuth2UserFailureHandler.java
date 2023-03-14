@@ -66,9 +66,13 @@ public class CustomOAuth2UserFailureHandler extends SimpleUrlAuthenticationFailu
     //jwt token 발급
     JwtTokenInfo jwtTokenInfo = JwtTokenUtils.allocateToken(user.getUserSeq(), "ROLE_USER");
 
-    String url = UriComponentsBuilder.fromUriString(ymlConfig.getRedirectUri())
+    //쿠키에서 redirectUri 빼기
+    String baseUrl = CookieUtils.getCookie(request, REDIRECT_URI_PARAM_COOKIE_NAME).getValue();
+
+    String url = UriComponentsBuilder.fromUriString(baseUrl)
         .queryParam("level", 1)
         .queryParam("token", jwtTokenInfo.getAccessToken())
+        .encode()
         .build().toUriString();
 
     getRedirectStrategy().sendRedirect(request, response, url);

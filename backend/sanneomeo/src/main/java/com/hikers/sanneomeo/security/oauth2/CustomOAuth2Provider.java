@@ -30,7 +30,7 @@ public enum CustomOAuth2Provider {
     public Builder getBuilder(String registrationId) {
       ClientRegistration.Builder builder = getBuilder(registrationId,
           ClientAuthenticationMethod.CLIENT_SECRET_BASIC, DEFAULT_REDIRECT_URL);
-      builder.scope("openid", "profile", "email");
+      builder.scope("profile", "email");
       builder.authorizationUri("https://accounts.google.com/o/oauth2/v2/auth");
       builder.tokenUri("https://www.googleapis.com/oauth2/v4/token");
       builder.jwkSetUri("https://www.googleapis.com/oauth2/v3/certs");

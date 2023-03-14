@@ -60,6 +60,12 @@ public class CustomOAuth2User  {
 //        .registrationId()
 //  }
   public static CustomOAuth2User googleMapper(Map<String, Object> attributes, String nameAttributeKey){
-    return null;
+    return CustomOAuth2User.builder()
+        .registrationId("google")
+        .socialId(attributes.get(nameAttributeKey).toString())
+        .nickname(attributes.get("name").toString())
+        .profileImg(attributes.get("picture").toString())
+        .nameAttributeKey(nameAttributeKey)
+        .build();
   }
 }

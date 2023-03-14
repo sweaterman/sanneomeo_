@@ -56,6 +56,7 @@ public class SecurityConfig {
                 .authorizationRequestRepository(oAuth2CookieAuthorizationRequestRepository())
             )
             .userInfoEndpoint(userInfoEndpointConfig -> userInfoEndpointConfig.userService(customOAuth2UserService()))
+            .loginProcessingUrl("/user/login/callback/*")
             .clientRegistrationRepository(clientRegistrationRepository())
             .failureHandler(customOAuth2UserFailureHandler())
         );
