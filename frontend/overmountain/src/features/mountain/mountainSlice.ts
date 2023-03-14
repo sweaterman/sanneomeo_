@@ -1,5 +1,6 @@
 import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { RootState, AppThunk } from '@app/store';
+import axios from 'axios';
 import { fetchCount } from '@features/counter/counterAPI';
 
 export interface MountainState {
@@ -11,6 +12,15 @@ const initialState: MountainState = {
   value: 0,
   status: 'idle',
 };
+
+const fetchMountain = createAsyncThunk("FETCH_MOUNTAIN", async () =>{
+  try{
+    const response = await axios.get("http://localhost:8080");
+    return response.data;
+  }catch(error){
+    console.log(error);
+  }
+});
 
 export const incrementAsync = createAsyncThunk(
   'counter/fetchCount',
@@ -35,18 +45,13 @@ export const mountainSlice = createSlice({
     },
   },
   extraReducers: (builder) => {
-    builder
-      .addCase(incrementAsync.pending, (state) => {
-        state.status = 'loading';
-      })
-      .addCase(incrementAsync.fulfilled, (state, action) => {
-        state.status = 'idle';
-        state.value += action.payload;
-      })
-      .addCase(incrementAsync.rejected, (state) => {
-        state.status = 'failed';
-      });
-  },
+    // builder
+		// 	.addCase(fetchUser.pending, (state, action) ={})  // 데이터 통신 대기중일 때
+		// 	.addCase(fetchUser.fulfilled, (state, action) => {
+	  //     return { ...state, data: [ ...action.payload ] }
+	  //   });                                               // 데이터 통신 성공했을 때
+		// 	.addCase(fetchUser.reject, (state, action) => {}) // 데이터 통신 실패했을 때
+  },  
 });
 
 export const { increment, decrement, incrementByAmount } = mountainSlice.actions;
