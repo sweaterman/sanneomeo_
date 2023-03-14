@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  spring:
+    container_name: spring
+    build: ./backend/sanneomeo
+    ports:
+      - "9090:9090"
+    volumes:
+      - /spring:/image
+    restart: on-failure
