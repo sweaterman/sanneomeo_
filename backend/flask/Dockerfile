@@ -1,5 +1,6 @@
-FROM python:3
+FROM python:3.9
+COPY . /flask
 WORKDIR /flask
-COPY . .
-ENV PYTHONUNBUFFERED 1
-CMD ["python", "wsgi.py"]
+RUN pip3 install -r requirements.txt
+RUN chmod 777 /flask/wsgi.py
+CMD ["python3.9", "wsgi.py"]
