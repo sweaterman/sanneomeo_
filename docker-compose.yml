@@ -9,3 +9,11 @@ services:
     volumes:
       - /spring:/image
     restart: on-failure
+  flask:
+    container_name: flask
+    build: ./backend/flask
+    ports:
+      - "5000:5000"
+    volumes:
+      - /flask:/image
+    restart: on-failure
