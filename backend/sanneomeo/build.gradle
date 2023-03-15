@@ -62,6 +62,11 @@ dependencies {
 	implementation group: 'io.jsonwebtoken', name: 'jjwt', version: '0.9.1'
 	implementation group: 'org.glassfish.jaxb', name: 'jaxb-runtime', version: '2.3.2'
 
+	//metadata extract
+	// https://mvnrepository.com/artifact/com.drewnoakes/metadata-extractor
+	implementation group: 'com.drewnoakes', name: 'metadata-extractor', version: '2.18.0'
+
+
 }
 
 tasks.named('test') {
