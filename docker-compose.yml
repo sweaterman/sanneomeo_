@@ -17,3 +17,11 @@ services:
     volumes:
       - /flask:/image
     restart: on-failure
+  react:
+    container_name: react
+    build: ./frontend/overmountain
+    ports:
+      - "80:80"
+    volumes:
+      - /react:/image
+    restart: on-failure
