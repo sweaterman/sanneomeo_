@@ -1,0 +1,657 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 3554,
+        "MNTN_CODE" : "488800401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "건흥산",
+        "PAST_SPOT_" : "28029903000001",
+        "MNTN_ID" : "2802990300"
+      },
+      "geometry" : {
+        "x" : 278637.05930000264,
+        "y" : 344025.54639999941
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 3555,
+        "MNTN_CODE" : "488800401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "건흥산",
+        "PAST_SPOT_" : "28029903000002",
+        "MNTN_ID" : "2802990300"
+      },
+      "geometry" : {
+        "x" : 279311.79030000139,
+        "y" : 345355.92320000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 3556,
+        "MNTN_CODE" : "488800401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "건흥산",
+        "PAST_SPOT_" : "28029903000003",
+        "MNTN_ID" : "2802990300"
+      },
+      "geometry" : {
+        "x" : 279331.72589999996,
+        "y" : 345424.04979999922
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 3557,
+        "MNTN_CODE" : "488800401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "건흥산",
+        "PAST_SPOT_" : "28029903000004",
+        "MNTN_ID" : "2802990300"
+      },
+      "geometry" : {
+        "x" : 279406.93039999995,
+        "y" : 346651.47690000199
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 3558,
+        "MNTN_CODE" : "488800401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "건흥산",
+        "PAST_SPOT_" : "28029903000005",
+        "MNTN_ID" : "2802990300"
+      },
+      "geometry" : {
+        "x" : 279473.94460000284,
+        "y" : 345268.83490000106
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 3559,
+        "MNTN_CODE" : "488800401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "건흥산",
+        "PAST_SPOT_" : "28029903000006",
+        "MNTN_ID" : "2802990300"
+      },
+      "geometry" : {
+        "x" : 279479.30200000387,
+        "y" : 345286.69920000061
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 3560,
+        "MNTN_CODE" : "488800401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "건흥산",
+        "PAST_SPOT_" : "28029903000007",
+        "MNTN_ID" : "2802990300"
+      },
+      "geometry" : {
+        "x" : 279538.10459999926,
+        "y" : 345407.92110000364
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 3561,
+        "MNTN_CODE" : "488800401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "건흥산",
+        "PAST_SPOT_" : "28029903000008",
+        "MNTN_ID" : "2802990300"
+      },
+      "geometry" : {
+        "x" : 279550.13220000174,
+        "y" : 345493.41569999978
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 3562,
+        "MNTN_CODE" : "488800401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "건흥산",
+        "PAST_SPOT_" : "28029903000009",
+        "MNTN_ID" : "2802990300"
+      },
+      "geometry" : {
+        "x" : 279581.54670000263,
+        "y" : 344429.73079999909
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 3563,
+        "MNTN_CODE" : "488800401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "건흥산",
+        "PAST_SPOT_" : "28029903000010",
+        "MNTN_ID" : "2802990300"
+      },
+      "geometry" : {
+        "x" : 279599.3217000002,
+        "y" : 344333.81959999911
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 3564,
+        "MNTN_CODE" : "488800401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "건흥산",
+        "PAST_SPOT_" : "28029903000011",
+        "MNTN_ID" : "2802990300"
+      },
+      "geometry" : {
+        "x" : 279763.59869999997,
+        "y" : 345217.48750000075
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 3565,
+        "MNTN_CODE" : "488800401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "건흥산",
+        "PAST_SPOT_" : "28029903000012",
+        "MNTN_ID" : "2802990300"
+      },
+      "geometry" : {
+        "x" : 279807.13449999969,
+        "y" : 345117.65249999985
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 3566,
+        "MNTN_CODE" : "488800401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "건흥산",
+        "PAST_SPOT_" : "28029903000013",
+        "MNTN_ID" : "2802990300"
+      },
+      "geometry" : {
+        "x" : 279826.08470000047,
+        "y" : 344126.03060000204
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 3567,
+        "MNTN_CODE" : "488800401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "건흥산",
+        "PAST_SPOT_" : "28029903000014",
+        "MNTN_ID" : "2802990300"
+      },
+      "geometry" : {
+        "x" : 279863.90340000018,
+        "y" : 344087.62710000202
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 3568,
+        "MNTN_CODE" : "488800401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "건흥산",
+        "PAST_SPOT_" : "28029903000015",
+        "MNTN_ID" : "2802990300"
+      },
+      "geometry" : {
+        "x" : 280057.13280000165,
+        "y" : 344888.85620000027
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 3569,
+        "MNTN_CODE" : "488800401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "건흥산",
+        "PAST_SPOT_" : "28029903000016",
+        "MNTN_ID" : "2802990300"
+      },
+      "geometry" : {
+        "x" : 280360.82309999876,
+        "y" : 344123.78859999962
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 3570,
+        "MNTN_CODE" : "488800401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "건흥산",
+        "PAST_SPOT_" : "28029903000017",
+        "MNTN_ID" : "2802990300"
+      },
+      "geometry" : {
+        "x" : 280449.12210000213,
+        "y" : 343782.39780000038
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 3571,
+        "MNTN_CODE" : "488800401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "건흥산",
+        "PAST_SPOT_" : "28029903000018",
+        "MNTN_ID" : "2802990300"
+      },
+      "geometry" : {
+        "x" : 280539.75210000016,
+        "y" : 343744.10419999994
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 3572,
+        "MNTN_CODE" : "488800401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "거열산성",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "건흥산",
+        "PAST_SPOT_" : "28029903000019",
+        "MNTN_ID" : "2802990300"
+      },
+      "geometry" : {
+        "x" : 279589.84430000279,
+        "y" : 345114.97159999982
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 3573,
+        "MNTN_CODE" : "488800401",
+        "MANAGE_SP1" : "18",
+        "MANAGE_SP2" : "주차장",
+        "DETAIL_SPO" : "건계정주차장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "건흥산",
+        "PAST_SPOT_" : "28029903000020",
+        "MNTN_ID" : "2802990300"
+      },
+      "geometry" : {
+        "x" : 279835.38640000112,
+        "y" : 344119.89079999737
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 3574,
+        "MNTN_CODE" : "488800401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "건흥산 573.2m",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "건흥산",
+        "PAST_SPOT_" : "28029903000021",
+        "MNTN_ID" : "2802990300"
+      },
+      "geometry" : {
+        "x" : 279536.13709999993,
+        "y" : 345409.0569000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 3575,
+        "MNTN_CODE" : "488800401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "미륵덤이",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "건흥산",
+        "PAST_SPOT_" : "28029903000022",
+        "MNTN_ID" : "2802990300"
+      },
+      "geometry" : {
+        "x" : 280516.73950000107,
+        "y" : 343748.89499999955
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 3576,
+        "MNTN_CODE" : "488800401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "상림리석조관음입상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "건흥산",
+        "PAST_SPOT_" : "28029903000023",
+        "MNTN_ID" : "2802990300"
+      },
+      "geometry" : {
+        "x" : 280988.29970000125,
+        "y" : 343745.45860000141
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 3577,
+        "MNTN_CODE" : "488800401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "건흥산",
+        "PAST_SPOT_" : "28029903000024",
+        "MNTN_ID" : "2802990300"
+      },
+      "geometry" : {
+        "x" : 279501.01330000348,
+        "y" : 344830.50200000219
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 3578,
+        "MNTN_CODE" : "488800401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "실버쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "건흥산",
+        "PAST_SPOT_" : "28029903000025",
+        "MNTN_ID" : "2802990300"
+      },
+      "geometry" : {
+        "x" : 279580.84520000126,
+        "y" : 344355.94890000112
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 3579,
+        "MNTN_CODE" : "488800401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "장백",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "건흥산",
+        "PAST_SPOT_" : "28029903000026",
+        "MNTN_ID" : "2802990300"
+      },
+      "geometry" : {
+        "x" : 278637.98819999956,
+        "y" : 344029.04150000401
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 3580,
+        "MNTN_CODE" : "488800401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "전망대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "건흥산",
+        "PAST_SPOT_" : "28029903000027",
+        "MNTN_ID" : "2802990300"
+      },
+      "geometry" : {
+        "x" : 280211.38360000029,
+        "y" : 344523.08440000191
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 3581,
+        "MNTN_CODE" : "488800401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "지내갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "건흥산",
+        "PAST_SPOT_" : "28029903000028",
+        "MNTN_ID" : "2802990300"
+      },
+      "geometry" : {
+        "x" : 279399.71760000102,
+        "y" : 346691.13979999907
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 3582,
+        "MNTN_CODE" : "488800401",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "하부약수터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "건흥산",
+        "PAST_SPOT_" : "28029903000029",
+        "MNTN_ID" : "2802990300"
+      },
+      "geometry" : {
+        "x" : 279814.68440000061,
+        "y" : 345119.62060000189
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 95875,
+        "MNTN_CODE" : "488800401",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "장백마을회관",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "건흥산",
+        "PAST_SPOT_" : "4888004010030",
+        "MNTN_ID" : "488800401"
+      },
+      "geometry" : {
+        "x" : 278767.49049999996,
+        "y" : 344095.57470000011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 95876,
+        "MNTN_CODE" : "488800401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "건흥산",
+        "PAST_SPOT_" : "4888004010031",
+        "MNTN_ID" : "488800401"
+      },
+      "geometry" : {
+        "x" : 278933.08100000065,
+        "y" : 345123.63220000139
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 95877,
+        "MNTN_CODE" : "488800401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "건흥산",
+        "PAST_SPOT_" : "4888004010032",
+        "MNTN_ID" : "488800401"
+      },
+      "geometry" : {
+        "x" : 279188.20369999978,
+        "y" : 345447.0413000012
+      }
+    }
+  ]
+}

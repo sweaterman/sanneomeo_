@@ -1,0 +1,837 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 81275,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000001",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 240223.93560000136,
+        "y" : 387335.92330000363
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 81276,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판1,안전로프1",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000002",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 240268.31659999955,
+        "y" : 387333.45220000111
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 81277,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점1",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000003",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 240521.48890000116,
+        "y" : 387449.57509999909
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 81278,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점2",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000004",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 240757.83479999937,
+        "y" : 387170.19340000302
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 81279,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길3",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000005",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 240857.75030000322,
+        "y" : 387140.0420999974
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 81280,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프2",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000006",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 241025.48929999955,
+        "y" : 387052.80610000156
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 81281,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000007",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 241298.0026000021,
+        "y" : 386792.36070000194
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 81282,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점3",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000008",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 241401.05910000019,
+        "y" : 386142.40359999985
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 81283,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프5",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000009",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 241771.49270000216,
+        "y" : 385845.78270000033
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 81284,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프6",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000010",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 241811.71290000062,
+        "y" : 385825.82260000519
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 81285,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프7",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000011",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 241825.99409999978,
+        "y" : 385768.53289999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 81286,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "도구통바위 이정표3,갈림길8",
+        "ETC_MATTER" : "좌(개삼터마을회관),우(보석사뱡향)",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000012",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 242075.7481785221,
+        "y" : 385524.04525993951
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 81287,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표4",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000013",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 242211.03000000026,
+        "y" : 384838.41390000097
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 81288,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표5",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000014",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 242287.28070000093,
+        "y" : 384679.06890000217
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 81289,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "은행나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000015",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 242796.54250000045,
+        "y" : 384188.89330000244
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 81290,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "보석사입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000016",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 242831.65210000146,
+        "y" : 384154.66520000249
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 81291,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "승장비",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000017",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 242904.65080000088,
+        "y" : 384037.43170000054
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 81292,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판2",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000018",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 242941.79540000297,
+        "y" : 383966.75100000203
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 81293,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실1-1",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000019",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 240521.55209999997,
+        "y" : 386677.64980000257
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 81294,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표1-2,안전로프1-1",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000020",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 240763.61150000244,
+        "y" : 386666.41840000264
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 81295,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "원효암",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000021",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 240787.94790000096,
+        "y" : 386719.52800000273
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 81296,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프1-2",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000022",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 240933.02340000216,
+        "y" : 386763.32310000248
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 81297,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프1-3",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000023",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 241030.80010000244,
+        "y" : 386771.82389999926
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 81298,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "저수지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000024",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 242471.11070000101,
+        "y" : 386649.16830000095
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 81299,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : "돌계단",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000025",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 241963.08290000074,
+        "y" : 386419.68349999748
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 81300,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "20",
+        "MANAGE_SP2" : "동굴",
+        "DETAIL_SPO" : "동굴",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000026",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 241871.6481000036,
+        "y" : 386035.95319999941
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 81301,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점2-1",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000027",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 241890.36410000268,
+        "y" : 385987.61730000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 81302,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000028",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 240908.31390000228,
+        "y" : 387982.76639999822
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 81303,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "봉우리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000029",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 242260.48819999956,
+        "y" : 385398.44580000266
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 81304,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점5-1",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000030",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 241251.14410000201,
+        "y" : 386874.86490000226
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 81305,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000031",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 240292.30110000074,
+        "y" : 386683.33170000277
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 81306,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길2",
+        "ETC_MATTER" : "좌(윗어둥굴마을),우(진악산정상)",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000032",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 240456.38100000285,
+        "y" : 387659.87510000356
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 81307,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길4,이정표1,안전로프3",
+        "ETC_MATTER" : "좌(진악산광장),우(진악산정상)",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000033",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 241207.39340000227,
+        "y" : 386859.5019000005
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 81308,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길4,이정표1,안전로프3",
+        "ETC_MATTER" : "좌(진악산광장),우(진악산정상)",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000034",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 241243.67770000175,
+        "y" : 386856.46900000237
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 81309,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000035",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 241270.03160000034,
+        "y" : 386884.81830000132
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 81310,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "진악산정상,갈림길5,헬기장,초소",
+        "ETC_MATTER" : "진악산정상",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000036",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 241303.95040000044,
+        "y" : 386763.92000000365
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 81311,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길7",
+        "ETC_MATTER" : "좌(개삼각방향),우(보석사방향)",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000037",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 241810.81469999999,
+        "y" : 385865.04439999908
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 81312,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "도구통정상,이정표2",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000038",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 242021.85900000017,
+        "y" : 385539.11380000226
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 81313,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길2-2",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000039",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 242292.68640000187,
+        "y" : 386699.43669999763
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 81314,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000040",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 242948.91360000055,
+        "y" : 386517.23200000077
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 81315,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,보석사주차장,화장실,식수대",
+        "ETC_MATTER" : "종점",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000041",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 242970.85450000409,
+        "y" : 383907.84860000573
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 81316,
+        "MNTN_CODE" : "447103001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진악산",
+        "PAST_SPOT_" : "24030233000042",
+        "MNTN_ID" : "2403023300"
+      },
+      "geometry" : {
+        "x" : 243725.94700000156,
+        "y" : 386357.80790000223
+      }
+    }
+  ]
+}

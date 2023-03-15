@@ -1,0 +1,963 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 27796,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "예술촌,예술촌,매호초등학교,안내판,시점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010001",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 312456.35589999985,
+        "y" : 433382.34850000404
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 27797,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010002",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 312342.65390000027,
+        "y" : 433552.20280000195
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 27798,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010003",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 312365.00690000039,
+        "y" : 433590.21529999934
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 27799,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010004",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 312312.83140000049,
+        "y" : 433816.33789999969
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 27800,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010005",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 312239.32789999992,
+        "y" : 433918.19910000078
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 27801,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "통나무벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010006",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 312019.54020000063,
+        "y" : 434624.42300000228
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 27802,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "코끼리나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010007",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 312026.12200000137,
+        "y" : 434908.25989999995
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 27803,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장,헬기장,삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010008",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 312054.70230000187,
+        "y" : 435483.9664000012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 27804,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010009",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 312078.37200000137,
+        "y" : 435498.7872999981
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 27805,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "대나무숲",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010010",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 312125.64620000031,
+        "y" : 435510.33590000123
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 27806,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010011",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 312178.08650000021,
+        "y" : 435550.28730000183
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 27807,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010012",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 312181.51730000228,
+        "y" : 435562.11910000071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 27808,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010013",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 312265.99750000052,
+        "y" : 435546.80880000256
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 27809,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010014",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 312303.29860000033,
+        "y" : 435496.55100000277
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 27810,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010015",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 312394.74720000103,
+        "y" : 435465.56380000152
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 27811,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임호정",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010016",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 312954.50800000224,
+        "y" : 434978.74860000424
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 27812,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "임도안내도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010017",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 311062.8786000004,
+        "y" : 433577.46389999986
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 27813,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "상수도시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010018",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 311116.18379999977,
+        "y" : 433872.58740000241
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 27814,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "용해사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010019",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 311707.00629999861,
+        "y" : 434691.69449999928
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 27815,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010020",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 311891.0028999988,
+        "y" : 434976.02050000057
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 27816,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010021",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 311857.38679999951,
+        "y" : 435113.04710000381
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 27817,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "마루봉기직국",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010022",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 311493.64989999961,
+        "y" : 434895.01339999959
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 27818,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010023",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 311052.73529999983,
+        "y" : 433576.56079999916
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 27819,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010024",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 311494.56310000084,
+        "y" : 434894.90710000135
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 27820,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010025",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 311858.02859999985,
+        "y" : 435115.21569999866
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 27821,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010026",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 311906.32519999985,
+        "y" : 435142.48270000145
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 27822,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010027",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 311915.36020000186,
+        "y" : 434984.82050000131
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 27823,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010028",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 312019.59499999974,
+        "y" : 435216.54120000079
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 27824,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010029",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 312208.82120000105,
+        "y" : 435580.32020000182
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 27825,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010030",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 312317.18020000029,
+        "y" : 435788.74780000187
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 27826,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010031",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 312456.34539999999,
+        "y" : 433382.49910000339
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 27827,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010032",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 313030.54900000058,
+        "y" : 435012.33630000241
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 96191,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010033",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 312357.10280000058,
+        "y" : 433515.33450000011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 96192,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010034",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 312321.90870000038,
+        "y" : 433746.38560000079
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 96193,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점, 벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010035",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 312302.99309999909,
+        "y" : 433868.8762999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 96194,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010036",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 311991.48899999715,
+        "y" : 434159.0243999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 96195,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010037",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 311866.11700000043,
+        "y" : 434167.52169999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 96196,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010038",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 311939.77229999972,
+        "y" : 434399.75720000057
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 96197,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010039",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 312019.70579999848,
+        "y" : 435217.33869999985
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 96198,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점, 벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010040",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 312026.05009999999,
+        "y" : 435255.87759999966
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 96199,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판또는지도, 위험지역, 조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010041",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 312156.74469999905,
+        "y" : 435517.71749999933
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 96200,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010042",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 312209.68470000004,
+        "y" : 435580.3998000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 96201,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "13",
+        "MANAGE_SP2" : "유적(문화, 역사)",
+        "DETAIL_SPO" : "유적(문화,역사)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010043",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 311130.47429999954,
+        "y" : 433997.10170000058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 96202,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "주요나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010044",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 311018.84419999958,
+        "y" : 434206.21499999973
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 96203,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010045",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 311263.97029999958,
+        "y" : 434491.5529999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 96204,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판또는지도, 화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010046",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 311750.84200000111,
+        "y" : 434876.53219999908
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 96205,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010047",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 311828.54930000042,
+        "y" : 434930.71749999933
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 96206,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010048",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 311915.66449999932,
+        "y" : 434985.1833999994
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 96207,
+        "MNTN_CODE" : "472501201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "매악산",
+        "PAST_SPOT_" : "4725012010049",
+        "MNTN_ID" : "472501201"
+      },
+      "geometry" : {
+        "x" : 312311.83179999975,
+        "y" : 435789.43150000111
+      }
+    }
+  ]
+}

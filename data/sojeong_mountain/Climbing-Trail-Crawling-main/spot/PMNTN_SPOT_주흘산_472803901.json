@@ -1,0 +1,567 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 80074,
+        "MNTN_CODE" : "472803901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주흘산",
+        "PAST_SPOT_" : "4728038010001",
+        "MNTN_ID" : "472803801"
+      },
+      "geometry" : {
+        "x" : 297312.86100950744,
+        "y" : 465793.09420389123
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 80075,
+        "MNTN_CODE" : "472803901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주흘산",
+        "PAST_SPOT_" : "4728038010002",
+        "MNTN_ID" : "472803801"
+      },
+      "geometry" : {
+        "x" : 298758.77020000387,
+        "y" : 464977.34650000371
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 80076,
+        "MNTN_CODE" : "472803901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "매표소(박물관)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주흘산",
+        "PAST_SPOT_" : "27070836000003",
+        "MNTN_ID" : "2707083600"
+      },
+      "geometry" : {
+        "x" : 296048.73350000288,
+        "y" : 463212.21340000257
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 80077,
+        "MNTN_CODE" : "472803901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "조곡관(제1관문)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주흘산",
+        "PAST_SPOT_" : "27070836000004",
+        "MNTN_ID" : "2707083600"
+      },
+      "geometry" : {
+        "x" : 296006.24500000197,
+        "y" : 463847.17479999922
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 80078,
+        "MNTN_CODE" : "472803901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "노선접점(이정표설치요망)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주흘산",
+        "PAST_SPOT_" : "27070836000005",
+        "MNTN_ID" : "2707083600"
+      },
+      "geometry" : {
+        "x" : 296517.45580000244,
+        "y" : 464284.02639999986
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 80079,
+        "MNTN_CODE" : "472803901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "여궁폭포(제2교각)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주흘산",
+        "PAST_SPOT_" : "27070836000006",
+        "MNTN_ID" : "2707083600"
+      },
+      "geometry" : {
+        "x" : 296673.17049999908,
+        "y" : 464372.02690000273
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 80080,
+        "MNTN_CODE" : "472803901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주흘산",
+        "PAST_SPOT_" : "27070836000007",
+        "MNTN_ID" : "2707083600"
+      },
+      "geometry" : {
+        "x" : 296547.80270000268,
+        "y" : 464395.91770000011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 80081,
+        "MNTN_CODE" : "472803901",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "전기선 위험",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주흘산",
+        "PAST_SPOT_" : "27070836000008",
+        "MNTN_ID" : "2707083600"
+      },
+      "geometry" : {
+        "x" : 296854.59720000252,
+        "y" : 464460.09940000251
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 80082,
+        "MNTN_CODE" : "472803901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철교",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주흘산",
+        "PAST_SPOT_" : "27070836000009",
+        "MNTN_ID" : "2707083600"
+      },
+      "geometry" : {
+        "x" : 296926.27760000248,
+        "y" : 464493.43249999732
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 80083,
+        "MNTN_CODE" : "472803901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "혜국사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주흘산",
+        "PAST_SPOT_" : "27070836000010",
+        "MNTN_ID" : "2707083600"
+      },
+      "geometry" : {
+        "x" : 296967.04289999977,
+        "y" : 464756.95070000365
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 80084,
+        "MNTN_CODE" : "472803901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주흘산",
+        "PAST_SPOT_" : "27070836000011",
+        "MNTN_ID" : "2707083600"
+      },
+      "geometry" : {
+        "x" : 296956.15639999881,
+        "y" : 464716.98040000349
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 80085,
+        "MNTN_CODE" : "472803901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "안정암 이정표, 훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주흘산",
+        "PAST_SPOT_" : "27070836000012",
+        "MNTN_ID" : "2707083600"
+      },
+      "geometry" : {
+        "x" : 297360.22300000116,
+        "y" : 464588.37680000253
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 80086,
+        "MNTN_CODE" : "472803901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "대궐터, 훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주흘산",
+        "PAST_SPOT_" : "27070836000013",
+        "MNTN_ID" : "2707083600"
+      },
+      "geometry" : {
+        "x" : 297968.38900000229,
+        "y" : 464860.37540000118
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 80087,
+        "MNTN_CODE" : "472803901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "대궐터 능선,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주흘산",
+        "PAST_SPOT_" : "27070836000014",
+        "MNTN_ID" : "2707083600"
+      },
+      "geometry" : {
+        "x" : 298307.92420000397,
+        "y" : 464940.30260000005
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 80088,
+        "MNTN_CODE" : "472803901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "주흘관",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주흘산",
+        "PAST_SPOT_" : "27070836000015",
+        "MNTN_ID" : "2707083600"
+      },
+      "geometry" : {
+        "x" : 298582.35070000216,
+        "y" : 464912.93769999966
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 80089,
+        "MNTN_CODE" : "472803901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "주흘산",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주흘산",
+        "PAST_SPOT_" : "27070836000016",
+        "MNTN_ID" : "2707083600"
+      },
+      "geometry" : {
+        "x" : 298738.57176774461,
+        "y" : 464961.24692077376
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 80090,
+        "MNTN_CODE" : "472803901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "꽃밭서들",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주흘산",
+        "PAST_SPOT_" : "27070836000017",
+        "MNTN_ID" : "2707083600"
+      },
+      "geometry" : {
+        "x" : 297027.41380000301,
+        "y" : 465810.41610000096
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 80091,
+        "MNTN_CODE" : "472803901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "조곡관(제2관문)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주흘산",
+        "PAST_SPOT_" : "27070836000018",
+        "MNTN_ID" : "2707083600"
+      },
+      "geometry" : {
+        "x" : 295148.66760000028,
+        "y" : 466123.72800000198
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 80092,
+        "MNTN_CODE" : "472803901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "조곡폭포",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주흘산",
+        "PAST_SPOT_" : "27070836000019",
+        "MNTN_ID" : "2707083600"
+      },
+      "geometry" : {
+        "x" : 295132.24930000398,
+        "y" : 466034.75040000118
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 80093,
+        "MNTN_CODE" : "472803901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산불조심 표석",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주흘산",
+        "PAST_SPOT_" : "27070836000020",
+        "MNTN_ID" : "2707083600"
+      },
+      "geometry" : {
+        "x" : 295125.99660000298,
+        "y" : 465834.44830000214
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 80094,
+        "MNTN_CODE" : "472803901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "교귀정",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주흘산",
+        "PAST_SPOT_" : "27070836000021",
+        "MNTN_ID" : "2707083600"
+      },
+      "geometry" : {
+        "x" : 295206.00720000174,
+        "y" : 465271.38030000031
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 80095,
+        "MNTN_CODE" : "472803901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "왕건 촬영장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주흘산",
+        "PAST_SPOT_" : "27070836000022",
+        "MNTN_ID" : "2707083600"
+      },
+      "geometry" : {
+        "x" : 295946.1314000003,
+        "y" : 464199.01630000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 80096,
+        "MNTN_CODE" : "472803901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "관찰사 선정비",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주흘산",
+        "PAST_SPOT_" : "27070836000023",
+        "MNTN_ID" : "2707083600"
+      },
+      "geometry" : {
+        "x" : 295994.1512000002,
+        "y" : 464049.60250000097
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 80097,
+        "MNTN_CODE" : "472803901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주흘산",
+        "PAST_SPOT_" : "27070836000024",
+        "MNTN_ID" : "2707083600"
+      },
+      "geometry" : {
+        "x" : 295996.27790000197,
+        "y" : 463875.06100000255
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 80098,
+        "MNTN_CODE" : "472803901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표, 훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주흘산",
+        "PAST_SPOT_" : "27070836000025",
+        "MNTN_ID" : "2707083600"
+      },
+      "geometry" : {
+        "x" : 298630.57390000019,
+        "y" : 464966.43820000067
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 80099,
+        "MNTN_CODE" : "472803901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주흘산",
+        "PAST_SPOT_" : "27070836000026",
+        "MNTN_ID" : "2707083600"
+      },
+      "geometry" : {
+        "x" : 298724.83660000097,
+        "y" : 464945.32670000196
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 80100,
+        "MNTN_CODE" : "472803901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주흘산",
+        "PAST_SPOT_" : "27070836000027",
+        "MNTN_ID" : "2707083600"
+      },
+      "geometry" : {
+        "x" : 296234.07830000389,
+        "y" : 462749.02210000157
+      }
+    }
+  ]
+}

@@ -1,0 +1,819 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 6391,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "등산로입구",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000001",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 303861.84360000398,
+        "y" : 570326.35630000196
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 6392,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "농로",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000002",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 303935.62230000272,
+        "y" : 570359.90030000173
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 6393,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "농로",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000003",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 303988.39400000311,
+        "y" : 570409.78850000165
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 6394,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "아미산갈림길",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000004",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 304274.33030000143,
+        "y" : 571311.73189999908
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 6395,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "천조단",
+        "ETC_MATTER" : "비석",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000005",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 303210.86590000242,
+        "y" : 570978.38590000011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 6396,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000006",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 303200.88670000155,
+        "y" : 570906.26780000143
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 6397,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000007",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 303276.16220000014,
+        "y" : 570635.72030000389
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 6398,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "무궁화나무",
+        "ETC_MATTER" : "국내최대무궁화나무",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000008",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 303578.22109999973,
+        "y" : 571279.58349999972
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 6399,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "1-2구간",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000009",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 303640.27460000385,
+        "y" : 570573.7367000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 6400,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "교량",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000010",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 301790.11270000692,
+        "y" : 571617.94500000216
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 6401,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로 입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000011",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 301526.33430000301,
+        "y" : 570961.41059999913
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 6402,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "전망대",
+        "ETC_MATTER" : "안전로프,이정표 설치요망,위험(절벽구간)",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000012",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 302014.8546000002,
+        "y" : 571402.37329999916
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 6403,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "공터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000013",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 302201.11670000106,
+        "y" : 571413.97870000266
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 6404,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000014",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 302997.60080000013,
+        "y" : 571450.17060000263
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 6405,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000015",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 303724.77340000123,
+        "y" : 571328.5596000012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 6406,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000016",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 303598.05870000273,
+        "y" : 571639.50070000254
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 6407,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "28~29구간 침식으로인하여 길상태 안좋음",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000017",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 303106.65820000321,
+        "y" : 572012.4923000019
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 6408,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "29~30구간 수풀 무성하여 길흔적 미미함",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000018",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 303125.78650000319,
+        "y" : 572079.72890000045
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 6409,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000019",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 303070.89050000068,
+        "y" : 572293.78100000508
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 6410,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "눌언동 산장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000020",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 302862.99660000205,
+        "y" : 572149.91070000269
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 6411,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "교량,갈림길",
+        "ETC_MATTER" : "임도옆 등산로입구",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000021",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 302438.29599999916,
+        "y" : 572126.27000000142
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 6412,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000022",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 302306.42239999864,
+        "y" : 571746.92860000022
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 6413,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "응골축제",
+        "ETC_MATTER" : "콘도식 민박 (033)433-5003",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000023",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 301318.40310000349,
+        "y" : 570959.50200000219
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 6414,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "약수터,식당",
+        "ETC_MATTER" : "올챙이국수,감자전, 동동주(08~20시까지영업)",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000024",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 301499.81240000017,
+        "y" : 570848.0719000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 6415,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "두꺼비가든",
+        "ETC_MATTER" : "(033)433-0586 10명 민박가능",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000025",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 302787.16390000377,
+        "y" : 570720.79949999973
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 6416,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "동학혁명군 위령탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000026",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 304469.4382000016,
+        "y" : 569019.28950000368
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 6417,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,등산로입구",
+        "ETC_MATTER" : "등산표지판설치요망",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000027",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 301760.83240000345,
+        "y" : 571742.60910000466
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 6418,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000028",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 302128.56500000134,
+        "y" : 572390.15820000134
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 6419,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000029",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 302239.96310000028,
+        "y" : 571489.19710000604
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 6420,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000030",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 302242.5839000009,
+        "y" : 571492.26990000159
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 6421,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000031",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 302425.9540000027,
+        "y" : 572113.48340000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 6422,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,안내판,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000032",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 303194.06069999933,
+        "y" : 570129.43470000103
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 6423,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,갈림길",
+        "ETC_MATTER" : "샘터가는길",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000033",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 303353.66190000251,
+        "y" : 571109.59170000069
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 6424,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "풍암교",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000034",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 303392.22200000286,
+        "y" : 570185.85129999928
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 6425,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000035",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 303537.35050000343,
+        "y" : 570195.72460000217
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 6426,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,갈림길",
+        "ETC_MATTER" : "샘터가는길",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000036",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 303547.08360000327,
+        "y" : 571147.11800000258
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 6427,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000037",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 303584.09010000248,
+        "y" : 570507.40919999965
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 6428,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험요소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000038",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 303700.83160000388,
+        "y" : 571134.38130000047
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 6429,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000039",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 303721.24780000281,
+        "y" : 571327.51890000328
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 6430,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상,전경사진,이정표,삼각점",
+        "ETC_MATTER" : "어론리, 수하리 방향,화강암,식별불가",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000040",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 303743.89300000388,
+        "y" : 571309.18320000172
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 6431,
+        "MNTN_CODE" : "427200301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고양산",
+        "PAST_SPOT_" : "22160802000041",
+        "MNTN_ID" : "2216080200"
+      },
+      "geometry" : {
+        "x" : 303993.78740000073,
+        "y" : 569950.07970000245
+      }
+    }
+  ]
+}

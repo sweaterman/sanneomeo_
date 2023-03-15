@@ -1,0 +1,837 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 48066,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010001",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 189996.24180000089,
+        "y" : 512212.4477000013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 48067,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010002",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 190549.05470000301,
+        "y" : 512657.23709999956
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 48068,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010003",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 190555.39650000259,
+        "y" : 512252.53800000064
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 48069,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010004",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 190727.22300000023,
+        "y" : 516368.42350000143
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 48070,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010005",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 190823.46500000264,
+        "y" : 516355.4384000022
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 48071,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010006",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 190949.49629999977,
+        "y" : 516556.32460000366
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 48072,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010007",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 191078.58279999997,
+        "y" : 516114.83330000378
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 48073,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010008",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 191184.39870000072,
+        "y" : 515990.32970000058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 48074,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010009",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 191185.05930000264,
+        "y" : 515986.98260000162
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 48075,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010010",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 191245.93319999985,
+        "y" : 515872.39719999954
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 48076,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010011",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 191253.93540000077,
+        "y" : 515896.40389999934
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 48077,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010012",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 191353.56010000035,
+        "y" : 515997.96800000034
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 48078,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010013",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 191381.0578000024,
+        "y" : 513712.60139999911
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 48079,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010014",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 191485.70190000068,
+        "y" : 515173.03619999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 48080,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010015",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 191643.04999999981,
+        "y" : 515703.13130000234
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 48081,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010016",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 191709.50290000252,
+        "y" : 514392.40630000271
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 48082,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010017",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 191746.16650000215,
+        "y" : 515740.55870000273
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 48083,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010018",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 191746.20180000179,
+        "y" : 515742.40909999982
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 48084,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010019",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 191769.08130000345,
+        "y" : 513536.9215000011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 48085,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010020",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 191812.6193000013,
+        "y" : 513371.17130000144
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 48086,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010021",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 191970.73120000027,
+        "y" : 515945.26400000229
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 48087,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010022",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 191983.02670000028,
+        "y" : 513693.85899999924
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 48088,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010023",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 192026.49050000124,
+        "y" : 514710.92170000449
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 48089,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010024",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 192070.79239999969,
+        "y" : 514649.81560000032
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 48090,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010025",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 192280.84449999966,
+        "y" : 513820.30089999922
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 48091,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010026",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 190870.21870000008,
+        "y" : 512922.98040000349
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 48092,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010027",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 191393.58450000267,
+        "y" : 513077.30710000172
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 48093,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "태행산이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010028",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 191388.10960000195,
+        "y" : 513087.29000000283
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 48094,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "백합고개이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010029",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 191771.28820000123,
+        "y" : 513542.68129999936
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 48095,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "삼봉산삼거리이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010030",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 191980.14639999997,
+        "y" : 513692.72380000353
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 48096,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "피뢰침",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010031",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 191844.97920000274,
+        "y" : 514244.43670000136
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 48097,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "능선쉼터이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010032",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 191715.59000000264,
+        "y" : 514433.42339999974
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 48098,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "군부대경고판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010033",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 192073.03930000216,
+        "y" : 514652.30750000104
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 48099,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "덕고개이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010034",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 192085.48989999946,
+        "y" : 514652.48430000246
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 48100,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010035",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 191748.08690000046,
+        "y" : 515731.97210000083
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 48101,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010036",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 191743.74450000096,
+        "y" : 515737.38120000437
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 48102,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "옛고개이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010037",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 191353.54330000002,
+        "y" : 516000.48589999974
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 48103,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "임시평의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010038",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 190878.44079999998,
+        "y" : 516305.48690000176
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 48104,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "임시평의자,삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010039",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 190875.56829999946,
+        "y" : 516307.4766000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 48105,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010040",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 190820.91980000027,
+        "y" : 516352.68470000103
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 48106,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "입구(숙곡리)이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010041",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 190931.27910000086,
+        "y" : 516494.56530000083
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 48107,
+        "MNTN_CODE" : "415901201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "태행산숲길안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼봉산",
+        "PAST_SPOT_" : "4159012010042",
+        "MNTN_ID" : "415901201"
+      },
+      "geometry" : {
+        "x" : 190955.21250000317,
+        "y" : 516556.03449999914
+      }
+    }
+  ]
+}

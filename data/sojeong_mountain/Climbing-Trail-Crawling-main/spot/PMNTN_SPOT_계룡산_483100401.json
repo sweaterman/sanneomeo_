@@ -1,0 +1,945 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 4326,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표, 대피소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000001",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 347400.67280001007,
+        "y" : 255319.78170000389
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 4327,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "샘터(음수대)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000002",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 347341.68380001094,
+        "y" : 255057.71519999765
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 4328,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표(임도점접)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000003",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 347268.27970001101,
+        "y" : 254782.62329999916
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 4329,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역, 조망점(팔각정)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000004",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 346963.83290001005,
+        "y" : 254460.16450000182
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 4330,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역(팔각정에서 철탑까지)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000005",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 346956.12680001184,
+        "y" : 254405.45639999956
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 4331,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000006",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 348125.27250001486,
+        "y" : 254707.80090000108
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 4332,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000007",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 348048.68890001159,
+        "y" : 254715.56780000217
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 4333,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000008",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 347934.4088000115,
+        "y" : 254617.3180000037
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 4334,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "임도, 정상으로 가는 표지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000009",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 347666.24470001087,
+        "y" : 254220.11380000226
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 4335,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암반지(너드랑길)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000010",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 347499.01090000942,
+        "y" : 254069.7826000005
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 4336,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000011",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 347441.18080001231,
+        "y" : 254029.19830000028
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 4337,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "계룡산 약수터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000012",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 347234.63560001086,
+        "y" : 253840.93180000223
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 4338,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계룡산 옛절터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000013",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 347109.37150001153,
+        "y" : 253830.34560000151
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 4339,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철계단,조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000014",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 347006.24990000855,
+        "y" : 254220.00520000048
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 4340,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물(철목계단)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000015",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 346977.80690001138,
+        "y" : 254261.03060000017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 4341,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "평의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000016",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 347270.15480000991,
+        "y" : 254743.01440000162
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 4342,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표(임도)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000017",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 347254.90190001111,
+        "y" : 254780.55760000274
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 4343,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000018",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 347394.07200000901,
+        "y" : 255316.56030000374
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 4344,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표(임도)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000019",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 348362.94180001225,
+        "y" : 253811.04460000247
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 4345,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "통신안테나",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000020",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 347527.89910001028,
+        "y" : 253522.63580000028
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 4346,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표(임도) : K-1에서 2.7km 지점(고자산치)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000021",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 348077.55030001234,
+        "y" : 252448.89509999938
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 4347,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "접점(포로수용소에서 종료)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000022",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 347634.02100000996,
+        "y" : 253369.29000000283
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 4348,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,벤치(등의자4, 평의자1)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000023",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 346079.06160000991,
+        "y" : 255468.79270000197
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 4349,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대,화장실,대피소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000024",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 345985.63320001028,
+        "y" : 255423.72440000251
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 4350,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,산림욕장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000025",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 345564.01840001065,
+        "y" : 255325.51130000316
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 4351,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "옥산 금성,이정표사진",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000026",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 346496.80120001268,
+        "y" : 251919.83940000087
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 4352,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표(임도)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000027",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 346626.99140000902,
+        "y" : 252749.69759999961
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 4353,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표(표고버섯건조장에서 좌측)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000028",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 347121.26850001048,
+        "y" : 252790.76300000399
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 4354,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표(임도접점)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000029",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 347653.2949000122,
+        "y" : 253257.4196000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 4355,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "접점(정상가는 길)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000030",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 347635.05200001318,
+        "y" : 253371.02150000259
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 4356,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점(거제여상),화장실사진",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000031",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 345963.17350000981,
+        "y" : 251797.54140000045
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 4357,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점(뒷메1길)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000032",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 345966.92930001114,
+        "y" : 252371.94880000129
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 4358,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,사기장골,심적사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000033",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 346021.01740001235,
+        "y" : 256000.73370000161
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 4359,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "정자, 전망대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000034",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 346967.93400001246,
+        "y" : 254460.20930000208
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 4360,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000035",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 346996.76380000915,
+        "y" : 253965.04010000266
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 4361,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부근",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000036",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 347184.79240001179,
+        "y" : 253789.74930000119
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 4362,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000037",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 347486.41890000924,
+        "y" : 254709.60770000331
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 4363,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000038",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 347528.06880001165,
+        "y" : 253524.4701000005
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 4364,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "포로수용소 유적지,선자산 갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000039",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 347630.01380001195,
+        "y" : 253371.40850000083
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 4365,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "포로수용소 유적지,선자산 갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000040",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 347634.13850001153,
+        "y" : 253363.14360000193
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 4366,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000041",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 347738.50620000809,
+        "y" : 254727.08550000191
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 4367,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000042",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 347752.81520001125,
+        "y" : 255305.38720000163
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 4368,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000043",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 347792.69260001089,
+        "y" : 254429.39770000242
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 4369,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,삼성하이츠빌뒷편",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000044",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 347857.98470001202,
+        "y" : 255086.32799999975
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 4370,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000045",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 348024.06990001164,
+        "y" : 252487.31079999916
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 4371,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000046",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 348249.60600001179,
+        "y" : 254736.72740000114
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 4372,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,배수지(백병원좌측)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000047",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 348812.01460001152,
+        "y" : 254198.11950000562
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 4373,
+        "MNTN_CODE" : "483100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,용산마을에서 1.5km 가면 임도 접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계룡산",
+        "PAST_SPOT_" : "28011004000048",
+        "MNTN_ID" : "2801100400"
+      },
+      "geometry" : {
+        "x" : 348812.58970001247,
+        "y" : 252735.25090000406
+      }
+    }
+  ]
+}

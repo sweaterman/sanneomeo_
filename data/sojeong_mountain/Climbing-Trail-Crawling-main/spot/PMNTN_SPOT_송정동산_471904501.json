@@ -1,0 +1,801 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 54032,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010001",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 320775.30080000404,
+        "y" : 391665.0866000019
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 54033,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010002",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 320878.55920000095,
+        "y" : 391173.9755000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 54034,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010003",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 320975.47960000392,
+        "y" : 391422.21850000508
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 54035,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010004",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 321024.40620000381,
+        "y" : 391393.71749999933
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 54036,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010005",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 321174.8104000045,
+        "y" : 391261.33740000241
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 54037,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010006",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 321263.25960000418,
+        "y" : 391649.76769999973
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 54038,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010007",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 321386.84340000246,
+        "y" : 390895.42579999939
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 54039,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010008",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 321432.88730000146,
+        "y" : 390951.86439999938
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 54040,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010009",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 321469.84290000331,
+        "y" : 391452.94429999962
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 54041,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010010",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 321512.24760000501,
+        "y" : 390918.70160000212
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 54042,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010011",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 321613.4260000037,
+        "y" : 391149.55940000713
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 54043,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010012",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 321630.75210000295,
+        "y" : 390907.00439999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 54044,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010013",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 321642.8040000014,
+        "y" : 390895.99560000189
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 54045,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010014",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 321649.52720000315,
+        "y" : 391181.86040000245
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 54046,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010015",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 321688.32470000535,
+        "y" : 390727.28379999846
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 54047,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010016",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 321826.94500000216,
+        "y" : 390724.08480000123
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 54048,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010017",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 321883.29290000442,
+        "y" : 390968.07789999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 54049,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010018",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 321957.44750000164,
+        "y" : 390863.09500000067
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 54050,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010019",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 322042.09190000501,
+        "y" : 390637.99820000306
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 54051,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010020",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 322212.40590000339,
+        "y" : 390443.16350000165
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 54052,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010021",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 322213.97800000198,
+        "y" : 390723.15040000156
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 54053,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사곡동 5거리옆 입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010022",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 322214.79030000884,
+        "y" : 390444.69080000184
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 54054,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사곡동 5거리옆 입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010023",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 322118.07910000533,
+        "y" : 390486.88480000384
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 54055,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사곡동 5거리옆 입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010024",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 321683.79270000383,
+        "y" : 390728.57760000043
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 54056,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "GM전자통신\u321C 건너편 입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010025",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 322207.76330000907,
+        "y" : 390732.83960000239
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 54057,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "금오고교 뒤 입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010026",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 321955.82020000834,
+        "y" : 390864.01840000413
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 54058,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사곡~형곡도로옆 입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010027",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 321383.06350000855,
+        "y" : 390891.40490000136
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 54059,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치,운동기구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010028",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 321630.30420000665,
+        "y" : 390906.83170000464
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 54060,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "다송 마을회관 입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010029",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 321875.35340000596,
+        "y" : 390970.99390000105
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 54061,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010030",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 321652.62520000525,
+        "y" : 391021.44120000117
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 54062,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "농원가든 중간 입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010031",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 321613.26050000731,
+        "y" : 391144.55089999922
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 54063,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "형곡동 르노삼성점건너편 입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010032",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 320877.07030000631,
+        "y" : 391174.55290000141
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 54064,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "시민운동장뒤 농원가든 입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010033",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 321651.51580000855,
+        "y" : 391183.71829999983
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 54065,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "상수도가압장",
+        "ETC_MATTER" : "관리건물",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010034",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 321171.3402000051,
+        "y" : 391265.03610000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 54066,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치,운동기구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010035",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 321072.50490000658,
+        "y" : 391377.91349999979
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 54067,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치,운동기구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010036",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 320974.75960000418,
+        "y" : 391427.04230000079
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 54068,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "송정초교 정문옆 입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010037",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 321470.52320000995,
+        "y" : 391458.04320000112
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 54069,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치,운동기구,측량깃점(사진002-1,2)",
+        "ETC_MATTER" : "002-1,2",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010038",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 320960.62920000684,
+        "y" : 391503.35370000079
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 54070,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "송정동 송리7길옆 입구",
+        "ETC_MATTER" : "계단없음",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010039",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 321259.74350000545,
+        "y" : 391650.28009999916
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 54071,
+        "MNTN_CODE" : "471904501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "형곡동 차병원옆 입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "송정동산",
+        "PAST_SPOT_" : "4719019010040",
+        "MNTN_ID" : "471901901"
+      },
+      "geometry" : {
+        "x" : 320775.24100000504,
+        "y" : 391664.85270000249
+      }
+    }
+  ]
+}

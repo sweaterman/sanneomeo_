@@ -1,0 +1,765 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 73414,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000001",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 222685.6007000003,
+        "y" : 475686.75350000151
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 73415,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000002",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 222447.09750000294,
+        "y" : 475567.16610000096
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 73416,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "성거산성지관리사무소사재관",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000003",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 221312.27350000106,
+        "y" : 475414.5623000022
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 73417,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000004",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 222382.66590000037,
+        "y" : 474172.4101000037
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 73418,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000005",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 222537.46700000297,
+        "y" : 474910.48880000226
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 73419,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000006",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 222470.76270000171,
+        "y" : 474927.62129999883
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 73420,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000007",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 222715.44840000104,
+        "y" : 475023.89340000041
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 73421,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000008",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 221309.18340000138,
+        "y" : 474016.24110000022
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 73422,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000009",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 221614.25619999878,
+        "y" : 473953.45080000348
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 73423,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "금성사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000010",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 221780.27470000088,
+        "y" : 475832.68999999948
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 73424,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000011",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 222059.77610000409,
+        "y" : 475511.11480000429
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 73425,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000012",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 222191.91150000319,
+        "y" : 475406.31809999794
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 73426,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "위례산성",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000013",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 222332.94160000142,
+        "y" : 475499.88409999944
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 73427,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "정자,음수대,평의자,운동시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000014",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 221287.29460000154,
+        "y" : 474426.65320000239
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 73428,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,입장시장교",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000015",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 219665.66190000065,
+        "y" : 478233.09029999934
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 73429,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000016",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 220802.12260000035,
+        "y" : 476257.43899999931
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 73430,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000017",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 221558.50340924133,
+        "y" : 474919.61207528412
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 73431,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000018",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 221673.33000000101,
+        "y" : 474539.01610000245
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 73432,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기,조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000019",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 221745.90859999973,
+        "y" : 474557.65980000049
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 73433,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000020",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 222103.50540000107,
+        "y" : 474450.81380000152
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 73434,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000021",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 222222.43169999961,
+        "y" : 474759.21900000237
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 73435,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000022",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 222259.91234100703,
+        "y" : 475293.38005626015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 73436,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000023",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 222297.18379999977,
+        "y" : 475360.03889999911
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 73437,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상,이정표,정상표시석",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000024",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 222344.96750000305,
+        "y" : 475479.35270000249
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 73438,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "위례성우물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000025",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 222357.50710000191,
+        "y" : 475531.4867000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 73439,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000026",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 222403.47510000132,
+        "y" : 472761.8685999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 73440,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000027",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 222411.60926867649,
+        "y" : 475032.02202293463
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 73441,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000028",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 222567.42898436636,
+        "y" : 474229.82819121517
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 73442,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "유성농장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000029",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 222699.45720000006,
+        "y" : 473594.93160000257
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 73443,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000030",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 222816.73833172768,
+        "y" : 474837.24965024181
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 73444,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000031",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 222829.55360000394,
+        "y" : 474186.36099999957
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 73445,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000032",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 222889.63180000149,
+        "y" : 473384.25850000232
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 73446,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000033",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 222980.27479999978,
+        "y" : 474465.22360000201
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 73447,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000034",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 223081.87650000304,
+        "y" : 473110.57630000263
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 73448,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,군단이",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000035",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 223873.58020000067,
+        "y" : 474654.82530000061
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 73449,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000036",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 224168.70200000051,
+        "y" : 474199.44170000032
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 73450,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000037",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 224270.19639999978,
+        "y" : 476098.40770000033
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 73451,
+        "MNTN_CODE" : "441302501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "위례산",
+        "PAST_SPOT_" : "24139933000038",
+        "MNTN_ID" : "2413993300"
+      },
+      "geometry" : {
+        "x" : 221085.16460698657,
+        "y" : 474150.55614879541
+      }
+    }
+  ]
+}

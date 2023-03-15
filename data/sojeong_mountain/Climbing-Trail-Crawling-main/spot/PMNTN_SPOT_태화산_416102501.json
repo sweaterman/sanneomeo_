@@ -1,0 +1,891 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 88145,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "4161025010001",
+        "MNTN_ID" : "416102501"
+      },
+      "geometry" : {
+        "x" : 225747.11170000117,
+        "y" : 520806.97350000031
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 88146,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "4161025010002",
+        "MNTN_ID" : "416102501"
+      },
+      "geometry" : {
+        "x" : 225985.72690000106,
+        "y" : 520007.16940000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 88147,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : "쉼터",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000003",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 222844.77870000154,
+        "y" : 519352.44520000182
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 88148,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : "쉼터",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000004",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 222105.20420000236,
+        "y" : 518620.93100000359
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 88149,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : "쉼터",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000005",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 221003.53730000369,
+        "y" : 517966.72540000081
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 88150,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "백련암",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000006",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 226181.90150000062,
+        "y" : 521235.16160000116
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 88151,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "18",
+        "MANAGE_SP2" : "주차장",
+        "DETAIL_SPO" : "주차장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000007",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 227151.21699999925,
+        "y" : 521532.78490000218
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 88152,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산림욕장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000008",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 227005.77930000145,
+        "y" : 521620.99479999952
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 88153,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "은곡사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000009",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 227131.91990000289,
+        "y" : 521797.75599999912
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 88154,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000010",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 226479.72460000031,
+        "y" : 521697.34750000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 88155,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "이삭아파트",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000011",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 220186.48539999872,
+        "y" : 517322.96199999936
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 88156,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "예원마을",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000012",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 221019.24909999967,
+        "y" : 517798.17579999939
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 88157,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000013",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 221110.72030000202,
+        "y" : 517986.57259999961
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 88158,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "금어리",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000014",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 221170.03230000008,
+        "y" : 518430.43700000085
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 88159,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "금어리초입",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000015",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 221274.75150000025,
+        "y" : 518389.6185999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 88160,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "수리넘어골",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000016",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 221659.25999999978,
+        "y" : 518772.04850000143
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 88161,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000017",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 221746.56850000005,
+        "y" : 518419.27419999987
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 88162,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000018",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 221793.63700000104,
+        "y" : 518556.5672999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 88163,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "대대리",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000019",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 221892.80530000012,
+        "y" : 518186.08650000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 88164,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "약수터",
+        "ETC_MATTER" : "약수터",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000020",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 221915.38798670191,
+        "y" : 518426.34967249818
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 88165,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000021",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 222005.77360000275,
+        "y" : 518549.15540000051
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 88166,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000022",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 222075.20459999982,
+        "y" : 518591.45890000276
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 88167,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000023",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 222189.159500001,
+        "y" : 518894.06620000117
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 88168,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "대대리",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000024",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 222490.29440000374,
+        "y" : 518364.80810000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 88169,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "대대리",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000025",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 222710.60780000407,
+        "y" : 518504.82500000112
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 88170,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000026",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 222814.52540000062,
+        "y" : 519312.29440000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 88171,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "금어리",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000027",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 223848.24239999894,
+        "y" : 521966.99180000275
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 88172,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000028",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 224823.05690000299,
+        "y" : 522680.18400000036
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 88173,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000029",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 224961.11739999987,
+        "y" : 521985.60170000419
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 88174,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "마구산",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000030",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 224982.93440000247,
+        "y" : 522101.4355999995
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 88175,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000031",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 225988.46829999983,
+        "y" : 520009.7304999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 88176,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "백마산",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000032",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 226043.89300000109,
+        "y" : 521474.79509999976
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 88177,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000033",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 226063.82830000017,
+        "y" : 521422.58270000108
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 88178,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "태화산",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000034",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 226091.17069999967,
+        "y" : 521380.80640000105
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 88179,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000035",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 226101.98539999966,
+        "y" : 521241.79480000213
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 88180,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼지송",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000036",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 226307.6584999999,
+        "y" : 521968.0567000024
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 88181,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000037",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 226589.18670000136,
+        "y" : 521819.39980000257
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 88182,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "미역산",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000038",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 226695.19089999888,
+        "y" : 522425.14460000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 88183,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,백련암입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000039",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 226876.6015999997,
+        "y" : 520481.19910000078
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 88184,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000040",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 227198.70749999955,
+        "y" : 521571.78299999982
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 88185,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000041",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 227228.41729999892,
+        "y" : 521842.07970000245
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 88186,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000042",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 227260.76130000129,
+        "y" : 522288.9502000045
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 88187,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000043",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 227346.27220000234,
+        "y" : 521757.93950000219
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 88188,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000044",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 227520.93209999893,
+        "y" : 521247.75320000388
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 88189,
+        "MNTN_CODE" : "416102501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "태화산",
+        "PAST_SPOT_" : "21070321000045",
+        "MNTN_ID" : "2107032100"
+      },
+      "geometry" : {
+        "x" : 227573.15670000017,
+        "y" : 521249.14480000176
+      }
+    }
+  ]
+}

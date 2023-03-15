@@ -1,0 +1,999 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 92031,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "4827054010001",
+        "MNTN_ID" : "482705401"
+      },
+      "geometry" : {
+        "x" : 373955.15360002872,
+        "y" : 327135.15530000627
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 92032,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "4827054010002",
+        "MNTN_ID" : "482705401"
+      },
+      "geometry" : {
+        "x" : 377017.24690003414,
+        "y" : 327973.46450000443
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 92033,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "4827054010003",
+        "MNTN_ID" : "482705401"
+      },
+      "geometry" : {
+        "x" : 377053.7853000341,
+        "y" : 327931.0923999995
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 92034,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "4827054010004",
+        "MNTN_ID" : "482705401"
+      },
+      "geometry" : {
+        "x" : 377168.51255053747,
+        "y" : 326151.87695614249
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 92035,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "4827054010005",
+        "MNTN_ID" : "482705401"
+      },
+      "geometry" : {
+        "x" : 377176.22060003411,
+        "y" : 327849.61290000752
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 92036,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "4827054010006",
+        "MNTN_ID" : "482705401"
+      },
+      "geometry" : {
+        "x" : 377307.46640003379,
+        "y" : 327773.82310000248
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 92037,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "4827054010007",
+        "MNTN_ID" : "482705401"
+      },
+      "geometry" : {
+        "x" : 377497.86520003714,
+        "y" : 327979.93440000713
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 92038,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "4827054010008",
+        "MNTN_ID" : "482705401"
+      },
+      "geometry" : {
+        "x" : 378960.02411490213,
+        "y" : 325344.0526236929
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 92039,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "4827054010009",
+        "MNTN_ID" : "482705401"
+      },
+      "geometry" : {
+        "x" : 378971.68310003541,
+        "y" : 325340.30000000075
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 92040,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "4827054010010",
+        "MNTN_ID" : "482705401"
+      },
+      "geometry" : {
+        "x" : 379240.60671502165,
+        "y" : 327478.87904209085
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 92041,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "4827054010011",
+        "MNTN_ID" : "482705401"
+      },
+      "geometry" : {
+        "x" : 379251.54278661683,
+        "y" : 327428.17650865018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 92042,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "4827054010012",
+        "MNTN_ID" : "482705401"
+      },
+      "geometry" : {
+        "x" : 379444.85854238551,
+        "y" : 325883.39083607495
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 92043,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "4827054010013",
+        "MNTN_ID" : "482705401"
+      },
+      "geometry" : {
+        "x" : 379550.82882301603,
+        "y" : 326298.94296195172
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 92044,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "4827054010014",
+        "MNTN_ID" : "482705401"
+      },
+      "geometry" : {
+        "x" : 379550.30910003558,
+        "y" : 325433.22870000079
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 92045,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "4827054010015",
+        "MNTN_ID" : "482705401"
+      },
+      "geometry" : {
+        "x" : 379649.55640003551,
+        "y" : 325629.52600000612
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 92046,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "4827054010016",
+        "MNTN_ID" : "482705401"
+      },
+      "geometry" : {
+        "x" : 380188.61430003587,
+        "y" : 328066.62230000272
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 92047,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "4827054010017",
+        "MNTN_ID" : "482705401"
+      },
+      "geometry" : {
+        "x" : 380272.51170003694,
+        "y" : 326149.8877000045
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 92048,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "4827054010018",
+        "MNTN_ID" : "482705401"
+      },
+      "geometry" : {
+        "x" : 380983.27230003756,
+        "y" : 328257.21420000494
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 92049,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000019",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 376911.75160003267,
+        "y" : 325105.80950000696
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 92050,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "장군미",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000020",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 377006.46250003297,
+        "y" : 325037.10909999907
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 92051,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "너덜지대시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000021",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 376868.28460003342,
+        "y" : 325153.8084000051
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 92052,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "너덜지대끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000022",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 376806.19370003231,
+        "y" : 325251.78500000201
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 92053,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000023",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 376636.16040003486,
+        "y" : 325451.77480000071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 92054,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계곡횡단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000024",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 376609.7945000343,
+        "y" : 325463.12210000306
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 92055,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000025",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 376583.61070003547,
+        "y" : 325473.98460000753
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 92056,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프설치,암릉구간",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000026",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 377634.82180003356,
+        "y" : 325446.53429999761
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 92057,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000027",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 377658.02730003279,
+        "y" : 325448.60450000316
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 92058,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암릉구간12m",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000028",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 377711.50490003452,
+        "y" : 325506.93900000677
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 92059,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암릉구간30m",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000029",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 377811.68210003339,
+        "y" : 325588.18239999935
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 92060,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000030",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 377817.74270003475,
+        "y" : 325618.94310000539
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 92061,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암릉끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000031",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 376416.62640003487,
+        "y" : 326734.46380000189
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 92062,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암릉시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000032",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 376292.61140003055,
+        "y" : 326777.4914000053
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 92063,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000033",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 378472.83380003553,
+        "y" : 325321.58940000646
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 92064,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암릉7m",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000034",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 378548.40320003312,
+        "y" : 325324.76150000654
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 92065,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000035",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 378963.15800003801,
+        "y" : 325345.66550000757
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 92066,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계곡횡단3m",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000036",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 379430.20630003605,
+        "y" : 325882.87770000473
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 92067,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계곡횡단4m",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000037",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 379533.38830003794,
+        "y" : 326106.6257000044
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 92068,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000038",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 379544.83930003829,
+        "y" : 326295.93990000337
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 92069,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계곡횡단6m",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000039",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 379518.3364000367,
+        "y" : 326441.61790000647
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 92070,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "너덜지대10m",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000040",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 379353.73610003758,
+        "y" : 327158.03080000728
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 92071,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000041",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 379253.9577000374,
+        "y" : 327415.38959999941
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 92072,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "숲길시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000042",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 379197.05610003509,
+        "y" : 327444.35750000551
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 92073,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000043",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 378700.22450003307,
+        "y" : 327486.02030000649
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 92074,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000044",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 378382.45140003227,
+        "y" : 327484.47430000082
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 92075,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000045",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 377807.01330003422,
+        "y" : 327876.2519000005
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 92076,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,삼박골가든,종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000046",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 375159.56400003098,
+        "y" : 326287.99380000122
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 92077,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000047",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 375636.88595787436,
+        "y" : 327448.47861586511
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 92078,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쌍봉(아우봉),헬기장",
+        "ETC_MATTER" : "해발830m",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000048",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 376716.14470003266,
+        "y" : 326575.90960000269
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 92079,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쌍봉(형님봉),헬기장",
+        "ETC_MATTER" : "해발842m",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000049",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 376877.9084000336,
+        "y" : 326528.87890000083
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 92080,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,표충사,종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000050",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 377653.07920003403,
+        "y" : 327925.60400000401
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 50,
+        "PMNTN_SPOT" : 92081,
+        "MNTN_CODE" : "482705401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "1-1구간",
+        "MNTN_NM" : "향로산",
+        "PAST_SPOT_" : "28070647000051",
+        "MNTN_ID" : "2807064700"
+      },
+      "geometry" : {
+        "x" : 377814.6369000366,
+        "y" : 325649.63280000724
+      }
+    }
+  ]
+}

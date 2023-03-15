@@ -1,0 +1,621 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 9494,
+        "MNTN_CODE" : "427505101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구룡산",
+        "PAST_SPOT_" : "4275005010001",
+        "MNTN_ID" : "427500501"
+      },
+      "geometry" : {
+        "x" : 352968.13290000893,
+        "y" : 495277.02440000325
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 9495,
+        "MNTN_CODE" : "427505101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구룡산",
+        "PAST_SPOT_" : "4792004010002",
+        "MNTN_ID" : "479200401"
+      },
+      "geometry" : {
+        "x" : 355769.72600001469,
+        "y" : 491980.1344000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 9496,
+        "MNTN_CODE" : "427505101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구룡산",
+        "PAST_SPOT_" : "4792004010003",
+        "MNTN_ID" : "479200401"
+      },
+      "geometry" : {
+        "x" : 356091.65200001188,
+        "y" : 493547.67180000246
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 9497,
+        "MNTN_CODE" : "427505101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구룡산",
+        "PAST_SPOT_" : "4792004010004",
+        "MNTN_ID" : "479200401"
+      },
+      "geometry" : {
+        "x" : 358112.10650001466,
+        "y" : 491369.13220000081
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 9498,
+        "MNTN_CODE" : "427505101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구룡산",
+        "PAST_SPOT_" : "4792004010005",
+        "MNTN_ID" : "479200401"
+      },
+      "geometry" : {
+        "x" : 358438.63650001213,
+        "y" : 492832.4793999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 9499,
+        "MNTN_CODE" : "427505101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구룡산",
+        "PAST_SPOT_" : "4792004010006",
+        "MNTN_ID" : "479200401"
+      },
+      "geometry" : {
+        "x" : 359646.43750001676,
+        "y" : 480772.48369999975
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 9500,
+        "MNTN_CODE" : "427505101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구룡산",
+        "PAST_SPOT_" : "4792004010007",
+        "MNTN_ID" : "479200401"
+      },
+      "geometry" : {
+        "x" : 362039.29120001663,
+        "y" : 495997.10139999911
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 9501,
+        "MNTN_CODE" : "427505101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구룡산",
+        "PAST_SPOT_" : "4792004010008",
+        "MNTN_ID" : "479200401"
+      },
+      "geometry" : {
+        "x" : 362247.06840001512,
+        "y" : 492841.1612000037
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 9502,
+        "MNTN_CODE" : "427505101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구룡산",
+        "PAST_SPOT_" : "4792004010009",
+        "MNTN_ID" : "479200401"
+      },
+      "geometry" : {
+        "x" : 362984.41440001596,
+        "y" : 495166.76080000214
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 9503,
+        "MNTN_CODE" : "427505101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구룡산",
+        "PAST_SPOT_" : "4275005010010",
+        "MNTN_ID" : "427500501"
+      },
+      "geometry" : {
+        "x" : 364307.29510002024,
+        "y" : 496370.90910000168
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 9504,
+        "MNTN_CODE" : "427505101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구룡산",
+        "PAST_SPOT_" : "4275005010011",
+        "MNTN_ID" : "427500501"
+      },
+      "geometry" : {
+        "x" : 366145.36160003487,
+        "y" : 495904.9422999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 9505,
+        "MNTN_CODE" : "427505101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구룡산",
+        "PAST_SPOT_" : "4792004010012",
+        "MNTN_ID" : "479200401"
+      },
+      "geometry" : {
+        "x" : 364411.06720001809,
+        "y" : 490748.63010000065
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 9506,
+        "MNTN_CODE" : "427505101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구룡산",
+        "PAST_SPOT_" : "4275005010013",
+        "MNTN_ID" : "427500501"
+      },
+      "geometry" : {
+        "x" : 365266.94920043461,
+        "y" : 494856.74569971301
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 9507,
+        "MNTN_CODE" : "427505101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구룡산",
+        "PAST_SPOT_" : "4275005010014",
+        "MNTN_ID" : "427500501"
+      },
+      "geometry" : {
+        "x" : 366552.63760001864,
+        "y" : 495632.20599999838
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 9508,
+        "MNTN_CODE" : "427505101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구룡산",
+        "PAST_SPOT_" : "4792004010015",
+        "MNTN_ID" : "479200401"
+      },
+      "geometry" : {
+        "x" : 366748.91890001856,
+        "y" : 489024.93840000033
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 9509,
+        "MNTN_CODE" : "427505101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구룡산",
+        "PAST_SPOT_" : "4275005010016",
+        "MNTN_ID" : "427500501"
+      },
+      "geometry" : {
+        "x" : 371579.03140053619,
+        "y" : 495319.92859963141
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 9510,
+        "MNTN_CODE" : "427505101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구룡산",
+        "PAST_SPOT_" : "4219002010017",
+        "MNTN_ID" : "421900201"
+      },
+      "geometry" : {
+        "x" : 369892.82661748584,
+        "y" : 498114.98193459772
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 9511,
+        "MNTN_CODE" : "427505101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구룡산",
+        "PAST_SPOT_" : "4219002010018",
+        "MNTN_ID" : "421900201"
+      },
+      "geometry" : {
+        "x" : 373110.4207005864,
+        "y" : 498611.52029961906
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 9512,
+        "MNTN_CODE" : "427505101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구룡산",
+        "PAST_SPOT_" : "4219002010019",
+        "MNTN_ID" : "421900201"
+      },
+      "geometry" : {
+        "x" : 370779.14570004307,
+        "y" : 500766.71089999937
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 9513,
+        "MNTN_CODE" : "427505101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구룡산",
+        "PAST_SPOT_" : "4792004010020",
+        "MNTN_ID" : "479200401"
+      },
+      "geometry" : {
+        "x" : 355765.81620002165,
+        "y" : 492141.78859999962
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 9514,
+        "MNTN_CODE" : "427505101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구룡산",
+        "PAST_SPOT_" : "4792004010021",
+        "MNTN_ID" : "479200401"
+      },
+      "geometry" : {
+        "x" : 358256.81610003021,
+        "y" : 492378.18469999917
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 9515,
+        "MNTN_CODE" : "427505101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구룡산",
+        "PAST_SPOT_" : "4792004010022",
+        "MNTN_ID" : "479200401"
+      },
+      "geometry" : {
+        "x" : 358359.47160002403,
+        "y" : 492385.8984999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 9516,
+        "MNTN_CODE" : "427505101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점, 이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구룡산",
+        "PAST_SPOT_" : "4792004010023",
+        "MNTN_ID" : "479200401"
+      },
+      "geometry" : {
+        "x" : 358379.66170002706,
+        "y" : 492744.24210000224
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 9517,
+        "MNTN_CODE" : "427505101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "분기점,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구룡산",
+        "PAST_SPOT_" : "4792004010024",
+        "MNTN_ID" : "479200401"
+      },
+      "geometry" : {
+        "x" : 358429.24960002303,
+        "y" : 492823.40220000036
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 9518,
+        "MNTN_CODE" : "427505101",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상, 이정표,분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구룡산",
+        "PAST_SPOT_" : "4792004010025",
+        "MNTN_ID" : "479200401"
+      },
+      "geometry" : {
+        "x" : 358610.86030002683,
+        "y" : 492991.87150000595
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 9519,
+        "MNTN_CODE" : "427505101",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판,벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구룡산",
+        "PAST_SPOT_" : "4792004010026",
+        "MNTN_ID" : "479200401"
+      },
+      "geometry" : {
+        "x" : 356608.88150002807,
+        "y" : 493468.52070000395
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 9520,
+        "MNTN_CODE" : "427505101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구룡산",
+        "PAST_SPOT_" : "4792004010027",
+        "MNTN_ID" : "479200401"
+      },
+      "geometry" : {
+        "x" : 368877.13810049184,
+        "y" : 497186.81759967655
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 9521,
+        "MNTN_CODE" : "427505101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구룡산",
+        "PAST_SPOT_" : "4792004010028",
+        "MNTN_ID" : "479200401"
+      },
+      "geometry" : {
+        "x" : 370228.13590051606,
+        "y" : 499169.37199965306
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 9522,
+        "MNTN_CODE" : "427505101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구룡산",
+        "PAST_SPOT_" : "4792004010029",
+        "MNTN_ID" : "479200401"
+      },
+      "geometry" : {
+        "x" : 372336.97510054987,
+        "y" : 497142.87769962475
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 96183,
+        "MNTN_CODE" : "427505101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "전경사진",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구룡산",
+        "PAST_SPOT_" : "4275051010030",
+        "MNTN_ID" : "427505101"
+      },
+      "geometry" : {
+        "x" : 370414.45000000001,
+        "y" : 483382.71089999878
+      }
+    }
+  ]
+}

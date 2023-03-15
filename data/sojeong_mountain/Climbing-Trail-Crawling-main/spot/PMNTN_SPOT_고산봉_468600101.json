@@ -1,0 +1,531 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 6315,
+        "MNTN_CODE" : "468600101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "무덤",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고산봉",
+        "PAST_SPOT_" : "26209902000001",
+        "MNTN_ID" : "2620990200"
+      },
+      "geometry" : {
+        "x" : 155913.20249999966,
+        "y" : 278272.11440000124
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 6316,
+        "MNTN_CODE" : "468600101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고산봉",
+        "PAST_SPOT_" : "26209902000002",
+        "MNTN_ID" : "2620990200"
+      },
+      "geometry" : {
+        "x" : 156914.86909999978,
+        "y" : 277960.12340000086
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 6317,
+        "MNTN_CODE" : "468600101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "함몰지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고산봉",
+        "PAST_SPOT_" : "26209902000003",
+        "MNTN_ID" : "2620990200"
+      },
+      "geometry" : {
+        "x" : 157508.69420000166,
+        "y" : 277769.27160000056
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 6318,
+        "MNTN_CODE" : "468600101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고산봉",
+        "PAST_SPOT_" : "26209902000004",
+        "MNTN_ID" : "2620990200"
+      },
+      "geometry" : {
+        "x" : 157836.79940000083,
+        "y" : 277607.36739999987
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 6319,
+        "MNTN_CODE" : "468600101",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고산봉",
+        "PAST_SPOT_" : "26209902000005",
+        "MNTN_ID" : "2620990200"
+      },
+      "geometry" : {
+        "x" : 158039.18979999982,
+        "y" : 277377.54050000198
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 6320,
+        "MNTN_CODE" : "468600101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암반지대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고산봉",
+        "PAST_SPOT_" : "26209902000006",
+        "MNTN_ID" : "2620990200"
+      },
+      "geometry" : {
+        "x" : 158299.1502000019,
+        "y" : 277091.89980000071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 6321,
+        "MNTN_CODE" : "468600101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고산봉",
+        "PAST_SPOT_" : "26209902000007",
+        "MNTN_ID" : "2620990200"
+      },
+      "geometry" : {
+        "x" : 157360.31640000176,
+        "y" : 274886.47690000385
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 6322,
+        "MNTN_CODE" : "468600101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터1(공터)",
+        "ETC_MATTER" : "쉼터조성",
+        "MNTN_NM" : "고산봉",
+        "PAST_SPOT_" : "26209902000008",
+        "MNTN_ID" : "2620990200"
+      },
+      "geometry" : {
+        "x" : 157467.33939999994,
+        "y" : 274971.08899999969
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 6323,
+        "MNTN_CODE" : "468600101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌탑",
+        "ETC_MATTER" : "벤치설치",
+        "MNTN_NM" : "고산봉",
+        "PAST_SPOT_" : "26209902000009",
+        "MNTN_ID" : "2620990200"
+      },
+      "geometry" : {
+        "x" : 157298.60489999969,
+        "y" : 275229.28609999828
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 6324,
+        "MNTN_CODE" : "468600101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "급경사지",
+        "ETC_MATTER" : "경사150m",
+        "MNTN_NM" : "고산봉",
+        "PAST_SPOT_" : "26209902000010",
+        "MNTN_ID" : "2620990200"
+      },
+      "geometry" : {
+        "x" : 157152.46009999979,
+        "y" : 275445.17080000229
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 6325,
+        "MNTN_CODE" : "468600101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "급경사지",
+        "ETC_MATTER" : "급경사200m",
+        "MNTN_NM" : "고산봉",
+        "PAST_SPOT_" : "26209902000011",
+        "MNTN_ID" : "2620990200"
+      },
+      "geometry" : {
+        "x" : 156998.98940000311,
+        "y" : 275703.90750000253
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 6326,
+        "MNTN_CODE" : "468600101",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "구 헬기장",
+        "ETC_MATTER" : "정자,계단",
+        "MNTN_NM" : "고산봉",
+        "PAST_SPOT_" : "26209902000012",
+        "MNTN_ID" : "2620990200"
+      },
+      "geometry" : {
+        "x" : 156889.87460000068,
+        "y" : 276011.30860000104
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 6327,
+        "MNTN_CODE" : "468600101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "전망대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고산봉",
+        "PAST_SPOT_" : "26209902000013",
+        "MNTN_ID" : "2620990200"
+      },
+      "geometry" : {
+        "x" : 157125.12829999998,
+        "y" : 276396.88800000027
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 6328,
+        "MNTN_CODE" : "468600101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "아차삼거리",
+        "MNTN_NM" : "고산봉",
+        "PAST_SPOT_" : "26209902000014",
+        "MNTN_ID" : "2620990200"
+      },
+      "geometry" : {
+        "x" : 157153.81920000259,
+        "y" : 276644.83890000358
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 6329,
+        "MNTN_CODE" : "468600101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "바위나출지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고산봉",
+        "PAST_SPOT_" : "26209902000015",
+        "MNTN_ID" : "2620990200"
+      },
+      "geometry" : {
+        "x" : 157237.69370000158,
+        "y" : 276723.59530000389
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 6330,
+        "MNTN_CODE" : "468600101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암반지대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고산봉",
+        "PAST_SPOT_" : "26209902000016",
+        "MNTN_ID" : "2620990200"
+      },
+      "geometry" : {
+        "x" : 157708.2396000009,
+        "y" : 277362.1630000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 6331,
+        "MNTN_CODE" : "468600101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "고산치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고산봉",
+        "PAST_SPOT_" : "26209902000017",
+        "MNTN_ID" : "2620990200"
+      },
+      "geometry" : {
+        "x" : 157853.50350000244,
+        "y" : 277481.14960000105
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 6332,
+        "MNTN_CODE" : "468600101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단설치구간",
+        "ETC_MATTER" : "목계단50m",
+        "MNTN_NM" : "고산봉",
+        "PAST_SPOT_" : "26209902000018",
+        "MNTN_ID" : "2620990200"
+      },
+      "geometry" : {
+        "x" : 157870.34290000144,
+        "y" : 277501.08449999988
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 6333,
+        "MNTN_CODE" : "468600101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프설치",
+        "ETC_MATTER" : "로프3m",
+        "MNTN_NM" : "고산봉",
+        "PAST_SPOT_" : "26209902000019",
+        "MNTN_ID" : "2620990200"
+      },
+      "geometry" : {
+        "x" : 157928.21550000086,
+        "y" : 277514.46750000119
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 6334,
+        "MNTN_CODE" : "468600101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "급경사지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고산봉",
+        "PAST_SPOT_" : "26209902000020",
+        "MNTN_ID" : "2620990200"
+      },
+      "geometry" : {
+        "x" : 158516.97740000207,
+        "y" : 276617.60779999942
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 6335,
+        "MNTN_CODE" : "468600101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시작점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고산봉",
+        "PAST_SPOT_" : "26209902000021",
+        "MNTN_ID" : "2620990200"
+      },
+      "geometry" : {
+        "x" : 155877.67100000102,
+        "y" : 278301.46859999932
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 6336,
+        "MNTN_CODE" : "468600101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "대동면사무소",
+        "MNTN_NM" : "고산봉",
+        "PAST_SPOT_" : "26209902000022",
+        "MNTN_ID" : "2620990200"
+      },
+      "geometry" : {
+        "x" : 157297.8515000008,
+        "y" : 274836.3702000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 6337,
+        "MNTN_CODE" : "468600101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고산봉",
+        "PAST_SPOT_" : "26209902000023",
+        "MNTN_ID" : "2620990200"
+      },
+      "geometry" : {
+        "x" : 157892.15800000075,
+        "y" : 277554.71010000072
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 6338,
+        "MNTN_CODE" : "468600101",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "고산봉정상,팔각정자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고산봉",
+        "PAST_SPOT_" : "26209902000024",
+        "MNTN_ID" : "2620990200"
+      },
+      "geometry" : {
+        "x" : 157979.98090000171,
+        "y" : 277488.81079999916
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 6339,
+        "MNTN_CODE" : "468600101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,이정표",
+        "ETC_MATTER" : "이정표보완",
+        "MNTN_NM" : "고산봉",
+        "PAST_SPOT_" : "26209902000025",
+        "MNTN_ID" : "2620990200"
+      },
+      "geometry" : {
+        "x" : 158613.17750000115,
+        "y" : 276487.9672000017
+      }
+    }
+  ]
+}

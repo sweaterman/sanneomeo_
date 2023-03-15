@@ -1,0 +1,621 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 86988,
+        "MNTN_CODE" : "479205504",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "충혼탑",
+        "PAST_SPOT_" : "4792055040001",
+        "MNTN_ID" : "479205504"
+      },
+      "geometry" : {
+        "x" : 355318.76180000138,
+        "y" : 478278.08860000037
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 86989,
+        "MNTN_CODE" : "479205504",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "충혼탑",
+        "PAST_SPOT_" : "4792055040002",
+        "MNTN_ID" : "479205504"
+      },
+      "geometry" : {
+        "x" : 355328.80759999994,
+        "y" : 478280.58000000194
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 86990,
+        "MNTN_CODE" : "479205504",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "6.25참전용사명예선상비",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "충혼탑",
+        "PAST_SPOT_" : "4792055040003",
+        "MNTN_ID" : "479205504"
+      },
+      "geometry" : {
+        "x" : 355354.92520000041,
+        "y" : 478282.22030000016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 86991,
+        "MNTN_CODE" : "479205504",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "충혼탑",
+        "PAST_SPOT_" : "4792055040004",
+        "MNTN_ID" : "479205504"
+      },
+      "geometry" : {
+        "x" : 355385.00280000083,
+        "y" : 478280.68510000035
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 86992,
+        "MNTN_CODE" : "479205504",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "충혼탑, 벤치,\n가로등, 국기게양대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "충혼탑",
+        "PAST_SPOT_" : "4792055040005",
+        "MNTN_ID" : "479205504"
+      },
+      "geometry" : {
+        "x" : 355399.23660000041,
+        "y" : 478284.70480000041
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 86993,
+        "MNTN_CODE" : "479205504",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "충혼탑",
+        "PAST_SPOT_" : "4792055040006",
+        "MNTN_ID" : "479205504"
+      },
+      "geometry" : {
+        "x" : 355397.43280000146,
+        "y" : 478313.06500000134
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 86994,
+        "MNTN_CODE" : "479205504",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "목계단 끝, 훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "충혼탑",
+        "PAST_SPOT_" : "4792055040007",
+        "MNTN_ID" : "479205504"
+      },
+      "geometry" : {
+        "x" : 355444.13510000054,
+        "y" : 478297.19520000182
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 86995,
+        "MNTN_CODE" : "479205504",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "충혼탑",
+        "PAST_SPOT_" : "4792055040008",
+        "MNTN_ID" : "479205504"
+      },
+      "geometry" : {
+        "x" : 355486.1269000005,
+        "y" : 478283.03559999913
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 86996,
+        "MNTN_CODE" : "479205504",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "충혼탑",
+        "PAST_SPOT_" : "4792055040009",
+        "MNTN_ID" : "479205504"
+      },
+      "geometry" : {
+        "x" : 355581.82910000067,
+        "y" : 478235.25800000131
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 86997,
+        "MNTN_CODE" : "479205504",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "충혼탑",
+        "PAST_SPOT_" : "4792055040010",
+        "MNTN_ID" : "479205504"
+      },
+      "geometry" : {
+        "x" : 355608.88729999959,
+        "y" : 478244.33330000192
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 86998,
+        "MNTN_CODE" : "479205504",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "충혼탑",
+        "PAST_SPOT_" : "4792055040011",
+        "MNTN_ID" : "479205504"
+      },
+      "geometry" : {
+        "x" : 355625.12240000069,
+        "y" : 478246.41709999926
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 86999,
+        "MNTN_CODE" : "479205504",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "충혼탑",
+        "PAST_SPOT_" : "4792055040012",
+        "MNTN_ID" : "479205504"
+      },
+      "geometry" : {
+        "x" : 355956.59530000016,
+        "y" : 478217.58060000092
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 87000,
+        "MNTN_CODE" : "479205504",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "전기통신\n시설물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "충혼탑",
+        "PAST_SPOT_" : "4792055040013",
+        "MNTN_ID" : "479205504"
+      },
+      "geometry" : {
+        "x" : 356098.91980000027,
+        "y" : 478509.3078000024
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 87001,
+        "MNTN_CODE" : "479205504",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동기구,벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "충혼탑",
+        "PAST_SPOT_" : "4792055040014",
+        "MNTN_ID" : "479205504"
+      },
+      "geometry" : {
+        "x" : 356153.13870000094,
+        "y" : 478720.40060000122
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 87002,
+        "MNTN_CODE" : "479205504",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "충혼탑",
+        "PAST_SPOT_" : "4792055040015",
+        "MNTN_ID" : "479205504"
+      },
+      "geometry" : {
+        "x" : 356007.22929999977,
+        "y" : 478951.62550000101
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 87003,
+        "MNTN_CODE" : "479205504",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "충혼탑",
+        "PAST_SPOT_" : "4792055040016",
+        "MNTN_ID" : "479205504"
+      },
+      "geometry" : {
+        "x" : 356006.43769999966,
+        "y" : 478977.65910000168
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 87004,
+        "MNTN_CODE" : "479205504",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "충혼탑",
+        "PAST_SPOT_" : "4792055040017",
+        "MNTN_ID" : "479205504"
+      },
+      "geometry" : {
+        "x" : 355541.40440000221,
+        "y" : 478369.71910000406
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 87005,
+        "MNTN_CODE" : "479205504",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "충혼탑",
+        "PAST_SPOT_" : "4792055040018",
+        "MNTN_ID" : "479205504"
+      },
+      "geometry" : {
+        "x" : 355413.56360000093,
+        "y" : 478370.7603999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 87006,
+        "MNTN_CODE" : "479205504",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "충혼탑",
+        "PAST_SPOT_" : "4792055040019",
+        "MNTN_ID" : "479205504"
+      },
+      "geometry" : {
+        "x" : 355310.96700000018,
+        "y" : 478341.83440000005
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 87007,
+        "MNTN_CODE" : "479205504",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "충혼탑",
+        "PAST_SPOT_" : "4792055040020",
+        "MNTN_ID" : "479205504"
+      },
+      "geometry" : {
+        "x" : 355400.16580000054,
+        "y" : 478380.87470000237
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 87008,
+        "MNTN_CODE" : "479205504",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "충혼탑",
+        "PAST_SPOT_" : "4792055040021",
+        "MNTN_ID" : "479205504"
+      },
+      "geometry" : {
+        "x" : 355402.97369999997,
+        "y" : 478085.0167999994
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 87009,
+        "MNTN_CODE" : "479205504",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "충혼탑",
+        "PAST_SPOT_" : "4792055040022",
+        "MNTN_ID" : "479205504"
+      },
+      "geometry" : {
+        "x" : 355643.85400000121,
+        "y" : 478254.51340000145
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 87010,
+        "MNTN_CODE" : "479205504",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "충혼탑",
+        "PAST_SPOT_" : "4792055040023",
+        "MNTN_ID" : "479205504"
+      },
+      "geometry" : {
+        "x" : 355775.15140000079,
+        "y" : 478062.87539999932
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 87011,
+        "MNTN_CODE" : "479205504",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "충혼탑",
+        "PAST_SPOT_" : "4792055040024",
+        "MNTN_ID" : "479205504"
+      },
+      "geometry" : {
+        "x" : 355999.63030000124,
+        "y" : 478997.51799999923
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 99551,
+        "MNTN_CODE" : "479205504",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "충혼탑",
+        "PAST_SPOT_" : "4792055040025",
+        "MNTN_ID" : "479205504"
+      },
+      "geometry" : {
+        "x" : 355312.9486000007,
+        "y" : 478340.18500000116
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 99552,
+        "MNTN_CODE" : "479205504",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "충혼탑",
+        "PAST_SPOT_" : "4792055040026",
+        "MNTN_ID" : "479205504"
+      },
+      "geometry" : {
+        "x" : 355641.46959999995,
+        "y" : 478256.67380000063
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 99553,
+        "MNTN_CODE" : "479205504",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "충혼탑",
+        "PAST_SPOT_" : "4792055040027",
+        "MNTN_ID" : "479205504"
+      },
+      "geometry" : {
+        "x" : 355777.62299999857,
+        "y" : 478063.87549999938
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 99554,
+        "MNTN_CODE" : "479205504",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "충혼탑",
+        "PAST_SPOT_" : "4792055040028",
+        "MNTN_ID" : "479205504"
+      },
+      "geometry" : {
+        "x" : 356005.71260000061,
+        "y" : 478991.92159999895
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 99555,
+        "MNTN_CODE" : "479205504",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "충혼탑",
+        "PAST_SPOT_" : "4792055040029",
+        "MNTN_ID" : "479205504"
+      },
+      "geometry" : {
+        "x" : 355402.8502000001,
+        "y" : 478379.86150000052
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 99556,
+        "MNTN_CODE" : "479205504",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "충혼탑",
+        "PAST_SPOT_" : "4792055040030",
+        "MNTN_ID" : "479205504"
+      },
+      "geometry" : {
+        "x" : 355406.80740000022,
+        "y" : 478083.07580000057
+      }
+    }
+  ]
+}

@@ -1,0 +1,603 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 30413,
+        "MNTN_CODE" : "457100801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "묵방산",
+        "PAST_SPOT_" : "4571008010001",
+        "MNTN_ID" : "457100801"
+      },
+      "geometry" : {
+        "x" : 212347.06140000094,
+        "y" : 358976.76369999908
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 30414,
+        "MNTN_CODE" : "457100801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "묵방산",
+        "PAST_SPOT_" : "4571008010002",
+        "MNTN_ID" : "457100801"
+      },
+      "geometry" : {
+        "x" : 215271.63370000105,
+        "y" : 360293.80939999968
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 30415,
+        "MNTN_CODE" : "457100801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "묵방산",
+        "PAST_SPOT_" : "4571008010003",
+        "MNTN_ID" : "457100801"
+      },
+      "geometry" : {
+        "x" : 215578.89530000091,
+        "y" : 360356.80550000444
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 30416,
+        "MNTN_CODE" : "457100801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "묵방산",
+        "PAST_SPOT_" : "4571008010004",
+        "MNTN_ID" : "457100801"
+      },
+      "geometry" : {
+        "x" : 216009.64120000135,
+        "y" : 359316.70280000195
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 30417,
+        "MNTN_CODE" : "457100801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "묵방산",
+        "PAST_SPOT_" : "4571008010005",
+        "MNTN_ID" : "457100801"
+      },
+      "geometry" : {
+        "x" : 216054.0251000002,
+        "y" : 359860.70700000226
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 30418,
+        "MNTN_CODE" : "457100801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "묵방산",
+        "PAST_SPOT_" : "4571008010006",
+        "MNTN_ID" : "457100801"
+      },
+      "geometry" : {
+        "x" : 216217.93070000038,
+        "y" : 358548.63530000113
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 30419,
+        "MNTN_CODE" : "457100801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "묵방산",
+        "PAST_SPOT_" : "4571008010007",
+        "MNTN_ID" : "457100801"
+      },
+      "geometry" : {
+        "x" : 216219.762099999,
+        "y" : 359030.77520000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 30420,
+        "MNTN_CODE" : "457100801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "묵방산",
+        "PAST_SPOT_" : "4571008010008",
+        "MNTN_ID" : "457100801"
+      },
+      "geometry" : {
+        "x" : 216236.53910000063,
+        "y" : 359423.61560000293
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 30421,
+        "MNTN_CODE" : "457100801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "묵방산",
+        "PAST_SPOT_" : "4571008010009",
+        "MNTN_ID" : "457100801"
+      },
+      "geometry" : {
+        "x" : 216390.57299999986,
+        "y" : 359553.48369999975
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 30422,
+        "MNTN_CODE" : "457100801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "묵방산",
+        "PAST_SPOT_" : "4571008010010",
+        "MNTN_ID" : "457100801"
+      },
+      "geometry" : {
+        "x" : 216473.15409999993,
+        "y" : 358990.04710000195
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 30423,
+        "MNTN_CODE" : "457100801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "묵방산",
+        "PAST_SPOT_" : "4571008010011",
+        "MNTN_ID" : "457100801"
+      },
+      "geometry" : {
+        "x" : 216522.28234742675,
+        "y" : 357685.46188365668
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 30424,
+        "MNTN_CODE" : "457100801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "묵방산",
+        "PAST_SPOT_" : "4571008010012",
+        "MNTN_ID" : "457100801"
+      },
+      "geometry" : {
+        "x" : 216566.53170000017,
+        "y" : 358369.94670000114
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 30425,
+        "MNTN_CODE" : "457100801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "묵방산",
+        "PAST_SPOT_" : "4571008010013",
+        "MNTN_ID" : "457100801"
+      },
+      "geometry" : {
+        "x" : 216584.85550000053,
+        "y" : 358486.25339999981
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 30426,
+        "MNTN_CODE" : "457100801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "묵방산",
+        "PAST_SPOT_" : "4571008010014",
+        "MNTN_ID" : "457100801"
+      },
+      "geometry" : {
+        "x" : 216668.13030000031,
+        "y" : 358651.71849999949
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 30427,
+        "MNTN_CODE" : "457100801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "묵방산",
+        "PAST_SPOT_" : "4571008010015",
+        "MNTN_ID" : "457100801"
+      },
+      "geometry" : {
+        "x" : 216756.72150000092,
+        "y" : 358827.11470000073
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 30428,
+        "MNTN_CODE" : "457100801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "묵방산",
+        "PAST_SPOT_" : "4571008010016",
+        "MNTN_ID" : "457100801"
+      },
+      "geometry" : {
+        "x" : 216767.70370000135,
+        "y" : 358673.24120000191
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 30429,
+        "MNTN_CODE" : "457100801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "묵방산",
+        "PAST_SPOT_" : "4571008010017",
+        "MNTN_ID" : "457100801"
+      },
+      "geometry" : {
+        "x" : 216840.5987999998,
+        "y" : 358664.42270000093
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 30430,
+        "MNTN_CODE" : "457100801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "묵방산",
+        "PAST_SPOT_" : "4571008010018",
+        "MNTN_ID" : "457100801"
+      },
+      "geometry" : {
+        "x" : 216871.81400000025,
+        "y" : 358796.23350000195
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 30431,
+        "MNTN_CODE" : "457100801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "묵방산",
+        "PAST_SPOT_" : "4571008010019",
+        "MNTN_ID" : "457100801"
+      },
+      "geometry" : {
+        "x" : 216914.50540000107,
+        "y" : 356956.00990000181
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 30432,
+        "MNTN_CODE" : "457100801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "묵방산",
+        "PAST_SPOT_" : "4571008010020",
+        "MNTN_ID" : "457100801"
+      },
+      "geometry" : {
+        "x" : 217062.01520000026,
+        "y" : 358704.49789999984
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 30433,
+        "MNTN_CODE" : "457100801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "묵방산",
+        "PAST_SPOT_" : "4571008010021",
+        "MNTN_ID" : "457100801"
+      },
+      "geometry" : {
+        "x" : 217206.7481000023,
+        "y" : 358531.01300000213
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 30434,
+        "MNTN_CODE" : "457100801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "묵방산",
+        "PAST_SPOT_" : "4571008010022",
+        "MNTN_ID" : "457100801"
+      },
+      "geometry" : {
+        "x" : 218893.64540000074,
+        "y" : 357813.81730000302
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 30435,
+        "MNTN_CODE" : "457100801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "묵방산",
+        "PAST_SPOT_" : "4571008010023",
+        "MNTN_ID" : "457100801"
+      },
+      "geometry" : {
+        "x" : 219184.25149999931,
+        "y" : 357805.96399999969
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 30436,
+        "MNTN_CODE" : "457100801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "묵방산",
+        "PAST_SPOT_" : "4571008010024",
+        "MNTN_ID" : "457100801"
+      },
+      "geometry" : {
+        "x" : 219246.1885000011,
+        "y" : 357573.82970000058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 30437,
+        "MNTN_CODE" : "457100801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "묵방산",
+        "PAST_SPOT_" : "4571008010025",
+        "MNTN_ID" : "457100801"
+      },
+      "geometry" : {
+        "x" : 219856.92270000186,
+        "y" : 358068.3433000017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 30438,
+        "MNTN_CODE" : "457100801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "묵방산",
+        "PAST_SPOT_" : "4571008010026",
+        "MNTN_ID" : "457100801"
+      },
+      "geometry" : {
+        "x" : 219901.72159999982,
+        "y" : 357790.00500000082
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 30439,
+        "MNTN_CODE" : "457100801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "묵방산",
+        "PAST_SPOT_" : "4571008010027",
+        "MNTN_ID" : "457100801"
+      },
+      "geometry" : {
+        "x" : 220423.40050000045,
+        "y" : 358283.77060000226
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 30440,
+        "MNTN_CODE" : "457100801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "묵방산",
+        "PAST_SPOT_" : "4571008010028",
+        "MNTN_ID" : "457100801"
+      },
+      "geometry" : {
+        "x" : 220444.58700000215,
+        "y" : 356791.66699999757
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 30441,
+        "MNTN_CODE" : "457100801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "묵방산",
+        "PAST_SPOT_" : "4571008010029",
+        "MNTN_ID" : "457100801"
+      },
+      "geometry" : {
+        "x" : 220702.47690000199,
+        "y" : 357381.75060000084
+      }
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 74617,
+        "MNTN_CODE" : "271401001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응해산",
+        "PAST_SPOT_" : "2714010010001",
+        "MNTN_ID" : "271401001"
+      },
+      "geometry" : {
+        "x" : 348309.68950000126,
+        "y" : 372998.71510000154
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 74618,
+        "MNTN_CODE" : "271401001",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응해산",
+        "PAST_SPOT_" : "2714010010002",
+        "MNTN_ID" : "271401001"
+      },
+      "geometry" : {
+        "x" : 348413.74150000047,
+        "y" : 375694.57050000131
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 74619,
+        "MNTN_CODE" : "271401001",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응해산",
+        "PAST_SPOT_" : "2714010010003",
+        "MNTN_ID" : "271401001"
+      },
+      "geometry" : {
+        "x" : 348300.96380000096,
+        "y" : 376072.09669999965
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 74620,
+        "MNTN_CODE" : "271401001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응해산",
+        "PAST_SPOT_" : "2714010010004",
+        "MNTN_ID" : "271401001"
+      },
+      "geometry" : {
+        "x" : 348261.90450000018,
+        "y" : 376501.16550000012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 74621,
+        "MNTN_CODE" : "271401001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응해산",
+        "PAST_SPOT_" : "2714010010005",
+        "MNTN_ID" : "271401001"
+      },
+      "geometry" : {
+        "x" : 347641.95570000075,
+        "y" : 376922.35119999945
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 74622,
+        "MNTN_CODE" : "271401001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "마을입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응해산",
+        "PAST_SPOT_" : "2714010010006",
+        "MNTN_ID" : "271401001"
+      },
+      "geometry" : {
+        "x" : 348787.14890000038,
+        "y" : 375176.37659999914
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 74623,
+        "MNTN_CODE" : "271401001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응해산",
+        "PAST_SPOT_" : "2714010010007",
+        "MNTN_ID" : "271401001"
+      },
+      "geometry" : {
+        "x" : 347379.51040000096,
+        "y" : 376949.97120000236
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 74624,
+        "MNTN_CODE" : "271401001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응해산",
+        "PAST_SPOT_" : "2714010010008",
+        "MNTN_ID" : "271401001"
+      },
+      "geometry" : {
+        "x" : 347784.07079999987,
+        "y" : 373243.30540000089
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 74625,
+        "MNTN_CODE" : "271401001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응해산",
+        "PAST_SPOT_" : "2714010010009",
+        "MNTN_ID" : "271401001"
+      },
+      "geometry" : {
+        "x" : 347878.60839999933,
+        "y" : 374303.16810000315
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 74626,
+        "MNTN_CODE" : "271401001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응해산",
+        "PAST_SPOT_" : "2714010010010",
+        "MNTN_ID" : "271401001"
+      },
+      "geometry" : {
+        "x" : 348025.76270000078,
+        "y" : 373545.86340000108
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 74627,
+        "MNTN_CODE" : "271401001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응해산",
+        "PAST_SPOT_" : "2714010010011",
+        "MNTN_ID" : "271401001"
+      },
+      "geometry" : {
+        "x" : 348122.16189999972,
+        "y" : 372843.75070000254
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 74628,
+        "MNTN_CODE" : "271401001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응해산",
+        "PAST_SPOT_" : "2714010010012",
+        "MNTN_ID" : "271401001"
+      },
+      "geometry" : {
+        "x" : 348201.066300001,
+        "y" : 374380.72760000266
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 74629,
+        "MNTN_CODE" : "271401001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응해산",
+        "PAST_SPOT_" : "2714010010013",
+        "MNTN_ID" : "271401001"
+      },
+      "geometry" : {
+        "x" : 348250.05580000021,
+        "y" : 374281.28140000068
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 74630,
+        "MNTN_CODE" : "271401001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응해산",
+        "PAST_SPOT_" : "2714010010014",
+        "MNTN_ID" : "271401001"
+      },
+      "geometry" : {
+        "x" : 348271.15640000068,
+        "y" : 375546.97089999914
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 74631,
+        "MNTN_CODE" : "271401001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응해산",
+        "PAST_SPOT_" : "2714010010015",
+        "MNTN_ID" : "271401001"
+      },
+      "geometry" : {
+        "x" : 348301.71109999996,
+        "y" : 372988.16000000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 74632,
+        "MNTN_CODE" : "271401001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응해산",
+        "PAST_SPOT_" : "2714010010016",
+        "MNTN_ID" : "271401001"
+      },
+      "geometry" : {
+        "x" : 348319.98849999998,
+        "y" : 376415.63360000215
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 74633,
+        "MNTN_CODE" : "271401001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응해산",
+        "PAST_SPOT_" : "2714010010017",
+        "MNTN_ID" : "271401001"
+      },
+      "geometry" : {
+        "x" : 348322.75220000185,
+        "y" : 374650.03590000048
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 74634,
+        "MNTN_CODE" : "271401001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응해산",
+        "PAST_SPOT_" : "2714010010018",
+        "MNTN_ID" : "271401001"
+      },
+      "geometry" : {
+        "x" : 348333.59670000058,
+        "y" : 374689.51600000262
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 74635,
+        "MNTN_CODE" : "271401001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응해산",
+        "PAST_SPOT_" : "2714010010019",
+        "MNTN_ID" : "271401001"
+      },
+      "geometry" : {
+        "x" : 348407.72480000183,
+        "y" : 373257.98260000162
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 74636,
+        "MNTN_CODE" : "271401001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응해산",
+        "PAST_SPOT_" : "2714010010020",
+        "MNTN_ID" : "271401001"
+      },
+      "geometry" : {
+        "x" : 348414.87770000007,
+        "y" : 375695.89860000275
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 74637,
+        "MNTN_CODE" : "271401001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응해산",
+        "PAST_SPOT_" : "2714010010021",
+        "MNTN_ID" : "271401001"
+      },
+      "geometry" : {
+        "x" : 348427.05460000131,
+        "y" : 374621.46429999731
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 74638,
+        "MNTN_CODE" : "271401001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응해산",
+        "PAST_SPOT_" : "2714010010022",
+        "MNTN_ID" : "271401001"
+      },
+      "geometry" : {
+        "x" : 350208.65420531575,
+        "y" : 374558.61604597792
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 98947,
+        "MNTN_CODE" : "271401001",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응해산",
+        "PAST_SPOT_" : "2714010010023",
+        "MNTN_ID" : "271401001"
+      },
+      "geometry" : {
+        "x" : 348072.79310000152,
+        "y" : 373390.02720000024
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 98948,
+        "MNTN_CODE" : "271401001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응해산",
+        "PAST_SPOT_" : "2714010010024",
+        "MNTN_ID" : "271401001"
+      },
+      "geometry" : {
+        "x" : 347386.62560000079,
+        "y" : 376945.09689999942
+      }
+    }
+  ]
+}

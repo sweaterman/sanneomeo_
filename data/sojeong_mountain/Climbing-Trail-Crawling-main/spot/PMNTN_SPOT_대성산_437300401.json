@@ -1,0 +1,603 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 19799,
+        "MNTN_CODE" : "437300401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "의평저수지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대성산",
+        "PAST_SPOT_" : "23050708000001",
+        "MNTN_ID" : "2305070800"
+      },
+      "geometry" : {
+        "x" : 254710.07630000263,
+        "y" : 401192.2071000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 19800,
+        "MNTN_CODE" : "437300401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대성산",
+        "PAST_SPOT_" : "23050708000002",
+        "MNTN_ID" : "2305070800"
+      },
+      "geometry" : {
+        "x" : 254266.53130000364,
+        "y" : 401452.35779999942
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 19801,
+        "MNTN_CODE" : "437300401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "윤정리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대성산",
+        "PAST_SPOT_" : "23050708000003",
+        "MNTN_ID" : "2305070800"
+      },
+      "geometry" : {
+        "x" : 255399.02400000207,
+        "y" : 403115.23150000162
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 19802,
+        "MNTN_CODE" : "437300401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "의평저수지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대성산",
+        "PAST_SPOT_" : "23050708000004",
+        "MNTN_ID" : "2305070800"
+      },
+      "geometry" : {
+        "x" : 255616.36320000328,
+        "y" : 401647.44779999927
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 19803,
+        "MNTN_CODE" : "437300401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대성산",
+        "PAST_SPOT_" : "23050708000005",
+        "MNTN_ID" : "2305070800"
+      },
+      "geometry" : {
+        "x" : 255616.27150000073,
+        "y" : 401648.55969999917
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 19804,
+        "MNTN_CODE" : "437300401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "의평저수지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대성산",
+        "PAST_SPOT_" : "23050708000006",
+        "MNTN_ID" : "2305070800"
+      },
+      "geometry" : {
+        "x" : 255453.62110000011,
+        "y" : 401835.79960000329
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 19805,
+        "MNTN_CODE" : "437300401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산노안내표지판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대성산",
+        "PAST_SPOT_" : "23050708000007",
+        "MNTN_ID" : "2305070800"
+      },
+      "geometry" : {
+        "x" : 255427.30289999954,
+        "y" : 401844.49740000069
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 19806,
+        "MNTN_CODE" : "437300401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "폭포",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대성산",
+        "PAST_SPOT_" : "23050708000008",
+        "MNTN_ID" : "2305070800"
+      },
+      "geometry" : {
+        "x" : 254688.25120000076,
+        "y" : 401979.7050999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 19807,
+        "MNTN_CODE" : "437300401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대성산",
+        "PAST_SPOT_" : "23050708000009",
+        "MNTN_ID" : "2305070800"
+      },
+      "geometry" : {
+        "x" : 254456.93120000046,
+        "y" : 402203.16600000113
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 19808,
+        "MNTN_CODE" : "437300401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "강청리소류지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대성산",
+        "PAST_SPOT_" : "23050708000010",
+        "MNTN_ID" : "2305070800"
+      },
+      "geometry" : {
+        "x" : 254501.99640000053,
+        "y" : 404510.52190000378
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 19809,
+        "MNTN_CODE" : "437300401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산안내표지판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대성산",
+        "PAST_SPOT_" : "23050708000011",
+        "MNTN_ID" : "2305070800"
+      },
+      "geometry" : {
+        "x" : 254242.09080000129,
+        "y" : 404217.47310000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 19810,
+        "MNTN_CODE" : "437300401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "저수지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대성산",
+        "PAST_SPOT_" : "23050708000012",
+        "MNTN_ID" : "2305070800"
+      },
+      "geometry" : {
+        "x" : 254167.17650000006,
+        "y" : 404167.16269999743
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 19811,
+        "MNTN_CODE" : "437300401",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "약수터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대성산",
+        "PAST_SPOT_" : "23050708000013",
+        "MNTN_ID" : "2305070800"
+      },
+      "geometry" : {
+        "x" : 253689.21540000103,
+        "y" : 403442.42600000463
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 19812,
+        "MNTN_CODE" : "437300401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대성산",
+        "PAST_SPOT_" : "23050708000014",
+        "MNTN_ID" : "2305070800"
+      },
+      "geometry" : {
+        "x" : 255626.96769999992,
+        "y" : 401634.95769999921
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 19813,
+        "MNTN_CODE" : "437300401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대성산",
+        "PAST_SPOT_" : "23050708000015",
+        "MNTN_ID" : "2305070800"
+      },
+      "geometry" : {
+        "x" : 251467.50890000071,
+        "y" : 401805.91269999929
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 19814,
+        "MNTN_CODE" : "437300401",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "대성산정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대성산",
+        "PAST_SPOT_" : "23050708000016",
+        "MNTN_ID" : "2305070800"
+      },
+      "geometry" : {
+        "x" : 253622.47410000023,
+        "y" : 401726.29900000244
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 19815,
+        "MNTN_CODE" : "437300401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대성산",
+        "PAST_SPOT_" : "23050708000017",
+        "MNTN_ID" : "2305070800"
+      },
+      "geometry" : {
+        "x" : 253645.21590000205,
+        "y" : 401710.7376000043
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 19816,
+        "MNTN_CODE" : "437300401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대성산",
+        "PAST_SPOT_" : "23050708000018",
+        "MNTN_ID" : "2305070800"
+      },
+      "geometry" : {
+        "x" : 253678.27370000072,
+        "y" : 403473.34280000068
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 19817,
+        "MNTN_CODE" : "437300401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대성산",
+        "PAST_SPOT_" : "23050708000019",
+        "MNTN_ID" : "2305070800"
+      },
+      "geometry" : {
+        "x" : 253966.88660000172,
+        "y" : 403809.22550000064
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 19818,
+        "MNTN_CODE" : "437300401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대성산",
+        "PAST_SPOT_" : "23050708000020",
+        "MNTN_ID" : "2305070800"
+      },
+      "geometry" : {
+        "x" : 254171.50690000132,
+        "y" : 402279.67400000431
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 19819,
+        "MNTN_CODE" : "437300401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "덕운봉,조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대성산",
+        "PAST_SPOT_" : "23050708000021",
+        "MNTN_ID" : "2305070800"
+      },
+      "geometry" : {
+        "x" : 254315.67080000322,
+        "y" : 402505.80110000074
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 19820,
+        "MNTN_CODE" : "437300401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대성산",
+        "PAST_SPOT_" : "23050708000022",
+        "MNTN_ID" : "2305070800"
+      },
+      "geometry" : {
+        "x" : 254375.70280000009,
+        "y" : 403115.1063000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 19821,
+        "MNTN_CODE" : "437300401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대성산",
+        "PAST_SPOT_" : "23050708000023",
+        "MNTN_ID" : "2305070800"
+      },
+      "geometry" : {
+        "x" : 254502.07730000187,
+        "y" : 402280.17410000414
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 19822,
+        "MNTN_CODE" : "437300401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대성산",
+        "PAST_SPOT_" : "23050708000024",
+        "MNTN_ID" : "2305070800"
+      },
+      "geometry" : {
+        "x" : 254516.69039999973,
+        "y" : 402186.22500000149
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 19823,
+        "MNTN_CODE" : "437300401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대성산",
+        "PAST_SPOT_" : "23050708000025",
+        "MNTN_ID" : "2305070800"
+      },
+      "geometry" : {
+        "x" : 254631.60280000139,
+        "y" : 402425.69630000181
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 19824,
+        "MNTN_CODE" : "437300401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대성산",
+        "PAST_SPOT_" : "23050708000026",
+        "MNTN_ID" : "2305070800"
+      },
+      "geometry" : {
+        "x" : 254747.25250000041,
+        "y" : 404781.30350000225
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 19825,
+        "MNTN_CODE" : "437300401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대성산",
+        "PAST_SPOT_" : "23050708000027",
+        "MNTN_ID" : "2305070800"
+      },
+      "geometry" : {
+        "x" : 255234.19180000201,
+        "y" : 401833.43530000187
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 19826,
+        "MNTN_CODE" : "437300401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대성산",
+        "PAST_SPOT_" : "23050708000028",
+        "MNTN_ID" : "2305070800"
+      },
+      "geometry" : {
+        "x" : 255814.36590000149,
+        "y" : 401485.46220000088
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 19827,
+        "MNTN_CODE" : "437300401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대성산",
+        "PAST_SPOT_" : "23050708000029",
+        "MNTN_ID" : "2305070800"
+      },
+      "geometry" : {
+        "x" : 256352.99670000002,
+        "y" : 403856.69980000146
+      }
+    }
+  ]
+}

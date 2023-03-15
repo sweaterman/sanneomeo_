@@ -1,0 +1,783 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 82230,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사 급함(로프 설치 요함)",
+        "ETC_MATTER" : "249 - 250",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000001",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 196167.32789999992,
+        "y" : 451417.13660000451
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 82231,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사 급함(로프 설치 요함)",
+        "ETC_MATTER" : "249 - 250",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000002",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 196171.05840000324,
+        "y" : 451422.03979999945
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 82232,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지 1기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000003",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 196181.41830000095,
+        "y" : 451436.82760000043
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 82233,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "봉수산Ⅰ노선",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000004",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 196272.31860000081,
+        "y" : 451500.31780000217
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 82234,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지 1기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000005",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 196298.60800000094,
+        "y" : 451490.24090000056
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 82235,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지 1기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000006",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 196375.79810000118,
+        "y" : 451424.04520000145
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 82236,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로 정비 요함",
+        "ETC_MATTER" : "258 - 259",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000007",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 196299.53150000237,
+        "y" : 451055.11910000257
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 82237,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로 정비 요함",
+        "ETC_MATTER" : "258 - 259",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000008",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 196297.21020000335,
+        "y" : 451042.61360000074
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 82238,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "천방산 479m이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000009",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 196414.04520000331,
+        "y" : 450823.43690000288
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 82239,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "직진 공주시 방향 노선",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000010",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 196497.55910000112,
+        "y" : 450894.58970000409
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 82240,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "직진:부엉산 금북정맥으로 가는길. 우측 능선길 이용할 것.",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000011",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 195900.37959999964,
+        "y" : 450072.02850000374
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 82241,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사 급함",
+        "ETC_MATTER" : "272 - 273",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000012",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 195337.41679999977,
+        "y" : 450050.0298999995
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 82242,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000013",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 195290.15520000271,
+        "y" : 450076.11260000058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 82243,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지2기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000014",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 195251.98170000315,
+        "y" : 450091.48160000145
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 82244,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지1기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000015",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 195218.21240000054,
+        "y" : 450099.18010000139
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 82245,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지1기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000016",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 195180.2379999999,
+        "y" : 450102.71969999932
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 82246,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지흔적",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000017",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 195101.07480000053,
+        "y" : 450132.75030000135
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 82247,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지2기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000018",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 195079.97630000208,
+        "y" : 450125.12780000269
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 82248,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "작업로",
+        "ETC_MATTER" : "279 - 280",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000019",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 195036.25090000033,
+        "y" : 450110.88270000182
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 82249,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "작업로",
+        "ETC_MATTER" : "279 - 280",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000020",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 194991.93209999986,
+        "y" : 450211.31640000269
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 82250,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로 정비 요함.",
+        "ETC_MATTER" : "482 - 484",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000021",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 196305.8403000012,
+        "y" : 451509.15839999914
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 82251,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로 전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000022",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 196364.79960000049,
+        "y" : 451501.90809999965
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 82252,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로 정비 요함.",
+        "ETC_MATTER" : "482 - 484",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000023",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 196392.59660000168,
+        "y" : 451463.31090000272
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 82253,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로 전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000024",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 196275.3992000008,
+        "y" : 451551.64100000076
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 82254,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계곡부 횡단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000025",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 196421.93579999916,
+        "y" : 451744.93430000171
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 82255,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계곡부 횡단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000026",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 196572.4357000012,
+        "y" : 451874.87450000085
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 82256,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "농로길. 정비요함.",
+        "ETC_MATTER" : "491 - 492",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000027",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 196582.05040000193,
+        "y" : 451863.15180000104
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 82257,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000028",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 194265.75710000098,
+        "y" : 449710.44270000048
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 82258,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000029",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 195199.16040000319,
+        "y" : 451202.83709999919
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 82259,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사 급함",
+        "ETC_MATTER" : "72-1 ~ 73-1",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000030",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 196245.5150000006,
+        "y" : 451447.4793999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 82260,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기(천방산Ⅰ- 2)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000031",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 196259.39469999913,
+        "y" : 451489.42620000429
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 82261,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기(천방산Ⅰ- 2)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000032",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 196259.56110000052,
+        "y" : 451468.07789999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 82262,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기(천방산Ⅰ- 2)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000033",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 196271.30150000192,
+        "y" : 451505.11230000295
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 82263,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기(천방산Ⅰ- 2)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000034",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 196303.7267000014,
+        "y" : 451500.8142000027
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 82264,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기(천방산Ⅰ- 3)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000035",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 196399.86640000064,
+        "y" : 451404.2706000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 82265,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "좌측 정상가는길, 우측 능선가는 길",
+        "ETC_MATTER" : "삼거리 이정표 신설 요함.",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000036",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 196410.05890000053,
+        "y" : 450814.08660000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 82266,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "천방산",
+        "ETC_MATTER" : "굴참나무로 인하여 조망권이 없음.",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000037",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 196491.57560000289,
+        "y" : 450890.22000000067
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 82267,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000038",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 196552.58320000023,
+        "y" : 450920.54140000232
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 82268,
+        "MNTN_CODE" : "448101701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "491 - 492",
+        "MNTN_NM" : "천방산",
+        "PAST_SPOT_" : "24120317000039",
+        "MNTN_ID" : "2412031700"
+      },
+      "geometry" : {
+        "x" : 196845.22680000123,
+        "y" : 451857.30990000069
+      }
+    }
+  ]
+}

@@ -1,0 +1,963 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 90162,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "혼불문학관",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000001",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 229071.38729999959,
+        "y" : 320464.6118999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 90163,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000002",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 229031.78010000009,
+        "y" : 320400.68670000322
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 90164,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000003",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 228979.08760000113,
+        "y" : 320141.63289999962
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 90165,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "입산통제",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000004",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 228825.35200000089,
+        "y" : 320026.48160000145
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 90166,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000005",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 228694.44520000089,
+        "y" : 319849.33940000273
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 90167,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000006",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 228560.35980000068,
+        "y" : 319782.76350000128
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 90168,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000007",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 228536.82030000351,
+        "y" : 319784.47519999929
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 90169,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계곡",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000008",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 228350.4654000001,
+        "y" : 319760.60869999975
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 90170,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "호성암",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000009",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 228317.21659999993,
+        "y" : 319753.00370000117
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 90171,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "움막",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000010",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 228338.8207000019,
+        "y" : 319780.82069999911
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 90172,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000011",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 228374.67599999998,
+        "y" : 319856.94670000114
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 90173,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000012",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 228280.55260000098,
+        "y" : 319855.99579999968
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 90174,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000013",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 228154.73550000414,
+        "y" : 319768.16039999947
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 90175,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000014",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 228149.6202000007,
+        "y" : 319729.26700000092
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 90176,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000015",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 228162.87930000015,
+        "y" : 319607.7388000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 90177,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암석지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000016",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 228211.86270000227,
+        "y" : 319361.77930000238
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 90178,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000017",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 228227.44709999952,
+        "y" : 319309.62539999932
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 90179,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노적봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000018",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 228468.88920000289,
+        "y" : 318560.31220000237
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 90180,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000019",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 228296.75729999878,
+        "y" : 318459.71020000055
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 90181,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000020",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 228734.26490000263,
+        "y" : 318995.14970000088
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 90182,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000021",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 228903.35120000131,
+        "y" : 319211.75809999928
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 90183,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "수동마을",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000022",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 228804.07070000283,
+        "y" : 319651.69620000012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 90184,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000023",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 228261.92210000101,
+        "y" : 315187.5728999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 90185,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000024",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 227783.41079999972,
+        "y" : 315236.82349999994
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 90186,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000025",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 227529.09970000107,
+        "y" : 315216.00570000336
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 90187,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000026",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 227359.63630000036,
+        "y" : 315368.94600000232
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 90188,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000027",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 227319.28650000133,
+        "y" : 315364.71850000322
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 90189,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000028",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 227084.35580000095,
+        "y" : 315492.01370000467
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 90190,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000029",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 226741.41730000079,
+        "y" : 315045.54510000162
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 90191,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000030",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 226922.69280000124,
+        "y" : 315700.79390000179
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 90192,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암석지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000031",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 226989.52300000098,
+        "y" : 316198.00930000097
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 90193,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시점,안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000032",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 227526.96270000283,
+        "y" : 315208.08840000071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 90194,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "마애여래좌상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000033",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 227411.95260000043,
+        "y" : 315302.0019000005
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 90195,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000034",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 227171.70350000076,
+        "y" : 315472.62710000202
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 90196,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000035",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 227140.69159999955,
+        "y" : 315485.5150000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 90197,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000036",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 227071.7137999991,
+        "y" : 315492.75239999965
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 90198,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000037",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 227037.44890000299,
+        "y" : 316490.40880000032
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 90199,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점,안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000038",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 226942.11640000064,
+        "y" : 316581.41389999911
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 90200,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000039",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 225784.31689999998,
+        "y" : 317168.43090000376
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 90201,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "응봉정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000040",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 226678.37710000016,
+        "y" : 314840.36590000056
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 90202,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000041",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 226963.7890999997,
+        "y" : 315510.6165000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 90203,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000042",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 227035.72280000057,
+        "y" : 316347.33160000108
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 90204,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000043",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 227038.21570000239,
+        "y" : 316490.39060000144
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 90205,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000044",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 227852.21250000037,
+        "y" : 316321.91420000046
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 90206,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "바위",
+        "ETC_MATTER" : "등산로단절",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000045",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 228238.80620000046,
+        "y" : 318335.67320000194
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 90207,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000046",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 228532.38119999971,
+        "y" : 318879.79489999823
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 90208,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,신촌마을",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000047",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 228697.85100000072,
+        "y" : 314687.72940000147
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 90209,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000048",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 228754.75250000227,
+        "y" : 319938.1601000037
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 90210,
+        "MNTN_CODE" : "451903801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,청호지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "풍악산",
+        "PAST_SPOT_" : "25040933000049",
+        "MNTN_ID" : "2504093300"
+      },
+      "geometry" : {
+        "x" : 229098.68859999999,
+        "y" : 320531.10480000079
+      }
+    }
+  ]
+}

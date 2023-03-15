@@ -1,0 +1,693 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 24380,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000001",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 353365.17450001184,
+        "y" : 513162.60580000095
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 24381,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000002",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 353499.83770001121,
+        "y" : 513194.49560000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 24382,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "감림길",
+        "ETC_MATTER" : "이정표보수",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000003",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 353677.91580001265,
+        "y" : 513158.06220000423
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 24383,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : "안내도필요",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000004",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 353769.2018000111,
+        "y" : 513226.893400006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 24384,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000005",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 354184.14160001092,
+        "y" : 513489.31760000251
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 24385,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "샘터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000006",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 354240.31190001126,
+        "y" : 513559.69840000011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 24386,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000007",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 354594.413400013,
+        "y" : 513660.28610000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 24387,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "주목군락지",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000008",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 356094.69780001231,
+        "y" : 513800.97130000219
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 24388,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "표지판불량",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000009",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 356679.72890001256,
+        "y" : 513331.37340000272
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 24389,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000010",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 357185.45670001209,
+        "y" : 512996.41670000181
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 24390,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물",
+        "ETC_MATTER" : "로프지역",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000011",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 357294.89610001445,
+        "y" : 513254.5644000005
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 24391,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "샘터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000012",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 357338.34920001402,
+        "y" : 513464.75630000047
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 24392,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "샘터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000013",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 357490.4125000108,
+        "y" : 513852.56120000035
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 24393,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000014",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 358134.5244000135,
+        "y" : 514718.27680000104
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 24394,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000015",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 353996.87070000917,
+        "y" : 516566.85869999789
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 24395,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000016",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 354178.37460001092,
+        "y" : 516539.87310000136
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 24396,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "보수필요",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000017",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 354155.91100001335,
+        "y" : 516343.93040000275
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 24397,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000018",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 354170.58840000909,
+        "y" : 516002.94810000248
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 24398,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000019",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 354513.28870001156,
+        "y" : 515424.35570000671
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 24399,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000020",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 354732.48870001175,
+        "y" : 515149.06839999929
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 24400,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "샘물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000021",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 354671.69500001054,
+        "y" : 514212.95570000075
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 24401,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000022",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 355373.88260001224,
+        "y" : 514505.17870000564
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 24402,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "샘터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000023",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 355657.35390001256,
+        "y" : 514794.44540000148
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 24403,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "샘터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000024",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 355804.96640001237,
+        "y" : 515163.33750000224
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 24404,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "샘터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000025",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 356136.94840001687,
+        "y" : 515719.1173000019
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 24405,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000026",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 356148.56400001049,
+        "y" : 516558.02620000206
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 24406,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000027",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 356125.42240000982,
+        "y" : 516925.44510000572
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 24407,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,화장실",
+        "ETC_MATTER" : "정선군 신동읍 방제리",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000028",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 352508.4668000089,
+        "y" : 513215.60070000216
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 24408,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "안내도설치필요,정선군 남면 문곡리",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000029",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 353838.84830000997,
+        "y" : 516546.96430000477
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 24409,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000030",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 354801.68090001121,
+        "y" : 513882.39450000413
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 24410,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "이정표,접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000031",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 354920.59120001085,
+        "y" : 514712.49369999953
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 24411,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "두위봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000032",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 355292.53540001344,
+        "y" : 513971.34340000153
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 24412,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "정선군 남면 무릉리",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000033",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 356140.94970001187,
+        "y" : 517038.01080000214
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 24413,
+        "MNTN_CODE" : "427501201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "정선군 사북읍 사북리",
+        "MNTN_NM" : "두위봉",
+        "PAST_SPOT_" : "22080811000034",
+        "MNTN_ID" : "2208081100"
+      },
+      "geometry" : {
+        "x" : 358693.09270001389,
+        "y" : 515238.10800000094
+      }
+    }
+  ]
+}

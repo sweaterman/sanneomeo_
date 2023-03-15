@@ -1,0 +1,801 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 85616,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "4277076010001",
+        "MNTN_ID" : "427707601"
+      },
+      "geometry" : {
+        "x" : 333507.26180000603,
+        "y" : 536123.47179999948
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 85617,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "4276046010002",
+        "MNTN_ID" : "427604601"
+      },
+      "geometry" : {
+        "x" : 333542.10981480125,
+        "y" : 535614.94680014811
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 85618,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000003",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 333683.36790000554,
+        "y" : 535425.65100000426
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 85619,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "육백마지기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000004",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 333929.53460000455,
+        "y" : 535148.71120000444
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 85620,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000005",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 334526.69410000555,
+        "y" : 533378.08430000022
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 85621,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000006",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 333486.42930000182,
+        "y" : 533654.59439999983
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 85622,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000007",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 333506.25000000279,
+        "y" : 534170.17469999939
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 85623,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000008",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 333989.46630000509,
+        "y" : 534822.90380000137
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 85624,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000009",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 333867.32760000322,
+        "y" : 535166.77750000171
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 85625,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000010",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 333684.90030000452,
+        "y" : 535519.19160000421
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 85626,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000011",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 333622.70560000371,
+        "y" : 535476.32939999923
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 85627,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "이정표설치요망",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000012",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 333471.09380000457,
+        "y" : 535598.80890000239
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 85628,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000013",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 333160.90790000651,
+        "y" : 535516.85330000147
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 85629,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000014",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 332225.6815000074,
+        "y" : 534976.23750000261
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 85630,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000015",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 331674.12180000544,
+        "y" : 535033.6436999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 85631,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000016",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 331348.66040000599,
+        "y" : 534715.98060000129
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 85632,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "이정표정비요망",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000017",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 330987.84150000475,
+        "y" : 533080.41359999962
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 85633,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "이정표정비요망",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000018",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 331166.21120000444,
+        "y" : 532519.61339999922
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 85634,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "지동리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000019",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 330569.33310000412,
+        "y" : 535849.97010000423
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 85635,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000020",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 331627.64970000274,
+        "y" : 536002.93520000204
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 85636,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "못골약수터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000021",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 331810.5893000057,
+        "y" : 535902.57850000076
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 85637,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "규전가는길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000022",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 332289.94720000401,
+        "y" : 535813.10880000144
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 85638,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "청옥수약수터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000023",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 332178.18300000671,
+        "y" : 535735.98800000176
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 85639,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "멧돼지약수터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000024",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 332657.70000000577,
+        "y" : 535593.90490000136
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 85640,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "이정표설치요망",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000025",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 333405.50120000262,
+        "y" : 535670.00510000065
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 85641,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000026",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 331367.51860000566,
+        "y" : 532058.43099999987
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 85642,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "상수도수원지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000027",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 331239.39030000567,
+        "y" : 531768.49370000139
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 85643,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000028",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 333095.13620000333,
+        "y" : 535424.28810000233
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 85644,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "이정표설치요망",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000029",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 333478.00600000191,
+        "y" : 535671.16310000233
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 85645,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000030",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 331464.61010000389,
+        "y" : 532028.23709999956
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 85646,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000031",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 332110.30480000563,
+        "y" : 534012.24890000187
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 85647,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000032",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 332155.2162000034,
+        "y" : 534100.09009999968
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 85648,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000033",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 332526.45800000522,
+        "y" : 535720.21050000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 85649,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000034",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 330613.08580000233,
+        "y" : 535913.32000000216
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 85650,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "삿갓봉정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000035",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 330870.53550000396,
+        "y" : 533984.90650000423
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 85651,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000036",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 331162.19550000597,
+        "y" : 531824.74010000192
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 85652,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,수리재",
+        "ETC_MATTER" : "이정표설치요망",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000037",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 331698.11000000313,
+        "y" : 530734.31560000405
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 85653,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000038",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 332474.36139221955,
+        "y" : 534851.84882537834
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 85654,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000039",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 333127.87040000595,
+        "y" : 535479.15230000019
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 85655,
+        "MNTN_CODE" : "427604601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,한치동",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청옥산",
+        "PAST_SPOT_" : "22150837000040",
+        "MNTN_ID" : "2215083700"
+      },
+      "geometry" : {
+        "x" : 335027.88820000552,
+        "y" : 532678.08500000276
+      }
+    }
+  ]
+}

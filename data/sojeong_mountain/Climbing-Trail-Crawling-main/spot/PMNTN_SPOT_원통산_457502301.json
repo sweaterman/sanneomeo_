@@ -1,0 +1,495 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 72521,
+        "MNTN_CODE" : "457502301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "호산제",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "원통산",
+        "PAST_SPOT_" : "25100324000001",
+        "MNTN_ID" : "2510032400"
+      },
+      "geometry" : {
+        "x" : 220163.84070000146,
+        "y" : 322612.53439999744
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 72522,
+        "MNTN_CODE" : "457502301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "원통산",
+        "PAST_SPOT_" : "25100324000002",
+        "MNTN_ID" : "2510032400"
+      },
+      "geometry" : {
+        "x" : 220040.39769999962,
+        "y" : 322732.31880000234
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 72523,
+        "MNTN_CODE" : "457502301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "묘지갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "원통산",
+        "PAST_SPOT_" : "25100324000003",
+        "MNTN_ID" : "2510032400"
+      },
+      "geometry" : {
+        "x" : 219579.98379999958,
+        "y" : 322849.45830000378
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 72524,
+        "MNTN_CODE" : "457502301",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "원통산",
+        "PAST_SPOT_" : "25100324000004",
+        "MNTN_ID" : "2510032400"
+      },
+      "geometry" : {
+        "x" : 218962.52700000349,
+        "y" : 323632.45130000263
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 72525,
+        "MNTN_CODE" : "457502301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "원통산",
+        "PAST_SPOT_" : "25100324000005",
+        "MNTN_ID" : "2510032400"
+      },
+      "geometry" : {
+        "x" : 220344.52780000027,
+        "y" : 324962.25150000677
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 72526,
+        "MNTN_CODE" : "457502301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "원통산",
+        "PAST_SPOT_" : "25100324000006",
+        "MNTN_ID" : "2510032400"
+      },
+      "geometry" : {
+        "x" : 220261.20770000014,
+        "y" : 323853.60219999962
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 72527,
+        "MNTN_CODE" : "457502301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼거리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "원통산",
+        "PAST_SPOT_" : "25100324000007",
+        "MNTN_ID" : "2510032400"
+      },
+      "geometry" : {
+        "x" : 221463.88559999969,
+        "y" : 323904.14970000274
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 72528,
+        "MNTN_CODE" : "457502301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "원통산",
+        "PAST_SPOT_" : "25100324000008",
+        "MNTN_ID" : "2510032400"
+      },
+      "geometry" : {
+        "x" : 221211.75970000215,
+        "y" : 324408.27180000022
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 72529,
+        "MNTN_CODE" : "457502301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "원통산",
+        "PAST_SPOT_" : "25100324000009",
+        "MNTN_ID" : "2510032400"
+      },
+      "geometry" : {
+        "x" : 221198.74560000002,
+        "y" : 324418.60360000096
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 72530,
+        "MNTN_CODE" : "457502301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "원통산",
+        "PAST_SPOT_" : "25100324000010",
+        "MNTN_ID" : "2510032400"
+      },
+      "geometry" : {
+        "x" : 221044.52880000137,
+        "y" : 324534.32259999774
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 72531,
+        "MNTN_CODE" : "457502301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "원통산",
+        "PAST_SPOT_" : "25100324000011",
+        "MNTN_ID" : "2510032400"
+      },
+      "geometry" : {
+        "x" : 220981.42810000293,
+        "y" : 324609.55120000057
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 72532,
+        "MNTN_CODE" : "457502301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "원통산",
+        "PAST_SPOT_" : "25100324000012",
+        "MNTN_ID" : "2510032400"
+      },
+      "geometry" : {
+        "x" : 220867.61490000039,
+        "y" : 324802.21530000307
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 72533,
+        "MNTN_CODE" : "457502301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "원통산",
+        "PAST_SPOT_" : "25100324000013",
+        "MNTN_ID" : "2510032400"
+      },
+      "geometry" : {
+        "x" : 221419.77470000274,
+        "y" : 324183.60930000246
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 72534,
+        "MNTN_CODE" : "457502301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "숲길종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "원통산",
+        "PAST_SPOT_" : "25100324000014",
+        "MNTN_ID" : "2510032400"
+      },
+      "geometry" : {
+        "x" : 221321.25560000073,
+        "y" : 324229.0436000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 72535,
+        "MNTN_CODE" : "457502301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "원통산",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "원통산",
+        "PAST_SPOT_" : "25100324000015",
+        "MNTN_ID" : "2510032400"
+      },
+      "geometry" : {
+        "x" : 218878.09850000404,
+        "y" : 323900.18840000033
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 72536,
+        "MNTN_CODE" : "457502301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "원통산",
+        "PAST_SPOT_" : "25100324000016",
+        "MNTN_ID" : "2510032400"
+      },
+      "geometry" : {
+        "x" : 220219.43560000136,
+        "y" : 323627.34400000051
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 72537,
+        "MNTN_CODE" : "457502301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,학정마을회관",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "원통산",
+        "PAST_SPOT_" : "25100324000017",
+        "MNTN_ID" : "2510032400"
+      },
+      "geometry" : {
+        "x" : 220262.84110000264,
+        "y" : 322393.1194000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 72538,
+        "MNTN_CODE" : "457502301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼거리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "원통산",
+        "PAST_SPOT_" : "25100324000018",
+        "MNTN_ID" : "2510032400"
+      },
+      "geometry" : {
+        "x" : 220339.91509999987,
+        "y" : 324941.71059999987
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 72539,
+        "MNTN_CODE" : "457502301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "지초봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "원통산",
+        "PAST_SPOT_" : "25100324000019",
+        "MNTN_ID" : "2510032400"
+      },
+      "geometry" : {
+        "x" : 220378.18530000187,
+        "y" : 325110.64609999768
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 72540,
+        "MNTN_CODE" : "457502301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "휴양림 이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "원통산",
+        "PAST_SPOT_" : "25100324000020",
+        "MNTN_ID" : "2510032400"
+      },
+      "geometry" : {
+        "x" : 220508.08719999995,
+        "y" : 324796.44899999909
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 72541,
+        "MNTN_CODE" : "457502301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼거리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "원통산",
+        "PAST_SPOT_" : "25100324000021",
+        "MNTN_ID" : "2510032400"
+      },
+      "geometry" : {
+        "x" : 221327.64970000274,
+        "y" : 324358.79790000431
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 72542,
+        "MNTN_CODE" : "457502301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "원통산",
+        "PAST_SPOT_" : "25100324000022",
+        "MNTN_ID" : "2510032400"
+      },
+      "geometry" : {
+        "x" : 221383.32810000051,
+        "y" : 324169.85289999843
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 72543,
+        "MNTN_CODE" : "457502301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,세심자연휴양림",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "원통산",
+        "PAST_SPOT_" : "25100324000023",
+        "MNTN_ID" : "2510032400"
+      },
+      "geometry" : {
+        "x" : 221819.503800001,
+        "y" : 324085.82850000449
+      }
+    }
+  ]
+}

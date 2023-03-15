@@ -1,0 +1,711 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 91865,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010001",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 185149.92870000005,
+        "y" : 521435.91310000047
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 91866,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010002",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 185576.98150000162,
+        "y" : 520301.64839999937
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 91867,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010003",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 185659.23200000264,
+        "y" : 520977.93050000258
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 91868,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010004",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 185871.59279999975,
+        "y" : 520980.97590000182
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 91869,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010005",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 186244.12470000144,
+        "y" : 521829.51429999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 91870,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010006",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 186262.40259999968,
+        "y" : 521227.17450000159
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 91871,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010007",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 186297.29670000076,
+        "y" : 520393.86870000139
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 91872,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010008",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 186319.11570000276,
+        "y" : 521306.64800000191
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 91873,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010009",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 186407.79490000103,
+        "y" : 521631.7807
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 91874,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010010",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 186435.18969999906,
+        "y" : 521345.97399999946
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 91875,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010011",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 186532.72530000098,
+        "y" : 521557.54570000246
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 91876,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010012",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 186538.16160000116,
+        "y" : 521564.81499999948
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 91877,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010013",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 186793.29230000079,
+        "y" : 520759.42659999989
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 91878,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010014",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 186795.35640000179,
+        "y" : 520833.17670000345
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 91879,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010015",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 186868.06549999956,
+        "y" : 521413.27669999935
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 91880,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010016",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 186947.8236000007,
+        "y" : 520911.46540000103
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 91881,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "무덤",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010017",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 185536.99500000011,
+        "y" : 520386.25569999963
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 91882,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "무덤",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010018",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 185490.10760000069,
+        "y" : 520436.24670000188
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 91883,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동기구,벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010019",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 185481.50140000414,
+        "y" : 520494.83880000189
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 91884,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치,시설물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010020",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 186093.51009999961,
+        "y" : 520737.72330000065
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 91885,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "운동기구,이정표,벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010021",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 185653.2657000022,
+        "y" : 520972.33570000157
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 91886,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010022",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 185866.81400000025,
+        "y" : 520988.11810000241
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 91887,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010023",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 185916.34590000007,
+        "y" : 521060.17329999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 91888,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010024",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 185936.04640000034,
+        "y" : 521084.62300000153
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 91889,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010025",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 186068.16650000215,
+        "y" : 521203.66340000182
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 91890,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "육교",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010026",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 186192.07700000331,
+        "y" : 521256.40690000728
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 91891,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010027",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 186240.18059999868,
+        "y" : 521266.42660000175
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 91892,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010028",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 186335.83640000038,
+        "y" : 521312.64880000241
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 91893,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "베드멘턴장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010029",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 186432.36160000041,
+        "y" : 521348.91550000198
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 91894,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "정자,시설물,벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010030",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 186525.10629999917,
+        "y" : 521498.58129999973
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 91895,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010031",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 186531.73399999924,
+        "y" : 521555.79370000027
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 91896,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "고려선원",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010032",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 186450.30899999943,
+        "y" : 521610.09710000828
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 91897,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산불감시초소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010033",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 186409.76470000204,
+        "y" : 521623.30380000174
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 91898,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사동배수지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010034",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 186526.43819999974,
+        "y" : 521691.10239999928
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 91899,
+        "MNTN_CODE" : "412700301",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "항가울산",
+        "PAST_SPOT_" : "4127104010035",
+        "MNTN_ID" : "412710401"
+      },
+      "geometry" : {
+        "x" : 186252.6344000008,
+        "y" : 521799.63780000061
+      }
+    }
+  ]
+}

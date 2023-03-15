@@ -1,0 +1,513 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 21720,
+        "MNTN_CODE" : "457200801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕태산",
+        "PAST_SPOT_" : "25150309000001",
+        "MNTN_ID" : "2515030900"
+      },
+      "geometry" : {
+        "x" : 240436.93880000059,
+        "y" : 342326.83860000223
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 21721,
+        "MNTN_CODE" : "457200801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕태산",
+        "PAST_SPOT_" : "25150309000002",
+        "MNTN_ID" : "2515030900"
+      },
+      "geometry" : {
+        "x" : 240561.69689999986,
+        "y" : 342369.84600000083
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 21722,
+        "MNTN_CODE" : "457200801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕태산",
+        "PAST_SPOT_" : "25150309000003",
+        "MNTN_ID" : "2515030900"
+      },
+      "geometry" : {
+        "x" : 240649.73529999983,
+        "y" : 342390.70720000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 21723,
+        "MNTN_CODE" : "457200801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "오르막중턱",
+        "MNTN_NM" : "덕태산",
+        "PAST_SPOT_" : "25150309000004",
+        "MNTN_ID" : "2515030900"
+      },
+      "geometry" : {
+        "x" : 240908.23380000331,
+        "y" : 342591.8115000017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 21724,
+        "MNTN_CODE" : "457200801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "통신탑",
+        "ETC_MATTER" : "통신탑",
+        "MNTN_NM" : "덕태산",
+        "PAST_SPOT_" : "25150309000005",
+        "MNTN_ID" : "2515030900"
+      },
+      "geometry" : {
+        "x" : 241841.75130000152,
+        "y" : 343187.34480000287
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 21725,
+        "MNTN_CODE" : "457200801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕태산",
+        "PAST_SPOT_" : "25150309000006",
+        "MNTN_ID" : "2515030900"
+      },
+      "geometry" : {
+        "x" : 241158.09570000134,
+        "y" : 343537.84060000256
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 21726,
+        "MNTN_CODE" : "457200801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "헬기장",
+        "MNTN_NM" : "덕태산",
+        "PAST_SPOT_" : "25150309000007",
+        "MNTN_ID" : "2515030900"
+      },
+      "geometry" : {
+        "x" : 240707.66929999925,
+        "y" : 344010.70430000126
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 21727,
+        "MNTN_CODE" : "457200801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "덕태사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕태산",
+        "PAST_SPOT_" : "25150309000008",
+        "MNTN_ID" : "2515030900"
+      },
+      "geometry" : {
+        "x" : 239884.93150000088,
+        "y" : 343608.67190000229
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 21728,
+        "MNTN_CODE" : "457200801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망",
+        "ETC_MATTER" : "조망",
+        "MNTN_NM" : "덕태산",
+        "PAST_SPOT_" : "25150309000009",
+        "MNTN_ID" : "2515030900"
+      },
+      "geometry" : {
+        "x" : 239908.06160000246,
+        "y" : 343713.36370000057
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 21729,
+        "MNTN_CODE" : "457200801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망",
+        "ETC_MATTER" : "조망",
+        "MNTN_NM" : "덕태산",
+        "PAST_SPOT_" : "25150309000010",
+        "MNTN_ID" : "2515030900"
+      },
+      "geometry" : {
+        "x" : 240023.05340000242,
+        "y" : 343681.81240000017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 21730,
+        "MNTN_CODE" : "457200801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "난코스",
+        "MNTN_NM" : "덕태산",
+        "PAST_SPOT_" : "25150309000011",
+        "MNTN_ID" : "2515030900"
+      },
+      "geometry" : {
+        "x" : 240058.6015000008,
+        "y" : 343707.72519999929
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 21731,
+        "MNTN_CODE" : "457200801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망",
+        "ETC_MATTER" : "조망",
+        "MNTN_NM" : "덕태산",
+        "PAST_SPOT_" : "25150309000012",
+        "MNTN_ID" : "2515030900"
+      },
+      "geometry" : {
+        "x" : 240148.01800000109,
+        "y" : 343737.46440000273
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 21732,
+        "MNTN_CODE" : "457200801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망",
+        "ETC_MATTER" : "조망",
+        "MNTN_NM" : "덕태산",
+        "PAST_SPOT_" : "25150309000013",
+        "MNTN_ID" : "2515030900"
+      },
+      "geometry" : {
+        "x" : 240169.17110000085,
+        "y" : 343741.72050000168
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 21733,
+        "MNTN_CODE" : "457200801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "난코스",
+        "MNTN_NM" : "덕태산",
+        "PAST_SPOT_" : "25150309000014",
+        "MNTN_ID" : "2515030900"
+      },
+      "geometry" : {
+        "x" : 240217.0483000027,
+        "y" : 343735.25670000166
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 21734,
+        "MNTN_CODE" : "457200801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망",
+        "ETC_MATTER" : "조망",
+        "MNTN_NM" : "덕태산",
+        "PAST_SPOT_" : "25150309000015",
+        "MNTN_ID" : "2515030900"
+      },
+      "geometry" : {
+        "x" : 240287.25230000075,
+        "y" : 343753.79270000011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 21735,
+        "MNTN_CODE" : "457200801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망",
+        "ETC_MATTER" : "조망",
+        "MNTN_NM" : "덕태산",
+        "PAST_SPOT_" : "25150309000016",
+        "MNTN_ID" : "2515030900"
+      },
+      "geometry" : {
+        "x" : 240481.66960000154,
+        "y" : 343741.43590000272
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 21736,
+        "MNTN_CODE" : "457200801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망",
+        "ETC_MATTER" : "정상부",
+        "MNTN_NM" : "덕태산",
+        "PAST_SPOT_" : "25150309000017",
+        "MNTN_ID" : "2515030900"
+      },
+      "geometry" : {
+        "x" : 240707.83510000259,
+        "y" : 343996.18070000038
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 21737,
+        "MNTN_CODE" : "457200801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "내리막끝",
+        "MNTN_NM" : "덕태산",
+        "PAST_SPOT_" : "25150309000018",
+        "MNTN_ID" : "2515030900"
+      },
+      "geometry" : {
+        "x" : 240031.19480000157,
+        "y" : 342720.84840000421
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 21738,
+        "MNTN_CODE" : "457200801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "갈림길",
+        "MNTN_NM" : "덕태산",
+        "PAST_SPOT_" : "25150309000019",
+        "MNTN_ID" : "2515030900"
+      },
+      "geometry" : {
+        "x" : 239921.05800000113,
+        "y" : 342625.60860000364
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 21739,
+        "MNTN_CODE" : "457200801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "덕태산",
+        "ETC_MATTER" : "정상",
+        "MNTN_NM" : "덕태산",
+        "PAST_SPOT_" : "25150309000020",
+        "MNTN_ID" : "2515030900"
+      },
+      "geometry" : {
+        "x" : 240438.45760000031,
+        "y" : 343723.12050000206
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 21740,
+        "MNTN_CODE" : "457200801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "난코스",
+        "MNTN_NM" : "덕태산",
+        "PAST_SPOT_" : "25150309000021",
+        "MNTN_ID" : "2515030900"
+      },
+      "geometry" : {
+        "x" : 240714.3526000008,
+        "y" : 344004.05520000122
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 21741,
+        "MNTN_CODE" : "457200801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕태산",
+        "PAST_SPOT_" : "25150309000022",
+        "MNTN_ID" : "2515030900"
+      },
+      "geometry" : {
+        "x" : 240967.2910000002,
+        "y" : 344084.70360000059
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 21742,
+        "MNTN_CODE" : "457200801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕태산",
+        "PAST_SPOT_" : "25150309000023",
+        "MNTN_ID" : "2515030900"
+      },
+      "geometry" : {
+        "x" : 241257.34509999957,
+        "y" : 343271.191300001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 21743,
+        "MNTN_CODE" : "457200801",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : "정상부",
+        "MNTN_NM" : "덕태산",
+        "PAST_SPOT_" : "25150309000024",
+        "MNTN_ID" : "2515030900"
+      },
+      "geometry" : {
+        "x" : 241481.55650000088,
+        "y" : 344039.10759999976
+      }
+    }
+  ]
+}

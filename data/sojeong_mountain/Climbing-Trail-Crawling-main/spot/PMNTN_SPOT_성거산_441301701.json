@@ -1,0 +1,927 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 51986,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "3단철봉,허리,역기,윗몸",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000001",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 220647.26100000087,
+        "y" : 473761.51060000062
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 51987,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "성거산성지,조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000002",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 220608.01610000059,
+        "y" : 473700.34130000137
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 51988,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "성거산순교성지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000003",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 220568.31150000263,
+        "y" : 473499.97030000202
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 51989,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "군사통제지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000004",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 220505.38510000054,
+        "y" : 473135.61080000363
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 51990,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "성거산성",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000005",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 220328.93439999875,
+        "y" : 472616.69549999759
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 51991,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000006",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 219871.73469999991,
+        "y" : 472230.14120000228
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 51992,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "플라스틱계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000007",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 219762.94850000087,
+        "y" : 472293.20749999955
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 51993,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "플라스틱계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000008",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 219721.93910000008,
+        "y" : 472303.6782000009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 51994,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "플라스틱계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000009",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 219590.68660000153,
+        "y" : 472283.60790000111
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 51995,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "플라스틱계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000010",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 219562.63200000022,
+        "y" : 472266.66350000165
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 51996,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "플라스틱계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000011",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 219425.67530000024,
+        "y" : 472235.66370000131
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 51997,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000012",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 219397.36210000329,
+        "y" : 472238.02580000274
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 51998,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "천흥사지 5층석탑",
+        "ETC_MATTER" : "보물354호",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000013",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 219012.96009999979,
+        "y" : 474636.74870000035
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 51999,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "천흥사지 당간지주",
+        "ETC_MATTER" : "보물99호",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000014",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 219136.49989999924,
+        "y" : 474747.06520000286
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 52000,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점,저수지시점",
+        "ETC_MATTER" : "성거산정상바라보는 전경",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000015",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 219333.5278000012,
+        "y" : 474672.11310000159
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 52001,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "천정사,화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000016",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 219347.2722000014,
+        "y" : 474330.04389999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 52002,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000017",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 219453.71270000376,
+        "y" : 474659.13680000044
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 52003,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "숲길명소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000018",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 219157.84520000406,
+        "y" : 474409.27660000138
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 52004,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실,정자,평의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000019",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 218947.31220000237,
+        "y" : 473628.23980000429
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 52005,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "평행봉,등의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000020",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 218938.61649999954,
+        "y" : 473597.82860000245
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 52006,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "평행봉,무릎올리기,정자,평의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000021",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 218898.14600000158,
+        "y" : 473491.35290000215
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 52007,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "등의자,운동기구,화장실,등의자,3단평행봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000022",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 218893.03780000005,
+        "y" : 473448.8022000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 52008,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "등의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000023",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 218899.45299999975,
+        "y" : 473427.92460000142
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 52009,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000024",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 218874.00619999971,
+        "y" : 473108.70770000108
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 52010,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "등의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000025",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 218859.42220000084,
+        "y" : 473039.04710000381
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 52011,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실,등의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000026",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 218857.51880000066,
+        "y" : 472954.35840000398
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 52012,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "등의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000027",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 218870.82510000002,
+        "y" : 472923.64090000279
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 52013,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000028",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 219129.51709999982,
+        "y" : 472676.89570000209
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 52014,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "만일사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000029",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 219522.47230000142,
+        "y" : 472477.13390000165
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 52015,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000030",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 219383.78770000115,
+        "y" : 472208.69620000012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 52016,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000031",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 219809.10500000045,
+        "y" : 472565.88099999912
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 52017,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000032",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 219789.11959999986,
+        "y" : 472581.59180000238
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 52018,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000033",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 219759.36950000003,
+        "y" : 472968.14719999954
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 52019,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000034",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 220021.1761000026,
+        "y" : 473810.0567000024
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 52020,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "대원정사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000035",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 220010.5532000009,
+        "y" : 474016.16569999978
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 52021,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대,거북바위",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000036",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 220005.10529999994,
+        "y" : 473994.69890000112
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 52022,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000037",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 219848.24390000012,
+        "y" : 473982.12380000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 52023,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "성거도서관",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000038",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 217860.40660000034,
+        "y" : 474741.5876000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 52024,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000039",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 219019.98070000298,
+        "y" : 474789.50119999796
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 52025,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000040",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 219022.9260599073,
+        "y" : 473954.97193991207
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 52026,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000041",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 219302.97770000063,
+        "y" : 472444.93420000188
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 52027,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000042",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 219404.92850000039,
+        "y" : 472301.27439999953
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 52028,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000043",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 219621.80595171079,
+        "y" : 474439.10655364394
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 52029,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "성거산정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000044",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 219886.42609999981,
+        "y" : 472252.08210000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 52030,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000045",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 219988.58630000334,
+        "y" : 472329.33050000109
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 52031,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,성거사 초입",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000046",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 220488.76640000381,
+        "y" : 470011.3703000024
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 52032,
+        "MNTN_CODE" : "441301701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성거산",
+        "PAST_SPOT_" : "24131824000047",
+        "MNTN_ID" : "2413182400"
+      },
+      "geometry" : {
+        "x" : 221068.6707000006,
+        "y" : 474149.73270000145
+      }
+    }
+  ]
+}

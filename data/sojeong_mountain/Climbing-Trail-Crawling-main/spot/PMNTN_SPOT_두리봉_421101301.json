@@ -1,0 +1,981 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 24073,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "저수지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000001",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 253250.4776000008,
+        "y" : 576892.44969999976
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 24074,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000002",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 254568.0448000012,
+        "y" : 577628.53620000184
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 24075,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산불감시탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000003",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 252356.64990000334,
+        "y" : 576695.96900000237
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 24076,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000004",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 252430.01660000067,
+        "y" : 576470.3292999994
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 24077,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000005",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 253171.67370000109,
+        "y" : 576007.6101000011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 24078,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000006",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 254664.47040000092,
+        "y" : 577353.92799999937
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 24079,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000007",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 254380.91069999989,
+        "y" : 576161.68320000358
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 24080,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000008",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 251545.49490000401,
+        "y" : 575724.00860000029
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 24081,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "1-7구간",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000009",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 253068.68730000034,
+        "y" : 577227.39630000107
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 24082,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "한치령정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000010",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 251091.6836000029,
+        "y" : 575779.8403000012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 24083,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000011",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 251058.26970000006,
+        "y" : 575765.27050000243
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 24084,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "문배마을",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000012",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 253071.79870000109,
+        "y" : 576998.29130000062
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 24085,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "매점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000013",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 253279.01520000119,
+        "y" : 577115.33210000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 24086,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "전경사진",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000014",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 254662.02980000339,
+        "y" : 578279.46239999868
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 24087,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "매표소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000015",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 254273.72251982987,
+        "y" : 577641.05851725861
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 24088,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "구곡정",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000016",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 253691.52800000086,
+        "y" : 577410.35580000095
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 24089,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "문배마을갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000017",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 253666.5477,
+        "y" : 577326.39970000274
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 24090,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000018",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 253691.42210000008,
+        "y" : 577211.34390000068
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 24091,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000019",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 251112.09530000016,
+        "y" : 577550.06610000134
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 24092,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000020",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 251239.23199999891,
+        "y" : 577091.41830000095
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 24093,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "1-6-1구간",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000021",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 251880.72970000096,
+        "y" : 577752.28640000336
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 24094,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "1-4구간",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000022",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 252291.89250000194,
+        "y" : 576551.78140000813
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 24095,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "1-5구간,1-6-1구간",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000023",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 252381.46870000008,
+        "y" : 576710.61190000176
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 24096,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "1-5-2구간",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000024",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 252424.39890000317,
+        "y" : 577042.82760000043
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 24097,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000025",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 252433.14070000313,
+        "y" : 576938.23299999908
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 24098,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000026",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 252467.27469999995,
+        "y" : 576695.62800000235
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 24099,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "1-5-2구간",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000027",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 252537.26850000024,
+        "y" : 576945.39059999958
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 24100,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "1-5-2구간",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000028",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 252642.79070000164,
+        "y" : 576918.06780000031
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 24101,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "1-6-2구간",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000029",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 252679.99459999986,
+        "y" : 577403.46000000089
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 24102,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "1-6-2구간",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000030",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 252754.73479999881,
+        "y" : 577059.88370000012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 24103,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "1-7구간,임도구간",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000031",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 252818.44780000299,
+        "y" : 576989.08840000071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 24104,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "1-3구간",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000032",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 252891.56100000069,
+        "y" : 576220.68200000189
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 24105,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000033",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 253010.71370000113,
+        "y" : 576973.14600000158
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 24106,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "임도구간",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000034",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 253014.69450000022,
+        "y" : 576624.8666999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 24107,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "임도구간",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000035",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 253099.81390000321,
+        "y" : 576719.68130000122
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 24108,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000036",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 253163.01710000169,
+        "y" : 576916.82760000043
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 24109,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000037",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 253182.02230000123,
+        "y" : 576959.14560000226
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 24110,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "임도구간",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000038",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 253476.15690000076,
+        "y" : 575931.06660000421
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 24111,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "임도구간",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000039",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 253498.92929999996,
+        "y" : 576344.88840000145
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 24112,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000040",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 253619.74260000046,
+        "y" : 576281.83450000174
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 24113,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "1-2구간",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000041",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 253633.04079999961,
+        "y" : 575924.40290000103
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 24114,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000042",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 253640.46889999975,
+        "y" : 576576.16650000401
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 24115,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "구곡폭포",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000043",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 253717.4542000005,
+        "y" : 577163.48379999958
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 24116,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "1-2구간",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000044",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 253757.3851000024,
+        "y" : 576886.82149999775
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 24117,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "봉화산정상,정상석",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000045",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 253846.8124000011,
+        "y" : 575838.6726000011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 24118,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "임도구간",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000046",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 254262.4357000012,
+        "y" : 577408.26430000365
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 24119,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "임도구간",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000047",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 254306.9857000038,
+        "y" : 577609.6313000042
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 24120,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000048",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 254517.73620000295,
+        "y" : 577864.1006000042
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 24121,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "1-1구간",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000049",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 254744.88860000018,
+        "y" : 577529.4411999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 24122,
+        "MNTN_CODE" : "421101301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두리봉",
+        "PAST_SPOT_" : "22130501000050",
+        "MNTN_ID" : "2213050100"
+      },
+      "geometry" : {
+        "x" : 256042.15450000018,
+        "y" : 578420.85660000332
+      }
+    }
+  ]
+}

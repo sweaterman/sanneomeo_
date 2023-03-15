@@ -1,0 +1,549 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 17466,
+        "MNTN_CODE" : "471101001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뇌성산",
+        "PAST_SPOT_" : "4711101010001",
+        "MNTN_ID" : "471110101"
+      },
+      "geometry" : {
+        "x" : 426305.83730014041,
+        "y" : 374077.43280000985
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 17467,
+        "MNTN_CODE" : "471101001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뇌성산",
+        "PAST_SPOT_" : "4711101010002",
+        "MNTN_ID" : "471110101"
+      },
+      "geometry" : {
+        "x" : 426471.78720013984,
+        "y" : 374069.29590000957
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 17468,
+        "MNTN_CODE" : "471101001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뇌성산",
+        "PAST_SPOT_" : "4711101010003",
+        "MNTN_ID" : "471110101"
+      },
+      "geometry" : {
+        "x" : 427041.58410014305,
+        "y" : 374359.86880001053
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 17469,
+        "MNTN_CODE" : "471101001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뇌성산",
+        "PAST_SPOT_" : "4711101010004",
+        "MNTN_ID" : "471110101"
+      },
+      "geometry" : {
+        "x" : 427157.08930014353,
+        "y" : 373830.58200001158
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 17470,
+        "MNTN_CODE" : "471101001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뇌성산",
+        "PAST_SPOT_" : "4711101010005",
+        "MNTN_ID" : "471110101"
+      },
+      "geometry" : {
+        "x" : 427225.2888001455,
+        "y" : 374014.59420001134
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 17471,
+        "MNTN_CODE" : "471101001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뇌성산",
+        "PAST_SPOT_" : "4711101010006",
+        "MNTN_ID" : "471110101"
+      },
+      "geometry" : {
+        "x" : 427243.04520014208,
+        "y" : 374676.28790001385
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 17472,
+        "MNTN_CODE" : "471101001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뇌성산",
+        "PAST_SPOT_" : "4711101010007",
+        "MNTN_ID" : "471110101"
+      },
+      "geometry" : {
+        "x" : 427339.7087001428,
+        "y" : 373913.58490000851
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 17473,
+        "MNTN_CODE" : "471101001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뇌성산",
+        "PAST_SPOT_" : "4711101010008",
+        "MNTN_ID" : "471110101"
+      },
+      "geometry" : {
+        "x" : 427981.54470014852,
+        "y" : 373971.65380000696
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 17474,
+        "MNTN_CODE" : "471101001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뇌성산",
+        "PAST_SPOT_" : "4711101010009",
+        "MNTN_ID" : "471110101"
+      },
+      "geometry" : {
+        "x" : 427159.24560028687,
+        "y" : 373829.06510001607
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 17475,
+        "MNTN_CODE" : "471101001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뇌성산",
+        "PAST_SPOT_" : "4711101010010",
+        "MNTN_ID" : "471110101"
+      },
+      "geometry" : {
+        "x" : 427176.98940028809,
+        "y" : 373841.5177000165
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 17476,
+        "MNTN_CODE" : "471101001",
+        "MANAGE_SP1" : "13",
+        "MANAGE_SP2" : "유적(문화, 역사)",
+        "DETAIL_SPO" : "유적(문화,역사)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뇌성산",
+        "PAST_SPOT_" : "4711101010011",
+        "MNTN_ID" : "471110101"
+      },
+      "geometry" : {
+        "x" : 427132.59590028971,
+        "y" : 373886.67620001733
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 17477,
+        "MNTN_CODE" : "471101001",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뇌성산",
+        "PAST_SPOT_" : "4711101010012",
+        "MNTN_ID" : "471110101"
+      },
+      "geometry" : {
+        "x" : 427330.98120028619,
+        "y" : 373900.4008000195
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 17478,
+        "MNTN_CODE" : "471101001",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뇌성산",
+        "PAST_SPOT_" : "4711101010013",
+        "MNTN_ID" : "471110101"
+      },
+      "geometry" : {
+        "x" : 427330.23150028754,
+        "y" : 373903.90230001695
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 17479,
+        "MNTN_CODE" : "471101001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로없음",
+        "ETC_MATTER" : "잡풀제거후",
+        "MNTN_NM" : "뇌성산",
+        "PAST_SPOT_" : "4711101010014",
+        "MNTN_ID" : "471110101"
+      },
+      "geometry" : {
+        "x" : 427333.95940028597,
+        "y" : 373903.99850001745
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 17480,
+        "MNTN_CODE" : "471101001",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뇌성산",
+        "PAST_SPOT_" : "4711101010015",
+        "MNTN_ID" : "471110101"
+      },
+      "geometry" : {
+        "x" : 427333.87830028404,
+        "y" : 373904.34070001729
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 17481,
+        "MNTN_CODE" : "471101001",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망권",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뇌성산",
+        "PAST_SPOT_" : "4711101010016",
+        "MNTN_ID" : "471110101"
+      },
+      "geometry" : {
+        "x" : 427333.77690028958,
+        "y" : 373904.771200018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 17482,
+        "MNTN_CODE" : "471101001",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뇌성산",
+        "PAST_SPOT_" : "4711101010017",
+        "MNTN_ID" : "471110101"
+      },
+      "geometry" : {
+        "x" : 427335.35940028634,
+        "y" : 373910.99840002134
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 17483,
+        "MNTN_CODE" : "471101001",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뇌성산",
+        "PAST_SPOT_" : "4711101010018",
+        "MNTN_ID" : "471110101"
+      },
+      "geometry" : {
+        "x" : 427339.07830028795,
+        "y" : 373914.59290001728
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 17484,
+        "MNTN_CODE" : "471101001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뇌성산",
+        "PAST_SPOT_" : "4711101010019",
+        "MNTN_ID" : "471110101"
+      },
+      "geometry" : {
+        "x" : 427337.64820028655,
+        "y" : 373914.71150001884
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 17485,
+        "MNTN_CODE" : "471101001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뇌성산",
+        "PAST_SPOT_" : "4711101010020",
+        "MNTN_ID" : "471110101"
+      },
+      "geometry" : {
+        "x" : 427369.56780028809,
+        "y" : 373915.79070001654
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 17486,
+        "MNTN_CODE" : "471101001",
+        "MANAGE_SP1" : "13",
+        "MANAGE_SP2" : "유적(문화, 역사)",
+        "DETAIL_SPO" : "유적(문화,역사)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뇌성산",
+        "PAST_SPOT_" : "4711101010021",
+        "MNTN_ID" : "471110101"
+      },
+      "geometry" : {
+        "x" : 427132.63180028461,
+        "y" : 373940.98800002038
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 17487,
+        "MNTN_CODE" : "471101001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "잡풀정리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뇌성산",
+        "PAST_SPOT_" : "4711101010022",
+        "MNTN_ID" : "471110101"
+      },
+      "geometry" : {
+        "x" : 427756.24990028888,
+        "y" : 373966.92920001596
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 17488,
+        "MNTN_CODE" : "471101001",
+        "MANAGE_SP1" : "13",
+        "MANAGE_SP2" : "유적(문화, 역사)",
+        "DETAIL_SPO" : "유적(문화,역사)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뇌성산",
+        "PAST_SPOT_" : "4711101010023",
+        "MNTN_ID" : "471110101"
+      },
+      "geometry" : {
+        "x" : 427151.4640002856,
+        "y" : 374001.59330001846
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 17489,
+        "MNTN_CODE" : "471101001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뇌성산",
+        "PAST_SPOT_" : "4711101010024",
+        "MNTN_ID" : "471110101"
+      },
+      "geometry" : {
+        "x" : 427226.08260028809,
+        "y" : 374014.08000001498
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 17490,
+        "MNTN_CODE" : "471101001",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망권",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뇌성산",
+        "PAST_SPOT_" : "4711101010025",
+        "MNTN_ID" : "471110101"
+      },
+      "geometry" : {
+        "x" : 427237.54800028447,
+        "y" : 374020.59540001862
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 17491,
+        "MNTN_CODE" : "471101001",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판또는지도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뇌성산",
+        "PAST_SPOT_" : "4711101010026",
+        "MNTN_ID" : "471110101"
+      },
+      "geometry" : {
+        "x" : 427244.3463002881,
+        "y" : 374676.77900001965
+      }
+    }
+  ]
+}

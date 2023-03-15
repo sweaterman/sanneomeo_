@@ -1,0 +1,711 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 26381,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "보탑사절",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010001",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 230368.44610000029,
+        "y" : 471285.76610000059
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 26382,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤츠,벤츠,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010002",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 230040.39440000057,
+        "y" : 471917.78749999963
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 26383,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤츠,벤츠,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010003",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 229978.69149999972,
+        "y" : 472366.97580000013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 26384,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤츠,벤츠,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010004",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 230037.94840000104,
+        "y" : 472825.73430000059
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 26385,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010005",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 230536.41920000035,
+        "y" : 472851.68230000325
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 26386,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010006",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 230579.29270000011,
+        "y" : 472877.94669999927
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 26387,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "보련골마을",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010007",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 230978.52430000063,
+        "y" : 472150.94160000235
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 26388,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "엽돈재마을",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010008",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 224721.9737000009,
+        "y" : 472797.09329999983
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 26389,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "신샘골",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010009",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 230399.37530000135,
+        "y" : 472734.35940000042
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 26390,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010010",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 225920.98500000034,
+        "y" : 477275.02420000173
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 26391,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010011",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 227310.12380000111,
+        "y" : 473801.85280000046
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 26392,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010012",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 229766.69290000107,
+        "y" : 471136.92790000141
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 26393,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010013",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 229888.77130000107,
+        "y" : 471553.9047000017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 26394,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010014",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 229978.7201000005,
+        "y" : 472367.3387000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 26395,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010015",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 230027.74050000124,
+        "y" : 471297.70289999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 26396,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010016",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 230036.52909999993,
+        "y" : 472825.46880000457
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 26397,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010017",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 230039.64149999991,
+        "y" : 471921.41270000115
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 26398,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010018",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 230201.17140000127,
+        "y" : 471284.50459999964
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 26399,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010019",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 230318.47790000029,
+        "y" : 472785.24870000035
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 26400,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010020",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 230369.72780000232,
+        "y" : 471286.97069999948
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 26401,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010021",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 230446.4793000007,
+        "y" : 472819.30460000411
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 26402,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010022",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 230490.89850000199,
+        "y" : 472843.81430000439
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 26403,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010023",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 230832.32870000042,
+        "y" : 472987.06589999981
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 26404,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010024",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 230956.54310000129,
+        "y" : 472355.98090000264
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 26405,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010025",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 231001.67240000051,
+        "y" : 473126.56920000352
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 26406,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010026",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 232491.90440000128,
+        "y" : 472714.13530000113
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 26407,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010027",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 232504.41440000013,
+        "y" : 472619.64180000126
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 26408,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010028",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 233551.15900000092,
+        "y" : 471399.64970000461
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 26409,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010029",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 233640.13680000044,
+        "y" : 471235.05750000104
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 26410,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010030",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 233659.73369999975,
+        "y" : 471525.51160000078
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 26411,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010031",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 233721.53149999958,
+        "y" : 471529.81490000151
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 26412,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010032",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 233973.12040000129,
+        "y" : 471798.89480000176
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 26413,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010033",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 234481.07519999985,
+        "y" : 472273.13570000418
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 96180,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "보련골마을",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010034",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 230972.88970000047,
+        "y" : 472151.10759999894
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 96181,
+        "MNTN_CODE" : "437500401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "엽돈재마을",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만뢰산",
+        "PAST_SPOT_" : "4375004010035",
+        "MNTN_ID" : "437500401"
+      },
+      "geometry" : {
+        "x" : 224717.04139999996,
+        "y" : 472798.95209999988
+      }
+    }
+  ]
+}

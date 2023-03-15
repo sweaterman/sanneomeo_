@@ -1,0 +1,801 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 74571,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로 시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000001",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 281801.14250000101,
+        "y" : 238037.95080000162
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 74572,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000002",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 281289.04879999999,
+        "y" : 237245.21319999918
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 74573,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000003",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 281207.74670000095,
+        "y" : 237482.06980000436
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 74574,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000004",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 281448.13730000053,
+        "y" : 238168.70190000162
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 74575,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000005",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 281129.53160000313,
+        "y" : 238056.03580000065
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 74576,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000006",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 280992.99360000156,
+        "y" : 237627.95090000145
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 74577,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000007",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 281031.63010000065,
+        "y" : 237984.58669999987
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 74578,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000008",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 280957.0577000007,
+        "y" : 237631.28039999865
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 74579,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000009",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 282515.83019999973,
+        "y" : 238158.42380000092
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 74580,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000010",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 280542.40000000037,
+        "y" : 237885.86989999935
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 74581,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "경고안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000011",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 280400.71890000254,
+        "y" : 237941.53360000066
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 74582,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000012",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 280157.32330000121,
+        "y" : 237997.58770000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 74583,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "경고안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000013",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 280120.60850000288,
+        "y" : 237993.9860999994
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 74584,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000014",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 282035.61610000022,
+        "y" : 237645.9813000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 74585,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000015",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 280026.27369999979,
+        "y" : 238012.85370000079
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 74586,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "경고안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000016",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 279930.05099999998,
+        "y" : 238030.22309999913
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 74587,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000017",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 282453.37180000078,
+        "y" : 238002.03770000115
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 74588,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000018",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 279880.48820000049,
+        "y" : 238030.48640000075
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 74589,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000019",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 282446.83430000208,
+        "y" : 237972.04070000164
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 74590,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000020",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 279428.0791000016,
+        "y" : 238186.93290000036
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 74591,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000021",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 282443.92090000119,
+        "y" : 237929.18290000036
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 74592,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000022",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 278825.03970000241,
+        "y" : 238624.72180000134
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 74593,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000023",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 282450.90639999975,
+        "y" : 237890.64320000075
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 74594,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로 끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000024",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 278661.57550000027,
+        "y" : 238627.03229999915
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 74595,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000025",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 282471.86280000396,
+        "y" : 237860.18670000322
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 74596,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,차도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000026",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 278466.68429999985,
+        "y" : 238538.98000000231
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 74597,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "응봉산정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000027",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 280872.54170000274,
+        "y" : 237838.35410000384
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 74598,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000028",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 281023.39990000147,
+        "y" : 237585.44340000115
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 74599,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000029",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 281040.20459999982,
+        "y" : 237561.71000000276
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 74600,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000030",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 281077.66449999996,
+        "y" : 237552.54980000108
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 74601,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산 입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000031",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 281549.62130000163,
+        "y" : 237241.34630000032
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 74602,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,등산로 시작점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000032",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 281666.9188000001,
+        "y" : 237145.11449999921
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 74603,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000033",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 281784.81640000176,
+        "y" : 238156.66540000029
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 74604,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000034",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 281832.92220000084,
+        "y" : 237313.51440000162
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 74605,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000035",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 281907.39490000065,
+        "y" : 239124.8320000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 74606,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로 끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000036",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 282086.57710000221,
+        "y" : 237496.45840000175
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 74607,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000037",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 282157.73000000045,
+        "y" : 237459.2405999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 74608,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000038",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 282174.50650000107,
+        "y" : 238120.6072000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 74609,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "설흘산 정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000039",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 282433.57510000095,
+        "y" : 238076.58730000071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 74610,
+        "MNTN_CODE" : "488403201",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "설흘산 정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "응봉산",
+        "PAST_SPOT_" : "28050233000040",
+        "MNTN_ID" : "2805023300"
+      },
+      "geometry" : {
+        "x" : 282452.52840000391,
+        "y" : 238106.59070000052
+      }
+    }
+  ]
+}

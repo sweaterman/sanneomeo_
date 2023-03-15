@@ -1,0 +1,459 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 33043,
+        "MNTN_CODE" : "427602201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "발왕산",
+        "PAST_SPOT_" : "4276022010001",
+        "MNTN_ID" : "427602201"
+      },
+      "geometry" : {
+        "x" : 348913.304500008,
+        "y" : 561585.70340000279
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 33044,
+        "MNTN_CODE" : "427602201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "발왕산",
+        "PAST_SPOT_" : "22150215000002",
+        "MNTN_ID" : "2215021500"
+      },
+      "geometry" : {
+        "x" : 347628.38980000746,
+        "y" : 558241.18459999934
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 33045,
+        "MNTN_CODE" : "427602201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼거리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "발왕산",
+        "PAST_SPOT_" : "22150215000003",
+        "MNTN_ID" : "2215021500"
+      },
+      "geometry" : {
+        "x" : 347874.68940000609,
+        "y" : 558587.70089999773
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 33046,
+        "MNTN_CODE" : "427602201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "발왕산",
+        "PAST_SPOT_" : "22150215000004",
+        "MNTN_ID" : "2215021500"
+      },
+      "geometry" : {
+        "x" : 347890.12060000934,
+        "y" : 558902.17889999971
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 33047,
+        "MNTN_CODE" : "427602201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "발왕산",
+        "PAST_SPOT_" : "22150215000005",
+        "MNTN_ID" : "2215021500"
+      },
+      "geometry" : {
+        "x" : 347750.94610000961,
+        "y" : 559234.84230000153
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 33048,
+        "MNTN_CODE" : "427602201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "발왕산",
+        "PAST_SPOT_" : "22150215000006",
+        "MNTN_ID" : "2215021500"
+      },
+      "geometry" : {
+        "x" : 347732.46110000834,
+        "y" : 560665.88780000247
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 33049,
+        "MNTN_CODE" : "427602201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "정망쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "발왕산",
+        "PAST_SPOT_" : "22150215000007",
+        "MNTN_ID" : "2215021500"
+      },
+      "geometry" : {
+        "x" : 347765.67510000803,
+        "y" : 559982.21000000089
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 33050,
+        "MNTN_CODE" : "427602201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "발왕산",
+        "PAST_SPOT_" : "22150215000008",
+        "MNTN_ID" : "2215021500"
+      },
+      "geometry" : {
+        "x" : 347072.87400000636,
+        "y" : 557238.72389999963
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 33051,
+        "MNTN_CODE" : "427602201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "발왕산",
+        "PAST_SPOT_" : "22150215000009",
+        "MNTN_ID" : "2215021500"
+      },
+      "geometry" : {
+        "x" : 346918.78520000726,
+        "y" : 557218.93860000186
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 33052,
+        "MNTN_CODE" : "427602201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "발왕산",
+        "PAST_SPOT_" : "22150215000010",
+        "MNTN_ID" : "2215021500"
+      },
+      "geometry" : {
+        "x" : 346100.25990000926,
+        "y" : 557905.37790000252
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 33053,
+        "MNTN_CODE" : "427602201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "발왕산",
+        "PAST_SPOT_" : "22150215000011",
+        "MNTN_ID" : "2215021500"
+      },
+      "geometry" : {
+        "x" : 345926.4425000092,
+        "y" : 558255.46869999915
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 33054,
+        "MNTN_CODE" : "427602201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "기점안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "발왕산",
+        "PAST_SPOT_" : "22150215000012",
+        "MNTN_ID" : "2215021500"
+      },
+      "geometry" : {
+        "x" : 345565.00810000487,
+        "y" : 558806.79560000077
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 33055,
+        "MNTN_CODE" : "427602201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "발왕산",
+        "PAST_SPOT_" : "22150215000013",
+        "MNTN_ID" : "2215021500"
+      },
+      "geometry" : {
+        "x" : 346843.6225000117,
+        "y" : 557802.92640000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 33056,
+        "MNTN_CODE" : "427602201",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : "이정표설치요망",
+        "MNTN_NM" : "발왕산",
+        "PAST_SPOT_" : "22150215000014",
+        "MNTN_ID" : "2215021500"
+      },
+      "geometry" : {
+        "x" : 347420.06830000691,
+        "y" : 557479.25160000101
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 33057,
+        "MNTN_CODE" : "427602201",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "발왕산정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "발왕산",
+        "PAST_SPOT_" : "22150215000015",
+        "MNTN_ID" : "2215021500"
+      },
+      "geometry" : {
+        "x" : 347551.61650000792,
+        "y" : 557696.69129999913
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 33058,
+        "MNTN_CODE" : "427602201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "용평리조트",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "발왕산",
+        "PAST_SPOT_" : "22150215000016",
+        "MNTN_ID" : "2215021500"
+      },
+      "geometry" : {
+        "x" : 347577.17040000763,
+        "y" : 558169.96429999918
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 33059,
+        "MNTN_CODE" : "427602201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,용산리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "발왕산",
+        "PAST_SPOT_" : "22150215000017",
+        "MNTN_ID" : "2215021500"
+      },
+      "geometry" : {
+        "x" : 345392.82010000665,
+        "y" : 558786.74239999987
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 33060,
+        "MNTN_CODE" : "427602201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "발왕산",
+        "PAST_SPOT_" : "22150215000018",
+        "MNTN_ID" : "2215021500"
+      },
+      "geometry" : {
+        "x" : 347462.0367000103,
+        "y" : 557476.36659999937
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 33061,
+        "MNTN_CODE" : "427602201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "발왕산",
+        "PAST_SPOT_" : "22150215000019",
+        "MNTN_ID" : "2215021500"
+      },
+      "geometry" : {
+        "x" : 347900.00100000668,
+        "y" : 558857.63020000234
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 33062,
+        "MNTN_CODE" : "427602201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "발왕산",
+        "PAST_SPOT_" : "22150215000020",
+        "MNTN_ID" : "2215021500"
+      },
+      "geometry" : {
+        "x" : 345409.94230000954,
+        "y" : 558919.28759999946
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 33063,
+        "MNTN_CODE" : "427602201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "발왕산",
+        "PAST_SPOT_" : "22150215000021",
+        "MNTN_ID" : "2215021500"
+      },
+      "geometry" : {
+        "x" : 348206.7039000066,
+        "y" : 561809.94319999963
+      }
+    }
+  ]
+}

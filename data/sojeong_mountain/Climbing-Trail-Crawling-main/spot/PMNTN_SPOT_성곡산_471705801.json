@@ -1,0 +1,837 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 52033,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010001",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 356410.87700001337,
+        "y" : 441980.2723999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 52034,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010002",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 356997.12650001328,
+        "y" : 441665.09110000171
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 52035,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010003",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 357230.56080001406,
+        "y" : 442285.17500000075
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 52036,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010004",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 357346.25780001655,
+        "y" : 441715.04580000043
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 52037,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010005",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 357389.79240001366,
+        "y" : 441377.40689999983
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 52038,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010006",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 357919.07200001366,
+        "y" : 440857.57840000838
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 52039,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010007",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 358108.92110001575,
+        "y" : 441339.38369999826
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 52040,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010008",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 359264.07920001633,
+        "y" : 440834.42970000207
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 52041,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010009",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 359505.76030001417,
+        "y" : 441488.46929999813
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 52042,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010010",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 360055.04060001299,
+        "y" : 440644.49090000056
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 52043,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010011",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 360557.08320001699,
+        "y" : 441497.34080000781
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 52044,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010012",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 361442.5316000171,
+        "y" : 441553.99000000209
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 52045,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "향교길 145",
+        "ETC_MATTER" : "안내판설치요",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010013",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 360063.90990002733,
+        "y" : 440641.73810000531
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 52046,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010014",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 359284.50260002911,
+        "y" : 440841.2388000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 52047,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010015",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 357921.00080002937,
+        "y" : 440861.29719999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 52048,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "안내판설치요",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010016",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 358143.56780002918,
+        "y" : 441127.94629999995
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 52049,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치 운동기구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010017",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 358092.89000002667,
+        "y" : 441273.86540000327
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 52050,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치 운동기구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010018",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 358112.28390003182,
+        "y" : 441348.41750000045
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 52051,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치 운동기구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010019",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 357741.90070002899,
+        "y" : 441373.09240000136
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 52052,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동기구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010020",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 357376.5505000269,
+        "y" : 441377.86889999919
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 52053,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010021",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 358354.17480053753,
+        "y" : 441408.67239963822
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 52054,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010022",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 358132.4648000272,
+        "y" : 441422.04030000232
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 52055,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동기구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010023",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 357619.6468000263,
+        "y" : 441430.09640000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 52056,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010024",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 359505.91730002966,
+        "y" : 441487.3590000011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 52057,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표 벤치",
+        "ETC_MATTER" : "송천향교",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010025",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 360549.58440003265,
+        "y" : 441512.40610000305
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 52058,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "다라골 입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010026",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 361443.50740002748,
+        "y" : 441553.60240000114
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 52059,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "계단",
+        "ETC_MATTER" : "계단보수요",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010027",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 356993.05520002823,
+        "y" : 441674.15040000714
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 52060,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "계단",
+        "ETC_MATTER" : "계단보수요",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010028",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 356986.61090002675,
+        "y" : 441682.27080000192
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 52061,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표 벤치",
+        "ETC_MATTER" : "산불초소",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010029",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 360081.66780002974,
+        "y" : 441814.53240000457
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 52062,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010030",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 357417.18160002586,
+        "y" : 441885.01520000212
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 52063,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010031",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 356416.55400002562,
+        "y" : 441967.69610000402
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 52064,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "용신각",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010032",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 356428.92330002785,
+        "y" : 441973.06100000255
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 52065,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010033",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 357451.21150002815,
+        "y" : 442036.12729999982
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 52066,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010034",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 357456.86000002548,
+        "y" : 442048.03220000491
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 52067,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "평화사",
+        "ETC_MATTER" : "이정표설치요",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010035",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 356804.06960002705,
+        "y" : 442138.03150000423
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 52068,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010036",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 357515.16330002528,
+        "y" : 442444.73620000109
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 52069,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : "육각정",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010037",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 357642.17640002724,
+        "y" : 442464.52370000444
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 52070,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010038",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 360491.90187963191,
+        "y" : 440267.21140683442
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 52071,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010039",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 358232.4876001766,
+        "y" : 442964.47012800723
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 52072,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010040",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 357651.27420001477,
+        "y" : 442456.57320000045
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 52073,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010041",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 360493.95030058268,
+        "y" : 440985.69899960235
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 52074,
+        "MNTN_CODE" : "471705801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성곡산",
+        "PAST_SPOT_" : "4717022010042",
+        "MNTN_ID" : "471702201"
+      },
+      "geometry" : {
+        "x" : 358297.11566537526,
+        "y" : 441249.47239781544
+      }
+    }
+  ]
+}

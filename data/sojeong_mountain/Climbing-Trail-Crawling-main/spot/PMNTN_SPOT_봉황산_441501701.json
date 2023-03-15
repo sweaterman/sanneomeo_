@@ -1,0 +1,891 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 43044,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010001",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210328.25,
+        "y" : 428649.58330000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 43045,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010002",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210359.78460000083,
+        "y" : 428149.17030000128
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 43046,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010003",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210360.23869999964,
+        "y" : 427909.90090000071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 43047,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010004",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210389.16569999885,
+        "y" : 427986.47000000253
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 43048,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010005",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210400.7901999997,
+        "y" : 428256.05160000175
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 43049,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010006",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210403.41060000099,
+        "y" : 428301.05340000056
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 43050,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010007",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210411.02850000095,
+        "y" : 428467.470900001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 43051,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010008",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210440.38380000088,
+        "y" : 428286.86590000056
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 43052,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010009",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210452.46000000089,
+        "y" : 428075.21000000462
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 43053,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010010",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210474.38459999952,
+        "y" : 428077.77570000291
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 43054,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010011",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210478.46119999979,
+        "y" : 428295.08390000276
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 43055,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010012",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210478.47559999954,
+        "y" : 428295.06690000184
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 43056,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010013",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210503.05290000048,
+        "y" : 428022.17500000075
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 43057,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010014",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210504.54820000101,
+        "y" : 428008.5431999974
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 43058,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010015",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210513.32650000043,
+        "y" : 428257.77490000241
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 43059,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010016",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210516.29009999987,
+        "y" : 428302.47880000249
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 43060,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010017",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210517.04409999959,
+        "y" : 428546.81210000068
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 43061,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010018",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210518.85960000101,
+        "y" : 428674.25469999947
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 43062,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010019",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210527.80820000079,
+        "y" : 428004.75110000186
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 43063,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010020",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210544.47709999979,
+        "y" : 428208.27810000069
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 43064,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010021",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210555.34979999997,
+        "y" : 428210.41840000451
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 43065,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010022",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210558.80109999981,
+        "y" : 428060.47750000097
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 43066,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010023",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210572.38560000062,
+        "y" : 428053.32410000265
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 43067,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010024",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210581.96250000037,
+        "y" : 428078.33350000158
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 43068,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010025",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210585.8833000008,
+        "y" : 428173.74310000241
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 43069,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010026",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210586.67219999898,
+        "y" : 428203.82069999911
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 43070,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010027",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210587.09430000093,
+        "y" : 428159.92060000263
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 43071,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010028",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210587.45859999955,
+        "y" : 428210.4234000016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 43072,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010029",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210594.1735000005,
+        "y" : 428098.37729999982
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 43073,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010030",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210614.37480000127,
+        "y" : 428175.13409999944
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 43074,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010031",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210623.13850000128,
+        "y" : 428157.8711000029
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 43075,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010032",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210642.77950000111,
+        "y" : 428157.51319999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 43076,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010033",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210643.78950000089,
+        "y" : 428182.73540000431
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 43077,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010034",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210645.17389999982,
+        "y" : 428134.01350000314
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 43078,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010035",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210653.51010000054,
+        "y" : 428135.48950000107
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 43079,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010036",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210666.53760000132,
+        "y" : 428173.8489000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 43080,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010037",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210673.75810000021,
+        "y" : 428307.70100000128
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 43081,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010038",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210687.60319999885,
+        "y" : 428537.08550000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 43082,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010039",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210697.34080000129,
+        "y" : 428042.13190000318
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 43083,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010040",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210704.22850000113,
+        "y" : 428694.10840000212
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 43084,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010041",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210716.03470000066,
+        "y" : 428410.62010000087
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 43085,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010042",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210748.83430000022,
+        "y" : 428202.49700000137
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 43086,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010043",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210773.99129999988,
+        "y" : 428603.51170000434
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 43087,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010044",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210823.04300000053,
+        "y" : 428392.63120000251
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 43088,
+        "MNTN_CODE" : "441501701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉황산",
+        "PAST_SPOT_" : "4415017010045",
+        "MNTN_ID" : "441501701"
+      },
+      "geometry" : {
+        "x" : 210878.12649999931,
+        "y" : 428288.75540000387
+      }
+    }
+  ]
+}

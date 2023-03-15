@@ -1,0 +1,819 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 32755,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "4219010010001",
+        "MNTN_ID" : "421901001"
+      },
+      "geometry" : {
+        "x" : 379239.58660002518,
+        "y" : 502327.61020000651
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 32756,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "4219010010002",
+        "MNTN_ID" : "421901001"
+      },
+      "geometry" : {
+        "x" : 379492.62760002725,
+        "y" : 502615.77650000714
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 32757,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "4219010010003",
+        "MNTN_ID" : "421901001"
+      },
+      "geometry" : {
+        "x" : 379566.30380002875,
+        "y" : 502079.56400000677
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 32758,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000004",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378630.88250002731,
+        "y" : 501959.44550000317
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 32759,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000005",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378578.90020003077,
+        "y" : 501893.86330000684
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 32760,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육공원",
+        "ETC_MATTER" : "종점",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000006",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378609.21100002714,
+        "y" : 501747.9961000029
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 32761,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "지도안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000007",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378619.16300002392,
+        "y" : 501480.58790000342
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 32762,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "용암사길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000008",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378615.85370002873,
+        "y" : 501436.75820000656
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 32763,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "문화샘터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000009",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378660.90420002677,
+        "y" : 501340.19370000623
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 32764,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "용암사길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000010",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378646.91550002433,
+        "y" : 501314.65010000765
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 32765,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "용암사길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000011",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378691.49530002568,
+        "y" : 501234.05670000426
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 32766,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "박월산정상부,삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000012",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378681.11240002699,
+        "y" : 500692.10610000417
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 32767,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "용암사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000013",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378546.88980002608,
+        "y" : 500954.7349000033
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 32768,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000014",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378470.58960002754,
+        "y" : 501210.69140000455
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 32769,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000015",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378029.64760002773,
+        "y" : 501743.37869999744
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 32770,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "지도안내판",
+        "ETC_MATTER" : "금천길",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000016",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 377785.07270002738,
+        "y" : 501650.90620000102
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 32771,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000017",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 377937.26920002792,
+        "y" : 501226.36610000767
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 32772,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000018",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378192.18620002829,
+        "y" : 501170.14750000648
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 32773,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000019",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378303.57190002687,
+        "y" : 501519.08430000767
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 32774,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "샘터",
+        "ETC_MATTER" : "54,56",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000020",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378157.47710002679,
+        "y" : 500893.02410000376
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 32775,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000021",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378153.64650002494,
+        "y" : 500839.54800000787
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 32776,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000022",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378134.64660002757,
+        "y" : 500771.04250000045
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 32777,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표무당골",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000023",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378221.07730002794,
+        "y" : 500689.87829999812
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 32778,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,용바위길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000024",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378555.08636229951,
+        "y" : 500719.34171326086
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 32779,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "용바위접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000025",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378483.86590002757,
+        "y" : 500741.27459999919
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 32780,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "용바위분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000026",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378276.58766189963,
+        "y" : 500714.7798657231
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 32781,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "문바위",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000027",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378064.78030002397,
+        "y" : 500575.34750000387
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 32782,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "용암사길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000028",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378000.94970002677,
+        "y" : 500687.94500000589
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 32783,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000029",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 377931.15290002711,
+        "y" : 500815.42590000294
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 32784,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "지도안내판,체육공원길",
+        "ETC_MATTER" : "체육공원길,종점",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000030",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378008.3949000258,
+        "y" : 500996.340499999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 32785,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "체육공원길,종점",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000031",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378000.22960002813,
+        "y" : 501007.85490000807
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 32786,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,지도안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000032",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378069.58260002825,
+        "y" : 501759.44520000368
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 32787,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "추락위험",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000033",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378276.58770002611,
+        "y" : 500714.77990000509
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 32788,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "용암사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000034",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378336.85720002744,
+        "y" : 501085.34820000641
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 32789,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "용바위",
+        "ETC_MATTER" : "추락위험",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000035",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378429.74250003044,
+        "y" : 500772.63830000535
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 32790,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000036",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378571.45560002793,
+        "y" : 501922.01980000548
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 32791,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "종점",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000037",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378603.2324000271,
+        "y" : 501762.23410000466
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 32792,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000038",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378614.18430002779,
+        "y" : 501440.29120000824
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 32793,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000039",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378649.95350002777,
+        "y" : 501564.8618999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 32794,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철탑길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000040",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 378930.20780002605,
+        "y" : 500797.6433000043
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 32795,
+        "MNTN_CODE" : "421902501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박월산",
+        "PAST_SPOT_" : "22140801000041",
+        "MNTN_ID" : "2214080100"
+      },
+      "geometry" : {
+        "x" : 379014.68770002667,
+        "y" : 500890.43999999948
+      }
+    }
+  ]
+}

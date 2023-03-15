@@ -1,0 +1,891 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 17261,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설",
+        "ETC_MATTER" : "이정표",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000001",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408912.89840008505,
+        "y" : 381867.43860000558
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 17262,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000002",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408954.50260008778,
+        "y" : 382003.94350000471
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 17263,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000003",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408942.35450008512,
+        "y" : 382068.60830000415
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 17264,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : "시점",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000004",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408948.45300008636,
+        "y" : 382078.11500000581
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 17265,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : "종점",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000005",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408947.58990009036,
+        "y" : 382093.54160000756
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 17266,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000006",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408669.2177000856,
+        "y" : 382556.59310000762
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 17267,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "지도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000007",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408653.54800008982,
+        "y" : 382568.32540000603
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 17268,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "측량점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000008",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408570.32460008562,
+        "y" : 382667.03880000673
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 17269,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000009",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408400.63080008514,
+        "y" : 382850.22050000727
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 17270,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000010",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408294.14730008598,
+        "y" : 383082.05600000545
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 17271,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000011",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408380.61560008489,
+        "y" : 383740.48410000652
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 17272,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000012",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408672.58680008352,
+        "y" : 381587.01060000807
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 17273,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000013",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408580.71010008454,
+        "y" : 381539.80940000527
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 17274,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망권",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000014",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408535.84890008159,
+        "y" : 381063.37050000392
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 17275,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "세면계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000015",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 409504.93010008708,
+        "y" : 382695.80990000814
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 17276,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000016",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 409491.49450008757,
+        "y" : 382716.33380000666
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 17277,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000017",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 409492.57330008782,
+        "y" : 382739.94690000638
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 17278,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000018",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 409477.00720008742,
+        "y" : 382759.39840000495
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 17279,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000019",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 409455.54640008882,
+        "y" : 382780.14190000482
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 17280,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000020",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 409384.88990008552,
+        "y" : 382841.43470000476
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 17281,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000021",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 409360.86450008675,
+        "y" : 382905.44960000366
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 17282,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : "시잠",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000022",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 409181.28490008693,
+        "y" : 383170.18200000748
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 17283,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : "종점",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000023",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 409167.52870008629,
+        "y" : 383174.68510000594
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 17284,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000024",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 409061.50270008575,
+        "y" : 383244.82150000706
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 17285,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000025",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408997.40240008477,
+        "y" : 383340.21040000767
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 17286,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000026",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408844.35850008391,
+        "y" : 383434.81660000794
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 17287,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000027",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408804.52770008706,
+        "y" : 383452.04850000516
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 17288,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000028",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408735.30190008413,
+        "y" : 383477.09950000793
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 17289,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000029",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408622.8503000848,
+        "y" : 383488.05330000445
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 17290,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000030",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408543.40580008551,
+        "y" : 383473.5621000044
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 17291,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000031",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408495.21670008451,
+        "y" : 383616.42870000564
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 17292,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "측량점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000032",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408434.63740008511,
+        "y" : 383706.74080000632
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 17293,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "터널위",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000033",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408404.15030008741,
+        "y" : 383948.36370000802
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 17294,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : "시점",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000034",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408420.05520008504,
+        "y" : 384121.17000000738
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 17295,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : "종점",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000035",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408404.12290008739,
+        "y" : 384142.94650000334
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 17296,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : "시점",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000036",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408405.49380008411,
+        "y" : 384162.71280000731
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 17297,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : "종점",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000037",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408409.47360008489,
+        "y" : 384171.36930000409
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 17298,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "도로공사",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000038",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408358.6321000848,
+        "y" : 384372.61960000731
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 17299,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "지곡산정상부,측량점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000039",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408358.95550008584,
+        "y" : 382941.83710000478
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 17300,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "지곡산정상부,측량점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000040",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408359.14260008465,
+        "y" : 382941.77580000833
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 17301,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000041",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408385.31130008399,
+        "y" : 383747.64740000665
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 17302,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000042",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408654.17580008693,
+        "y" : 380994.14200000651
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 17303,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000043",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 408773.37850008439,
+        "y" : 381752.28040000796
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 17304,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000044",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 409497.74770008773,
+        "y" : 382690.9411000032
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 17305,
+        "MNTN_CODE" : "471100901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노적봉",
+        "PAST_SPOT_" : "27232504000045",
+        "MNTN_ID" : "2723250400"
+      },
+      "geometry" : {
+        "x" : 409052.99990008771,
+        "y" : 381244.30190000311
+      }
+    }
+  ]
+}

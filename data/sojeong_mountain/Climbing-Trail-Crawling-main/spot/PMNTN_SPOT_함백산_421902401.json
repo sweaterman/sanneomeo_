@@ -1,0 +1,1089 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 91551,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "4219024010001",
+        "MNTN_ID" : "421902401"
+      },
+      "geometry" : {
+        "x" : 372698.65000002645,
+        "y" : 509494.56520000286
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 91552,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "4219024010002",
+        "MNTN_ID" : "421902401"
+      },
+      "geometry" : {
+        "x" : 372828.69390002079,
+        "y" : 509689.74450000562
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 91553,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000003",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 368990.94960001949,
+        "y" : 507177.76539999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 91554,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000004",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 369005.67800002079,
+        "y" : 507167.13400000334
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 91555,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000005",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 369025.8045000229,
+        "y" : 507179.88540000655
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 91556,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단",
+        "ETC_MATTER" : "100*1.2",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000006",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 369159.56460002065,
+        "y" : 507196.21470000036
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 91557,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000007",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 369257.0984000219,
+        "y" : 507234.44950000569
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 91558,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000008",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 369962.17600002047,
+        "y" : 507453.13990000263
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 91559,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000009",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 370170.19870002009,
+        "y" : 507858.59109999985
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 91560,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000010",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 370132.91750002094,
+        "y" : 507863.202100005
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 91561,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000011",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 370111.52570001967,
+        "y" : 507862.65940000676
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 91562,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000012",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 370114.90490002092,
+        "y" : 507885.92460000329
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 91563,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000013",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 370160.4303000262,
+        "y" : 508012.2891000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 91564,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단",
+        "ETC_MATTER" : "20*1.2",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000014",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 370255.93800002057,
+        "y" : 508115.41150000319
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 91565,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단",
+        "ETC_MATTER" : "60*1.2",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000015",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 370284.44930002186,
+        "y" : 508181.46970000677
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 91566,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : "90*1.2",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000016",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 370270.39470001962,
+        "y" : 508392.81280000508
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 91567,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : "15*1.2",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000017",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 370243.14380001742,
+        "y" : 508475.16750000045
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 91568,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "전망대필요",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000018",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 370343.91140002012,
+        "y" : 508622.01550000347
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 91569,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000019",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 370345.915900019,
+        "y" : 508759.85020000115
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 91570,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000020",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 370266.13100001961,
+        "y" : 509031.90520000644
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 91571,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000021",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 370245.30180533789,
+        "y" : 509039.18695084192
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 91572,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000022",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 369948.1238000188,
+        "y" : 509710.30310000479
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 91573,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단",
+        "ETC_MATTER" : "30*1.2",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000023",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 370130.14080001973,
+        "y" : 509507.39060000516
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 91574,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : "30",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000024",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 370109.58760002069,
+        "y" : 509524.49840000644
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 91575,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000025",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 369983.8905000193,
+        "y" : 509671.55969999917
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 91576,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000026",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 369965.38700002246,
+        "y" : 509695.46050000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 91577,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000027",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 370026.55510002002,
+        "y" : 510607.47570000216
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 91578,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000028",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 370021.26530002058,
+        "y" : 510612.91000000387
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 91579,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단",
+        "ETC_MATTER" : "60*1.",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000029",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 369184.09890002012,
+        "y" : 510466.02160000801
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 91580,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : "100*.8",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000030",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 369118.68900001887,
+        "y" : 510382.61390000209
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 91581,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000031",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 368984.5893000178,
+        "y" : 510181.99960000068
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 91582,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000032",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 368939.727300019,
+        "y" : 510130.96390000544
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 91583,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000033",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 368938.78550001793,
+        "y" : 510137.60759999976
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 91584,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : "200*1.5",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000034",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 368581.04820001777,
+        "y" : 510150.93970000371
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 91585,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000035",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 368566.844000021,
+        "y" : 510095.67830000073
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 91586,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000036",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 369941.23340001889,
+        "y" : 513186.08410000242
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 91587,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000037",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 369894.97560001444,
+        "y" : 513041.19250000454
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 91588,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000038",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 369893.77540002018,
+        "y" : 513029.36420000345
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 91589,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : "로프필요(40)",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000039",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 369865.8467000192,
+        "y" : 512982.78380000405
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 91590,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000040",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 369821.01320002135,
+        "y" : 512877.67520000041
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 91591,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000041",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 369820.14300001878,
+        "y" : 512876.78040000051
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 91592,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000042",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 369745.50380001962,
+        "y" : 512666.05670000426
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 91593,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000043",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 369737.48700001929,
+        "y" : 512664.50699999928
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 91594,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000044",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 369847.26770001836,
+        "y" : 512324.00610000081
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 91595,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "전망대필요",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000045",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 369847.85160001833,
+        "y" : 512325.00620000623
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 91596,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000046",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 369783.94720002078,
+        "y" : 512211.20729999803
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 91597,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : "로프필요(90)",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000047",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 369865.6014000196,
+        "y" : 511611.65130000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 91598,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000048",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 369875.36480002105,
+        "y" : 511421.86320000142
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 91599,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000049",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 369888.96840001922,
+        "y" : 513197.53250000253
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 91600,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000050",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 369886.82060002163,
+        "y" : 513190.40450000204
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 50,
+        "PMNTN_SPOT" : 91601,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000051",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 368568.69070001785,
+        "y" : 510083.32280000113
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 51,
+        "PMNTN_SPOT" : 91602,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000052",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 368958.24490001798,
+        "y" : 507187.73029999807
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 52,
+        "PMNTN_SPOT" : 91603,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "천의봉",
+        "ETC_MATTER" : "2004재설 태백305",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000053",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 369845.19780002069,
+        "y" : 512330.17170000076
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 53,
+        "PMNTN_SPOT" : 91604,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "노선내분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000054",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 370012.57310001925,
+        "y" : 510622.14609999955
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 54,
+        "PMNTN_SPOT" : 91605,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시점",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000055",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 370242.52150002122,
+        "y" : 508921.53889999911
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 55,
+        "PMNTN_SPOT" : 91606,
+        "MNTN_CODE" : "421902401",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "함백산정상부",
+        "ETC_MATTER" : "태백 11",
+        "MNTN_NM" : "함백산",
+        "PAST_SPOT_" : "22141814000056",
+        "MNTN_ID" : "2214181400"
+      },
+      "geometry" : {
+        "x" : 370334.86290002055,
+        "y" : 508610.59820000082
+      }
+    }
+  ]
+}

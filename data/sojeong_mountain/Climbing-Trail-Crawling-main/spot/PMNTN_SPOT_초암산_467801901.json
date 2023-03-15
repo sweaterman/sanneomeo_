@@ -1,0 +1,477 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 86021,
+        "MNTN_CODE" : "467801901",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치 6개",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "초암산",
+        "PAST_SPOT_" : "26109919000001",
+        "MNTN_ID" : "2610991900"
+      },
+      "geometry" : {
+        "x" : 217249.46840000059,
+        "y" : 248156.92390000261
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 86022,
+        "MNTN_CODE" : "467801901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "원수남방향진입불가",
+        "MNTN_NM" : "초암산",
+        "PAST_SPOT_" : "26109919000002",
+        "MNTN_ID" : "2610991900"
+      },
+      "geometry" : {
+        "x" : 216967.78050000034,
+        "y" : 248045.51250000112
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 86023,
+        "MNTN_CODE" : "467801901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "수남주차장방향소멸",
+        "MNTN_NM" : "초암산",
+        "PAST_SPOT_" : "26109919000003",
+        "MNTN_ID" : "2610991900"
+      },
+      "geometry" : {
+        "x" : 216768.68960000202,
+        "y" : 247977.08909999952
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 86024,
+        "MNTN_CODE" : "467801901",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "초암산",
+        "PAST_SPOT_" : "26109919000004",
+        "MNTN_ID" : "2610991900"
+      },
+      "geometry" : {
+        "x" : 216690.81290000305,
+        "y" : 248055.13749999925
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 86025,
+        "MNTN_CODE" : "467801901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "길이 10M",
+        "MNTN_NM" : "초암산",
+        "PAST_SPOT_" : "26109919000005",
+        "MNTN_ID" : "2610991900"
+      },
+      "geometry" : {
+        "x" : 216434.37729999982,
+        "y" : 248129.42239999957
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 86026,
+        "MNTN_CODE" : "467801901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "석호삼거리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "초암산",
+        "PAST_SPOT_" : "26109919000006",
+        "MNTN_ID" : "2610991900"
+      },
+      "geometry" : {
+        "x" : 215181.62440000195,
+        "y" : 247900.05980000272
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 86027,
+        "MNTN_CODE" : "467801901",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동기구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "초암산",
+        "PAST_SPOT_" : "26109919000007",
+        "MNTN_ID" : "2610991900"
+      },
+      "geometry" : {
+        "x" : 214435.41029999964,
+        "y" : 248126.49689999968
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 86028,
+        "MNTN_CODE" : "467801901",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동기구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "초암산",
+        "PAST_SPOT_" : "26109919000008",
+        "MNTN_ID" : "2610991900"
+      },
+      "geometry" : {
+        "x" : 214432.5831999993,
+        "y" : 248132.75080000237
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 86029,
+        "MNTN_CODE" : "467801901",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "등산안내도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "초암산",
+        "PAST_SPOT_" : "26109919000009",
+        "MNTN_ID" : "2610991900"
+      },
+      "geometry" : {
+        "x" : 214084.47780000046,
+        "y" : 248365.034500001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 86030,
+        "MNTN_CODE" : "467801901",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "초암산",
+        "PAST_SPOT_" : "26109919000010",
+        "MNTN_ID" : "2610991900"
+      },
+      "geometry" : {
+        "x" : 217902.07110000029,
+        "y" : 248694.8263000045
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 86031,
+        "MNTN_CODE" : "467801901",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "초암산",
+        "PAST_SPOT_" : "26109919000011",
+        "MNTN_ID" : "2610991900"
+      },
+      "geometry" : {
+        "x" : 217684.12240000069,
+        "y" : 248686.56720000133
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 86032,
+        "MNTN_CODE" : "467801901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "초암산",
+        "PAST_SPOT_" : "26109919000012",
+        "MNTN_ID" : "2610991900"
+      },
+      "geometry" : {
+        "x" : 217683.42650000006,
+        "y" : 248681.57220000215
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 86033,
+        "MNTN_CODE" : "467801901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "초암산",
+        "PAST_SPOT_" : "26109919000013",
+        "MNTN_ID" : "2610991900"
+      },
+      "geometry" : {
+        "x" : 217067.64760000072,
+        "y" : 248629.16369999945
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 86034,
+        "MNTN_CODE" : "467801901",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "초암산",
+        "PAST_SPOT_" : "26109919000014",
+        "MNTN_ID" : "2610991900"
+      },
+      "geometry" : {
+        "x" : 218797.79710000288,
+        "y" : 248702.67810000665
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 86035,
+        "MNTN_CODE" : "467801901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "초암산",
+        "PAST_SPOT_" : "26109919000015",
+        "MNTN_ID" : "2610991900"
+      },
+      "geometry" : {
+        "x" : 219274.02530000173,
+        "y" : 248711.4439000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 86036,
+        "MNTN_CODE" : "467801901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "초암산",
+        "PAST_SPOT_" : "26109919000016",
+        "MNTN_ID" : "2610991900"
+      },
+      "geometry" : {
+        "x" : 214084.1539000012,
+        "y" : 248362.14320000447
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 86037,
+        "MNTN_CODE" : "467801901",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "초암산",
+        "PAST_SPOT_" : "26109919000017",
+        "MNTN_ID" : "2610991900"
+      },
+      "geometry" : {
+        "x" : 216724.17560000252,
+        "y" : 248040.22070000321
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 86038,
+        "MNTN_CODE" : "467801901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "초암산",
+        "PAST_SPOT_" : "26109919000018",
+        "MNTN_ID" : "2610991900"
+      },
+      "geometry" : {
+        "x" : 217064.01160000265,
+        "y" : 248633.98160000145
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 86039,
+        "MNTN_CODE" : "467801901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "밤골삼거리",
+        "ETC_MATTER" : "금천방향등산불가",
+        "MNTN_NM" : "초암산",
+        "PAST_SPOT_" : "26109919000019",
+        "MNTN_ID" : "2610991900"
+      },
+      "geometry" : {
+        "x" : 217610.21679999959,
+        "y" : 248372.5847000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 86040,
+        "MNTN_CODE" : "467801901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "초암산",
+        "PAST_SPOT_" : "26109919000020",
+        "MNTN_ID" : "2610991900"
+      },
+      "geometry" : {
+        "x" : 218003.98740000185,
+        "y" : 248776.21330000088
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 86041,
+        "MNTN_CODE" : "467801901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "초암산",
+        "PAST_SPOT_" : "26109919000021",
+        "MNTN_ID" : "2610991900"
+      },
+      "geometry" : {
+        "x" : 218009.47460000124,
+        "y" : 248654.63359999843
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 86042,
+        "MNTN_CODE" : "467801901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "초암산",
+        "PAST_SPOT_" : "26109919000022",
+        "MNTN_ID" : "2610991900"
+      },
+      "geometry" : {
+        "x" : 219331.68549999967,
+        "y" : 247911.44009999931
+      }
+    }
+  ]
+}

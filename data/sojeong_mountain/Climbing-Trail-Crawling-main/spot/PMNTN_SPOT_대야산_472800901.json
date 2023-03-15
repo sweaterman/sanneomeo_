@@ -1,0 +1,297 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 19948,
+        "MNTN_CODE" : "472800901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대야산",
+        "PAST_SPOT_" : "4728009010001",
+        "MNTN_ID" : "472800901"
+      },
+      "geometry" : {
+        "x" : 283143.89706242271,
+        "y" : 452663.77452148125
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 19949,
+        "MNTN_CODE" : "472800901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대야산",
+        "PAST_SPOT_" : "4728009010002",
+        "MNTN_ID" : "472800901"
+      },
+      "geometry" : {
+        "x" : 285277.908400001,
+        "y" : 455017.69320000149
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 19950,
+        "MNTN_CODE" : "472800901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계곡시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대야산",
+        "PAST_SPOT_" : "27070108000003",
+        "MNTN_ID" : "2707010800"
+      },
+      "geometry" : {
+        "x" : 285792.43309999909,
+        "y" : 452722.99400000088
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 19951,
+        "MNTN_CODE" : "472800901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "용추폭포",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대야산",
+        "PAST_SPOT_" : "27070108000004",
+        "MNTN_ID" : "2707010800"
+      },
+      "geometry" : {
+        "x" : 285696.90599999949,
+        "y" : 452583.96340000257
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 19952,
+        "MNTN_CODE" : "472800901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "피아골",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대야산",
+        "PAST_SPOT_" : "27070108000005",
+        "MNTN_ID" : "2707010800"
+      },
+      "geometry" : {
+        "x" : 284114.70490000211,
+        "y" : 452701.1269000005
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 19953,
+        "MNTN_CODE" : "472800901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "피아골",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대야산",
+        "PAST_SPOT_" : "27070108000006",
+        "MNTN_ID" : "2707010800"
+      },
+      "geometry" : {
+        "x" : 283388.30289999861,
+        "y" : 452513.44640000165
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 19954,
+        "MNTN_CODE" : "472800901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표(능선)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대야산",
+        "PAST_SPOT_" : "27070108000007",
+        "MNTN_ID" : "2707010800"
+      },
+      "geometry" : {
+        "x" : 283055.12359999865,
+        "y" : 452609.7704000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 19955,
+        "MNTN_CODE" : "472800901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표(능선)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대야산",
+        "PAST_SPOT_" : "27070108000008",
+        "MNTN_ID" : "2707010800"
+      },
+      "geometry" : {
+        "x" : 283309.28850000165,
+        "y" : 452199.13730000146
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 19956,
+        "MNTN_CODE" : "472800901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표(사기굴)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대야산",
+        "PAST_SPOT_" : "27070108000009",
+        "MNTN_ID" : "2707010800"
+      },
+      "geometry" : {
+        "x" : 283683.02370000165,
+        "y" : 451724.31660000235
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 19957,
+        "MNTN_CODE" : "472800901",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "대야산정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대야산",
+        "PAST_SPOT_" : "27070108000010",
+        "MNTN_ID" : "2707010800"
+      },
+      "geometry" : {
+        "x" : 283091.95170000009,
+        "y" : 452700.25960000418
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 19958,
+        "MNTN_CODE" : "472800901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "월영대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대야산",
+        "PAST_SPOT_" : "27070108000011",
+        "MNTN_ID" : "2707010800"
+      },
+      "geometry" : {
+        "x" : 284699.88520000037,
+        "y" : 452439.41819999926
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 19959,
+        "MNTN_CODE" : "472800901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대야산",
+        "PAST_SPOT_" : "27070108000012",
+        "MNTN_ID" : "2707010800"
+      },
+      "geometry" : {
+        "x" : 285830.7293000007,
+        "y" : 452869.46740000136
+      }
+    }
+  ]
+}

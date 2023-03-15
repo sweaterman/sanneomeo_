@@ -1,0 +1,747 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 82359,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "노선내 분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000001",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 303118.61739999987,
+        "y" : 425997.07580000162
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 82360,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "송전탑",
+        "ETC_MATTER" : "12~13",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000002",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 303095.3729000017,
+        "y" : 425990.69470000267
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 82361,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "송전탑",
+        "ETC_MATTER" : "12~13",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000003",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 303073.39290000405,
+        "y" : 425991.09910000116
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 82362,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "119요청1지점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000004",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 302953.9858000027,
+        "y" : 426045.95109999925
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 82363,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000005",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 302902.26510000229,
+        "y" : 426073.41699999943
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 82364,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000006",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 302830.40780000389,
+        "y" : 426127.3927000016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 82365,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000007",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 302821.02990000416,
+        "y" : 426146.70460000262
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 82366,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000008",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 302716.22540000267,
+        "y" : 426233.58720000274
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 82367,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000009",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 302607.11310000066,
+        "y" : 426426.85930000059
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 82368,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000010",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 302617.19380000234,
+        "y" : 426461.71860000119
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 82369,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000011",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 302620.24470000155,
+        "y" : 426476.73840000108
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 82370,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000012",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 302368.17229999974,
+        "y" : 426935.91730000265
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 82371,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000013",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 302378.35929999873,
+        "y" : 427265.23380000144
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 82372,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000014",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 302303.47849999834,
+        "y" : 427500.31340000033
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 82373,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000015",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 302527.54450000264,
+        "y" : 427677.884200003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 82374,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "샘터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000016",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 302492.05120000057,
+        "y" : 427479.34669999965
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 82375,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산불초소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000017",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 302732.81060000416,
+        "y" : 427088.62900000252
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 82376,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "성황사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000018",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 302750.91150000039,
+        "y" : 427127.69030000083
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 82377,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "18",
+        "MANAGE_SP2" : "주차장",
+        "DETAIL_SPO" : "주차장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000019",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 302742.77450000029,
+        "y" : 427087.85930000059
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 82378,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "고목",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000020",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 303232.63390000071,
+        "y" : 426876.25520000048
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 82379,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "마을회관",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000021",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 303302.31309999991,
+        "y" : 426824.14370000176
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 82380,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000022",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 302982.11020000372,
+        "y" : 427927.12480000593
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 82381,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000023",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 302929.0494000027,
+        "y" : 427879.65590000153
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 82382,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000024",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 302791.80240000039,
+        "y" : 427936.29510000162
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 82383,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000025",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 302724.80460000038,
+        "y" : 427876.7860000059
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 82384,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000026",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 302281.31010000408,
+        "y" : 428534.03480000235
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 82385,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000027",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 302376.50050000288,
+        "y" : 428567.45839999989
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 82386,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000028",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 302601.86140000075,
+        "y" : 428345.81560000218
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 82387,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000029",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 302354.86790000182,
+        "y" : 427143.42210000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 82388,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000030",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 302407.00100000203,
+        "y" : 427323.06530000269
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 82389,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000031",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 302526.71130000241,
+        "y" : 427680.09410000034
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 82390,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "천봉산",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000032",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 302532.79410000052,
+        "y" : 427787.38260000199
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 82391,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000033",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 302597.1836000029,
+        "y" : 427650.96160000376
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 82392,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,천봉산요양원",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000034",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 303112.33610000182,
+        "y" : 427910.47249999829
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 82393,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,출발점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000035",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 303230.33860000223,
+        "y" : 425947.57300000079
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 82394,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,모텔",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000036",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 303381.11880000308,
+        "y" : 426720.13350000046
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 82395,
+        "MNTN_CODE" : "472503901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천봉산",
+        "PAST_SPOT_" : "27095837000037",
+        "MNTN_ID" : "2709583700"
+      },
+      "geometry" : {
+        "x" : 303504.81699999981,
+        "y" : 428250.01470000111
+      }
+    }
+  ]
+}

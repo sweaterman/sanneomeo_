@@ -1,0 +1,927 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 23863,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "분기,분기,조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010001",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 224084.06210000068,
+        "y" : 372594.71759999916
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 23864,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타,기타,조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010002",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223697.59030000214,
+        "y" : 372468.28959999979
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 23865,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타,기타,조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010003",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223556.18070000131,
+        "y" : 372488.41870000027
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 23866,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010004",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223481.87670000177,
+        "y" : 372524.35640000179
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 23867,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010005",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223328.00910000037,
+        "y" : 372529.17310000211
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 23868,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010006",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 224066.38009999972,
+        "y" : 373303.05590000376
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 23869,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역,위험지역,조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010007",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223895.41830000095,
+        "y" : 373434.67470000125
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 23870,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010008",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223843.31760000065,
+        "y" : 373347.98920000158
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 23871,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010009",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223663.51600000169,
+        "y" : 373531.43400000222
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 23872,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "접점,접점,정상부,종점,종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010010",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223521.49455043767,
+        "y" : 373620.78985947929
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 23873,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010011",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 224029.12050000113,
+        "y" : 373789.62380000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 23874,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시작점,시작점,접점,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010012",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 222648.8219000008,
+        "y" : 372847.1668999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 23875,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010013",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223274.73180000111,
+        "y" : 373548.21550000273
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 23876,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010014",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223058.80389999971,
+        "y" : 373529.53509999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 23877,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010015",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223449.47080000117,
+        "y" : 373535.48470000178
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 23878,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010016",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223404.60190000106,
+        "y" : 373611.62860000134
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 23879,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010017",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223365.34250000026,
+        "y" : 373478.16940000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 23880,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010018",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223221.29989999998,
+        "y" : 373462.50850000232
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 23881,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010019",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223113.01209999993,
+        "y" : 373452.71330000274
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 23882,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010020",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223104.2909000013,
+        "y" : 373359.93200000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 23883,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010021",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223142.42679999955,
+        "y" : 373295.12260000221
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 23884,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "분기,시작점,기타건물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010022",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223184.85300000012,
+        "y" : 372702.29420000128
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 23885,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010023",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223366.12599999923,
+        "y" : 376016.67760000192
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 23886,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010024",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223319.61030000076,
+        "y" : 376092.32120000385
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 23887,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010025",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223378.18200000003,
+        "y" : 375904.20800000057
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 23888,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010026",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223299.9589999998,
+        "y" : 374718.88400000148
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 23889,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010027",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223259.57400000188,
+        "y" : 374435.69840000011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 23890,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010028",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223139.93300000206,
+        "y" : 374256.09200000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 23891,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010029",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223164.70199999958,
+        "y" : 373983.50200000033
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 23892,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010030",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223916.89499999955,
+        "y" : 374338.14599999972
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 23893,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010031",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223727.33800000045,
+        "y" : 374101.14500000142
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 23894,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010032",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223583.1370000001,
+        "y" : 373828.74200000055
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 23895,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010033",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223573.89829999954,
+        "y" : 375080.94730000012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 23896,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "13",
+        "MANAGE_SP2" : "유적(문화, 역사)",
+        "DETAIL_SPO" : "유적",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010034",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223878.83000000101,
+        "y" : 374786.84100000188
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 23897,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010035",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223327.51170000061,
+        "y" : 374613.09129999951
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 23898,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010036",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 222705.03470000159,
+        "y" : 375574.18920000084
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 23899,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010037",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223001.87156008091,
+        "y" : 372961.85457681678
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 23900,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010038",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223199.5903000012,
+        "y" : 373548.1484999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 23901,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010039",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223251.93840000127,
+        "y" : 376063.02300000191
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 23902,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010040",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223275.17430000007,
+        "y" : 372745.14560000226
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 23903,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010041",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223460.19990000036,
+        "y" : 372617.04340000078
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 23904,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010042",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223521.63000000082,
+        "y" : 373623.14951840788
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 23905,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010043",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 224301.73800000083,
+        "y" : 372764.81090000272
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 23906,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010044",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 224348.58990000002,
+        "y" : 372968.68969999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 23907,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010045",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 224548.612900001,
+        "y" : 373245.01850000024
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 96165,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "주요나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010046",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 224171.57789999951,
+        "y" : 373858.41430000053
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 96166,
+        "MNTN_CODE" : "457100601",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "주요나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동성산",
+        "PAST_SPOT_" : "4571006010047",
+        "MNTN_ID" : "457100601"
+      },
+      "geometry" : {
+        "x" : 223217.98799999931,
+        "y" : 373910.41899999959
+      }
+    }
+  ]
+}

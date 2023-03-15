@@ -1,0 +1,837 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 48975,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010001",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 263460.72610000148,
+        "y" : 521169.62530000322
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 48976,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010002",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 263511.1995000001,
+        "y" : 522000.63470000029
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 48977,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010003",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 263576.89600000251,
+        "y" : 521962.21460000426
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 48978,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010004",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 263871.57240000088,
+        "y" : 521962.15860000066
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 48979,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010005",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 263947.09110000078,
+        "y" : 520319.88590000384
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 48980,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010006",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 263996.99330000021,
+        "y" : 519515.85440000147
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 48981,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010007",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 264003.07770000212,
+        "y" : 520377.86769999936
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 48982,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010008",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 264004.13480000012,
+        "y" : 521082.49730000086
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 48983,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010009",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 264120.45139999967,
+        "y" : 523174.97710000165
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 48984,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010010",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 264194.18960000109,
+        "y" : 524043.22550000064
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 48985,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010011",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 264348.71850000136,
+        "y" : 520059.65839999914
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 48986,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010012",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 264490.31460000295,
+        "y" : 523483.19710000232
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 48987,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010013",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 264528.78220000211,
+        "y" : 519537.41420000233
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 48988,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010014",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 264540.3797000004,
+        "y" : 523618.53170000017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 48989,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010015",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 264569.49419999961,
+        "y" : 519735.59889999963
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 48990,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010016",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 264580.24480000138,
+        "y" : 521691.42830000259
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 48991,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010017",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 264590.6885000011,
+        "y" : 521314.81689999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 48992,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010018",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 264591.63390000165,
+        "y" : 522082.76540000178
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 48993,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010019",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 264603.15420000069,
+        "y" : 519520.14310000092
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 48994,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010020",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 264607.24165017158,
+        "y" : 519405.4879999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 48995,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010021",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 264607.52549999952,
+        "y" : 519685.2918999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 48996,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010022",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 264612.27139999904,
+        "y" : 523734.35759999976
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 48997,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010023",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 264631.3460999988,
+        "y" : 519700.68040000089
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 48998,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010024",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 264671.18439999968,
+        "y" : 520136.79640000127
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 48999,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010025",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 264710.53310000058,
+        "y" : 521930.48040000163
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 49000,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010026",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 264732.52870000061,
+        "y" : 522022.00420000218
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 49001,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010027",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 264739.12520000152,
+        "y" : 519525.82019999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 49002,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010028",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 264742.81000000052,
+        "y" : 519529.81030000374
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 49003,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010029",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 264757.85580000095,
+        "y" : 520578.68490000255
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 49004,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010030",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 264765.01909999922,
+        "y" : 520561.56560000218
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 49005,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010031",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 264959.397400002,
+        "y" : 520458.33440000005
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 49006,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010032",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 265051.81650000066,
+        "y" : 523720.94749999978
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 49007,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010033",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 265136.62519999966,
+        "y" : 524102.55760000274
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 49008,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010034",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 265217.98039999977,
+        "y" : 523743.79719999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 49009,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010035",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 265281.15149999969,
+        "y" : 523432.43200000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 49010,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010036",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 265564.83360000048,
+        "y" : 521482.82650000043
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 49011,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010037",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 265648.84140000027,
+        "y" : 523443.68490000255
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 49012,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010038",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 266128.55700000003,
+        "y" : 521501.15379999951
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 49013,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010039",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 266333.67800000031,
+        "y" : 519747.65440000035
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 49014,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010040",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 266388.12370000035,
+        "y" : 520210.82239999995
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 49015,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010041",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 266463.31929999962,
+        "y" : 520484.18579999916
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 49016,
+        "MNTN_CODE" : "416701801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삿갓봉",
+        "PAST_SPOT_" : "4167018010042",
+        "MNTN_ID" : "416701801"
+      },
+      "geometry" : {
+        "x" : 266584.38690000027,
+        "y" : 520471.5978000015
+      }
+    }
+  ]
+}

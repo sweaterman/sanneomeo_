@@ -1,0 +1,981 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 28067,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "4278007010001",
+        "MNTN_ID" : "427800701"
+      },
+      "geometry" : {
+        "x" : 227352.00150000118,
+        "y" : 616332.51649999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 28068,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "4278007010002",
+        "MNTN_ID" : "427800701"
+      },
+      "geometry" : {
+        "x" : 228073.09890000243,
+        "y" : 612664.95350000262
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 28069,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "4278007010003",
+        "MNTN_ID" : "427800701"
+      },
+      "geometry" : {
+        "x" : 228269.27780000027,
+        "y" : 612744.59050000459
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 28070,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "4278007010004",
+        "MNTN_ID" : "427800701"
+      },
+      "geometry" : {
+        "x" : 228316.4522417644,
+        "y" : 610574.17590591498
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 28071,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "4278007010005",
+        "MNTN_ID" : "427800701"
+      },
+      "geometry" : {
+        "x" : 228513.62153164297,
+        "y" : 610632.48538333364
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 28072,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "4278007010006",
+        "MNTN_ID" : "427800701"
+      },
+      "geometry" : {
+        "x" : 228735.09899734426,
+        "y" : 610821.96572898142
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 28073,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "4278007010007",
+        "MNTN_ID" : "427800701"
+      },
+      "geometry" : {
+        "x" : 229414.01320000086,
+        "y" : 611812.32880000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 28074,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "4278007010008",
+        "MNTN_ID" : "427800701"
+      },
+      "geometry" : {
+        "x" : 230614.67624490988,
+        "y" : 612157.03365962952
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 28075,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : "명성산 종합 안내도",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000009",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 230599.61020000093,
+        "y" : 614154.18590000272
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 28076,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000010",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 230611.04340000264,
+        "y" : 614147.34670000151
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 28077,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : "119신고 제1지점",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000011",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 230521.79430000018,
+        "y" : 613921.09110000171
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 28078,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "119신고 제3지점",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000012",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 230175.90140000079,
+        "y" : 613325.09339999966
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 28079,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "여울목",
+        "ETC_MATTER" : "103-104",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000013",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 230183.37150000129,
+        "y" : 613273.20560000278
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 28080,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "여울목",
+        "ETC_MATTER" : "123-124",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000014",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 230501.24170000199,
+        "y" : 613021.09160000458
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 28081,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "여울목",
+        "ETC_MATTER" : "134-135",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000015",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 230661.46899999958,
+        "y" : 612899.71160000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 28082,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000016",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 230660.02740000281,
+        "y" : 612877.2284000013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 28083,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "여울목",
+        "ETC_MATTER" : "145-146",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000017",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 230702.34370000008,
+        "y" : 612659.42490000091
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 28084,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "수종식별",
+        "ETC_MATTER" : "버드나무",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000018",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 230697.58350000158,
+        "y" : 612544.5094000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 28085,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "수종식별",
+        "ETC_MATTER" : "다름나무",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000019",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 230681.94280000217,
+        "y" : 612473.08790000156
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 28086,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "여울목",
+        "ETC_MATTER" : "155-156",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000020",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 230676.63559999969,
+        "y" : 612433.69579999894
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 28087,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "수종식별",
+        "ETC_MATTER" : "단풍나무",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000021",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 230665.4123000009,
+        "y" : 612428.35890000127
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 28088,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "수종식별",
+        "ETC_MATTER" : "생강나무",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000022",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 230631.24480000045,
+        "y" : 612320.4263000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 28089,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "수종식별",
+        "ETC_MATTER" : "박달나무",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000023",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 230627.90370000061,
+        "y" : 612266.47819999978
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 28090,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "여울목",
+        "ETC_MATTER" : "166-167",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000024",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 230624.47690000013,
+        "y" : 612221.3543999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 28091,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000025",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 230641.0252149161,
+        "y" : 611938.93135779724
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 28092,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "(우)도평리",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000026",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 230854.49420000054,
+        "y" : 611683.17470000125
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 28093,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "(우)용화동부락",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000027",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 230765.43560000043,
+        "y" : 612878.10190000385
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 28094,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000028",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 230648.87000000384,
+        "y" : 613046.24180000089
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 28095,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000029",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 228208.62150000036,
+        "y" : 610564.75420000032
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 28096,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "명성산4.0km,명성산과산정호수",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000030",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 228322.28009999916,
+        "y" : 610572.90579999983
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 28097,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "긴급연락처",
+        "ETC_MATTER" : "현위치:5-2(산안분기점)",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000031",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 228564.20430000033,
+        "y" : 610726.82809999958
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 28098,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "산악구조신고안내",
+        "ETC_MATTER" : "현위치:(명성산30)",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000032",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 228612.87930000108,
+        "y" : 610777.17060000077
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 28099,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "산악구조신고안내",
+        "ETC_MATTER" : "현위치:(명성29)",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000033",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 228745.52980000246,
+        "y" : 610826.60920000449
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 28100,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000034",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 228794.83069999982,
+        "y" : 610823.24160000123
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 28101,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "산악구조신고안내",
+        "ETC_MATTER" : "현위치:4-3(7부능선)",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000035",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 229140.68390000239,
+        "y" : 610713.54319999926
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 28102,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "산악구조신고안내",
+        "ETC_MATTER" : "현위치:4-3(7부능선)",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000036",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 229306.75989999995,
+        "y" : 610467.34820000082
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 28103,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "명성산2.0km 현위치:4-2(헬리포트장) (우)포사격장명성산과산정호수",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000037",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 229745.72750000283,
+        "y" : 610490.40020000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 28104,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "산악구조신고안내",
+        "ETC_MATTER" : "현위치:(명성17)",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000038",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 229704.23380000237,
+        "y" : 610741.88859999925
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 28105,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "(좌)금학산",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000039",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 229717.27090000082,
+        "y" : 610852.4263000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 28106,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "산악구조신고안내",
+        "ETC_MATTER" : "현위치:(명성18)",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000040",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 229777.78210000042,
+        "y" : 610986.51360000111
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 28107,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "삼각봉(906m)",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000041",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 229777.98890000023,
+        "y" : 611269.40050000139
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 28108,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "산악구조신고안내",
+        "ETC_MATTER" : "현위치:명성19",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000042",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 229809.71870000008,
+        "y" : 611374.25670000166
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 28109,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000043",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 231567.53180000186,
+        "y" : 611903.08220000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 28110,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,긴급연락처",
+        "ETC_MATTER" : "현위치:5-3(산안고개),명성산3km",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000044",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 228165.2098000003,
+        "y" : 610543.92740000039
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 28111,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "명성산",
+        "ETC_MATTER" : "명성산정상923m1993 갈말24 건설부 119신고제6지점 명성산등산로안내판 산안고개3.0km 삼각봉과산안고개",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000045",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 229663.18441936467,
+        "y" : 611633.33322330192
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 28112,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "명성산정상0.3km 명성산과삼각봉과용화동",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000046",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 229828.53120000195,
+        "y" : 611357.96370000206
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 28113,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "약사령과명성산분기점119신고 제2지점",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000047",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 230174.23440000229,
+        "y" : 613461.75790000148
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 28114,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "119신고 제5지점느치골과명성산분기점",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000048",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 230733.2949000001,
+        "y" : 611649.29130000062
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 28115,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "명성산과약사령분기점",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000049",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 230854.75519999955,
+        "y" : 611737.7396000009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 28116,
+        "MNTN_CODE" : "427800701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "명성산",
+        "PAST_SPOT_" : "22120104000050",
+        "MNTN_ID" : "2212010400"
+      },
+      "geometry" : {
+        "x" : 231692.94730000012,
+        "y" : 611867.34050000459
+      }
+    }
+  ]
+}

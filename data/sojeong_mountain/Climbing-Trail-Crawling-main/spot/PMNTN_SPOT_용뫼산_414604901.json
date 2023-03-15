@@ -1,0 +1,783 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 68897,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010001",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 209704.78570000362,
+        "y" : 518798.34720000438
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 68898,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010002",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 209739.31030000187,
+        "y" : 518739.40270000137
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 68899,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010003",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 209782.25550000276,
+        "y" : 518764.66459999792
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 68900,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010004",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 209820.99040000327,
+        "y" : 518853.08129999973
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 68901,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010005",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 209830.25310000032,
+        "y" : 518666.14320000261
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 68902,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010006",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 209849.62060000189,
+        "y" : 518890.13210000098
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 68903,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010007",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 209874.88250000216,
+        "y" : 518721.71939999983
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 68904,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010008",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 209989.40310000163,
+        "y" : 518759.61229999922
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 68905,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010009",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 210074.45150000416,
+        "y" : 518721.71939999983
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 68906,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010010",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 210084.55620000418,
+        "y" : 518768.875
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 68907,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010011",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 210180.55140000116,
+        "y" : 518782.3479999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 68908,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010012",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 210192.73660000227,
+        "y" : 518705.81929999962
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 68909,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010013",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 210201.60300000291,
+        "y" : 518649.30199999921
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 68910,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010014",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 210208.3395000007,
+        "y" : 518669.51150000095
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 68911,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010015",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 210225.18080000114,
+        "y" : 518761.29639999941
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 68912,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010016",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 210292.54590000026,
+        "y" : 518712.45670000464
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 68913,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010017",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 210310.19340000022,
+        "y" : 519065.06550000235
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 68914,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010018",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 210353.17439999897,
+        "y" : 518760.45430000126
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 68915,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010019",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 210488.92900000047,
+        "y" : 518719.0727000013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 68916,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010020",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 210502.2096000025,
+        "y" : 518744.9384000022
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 68917,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010021",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 210514.11990000028,
+        "y" : 518627.75660000369
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 68918,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010022",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 210522.44890000019,
+        "y" : 518896.33000000194
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 68919,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010023",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 210541.7966,
+        "y" : 518790.76860000193
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 68920,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010024",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 210543.81280000135,
+        "y" : 518815.97169999965
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 68921,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010025",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 210589.06600000057,
+        "y" : 518895.26189999841
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 68922,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010026",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 210589.79420000035,
+        "y" : 518860.65990000218
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 68923,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010027",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 210616.82600000035,
+        "y" : 518869.45080000162
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 68924,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010028",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 210637.12920000125,
+        "y" : 518849.24560000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 68925,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010029",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 211655.51250000298,
+        "y" : 517455.4178000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 68926,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010030",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 211684.68300000392,
+        "y" : 517491.45120000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 68927,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010031",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 211908.56170000043,
+        "y" : 517369.62390000187
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 68928,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010032",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 211984.91940000001,
+        "y" : 517323.65510000102
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 68929,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010033",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 212065.08830000088,
+        "y" : 517557.81180000491
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 68930,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010034",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 212109.53839999996,
+        "y" : 517767.36220000312
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 68931,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010035",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 212111.9197000023,
+        "y" : 517572.09929999895
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 68932,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010036",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 212131.76350000128,
+        "y" : 517817.36850000173
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 68933,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010037",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 212142.8760000011,
+        "y" : 517742.75589999929
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 68934,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010038",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 212300.06620000117,
+        "y" : 517345.55170000345
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 68935,
+        "MNTN_CODE" : "414604901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "용뫼산",
+        "PAST_SPOT_" : "4146303010039",
+        "MNTN_ID" : "414630301"
+      },
+      "geometry" : {
+        "x" : 212748.50850000326,
+        "y" : 517374.45519999973
+      }
+    }
+  ]
+}

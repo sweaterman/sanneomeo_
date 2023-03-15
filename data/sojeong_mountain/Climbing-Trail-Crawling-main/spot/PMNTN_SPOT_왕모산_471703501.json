@@ -1,0 +1,459 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 68386,
+        "MNTN_CODE" : "471703501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "왕모산",
+        "PAST_SPOT_" : "4717035010001",
+        "MNTN_ID" : "471703501"
+      },
+      "geometry" : {
+        "x" : 367583.99160002172,
+        "y" : 461101.03059999831
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 68387,
+        "MNTN_CODE" : "471703501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "왕모산",
+        "PAST_SPOT_" : "4717035010002",
+        "MNTN_ID" : "471703501"
+      },
+      "geometry" : {
+        "x" : 368569.32030002028,
+        "y" : 461009.79629999958
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 68388,
+        "MNTN_CODE" : "471703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로사진",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "왕모산",
+        "PAST_SPOT_" : "4717035010003",
+        "MNTN_ID" : "471703501"
+      },
+      "geometry" : {
+        "x" : 368141.47510004137,
+        "y" : 460893.02070000395
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 68389,
+        "MNTN_CODE" : "471703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "왕모당",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "왕모산",
+        "PAST_SPOT_" : "4717035010004",
+        "MNTN_ID" : "471703501"
+      },
+      "geometry" : {
+        "x" : 368166.22870004177,
+        "y" : 460899.05850000307
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 68390,
+        "MNTN_CODE" : "471703501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "이정표설치요",
+        "MNTN_NM" : "왕모산",
+        "PAST_SPOT_" : "4717035010005",
+        "MNTN_ID" : "471703501"
+      },
+      "geometry" : {
+        "x" : 369413.45580004249,
+        "y" : 460912.05730000138
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 68391,
+        "MNTN_CODE" : "471703501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "왕모산",
+        "PAST_SPOT_" : "4717035010006",
+        "MNTN_ID" : "471703501"
+      },
+      "geometry" : {
+        "x" : 369406.29800004233,
+        "y" : 460917.87820000574
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 68392,
+        "MNTN_CODE" : "471703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "정비요",
+        "MNTN_NM" : "왕모산",
+        "PAST_SPOT_" : "4717035010007",
+        "MNTN_ID" : "471703501"
+      },
+      "geometry" : {
+        "x" : 368016.22300004028,
+        "y" : 460932.52080000564
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 68393,
+        "MNTN_CODE" : "471703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "왕모산",
+        "PAST_SPOT_" : "4717035010008",
+        "MNTN_ID" : "471703501"
+      },
+      "geometry" : {
+        "x" : 369119.88200004399,
+        "y" : 460946.14710000716
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 68394,
+        "MNTN_CODE" : "471703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "정비요",
+        "MNTN_NM" : "왕모산",
+        "PAST_SPOT_" : "4717035010009",
+        "MNTN_ID" : "471703501"
+      },
+      "geometry" : {
+        "x" : 368374.7568000406,
+        "y" : 460948.74740000255
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 68395,
+        "MNTN_CODE" : "471703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "정비요",
+        "MNTN_NM" : "왕모산",
+        "PAST_SPOT_" : "4717035010010",
+        "MNTN_ID" : "471703501"
+      },
+      "geometry" : {
+        "x" : 368402.30800003745,
+        "y" : 460957.93870000355
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 68396,
+        "MNTN_CODE" : "471703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "정비요",
+        "MNTN_NM" : "왕모산",
+        "PAST_SPOT_" : "4717035010011",
+        "MNTN_ID" : "471703501"
+      },
+      "geometry" : {
+        "x" : 367961.71280004177,
+        "y" : 460964.08369999938
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 68397,
+        "MNTN_CODE" : "471703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "왕모산",
+        "PAST_SPOT_" : "4717035010012",
+        "MNTN_ID" : "471703501"
+      },
+      "geometry" : {
+        "x" : 369271.8465000391,
+        "y" : 460977.51960000396
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 68398,
+        "MNTN_CODE" : "471703501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "왕모산",
+        "PAST_SPOT_" : "4717035010013",
+        "MNTN_ID" : "471703501"
+      },
+      "geometry" : {
+        "x" : 368574.4126000395,
+        "y" : 461008.65940000117
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 68399,
+        "MNTN_CODE" : "471703501",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "왕모산",
+        "PAST_SPOT_" : "4717035010014",
+        "MNTN_ID" : "471703501"
+      },
+      "geometry" : {
+        "x" : 368639.01110004168,
+        "y" : 461011.77480000444
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 68400,
+        "MNTN_CODE" : "471703501",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : "안내판훼손",
+        "MNTN_NM" : "왕모산",
+        "PAST_SPOT_" : "4717035010015",
+        "MNTN_ID" : "471703501"
+      },
+      "geometry" : {
+        "x" : 368523.78470004257,
+        "y" : 461015.43490000814
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 68401,
+        "MNTN_CODE" : "471703501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "갈선대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "왕모산",
+        "PAST_SPOT_" : "4717035010016",
+        "MNTN_ID" : "471703501"
+      },
+      "geometry" : {
+        "x" : 368515.64930004068,
+        "y" : 461022.38090000115
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 68402,
+        "MNTN_CODE" : "471703501",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판또는지도",
+        "ETC_MATTER" : "정비요",
+        "MNTN_NM" : "왕모산",
+        "PAST_SPOT_" : "4717035010017",
+        "MNTN_ID" : "471703501"
+      },
+      "geometry" : {
+        "x" : 367816.60370003711,
+        "y" : 461066.54110000096
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 68403,
+        "MNTN_CODE" : "471703501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼각점헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "왕모산",
+        "PAST_SPOT_" : "4717035010018",
+        "MNTN_ID" : "471703501"
+      },
+      "geometry" : {
+        "x" : 369968.99920004234,
+        "y" : 461072.19890000112
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 68404,
+        "MNTN_CODE" : "471703501",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판또는지도",
+        "ETC_MATTER" : "정비요",
+        "MNTN_NM" : "왕모산",
+        "PAST_SPOT_" : "4717035010019",
+        "MNTN_ID" : "471703501"
+      },
+      "geometry" : {
+        "x" : 367594.07970003877,
+        "y" : 461104.10750000179
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 68405,
+        "MNTN_CODE" : "471703501",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "왕모산",
+        "PAST_SPOT_" : "4717035010020",
+        "MNTN_ID" : "471703501"
+      },
+      "geometry" : {
+        "x" : 368906.31110004056,
+        "y" : 461455.17110000737
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 68406,
+        "MNTN_CODE" : "471703501",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : "이정표훼손",
+        "MNTN_NM" : "왕모산",
+        "PAST_SPOT_" : "4717035010021",
+        "MNTN_ID" : "471703501"
+      },
+      "geometry" : {
+        "x" : 369761.13020003773,
+        "y" : 461512.47650000639
+      }
+    }
+  ]
+}

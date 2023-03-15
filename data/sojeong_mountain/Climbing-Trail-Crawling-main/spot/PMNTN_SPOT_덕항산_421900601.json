@@ -1,0 +1,3879 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 21752,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "4219006010001",
+        "MNTN_ID" : "421900601"
+      },
+      "geometry" : {
+        "x" : 377417.86788346991,
+        "y" : 527244.66205103695
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 21753,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "4223015010002",
+        "MNTN_ID" : "422301501"
+      },
+      "geometry" : {
+        "x" : 378452.77790002432,
+        "y" : 528501.88260000572
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 21754,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "공중전화",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000003",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377622.18460002355,
+        "y" : 524714.63280000538
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 21755,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "구부시령",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000004",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378866.28410002496,
+        "y" : 524440.38040000759
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 21756,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000005",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378732.81350002531,
+        "y" : 524524.01140000485
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 21757,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "등산로유실",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000006",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378679.17650002521,
+        "y" : 524561.82110000774
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 21758,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000007",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377879.77240002621,
+        "y" : 524716.91059999913
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 21759,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000008",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377878.7773000272,
+        "y" : 524726.24420000613
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 21760,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000009",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378182.16620002408,
+        "y" : 525318.36300000362
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 21761,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "입산통제",
+        "ETC_MATTER" : "태백시장",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000010",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378201.28640002478,
+        "y" : 525469.73180000484
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 21762,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "대간접점",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000011",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378202.05570002738,
+        "y" : 525478.00210000202
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 21763,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도끝",
+        "ETC_MATTER" : "2-1~5-3",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000012",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377872.77870002389,
+        "y" : 524699.92930000834
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 21764,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000013",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377872.77870002389,
+        "y" : 524699.92930000834
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 21765,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "입산금지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000014",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377642.21740002465,
+        "y" : 524714.78900000826
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 21766,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000015",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377909.14700002503,
+        "y" : 524776.96680000052
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 21767,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000016",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378202.05570002738,
+        "y" : 525478.00210000202
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 21768,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "II 접점",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000017",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378413.42600002419,
+        "y" : 524669.56170000322
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 21769,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000018",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377898.95940002613,
+        "y" : 524694.26500000618
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 21770,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "하천",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000019",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378264.01500002574,
+        "y" : 524668.71360000782
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 21771,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "하천",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000020",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378285.57180002425,
+        "y" : 524679.82970000058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 21772,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "하천",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000021",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378324.54370002542,
+        "y" : 524675.61810000055
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 21773,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "하천",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000022",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378352.44840002432,
+        "y" : 524656.12080000527
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 21774,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "하천",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000023",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378399.62140002567,
+        "y" : 524645.57190000452
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 21775,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000024",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378413.35200002417,
+        "y" : 524641.92230000347
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 21776,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000025",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 376901.65510002524,
+        "y" : 524805.16870000586
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 21777,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "예수원",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000026",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377622.18460002355,
+        "y" : 524714.63280000538
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 21778,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도시작",
+        "ETC_MATTER" : "2-1~5-3",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000027",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377642.21740002465,
+        "y" : 524714.78900000826
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 21779,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000028",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377735.45110002533,
+        "y" : 524704.71740000509
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 21780,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000029",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377832.16690002661,
+        "y" : 524692.7563000042
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 21781,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000030",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378413.42600002419,
+        "y" : 524669.56170000322
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 21782,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000031",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378866.28410002496,
+        "y" : 524440.38040000759
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 21783,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "백두대간 접점",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000032",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378866.28410002496,
+        "y" : 524440.38040000759
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 21784,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "굴피집",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000033",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 379113.17950002383,
+        "y" : 527123.38830000721
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 21785,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "18",
+        "MANAGE_SP2" : "주차장",
+        "DETAIL_SPO" : "주차장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000034",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 379082.92140002735,
+        "y" : 527076.43200000376
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 21786,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000035",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 379068.59960002732,
+        "y" : 527053.55980000459
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 21787,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000036",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 379042.69290002622,
+        "y" : 527058.60320000537
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 21788,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "매표소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000037",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 379025.12220002618,
+        "y" : 527053.29700000584
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 21789,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000038",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 379026.25800002553,
+        "y" : 527047.45760000125
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 21790,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000039",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378986.75170002691,
+        "y" : 527050.61140000448
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 21791,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000040",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378950.45030002389,
+        "y" : 527033.26680000499
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 21792,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000041",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378922.93300002627,
+        "y" : 527016.55410000496
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 21793,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000042",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378713.41990002524,
+        "y" : 526943.35130000301
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 21794,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000043",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378686.14610002376,
+        "y" : 526926.00060000643
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 21795,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "통방아",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000044",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378620.75130002573,
+        "y" : 526855.53100000508
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 21796,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000045",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378553.93070002645,
+        "y" : 526835.2721000053
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 21797,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000046",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378485.89920002501,
+        "y" : 526819.38560000435
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 21798,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "골말식당",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000047",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378469.86090002488,
+        "y" : 526813.78020000085
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 21799,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000048",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378335.8660000246,
+        "y" : 526735.57740000822
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 21800,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000049",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378287.21000002697,
+        "y" : 526696.02880000696
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 21801,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000050",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378275.02790002618,
+        "y" : 526722.94420000166
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 50,
+        "PMNTN_SPOT" : 21802,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000051",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378211.99300002586,
+        "y" : 526692.24090000428
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 51,
+        "PMNTN_SPOT" : 21803,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000052",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378213.52790002525,
+        "y" : 526741.00360000506
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 52,
+        "PMNTN_SPOT" : 21804,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000053",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378124.75120002404,
+        "y" : 526715.91690000333
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 53,
+        "PMNTN_SPOT" : 21805,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000054",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378114.22880002391,
+        "y" : 526711.50650000572
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 54,
+        "PMNTN_SPOT" : 21806,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "신선교",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000055",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378100.47190002538,
+        "y" : 526708.22670000233
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 55,
+        "PMNTN_SPOT" : 21807,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000056",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378061.05690002441,
+        "y" : 526690.7644000072
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 56,
+        "PMNTN_SPOT" : 21808,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000057",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378051.43260002416,
+        "y" : 526674.55719999969
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 57,
+        "PMNTN_SPOT" : 21809,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000058",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377999.90210002474,
+        "y" : 526700.10390000604
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 58,
+        "PMNTN_SPOT" : 21810,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000059",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377928.01590002421,
+        "y" : 526765.41970000416
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 59,
+        "PMNTN_SPOT" : 21811,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000060",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377891.47060002573,
+        "y" : 526765.26560000703
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 60,
+        "PMNTN_SPOT" : 21812,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000061",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377713.82540003024,
+        "y" : 526793.36790000461
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 61,
+        "PMNTN_SPOT" : 21813,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000062",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377713.30680002552,
+        "y" : 526780.18610000424
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 62,
+        "PMNTN_SPOT" : 21814,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "20",
+        "MANAGE_SP2" : "동굴",
+        "DETAIL_SPO" : "동굴",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000063",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377744.49330002442,
+        "y" : 526778.75980000384
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 63,
+        "PMNTN_SPOT" : 21815,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000064",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377761.98480002116,
+        "y" : 526775.73270000331
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 64,
+        "PMNTN_SPOT" : 21816,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000065",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377697.82110002637,
+        "y" : 526753.03850000724
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 65,
+        "PMNTN_SPOT" : 21817,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000066",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377715.93260002416,
+        "y" : 526749.63570000418
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 66,
+        "PMNTN_SPOT" : 21818,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000067",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377658.43810002599,
+        "y" : 526777.54550000466
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 67,
+        "PMNTN_SPOT" : 21819,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000068",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377577.76580002625,
+        "y" : 526857.53660000488
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 68,
+        "PMNTN_SPOT" : 21820,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000069",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377576.6104000248,
+        "y" : 526847.19540000148
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 69,
+        "PMNTN_SPOT" : 21821,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000070",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377540.47070002556,
+        "y" : 526973.98440000601
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 70,
+        "PMNTN_SPOT" : 21822,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000071",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377561.88630002551,
+        "y" : 526996.68200000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 71,
+        "PMNTN_SPOT" : 21823,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000072",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377579.70820002537,
+        "y" : 527022.3908000011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 72,
+        "PMNTN_SPOT" : 21824,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "약수터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000073",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377604.39560002554,
+        "y" : 527039.6720000077
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 73,
+        "PMNTN_SPOT" : 21825,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000074",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377407.27220002469,
+        "y" : 527242.05300000682
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 74,
+        "PMNTN_SPOT" : 21826,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000075",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377344.56670002639,
+        "y" : 527190.82950000651
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 75,
+        "PMNTN_SPOT" : 21827,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000076",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377312.56500002462,
+        "y" : 527156.27000000328
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 76,
+        "PMNTN_SPOT" : 21828,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000077",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377082.29010002408,
+        "y" : 526994.22730000131
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 77,
+        "PMNTN_SPOT" : 21829,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000078",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377051.64940002467,
+        "y" : 526969.88120000437
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 78,
+        "PMNTN_SPOT" : 21830,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000079",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377140.85970002413,
+        "y" : 526889.28850000352
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 79,
+        "PMNTN_SPOT" : 21831,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000080",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377150.02260002494,
+        "y" : 526864.88410000503
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 80,
+        "PMNTN_SPOT" : 21832,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000081",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377153.06600002293,
+        "y" : 526859.36260000058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 81,
+        "PMNTN_SPOT" : 21833,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000082",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377166.83210002258,
+        "y" : 526834.11170000583
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 82,
+        "PMNTN_SPOT" : 21834,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000083",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377171.7431000229,
+        "y" : 526712.16920000315
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 83,
+        "PMNTN_SPOT" : 21835,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000084",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377192.36900002416,
+        "y" : 526692.18280000426
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 84,
+        "PMNTN_SPOT" : 21836,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000085",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377167.2159000244,
+        "y" : 526508.50380000658
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 85,
+        "PMNTN_SPOT" : 21837,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000086",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377151.91590002179,
+        "y" : 526457.78490000404
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 86,
+        "PMNTN_SPOT" : 21838,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목·돌계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000087",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377277.60780002642,
+        "y" : 526375.26600000821
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 87,
+        "PMNTN_SPOT" : 21839,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목·돌계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000088",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377265.68690002244,
+        "y" : 526355.16880000196
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 88,
+        "PMNTN_SPOT" : 21840,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000089",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377352.58010002505,
+        "y" : 526278.00490000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 89,
+        "PMNTN_SPOT" : 21841,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000090",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377352.48140002042,
+        "y" : 526278.48030000553
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 90,
+        "PMNTN_SPOT" : 21842,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000091",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377363.62870002538,
+        "y" : 526255.91720000096
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 91,
+        "PMNTN_SPOT" : 21843,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000092",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377407.30110002402,
+        "y" : 526260.96170000359
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 92,
+        "PMNTN_SPOT" : 21844,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000093",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377409.36810002383,
+        "y" : 526232.03190000169
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 93,
+        "PMNTN_SPOT" : 21845,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000094",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377411.43950002361,
+        "y" : 526226.7786000073
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 94,
+        "PMNTN_SPOT" : 21846,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000095",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377416.51580002252,
+        "y" : 526229.15150000714
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 95,
+        "PMNTN_SPOT" : 21847,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000096",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377450.40370002482,
+        "y" : 526209.97950000502
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 96,
+        "PMNTN_SPOT" : 21848,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000097",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377476.89200002607,
+        "y" : 526193.02750000358
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 97,
+        "PMNTN_SPOT" : 21849,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000098",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377504.50610002503,
+        "y" : 526171.92390000075
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 98,
+        "PMNTN_SPOT" : 21850,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000099",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377523.22400002554,
+        "y" : 526145.39020000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 99,
+        "PMNTN_SPOT" : 21851,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000100",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377534.61470002402,
+        "y" : 526106.76320000552
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 100,
+        "PMNTN_SPOT" : 21852,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000101",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377558.02440002188,
+        "y" : 526035.45270000584
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 101,
+        "PMNTN_SPOT" : 21853,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000102",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377554.88450002484,
+        "y" : 526031.68809999898
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 102,
+        "PMNTN_SPOT" : 21854,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000103",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377666.12490002718,
+        "y" : 525880.33799999952
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 103,
+        "PMNTN_SPOT" : 21855,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000104",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377680.66860002559,
+        "y" : 525858.29149999842
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 104,
+        "PMNTN_SPOT" : 21856,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000105",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377713.30870002508,
+        "y" : 525823.19130000472
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 105,
+        "PMNTN_SPOT" : 21857,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000106",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377769.96130002756,
+        "y" : 525807.25730000809
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 106,
+        "PMNTN_SPOT" : 21858,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000107",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377815.60820002854,
+        "y" : 525765.74810000509
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 107,
+        "PMNTN_SPOT" : 21859,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000108",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377831.5181000242,
+        "y" : 525743.71970000304
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 108,
+        "PMNTN_SPOT" : 21860,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000109",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377838.81290002633,
+        "y" : 525707.59359999932
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 109,
+        "PMNTN_SPOT" : 21861,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000110",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377846.81560002454,
+        "y" : 525670.2943000067
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 110,
+        "PMNTN_SPOT" : 21862,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000111",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377868.08290002681,
+        "y" : 525652.46630000696
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 111,
+        "PMNTN_SPOT" : 21863,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000112",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377895.29480002448,
+        "y" : 525639.57320000418
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 112,
+        "PMNTN_SPOT" : 21864,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000113",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377964.0972000258,
+        "y" : 525597.92310000397
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 113,
+        "PMNTN_SPOT" : 21865,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000114",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378018.16340002511,
+        "y" : 525552.26260000467
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 114,
+        "PMNTN_SPOT" : 21866,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000115",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378198.16510002408,
+        "y" : 525484.28070000559
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 115,
+        "PMNTN_SPOT" : 21867,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000116",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378247.36810002476,
+        "y" : 525489.30250000395
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 116,
+        "PMNTN_SPOT" : 21868,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "전망대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000117",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378433.12010002602,
+        "y" : 525185.92689999938
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 117,
+        "PMNTN_SPOT" : 21869,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000118",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378511.09780002479,
+        "y" : 526798.88900000788
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 118,
+        "PMNTN_SPOT" : 21870,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000119",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378497.56190002616,
+        "y" : 526783.16420000792
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 119,
+        "PMNTN_SPOT" : 21871,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000120",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378592.54830002785,
+        "y" : 526659.14290000685
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 120,
+        "PMNTN_SPOT" : 21872,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000121",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378574.85210002586,
+        "y" : 526555.21970000304
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 121,
+        "PMNTN_SPOT" : 21873,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000122",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378532.80980002601,
+        "y" : 526358.4372000061
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 122,
+        "PMNTN_SPOT" : 21874,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000123",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378511.28800002672,
+        "y" : 526337.84480000474
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 123,
+        "PMNTN_SPOT" : 21875,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "난간대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000124",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378520.78910002299,
+        "y" : 526249.07140000537
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 124,
+        "PMNTN_SPOT" : 21876,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000125",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378515.14180002548,
+        "y" : 526222.72040000372
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 125,
+        "PMNTN_SPOT" : 21877,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000126",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378485.930500024,
+        "y" : 526191.25870000757
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 126,
+        "PMNTN_SPOT" : 21878,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "난간대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000127",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378442.82250002399,
+        "y" : 526058.89840000309
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 127,
+        "PMNTN_SPOT" : 21879,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "난간대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000128",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378390.89860002603,
+        "y" : 526057.27100000717
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 128,
+        "PMNTN_SPOT" : 21880,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000129",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378390.75650002435,
+        "y" : 525916.01970000751
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 129,
+        "PMNTN_SPOT" : 21881,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000130",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378383.74150002468,
+        "y" : 525888.05170000531
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 130,
+        "PMNTN_SPOT" : 21882,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000131",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378351.61720002443,
+        "y" : 525852.09759999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 131,
+        "PMNTN_SPOT" : 21883,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000132",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378332.49930002633,
+        "y" : 525803.48270000704
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 132,
+        "PMNTN_SPOT" : 21884,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000133",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378288.21290002298,
+        "y" : 525553.64900000393
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 133,
+        "PMNTN_SPOT" : 21885,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000134",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378286.23720002454,
+        "y" : 525553.54030000418
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 134,
+        "PMNTN_SPOT" : 21886,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000135",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378922.95750002284,
+        "y" : 526991.73410000466
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 135,
+        "PMNTN_SPOT" : 21887,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000136",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378887.40120002534,
+        "y" : 526967.72030000575
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 136,
+        "PMNTN_SPOT" : 21888,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000137",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378879.63840002567,
+        "y" : 526946.24330000579
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 137,
+        "PMNTN_SPOT" : 21889,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000138",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378863.50210002623,
+        "y" : 526907.38550000079
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 138,
+        "PMNTN_SPOT" : 21890,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000139",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378862.14500002377,
+        "y" : 526889.11040000431
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 139,
+        "PMNTN_SPOT" : 21891,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000140",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378872.36720002722,
+        "y" : 526855.21300000325
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 140,
+        "PMNTN_SPOT" : 21892,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000141",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378866.82090002671,
+        "y" : 526814.23810000718
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 141,
+        "PMNTN_SPOT" : 21893,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000142",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378832.95410002582,
+        "y" : 526875.57180000283
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 142,
+        "PMNTN_SPOT" : 21894,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000143",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378819.48300002702,
+        "y" : 526903.38079999946
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 143,
+        "PMNTN_SPOT" : 21895,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000144",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378771.83080002572,
+        "y" : 526905.88430000469
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 144,
+        "PMNTN_SPOT" : 21896,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000145",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378026.50110002793,
+        "y" : 526806.08030000515
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 145,
+        "PMNTN_SPOT" : 21897,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000146",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377761.98480002116,
+        "y" : 526775.73270000331
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 146,
+        "PMNTN_SPOT" : 21898,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000147",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377697.82110002637,
+        "y" : 526753.03850000724
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 147,
+        "PMNTN_SPOT" : 21899,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000148",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377715.93260002416,
+        "y" : 526749.63570000418
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 148,
+        "PMNTN_SPOT" : 21900,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000149",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377658.43810002599,
+        "y" : 526777.54550000466
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 149,
+        "PMNTN_SPOT" : 21901,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000150",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377577.76580002625,
+        "y" : 526857.53660000488
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 150,
+        "PMNTN_SPOT" : 21902,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000151",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377577.76580002625,
+        "y" : 526857.53660000488
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 151,
+        "PMNTN_SPOT" : 21903,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000152",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377579.70820002537,
+        "y" : 527022.3908000011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 152,
+        "PMNTN_SPOT" : 21904,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000153",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377604.39560002554,
+        "y" : 527039.6720000077
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 153,
+        "PMNTN_SPOT" : 21905,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000154",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377407.27220002469,
+        "y" : 527242.05300000682
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 154,
+        "PMNTN_SPOT" : 21906,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000155",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377407.27220002469,
+        "y" : 527242.05300000682
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 155,
+        "PMNTN_SPOT" : 21907,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000156",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377344.56670002639,
+        "y" : 527190.82950000651
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 156,
+        "PMNTN_SPOT" : 21908,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000157",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377082.29010002408,
+        "y" : 526994.22730000131
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 157,
+        "PMNTN_SPOT" : 21909,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000158",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377166.83210002258,
+        "y" : 526834.11170000583
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 158,
+        "PMNTN_SPOT" : 21910,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000159",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377166.83210002258,
+        "y" : 526834.11170000583
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 159,
+        "PMNTN_SPOT" : 21911,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000160",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377166.83210002258,
+        "y" : 526834.11170000583
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 160,
+        "PMNTN_SPOT" : 21912,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000161",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377363.62870002538,
+        "y" : 526255.91720000096
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 161,
+        "PMNTN_SPOT" : 21913,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000162",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377407.30110002402,
+        "y" : 526260.96170000359
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 162,
+        "PMNTN_SPOT" : 21914,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000163",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378198.16510002408,
+        "y" : 525484.28070000559
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 163,
+        "PMNTN_SPOT" : 21915,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000164",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377416.51580002252,
+        "y" : 526229.15150000714
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 164,
+        "PMNTN_SPOT" : 21916,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000165",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377427.88250002265,
+        "y" : 526218.44239999726
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 165,
+        "PMNTN_SPOT" : 21917,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000166",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377815.60820002854,
+        "y" : 525765.74810000509
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 166,
+        "PMNTN_SPOT" : 21918,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000167",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378198.16510002408,
+        "y" : 525484.28070000559
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 167,
+        "PMNTN_SPOT" : 21919,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000168",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378433.12010002602,
+        "y" : 525185.92689999938
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 168,
+        "PMNTN_SPOT" : 21920,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000169",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378433.12010002602,
+        "y" : 525185.92689999938
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 169,
+        "PMNTN_SPOT" : 21921,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "식당",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000170",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378553.93070002645,
+        "y" : 526835.2721000053
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 170,
+        "PMNTN_SPOT" : 21922,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000171",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378335.8660000246,
+        "y" : 526735.57740000822
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 171,
+        "PMNTN_SPOT" : 21923,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000172",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378287.21000002697,
+        "y" : 526696.02880000696
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 172,
+        "PMNTN_SPOT" : 21924,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000173",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378213.52790002525,
+        "y" : 526741.00360000506
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 173,
+        "PMNTN_SPOT" : 21925,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "폭포",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000174",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378061.05690002441,
+        "y" : 526690.7644000072
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 174,
+        "PMNTN_SPOT" : 21926,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000175",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378051.43260002416,
+        "y" : 526674.55719999969
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 175,
+        "PMNTN_SPOT" : 21927,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000176",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377999.90210002474,
+        "y" : 526700.10390000604
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 176,
+        "PMNTN_SPOT" : 21928,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000177",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377989.23610002548,
+        "y" : 526711.6378000062
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 177,
+        "PMNTN_SPOT" : 21929,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000178",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378213.52790002525,
+        "y" : 526741.00360000506
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 178,
+        "PMNTN_SPOT" : 21930,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000179",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378213.52790002525,
+        "y" : 526741.00360000506
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 179,
+        "PMNTN_SPOT" : 21931,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000180",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377999.90210002474,
+        "y" : 526700.10390000604
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 180,
+        "PMNTN_SPOT" : 21932,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "소화기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000181",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377999.90210002474,
+        "y" : 526700.10390000604
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 181,
+        "PMNTN_SPOT" : 21933,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000182",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378497.56190002616,
+        "y" : 526783.16420000792
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 182,
+        "PMNTN_SPOT" : 21934,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000183",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378485.930500024,
+        "y" : 526191.25870000757
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 183,
+        "PMNTN_SPOT" : 21935,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000184",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378879.63840002567,
+        "y" : 526946.24330000579
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 184,
+        "PMNTN_SPOT" : 21936,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "대금굴관광센터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000185",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378866.82090002671,
+        "y" : 526814.23810000718
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 185,
+        "PMNTN_SPOT" : 21937,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000186",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378497.56190002616,
+        "y" : 526783.16420000792
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 186,
+        "PMNTN_SPOT" : 21938,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000187",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378497.56190002616,
+        "y" : 526783.16420000792
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 187,
+        "PMNTN_SPOT" : 21939,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000188",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378497.56190002616,
+        "y" : 526783.16420000792
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 188,
+        "PMNTN_SPOT" : 21940,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000189",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378485.930500024,
+        "y" : 526191.25870000757
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 189,
+        "PMNTN_SPOT" : 21941,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "전화박스",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000190",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 379042.69290002622,
+        "y" : 527058.60320000537
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 190,
+        "PMNTN_SPOT" : 21942,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목재데크",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000191",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378922.95750002284,
+        "y" : 526991.73410000466
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 191,
+        "PMNTN_SPOT" : 21943,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000192",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 376753.61360002682,
+        "y" : 524890.78559999913
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 192,
+        "PMNTN_SPOT" : 21944,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상석(환선봉)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000193",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377383.16780002601,
+        "y" : 526250.13910000585
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 193,
+        "PMNTN_SPOT" : 21945,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상석(환선봉)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000194",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377392.92560002673,
+        "y" : 526245.72580000386
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 194,
+        "PMNTN_SPOT" : 21946,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000195",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377541.17060002498,
+        "y" : 526969.41270000301
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 195,
+        "PMNTN_SPOT" : 21947,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000196",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377552.86510002241,
+        "y" : 526982.70920000784
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 196,
+        "PMNTN_SPOT" : 21948,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000197",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377887.06620002259,
+        "y" : 524696.7543000076
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 197,
+        "PMNTN_SPOT" : 21949,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000198",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377894.58770002518,
+        "y" : 524720.9365999978
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 198,
+        "PMNTN_SPOT" : 21950,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000199",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378011.48550002649,
+        "y" : 526692.56520000473
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 199,
+        "PMNTN_SPOT" : 21951,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "20",
+        "MANAGE_SP2" : "동굴",
+        "DETAIL_SPO" : "환선굴",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000200",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378026.50110002793,
+        "y" : 526806.08030000515
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 200,
+        "PMNTN_SPOT" : 21952,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000201",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378210.31990002468,
+        "y" : 525479.68450000137
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 201,
+        "PMNTN_SPOT" : 21953,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000202",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378220.8716000244,
+        "y" : 525484.99870000035
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 202,
+        "PMNTN_SPOT" : 21954,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000203",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378431.00430002436,
+        "y" : 524664.41610000469
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 203,
+        "PMNTN_SPOT" : 21955,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상석(덕항산)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000204",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378433.10020002816,
+        "y" : 525185.92200000584
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 204,
+        "PMNTN_SPOT" : 21956,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000205",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378478.22260002606,
+        "y" : 526811.44870000705
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 205,
+        "PMNTN_SPOT" : 21957,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "II -1 연결",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000206",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378667.93625518307,
+        "y" : 524575.71477729827
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 206,
+        "PMNTN_SPOT" : 21958,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000207",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378717.56220002472,
+        "y" : 526934.75780000538
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 207,
+        "PMNTN_SPOT" : 21959,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "II 접점",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000208",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378829.50140002836,
+        "y" : 524747.24850000627
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 208,
+        "PMNTN_SPOT" : 21960,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000209",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 378922.91140002757,
+        "y" : 527016.35630000755
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 209,
+        "PMNTN_SPOT" : 21961,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000210",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 379110.17730002571,
+        "y" : 527126.08930000663
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 210,
+        "PMNTN_SPOT" : 21962,
+        "MNTN_CODE" : "421900601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "덕항산",
+        "PAST_SPOT_" : "22141805000211",
+        "MNTN_ID" : "2214180500"
+      },
+      "geometry" : {
+        "x" : 377576.43400002457,
+        "y" : 526025.82030000165
+      }
+    }
+  ]
+}

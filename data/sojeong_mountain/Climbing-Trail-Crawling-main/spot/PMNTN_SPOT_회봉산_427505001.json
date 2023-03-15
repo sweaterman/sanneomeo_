@@ -1,0 +1,909 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 95362,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010001",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304330.90220000222,
+        "y" : 522871.77960000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 95363,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010002",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304934.38590000384,
+        "y" : 524047.85889999941
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 95364,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010003",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 305304.32910000067,
+        "y" : 522988.32240000181
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 95365,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4213030010004",
+        "MNTN_ID" : "421303001"
+      },
+      "geometry" : {
+        "x" : 305920.14190000296,
+        "y" : 522487.44350000098
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 95366,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "쓰러진나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010005",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304557.16060000099,
+        "y" : 522068.13120000064
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 95367,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "쓰러진나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010006",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304543.0262000002,
+        "y" : 522069.34280000255
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 95368,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010007",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304719.18770000432,
+        "y" : 522124.21130000241
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 95369,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010008",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304761.76640000381,
+        "y" : 522145.57860000059
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 95370,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010009",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304938.51910000574,
+        "y" : 522161.44029999897
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 95371,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010010",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304925.79550000466,
+        "y" : 522167.5754000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 95372,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010011",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 305462.39600000717,
+        "y" : 522223.26550000161
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 95373,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010012",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 305490.54080000333,
+        "y" : 522238.46079999954
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 95374,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010013",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 305448.32430000417,
+        "y" : 522244.20229999907
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 95375,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010014",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 305495.49030000065,
+        "y" : 522258.16020000353
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 95376,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010015",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 305579.72180000599,
+        "y" : 522297.25040000118
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 95377,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안테나",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010016",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 305583.41220000386,
+        "y" : 522297.8740000017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 95378,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010017",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 305604.72000000253,
+        "y" : 522318.6118000038
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 95379,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "쓰러진나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010018",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 305605.50560000073,
+        "y" : 522319.60969999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 95380,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "쓰러진나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010019",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304388.03650000598,
+        "y" : 522342.22200000286
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 95381,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4213030010020",
+        "MNTN_ID" : "421303001"
+      },
+      "geometry" : {
+        "x" : 305900.43890000414,
+        "y" : 522488.61580000259
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 95382,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4213030010021",
+        "MNTN_ID" : "421303001"
+      },
+      "geometry" : {
+        "x" : 305856.6026999997,
+        "y" : 522489.94989999942
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 95383,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "성황당터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4213030010022",
+        "MNTN_ID" : "421303001"
+      },
+      "geometry" : {
+        "x" : 305916.09100000188,
+        "y" : 522495.00750000402
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 95384,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010023",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304343.62520000432,
+        "y" : 522733.62340000272
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 95385,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010024",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304347.88999999966,
+        "y" : 523001.84659999982
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 95386,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "쓰러진나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010025",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304331.78150000423,
+        "y" : 523078.5185000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 95387,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "쓰러진나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010026",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304423.53740000539,
+        "y" : 523083.4673999995
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 95388,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010027",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304372.16340000369,
+        "y" : 523128.59630000032
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 95389,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "길찾기주의",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010028",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304393.68650000077,
+        "y" : 523142.06280000135
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 95390,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010029",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304411.3421000028,
+        "y" : 523186.9627000019
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 95391,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010030",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304419.50870000385,
+        "y" : 523201.97250000201
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 95392,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "옛산불감시초소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010031",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304428.73479999974,
+        "y" : 523212.36659999937
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 95393,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "폐허된 산불감시초소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010032",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304433.99910000246,
+        "y" : 523218.31550000049
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 95394,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "표시석,삼각점,조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010033",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304455.52190000284,
+        "y" : 523231.06049999967
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 95395,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상표지석,삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010034",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304456.33820000105,
+        "y" : 523235.30010000058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 95396,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010035",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304485.40610000491,
+        "y" : 523255.26579999924
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 95397,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010036",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304517.0529000042,
+        "y" : 523325.1724999994
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 95398,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "쓰러진나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010037",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304511.01800000109,
+        "y" : 523404.6005000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 95399,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010038",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304506.51510000415,
+        "y" : 523417.26579999924
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 95400,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010039",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304518.68900000304,
+        "y" : 523479.29270000011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 95401,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010040",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304515.06400000397,
+        "y" : 523499.79490000196
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 95402,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010041",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304518.83819999918,
+        "y" : 523702.91810000315
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 95403,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010042",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304637.16910000332,
+        "y" : 523804.71020000614
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 95404,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010043",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304625.56650000345,
+        "y" : 523822.12680000253
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 95405,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "너덜지대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010044",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304750.47590000276,
+        "y" : 523930.84070000239
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 95406,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010045",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304807.41940000001,
+        "y" : 523968.4617999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 95407,
+        "MNTN_CODE" : "427505001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "너덜지대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "회봉산",
+        "PAST_SPOT_" : "4275050010046",
+        "MNTN_ID" : "427505001"
+      },
+      "geometry" : {
+        "x" : 304789.28810000606,
+        "y" : 523970.46650000103
+      }
+    }
+  ]
+}

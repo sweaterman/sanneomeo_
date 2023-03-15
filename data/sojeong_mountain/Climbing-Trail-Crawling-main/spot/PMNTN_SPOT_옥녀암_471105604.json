@@ -1,0 +1,441 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 67326,
+        "MNTN_CODE" : "471105604",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "수준점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "옥녀암",
+        "PAST_SPOT_" : "4711056040001",
+        "MNTN_ID" : "471105604"
+      },
+      "geometry" : {
+        "x" : 403294.18010000046,
+        "y" : 415755.31030000187
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 67327,
+        "MNTN_CODE" : "471105604",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "옥녀암",
+        "PAST_SPOT_" : "4711056040002",
+        "MNTN_ID" : "471105604"
+      },
+      "geometry" : {
+        "x" : 403291.32710000128,
+        "y" : 415948.63810000196
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 67328,
+        "MNTN_CODE" : "471105604",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "옥녀암",
+        "PAST_SPOT_" : "4711056040003",
+        "MNTN_ID" : "471105604"
+      },
+      "geometry" : {
+        "x" : 403289.5923000006,
+        "y" : 415959.20769999921
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 67329,
+        "MNTN_CODE" : "471105604",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "옥녀암",
+        "PAST_SPOT_" : "4711056040004",
+        "MNTN_ID" : "471105604"
+      },
+      "geometry" : {
+        "x" : 402944.54920000024,
+        "y" : 416070.57900000177
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 67330,
+        "MNTN_CODE" : "471105604",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "옥녀암자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "옥녀암",
+        "PAST_SPOT_" : "4711056040005",
+        "MNTN_ID" : "471105604"
+      },
+      "geometry" : {
+        "x" : 403437.57710000128,
+        "y" : 416356.8048000019
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 67331,
+        "MNTN_CODE" : "471105604",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "옥녀암",
+        "PAST_SPOT_" : "4711056040006",
+        "MNTN_ID" : "471105604"
+      },
+      "geometry" : {
+        "x" : 402795.58780000079,
+        "y" : 416027.75569999963
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 67332,
+        "MNTN_CODE" : "471105604",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "옥녀암",
+        "PAST_SPOT_" : "4711056040007",
+        "MNTN_ID" : "471105604"
+      },
+      "geometry" : {
+        "x" : 402945.09100000095,
+        "y" : 416070.33349999972
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 67333,
+        "MNTN_CODE" : "471105604",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "옥녀암",
+        "PAST_SPOT_" : "4711056040008",
+        "MNTN_ID" : "471105604"
+      },
+      "geometry" : {
+        "x" : 402975.92010000162,
+        "y" : 416111.46140000224
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 67334,
+        "MNTN_CODE" : "471105604",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "옥녀암",
+        "PAST_SPOT_" : "4711056040009",
+        "MNTN_ID" : "471105604"
+      },
+      "geometry" : {
+        "x" : 402977.11490000039,
+        "y" : 416099.37230000272
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 67335,
+        "MNTN_CODE" : "471105604",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "옥녀암",
+        "PAST_SPOT_" : "4711056040010",
+        "MNTN_ID" : "471105604"
+      },
+      "geometry" : {
+        "x" : 402978.77160000056,
+        "y" : 416087.22770000249
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 67336,
+        "MNTN_CODE" : "471105604",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "옥녀암",
+        "PAST_SPOT_" : "4711056040011",
+        "MNTN_ID" : "471105604"
+      },
+      "geometry" : {
+        "x" : 403145.14900000114,
+        "y" : 415745.53199999966
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 67337,
+        "MNTN_CODE" : "471105604",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "옥녀암",
+        "PAST_SPOT_" : "4711056040012",
+        "MNTN_ID" : "471105604"
+      },
+      "geometry" : {
+        "x" : 403307.23940000124,
+        "y" : 415766.28570000269
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 67338,
+        "MNTN_CODE" : "471105604",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "옥녀암",
+        "PAST_SPOT_" : "4711056040013",
+        "MNTN_ID" : "471105604"
+      },
+      "geometry" : {
+        "x" : 403337.4112999998,
+        "y" : 415813.20080000162
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 67339,
+        "MNTN_CODE" : "471105604",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "옥녀암",
+        "PAST_SPOT_" : "4711056040014",
+        "MNTN_ID" : "471105604"
+      },
+      "geometry" : {
+        "x" : 403348.04540000111,
+        "y" : 415787.86620000191
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 67340,
+        "MNTN_CODE" : "471105604",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "옥녀암",
+        "PAST_SPOT_" : "4711056040015",
+        "MNTN_ID" : "471105604"
+      },
+      "geometry" : {
+        "x" : 403422.80860000197,
+        "y" : 416374.25840000249
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 67341,
+        "MNTN_CODE" : "471105604",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "옥녀암",
+        "PAST_SPOT_" : "4711056040016",
+        "MNTN_ID" : "471105604"
+      },
+      "geometry" : {
+        "x" : 403476.4282999998,
+        "y" : 415949.61770000122
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 67342,
+        "MNTN_CODE" : "471105604",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "옥녀암",
+        "PAST_SPOT_" : "4711056040017",
+        "MNTN_ID" : "471105604"
+      },
+      "geometry" : {
+        "x" : 403487.61010000017,
+        "y" : 415952.12410000153
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 67343,
+        "MNTN_CODE" : "471105604",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "옥녀암",
+        "PAST_SPOT_" : "4711056040018",
+        "MNTN_ID" : "471105604"
+      },
+      "geometry" : {
+        "x" : 403500.40699999966,
+        "y" : 415951.5083000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 67344,
+        "MNTN_CODE" : "471105604",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "옥녀암",
+        "PAST_SPOT_" : "4711056040019",
+        "MNTN_ID" : "471105604"
+      },
+      "geometry" : {
+        "x" : 403546.6941000009,
+        "y" : 415946.58369999751
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 98612,
+        "MNTN_CODE" : "471105604",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "옥녀암",
+        "PAST_SPOT_" : "4711056040020",
+        "MNTN_ID" : "471105604"
+      },
+      "geometry" : {
+        "x" : 403347.71090000076,
+        "y" : 415785.71949999942
+      }
+    }
+  ]
+}

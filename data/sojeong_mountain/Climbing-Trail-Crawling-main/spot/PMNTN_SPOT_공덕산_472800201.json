@@ -1,0 +1,513 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 6784,
+        "MNTN_CODE" : "472800201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "대승사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "공덕산",
+        "PAST_SPOT_" : "4728002010001",
+        "MNTN_ID" : "472800201"
+      },
+      "geometry" : {
+        "x" : 313573.77840000018,
+        "y" : 461826.05920000188
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 6785,
+        "MNTN_CODE" : "472800201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "공덕산",
+        "PAST_SPOT_" : "4728002010002",
+        "MNTN_ID" : "472800201"
+      },
+      "geometry" : {
+        "x" : 313741.22300000116,
+        "y" : 461789.48730000295
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 6786,
+        "MNTN_CODE" : "472800201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "공덕산",
+        "PAST_SPOT_" : "4728002010003",
+        "MNTN_ID" : "472800201"
+      },
+      "geometry" : {
+        "x" : 313772.81270000059,
+        "y" : 461667.87700000033
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 6787,
+        "MNTN_CODE" : "472800201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "공덕산",
+        "PAST_SPOT_" : "4728002010004",
+        "MNTN_ID" : "472800201"
+      },
+      "geometry" : {
+        "x" : 314104.99340000097,
+        "y" : 461464.02460000105
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 6788,
+        "MNTN_CODE" : "472800201",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "공덕산",
+        "PAST_SPOT_" : "4728002010005",
+        "MNTN_ID" : "472800201"
+      },
+      "geometry" : {
+        "x" : 314565.47460000031,
+        "y" : 462615.58520000055
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 6789,
+        "MNTN_CODE" : "472800201",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "공덕산",
+        "PAST_SPOT_" : "4728002010006",
+        "MNTN_ID" : "472800201"
+      },
+      "geometry" : {
+        "x" : 314613.08550000191,
+        "y" : 462732.57919999957
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 6790,
+        "MNTN_CODE" : "472800201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "공덕산",
+        "PAST_SPOT_" : "4728002010007",
+        "MNTN_ID" : "472800201"
+      },
+      "geometry" : {
+        "x" : 314088.91270000022,
+        "y" : 462971.99260000326
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 6791,
+        "MNTN_CODE" : "472800201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "공덕산",
+        "PAST_SPOT_" : "4728002010008",
+        "MNTN_ID" : "472800201"
+      },
+      "geometry" : {
+        "x" : 312350.94020000007,
+        "y" : 461429.60840000212
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 6792,
+        "MNTN_CODE" : "472800201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "공덕산",
+        "PAST_SPOT_" : "4728002010009",
+        "MNTN_ID" : "472800201"
+      },
+      "geometry" : {
+        "x" : 312365.27199999988,
+        "y" : 461397.07489999942
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 6793,
+        "MNTN_CODE" : "472800201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "공덕산",
+        "PAST_SPOT_" : "4728002010010",
+        "MNTN_ID" : "472800201"
+      },
+      "geometry" : {
+        "x" : 312491.91299999971,
+        "y" : 461351.26210000366
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 6794,
+        "MNTN_CODE" : "472800201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "공덕산",
+        "PAST_SPOT_" : "4728002010011",
+        "MNTN_ID" : "472800201"
+      },
+      "geometry" : {
+        "x" : 312583.6568,
+        "y" : 461391.22930000164
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 6795,
+        "MNTN_CODE" : "472800201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "공덕산",
+        "PAST_SPOT_" : "4728002010012",
+        "MNTN_ID" : "472800201"
+      },
+      "geometry" : {
+        "x" : 313215.72300000023,
+        "y" : 461647.96020000055
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 6796,
+        "MNTN_CODE" : "472800201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "공덕산",
+        "PAST_SPOT_" : "4728002010013",
+        "MNTN_ID" : "472800201"
+      },
+      "geometry" : {
+        "x" : 314128.10200000089,
+        "y" : 461481.27540000342
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 6797,
+        "MNTN_CODE" : "472800201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "공덕산",
+        "PAST_SPOT_" : "4728002010014",
+        "MNTN_ID" : "472800201"
+      },
+      "geometry" : {
+        "x" : 312443.54069999978,
+        "y" : 461294.48630000092
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 6798,
+        "MNTN_CODE" : "472800201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "절",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "공덕산",
+        "PAST_SPOT_" : "4728002010015",
+        "MNTN_ID" : "472800201"
+      },
+      "geometry" : {
+        "x" : 312977.34210000001,
+        "y" : 462035.95350000076
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 6799,
+        "MNTN_CODE" : "472800201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "공덕산",
+        "PAST_SPOT_" : "4728002010016",
+        "MNTN_ID" : "472800201"
+      },
+      "geometry" : {
+        "x" : 313517.25539999921,
+        "y" : 462846.23069999926
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 6800,
+        "MNTN_CODE" : "472800201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "공덕산",
+        "PAST_SPOT_" : "4728002010017",
+        "MNTN_ID" : "472800201"
+      },
+      "geometry" : {
+        "x" : 313234.7631000001,
+        "y" : 462730.5482000038
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 6801,
+        "MNTN_CODE" : "472800201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "공덕산",
+        "PAST_SPOT_" : "4728002010018",
+        "MNTN_ID" : "472800201"
+      },
+      "geometry" : {
+        "x" : 312842.13019999955,
+        "y" : 462286.3879000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 6802,
+        "MNTN_CODE" : "472800201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "공덕산",
+        "PAST_SPOT_" : "4728002010019",
+        "MNTN_ID" : "472800201"
+      },
+      "geometry" : {
+        "x" : 313109.03270000126,
+        "y" : 462724.05050000176
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 6803,
+        "MNTN_CODE" : "472800201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "공덕산",
+        "PAST_SPOT_" : "4728002010020",
+        "MNTN_ID" : "472800201"
+      },
+      "geometry" : {
+        "x" : 313214.81140000001,
+        "y" : 461650.64630000107
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 6804,
+        "MNTN_CODE" : "472800201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "공덕산",
+        "PAST_SPOT_" : "4728002010021",
+        "MNTN_ID" : "472800201"
+      },
+      "geometry" : {
+        "x" : 313228.74550000113,
+        "y" : 462727.21330000274
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 6805,
+        "MNTN_CODE" : "472800201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "공덕산",
+        "PAST_SPOT_" : "4728002010022",
+        "MNTN_ID" : "472800201"
+      },
+      "geometry" : {
+        "x" : 313516.2949000001,
+        "y" : 462852.03290000372
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 6806,
+        "MNTN_CODE" : "472800201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "공덕산",
+        "PAST_SPOT_" : "4728002010023",
+        "MNTN_ID" : "472800201"
+      },
+      "geometry" : {
+        "x" : 314100.89540000074,
+        "y" : 461481.03330000117
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 95932,
+        "MNTN_CODE" : "472800201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "공덕산",
+        "PAST_SPOT_" : "4728002010024",
+        "MNTN_ID" : "472800201"
+      },
+      "geometry" : {
+        "x" : 314110.81039999903,
+        "y" : 462958.50569999992
+      }
+    }
+  ]
+}
