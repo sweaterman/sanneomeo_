@@ -39,7 +39,7 @@ dependencies {
 
 	//database + jpa
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-	runtimeOnly 'com.mysql:mysql-connector-j'
+	runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'
 
 	//lombok + configuration processor
 	compileOnly 'org.projectlombok:lombok'
@@ -61,8 +61,6 @@ dependencies {
 	//jwt
 	implementation group: 'io.jsonwebtoken', name: 'jjwt', version: '0.9.1'
 	implementation group: 'org.glassfish.jaxb', name: 'jaxb-runtime', version: '2.3.2'
-
-
 
 }
 
