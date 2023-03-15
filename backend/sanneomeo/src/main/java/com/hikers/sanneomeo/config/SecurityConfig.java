@@ -10,10 +10,13 @@ import java.util.ArrayList;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.security.servlet.PathRequest;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.config.annotation.web.configuration.WebSecurityCustomizer;
 import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
 import org.springframework.security.config.annotation.web.configurers.FormLoginConfigurer;
 import org.springframework.security.config.http.SessionCreationPolicy;
@@ -23,6 +26,9 @@ import org.springframework.security.oauth2.client.registration.ClientRegistratio
 import org.springframework.security.oauth2.client.registration.InMemoryClientRegistrationRepository;
 import org.springframework.security.oauth2.core.endpoint.OAuth2AuthorizationRequest;
 import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.web.cors.CorsConfiguration;
+import org.springframework.web.cors.CorsConfigurationSource;
+import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
 @Configuration
 @EnableWebSecurity(debug = true)
@@ -35,7 +41,17 @@ public class SecurityConfig {
   UserRepository userRepository;
 
   @Bean
+  public WebSecurityCustomizer webSecurityCustomizer() {
+    return (web) -> web.ignoring().requestMatchers(PathRequest.toStaticResources().atCommonLocations())
+        .antMatchers("/resources/", "/error", "favicon.ico", "/swagger*/**");
+  }
+
+  @Bean
   public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+
+    //cors config
+    http.cors().configurationSource(corsConfigurationSource());
+
     //기본 설정 해제와 경로 설정
     http
         .formLogin(FormLoginConfigurer::disable)
@@ -43,7 +59,7 @@ public class SecurityConfig {
         .csrf(AbstractHttpConfigurer::disable)
         .sessionManagement(session-> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
         .authorizeHttpRequests(authorize -> authorize
-            .antMatchers("/", "/login/after", "/user/login/callback/*").permitAll()
+            .antMatchers("/", "/user/login/after").permitAll()
             .anyRequest().authenticated()
         )
     ;
@@ -104,5 +120,27 @@ public class SecurityConfig {
     return new BCryptPasswordEncoder();
   }
 
+
+  @Bean
+  public CorsConfigurationSource corsConfigurationSource() {
+    CorsConfiguration configuration = new CorsConfiguration();
+
+    configuration.addAllowedOriginPattern("*");
+
+    //custom header 설정
+    configuration.addAllowedHeader("Authorization");
+    configuration.addAllowedHeader("Content-Type");
+    configuration.addAllowedHeader("refresh-token");
+    configuration.addExposedHeader("Authorization");
+    configuration.addExposedHeader("Content-Type");
+    configuration.addExposedHeader("refresh-token");
+
+    configuration.addAllowedMethod("*");
+    configuration.setAllowCredentials(true);
+
+    UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
+    source.registerCorsConfiguration("/**", configuration);
+    return source;
+  }
 
 }
