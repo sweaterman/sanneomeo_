@@ -21,7 +21,7 @@ services:
     container_name: react
     build: ./frontend/overmountain
     ports:
-      - "80:80"
+      - "3000:3000"
     volumes:
       - /react:/image
     restart: on-failure
