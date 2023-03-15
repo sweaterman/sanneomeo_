@@ -1,11 +1,9 @@
 package com.hikers.sanneomeo.security.oauth2;
 
 import com.hikers.sanneomeo.utils.CookieUtils;
-import com.nimbusds.oauth2.sdk.util.StringUtils;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
-import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import org.springframework.security.oauth2.client.registration.ClientRegistration;
@@ -50,8 +48,8 @@ public class CustomOAuth2CookieAuthorizationRequestRepository<T extends OAuth2Au
   public void saveAuthorizationRequest(OAuth2AuthorizationRequest authorizationRequest, HttpServletRequest request, HttpServletResponse response) {
     CookieUtils.addCookie(response, OAUTH2_AUTHORIZATION_REQUEST_COOKIE_NAME,
         CookieUtils.serialize(authorizationRequest), cookieExpireSeconds);
-//    String redirectUriAfterLogin = "http://localhost:9090/login/after";
-    String redirectUriAfterLogin=request.getParameter("redirectUri");
+    String redirectUriAfterLogin = "http://localhost:9090/api/user/login/after";
+//    String redirectUriAfterLogin=request.getParameter("redirectUri");
     CookieUtils.addCookie(response, REDIRECT_URI_PARAM_COOKIE_NAME, redirectUriAfterLogin, cookieExpireSeconds);
 //    String redirectUriAfterLogin = request.getParameter(REDIRECT_URI_PARAM_COOKIE_NAME);
 //    if (StringUtils.isNotBlank(redirectUriAfterLogin)) {
