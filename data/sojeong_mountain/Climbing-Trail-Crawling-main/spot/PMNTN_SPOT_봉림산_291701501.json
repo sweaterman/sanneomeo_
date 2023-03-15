@@ -1,0 +1,369 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 41115,
+        "MNTN_CODE" : "291701501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "측량점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉림산",
+        "PAST_SPOT_" : "2917015010001",
+        "MNTN_ID" : "291701501"
+      },
+      "geometry" : {
+        "x" : 190175.6930999998,
+        "y" : 286324.98440000229
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 41116,
+        "MNTN_CODE" : "291701501",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "철봉,의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉림산",
+        "PAST_SPOT_" : "2917015010002",
+        "MNTN_ID" : "291701501"
+      },
+      "geometry" : {
+        "x" : 190224.35030000098,
+        "y" : 286307.08650000393
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 41117,
+        "MNTN_CODE" : "291701501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "파고라",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉림산",
+        "PAST_SPOT_" : "2917015010003",
+        "MNTN_ID" : "291701501"
+      },
+      "geometry" : {
+        "x" : 190245.34750000108,
+        "y" : 286306.53380000032
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 41118,
+        "MNTN_CODE" : "291701501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉림산",
+        "PAST_SPOT_" : "2917015010004",
+        "MNTN_ID" : "291701501"
+      },
+      "geometry" : {
+        "x" : 190135.22780000232,
+        "y" : 286433.6342999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 41119,
+        "MNTN_CODE" : "291701501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉림산",
+        "PAST_SPOT_" : "2917015010005",
+        "MNTN_ID" : "291701501"
+      },
+      "geometry" : {
+        "x" : 190167.06220000051,
+        "y" : 286270.89790000208
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 41120,
+        "MNTN_CODE" : "291701501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉림산",
+        "PAST_SPOT_" : "2917015010006",
+        "MNTN_ID" : "291701501"
+      },
+      "geometry" : {
+        "x" : 190184.1258000005,
+        "y" : 286377.17170000076
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 41121,
+        "MNTN_CODE" : "291701501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉림산",
+        "PAST_SPOT_" : "2917015010007",
+        "MNTN_ID" : "291701501"
+      },
+      "geometry" : {
+        "x" : 190260.10589999985,
+        "y" : 286196.41560000181
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 41122,
+        "MNTN_CODE" : "291701501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉림산",
+        "PAST_SPOT_" : "2917015010008",
+        "MNTN_ID" : "291701501"
+      },
+      "geometry" : {
+        "x" : 190288.43090000097,
+        "y" : 286260.03800000064
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 41123,
+        "MNTN_CODE" : "291701501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉림산",
+        "PAST_SPOT_" : "2917015010009",
+        "MNTN_ID" : "291701501"
+      },
+      "geometry" : {
+        "x" : 190372.1707000006,
+        "y" : 286245.99990000203
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 41124,
+        "MNTN_CODE" : "291701501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉림산",
+        "PAST_SPOT_" : "2917015010010",
+        "MNTN_ID" : "291701501"
+      },
+      "geometry" : {
+        "x" : 190385.25600000005,
+        "y" : 286285.58830000088
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 41125,
+        "MNTN_CODE" : "291701501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉림산",
+        "PAST_SPOT_" : "2917015010011",
+        "MNTN_ID" : "291701501"
+      },
+      "geometry" : {
+        "x" : 190413.00090000033,
+        "y" : 286270.19030000269
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 41126,
+        "MNTN_CODE" : "291701501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉림산",
+        "PAST_SPOT_" : "2917015010012",
+        "MNTN_ID" : "291701501"
+      },
+      "geometry" : {
+        "x" : 190436.42480000015,
+        "y" : 286245.12939999811
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 41127,
+        "MNTN_CODE" : "291701501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉림산",
+        "PAST_SPOT_" : "2917015010013",
+        "MNTN_ID" : "291701501"
+      },
+      "geometry" : {
+        "x" : 190466.08920000214,
+        "y" : 286246.86150000058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 41128,
+        "MNTN_CODE" : "291701501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉림산",
+        "PAST_SPOT_" : "2917015010014",
+        "MNTN_ID" : "291701501"
+      },
+      "geometry" : {
+        "x" : 190490.74459999986,
+        "y" : 286205.34319999814
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 96895,
+        "MNTN_CODE" : "291701501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "측량점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉림산",
+        "PAST_SPOT_" : "2917015010015",
+        "MNTN_ID" : "291701501"
+      },
+      "geometry" : {
+        "x" : 190192.06180000067,
+        "y" : 286337.32530000061
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 96896,
+        "MNTN_CODE" : "291701501",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물(운동기구등)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉림산",
+        "PAST_SPOT_" : "2917015010016",
+        "MNTN_ID" : "291701501"
+      },
+      "geometry" : {
+        "x" : 190331.23199999947,
+        "y" : 286256.32829999906
+      }
+    }
+  ]
+}

@@ -1,0 +1,999 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 19179,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000001",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 269578.63190000318,
+        "y" : 583073.56140000187
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 19180,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000002",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 269981.80020000227,
+        "y" : 582780.51730000228
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 19181,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "샘터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000003",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 271912.13069999963,
+        "y" : 583022.84540000185
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 19182,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도",
+        "ETC_MATTER" : "2구간",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000004",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 271963.20550000016,
+        "y" : 582933.066300001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 19183,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000005",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 270481.00499999896,
+        "y" : 585035.04050000012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 19184,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "납골당",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000006",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 269796.68649999984,
+        "y" : 582567.20439999923
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 19185,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "공군부대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000007",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 270228.75219999999,
+        "y" : 581132.23279999942
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 19186,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000008",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 270345.32170000114,
+        "y" : 583572.37260000035
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 19187,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "1-3구간",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000009",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 270020.19720000308,
+        "y" : 584979.52219999954
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 19188,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000010",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 271383.51400000043,
+        "y" : 584356.99410000071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 19189,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "1-1-1구간",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000011",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 270873.8601000011,
+        "y" : 585121.04740000144
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 19190,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000012",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 271074.80800000019,
+        "y" : 585661.18070000224
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 19191,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000013",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 269724.59550000262,
+        "y" : 586554.42050000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 19192,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000014",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 270144.49629999977,
+        "y" : 586882.51600000262
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 19193,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000015",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 270184.42220000084,
+        "y" : 584137.73620000109
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 19194,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,고은리주차장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000016",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 269363.19190000184,
+        "y" : 583109.66290000081
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 19195,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,대룡농장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000017",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 269418.97360000294,
+        "y" : 584161.2882000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 19196,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000018",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 269479.12910000049,
+        "y" : 583128.62319999933
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 19197,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000019",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 269537.20930000115,
+        "y" : 582447.99810000136
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 19198,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000020",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 269577.04580000136,
+        "y" : 581227.65320000239
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 19199,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "2-1-1구간",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000021",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 269585.87480000034,
+        "y" : 582444.57150000148
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 19200,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "2-1-2구간",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000022",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 269597.11980000045,
+        "y" : 582843.62480000034
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 19201,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "2-1-1구간",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000023",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 269605.85370000079,
+        "y" : 582442.97640000284
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 19202,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000024",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 269730.27660000324,
+        "y" : 583989.91379999928
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 19203,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000025",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 269834.82720000017,
+        "y" : 583898.83459999785
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 19204,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000026",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 269882.96480000205,
+        "y" : 583829.74090000242
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 19205,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000027",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 269917.07430000231,
+        "y" : 584997.58890000358
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 19206,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "2-1-1구간",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000028",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 269993.83760000113,
+        "y" : 582549.11880000122
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 19207,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "2-1구간",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000029",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 270042.16970000416,
+        "y" : 582662.666000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 19208,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000030",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 270361.83950000163,
+        "y" : 585019.29020000063
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 19209,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000031",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 270436.4168000007,
+        "y" : 583624.59129999951
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 19210,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "2-3구간",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000032",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 270469.09279999975,
+        "y" : 583791.47910000198
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 19211,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "1-2구간",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000033",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 270478.24680000078,
+        "y" : 585041.62170000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 19212,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000034",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 270657.61900000088,
+        "y" : 585312.22630000114
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 19213,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "명봉,삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000035",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 270842.26379999984,
+        "y" : 585747.84620000608
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 19214,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "샘터",
+        "ETC_MATTER" : "1-1-1구간",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000036",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 270870.3460000027,
+        "y" : 585186.4495000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 19215,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000037",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 270933.14370000269,
+        "y" : 585663.64340000413
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 19216,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000038",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 270947.83079999965,
+        "y" : 585622.81999999844
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 19217,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "2-2구간",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000039",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 270966.30720000248,
+        "y" : 583645.32680000179
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 19218,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000040",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 270978.81110000052,
+        "y" : 585082.66720000096
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 19219,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "갑둔리고개",
+        "ETC_MATTER" : "1-2구간",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000041",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 271029.48760000058,
+        "y" : 585270.9039000012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 19220,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "1-4구간",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000042",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 271061.6286000004,
+        "y" : 585559.34410000034
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 19221,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "1-1구간,1-3구간",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000043",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 271091.50510000158,
+        "y" : 584957.09400000237
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 19222,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "1-6구간",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000044",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 271469.35450000316,
+        "y" : 581766.77929999866
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 19223,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "1-5구간",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000045",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 271712.64709999971,
+        "y" : 583743.10950000212
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 19224,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "1-5구간",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000046",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 271988.47660000063,
+        "y" : 584061.65980000235
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 19225,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "2구간",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000047",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 272203.30940000061,
+        "y" : 583108.4589000009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 19226,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "2구간",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000048",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 272211.14880000055,
+        "y" : 583068.71749999933
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 19227,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "2구간",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000049",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 272218.91229999997,
+        "y" : 583063.46230000257
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 19228,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상표지석",
+        "ETC_MATTER" : "2구간",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000050",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 272279.92510000151,
+        "y" : 583118.36720000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 50,
+        "PMNTN_SPOT" : 19229,
+        "MNTN_CODE" : "421101101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대룡산",
+        "PAST_SPOT_" : "22130613000051",
+        "MNTN_ID" : "2213061300"
+      },
+      "geometry" : {
+        "x" : 269605.72876242734,
+        "y" : 586618.1409568917
+      }
+    }
+  ]
+}

@@ -1,0 +1,927 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 3004,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "월봉산조망",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000001",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 266389.6819000002,
+        "y" : 346923.64490000159
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 3005,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기백산조망",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000002",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 266323.34270000085,
+        "y" : 346694.07690000162
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 3006,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000003",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 266286.724700002,
+        "y" : 346009.34789999947
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 3007,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000004",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 266564.47360000014,
+        "y" : 345633.11300000176
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 3008,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000005",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 266944.22240000404,
+        "y" : 344798.31980000064
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 3009,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000006",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 267936.10759999976,
+        "y" : 344195.45510000177
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 3010,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "소규모폭포",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000007",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 267247.65790000092,
+        "y" : 346383.87990000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 3011,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000008",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 268296.58330000099,
+        "y" : 343361.49120000191
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 3012,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000009",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 267637.48100000061,
+        "y" : 343069.96590000205
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 3013,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산림욕장",
+        "ETC_MATTER" : "031, 031_1",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000010",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 267347.49390000012,
+        "y" : 346281.2610000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 3014,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000011",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 266937.12519498635,
+        "y" : 342325.28492836095
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 3015,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노상저수지,시점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000012",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 264947.80800000113,
+        "y" : 345458.74310000241
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 3016,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "큰목재",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000013",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 266133.47659999877,
+        "y" : 347288.08320000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 3017,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000014",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 264546.56820000149,
+        "y" : 344605.40590000153
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 3018,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000015",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 264940.50710000377,
+        "y" : 345231.26009999961
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 3019,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000016",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 265179.99760000035,
+        "y" : 345203.67170000076
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 3020,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "임도전경",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000017",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 265532.40540000144,
+        "y" : 345149.634200003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 3021,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,오산마을",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000018",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 263072.79050000012,
+        "y" : 343589.29850000143
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 3022,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000019",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 263825.84060000069,
+        "y" : 343866.75140000135
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 3023,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000020",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 264389.84690000303,
+        "y" : 344711.84040000103
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 3024,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000021",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 265067.19390000217,
+        "y" : 345835.40240000375
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 3025,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000022",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 265079.50910000317,
+        "y" : 345916.16260000132
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 3026,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000023",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 265630.29260000028,
+        "y" : 346810.16019999981
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 3027,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "임도 끝",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000024",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 265700.75310000032,
+        "y" : 345175.36889999919
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 3028,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "금원산조망",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000025",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 266423.98740000278,
+        "y" : 347115.19119999744
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 3029,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "은신처",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000026",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 266471.75170000177,
+        "y" : 345708.9197000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 3030,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000027",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 266743.03097627405,
+        "y" : 342619.66744081117
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 3031,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000028",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 266706.27800000086,
+        "y" : 343001.14939999953
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 3032,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "거망산정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000029",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 266717.16350000165,
+        "y" : 343137.28270000219
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 3033,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000030",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 266745.79270000104,
+        "y" : 344035.67730000801
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 3034,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "은신암,종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000031",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 266776.82160000224,
+        "y" : 346380.4897000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 3035,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000032",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 266822.47800000198,
+        "y" : 343650.73900000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 3036,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000033",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 266825.42939999979,
+        "y" : 346451.42750000209
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 3037,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000034",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 266847.68190000113,
+        "y" : 346554.03099999763
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 3038,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000035",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 266875.59350000042,
+        "y" : 346329.6110999994
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 3039,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "물레방아",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000036",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 266908.88940000348,
+        "y" : 346345.06340000778
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 3040,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,수망령",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000037",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 267198.37920000125,
+        "y" : 347849.23829999939
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 3041,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,수망령",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000038",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 267203.36410000082,
+        "y" : 347849.36879999936
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 3042,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000039",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 267328.69900000095,
+        "y" : 346389.87440000102
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 3043,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "산림욕장,종점",
+        "ETC_MATTER" : "030, 030_1",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000040",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 267339.90189999994,
+        "y" : 346179.472000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 3044,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000041",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 267344.24960000254,
+        "y" : 346416.66850000061
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 3045,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000042",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 267394.09050000273,
+        "y" : 346392.5887000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 3046,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000043",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 267737.50520000327,
+        "y" : 346882.59899999946
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 3047,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "은신골입구,자동우량경보",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000044",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 267791.70010000095,
+        "y" : 346087.69510000013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 3048,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000045",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 268626.91180000082,
+        "y" : 344427.52860000171
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 3049,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000046",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 264947.80800000113,
+        "y" : 345458.74310000241
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 3050,
+        "MNTN_CODE" : "488700101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거망산",
+        "PAST_SPOT_" : "28190702000047",
+        "MNTN_ID" : "2819070200"
+      },
+      "geometry" : {
+        "x" : 266322.7127000019,
+        "y" : 346716.8908000011
+      }
+    }
+  ]
+}

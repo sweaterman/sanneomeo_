@@ -1,0 +1,837 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 76245,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010001",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 328684.96860000119,
+        "y" : 349956.30940000154
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 76246,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010002",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 328837.17670000065,
+        "y" : 350135.24379999936
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 76247,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010003",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 328926.05460000038,
+        "y" : 349903.87170000374
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 76248,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010004",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 329065.30190000217,
+        "y" : 349914.05410000309
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 76249,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010005",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 329184.35280000139,
+        "y" : 350430.52920000255
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 76250,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010006",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 329339.41830000002,
+        "y" : 349771.66999999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 76251,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010007",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 329358.55550000072,
+        "y" : 349802.1568
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 76252,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010008",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 329513.45120000001,
+        "y" : 350151.66730000079
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 76253,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010009",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 329651.96370000113,
+        "y" : 349682.22240000404
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 76254,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010010",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 329719.44590000063,
+        "y" : 349721.67920000106
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 76255,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010011",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 329979.91009999998,
+        "y" : 348990.83060000092
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 76256,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010012",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 330047.7249999987,
+        "y" : 349749.95820000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 76257,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010013",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 330085.11490000039,
+        "y" : 349114.73620000109
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 76258,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010014",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 330124.03070000093,
+        "y" : 349326.32340000011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 76259,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010015",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 330141.6054000007,
+        "y" : 349269.69230000116
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 76260,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010016",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 330189.16490000207,
+        "y" : 349301.80480000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 76261,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010017",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 330315.99880000204,
+        "y" : 349270.14110000432
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 76262,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010018",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 330339.69480000064,
+        "y" : 349781.86529999971
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 76263,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010019",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 330635.17489999998,
+        "y" : 349481.37620000355
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 76264,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010020",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 330638.99310000055,
+        "y" : 349447.40540000238
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 76265,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010021",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 330644.10410000011,
+        "y" : 349466.14340000227
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 76266,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010022",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 330644.7108000014,
+        "y" : 349457.25580000132
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 76267,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010023",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 330651.48670000024,
+        "y" : 349441.50730000064
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 76268,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010024",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 330653.89240000118,
+        "y" : 349433.7909000013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 76269,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010025",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 330659.69930000138,
+        "y" : 349532.43500000052
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 76270,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010026",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 330693.60240000114,
+        "y" : 349498.54550000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 76271,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010027",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 330697.34780000057,
+        "y" : 349371.96780000068
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 76272,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010028",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 330709.02099999972,
+        "y" : 349366.2405999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 76273,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010029",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 330799.31680000108,
+        "y" : 349531.97529999912
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 76274,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010030",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 330910.89910000004,
+        "y" : 349356.77930000238
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 76275,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010031",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 330966.13850000035,
+        "y" : 349263.849700002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 99069,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010032",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 329025.57939999801,
+        "y" : 349929.79370000027
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 99070,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010033",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 329063.87860000075,
+        "y" : 349916.48010000028
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 99071,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물(운동기구등)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010034",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 329412.8269000008,
+        "y" : 349778.79020000086
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 99072,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치, 시설물(운동기구등), 조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010035",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 329718.53419999895,
+        "y" : 349721.20340000081
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 99073,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상, 조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010036",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 330338.06450000085,
+        "y" : 349785.63550000178
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 99074,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010037",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 329467.69290000084,
+        "y" : 350233.24129999988
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 99075,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물(운동기구등)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010038",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 329511.74590000045,
+        "y" : 350148.38990000065
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 99076,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010039",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 329652.87019999936,
+        "y" : 349463.31389999972
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 99077,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010040",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 329780.83490000112,
+        "y" : 349105.1868999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 99078,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010041",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 330194.75709999673,
+        "y" : 349305.30110000051
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 99079,
+        "MNTN_CODE" : "277104301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타, 시설물(운동기구등)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "잠용산",
+        "PAST_SPOT_" : "2771043010042",
+        "MNTN_ID" : "277104301"
+      },
+      "geometry" : {
+        "x" : 330223.10789999948,
+        "y" : 349284.3107999994
+      }
+    }
+  ]
+}

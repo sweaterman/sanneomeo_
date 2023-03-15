@@ -1,0 +1,459 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 40233,
+        "MNTN_CODE" : "457203201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "매표소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "복두봉",
+        "PAST_SPOT_" : "4572032010001",
+        "MNTN_ID" : "457203201"
+      },
+      "geometry" : {
+        "x" : 239065.47149999999,
+        "y" : 365785.83680000156
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 40234,
+        "MNTN_CODE" : "457203201",
+        "MANAGE_SP1" : "19",
+        "MANAGE_SP2" : "야영장",
+        "DETAIL_SPO" : "야영장,표지판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "복두봉",
+        "PAST_SPOT_" : "4572032010002",
+        "MNTN_ID" : "457203201"
+      },
+      "geometry" : {
+        "x" : 237883.93549999967,
+        "y" : 366963.81379999965
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 40235,
+        "MNTN_CODE" : "457203201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "임도입구,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "복두봉",
+        "PAST_SPOT_" : "4572032010003",
+        "MNTN_ID" : "457203201"
+      },
+      "geometry" : {
+        "x" : 237618.01439999975,
+        "y" : 367072.71020000055
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 40236,
+        "MNTN_CODE" : "457203201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "복두봉",
+        "PAST_SPOT_" : "4572032010004",
+        "MNTN_ID" : "457203201"
+      },
+      "geometry" : {
+        "x" : 236054.83350000065,
+        "y" : 369170.52520000376
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 40237,
+        "MNTN_CODE" : "457203201",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부,등산로 안내도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "복두봉",
+        "PAST_SPOT_" : "4572032010005",
+        "MNTN_ID" : "457203201"
+      },
+      "geometry" : {
+        "x" : 235214.6995000001,
+        "y" : 370521.72860000096
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 40238,
+        "MNTN_CODE" : "457203201",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "복두봉",
+        "PAST_SPOT_" : "4572032010006",
+        "MNTN_ID" : "457203201"
+      },
+      "geometry" : {
+        "x" : 234806.43990000151,
+        "y" : 369831.74340000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 40239,
+        "MNTN_CODE" : "457203201",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "복두봉",
+        "PAST_SPOT_" : "4572032010007",
+        "MNTN_ID" : "457203201"
+      },
+      "geometry" : {
+        "x" : 234511.88900000136,
+        "y" : 369673.48610000312
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 40240,
+        "MNTN_CODE" : "457203201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "노선내분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "복두봉",
+        "PAST_SPOT_" : "4572032010008",
+        "MNTN_ID" : "457203201"
+      },
+      "geometry" : {
+        "x" : 234387.56140000094,
+        "y" : 369527.83220000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 40241,
+        "MNTN_CODE" : "457203201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암벽노출,로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "복두봉",
+        "PAST_SPOT_" : "4572032010009",
+        "MNTN_ID" : "457203201"
+      },
+      "geometry" : {
+        "x" : 234236.00570000056,
+        "y" : 369040.84100000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 40242,
+        "MNTN_CODE" : "457203201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암벽노출,로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "복두봉",
+        "PAST_SPOT_" : "4572032010010",
+        "MNTN_ID" : "457203201"
+      },
+      "geometry" : {
+        "x" : 234118.60759999976,
+        "y" : 369036.08700000308
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 40243,
+        "MNTN_CODE" : "457203201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "표지판,임도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "복두봉",
+        "PAST_SPOT_" : "4572032010011",
+        "MNTN_ID" : "457203201"
+      },
+      "geometry" : {
+        "x" : 233665.82060000021,
+        "y" : 369255.2255000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 40244,
+        "MNTN_CODE" : "457203201",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "복두봉",
+        "PAST_SPOT_" : "4572032010012",
+        "MNTN_ID" : "457203201"
+      },
+      "geometry" : {
+        "x" : 233540.46180000063,
+        "y" : 369248.55810000375
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 40245,
+        "MNTN_CODE" : "457203201",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지,암벽시점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "복두봉",
+        "PAST_SPOT_" : "4572032010013",
+        "MNTN_ID" : "457203201"
+      },
+      "geometry" : {
+        "x" : 232914.39460000116,
+        "y" : 368813.60480000079
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 40246,
+        "MNTN_CODE" : "457203201",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지,암벽종부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "복두봉",
+        "PAST_SPOT_" : "4572032010014",
+        "MNTN_ID" : "457203201"
+      },
+      "geometry" : {
+        "x" : 232907.8359999992,
+        "y" : 368803.54130000062
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 40247,
+        "MNTN_CODE" : "457203201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "복두봉",
+        "PAST_SPOT_" : "4572032010015",
+        "MNTN_ID" : "457203201"
+      },
+      "geometry" : {
+        "x" : 232725.01590000093,
+        "y" : 368670.36050000228
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 40248,
+        "MNTN_CODE" : "457203201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "복두봉",
+        "PAST_SPOT_" : "4572032010016",
+        "MNTN_ID" : "457203201"
+      },
+      "geometry" : {
+        "x" : 232722.64009374846,
+        "y" : 368663.83266148157
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 40249,
+        "MNTN_CODE" : "457203201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "복두봉",
+        "PAST_SPOT_" : "4572032010017",
+        "MNTN_ID" : "457203201"
+      },
+      "geometry" : {
+        "x" : 234306.11380000133,
+        "y" : 369597.23230000399
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 40250,
+        "MNTN_CODE" : "457203201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "복두봉",
+        "PAST_SPOT_" : "4572032010018",
+        "MNTN_ID" : "457203201"
+      },
+      "geometry" : {
+        "x" : 234389.857347304,
+        "y" : 369530.01900779083
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 40251,
+        "MNTN_CODE" : "457203201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "복두봉",
+        "PAST_SPOT_" : "4572032010019",
+        "MNTN_ID" : "457203201"
+      },
+      "geometry" : {
+        "x" : 235215.94197861012,
+        "y" : 370513.71362776868
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 40252,
+        "MNTN_CODE" : "457203201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "복두봉",
+        "PAST_SPOT_" : "4572032010020",
+        "MNTN_ID" : "457203201"
+      },
+      "geometry" : {
+        "x" : 235775.94961576629,
+        "y" : 370495.91915249825
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 40253,
+        "MNTN_CODE" : "457203201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "복두봉",
+        "PAST_SPOT_" : "4572032010021",
+        "MNTN_ID" : "457203201"
+      },
+      "geometry" : {
+        "x" : 239802.49000000209,
+        "y" : 365614.58359999768
+      }
+    }
+  ]
+}

@@ -1,0 +1,477 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 42341,
+        "MNTN_CODE" : "471101801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : "시점",
+        "MNTN_NM" : "봉화봉",
+        "PAST_SPOT_" : "27242310000001",
+        "MNTN_ID" : "2724231000"
+      },
+      "geometry" : {
+        "x" : 388712.51700004563,
+        "y" : 397725.23820000701
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 42342,
+        "MNTN_CODE" : "471101801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : "종점",
+        "MNTN_NM" : "봉화봉",
+        "PAST_SPOT_" : "27242310000002",
+        "MNTN_ID" : "2724231000"
+      },
+      "geometry" : {
+        "x" : 388732.91240004543,
+        "y" : 397719.37170000747
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 42343,
+        "MNTN_CODE" : "471101801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화봉",
+        "PAST_SPOT_" : "27242310000003",
+        "MNTN_ID" : "2724231000"
+      },
+      "geometry" : {
+        "x" : 388995.03740004543,
+        "y" : 397580.32050000317
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 42344,
+        "MNTN_CODE" : "471101801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화봉",
+        "PAST_SPOT_" : "27242310000004",
+        "MNTN_ID" : "2724231000"
+      },
+      "geometry" : {
+        "x" : 389007.04430004489,
+        "y" : 397578.05959999934
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 42345,
+        "MNTN_CODE" : "471101801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화봉",
+        "PAST_SPOT_" : "27242310000005",
+        "MNTN_ID" : "2724231000"
+      },
+      "geometry" : {
+        "x" : 389284.97370004933,
+        "y" : 397540.00290000625
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 42346,
+        "MNTN_CODE" : "471101801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화봉",
+        "PAST_SPOT_" : "27242310000006",
+        "MNTN_ID" : "2724231000"
+      },
+      "geometry" : {
+        "x" : 389615.34600004647,
+        "y" : 397386.2804000061
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 42347,
+        "MNTN_CODE" : "471101801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화봉",
+        "PAST_SPOT_" : "27242310000007",
+        "MNTN_ID" : "2724231000"
+      },
+      "geometry" : {
+        "x" : 389618.65890004672,
+        "y" : 397381.75530000404
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 42348,
+        "MNTN_CODE" : "471101801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화봉",
+        "PAST_SPOT_" : "27242310000008",
+        "MNTN_ID" : "2724231000"
+      },
+      "geometry" : {
+        "x" : 389632.14390004799,
+        "y" : 397384.43520000763
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 42349,
+        "MNTN_CODE" : "471101801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화봉",
+        "PAST_SPOT_" : "27242310000009",
+        "MNTN_ID" : "2724231000"
+      },
+      "geometry" : {
+        "x" : 389715.18860004842,
+        "y" : 397054.84440000355
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 42350,
+        "MNTN_CODE" : "471101801",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화봉",
+        "PAST_SPOT_" : "27242310000010",
+        "MNTN_ID" : "2724231000"
+      },
+      "geometry" : {
+        "x" : 389794.35210004821,
+        "y" : 396616.79690000601
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 42351,
+        "MNTN_CODE" : "471101801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화봉",
+        "PAST_SPOT_" : "27242310000011",
+        "MNTN_ID" : "2724231000"
+      },
+      "geometry" : {
+        "x" : 389789.8085000487,
+        "y" : 396614.11110000685
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 42352,
+        "MNTN_CODE" : "471101801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망권",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화봉",
+        "PAST_SPOT_" : "27242310000012",
+        "MNTN_ID" : "2724231000"
+      },
+      "geometry" : {
+        "x" : 389188.23820004705,
+        "y" : 396513.78780000284
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 42353,
+        "MNTN_CODE" : "471101801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망권",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화봉",
+        "PAST_SPOT_" : "27242310000013",
+        "MNTN_ID" : "2724231000"
+      },
+      "geometry" : {
+        "x" : 389175.71690004691,
+        "y" : 396491.88680000417
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 42354,
+        "MNTN_CODE" : "471101801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화봉",
+        "PAST_SPOT_" : "27242310000014",
+        "MNTN_ID" : "2724231000"
+      },
+      "geometry" : {
+        "x" : 388507.25050004665,
+        "y" : 396580.32590000331
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 42355,
+        "MNTN_CODE" : "471101801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화봉",
+        "PAST_SPOT_" : "27242310000015",
+        "MNTN_ID" : "2724231000"
+      },
+      "geometry" : {
+        "x" : 388140.64040004462,
+        "y" : 396856.39489999972
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 42356,
+        "MNTN_CODE" : "471101801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노감주나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화봉",
+        "PAST_SPOT_" : "27242310000016",
+        "MNTN_ID" : "2724231000"
+      },
+      "geometry" : {
+        "x" : 388376.86450004298,
+        "y" : 397280.16810000502
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 42357,
+        "MNTN_CODE" : "471101801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화봉",
+        "PAST_SPOT_" : "27242310000017",
+        "MNTN_ID" : "2724231000"
+      },
+      "geometry" : {
+        "x" : 388640.27090004552,
+        "y" : 397720.84730000608
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 42358,
+        "MNTN_CODE" : "471101801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화봉",
+        "PAST_SPOT_" : "27242310000018",
+        "MNTN_ID" : "2724231000"
+      },
+      "geometry" : {
+        "x" : 388654.51250004675,
+        "y" : 397713.07110000588
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 42359,
+        "MNTN_CODE" : "471101801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "입암서원",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화봉",
+        "PAST_SPOT_" : "27242310000019",
+        "MNTN_ID" : "2724231000"
+      },
+      "geometry" : {
+        "x" : 388674.82980004512,
+        "y" : 397732.09730000421
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 42360,
+        "MNTN_CODE" : "471101801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화봉",
+        "PAST_SPOT_" : "27242310000020",
+        "MNTN_ID" : "2724231000"
+      },
+      "geometry" : {
+        "x" : 388703.4841000475,
+        "y" : 397722.38940000534
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 42361,
+        "MNTN_CODE" : "471101801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화봉",
+        "PAST_SPOT_" : "27242310000021",
+        "MNTN_ID" : "2724231000"
+      },
+      "geometry" : {
+        "x" : 388711.73320004344,
+        "y" : 397724.42180000246
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 42362,
+        "MNTN_CODE" : "471101801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "봉화산",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화봉",
+        "PAST_SPOT_" : "27242310000022",
+        "MNTN_ID" : "2724231000"
+      },
+      "geometry" : {
+        "x" : 388863.95910004433,
+        "y" : 396369.75780000351
+      }
+    }
+  ]
+}

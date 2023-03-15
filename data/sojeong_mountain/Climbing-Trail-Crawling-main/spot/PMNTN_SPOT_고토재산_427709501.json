@@ -1,0 +1,351 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 6603,
+        "MNTN_CODE" : "427709501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고토재산",
+        "PAST_SPOT_" : "4277010010001",
+        "MNTN_ID" : "427701001"
+      },
+      "geometry" : {
+        "x" : 364675.48100001644,
+        "y" : 516625.73650000244
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 6604,
+        "MNTN_CODE" : "427709501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고토재산",
+        "PAST_SPOT_" : "4277010010002",
+        "MNTN_ID" : "427701001"
+      },
+      "geometry" : {
+        "x" : 365421.10050001834,
+        "y" : 516966.89760000072
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 6605,
+        "MNTN_CODE" : "427709501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고토재산",
+        "PAST_SPOT_" : "4277010010003",
+        "MNTN_ID" : "427701001"
+      },
+      "geometry" : {
+        "x" : 365250.85660002939,
+        "y" : 515602.23690000176
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 6606,
+        "MNTN_CODE" : "427709501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고토재산",
+        "PAST_SPOT_" : "4277010010004",
+        "MNTN_ID" : "427701001"
+      },
+      "geometry" : {
+        "x" : 365285.65200003516,
+        "y" : 515625.46200000122
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 6607,
+        "MNTN_CODE" : "427709501",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고토재산",
+        "PAST_SPOT_" : "4277010010005",
+        "MNTN_ID" : "427701001"
+      },
+      "geometry" : {
+        "x" : 365313.73940003105,
+        "y" : 515641.20450000279
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 6608,
+        "MNTN_CODE" : "427709501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "전망대필요",
+        "MNTN_NM" : "고토재산",
+        "PAST_SPOT_" : "4277010010006",
+        "MNTN_ID" : "427701001"
+      },
+      "geometry" : {
+        "x" : 365579.36550003197,
+        "y" : 515873.2760999985
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 6609,
+        "MNTN_CODE" : "427709501",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : "443복구",
+        "MNTN_NM" : "고토재산",
+        "PAST_SPOT_" : "4277010010007",
+        "MNTN_ID" : "427701001"
+      },
+      "geometry" : {
+        "x" : 365578.82040003501,
+        "y" : 515875.25300000049
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 6610,
+        "MNTN_CODE" : "427709501",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고토재산",
+        "PAST_SPOT_" : "4277010010008",
+        "MNTN_ID" : "427701001"
+      },
+      "geometry" : {
+        "x" : 365649.23650003504,
+        "y" : 515929.18450000137
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 6611,
+        "MNTN_CODE" : "427709501",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고토재산",
+        "PAST_SPOT_" : "4277010010009",
+        "MNTN_ID" : "427701001"
+      },
+      "geometry" : {
+        "x" : 364904.83520003036,
+        "y" : 515978.16750000417
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 6612,
+        "MNTN_CODE" : "427709501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고토재산",
+        "PAST_SPOT_" : "4277010010010",
+        "MNTN_ID" : "427701001"
+      },
+      "geometry" : {
+        "x" : 365782.40500003844,
+        "y" : 515989.21730000712
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 6613,
+        "MNTN_CODE" : "427709501",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고토재산",
+        "PAST_SPOT_" : "4277010010011",
+        "MNTN_ID" : "427701001"
+      },
+      "geometry" : {
+        "x" : 366407.89660003409,
+        "y" : 515992.2235000059
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 6614,
+        "MNTN_CODE" : "427709501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : "로프필요(15)",
+        "MNTN_NM" : "고토재산",
+        "PAST_SPOT_" : "4277010010012",
+        "MNTN_ID" : "427701001"
+      },
+      "geometry" : {
+        "x" : 365847.03720003553,
+        "y" : 516020.26200000569
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 6615,
+        "MNTN_CODE" : "427709501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고토재산",
+        "PAST_SPOT_" : "4277010010013",
+        "MNTN_ID" : "427701001"
+      },
+      "geometry" : {
+        "x" : 366186.65720003564,
+        "y" : 516044.98980000243
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 6616,
+        "MNTN_CODE" : "427709501",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손",
+        "ETC_MATTER" : "배수로필요",
+        "MNTN_NM" : "고토재산",
+        "PAST_SPOT_" : "4277010010014",
+        "MNTN_ID" : "427701001"
+      },
+      "geometry" : {
+        "x" : 364772.92940003239,
+        "y" : 516076.33970000595
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 6617,
+        "MNTN_CODE" : "427709501",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손",
+        "ETC_MATTER" : "배수로필요",
+        "MNTN_NM" : "고토재산",
+        "PAST_SPOT_" : "4277010010015",
+        "MNTN_ID" : "427701001"
+      },
+      "geometry" : {
+        "x" : 366897.30790003482,
+        "y" : 516145.93410000391
+      }
+    }
+  ]
+}

@@ -1,0 +1,621 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 83595,
+        "MNTN_CODE" : "442302701",
+        "MANAGE_SP1" : "18",
+        "MANAGE_SP2" : "주차장",
+        "DETAIL_SPO" : "황룡제 주차장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천호산",
+        "PAST_SPOT_" : "24049927000001",
+        "MNTN_ID" : "2404992700"
+      },
+      "geometry" : {
+        "x" : 221315.6699000001,
+        "y" : 401119.52510000207
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 83596,
+        "MNTN_CODE" : "442302701",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "논산시 안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천호산",
+        "PAST_SPOT_" : "24049927000002",
+        "MNTN_ID" : "2404992700"
+      },
+      "geometry" : {
+        "x" : 221326.90590000059,
+        "y" : 401133.82339999825
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 83597,
+        "MNTN_CODE" : "442302701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "훼손된 이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천호산",
+        "PAST_SPOT_" : "24049927000003",
+        "MNTN_ID" : "2404992700"
+      },
+      "geometry" : {
+        "x" : 221310.06740000006,
+        "y" : 401765.91020000353
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 83598,
+        "MNTN_CODE" : "442302701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천호산",
+        "PAST_SPOT_" : "24049927000004",
+        "MNTN_ID" : "2404992700"
+      },
+      "geometry" : {
+        "x" : 221235.49370000046,
+        "y" : 401905.3666999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 83599,
+        "MNTN_CODE" : "442302701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천호산",
+        "PAST_SPOT_" : "24049927000005",
+        "MNTN_ID" : "2404992700"
+      },
+      "geometry" : {
+        "x" : 221134.04280000087,
+        "y" : 402061.46230000071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 83600,
+        "MNTN_CODE" : "442302701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천호산",
+        "PAST_SPOT_" : "24049927000006",
+        "MNTN_ID" : "2404992700"
+      },
+      "geometry" : {
+        "x" : 221171.77269999869,
+        "y" : 402202.57780000195
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 83601,
+        "MNTN_CODE" : "442302701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천호산",
+        "PAST_SPOT_" : "24049927000007",
+        "MNTN_ID" : "2404992700"
+      },
+      "geometry" : {
+        "x" : 221234.07430000138,
+        "y" : 402258.1563000083
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 83602,
+        "MNTN_CODE" : "442302701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "농공단지 가는길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천호산",
+        "PAST_SPOT_" : "24049927000008",
+        "MNTN_ID" : "2404992700"
+      },
+      "geometry" : {
+        "x" : 221130.24420000054,
+        "y" : 402060.19899999909
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 83603,
+        "MNTN_CODE" : "442302701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천호산",
+        "PAST_SPOT_" : "24049927000009",
+        "MNTN_ID" : "2404992700"
+      },
+      "geometry" : {
+        "x" : 221262.81699999981,
+        "y" : 402281.78160000034
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 83604,
+        "MNTN_CODE" : "442302701",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "사격장 분기(위험! 이쪽은 접근금지)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천호산",
+        "PAST_SPOT_" : "24049927000010",
+        "MNTN_ID" : "2404992700"
+      },
+      "geometry" : {
+        "x" : 221257.41509999987,
+        "y" : 402286.88239999861
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 83605,
+        "MNTN_CODE" : "442302701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천호산",
+        "PAST_SPOT_" : "24049927000011",
+        "MNTN_ID" : "2404992700"
+      },
+      "geometry" : {
+        "x" : 221338.7192000011,
+        "y" : 402631.6827000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 83606,
+        "MNTN_CODE" : "442302701",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "전경및 소나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천호산",
+        "PAST_SPOT_" : "24049927000012",
+        "MNTN_ID" : "2404992700"
+      },
+      "geometry" : {
+        "x" : 221342.4328000024,
+        "y" : 402746.26950000226
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 83607,
+        "MNTN_CODE" : "442302701",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천호산",
+        "PAST_SPOT_" : "24049927000013",
+        "MNTN_ID" : "2404992700"
+      },
+      "geometry" : {
+        "x" : 221564.46290000249,
+        "y" : 404197.55420000106
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 83608,
+        "MNTN_CODE" : "442302701",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상(천호봉)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천호산",
+        "PAST_SPOT_" : "24049927000014",
+        "MNTN_ID" : "2404992700"
+      },
+      "geometry" : {
+        "x" : 221563.62190000061,
+        "y" : 404200.31369999982
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 83609,
+        "MNTN_CODE" : "442302701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천호산",
+        "PAST_SPOT_" : "24049927000015",
+        "MNTN_ID" : "2404992700"
+      },
+      "geometry" : {
+        "x" : 221516.72540000174,
+        "y" : 404276.37190000154
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 83610,
+        "MNTN_CODE" : "442302701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천호산",
+        "PAST_SPOT_" : "24049927000016",
+        "MNTN_ID" : "2404992700"
+      },
+      "geometry" : {
+        "x" : 221494.04240000155,
+        "y" : 404408.91040000319
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 83611,
+        "MNTN_CODE" : "442302701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천호산",
+        "PAST_SPOT_" : "24049927000017",
+        "MNTN_ID" : "2404992700"
+      },
+      "geometry" : {
+        "x" : 221318.57880000398,
+        "y" : 404756.90729999915
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 83612,
+        "MNTN_CODE" : "442302701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "천호산 기도 암자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천호산",
+        "PAST_SPOT_" : "24049927000018",
+        "MNTN_ID" : "2404992700"
+      },
+      "geometry" : {
+        "x" : 221189.71470000036,
+        "y" : 404747.73300000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 83613,
+        "MNTN_CODE" : "442302701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "개태사,철확안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천호산",
+        "PAST_SPOT_" : "24049927000019",
+        "MNTN_ID" : "2404992700"
+      },
+      "geometry" : {
+        "x" : 220605.64620000124,
+        "y" : 404777.63509999961
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 83614,
+        "MNTN_CODE" : "442302701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,주차장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천호산",
+        "PAST_SPOT_" : "24049927000020",
+        "MNTN_ID" : "2404992700"
+      },
+      "geometry" : {
+        "x" : 220784.2200007299,
+        "y" : 404777.1382813938
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 83615,
+        "MNTN_CODE" : "442302701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "연산 삼거리 휴게소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천호산",
+        "PAST_SPOT_" : "24049927000021",
+        "MNTN_ID" : "2404992700"
+      },
+      "geometry" : {
+        "x" : 220318.98599999957,
+        "y" : 401690.02879999951
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 83616,
+        "MNTN_CODE" : "442302701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "월은사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천호산",
+        "PAST_SPOT_" : "24049927000022",
+        "MNTN_ID" : "2404992700"
+      },
+      "geometry" : {
+        "x" : 220854.00720000081,
+        "y" : 401911.51139999926
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 83617,
+        "MNTN_CODE" : "442302701",
+        "MANAGE_SP1" : "19",
+        "MANAGE_SP2" : "야영장",
+        "DETAIL_SPO" : "폐허된 야영장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천호산",
+        "PAST_SPOT_" : "24049927000023",
+        "MNTN_ID" : "2404992700"
+      },
+      "geometry" : {
+        "x" : 220661.69330000132,
+        "y" : 402025.75520000234
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 83618,
+        "MNTN_CODE" : "442302701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,농공단지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천호산",
+        "PAST_SPOT_" : "24049927000024",
+        "MNTN_ID" : "2404992700"
+      },
+      "geometry" : {
+        "x" : 220275.30690000392,
+        "y" : 402082.40639999881
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 83619,
+        "MNTN_CODE" : "442302701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,황룡제 도로",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천호산",
+        "PAST_SPOT_" : "24049927000025",
+        "MNTN_ID" : "2404992700"
+      },
+      "geometry" : {
+        "x" : 220462.20189999975,
+        "y" : 401612.48910000362
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 83620,
+        "MNTN_CODE" : "442302701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천호산",
+        "PAST_SPOT_" : "24049927000026",
+        "MNTN_ID" : "2404992700"
+      },
+      "geometry" : {
+        "x" : 220784.2200000016,
+        "y" : 404777.13830000535
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 83621,
+        "MNTN_CODE" : "442302701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "Ⅱ-1 분기길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천호산",
+        "PAST_SPOT_" : "24049927000027",
+        "MNTN_ID" : "2404992700"
+      },
+      "geometry" : {
+        "x" : 220811.91569999978,
+        "y" : 401824.32610000111
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 83622,
+        "MNTN_CODE" : "442302701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "이정표(농공단지)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천호산",
+        "PAST_SPOT_" : "24049927000028",
+        "MNTN_ID" : "2404992700"
+      },
+      "geometry" : {
+        "x" : 221134.41920000035,
+        "y" : 402064.34060000442
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 83623,
+        "MNTN_CODE" : "442302701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천호산",
+        "PAST_SPOT_" : "24049927000029",
+        "MNTN_ID" : "2404992700"
+      },
+      "geometry" : {
+        "x" : 221429.87170000002,
+        "y" : 401250.82869999856
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 83624,
+        "MNTN_CODE" : "442302701",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상 이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "천호산",
+        "PAST_SPOT_" : "24049927000030",
+        "MNTN_ID" : "2404992700"
+      },
+      "geometry" : {
+        "x" : 221563.62190000061,
+        "y" : 404200.31369999982
+      }
+    }
+  ]
+}

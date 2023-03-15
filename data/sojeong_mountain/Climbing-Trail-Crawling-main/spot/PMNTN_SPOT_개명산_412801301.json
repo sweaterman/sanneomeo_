@@ -1,0 +1,549 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 2516,
+        "MNTN_CODE" : "412801301",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점, 전경사진",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개명산",
+        "PAST_SPOT_" : "4128013010001",
+        "MNTN_ID" : "412801301"
+      },
+      "geometry" : {
+        "x" : 193119.62430000026,
+        "y" : 570041.90770000219
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 2517,
+        "MNTN_CODE" : "412801301",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개명산",
+        "PAST_SPOT_" : "4128013010002",
+        "MNTN_ID" : "412801301"
+      },
+      "geometry" : {
+        "x" : 193856.19720000122,
+        "y" : 570701.72609999962
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 2518,
+        "MNTN_CODE" : "412801301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "형제봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개명산",
+        "PAST_SPOT_" : "4128013010003",
+        "MNTN_ID" : "412801301"
+      },
+      "geometry" : {
+        "x" : 194100.81230000034,
+        "y" : 571741.16930000111
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 2519,
+        "MNTN_CODE" : "412801301",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개명산",
+        "PAST_SPOT_" : "4128013010004",
+        "MNTN_ID" : "412801301"
+      },
+      "geometry" : {
+        "x" : 192776.88070000149,
+        "y" : 569568.63700000197
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 2520,
+        "MNTN_CODE" : "412801301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프 설치길",
+        "ETC_MATTER" : "이정표가 필요함",
+        "MNTN_NM" : "개명산",
+        "PAST_SPOT_" : "4128013010005",
+        "MNTN_ID" : "412801301"
+      },
+      "geometry" : {
+        "x" : 192612.23200000077,
+        "y" : 569472.59009999968
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 2521,
+        "MNTN_CODE" : "412801301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "분기점,조림지",
+        "ETC_MATTER" : "은행나무",
+        "MNTN_NM" : "개명산",
+        "PAST_SPOT_" : "4128013010006",
+        "MNTN_ID" : "412801301"
+      },
+      "geometry" : {
+        "x" : 191954.57650000136,
+        "y" : 568583.42430000193
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 2522,
+        "MNTN_CODE" : "412801301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "조림지",
+        "ETC_MATTER" : "자작나무",
+        "MNTN_NM" : "개명산",
+        "PAST_SPOT_" : "4128013010007",
+        "MNTN_ID" : "412801301"
+      },
+      "geometry" : {
+        "x" : 191944.20160000119,
+        "y" : 568492.79150000215
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 2523,
+        "MNTN_CODE" : "412801301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "벽제배수지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개명산",
+        "PAST_SPOT_" : "4128013010008",
+        "MNTN_ID" : "412801301"
+      },
+      "geometry" : {
+        "x" : 191784.2248999998,
+        "y" : 568692.73350000009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 2524,
+        "MNTN_CODE" : "412801301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개명산",
+        "PAST_SPOT_" : "4128013010009",
+        "MNTN_ID" : "412801301"
+      },
+      "geometry" : {
+        "x" : 191737.93570000213,
+        "y" : 569471.05980000086
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 2525,
+        "MNTN_CODE" : "412801301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개명산",
+        "PAST_SPOT_" : "4128013010010",
+        "MNTN_ID" : "412801301"
+      },
+      "geometry" : {
+        "x" : 191783.95639999956,
+        "y" : 568539.24650000036
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 2526,
+        "MNTN_CODE" : "412801301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개명산",
+        "PAST_SPOT_" : "4128013010011",
+        "MNTN_ID" : "412801301"
+      },
+      "geometry" : {
+        "x" : 191790.74900000077,
+        "y" : 568779.61050000042
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 2527,
+        "MNTN_CODE" : "412801301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개명산",
+        "PAST_SPOT_" : "4128013010012",
+        "MNTN_ID" : "412801301"
+      },
+      "geometry" : {
+        "x" : 191847.85850000009,
+        "y" : 568696.08200000226
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 2528,
+        "MNTN_CODE" : "412801301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개명산",
+        "PAST_SPOT_" : "4128013010013",
+        "MNTN_ID" : "412801301"
+      },
+      "geometry" : {
+        "x" : 191919.67400000151,
+        "y" : 568920.68359999917
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 2529,
+        "MNTN_CODE" : "412801301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개명산",
+        "PAST_SPOT_" : "4128013010014",
+        "MNTN_ID" : "412801301"
+      },
+      "geometry" : {
+        "x" : 191935.4879999999,
+        "y" : 568866.15080000088
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 2530,
+        "MNTN_CODE" : "412801301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개명산",
+        "PAST_SPOT_" : "4128013010015",
+        "MNTN_ID" : "412801301"
+      },
+      "geometry" : {
+        "x" : 191964.8543000007,
+        "y" : 568534.57970000058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 2531,
+        "MNTN_CODE" : "412801301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개명산",
+        "PAST_SPOT_" : "4128013010016",
+        "MNTN_ID" : "412801301"
+      },
+      "geometry" : {
+        "x" : 191981.8610000005,
+        "y" : 568472.00430000201
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 2532,
+        "MNTN_CODE" : "412801301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개명산",
+        "PAST_SPOT_" : "4128013010017",
+        "MNTN_ID" : "412801301"
+      },
+      "geometry" : {
+        "x" : 191990.64200000092,
+        "y" : 569088.6512000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 2533,
+        "MNTN_CODE" : "412801301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개명산",
+        "PAST_SPOT_" : "4128013010018",
+        "MNTN_ID" : "412801301"
+      },
+      "geometry" : {
+        "x" : 192001.51080000214,
+        "y" : 568668.15640000068
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 2534,
+        "MNTN_CODE" : "412801301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개명산",
+        "PAST_SPOT_" : "4128013010019",
+        "MNTN_ID" : "412801301"
+      },
+      "geometry" : {
+        "x" : 192021.46590000112,
+        "y" : 569939.09720000438
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 2535,
+        "MNTN_CODE" : "412801301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개명산",
+        "PAST_SPOT_" : "4128013010020",
+        "MNTN_ID" : "412801301"
+      },
+      "geometry" : {
+        "x" : 192025.01760000084,
+        "y" : 568357.25109999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 2536,
+        "MNTN_CODE" : "412801301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개명산",
+        "PAST_SPOT_" : "4128013010021",
+        "MNTN_ID" : "412801301"
+      },
+      "geometry" : {
+        "x" : 192223.56379999965,
+        "y" : 568576.28700000048
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 2537,
+        "MNTN_CODE" : "412801301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개명산",
+        "PAST_SPOT_" : "4128013010022",
+        "MNTN_ID" : "412801301"
+      },
+      "geometry" : {
+        "x" : 192277.77869999968,
+        "y" : 569579.72750000097
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 2538,
+        "MNTN_CODE" : "412801301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개명산",
+        "PAST_SPOT_" : "4128013010023",
+        "MNTN_ID" : "412801301"
+      },
+      "geometry" : {
+        "x" : 192297.42550000083,
+        "y" : 569399.59540000185
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 2539,
+        "MNTN_CODE" : "412801301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개명산",
+        "PAST_SPOT_" : "4128013010024",
+        "MNTN_ID" : "412801301"
+      },
+      "geometry" : {
+        "x" : 193127.33080000058,
+        "y" : 569989.8694000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 2540,
+        "MNTN_CODE" : "412801301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개명산",
+        "PAST_SPOT_" : "4128013010025",
+        "MNTN_ID" : "412801301"
+      },
+      "geometry" : {
+        "x" : 193184.3431000011,
+        "y" : 568736.66930000298
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 2541,
+        "MNTN_CODE" : "412801301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "개명산",
+        "PAST_SPOT_" : "4128013010026",
+        "MNTN_ID" : "412801301"
+      },
+      "geometry" : {
+        "x" : 193749.84279999975,
+        "y" : 572148.6389000006
+      }
+    }
+  ]
+}

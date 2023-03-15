@@ -1,0 +1,837 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 19126,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010001",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 239897.75960000418,
+        "y" : 533429.05430000275
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 19127,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010002",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 240706.20960000344,
+        "y" : 532525.31550000049
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 19128,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010003",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 241083.48589999974,
+        "y" : 532575.19690000266
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 19129,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010004",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 241293.26150000002,
+        "y" : 533060.3358000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 19130,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010005",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 241508.57440000121,
+        "y" : 534032.29659999721
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 19131,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010006",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 241518.67179999966,
+        "y" : 532337.74710000306
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 19132,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010007",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 241699.31930000149,
+        "y" : 533270.04800000042
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 19133,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010008",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 242137.58890000079,
+        "y" : 533286.53710000031
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 19134,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010009",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 242330.75060000177,
+        "y" : 530889.75670000352
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 19135,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010010",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 242780.62909999955,
+        "y" : 532496.76300000027
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 19136,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010011",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 244394.85780000221,
+        "y" : 533631.69240000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 19137,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010012",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 242275.07459999993,
+        "y" : 530932.74080000073
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 19138,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "벙커",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010013",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 241985.47890000045,
+        "y" : 531193.54040000029
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 19139,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "벙커",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010014",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 241968.01629999932,
+        "y" : 531201.67730000056
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 19140,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "벙커",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010015",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 241723.36120000016,
+        "y" : 531521.19089999981
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 19141,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010016",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 241663.6276000021,
+        "y" : 531546.89840000309
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 19142,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010017",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 241532.75020000059,
+        "y" : 531552.65300000086
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 19143,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "벙커",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010018",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 241416.42400000058,
+        "y" : 531791.52420000173
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 19144,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "폭",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010019",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 241098.95370000135,
+        "y" : 532519.8116999995
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 19145,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계곡",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010020",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 241304.35630000103,
+        "y" : 532536.91490000114
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 19146,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계곡",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010021",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 241387.61660000123,
+        "y" : 532537.02600000426
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 19147,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010022",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 241185.18560000136,
+        "y" : 532576.61730000377
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 19148,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010023",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 240729.39879999869,
+        "y" : 532579.81699999608
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 19149,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계곡",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010024",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 242669.80290000048,
+        "y" : 532580.26090000197
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 19150,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010025",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 240903.21160000097,
+        "y" : 532640.67510000244
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 19151,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010026",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 242628.63930000272,
+        "y" : 532646.93330000155
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 19152,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010027",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 242713.91170000006,
+        "y" : 532792.41910000145
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 19153,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "폭",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010028",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 241275.01070000418,
+        "y" : 532863.7098999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 19154,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "폭",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010029",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 242317.08270000201,
+        "y" : 533088.83269999921
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 19155,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010030",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 241443.95270000305,
+        "y" : 533133.94690000825
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 19156,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "벙커",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010031",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 240887.03969999962,
+        "y" : 533254.40820000134
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 19157,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "대렴봉 정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010032",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 241698.39149999898,
+        "y" : 533274.7891000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 19158,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010033",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 240498.01280000154,
+        "y" : 533308.6679999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 19159,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "철탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010034",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 240648.69479999971,
+        "y" : 533321.53980000131
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 19160,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010035",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 240583.93659999967,
+        "y" : 533331.30370000191
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 19161,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "서희장군묘",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010036",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 240097.38670000434,
+        "y" : 533395.40990000032
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 19162,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010037",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 239996.51030000113,
+        "y" : 533418.40190000087
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 19163,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "벙커",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010038",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 243650.40170000028,
+        "y" : 533539.54199999943
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 19164,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "벙커",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010039",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 243667.15290000103,
+        "y" : 533553.46970000304
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 19165,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "벙커",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010040",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 243688.9197000023,
+        "y" : 533561.55230000056
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 19166,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010041",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 244125.87510000356,
+        "y" : 533567.01720000431
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 19167,
+        "MNTN_CODE" : "416703601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대렴봉",
+        "PAST_SPOT_" : "4167005010042",
+        "MNTN_ID" : "416700501"
+      },
+      "geometry" : {
+        "x" : 241503.78009999916,
+        "y" : 533646.32370000333
+      }
+    }
+  ]
+}

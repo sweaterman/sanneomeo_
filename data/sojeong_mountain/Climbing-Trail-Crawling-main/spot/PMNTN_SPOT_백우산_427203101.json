@@ -1,0 +1,351 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 36179,
+        "MNTN_CODE" : "427203101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백우산",
+        "PAST_SPOT_" : "4272031010001",
+        "MNTN_ID" : "427203101"
+      },
+      "geometry" : {
+        "x" : 296926.72970000375,
+        "y" : 584845.97059999965
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 36180,
+        "MNTN_CODE" : "427203101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산불감시카메라",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백우산",
+        "PAST_SPOT_" : "22160328000002",
+        "MNTN_ID" : "2216032800"
+      },
+      "geometry" : {
+        "x" : 296676.44900000095,
+        "y" : 583076.95660000294
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 36181,
+        "MNTN_CODE" : "427203101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백우산",
+        "PAST_SPOT_" : "22160328000003",
+        "MNTN_ID" : "2216032800"
+      },
+      "geometry" : {
+        "x" : 296622.91480000038,
+        "y" : 583137.6080000028
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 36182,
+        "MNTN_CODE" : "427203101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "전망바위,전경사진",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백우산",
+        "PAST_SPOT_" : "22160328000004",
+        "MNTN_ID" : "2216032800"
+      },
+      "geometry" : {
+        "x" : 295405.24860000052,
+        "y" : 583065.23080000095
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 36183,
+        "MNTN_CODE" : "427203101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "길이 희미함",
+        "MNTN_NM" : "백우산",
+        "PAST_SPOT_" : "22160328000005",
+        "MNTN_ID" : "2216032800"
+      },
+      "geometry" : {
+        "x" : 294173.34960000031,
+        "y" : 582335.00549999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 36184,
+        "MNTN_CODE" : "427203101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "위험구간",
+        "MNTN_NM" : "백우산",
+        "PAST_SPOT_" : "22160328000006",
+        "MNTN_ID" : "2216032800"
+      },
+      "geometry" : {
+        "x" : 293990.80350000225,
+        "y" : 582746.44440000318
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 36185,
+        "MNTN_CODE" : "427203101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백우산",
+        "PAST_SPOT_" : "22160328000007",
+        "MNTN_ID" : "2216032800"
+      },
+      "geometry" : {
+        "x" : 294182.02280000225,
+        "y" : 583208.2265000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 36186,
+        "MNTN_CODE" : "427203101",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "매봉정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백우산",
+        "PAST_SPOT_" : "22160328000008",
+        "MNTN_ID" : "2216032800"
+      },
+      "geometry" : {
+        "x" : 294162.81359999999,
+        "y" : 583069.1753000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 36187,
+        "MNTN_CODE" : "427203101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백우산",
+        "PAST_SPOT_" : "22160328000009",
+        "MNTN_ID" : "2216032800"
+      },
+      "geometry" : {
+        "x" : 294428.42530000117,
+        "y" : 583331.44810000248
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 36188,
+        "MNTN_CODE" : "427203101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백우산",
+        "PAST_SPOT_" : "22160328000010",
+        "MNTN_ID" : "2216032800"
+      },
+      "geometry" : {
+        "x" : 294649.03739724867,
+        "y" : 582058.10756638274
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 36189,
+        "MNTN_CODE" : "427203101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백우산",
+        "PAST_SPOT_" : "22160328000011",
+        "MNTN_ID" : "2216032800"
+      },
+      "geometry" : {
+        "x" : 294726.0354000004,
+        "y" : 582615.4196000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 36190,
+        "MNTN_CODE" : "427203101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백우산",
+        "PAST_SPOT_" : "22160328000012",
+        "MNTN_ID" : "2216032800"
+      },
+      "geometry" : {
+        "x" : 295020.44790000003,
+        "y" : 583332.93019999936
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 36191,
+        "MNTN_CODE" : "427203101",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상,이정표,삼각점,정상표지석,전경사진",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백우산",
+        "PAST_SPOT_" : "22160328000013",
+        "MNTN_ID" : "2216032800"
+      },
+      "geometry" : {
+        "x" : 295246.91880000103,
+        "y" : 583158.83399999887
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 36192,
+        "MNTN_CODE" : "427203101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "지골 등산로입구",
+        "MNTN_NM" : "백우산",
+        "PAST_SPOT_" : "22160328000014",
+        "MNTN_ID" : "2216032800"
+      },
+      "geometry" : {
+        "x" : 295970.01910000294,
+        "y" : 580212.71700000204
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 36193,
+        "MNTN_CODE" : "427203101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,등산안내도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백우산",
+        "PAST_SPOT_" : "22160328000015",
+        "MNTN_ID" : "2216032800"
+      },
+      "geometry" : {
+        "x" : 296987.28920000233,
+        "y" : 583167.39980000071
+      }
+    }
+  ]
+}

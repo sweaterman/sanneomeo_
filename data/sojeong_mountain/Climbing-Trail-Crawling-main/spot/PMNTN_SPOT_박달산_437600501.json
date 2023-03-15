@@ -1,0 +1,495 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 32708,
+        "MNTN_CODE" : "437600501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "박달낚시터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박달산",
+        "PAST_SPOT_" : "23010805000001",
+        "MNTN_ID" : "2301080500"
+      },
+      "geometry" : {
+        "x" : 285192.9765000008,
+        "y" : 472345.10720000416
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 32709,
+        "MNTN_CODE" : "437600501",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박달산",
+        "PAST_SPOT_" : "23010805000002",
+        "MNTN_ID" : "2301080500"
+      },
+      "geometry" : {
+        "x" : 283660.11650000047,
+        "y" : 471715.20839999802
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 32710,
+        "MNTN_CODE" : "437600501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "방곡교회",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박달산",
+        "PAST_SPOT_" : "23010805000003",
+        "MNTN_ID" : "2301080500"
+      },
+      "geometry" : {
+        "x" : 283108.70000000019,
+        "y" : 473617.09750000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 32711,
+        "MNTN_CODE" : "437600501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박달산",
+        "PAST_SPOT_" : "23010805000004",
+        "MNTN_ID" : "2301080500"
+      },
+      "geometry" : {
+        "x" : 283045.15050000045,
+        "y" : 473818.54330000095
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 32712,
+        "MNTN_CODE" : "437600501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박달산",
+        "PAST_SPOT_" : "23010805000005",
+        "MNTN_ID" : "2301080500"
+      },
+      "geometry" : {
+        "x" : 281094.30140000023,
+        "y" : 471488.8302000016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 32713,
+        "MNTN_CODE" : "437600501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박달산",
+        "PAST_SPOT_" : "23010805000006",
+        "MNTN_ID" : "2301080500"
+      },
+      "geometry" : {
+        "x" : 281109.96189999953,
+        "y" : 471481.0064000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 32714,
+        "MNTN_CODE" : "437600501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박달산",
+        "PAST_SPOT_" : "23010805000007",
+        "MNTN_ID" : "2301080500"
+      },
+      "geometry" : {
+        "x" : 281119.02809999976,
+        "y" : 471472.71979999915
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 32715,
+        "MNTN_CODE" : "437600501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박달산",
+        "PAST_SPOT_" : "23010805000008",
+        "MNTN_ID" : "2301080500"
+      },
+      "geometry" : {
+        "x" : 281129.55160000362,
+        "y" : 471449.94620000198
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 32716,
+        "MNTN_CODE" : "437600501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박달산",
+        "PAST_SPOT_" : "23010805000009",
+        "MNTN_ID" : "2301080500"
+      },
+      "geometry" : {
+        "x" : 281422.41420000233,
+        "y" : 471190.59180000052
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 32717,
+        "MNTN_CODE" : "437600501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박달산",
+        "PAST_SPOT_" : "23010805000010",
+        "MNTN_ID" : "2301080500"
+      },
+      "geometry" : {
+        "x" : 281453.11600000039,
+        "y" : 471179.01440000348
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 32718,
+        "MNTN_CODE" : "437600501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박달산",
+        "PAST_SPOT_" : "23010805000011",
+        "MNTN_ID" : "2301080500"
+      },
+      "geometry" : {
+        "x" : 281450.21990000084,
+        "y" : 471164.65230000205
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 32719,
+        "MNTN_CODE" : "437600501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박달산",
+        "PAST_SPOT_" : "23010805000012",
+        "MNTN_ID" : "2301080500"
+      },
+      "geometry" : {
+        "x" : 281601.12150000036,
+        "y" : 470910.61009999923
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 32720,
+        "MNTN_CODE" : "437600501",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박달산",
+        "PAST_SPOT_" : "23010805000013",
+        "MNTN_ID" : "2301080500"
+      },
+      "geometry" : {
+        "x" : 281595.44040000252,
+        "y" : 470905.84520000406
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 32721,
+        "MNTN_CODE" : "437600501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박달산",
+        "PAST_SPOT_" : "23010805000014",
+        "MNTN_ID" : "2301080500"
+      },
+      "geometry" : {
+        "x" : 282510.82620000094,
+        "y" : 470801.47280000336
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 32722,
+        "MNTN_CODE" : "437600501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박달산",
+        "PAST_SPOT_" : "23010805000015",
+        "MNTN_ID" : "2301080500"
+      },
+      "geometry" : {
+        "x" : 282212.05669999961,
+        "y" : 470724.59850000218
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 32723,
+        "MNTN_CODE" : "437600501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "무심사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박달산",
+        "PAST_SPOT_" : "23010805000016",
+        "MNTN_ID" : "2301080500"
+      },
+      "geometry" : {
+        "x" : 282217.33520000149,
+        "y" : 470429.16010000184
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 32724,
+        "MNTN_CODE" : "437600501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "증자마을",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박달산",
+        "PAST_SPOT_" : "23010805000017",
+        "MNTN_ID" : "2301080500"
+      },
+      "geometry" : {
+        "x" : 281894.76330000348,
+        "y" : 470143.04550000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 32725,
+        "MNTN_CODE" : "437600501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박달산",
+        "PAST_SPOT_" : "23010805000018",
+        "MNTN_ID" : "2301080500"
+      },
+      "geometry" : {
+        "x" : 280496.23819999956,
+        "y" : 471996.43820000254
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 32726,
+        "MNTN_CODE" : "437600501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,전경사진",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박달산",
+        "PAST_SPOT_" : "23010805000019",
+        "MNTN_ID" : "2301080500"
+      },
+      "geometry" : {
+        "x" : 280811.20280000195,
+        "y" : 469274.20729999989
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 32727,
+        "MNTN_CODE" : "437600501",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박달산",
+        "PAST_SPOT_" : "23010805000020",
+        "MNTN_ID" : "2301080500"
+      },
+      "geometry" : {
+        "x" : 282374.48830000404,
+        "y" : 471268.01299999841
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 32728,
+        "MNTN_CODE" : "437600501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "12",
+        "MNTN_NM" : "박달산",
+        "PAST_SPOT_" : "23010805000021",
+        "MNTN_ID" : "2301080500"
+      },
+      "geometry" : {
+        "x" : 282702.48730000388,
+        "y" : 471120.62990000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 32729,
+        "MNTN_CODE" : "437600501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,전경사진",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박달산",
+        "PAST_SPOT_" : "23010805000022",
+        "MNTN_ID" : "2301080500"
+      },
+      "geometry" : {
+        "x" : 283025.93290000129,
+        "y" : 474083.0540000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 32730,
+        "MNTN_CODE" : "437600501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "박달산",
+        "PAST_SPOT_" : "23010805000023",
+        "MNTN_ID" : "2301080500"
+      },
+      "geometry" : {
+        "x" : 285271.42100000009,
+        "y" : 472603.72179999948
+      }
+    }
+  ]
+}

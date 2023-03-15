@@ -1,0 +1,873 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 37426,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000001",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 252223.98600000236,
+        "y" : 443897.87950000167
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 37427,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000002",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 252325.02480000257,
+        "y" : 443893.4130000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 37428,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000003",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 252307.12530000228,
+        "y" : 443912.69730000198
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 37429,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000004",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 252323.41650000308,
+        "y" : 443913.71470000036
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 37430,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000005",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 252238.8144000005,
+        "y" : 444158.46470000036
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 37431,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000006",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 252129.84439999983,
+        "y" : 444179.35759999976
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 37432,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000007",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 251655.32700000051,
+        "y" : 443259.36160000041
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 37433,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000008",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 252289.76050000079,
+        "y" : 443637.86590000242
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 37434,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000009",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 252287.1512000002,
+        "y" : 443634.0820000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 37435,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000010",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 252169.89740000106,
+        "y" : 443589.32420000434
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 37436,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000011",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 252089.34289999958,
+        "y" : 443536.02570000105
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 37437,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000012",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 252089.04500000086,
+        "y" : 443536.32230000198
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 37438,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000013",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 252090.41840000078,
+        "y" : 443534.24589999951
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 37439,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000014",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 251989.63110000174,
+        "y" : 443529.73450000212
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 37440,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000015",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 252137.54350000247,
+        "y" : 443711.25300000049
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 37441,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000016",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 252295.70930000022,
+        "y" : 443905.43930000253
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 37442,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000017",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 252213.4988000039,
+        "y" : 443907.98720000125
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 37443,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000018",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 252137.26250000112,
+        "y" : 443870.77630000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 37444,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000019",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 252025.79800000042,
+        "y" : 443888.07750000432
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 37445,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000020",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 251847.94700000156,
+        "y" : 443762.61730000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 37446,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000021",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 251375.41250000149,
+        "y" : 443483.73720000125
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 37447,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "백족산소나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000022",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 251946.54830000084,
+        "y" : 444061.31720000133
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 37448,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000023",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 251375.89670000318,
+        "y" : 443468.83269999921
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 37449,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "절",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000024",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 251566.44180000387,
+        "y" : 443772.39460000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 37450,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000025",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 251613.72350000124,
+        "y" : 443234.61900000274
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 37451,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000026",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 251772.31450000219,
+        "y" : 443538.61140000075
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 37452,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000027",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 251796.5279000001,
+        "y" : 443877.58170000277
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 37453,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000028",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 251833.61030000262,
+        "y" : 443734.27720000222
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 37454,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000029",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 251894.12170000188,
+        "y" : 443445.70440000109
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 37455,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000030",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 251960.6072000023,
+        "y" : 443505.47980000079
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 37456,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000031",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 252011.37110000104,
+        "y" : 444213.6557
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 37457,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000032",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 252049.98209999874,
+        "y" : 443039.76449999958
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 37458,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000033",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 252085.74760000128,
+        "y" : 443898.37190000154
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 37459,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000034",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 252140.56020000111,
+        "y" : 443712.09750000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 37460,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000035",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 252175.67520000227,
+        "y" : 443953.27950000204
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 37461,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000036",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 252217.76850000024,
+        "y" : 443917.12910000049
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 37462,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000037",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 252220.70100000035,
+        "y" : 444161.56299999915
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 37463,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000038",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 252224.15639999975,
+        "y" : 443878.64040000178
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 37464,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "백족산정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000039",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 252231.24710000306,
+        "y" : 444157.98359999806
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 37465,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000040",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 252276.1483000014,
+        "y" : 442812.61630000174
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 37466,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "고려시대삼층석탑,백족사,석조여래좌상,샘물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000041",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 252280.00850000139,
+        "y" : 444016.14559999853
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 37467,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000042",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 252315.79900000058,
+        "y" : 443930.64020000398
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 37468,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000043",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 252318.08330000192,
+        "y" : 443649.93640000373
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 37469,
+        "MNTN_CODE" : "431101901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백족산",
+        "PAST_SPOT_" : "23100621000044",
+        "MNTN_ID" : "2310062100"
+      },
+      "geometry" : {
+        "x" : 252318.41950000264,
+        "y" : 443935.53460000269
+      }
+    }
+  ]
+}

@@ -1,0 +1,837 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 38457,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "의자2개",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000001",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 245633.26920000091,
+        "y" : 581964.98489999957
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 38458,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "북한강정경",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000002",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 245681.52820000239,
+        "y" : 582247.73279999942
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 38459,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : "이정표없음",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000003",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 246298.74400000274,
+        "y" : 582759.49560000189
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 38460,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "7호이정표",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000004",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 246324.80190000031,
+        "y" : 582823.14450000413
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 38461,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : "이정표없음",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000005",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 246310.03160000034,
+        "y" : 582873.29960000142
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 38462,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "6호이정표",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000006",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 246708.56639999989,
+        "y" : 583521.20820000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 38463,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "5호이정표",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000007",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 247062.90200000349,
+        "y" : 583954.91170000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 38464,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000008",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 247297.27720000129,
+        "y" : 584438.71270000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 38465,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "로프15m",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000009",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 247323.39580000006,
+        "y" : 584460.39660000242
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 38466,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "로프18m",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000010",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 247350.48890000209,
+        "y" : 584557.48810000159
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 38467,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000011",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 247377.94369999878,
+        "y" : 584605.33139999956
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 38468,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "삼거리",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000012",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 247460.13700000104,
+        "y" : 584755.35420000181
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 38469,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "로프50m",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000013",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 247531.26130000036,
+        "y" : 584706.36960000172
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 38470,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "이정표설치요",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000014",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 247789.38230000064,
+        "y" : 584222.39570000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 38471,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "정망대",
+        "ETC_MATTER" : "정망대",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000015",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 245942.15960000083,
+        "y" : 581750.71920000203
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 38472,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "암벽구간",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000016",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 245685.5110000018,
+        "y" : 582348.67490000278
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 38473,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "정망대",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000017",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 245658.29640000034,
+        "y" : 582384.60980000347
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 38474,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "이정표설치요",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000018",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 245675.47320000082,
+        "y" : 582811.41750000231
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 38475,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대",
+        "ETC_MATTER" : "2약수터",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000019",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 245236.69400000013,
+        "y" : 582379.33280000091
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 38476,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대",
+        "ETC_MATTER" : "1약수터",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000020",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 245275.05690000206,
+        "y" : 582151.58550000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 38477,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "로프설치요40m",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000021",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 246316.31200000178,
+        "y" : 583827.73790000379
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 38478,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "산불감시카메라",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000022",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 245706.20240000077,
+        "y" : 583366.80420000106
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 38479,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "하산로",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000023",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 245093.71650000382,
+        "y" : 582816.13949999958
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 38480,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "이정표설치요",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000024",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 245188.74650000036,
+        "y" : 582607.20540000126
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 38481,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000025",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 245550.77190000098,
+        "y" : 581713.77170000039
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 38482,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000026",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 245626.22720000334,
+        "y" : 581434.55350000225
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 38483,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "보납산정상",
+        "ETC_MATTER" : "보납산정상",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000027",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 245632.84680000041,
+        "y" : 582198.74579999968
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 38484,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000028",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 245680.86300000176,
+        "y" : 582275.64530000091
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 38485,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : "종합표지판",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000029",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 245748.91900000162,
+        "y" : 581799.28600000031
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 38486,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : "종합표지판",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000030",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 245793.22440000344,
+        "y" : 581812.58840000071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 38487,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "보광사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000031",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 245833.43750000279,
+        "y" : 582127.66500000097
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 38488,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물,종점",
+        "ETC_MATTER" : "운동기구",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000032",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 245868.34860000201,
+        "y" : 582382.63470000215
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 38489,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "삼거리",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000033",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 245916.04680000152,
+        "y" : 582217.38070000336
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 38490,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "강변산책로",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000034",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 245917.90070000291,
+        "y" : 581951.9439000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 38491,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "마루산정상",
+        "ETC_MATTER" : "마루산정상",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000035",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 245954.27790000197,
+        "y" : 583656.99219999835
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 38492,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : "분기점삼거리",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000036",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 245966.45200000145,
+        "y" : 582465.20930000022
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 38493,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "삼거리",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000037",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 246056.95090000145,
+        "y" : 581934.3853999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 38494,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : "이정표없음",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000038",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 246771.93970000092,
+        "y" : 583742.67120000347
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 38495,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : "임도접점",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000039",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 247828.15130000282,
+        "y" : 584647.99310000055
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 38496,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : "임도접점",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000040",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 247858.48860000167,
+        "y" : 584664.21989999898
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 38497,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,이정표",
+        "ETC_MATTER" : "이곡다리",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000041",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 248007.5633000033,
+        "y" : 585569.47499999963
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 38498,
+        "MNTN_CODE" : "418201801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,이정표",
+        "ETC_MATTER" : "주을길입구",
+        "MNTN_NM" : "보납산",
+        "PAST_SPOT_" : "21010116000042",
+        "MNTN_ID" : "2101011600"
+      },
+      "geometry" : {
+        "x" : 248394.86199999973,
+        "y" : 583287.66790000163
+      }
+    }
+  ]
+}

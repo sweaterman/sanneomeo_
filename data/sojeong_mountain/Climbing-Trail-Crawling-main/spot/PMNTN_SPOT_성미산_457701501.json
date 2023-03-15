@@ -1,0 +1,477 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 52144,
+        "MNTN_CODE" : "457701501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사선교",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성미산",
+        "PAST_SPOT_" : "25100201000001",
+        "MNTN_ID" : "2510020100"
+      },
+      "geometry" : {
+        "x" : 224837.04810000118,
+        "y" : 341440.75139999948
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 52145,
+        "MNTN_CODE" : "457701501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단시점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성미산",
+        "PAST_SPOT_" : "25100201000002",
+        "MNTN_ID" : "2510020100"
+      },
+      "geometry" : {
+        "x" : 224841.10860000178,
+        "y" : 341407.18660000153
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 52146,
+        "MNTN_CODE" : "457701501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성미산",
+        "PAST_SPOT_" : "25100201000003",
+        "MNTN_ID" : "2510020100"
+      },
+      "geometry" : {
+        "x" : 224831.9569000015,
+        "y" : 341386.02960000187
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 52147,
+        "MNTN_CODE" : "457701501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사거리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성미산",
+        "PAST_SPOT_" : "25100201000004",
+        "MNTN_ID" : "2510020100"
+      },
+      "geometry" : {
+        "x" : 224750.88280000165,
+        "y" : 341359.68560000323
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 52148,
+        "MNTN_CODE" : "457701501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "운서정",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성미산",
+        "PAST_SPOT_" : "25100201000005",
+        "MNTN_ID" : "2510020100"
+      },
+      "geometry" : {
+        "x" : 225042.93880000059,
+        "y" : 341506.42200000212
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 52149,
+        "MNTN_CODE" : "457701501",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "박달나무군락",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성미산",
+        "PAST_SPOT_" : "25100201000006",
+        "MNTN_ID" : "2510020100"
+      },
+      "geometry" : {
+        "x" : 225065.11550000217,
+        "y" : 341520.17329999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 52150,
+        "MNTN_CODE" : "457701501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성미산",
+        "PAST_SPOT_" : "25100201000007",
+        "MNTN_ID" : "2510020100"
+      },
+      "geometry" : {
+        "x" : 225228.18570000026,
+        "y" : 341638.68600000255
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 52151,
+        "MNTN_CODE" : "457701501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산개나리군락",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성미산",
+        "PAST_SPOT_" : "25100201000008",
+        "MNTN_ID" : "2510020100"
+      },
+      "geometry" : {
+        "x" : 225238.34959999938,
+        "y" : 341641.46710000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 52152,
+        "MNTN_CODE" : "457701501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성미산",
+        "PAST_SPOT_" : "25100201000009",
+        "MNTN_ID" : "2510020100"
+      },
+      "geometry" : {
+        "x" : 225413.4606999997,
+        "y" : 341824.23560000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 52153,
+        "MNTN_CODE" : "457701501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "축사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성미산",
+        "PAST_SPOT_" : "25100201000010",
+        "MNTN_ID" : "2510020100"
+      },
+      "geometry" : {
+        "x" : 225586.16490000021,
+        "y" : 342142.95219999924
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 52154,
+        "MNTN_CODE" : "457701501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "보호수",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성미산",
+        "PAST_SPOT_" : "25100201000011",
+        "MNTN_ID" : "2510020100"
+      },
+      "geometry" : {
+        "x" : 225824.58570000343,
+        "y" : 342923.49180000462
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 52155,
+        "MNTN_CODE" : "457701501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "성미산성",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성미산",
+        "PAST_SPOT_" : "25100201000012",
+        "MNTN_ID" : "2510020100"
+      },
+      "geometry" : {
+        "x" : 225713.05820000172,
+        "y" : 342934.04510000162
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 52156,
+        "MNTN_CODE" : "457701501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성미산",
+        "PAST_SPOT_" : "25100201000013",
+        "MNTN_ID" : "2510020100"
+      },
+      "geometry" : {
+        "x" : 225742.55590000097,
+        "y" : 343140.815200001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 52157,
+        "MNTN_CODE" : "457701501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성미산",
+        "PAST_SPOT_" : "25100201000014",
+        "MNTN_ID" : "2510020100"
+      },
+      "geometry" : {
+        "x" : 225586.45750000235,
+        "y" : 343431.69400000013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 52158,
+        "MNTN_CODE" : "457701501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성미산",
+        "PAST_SPOT_" : "25100201000015",
+        "MNTN_ID" : "2510020100"
+      },
+      "geometry" : {
+        "x" : 225581.89630000107,
+        "y" : 343451.5818000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 52159,
+        "MNTN_CODE" : "457701501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "수월사입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성미산",
+        "PAST_SPOT_" : "25100201000016",
+        "MNTN_ID" : "2510020100"
+      },
+      "geometry" : {
+        "x" : 225840.4345000023,
+        "y" : 342859.381500002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 52160,
+        "MNTN_CODE" : "457701501",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "당산나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성미산",
+        "PAST_SPOT_" : "25100201000017",
+        "MNTN_ID" : "2510020100"
+      },
+      "geometry" : {
+        "x" : 225827.13870000094,
+        "y" : 342922.3879000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 52161,
+        "MNTN_CODE" : "457701501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,사선대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성미산",
+        "PAST_SPOT_" : "25100201000018",
+        "MNTN_ID" : "2510020100"
+      },
+      "geometry" : {
+        "x" : 224802.69700000249,
+        "y" : 341528.7583000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 52162,
+        "MNTN_CODE" : "457701501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,정자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성미산",
+        "PAST_SPOT_" : "25100201000019",
+        "MNTN_ID" : "2510020100"
+      },
+      "geometry" : {
+        "x" : 225320.30260000192,
+        "y" : 342294.86590000428
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 52163,
+        "MNTN_CODE" : "457701501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,계단시점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성미산",
+        "PAST_SPOT_" : "25100201000020",
+        "MNTN_ID" : "2510020100"
+      },
+      "geometry" : {
+        "x" : 225576.6771000009,
+        "y" : 343467.0177000016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 52164,
+        "MNTN_CODE" : "457701501",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "성미산정상,묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성미산",
+        "PAST_SPOT_" : "25100201000021",
+        "MNTN_ID" : "2510020100"
+      },
+      "geometry" : {
+        "x" : 225741.40330000129,
+        "y" : 343094.41469999962
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 52165,
+        "MNTN_CODE" : "457701501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "성미산",
+        "PAST_SPOT_" : "25100201000022",
+        "MNTN_ID" : "2510020100"
+      },
+      "geometry" : {
+        "x" : 225588.87066439819,
+        "y" : 342128.34106831998
+      }
+    }
+  ]
+}

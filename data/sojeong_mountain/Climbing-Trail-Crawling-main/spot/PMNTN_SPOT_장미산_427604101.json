@@ -1,0 +1,405 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 76875,
+        "MNTN_CODE" : "427604101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장미산",
+        "PAST_SPOT_" : "22150431000001",
+        "MNTN_ID" : "2215043100"
+      },
+      "geometry" : {
+        "x" : 320487.14900000207,
+        "y" : 543543.70260000043
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 76876,
+        "MNTN_CODE" : "427604101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장미산",
+        "PAST_SPOT_" : "22150431000002",
+        "MNTN_ID" : "2215043100"
+      },
+      "geometry" : {
+        "x" : 320307.43170000147,
+        "y" : 542737.46420000121
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 76877,
+        "MNTN_CODE" : "427604101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "이정표설치요망",
+        "MNTN_NM" : "장미산",
+        "PAST_SPOT_" : "22150431000003",
+        "MNTN_ID" : "2215043100"
+      },
+      "geometry" : {
+        "x" : 320684.34440000542,
+        "y" : 543489.0922000017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 76878,
+        "MNTN_CODE" : "427604101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "민가",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장미산",
+        "PAST_SPOT_" : "22150431000004",
+        "MNTN_ID" : "2215043100"
+      },
+      "geometry" : {
+        "x" : 320755.16850000247,
+        "y" : 543543.2405999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 76879,
+        "MNTN_CODE" : "427604101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "창고",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장미산",
+        "PAST_SPOT_" : "22150431000005",
+        "MNTN_ID" : "2215043100"
+      },
+      "geometry" : {
+        "x" : 322071.71950000245,
+        "y" : 544116.14160000347
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 76880,
+        "MNTN_CODE" : "427604101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "펜션 , 산소",
+        "ETC_MATTER" : "이정표설치요망",
+        "MNTN_NM" : "장미산",
+        "PAST_SPOT_" : "22150431000006",
+        "MNTN_ID" : "2215043100"
+      },
+      "geometry" : {
+        "x" : 321471.53750000242,
+        "y" : 543826.54729999974
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 76881,
+        "MNTN_CODE" : "427604101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장미산",
+        "PAST_SPOT_" : "22150431000007",
+        "MNTN_ID" : "2215043100"
+      },
+      "geometry" : {
+        "x" : 320155.9803000018,
+        "y" : 544351.57940000109
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 76882,
+        "MNTN_CODE" : "427604101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "창수동사거리",
+        "ETC_MATTER" : "이정표설치,정비요망",
+        "MNTN_NM" : "장미산",
+        "PAST_SPOT_" : "22150431000008",
+        "MNTN_ID" : "2215043100"
+      },
+      "geometry" : {
+        "x" : 319854.59150000382,
+        "y" : 543295.35960000195
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 76883,
+        "MNTN_CODE" : "427604101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장미산",
+        "PAST_SPOT_" : "22150431000009",
+        "MNTN_ID" : "2215043100"
+      },
+      "geometry" : {
+        "x" : 317235.38070000336,
+        "y" : 545717.52690000087
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 76884,
+        "MNTN_CODE" : "427604101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장미산",
+        "PAST_SPOT_" : "22150431000010",
+        "MNTN_ID" : "2215043100"
+      },
+      "geometry" : {
+        "x" : 319775.39840000588,
+        "y" : 544281.41499999911
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 76885,
+        "MNTN_CODE" : "427604101",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "덕수산정상",
+        "ETC_MATTER" : "이정표설치,정비요망",
+        "MNTN_NM" : "장미산",
+        "PAST_SPOT_" : "22150431000011",
+        "MNTN_ID" : "2215043100"
+      },
+      "geometry" : {
+        "x" : 319786.10570000485,
+        "y" : 544286.36309999786
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 76886,
+        "MNTN_CODE" : "427604101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장미산",
+        "PAST_SPOT_" : "22150431000012",
+        "MNTN_ID" : "2215043100"
+      },
+      "geometry" : {
+        "x" : 320189.53090000153,
+        "y" : 544343.35940000042
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 76887,
+        "MNTN_CODE" : "427604101",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "장미산정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장미산",
+        "PAST_SPOT_" : "22150431000013",
+        "MNTN_ID" : "2215043100"
+      },
+      "geometry" : {
+        "x" : 320359.65020000283,
+        "y" : 542721.29910000227
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 76888,
+        "MNTN_CODE" : "427604101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장미산",
+        "PAST_SPOT_" : "22150431000014",
+        "MNTN_ID" : "2215043100"
+      },
+      "geometry" : {
+        "x" : 320720.76450000424,
+        "y" : 543554.93230000138
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 76889,
+        "MNTN_CODE" : "427604101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "장미 사거리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장미산",
+        "PAST_SPOT_" : "22150431000015",
+        "MNTN_ID" : "2215043100"
+      },
+      "geometry" : {
+        "x" : 321188.66330000293,
+        "y" : 542995.80199999921
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 76890,
+        "MNTN_CODE" : "427604101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장미산",
+        "PAST_SPOT_" : "22150431000016",
+        "MNTN_ID" : "2215043100"
+      },
+      "geometry" : {
+        "x" : 321499.36430000328,
+        "y" : 543700.69050000049
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 76891,
+        "MNTN_CODE" : "427604101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장미산",
+        "PAST_SPOT_" : "22150431000017",
+        "MNTN_ID" : "2215043100"
+      },
+      "geometry" : {
+        "x" : 322381.37220000289,
+        "y" : 543765.52590000257
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 76892,
+        "MNTN_CODE" : "427604101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,봉황교,마을회관",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장미산",
+        "PAST_SPOT_" : "22150431000018",
+        "MNTN_ID" : "2215043100"
+      },
+      "geometry" : {
+        "x" : 322865.71710000373,
+        "y" : 543732.6342999991
+      }
+    }
+  ]
+}

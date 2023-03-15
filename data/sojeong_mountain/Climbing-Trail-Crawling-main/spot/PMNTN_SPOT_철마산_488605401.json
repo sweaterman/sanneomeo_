@@ -1,0 +1,855 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 84166,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "노은마을입구(이정표)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010001",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 276553.00961944461,
+        "y" : 325041.83125467785
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 84167,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "노은1교(안내판)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010002",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 276594.26554435678,
+        "y" : 324951.54861960933
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 84168,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노은마을회관",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010003",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 276783.91219617706,
+        "y" : 324774.73035447113
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 84169,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "느티나무(보호수,벤치2)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010004",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 277007.69949047081,
+        "y" : 324795.17180454172
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 84170,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "갈림길(이정표)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010005",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 277071.2717591282,
+        "y" : 324849.82550769858
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 84171,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "(개인공원)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010006",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 277609.81426950544,
+        "y" : 325559.28118046187
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 84172,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "갈림길(향양,거창예동 임도,이정표)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010007",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 278106.02526616678,
+        "y" : 325768.76777781732
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 84173,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "등산초입(이정표)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010008",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 277923.64407967962,
+        "y" : 325805.64414437301
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 84174,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010009",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 278217.72304069251,
+        "y" : 326042.01500131935
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 84175,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "여시바위(이정표)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010010",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 278545.68940710369,
+        "y" : 326410.61637544073
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 84176,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010011",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 278680.24919707328,
+        "y" : 326612.9204639215
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 84177,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010012",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 279161.167318983,
+        "y" : 326904.69177985005
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 84178,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "갈림길(이정표)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010013",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 279199.57125248574,
+        "y" : 326962.52981837466
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 84179,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010014",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 279228.75171644241,
+        "y" : 327023.11363337189
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 84180,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "문바위(박도사 바위)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010015",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 279275.58451315947,
+        "y" : 327158.22365626507
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 84181,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "철마산정상(통시바위)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010016",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 279334.99106019642,
+        "y" : 327247.76914103329
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 84182,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010017",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 279413.95904451236,
+        "y" : 327412.29554923251
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 84183,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "갈림길(갈전산,고촌마을,이정표)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010018",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 279383.26493125781,
+        "y" : 327550.67078706063
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 84184,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010019",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 278663.40964744333,
+        "y" : 327551.64012162574
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 84185,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010020",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 278089.20352024492,
+        "y" : 327675.32309993915
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 84186,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "고촌마을회관(안내판)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010021",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 277844.89099270944,
+        "y" : 327833.61214588396
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 84187,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "고촌마을입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010022",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 277677.95308452193,
+        "y" : 327936.04969386011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 84188,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "갈림길(이정표)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010023",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 278060.1913388893,
+        "y" : 326609.41031235084
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 84189,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "원기마을회관",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010024",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 277374.64101367816,
+        "y" : 327091.34248680063
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 84190,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "시멘트포장 끝점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010025",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 277648.25964171253,
+        "y" : 326922.15252385102
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 84191,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010026",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 278079.91550275963,
+        "y" : 326646.48815825768
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 84192,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "임도접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010027",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 279428.71019893978,
+        "y" : 326631.94071693905
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 84193,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010028",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 279216.11333708093,
+        "y" : 326833.90619426407
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 84194,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "흰머리재",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010029",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 279576.57349304948,
+        "y" : 326774.80667482503
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 84195,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "농로접점(초입)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010030",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 279581.37235481478,
+        "y" : 326843.17725356668
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 84196,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010031",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 279328.64291913249,
+        "y" : 326889.73249471933
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 84197,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "샘",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010032",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 279180.00802025851,
+        "y" : 327092.41944768652
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 84198,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "갈림길(이정표,차단기)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010033",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 278339.56582578458,
+        "y" : 327207.6642876938
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 84199,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "차단기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010034",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 278140.095382981,
+        "y" : 328301.36939109303
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 84200,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "향양저수지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010035",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 277849.09068248514,
+        "y" : 328235.02338921651
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 84201,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010036",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 278096.6256920211,
+        "y" : 327459.8864113614
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 84202,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도 차단기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010037",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 278218.23353263363,
+        "y" : 327420.88335163519
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 84203,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "신촌마을(거창군)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010038",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 280193.21215541754,
+        "y" : 326834.19124065712
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 84204,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "예동마을(역골)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010039",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 280672.24555229396,
+        "y" : 326831.29300797917
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 84205,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "원기마을 입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010040",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 277213.99231782183,
+        "y" : 327245.40686227567
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 84206,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "향양마을입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010041",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 277381.64682013635,
+        "y" : 327591.36750465259
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 84207,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010042",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 276995.98262083344,
+        "y" : 324930.22014333308
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 84208,
+        "MNTN_CODE" : "488605401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "철마산",
+        "PAST_SPOT_" : "4886054010043",
+        "MNTN_ID" : "488605401"
+      },
+      "geometry" : {
+        "x" : 276730.02428449225,
+        "y" : 324882.47612430342
+      }
+    }
+  ]
+}

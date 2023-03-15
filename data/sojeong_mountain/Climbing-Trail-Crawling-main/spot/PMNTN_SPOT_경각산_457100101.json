@@ -1,0 +1,693 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 3990,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "II라인전경사진",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000001",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 214734.78400000185,
+        "y" : 347844.80190000311
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 3991,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : ":45M",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000002",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 214652.26360000111,
+        "y" : 347897.96380000189
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 3992,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "정각사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000003",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 214073.03820000309,
+        "y" : 348089.13220000081
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 3993,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000004",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 213790.83020000067,
+        "y" : 347535.20080000162
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 3994,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산불감시탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000005",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 214721.03270000219,
+        "y" : 347604.30640000105
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 3995,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "시내,모악산조망",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000006",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 214695.50989999995,
+        "y" : 347885.56200000271
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 3996,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "묘지갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000007",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 213403.49650000036,
+        "y" : 347206.94310000166
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 3997,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000008",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 213434.2089000009,
+        "y" : 347228.52380000427
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 3998,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000009",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 213798.58950000163,
+        "y" : 347529.74890000187
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 3999,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000010",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 214370.14610000327,
+        "y" : 347418.94560000114
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 4000,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산불초소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000011",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 214721.60780000128,
+        "y" : 347602.61520000175
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 4001,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "느티나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000012",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 215156.1054000007,
+        "y" : 346623.96340000071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 4002,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암석지대",
+        "ETC_MATTER" : "자연암반",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000013",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 214790.6015999997,
+        "y" : 347298.70659999736
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 4003,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000014",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 215092.38100000285,
+        "y" : 348161.34569999948
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 4004,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000015",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 216065.62170000002,
+        "y" : 348991.76450000145
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 4005,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "삼나무숲",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000016",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 216171.11490000039,
+        "y" : 348970.48350000195
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 4006,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "삼나무숲",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000017",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 216465.16120000277,
+        "y" : 348763.9616000019
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 4007,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "고덕산 가는길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000018",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 216844.94600000046,
+        "y" : 348732.32570000179
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 4008,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "월성경로당",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000019",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 216393.95520000067,
+        "y" : 346848.47389999963
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 4009,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "미타사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000020",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 216459.37370000128,
+        "y" : 347397.289900003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 4010,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "능선입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000021",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 218003.10210000165,
+        "y" : 347583.15410000272
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 4011,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000022",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 213251.74930000119,
+        "y" : 347107.94160000049
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 4012,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,정각사버스정류장",
+        "ETC_MATTER" : "종점",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000023",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 213850.99630000256,
+        "y" : 348273.08459999971
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 4013,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,마을이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000024",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 214514.89690000098,
+        "y" : 349650.73420000076
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 4014,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼거리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000025",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 214656.48940000124,
+        "y" : 347557.40120000206
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 4015,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "II+III 라인접점",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000026",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 214743.9355999995,
+        "y" : 347827.80350000225
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 4016,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경각산,삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000027",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 214757.74110000394,
+        "y" : 347661.41330000386
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 4017,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000028",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 215087.71559999976,
+        "y" : 348165.36850000173
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 4018,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,정자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000029",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 215178.80229999963,
+        "y" : 346430.23439999856
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 4019,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "효간치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000030",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 215537.04630000237,
+        "y" : 348527.01280000433
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 4020,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000031",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 216437.06219999958,
+        "y" : 346691.98300000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 4021,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "옥녀봉정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000032",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 216865.33629999962,
+        "y" : 348027.25950000063
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 4022,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "옥녀봉 갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000033",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 217006.86720000301,
+        "y" : 348166.36070000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 4023,
+        "MNTN_CODE" : "457100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쑥재",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "경각산",
+        "PAST_SPOT_" : "25080301000034",
+        "MNTN_ID" : "2508030100"
+      },
+      "geometry" : {
+        "x" : 218287.62840000354,
+        "y" : 347527.11410000362
+      }
+    }
+  ]
+}

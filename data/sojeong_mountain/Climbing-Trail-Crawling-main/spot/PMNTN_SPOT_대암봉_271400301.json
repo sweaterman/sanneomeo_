@@ -1,0 +1,837 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 19881,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "옥천",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010001",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 351494.21090000123,
+        "y" : 370996.95050000213
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 19882,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "고사목",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010002",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 351319.10780000035,
+        "y" : 369897.10810000077
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 19883,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "정려각",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010003",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 351024.80169999972,
+        "y" : 369113.41020000167
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 19884,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산불초소(가동지)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010004",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 351399.51050000172,
+        "y" : 368532.93850000016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 19885,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "저수지 옆 등산로 입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010005",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 351643.56500000134,
+        "y" : 368720.54849999957
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 19886,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010006",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 352000.07210000046,
+        "y" : 369147.01109999977
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 19887,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010007",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 352000.44830000028,
+        "y" : 369373.24390000291
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 19888,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010008",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 351988.62679999974,
+        "y" : 369593.53509999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 19889,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010009",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 352033.22030000202,
+        "y" : 369647.72039999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 19890,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010010",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 352451.20889999904,
+        "y" : 370184.53640000336
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 19891,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010011",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 352457.2547000004,
+        "y" : 370313.6930000037
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 19892,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장,헬기장,대암봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010012",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 352415.59470000211,
+        "y" : 370442.96429999918
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 19893,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상(요령봉)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010013",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 352773.65810000058,
+        "y" : 370404.41000000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 19894,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암벽",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010014",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 352917.90170000028,
+        "y" : 370432.08950000256
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 19895,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010015",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 352945.17090000119,
+        "y" : 370429.0270000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 19896,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "옥곡재",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010016",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 353307.25240000058,
+        "y" : 370320.28750000149
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 19897,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010017",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 353138.41079999972,
+        "y" : 370177.99940000102
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 19898,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,이정표,갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010018",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 351807.68680000212,
+        "y" : 368258.80660000257
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 19899,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "산불훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010019",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 351604.50030000135,
+        "y" : 368405.10180000216
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 19900,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "과수원입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010020",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 351798.83650000114,
+        "y" : 369099.59960000031
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 19901,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "물웅덩이",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010021",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 351979.82210000232,
+        "y" : 368516.89670000039
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 19902,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010022",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 351103.41989959404,
+        "y" : 368378.96938369982
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 19903,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010023",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 351135.38790000044,
+        "y" : 368726.32900000177
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 19904,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010024",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 351143.80240000132,
+        "y" : 368669.54020000063
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 19905,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010025",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 351163.84340000059,
+        "y" : 368747.92830000259
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 19906,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010026",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 351167.21609999985,
+        "y" : 368450.56609999947
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 19907,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010027",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 351204.27480000071,
+        "y" : 368400.72699999809
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 19908,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010028",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 351274.48280000128,
+        "y" : 369583.49320000224
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 19909,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010029",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 351283.95729598869,
+        "y" : 368355.12170548365
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 19910,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010030",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 351399.00829999987,
+        "y" : 369238.43980000168
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 19911,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010031",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 351486.08139999956,
+        "y" : 371011.56750000268
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 19912,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010032",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 351648.1221000012,
+        "y" : 368451.59190000221
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 19913,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010033",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 351801.32380000129,
+        "y" : 368240.39950000122
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 19914,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010034",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 351848.39719999861,
+        "y" : 368764.05420000106
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 19915,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010035",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 351873.68379999977,
+        "y" : 368800.33010000177
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 19916,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010036",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 351974.88910000119,
+        "y" : 369062.66090000048
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 19917,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010037",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 352048.43960000016,
+        "y" : 369224.34560000151
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 19918,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010038",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 352055.47070000228,
+        "y" : 370599.85850000009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 19919,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010039",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 352215.96510000061,
+        "y" : 368982.74220000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 19920,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010040",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 352230.48200000077,
+        "y" : 369806.99180000275
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 19921,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010041",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 352436.43000000063,
+        "y" : 370410.61040000245
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 96062,
+        "MNTN_CODE" : "271400301",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물(운동기구등)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대암봉",
+        "PAST_SPOT_" : "2714003010042",
+        "MNTN_ID" : "271400301"
+      },
+      "geometry" : {
+        "x" : 351992.99899999879,
+        "y" : 369609.4930000006
+      }
+    }
+  ]
+}

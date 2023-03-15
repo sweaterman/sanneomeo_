@@ -1,0 +1,2313 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 46736,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "4711307010001",
+        "MNTN_ID" : "471130701"
+      },
+      "geometry" : {
+        "x" : 396633.94450005889,
+        "y" : 397550.25420000404
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 46737,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "4711307010002",
+        "MNTN_ID" : "471130701"
+      },
+      "geometry" : {
+        "x" : 400551.06796064507,
+        "y" : 396577.05793391354
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 46738,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000003",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401750.10900006909,
+        "y" : 396497.56430000439
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 46739,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000004",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401683.02990007121,
+        "y" : 396519.68110000528
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 46740,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "징금다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000005",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401401.75560006965,
+        "y" : 396647.29870000295
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 46741,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000006",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401261.19330006931,
+        "y" : 396740.6732000038
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 46742,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000007",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401260.11620006617,
+        "y" : 396738.94940000586
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 46743,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000008",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401258.93210006785,
+        "y" : 396752.43660000712
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 46744,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단시점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000009",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401250.44790006801,
+        "y" : 396775.9166000057
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 46745,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000010",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401218.47550006676,
+        "y" : 396768.46240000799
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 46746,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000011",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401166.39980006777,
+        "y" : 396715.24960000627
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 46747,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000012",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401086.95150006562,
+        "y" : 396726.30350000598
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 46748,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "무제등",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000013",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401078.77910006884,
+        "y" : 396728.02550000325
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 46749,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망권",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000014",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401079.3161000656,
+        "y" : 396726.60540000536
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 46750,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000015",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400982.15100006666,
+        "y" : 396727.53610000387
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 46751,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000016",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400852.41800006572,
+        "y" : 396746.53120000288
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 46752,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망권",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000017",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400679.90710006561,
+        "y" : 396587.6930000037
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 46753,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000018",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400591.40510006435,
+        "y" : 396536.41310000606
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 46754,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000019",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400551.58810006548,
+        "y" : 396653.76440000348
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 46755,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000020",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400549.05290006474,
+        "y" : 396922.52800000645
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 46756,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000021",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400561.28760006744,
+        "y" : 396982.40740000643
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 46757,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000022",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400520.67760006618,
+        "y" : 397089.65760000609
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 46758,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000023",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400486.58260006737,
+        "y" : 397135.91500000656
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 46759,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단시점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000024",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400438.27470006701,
+        "y" : 397194.03950000741
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 46760,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000025",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400442.52410006803,
+        "y" : 397253.01390000619
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 46761,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역시",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000026",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400607.31570006721,
+        "y" : 396809.02010000497
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 46762,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역종",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000027",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400617.71170006692,
+        "y" : 396799.87520000525
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 46763,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험시점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000028",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400619.13360006642,
+        "y" : 396794.82190000825
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 46764,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000029",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400666.20650006831,
+        "y" : 396775.34740000404
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 46765,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노프시점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000030",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400679.95500006806,
+        "y" : 396786.12360000797
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 46766,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망권",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000031",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400716.0119000664,
+        "y" : 396800.05480000749
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 46767,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노프 종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000032",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400741.27190006617,
+        "y" : 396781.74560000747
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 46768,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000033",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401050.13270006701,
+        "y" : 396871.62800000608
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 46769,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000034",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401081.74350006785,
+        "y" : 396873.25450000539
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 46770,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000035",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401190.14990006667,
+        "y" : 396886.2868000064
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 46771,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000036",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401425.89060006756,
+        "y" : 396844.45300000533
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 46772,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000037",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401625.281200069,
+        "y" : 396777.35660000518
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 46773,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000038",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401639.73610006738,
+        "y" : 396782.84260000288
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 46774,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "법광사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000039",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401836.65800006781,
+        "y" : 396601.22590000741
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 46775,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000040",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401654.43460006826,
+        "y" : 396764.4922000058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 46776,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000041",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401560.26960006636,
+        "y" : 396948.20340000838
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 46777,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000042",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401550.07310006954,
+        "y" : 396957.64060000516
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 46778,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000043",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401379.65210006945,
+        "y" : 396957.4446000047
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 46779,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000044",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401355.00710006803,
+        "y" : 396963.08450000733
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 46780,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000045",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401341.85390006658,
+        "y" : 396964.04750000499
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 46781,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000046",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401252.17180006765,
+        "y" : 397043.76900000498
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 46782,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000047",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401170.23990006745,
+        "y" : 397129.99930000678
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 46783,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000048",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401162.06730006728,
+        "y" : 397130.17770000547
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 46784,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000049",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401105.11870006844,
+        "y" : 397121.31620000489
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 46785,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000050",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401063.4120000666,
+        "y" : 397128.74100000598
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 50,
+        "PMNTN_SPOT" : 46786,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "구조안내판",
+        "ETC_MATTER" : "119구조",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000051",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401042.29250006657,
+        "y" : 397136.19520000368
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 51,
+        "PMNTN_SPOT" : 46787,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노프설치",
+        "ETC_MATTER" : "시점",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000052",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401040.6826000642,
+        "y" : 397140.79990000464
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 52,
+        "PMNTN_SPOT" : 46788,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노프종점",
+        "ETC_MATTER" : "종점",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000053",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401030.75470006838,
+        "y" : 397140.93810000643
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 53,
+        "PMNTN_SPOT" : 46789,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000054",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400984.1591000678,
+        "y" : 397154.58040000685
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 54,
+        "PMNTN_SPOT" : 46790,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노프시점",
+        "ETC_MATTER" : "시점",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000055",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400983.28440006636,
+        "y" : 397156.98119999841
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 55,
+        "PMNTN_SPOT" : 46791,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : "경사심함",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000056",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400952.71440006606,
+        "y" : 397162.61920000613
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 56,
+        "PMNTN_SPOT" : 46792,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노프종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000057",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400936.29090006836,
+        "y" : 397186.7609000057
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 57,
+        "PMNTN_SPOT" : 46793,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망권",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000058",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400938.35340006836,
+        "y" : 397187.54120000824
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 58,
+        "PMNTN_SPOT" : 46794,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노프시점",
+        "ETC_MATTER" : "시점",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000059",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400927.32500006724,
+        "y" : 397183.84520000406
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 59,
+        "PMNTN_SPOT" : 46795,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000060",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400892.33280006703,
+        "y" : 397200.47540000454
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 60,
+        "PMNTN_SPOT" : 46796,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000061",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400877.08410006668,
+        "y" : 397217.79260000587
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 61,
+        "PMNTN_SPOT" : 46797,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000062",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400843.38610006496,
+        "y" : 397216.90730000287
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 62,
+        "PMNTN_SPOT" : 46798,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노프종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000063",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400795.82140006591,
+        "y" : 397210.04020000808
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 63,
+        "PMNTN_SPOT" : 46799,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000064",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400734.46200006455,
+        "y" : 397232.87260000594
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 64,
+        "PMNTN_SPOT" : 46800,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000065",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400463.18570006546,
+        "y" : 397253.70980000496
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 65,
+        "PMNTN_SPOT" : 46801,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000066",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400761.15530006774,
+        "y" : 397569.32490000501
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 66,
+        "PMNTN_SPOT" : 46802,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000067",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401087.94320006389,
+        "y" : 397534.78300000541
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 67,
+        "PMNTN_SPOT" : 46803,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000068",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401136.94840006717,
+        "y" : 397464.48490000516
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 68,
+        "PMNTN_SPOT" : 46804,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000069",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401183.38920006901,
+        "y" : 397378.0817000065
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 69,
+        "PMNTN_SPOT" : 46805,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000070",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401289.10580006707,
+        "y" : 397259.29600000754
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 70,
+        "PMNTN_SPOT" : 46806,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000071",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401412.98910006881,
+        "y" : 397224.61540000327
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 71,
+        "PMNTN_SPOT" : 46807,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000072",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401462.17310006637,
+        "y" : 397169.41430000402
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 72,
+        "PMNTN_SPOT" : 46808,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000073",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401476.94330007024,
+        "y" : 397169.01070000418
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 73,
+        "PMNTN_SPOT" : 46809,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000074",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401519.52740006708,
+        "y" : 397130.18170000613
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 74,
+        "PMNTN_SPOT" : 46810,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "좋은등산로",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000075",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401533.18690006528,
+        "y" : 397095.13900000602
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 75,
+        "PMNTN_SPOT" : 46811,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000076",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401555.10330006666,
+        "y" : 396950.40520000458
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 76,
+        "PMNTN_SPOT" : 46812,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000077",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 398338.4456000654,
+        "y" : 397367.59280000627
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 77,
+        "PMNTN_SPOT" : 46813,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "개울",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000078",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 403683.05870007351,
+        "y" : 399148.24230000377
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 78,
+        "PMNTN_SPOT" : 46814,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000079",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 403349.39270007238,
+        "y" : 398751.96310000494
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 79,
+        "PMNTN_SPOT" : 46815,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000080",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 403295.21640007105,
+        "y" : 398771.51310000755
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 80,
+        "PMNTN_SPOT" : 46816,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000081",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 403074.06050007138,
+        "y" : 398817.39730000682
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 81,
+        "PMNTN_SPOT" : 46817,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000082",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 403022.03230007086,
+        "y" : 399004.57200000808
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 82,
+        "PMNTN_SPOT" : 46818,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000083",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 402378.51380006969,
+        "y" : 398802.46960000321
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 83,
+        "PMNTN_SPOT" : 46819,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000084",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 402085.10150006879,
+        "y" : 398666.70690000616
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 84,
+        "PMNTN_SPOT" : 46820,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망권",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000085",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401862.47720006853,
+        "y" : 398368.71600000374
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 85,
+        "PMNTN_SPOT" : 46821,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "소나무고사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000086",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401686.40400006715,
+        "y" : 398207.63990000449
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 86,
+        "PMNTN_SPOT" : 46822,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "119구조",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000087",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401473.64980006963,
+        "y" : 397992.50810000487
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 87,
+        "PMNTN_SPOT" : 46823,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000088",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401397.56800006609,
+        "y" : 397964.62500000559
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 88,
+        "PMNTN_SPOT" : 46824,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000089",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401358.14480006695,
+        "y" : 397959.47470000386
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 89,
+        "PMNTN_SPOT" : 46825,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "119구조",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000090",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400845.41840006784,
+        "y" : 397739.50810000487
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 90,
+        "PMNTN_SPOT" : 46826,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "자갈길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000091",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401435.28190006595,
+        "y" : 397847.4062000066
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 91,
+        "PMNTN_SPOT" : 46827,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터바위",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000092",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401651.67280006595,
+        "y" : 397781.39210000634
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 92,
+        "PMNTN_SPOT" : 46828,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사심함",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000093",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401702.88520007115,
+        "y" : 397116.40940000303
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 93,
+        "PMNTN_SPOT" : 46829,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "연못",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000094",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401783.75040006638,
+        "y" : 396983.77450000495
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 94,
+        "PMNTN_SPOT" : 46830,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "큰연못",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000095",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401943.04680007137,
+        "y" : 396856.94910000823
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 95,
+        "PMNTN_SPOT" : 46831,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000096",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401967.20220007095,
+        "y" : 396801.18360000476
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 96,
+        "PMNTN_SPOT" : 46832,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000097",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 403647.97600007337,
+        "y" : 399495.18780000694
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 97,
+        "PMNTN_SPOT" : 46833,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무넘어짐",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000098",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 403558.64000007324,
+        "y" : 399496.33710000664
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 98,
+        "PMNTN_SPOT" : 46834,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000099",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 403094.64340007212,
+        "y" : 399375.60940000787
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 99,
+        "PMNTN_SPOT" : 46835,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000100",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 402998.31720007211,
+        "y" : 399376.4799000062
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 100,
+        "PMNTN_SPOT" : 46836,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "소나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000101",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 402935.44120007101,
+        "y" : 399319.96080000326
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 101,
+        "PMNTN_SPOT" : 46837,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000102",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 398438.9691000618,
+        "y" : 397367.44230000488
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 102,
+        "PMNTN_SPOT" : 46838,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000103",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 398761.91940006241,
+        "y" : 397406.60510000587
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 103,
+        "PMNTN_SPOT" : 46839,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000104",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 399124.01180006657,
+        "y" : 397357.34640000574
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 104,
+        "PMNTN_SPOT" : 46840,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터바위",
+        "ETC_MATTER" : "119구조",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000105",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 399352.17890006397,
+        "y" : 397348.26630000584
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 105,
+        "PMNTN_SPOT" : 46841,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "119구조",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000106",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400058.95840006694,
+        "y" : 397441.79010000825
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 106,
+        "PMNTN_SPOT" : 46842,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000107",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400291.78180006519,
+        "y" : 397306.57010000572
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 107,
+        "PMNTN_SPOT" : 46843,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000108",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400369.56730006449,
+        "y" : 397309.60750000738
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 108,
+        "PMNTN_SPOT" : 46844,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000109",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 398279.07080120593,
+        "y" : 397303.2588981837
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 109,
+        "PMNTN_SPOT" : 46845,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "헬기장",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000110",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400430.21770006791,
+        "y" : 397283.27960000373
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 110,
+        "PMNTN_SPOT" : 46846,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : "헬기장",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000111",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400440.28300006781,
+        "y" : 397268.27590000629
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 111,
+        "PMNTN_SPOT" : 46847,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000112",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400549.20470006764,
+        "y" : 396923.26150000468
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 112,
+        "PMNTN_SPOT" : 46848,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000113",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400670.44050006475,
+        "y" : 397616.74450000562
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 113,
+        "PMNTN_SPOT" : 46849,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000114",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400830.01540006604,
+        "y" : 396744.72840000689
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 114,
+        "PMNTN_SPOT" : 46850,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000115",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 400997.68150006607,
+        "y" : 396726.60500000603
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 115,
+        "PMNTN_SPOT" : 46851,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000116",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401391.90760006569,
+        "y" : 397953.71520000324
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 116,
+        "PMNTN_SPOT" : 46852,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000117",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401554.44710007124,
+        "y" : 396951.96880000457
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 117,
+        "PMNTN_SPOT" : 46853,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000118",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401654.43460006826,
+        "y" : 396764.4922000058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 118,
+        "PMNTN_SPOT" : 46854,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000119",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401887.84510006569,
+        "y" : 396591.10410000384
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 119,
+        "PMNTN_SPOT" : 46855,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000120",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401890.99840006884,
+        "y" : 396577.23060000502
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 120,
+        "PMNTN_SPOT" : 46856,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000121",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 401984.67350006942,
+        "y" : 396741.3998000063
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 121,
+        "PMNTN_SPOT" : 46857,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000122",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 402729.39100007247,
+        "y" : 399001.63640000485
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 122,
+        "PMNTN_SPOT" : 46858,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000123",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 403712.05850007106,
+        "y" : 399159.33090000786
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 123,
+        "PMNTN_SPOT" : 46859,
+        "MNTN_CODE" : "471102001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비학산",
+        "PAST_SPOT_" : "27241409000124",
+        "MNTN_ID" : "2724140900"
+      },
+      "geometry" : {
+        "x" : 404066.54150007293,
+        "y" : 399630.87140000798
+      }
+    }
+  ]
+}

@@ -1,0 +1,675 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 20133,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "마산도서관,마산도서관,대이작도 선착장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040001",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 133209.23750000075,
+        "y" : 509076.05260000005
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 20134,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "평상 2개,평상 2개,벤치 2개,벤치 4개,약수터,장골마을 이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040002",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 133660.22510000132,
+        "y" : 508909.48719999753
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 20135,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단,목계단,벤치 1개,소이작 조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040003",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 133877.68770000059,
+        "y" : 508878.60210000165
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 20136,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상,정상,체육시설,벤치 8개,삼각점,통신송신탑,부아산 이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040004",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 134063.07980000135,
+        "y" : 508712.45540000126
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 20137,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "숲골경로당,숲골경로당,정자,정상 이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040005",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 134436.88960000128,
+        "y" : 508802.26970000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 20138,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단,목계단,우레탄 계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040006",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 134394.06769999862,
+        "y" : 508848.75600000285
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 20139,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치 4개,벤치 4개,목계단,벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040007",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 134352.86610000115,
+        "y" : 508868.12980000116
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 20140,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치 2개,벤치 2개,가로등,목계단,구름다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040008",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 134313.21220000088,
+        "y" : 508948.45490000211
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 20141,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등,가로등,정자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040009",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 134280.88600000087,
+        "y" : 509010.91699999943
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 20142,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "가로등,가로등,목계단,정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040010",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 134282.29250000045,
+        "y" : 509044.24840000272
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 20143,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등,가로등,벤치 1개,화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040011",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 134522.34920000099,
+        "y" : 508854.85560000129
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 20144,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치 1개,벤치 1개,가로등,운동기구 정자,벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040012",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 134496.98199999984,
+        "y" : 508811.17960000224
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 20145,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노선 내 접점,노선 내 접점,조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040013",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 133891.14460000116,
+        "y" : 509185.48960000463
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 20146,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "여성회관 옆,여성회관 옆,삼신할미 약수터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040014",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 134154.40560000017,
+        "y" : 508611.36040000245
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 20147,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "장승거리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040015",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 134201.28700000048,
+        "y" : 508372.70460000448
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 20148,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "송이산 이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040016",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 134543.57639999967,
+        "y" : 508311.36260000058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 20149,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프경사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040017",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 134719.50310000218,
+        "y" : 508346.11150000058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 20150,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "충혼탑,충혼탑,송이산 조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040018",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 134840.18939999957,
+        "y" : 508335.65980000235
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 20151,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "벤치,벤치,송이산 정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040019",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 134934.20990000013,
+        "y" : 508218.34680000134
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 20152,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등,가로등,소사나무 군락지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040020",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 135217.3106000023,
+        "y" : 507923.9645000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 20153,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등,가로등,큰풀안 해수욕장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040021",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 134477.67970000114,
+        "y" : 508076.4513000045
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 20154,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등,가로등,벤치,벤치,가로등2개,가로등,자은풀안 해수욕장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040022",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 134085.38659999985,
+        "y" : 508233.55300000124
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 20155,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040023",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 133208.80950000137,
+        "y" : 509075.58150000311
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 20156,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040024",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 133872.25879999995,
+        "y" : 508897.63920000382
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 20157,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040025",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 134072.80009999964,
+        "y" : 508710.67420000397
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 20158,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040026",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 134087.95260000136,
+        "y" : 508233.23509999923
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 20159,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040027",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 134177.53150000051,
+        "y" : 508334.94879999757
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 20160,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040028",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 134205.01570000034,
+        "y" : 508362.05570000038
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 20161,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040029",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 134275.7957000006,
+        "y" : 509055.79800000042
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 20162,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040030",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 134469.26640000008,
+        "y" : 508820.59390000254
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 20163,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040031",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 134477.66810000036,
+        "y" : 508074.95350000076
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 20164,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040032",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 134496.03290000092,
+        "y" : 508807.82850000076
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 20165,
+        "MNTN_CODE" : "287101704",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대이작도",
+        "PAST_SPOT_" : "2871017040033",
+        "MNTN_ID" : "287101704"
+      },
+      "geometry" : {
+        "x" : 134547.0736999996,
+        "y" : 508307.10270000249
+      }
+    }
+  ]
+}

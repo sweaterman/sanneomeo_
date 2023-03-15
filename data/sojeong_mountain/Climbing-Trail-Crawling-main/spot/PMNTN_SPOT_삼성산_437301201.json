@@ -1,0 +1,657 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 48399,
+        "MNTN_CODE" : "437301201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼성산",
+        "PAST_SPOT_" : "4373012010001",
+        "MNTN_ID" : "437301201"
+      },
+      "geometry" : {
+        "x" : 248615.72830000054,
+        "y" : 410459.24430000037
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 48400,
+        "MNTN_CODE" : "437301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼성산",
+        "PAST_SPOT_" : "4373012010002",
+        "MNTN_ID" : "437301201"
+      },
+      "geometry" : {
+        "x" : 248670.05979999993,
+        "y" : 410219.38869999908
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 48401,
+        "MNTN_CODE" : "437301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼성산",
+        "PAST_SPOT_" : "4373012010003",
+        "MNTN_ID" : "437301201"
+      },
+      "geometry" : {
+        "x" : 248690.74480000045,
+        "y" : 410415.85689999908
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 48402,
+        "MNTN_CODE" : "437301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼성산",
+        "PAST_SPOT_" : "4373012010004",
+        "MNTN_ID" : "437301201"
+      },
+      "geometry" : {
+        "x" : 248861.15170000121,
+        "y" : 409362.88910000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 48403,
+        "MNTN_CODE" : "437301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼성산",
+        "PAST_SPOT_" : "4373012010005",
+        "MNTN_ID" : "437301201"
+      },
+      "geometry" : {
+        "x" : 249123.94350000005,
+        "y" : 411018.18520000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 48404,
+        "MNTN_CODE" : "437301201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼성산",
+        "PAST_SPOT_" : "4373012010006",
+        "MNTN_ID" : "437301201"
+      },
+      "geometry" : {
+        "x" : 249429.92730000056,
+        "y" : 405955.88920000009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 48405,
+        "MNTN_CODE" : "437301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼성산",
+        "PAST_SPOT_" : "4373012010007",
+        "MNTN_ID" : "437301201"
+      },
+      "geometry" : {
+        "x" : 249463.20139999967,
+        "y" : 411671.30790000036
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 48406,
+        "MNTN_CODE" : "437301201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼성산",
+        "PAST_SPOT_" : "4373012010008",
+        "MNTN_ID" : "437301201"
+      },
+      "geometry" : {
+        "x" : 249632.49380000122,
+        "y" : 408121.91489999928
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 48407,
+        "MNTN_CODE" : "437301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼성산",
+        "PAST_SPOT_" : "4373012010009",
+        "MNTN_ID" : "437301201"
+      },
+      "geometry" : {
+        "x" : 249660.30919999909,
+        "y" : 408112.30299999937
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 48408,
+        "MNTN_CODE" : "437301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼성산",
+        "PAST_SPOT_" : "4373012010010",
+        "MNTN_ID" : "437301201"
+      },
+      "geometry" : {
+        "x" : 249705.76750000194,
+        "y" : 410517.68679999933
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 48409,
+        "MNTN_CODE" : "437301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼성산",
+        "PAST_SPOT_" : "4373012010011",
+        "MNTN_ID" : "437301201"
+      },
+      "geometry" : {
+        "x" : 249892.96630000137,
+        "y" : 411088.74250000156
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 48410,
+        "MNTN_CODE" : "437301201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼성산",
+        "PAST_SPOT_" : "4373012010012",
+        "MNTN_ID" : "437301201"
+      },
+      "geometry" : {
+        "x" : 249948.2901999997,
+        "y" : 412094.80360000022
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 48411,
+        "MNTN_CODE" : "437301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼성산",
+        "PAST_SPOT_" : "4373012010013",
+        "MNTN_ID" : "437301201"
+      },
+      "geometry" : {
+        "x" : 250020.11330000125,
+        "y" : 412040.14340000041
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 48412,
+        "MNTN_CODE" : "437301201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼성산",
+        "PAST_SPOT_" : "4373012010014",
+        "MNTN_ID" : "437301201"
+      },
+      "geometry" : {
+        "x" : 250048.04138198867,
+        "y" : 405161.71986586228
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 48413,
+        "MNTN_CODE" : "437301201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼성산",
+        "PAST_SPOT_" : "4373012010015",
+        "MNTN_ID" : "437301201"
+      },
+      "geometry" : {
+        "x" : 250093.93334739562,
+        "y" : 406117.26192825474
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 48414,
+        "MNTN_CODE" : "437301201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼성산",
+        "PAST_SPOT_" : "4373012010016",
+        "MNTN_ID" : "437301201"
+      },
+      "geometry" : {
+        "x" : 250117.22463189345,
+        "y" : 405579.112977501
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 48415,
+        "MNTN_CODE" : "437301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼성산",
+        "PAST_SPOT_" : "4373012010017",
+        "MNTN_ID" : "437301201"
+      },
+      "geometry" : {
+        "x" : 250182.14130000211,
+        "y" : 407039.38509999961
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 48416,
+        "MNTN_CODE" : "437301201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼성산",
+        "PAST_SPOT_" : "4373012010018",
+        "MNTN_ID" : "437301201"
+      },
+      "geometry" : {
+        "x" : 250314.23479999974,
+        "y" : 412448.3946000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 48417,
+        "MNTN_CODE" : "437301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼성산",
+        "PAST_SPOT_" : "4373012010019",
+        "MNTN_ID" : "437301201"
+      },
+      "geometry" : {
+        "x" : 250362.22310000006,
+        "y" : 412322.82100000046
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 48418,
+        "MNTN_CODE" : "437301201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼성산",
+        "PAST_SPOT_" : "4373012010020",
+        "MNTN_ID" : "437301201"
+      },
+      "geometry" : {
+        "x" : 250368.93710000161,
+        "y" : 411866.63780000247
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 48419,
+        "MNTN_CODE" : "437301201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼성산",
+        "PAST_SPOT_" : "4373012010021",
+        "MNTN_ID" : "437301201"
+      },
+      "geometry" : {
+        "x" : 250412.50820000097,
+        "y" : 412321.58000000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 48420,
+        "MNTN_CODE" : "437301201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼성산",
+        "PAST_SPOT_" : "4373012010022",
+        "MNTN_ID" : "437301201"
+      },
+      "geometry" : {
+        "x" : 250421.75570000056,
+        "y" : 408142.87219999917
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 48421,
+        "MNTN_CODE" : "437301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼성산",
+        "PAST_SPOT_" : "4373012010023",
+        "MNTN_ID" : "437301201"
+      },
+      "geometry" : {
+        "x" : 250438.63960000034,
+        "y" : 407914.67699999921
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 48422,
+        "MNTN_CODE" : "437301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼성산",
+        "PAST_SPOT_" : "4373012010024",
+        "MNTN_ID" : "437301201"
+      },
+      "geometry" : {
+        "x" : 250443.96230000071,
+        "y" : 407058.67679999955
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 48423,
+        "MNTN_CODE" : "437301201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼성산",
+        "PAST_SPOT_" : "4373012010025",
+        "MNTN_ID" : "437301201"
+      },
+      "geometry" : {
+        "x" : 250447.83520000055,
+        "y" : 407288.63609999977
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 48424,
+        "MNTN_CODE" : "437301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼성산",
+        "PAST_SPOT_" : "4373012010026",
+        "MNTN_ID" : "437301201"
+      },
+      "geometry" : {
+        "x" : 250524.18070000038,
+        "y" : 406928.26640000194
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 48425,
+        "MNTN_CODE" : "437301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼성산",
+        "PAST_SPOT_" : "4373012010027",
+        "MNTN_ID" : "437301201"
+      },
+      "geometry" : {
+        "x" : 250578.1930999998,
+        "y" : 408220.72370000184
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 48426,
+        "MNTN_CODE" : "437301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼성산",
+        "PAST_SPOT_" : "4373012010028",
+        "MNTN_ID" : "437301201"
+      },
+      "geometry" : {
+        "x" : 250680.65017950442,
+        "y" : 406397.96104410663
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 48427,
+        "MNTN_CODE" : "437301201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼성산",
+        "PAST_SPOT_" : "4373012010029",
+        "MNTN_ID" : "437301201"
+      },
+      "geometry" : {
+        "x" : 250818.62070000172,
+        "y" : 408370.29949999973
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 48428,
+        "MNTN_CODE" : "437301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼성산",
+        "PAST_SPOT_" : "4373012010030",
+        "MNTN_ID" : "437301201"
+      },
+      "geometry" : {
+        "x" : 250849.13673074078,
+        "y" : 406063.71904746071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 48429,
+        "MNTN_CODE" : "437301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼성산",
+        "PAST_SPOT_" : "4373012010031",
+        "MNTN_ID" : "437301201"
+      },
+      "geometry" : {
+        "x" : 251242.21989999991,
+        "y" : 407424.00300000049
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 48430,
+        "MNTN_CODE" : "437301201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "삼성산",
+        "PAST_SPOT_" : "4373012010032",
+        "MNTN_ID" : "437301201"
+      },
+      "geometry" : {
+        "x" : 251437.84829999972,
+        "y" : 408074.88340000249
+      }
+    }
+  ]
+}

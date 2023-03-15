@@ -1,0 +1,693 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 37535,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010001",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 335701.94640000165,
+        "y" : 357907.95219999924
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 37536,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010002",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 335725.64190000016,
+        "y" : 357894.18820000254
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 37537,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010003",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 335825.5856999997,
+        "y" : 357714.33359999955
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 37538,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010004",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 335829.50770000089,
+        "y" : 357853.30270000361
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 37539,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010005",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 335860.03550000116,
+        "y" : 357758.60610000044
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 37540,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010006",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 335910.46480000019,
+        "y" : 357758.17180000059
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 37541,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010007",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 335914.95219999924,
+        "y" : 357755.63580000028
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 37542,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010008",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 335924.47250000108,
+        "y" : 357739.15230000205
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 37543,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010009",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 335961.51520000119,
+        "y" : 357725.87670000084
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 37544,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010010",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 335978.04070000071,
+        "y" : 357631.94460000284
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 37545,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010011",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 335986.82919999957,
+        "y" : 357756.47580000199
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 37546,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010012",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 335994.93490000069,
+        "y" : 357674.92530000024
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 37547,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010013",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 335995.0605000006,
+        "y" : 357751.6203999985
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 37548,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010014",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 336067.61820000131,
+        "y" : 357812.31370000169
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 37549,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010015",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 336091.03710000124,
+        "y" : 357781.77710000053
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 37550,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010016",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 336109.04239999969,
+        "y" : 357673.70080000162
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 37551,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010017",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 336114.61360000074,
+        "y" : 357618.81069999933
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 37552,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010018",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 336184.13290000055,
+        "y" : 357868.81330000423
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 37553,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010019",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 336208.3917000005,
+        "y" : 357990.62079999968
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 96791,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010020",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 335794.40860000066,
+        "y" : 357859.49970000016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 96792,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010021",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 335868.38659999974,
+        "y" : 357879.30719999946
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 96793,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물(운동기구등)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010022",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 335967.64389999921,
+        "y" : 357785.76029999915
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 96794,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010023",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 335990.01869999978,
+        "y" : 357757.42170000059
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 96795,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판또는지도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010024",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 336067.43609999854,
+        "y" : 357812.32960000064
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 96796,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판또는지도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010025",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 336194.68079999962,
+        "y" : 357955.29869999888
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 96797,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010026",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 336206.27930000005,
+        "y" : 357985.57369999978
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 96798,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010027",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 336246.84140000021,
+        "y" : 357878.03680000076
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 96799,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물(운동기구등)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010028",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 336267.13250000158,
+        "y" : 357753.25560000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 96800,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010029",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 336094.43670000019,
+        "y" : 357775.92190000066
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 96801,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010030",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 335887.63539999921,
+        "y" : 357817.61410000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 96802,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010031",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 336000.38159999909,
+        "y" : 357743.40259999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 96803,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010032",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 336122.7489999989,
+        "y" : 357628.1448999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 96804,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010033",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 336101.87339999987,
+        "y" : 357663.42799999961
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 96805,
+        "MNTN_CODE" : "277101101",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "뱀산",
+        "PAST_SPOT_" : "2771011010034",
+        "MNTN_ID" : "277101101"
+      },
+      "geometry" : {
+        "x" : 335859.14789999957,
+        "y" : 357759.90509999893
+      }
+    }
+  ]
+}

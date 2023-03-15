@@ -1,0 +1,909 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 40187,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "식목일기념식수",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000001",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 375741.57380002923,
+        "y" : 395889.3916000016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 40188,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "법룡사입구, 이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000002",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 375868.82450002898,
+        "y" : 396560.4068
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 40189,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "법룡사 화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000003",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 375875.78440002911,
+        "y" : 396562.55140000582
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 40190,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "법룡사 대웅전",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000004",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 375872.45410003141,
+        "y" : 396578.4922000058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 40191,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표(대웅전 뒤)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000005",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 375855.59560003132,
+        "y" : 396571.1405000072
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 40192,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표(법룡사 0.7km)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000006",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 375692.15720002819,
+        "y" : 396684.83980000578
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 40193,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표(시루봉 1.2km)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000007",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 376834.90210003126,
+        "y" : 397457.84139999934
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 40194,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표(시루봉 1.0km)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000008",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 376918.59640003089,
+        "y" : 397523.60500000417
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 40195,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표(시루봉 0.7km)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000009",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 377211.95450003166,
+        "y" : 397708.76010000519
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 40196,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표(법룡사 표시)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000010",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 377442.71510003135,
+        "y" : 397678.49759999849
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 40197,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000011",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 377688.28230003081,
+        "y" : 397803.63269999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 40198,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "천문대 전시관",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000012",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 377887.66610003263,
+        "y" : 398081.9075000044
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 40199,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "보현산(최고봉)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000013",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 377892.32650003303,
+        "y" : 398147.0424000062
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 40200,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "18",
+        "MANAGE_SP2" : "주차장",
+        "DETAIL_SPO" : "천문대 주차장, 화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000014",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 378233.95130003057,
+        "y" : 398369.2160000056
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 40201,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길, (숲속교실쪽)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000015",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 379454.91960003227,
+        "y" : 397921.11100000143
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 40202,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "두마임도에서 숲길 갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000016",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 380236.04890003335,
+        "y" : 398180.36630000547
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 40203,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "숲속교실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000017",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 379112.89000003319,
+        "y" : 397864.02779999934
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 40204,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "숲길입구(숲속교실 위)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000018",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 379045.11510003358,
+        "y" : 397899.65250000171
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 40205,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "천수누림길접점갈림길Ⅲ",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000019",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 377801.76530003361,
+        "y" : 397929.04609999806
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 40206,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "천수누림길, 끝점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000020",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 377623.40560003184,
+        "y" : 397650.20450000465
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 40207,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "정각리 삼층석탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000021",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 379028.782700032,
+        "y" : 396944.742000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 40208,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000022",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 378472.28320003115,
+        "y" : 396904.25140000507
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 40209,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000023",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 377709.46170003153,
+        "y" : 397261.74670000188
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 40210,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "감시 초소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000024",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 377619.13680003304,
+        "y" : 397663.12420000322
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 40211,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "용소마을입구, 이정표, 입간판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000025",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 375045.9777000295,
+        "y" : 395475.96200000308
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 40212,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000026",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 377620.45930003095,
+        "y" : 397688.98270000517
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 40213,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "보현산정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000027",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 377623.35320003051,
+        "y" : 397650.16660000756
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 40214,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "천수누림길접점갈림길Ⅲ",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000028",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 377799.49720003083,
+        "y" : 397928.98870000429
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 40215,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "천수누림길, 접점갈림길Ⅱ",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000029",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 377988.30201407615,
+        "y" : 398053.96493588388
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 40216,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길 접점(사거리)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000030",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 378187.77690003067,
+        "y" : 398001.24630000629
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 40217,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길 접점(사거리)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000031",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 378195.47180003207,
+        "y" : 398003.20430000499
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 40218,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "천수누림길, 시작점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000032",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 378207.26430002972,
+        "y" : 398305.67750000209
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 40219,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000033",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 378217.53890003078,
+        "y" : 398334.27640000544
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 40220,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000034",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 378220.44930003118,
+        "y" : 396737.32789999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 40221,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000035",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 379222.63440003246,
+        "y" : 396825.08980000578
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 40222,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "웰빙숲임도 출구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000036",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 379455.30300003383,
+        "y" : 397921.16840000451
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 40223,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,화북 정각리, 별빛마을 삼거리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000037",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 379534.98470003344,
+        "y" : 395134.00980000757
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 40224,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "절골삼거리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000038",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 379577.89270003513,
+        "y" : 396288.13670000806
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 40225,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "웰빙숲임도 출구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000039",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 379698.82260003686,
+        "y" : 397361.85660000518
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 40226,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길(두마임도, 웰빙숲 임도)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000040",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 380146.62060003355,
+        "y" : 398206.86710000597
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 40227,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000041",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 380147.29590003472,
+        "y" : 398194.38110000081
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 40228,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "숲가꾸기실행지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000042",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 380262.61600003485,
+        "y" : 397805.07900000364
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 40229,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "숲길 끝점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000043",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 380379.06460003555,
+        "y" : 396978.30750000663
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 40230,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000044",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 380453.36450003367,
+        "y" : 397931.32309999876
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 40231,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000045",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 380504.79650003649,
+        "y" : 398009.98179999925
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 40232,
+        "MNTN_CODE" : "477501701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "보현산",
+        "PAST_SPOT_" : "27210815000046",
+        "MNTN_ID" : "2721081500"
+      },
+      "geometry" : {
+        "x" : 380593.51030003466,
+        "y" : 397945.82689999975
+      }
+    }
+  ]
+}

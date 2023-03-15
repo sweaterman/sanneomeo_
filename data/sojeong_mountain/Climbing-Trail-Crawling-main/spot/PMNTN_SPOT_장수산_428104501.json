@@ -1,0 +1,441 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 77260,
+        "MNTN_CODE" : "428104501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장수산",
+        "PAST_SPOT_" : "4281045010001",
+        "MNTN_ID" : "428104501"
+      },
+      "geometry" : {
+        "x" : 293704.25509999972,
+        "y" : 596186.7909000013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 77261,
+        "MNTN_CODE" : "428104501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장수산",
+        "PAST_SPOT_" : "4281045010002",
+        "MNTN_ID" : "428104501"
+      },
+      "geometry" : {
+        "x" : 294240.46390000172,
+        "y" : 596256.32200000435
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 77262,
+        "MNTN_CODE" : "428104501",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장수산",
+        "PAST_SPOT_" : "4281045010003",
+        "MNTN_ID" : "428104501"
+      },
+      "geometry" : {
+        "x" : 293731.92780000065,
+        "y" : 596166.44760000147
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 77263,
+        "MNTN_CODE" : "428104501",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : "교체요망",
+        "MNTN_NM" : "장수산",
+        "PAST_SPOT_" : "4281045010004",
+        "MNTN_ID" : "428104501"
+      },
+      "geometry" : {
+        "x" : 293728.78450000007,
+        "y" : 596166.92229999974
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 77264,
+        "MNTN_CODE" : "428104501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "끝",
+        "MNTN_NM" : "장수산",
+        "PAST_SPOT_" : "4281045010005",
+        "MNTN_ID" : "428104501"
+      },
+      "geometry" : {
+        "x" : 293731.57740000635,
+        "y" : 596169.41880000196
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 77265,
+        "MNTN_CODE" : "428104501",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등",
+        "ETC_MATTER" : "끝,임도끝",
+        "MNTN_NM" : "장수산",
+        "PAST_SPOT_" : "4281045010006",
+        "MNTN_ID" : "428104501"
+      },
+      "geometry" : {
+        "x" : 293743.15279999934,
+        "y" : 596178.66550000012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 77266,
+        "MNTN_CODE" : "428104501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단,안내판",
+        "ETC_MATTER" : "시작",
+        "MNTN_NM" : "장수산",
+        "PAST_SPOT_" : "4281045010007",
+        "MNTN_ID" : "428104501"
+      },
+      "geometry" : {
+        "x" : 293716.44140000548,
+        "y" : 596182.53420000151
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 77267,
+        "MNTN_CODE" : "428104501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "끝",
+        "MNTN_NM" : "장수산",
+        "PAST_SPOT_" : "4281045010008",
+        "MNTN_ID" : "428104501"
+      },
+      "geometry" : {
+        "x" : 293712.03340000287,
+        "y" : 596188.30100000277
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 77268,
+        "MNTN_CODE" : "428104501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "시작",
+        "MNTN_NM" : "장수산",
+        "PAST_SPOT_" : "4281045010009",
+        "MNTN_ID" : "428104501"
+      },
+      "geometry" : {
+        "x" : 293732.84410000034,
+        "y" : 596188.5390000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 77269,
+        "MNTN_CODE" : "428104501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "시작",
+        "MNTN_NM" : "장수산",
+        "PAST_SPOT_" : "4281045010010",
+        "MNTN_ID" : "428104501"
+      },
+      "geometry" : {
+        "x" : 293755.18380000256,
+        "y" : 596198.79690000042
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 77270,
+        "MNTN_CODE" : "428104501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "장수사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장수산",
+        "PAST_SPOT_" : "4281045010011",
+        "MNTN_ID" : "428104501"
+      },
+      "geometry" : {
+        "x" : 293714.69300000463,
+        "y" : 596200.92049999908
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 77271,
+        "MNTN_CODE" : "428104501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : "시작",
+        "MNTN_NM" : "장수산",
+        "PAST_SPOT_" : "4281045010012",
+        "MNTN_ID" : "428104501"
+      },
+      "geometry" : {
+        "x" : 293719.41610000003,
+        "y" : 596201.4074000027
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 77272,
+        "MNTN_CODE" : "428104501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : "끝",
+        "MNTN_NM" : "장수산",
+        "PAST_SPOT_" : "4281045010013",
+        "MNTN_ID" : "428104501"
+      },
+      "geometry" : {
+        "x" : 293724.37839999795,
+        "y" : 596218.63819999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 77273,
+        "MNTN_CODE" : "428104501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "용왕당",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장수산",
+        "PAST_SPOT_" : "4281045010014",
+        "MNTN_ID" : "428104501"
+      },
+      "geometry" : {
+        "x" : 293736.89990000054,
+        "y" : 596241.99470000342
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 77274,
+        "MNTN_CODE" : "428104501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산신각",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장수산",
+        "PAST_SPOT_" : "4281045010015",
+        "MNTN_ID" : "428104501"
+      },
+      "geometry" : {
+        "x" : 293753.96030000132,
+        "y" : 596256.57740000077
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 77275,
+        "MNTN_CODE" : "428104501",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "이정표,지도,시멘트다리",
+        "ETC_MATTER" : "설치요망,시멘트다리시작시멘트다리시작",
+        "MNTN_NM" : "장수산",
+        "PAST_SPOT_" : "4281045010016",
+        "MNTN_ID" : "428104501"
+      },
+      "geometry" : {
+        "x" : 294240.71150000207,
+        "y" : 596259.29619999975
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 77276,
+        "MNTN_CODE" : "428104501",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장수산",
+        "PAST_SPOT_" : "4281045010017",
+        "MNTN_ID" : "428104501"
+      },
+      "geometry" : {
+        "x" : 293847.10320000164,
+        "y" : 596270.22149999812
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 77277,
+        "MNTN_CODE" : "428104501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "시멘트다리",
+        "ETC_MATTER" : "시멘트다리끝임도시작",
+        "MNTN_NM" : "장수산",
+        "PAST_SPOT_" : "4281045010018",
+        "MNTN_ID" : "428104501"
+      },
+      "geometry" : {
+        "x" : 294223.83059999999,
+        "y" : 596284.21380000189
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 77278,
+        "MNTN_CODE" : "428104501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "설치요망",
+        "MNTN_NM" : "장수산",
+        "PAST_SPOT_" : "4281045010019",
+        "MNTN_ID" : "428104501"
+      },
+      "geometry" : {
+        "x" : 293886.75139999948,
+        "y" : 596318.61199999787
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 77279,
+        "MNTN_CODE" : "428104501",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "장수산",
+        "PAST_SPOT_" : "4281045010020",
+        "MNTN_ID" : "428104501"
+      },
+      "geometry" : {
+        "x" : 293995.7489000028,
+        "y" : 596330.7631000001
+      }
+    }
+  ]
+}

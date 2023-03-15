@@ -1,0 +1,963 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 15344,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시점,시점,음수대,기타건물,유적",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010001",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 245001.74260000139,
+        "y" : 364444.52869999968
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 15345,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010002",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 244879.35199999996,
+        "y" : 364456.0270000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 15346,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010003",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 244537.02879999951,
+        "y" : 364496.74149999768
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 15347,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "밴치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010004",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 243928.49040000048,
+        "y" : 364425.44459999911
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 15348,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부,정상부,이정표,조망점,벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010005",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 243750.04540000111,
+        "y" : 364314.29040000215
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 15349,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프구간 시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010006",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 243752.19500000123,
+        "y" : 364311.25980000198
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 15350,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010007",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 243744.22300000023,
+        "y" : 364280.95600000024
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 15351,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010008",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 243746.67949999962,
+        "y" : 364271.00730000064
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 15352,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프구간 끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010009",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 243710.61410000082,
+        "y" : 364261.04450000264
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 15353,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010010",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 243656.58359999862,
+        "y" : 364211.75349999964
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 15354,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010011",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 243422.32600000128,
+        "y" : 364169.99200000055
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 15355,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010012",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 243409.10120000038,
+        "y" : 364165.47190000117
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 15356,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010013",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 243044.07770000026,
+        "y" : 364127.62640000321
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 15357,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "시점,시점,이정표,노선내 분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010014",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 242956.97520000022,
+        "y" : 363907.95800000057
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 15358,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010015",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 242541.19760000054,
+        "y" : 363568.28840000182
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 15359,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010016",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 242040.0568000013,
+        "y" : 362876.63220000267
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 15360,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010017",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 241716.88629999943,
+        "y" : 362414.10840000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 15361,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010018",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 241705.79950000066,
+        "y" : 362409.85220000148
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 15362,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도 시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010019",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 241669.21420000028,
+        "y" : 362288.13990000449
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 15363,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도 끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010020",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 242228.8936999999,
+        "y" : 362065.95620000362
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 15364,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010021",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 242555.83800000139,
+        "y" : 362213.90040000156
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 15365,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010022",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 244004.47860000189,
+        "y" : 364532.14780000225
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 15366,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010023",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 243982.68130000215,
+        "y" : 364674.45030000433
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 15367,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치,벤치,로프구간시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010024",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 243783.91729999986,
+        "y" : 364851.93180000223
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 15368,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단 시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010025",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 243730.74629999977,
+        "y" : 364947.75310000218
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 15369,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단 끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010026",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 243704.39209999982,
+        "y" : 364953.63079999946
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 15370,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "밴치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010027",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 243692.50780000072,
+        "y" : 364950.75390000269
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 15371,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "밴치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010028",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 243675.12520000059,
+        "y" : 364953.10449999943
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 15372,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "밴치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010029",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 243504.68820000067,
+        "y" : 365100.03120000288
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 15373,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "밴치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010030",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 243488.56300000008,
+        "y" : 365129.90899999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 15374,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단 시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010031",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 243430.23010000028,
+        "y" : 365186.73700000159
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 15375,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단 끝,목계단 끝,로프구간 끝,조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010032",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 243404.43859999999,
+        "y" : 365210.70800000243
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 15376,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010033",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 243355.84020000137,
+        "y" : 365201.29869999923
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 15377,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철계단 시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010034",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 243532.01480000094,
+        "y" : 363971.14560000226
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 15378,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철계단 끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010035",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 243539.19130000006,
+        "y" : 363952.68210000359
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 15379,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010036",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 243486.44469999988,
+        "y" : 363896.01530000195
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 15380,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010037",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 243113.06940000132,
+        "y" : 363634.35219999962
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 15381,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010038",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 243160.11539999954,
+        "y" : 363451.80350000225
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 15382,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010039",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 241862.08370000124,
+        "y" : 362942.80680000223
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 15383,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010040",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 241953.91020000074,
+        "y" : 362861.82230000012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 15384,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010041",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 242030.44600000046,
+        "y" : 362878.61000000127
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 15385,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010042",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 242101.05700000096,
+        "y" : 362826.09960000217
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 15386,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010043",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 242516.44350000005,
+        "y" : 362274.97830000147
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 15387,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010044",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 242699.78150000051,
+        "y" : 362387.90939999931
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 15388,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010045",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 243297.47390000056,
+        "y" : 365200.02830000035
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 15389,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010046",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 243542.85730000213,
+        "y" : 364186.63730000332
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 15390,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010047",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 244014.1352000013,
+        "y" : 364463.10940000042
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 96026,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010048",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 243525.87690000026,
+        "y" : 363914.07470000011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 96027,
+        "MNTN_CODE" : "457203001",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "꼭지산",
+        "PAST_SPOT_" : "4572030010049",
+        "MNTN_ID" : "457203001"
+      },
+      "geometry" : {
+        "x" : 243188.99859999871,
+        "y" : 363521.25599999866
+      }
+    }
+  ]
+}

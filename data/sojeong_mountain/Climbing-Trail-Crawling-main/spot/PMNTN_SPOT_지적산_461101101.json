@@ -1,0 +1,855 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 81093,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "무덤",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000001",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 146822.1118000038,
+        "y" : 248556.57390000112
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 81094,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "피뢰침",
+        "ETC_MATTER" : "1개",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000002",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 146920.4282000009,
+        "y" : 248641.20020000078
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 81095,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000003",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 147082.27160000056,
+        "y" : 248592.11110000126
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 81096,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000004",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 147353.80560000334,
+        "y" : 248471.55530000106
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 81097,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판,운동기구, 철탑",
+        "ETC_MATTER" : "1개,3개",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000005",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 147387.83500000276,
+        "y" : 248465.29499999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 81098,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동기구,산불감시초소",
+        "ETC_MATTER" : "2개,1개",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000006",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 147466.18190000113,
+        "y" : 248422.567900002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 81099,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "무덤,등산로전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000007",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 148113.32320000138,
+        "y" : 248468.05289999954
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 81100,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "무덤,시점",
+        "ETC_MATTER" : "1-4구간",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000008",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 148142.8984000003,
+        "y" : 248573.73010000214
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 81101,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판,무덤",
+        "ETC_MATTER" : "1개",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000009",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 147243.34949999955,
+        "y" : 248020.1267000027
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 81102,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000010",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 147277.76539999992,
+        "y" : 248032.19120000117
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 81103,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등",
+        "ETC_MATTER" : "1개",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000011",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 147293.93180000037,
+        "y" : 248022.17570000142
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 81104,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "무덤",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000012",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 147329.84170000069,
+        "y" : 248026.63690000214
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 81105,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등",
+        "ETC_MATTER" : "1개",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000013",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 147357.78750000056,
+        "y" : 248015.15059999749
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 81106,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등",
+        "ETC_MATTER" : "1개",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000014",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 147397.26940000057,
+        "y" : 248012.34390000254
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 81107,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "정사,운동기구,가로등,벤치",
+        "ETC_MATTER" : "1개,5개,2개",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000015",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 147435.08970000222,
+        "y" : 248013.01240000129
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 81108,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "무덤",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000016",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 147567.20559999999,
+        "y" : 248251.59190000221
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 81109,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : "침목계단이 노후되 없어지면서 철쇠가 들어남.",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000017",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 147565.12469999865,
+        "y" : 248264.31629999913
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 81110,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "수신기",
+        "ETC_MATTER" : "1개",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000018",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 147294.39780000038,
+        "y" : 248055.96040000208
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 81111,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "1개",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000019",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 147156.40520000085,
+        "y" : 248894.14699999988
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 81112,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼각점",
+        "ETC_MATTER" : "1개",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000020",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 147178.85490000248,
+        "y" : 248917.6018000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 81113,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,무덤",
+        "ETC_MATTER" : "1개",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000021",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 147229.8777999999,
+        "y" : 248944.68880000152
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 81114,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "무덤",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000022",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 147793.79750000313,
+        "y" : 248217.66600000113
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 81115,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판,철탑",
+        "ETC_MATTER" : "1개",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000023",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 148129.45210000128,
+        "y" : 248590.50060000271
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 81116,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000024",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 148272.237900001,
+        "y" : 248749.83500000276
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 81117,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000025",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 148267.05090000108,
+        "y" : 248827.95670000277
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 81118,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "물통",
+        "ETC_MATTER" : "1개",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000026",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 148320.33860000409,
+        "y" : 248884.68630000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 81119,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "지도",
+        "ETC_MATTER" : "1개",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000027",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 148302.8571000034,
+        "y" : 248896.54160000198
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 81120,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : "1개",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000028",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 148260.79520000052,
+        "y" : 248919.11960000359
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 81121,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "급수시설,등산로전경",
+        "ETC_MATTER" : "1개",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000029",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 148033.47979999986,
+        "y" : 249003.01250000112
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 81122,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "도시가스 옆",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000030",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 146804.77569999918,
+        "y" : 248472.52810000069
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 81123,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장,노선내분기,시점",
+        "ETC_MATTER" : "1개,1-2구간",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000031",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 147047.22610000055,
+        "y" : 248668.71639999934
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 81124,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "월산교회",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000032",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 147224.95150000323,
+        "y" : 249088.64360000193
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 81125,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,지도,가로등",
+        "ETC_MATTER" : "1개,식현동 현대APT",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000033",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 147233.54349999968,
+        "y" : 248027.32260000333
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 81126,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "노선내분기,시점",
+        "ETC_MATTER" : "1-1-1구간",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000034",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 147302.29650000203,
+        "y" : 248019.96380000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 81127,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "인성학교",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000035",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 147305.11050000135,
+        "y" : 248077.6501000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 81128,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,노선내분기",
+        "ETC_MATTER" : "2개,6개",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000036",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 147539.23950000014,
+        "y" : 248321.80560000241
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 81129,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,안내판",
+        "ETC_MATTER" : "1개,산양마을",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000037",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 147754.03079999983,
+        "y" : 248406.3077000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 81130,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "석현마을",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000038",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 147793.5905000018,
+        "y" : 248110.29199999943
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 81131,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,노선내분기",
+        "ETC_MATTER" : "2개",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000039",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 147798.10500000138,
+        "y" : 248305.77310000174
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 81132,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,기타건물",
+        "ETC_MATTER" : "관리사무소,근화 희망타운",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000040",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 147834.43500000052,
+        "y" : 249088.09100000188
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 81133,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상,삼각점",
+        "ETC_MATTER" : "1개",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000041",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 148270.67240000051,
+        "y" : 248599.18160000071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 81134,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철탑,노선내분기",
+        "ETC_MATTER" : "1개,1-5구간",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000042",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 148331.05900000129,
+        "y" : 248699.47340000235
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 81135,
+        "MNTN_CODE" : "461101101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "남해환경 옆",
+        "MNTN_NM" : "지적산",
+        "PAST_SPOT_" : "26089911000043",
+        "MNTN_ID" : "2608991100"
+      },
+      "geometry" : {
+        "x" : 148681.34390000161,
+        "y" : 248848.10510000214
+      }
+    }
+  ]
+}

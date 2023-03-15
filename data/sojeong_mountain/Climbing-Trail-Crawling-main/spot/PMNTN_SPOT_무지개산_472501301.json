@@ -1,0 +1,603 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 29824,
+        "MNTN_CODE" : "472501301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무지개산",
+        "PAST_SPOT_" : "4725013010001",
+        "MNTN_ID" : "472501301"
+      },
+      "geometry" : {
+        "x" : 287116.19649999961,
+        "y" : 427939.16899999976
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 29825,
+        "MNTN_CODE" : "472501301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무지개산",
+        "PAST_SPOT_" : "4725013010002",
+        "MNTN_ID" : "472501301"
+      },
+      "geometry" : {
+        "x" : 289640.78579999879,
+        "y" : 423780.53889999725
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 29826,
+        "MNTN_CODE" : "472501301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무지개산",
+        "PAST_SPOT_" : "4725013010003",
+        "MNTN_ID" : "472501301"
+      },
+      "geometry" : {
+        "x" : 289656.6640000008,
+        "y" : 417243.44539999962
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 29827,
+        "MNTN_CODE" : "472501301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무지개산",
+        "PAST_SPOT_" : "4725013010004",
+        "MNTN_ID" : "472501301"
+      },
+      "geometry" : {
+        "x" : 289802.69849999901,
+        "y" : 423993.76610000245
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 29828,
+        "MNTN_CODE" : "472501301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표화장실안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무지개산",
+        "PAST_SPOT_" : "4725013010005",
+        "MNTN_ID" : "472501301"
+      },
+      "geometry" : {
+        "x" : 286971.88180000149,
+        "y" : 422224.42840000242
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 29829,
+        "MNTN_CODE" : "472501301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무지개산",
+        "PAST_SPOT_" : "4725013010006",
+        "MNTN_ID" : "472501301"
+      },
+      "geometry" : {
+        "x" : 287322.64409999922,
+        "y" : 422492.13060000166
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 29830,
+        "MNTN_CODE" : "472501301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무지개산",
+        "PAST_SPOT_" : "4725013010007",
+        "MNTN_ID" : "472501301"
+      },
+      "geometry" : {
+        "x" : 289263.28120000102,
+        "y" : 422721.55940000154
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 29831,
+        "MNTN_CODE" : "472501301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무지개산",
+        "PAST_SPOT_" : "4725013010008",
+        "MNTN_ID" : "472501301"
+      },
+      "geometry" : {
+        "x" : 287762.94369999971,
+        "y" : 422761.78900000267
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 29832,
+        "MNTN_CODE" : "472501301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무지개산",
+        "PAST_SPOT_" : "4725013010009",
+        "MNTN_ID" : "472501301"
+      },
+      "geometry" : {
+        "x" : 289308.77440000139,
+        "y" : 422769.31310000084
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 29833,
+        "MNTN_CODE" : "472501301",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "노간주나무군락지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무지개산",
+        "PAST_SPOT_" : "4725013010010",
+        "MNTN_ID" : "472501301"
+      },
+      "geometry" : {
+        "x" : 288704.48340000026,
+        "y" : 422837.50119999796
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 29834,
+        "MNTN_CODE" : "472501301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무지개산",
+        "PAST_SPOT_" : "4725013010011",
+        "MNTN_ID" : "472501301"
+      },
+      "geometry" : {
+        "x" : 288294.41790000442,
+        "y" : 422856.12549999915
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 29835,
+        "MNTN_CODE" : "472501301",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판서어나무군락지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무지개산",
+        "PAST_SPOT_" : "4725013010012",
+        "MNTN_ID" : "472501301"
+      },
+      "geometry" : {
+        "x" : 288212.48709999956,
+        "y" : 422860.07950000092
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 29836,
+        "MNTN_CODE" : "472501301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무지개산",
+        "PAST_SPOT_" : "4725013010013",
+        "MNTN_ID" : "472501301"
+      },
+      "geometry" : {
+        "x" : 288576.60790000018,
+        "y" : 422873.46400000155
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 29837,
+        "MNTN_CODE" : "472501301",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "노간주나무 군락지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무지개산",
+        "PAST_SPOT_" : "4725013010014",
+        "MNTN_ID" : "472501301"
+      },
+      "geometry" : {
+        "x" : 289508.94230000116,
+        "y" : 422924.27320000343
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 29838,
+        "MNTN_CODE" : "472501301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무지개산",
+        "PAST_SPOT_" : "4725013010015",
+        "MNTN_ID" : "472501301"
+      },
+      "geometry" : {
+        "x" : 289640.3440000033,
+        "y" : 423781.05650000088
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 29839,
+        "MNTN_CODE" : "472501301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무지개산",
+        "PAST_SPOT_" : "4725013010016",
+        "MNTN_ID" : "472501301"
+      },
+      "geometry" : {
+        "x" : 289345.49729999993,
+        "y" : 423849.30660000071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 29840,
+        "MNTN_CODE" : "472501301",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판잣나무조임지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무지개산",
+        "PAST_SPOT_" : "4725013010017",
+        "MNTN_ID" : "472501301"
+      },
+      "geometry" : {
+        "x" : 289171.41060000286,
+        "y" : 423955.4682
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 29841,
+        "MNTN_CODE" : "472501301",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "안내판(1981)무지개산정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무지개산",
+        "PAST_SPOT_" : "4725013010018",
+        "MNTN_ID" : "472501301"
+      },
+      "geometry" : {
+        "x" : 289803.43149999995,
+        "y" : 423993.86390000209
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 29842,
+        "MNTN_CODE" : "472501301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무지개산",
+        "PAST_SPOT_" : "4725013010019",
+        "MNTN_ID" : "472501301"
+      },
+      "geometry" : {
+        "x" : 289077.1827000007,
+        "y" : 424081.80179999955
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 29843,
+        "MNTN_CODE" : "472501301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무지개산",
+        "PAST_SPOT_" : "4725013010020",
+        "MNTN_ID" : "472501301"
+      },
+      "geometry" : {
+        "x" : 289009.38999999966,
+        "y" : 424103.12770000286
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 29844,
+        "MNTN_CODE" : "472501301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무지개산",
+        "PAST_SPOT_" : "4725013010021",
+        "MNTN_ID" : "472501301"
+      },
+      "geometry" : {
+        "x" : 288647.8123000022,
+        "y" : 424574.22369999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 29845,
+        "MNTN_CODE" : "472501301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무지개산",
+        "PAST_SPOT_" : "4725013010022",
+        "MNTN_ID" : "472501301"
+      },
+      "geometry" : {
+        "x" : 289055.11370000336,
+        "y" : 425829.23230000213
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 29846,
+        "MNTN_CODE" : "472501301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무지개산",
+        "PAST_SPOT_" : "4725013010023",
+        "MNTN_ID" : "472501301"
+      },
+      "geometry" : {
+        "x" : 289263.06750000454,
+        "y" : 426293.94600000232
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 29847,
+        "MNTN_CODE" : "472501301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무지개산",
+        "PAST_SPOT_" : "4725013010024",
+        "MNTN_ID" : "472501301"
+      },
+      "geometry" : {
+        "x" : 287915.98460000101,
+        "y" : 426859.74310000241
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 29848,
+        "MNTN_CODE" : "472501301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무지개산",
+        "PAST_SPOT_" : "4725013010025",
+        "MNTN_ID" : "472501301"
+      },
+      "geometry" : {
+        "x" : 288799.99380000029,
+        "y" : 426958.91680000164
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 29849,
+        "MNTN_CODE" : "472501301",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무지개산",
+        "PAST_SPOT_" : "4725013010026",
+        "MNTN_ID" : "472501301"
+      },
+      "geometry" : {
+        "x" : 288696.96050000098,
+        "y" : 426967.32279999927
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 29850,
+        "MNTN_CODE" : "472501301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무지개산",
+        "PAST_SPOT_" : "4725013010027",
+        "MNTN_ID" : "472501301"
+      },
+      "geometry" : {
+        "x" : 287465.14390000142,
+        "y" : 427182.03230000287
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 29851,
+        "MNTN_CODE" : "472501301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무지개산",
+        "PAST_SPOT_" : "4725013010028",
+        "MNTN_ID" : "472501301"
+      },
+      "geometry" : {
+        "x" : 287400.15150000434,
+        "y" : 427333.07620000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 29852,
+        "MNTN_CODE" : "472501301",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무지개산",
+        "PAST_SPOT_" : "4725013010029",
+        "MNTN_ID" : "472501301"
+      },
+      "geometry" : {
+        "x" : 287119.79999999981,
+        "y" : 427935.42580000311
+      }
+    }
+  ]
+}

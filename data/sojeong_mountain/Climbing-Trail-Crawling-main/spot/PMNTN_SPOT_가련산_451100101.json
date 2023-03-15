@@ -1,0 +1,711 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 388,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010001",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210270.86369999964,
+        "y" : 360283.47700000182
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 389,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010002",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210429.61980000045,
+        "y" : 360242.53439999931
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 390,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010003",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210489.71989999991,
+        "y" : 360955.0044000037
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 391,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010004",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210521.58899999969,
+        "y" : 360663.67170000449
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 392,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010005",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210555.04740000051,
+        "y" : 360332.8925000038
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 393,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010006",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210563.7275000019,
+        "y" : 360333.96949999966
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 394,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010007",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210572.09310000017,
+        "y" : 360335.82090000436
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 395,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010008",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210586.65089999977,
+        "y" : 360384.87040000223
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 396,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010009",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210587.07340000104,
+        "y" : 360231.47480000183
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 397,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010010",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210611.3414000012,
+        "y" : 360359.04720000178
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 398,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010011",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210662.31010000128,
+        "y" : 360744.23190000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 399,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010012",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210663.3479000004,
+        "y" : 360876.12179999985
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 400,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010013",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210669.59909999929,
+        "y" : 360643.46100000292
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 401,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010014",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210671.5436000023,
+        "y" : 360842.18400000408
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 402,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010015",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210673.93490000069,
+        "y" : 360888.15600000136
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 403,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010016",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210678.10219999868,
+        "y" : 360472.94040000066
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 404,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010017",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210687.61980000231,
+        "y" : 360607.71209999919
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 405,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010018",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210703.16600000113,
+        "y" : 360507.24969999865
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 406,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010019",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210731.02330000047,
+        "y" : 360542.94590000063
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 407,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010020",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210753.81760000065,
+        "y" : 360621.91240000166
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 408,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010021",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210764.67030000128,
+        "y" : 360589.48740000091
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 409,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010022",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210776.31039999891,
+        "y" : 360666.22670000233
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 410,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010023",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210777.34570000228,
+        "y" : 360653.55890000425
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 411,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010024",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210795.29370000027,
+        "y" : 360807.2723000031
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 412,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010025",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210798.36040000059,
+        "y" : 360933.51369999908
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 413,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010026",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210806.09190000035,
+        "y" : 360539.22440000065
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 414,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010027",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210809.89580000099,
+        "y" : 360824.06110000052
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 415,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010028",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210810.34800000116,
+        "y" : 360794.36339999922
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 416,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010029",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210815.42660000082,
+        "y" : 360710.27429999784
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 417,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010030",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210821.96470000222,
+        "y" : 360759.21290000156
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 418,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010031",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210837.36919999961,
+        "y" : 360638.64210000262
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 419,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010032",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210842.48379999958,
+        "y" : 360804.6558000017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 420,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010033",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210844.57290000096,
+        "y" : 360538.43299999833
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 421,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010034",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210888.1846000012,
+        "y" : 360684.90039999969
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 422,
+        "MNTN_CODE" : "451100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가련산",
+        "PAST_SPOT_" : "4511001010035",
+        "MNTN_ID" : "451100101"
+      },
+      "geometry" : {
+        "x" : 210908.23780000024,
+        "y" : 360786.78230000101
+      }
+    }
+  ]
+}

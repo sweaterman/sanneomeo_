@@ -1,0 +1,891 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 23393,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010001",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 339491.69810000714,
+        "y" : 610795.11859999783
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 23394,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010002",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 339818.12210000493,
+        "y" : 611367.39729999937
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 23395,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010003",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 339937.72470000573,
+        "y" : 611322.50110000372
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 23396,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010004",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 339944.32200000435,
+        "y" : 611327.37910000049
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 23397,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010005",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 340049.22500000708,
+        "y" : 610646.43590000272
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 23398,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010006",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 340059.31370000355,
+        "y" : 610551.80240000039
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 23399,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010007",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 340359.93010000512,
+        "y" : 611137.16830000095
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 23400,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010008",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 340410.83640000876,
+        "y" : 610724.79010000452
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 23401,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010009",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 340424.5741000073,
+        "y" : 611192.67060000263
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 23402,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010010",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 340545.9546000082,
+        "y" : 610644.76060000248
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 23403,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010011",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 340619.08470000885,
+        "y" : 610607.06730000302
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 23404,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010012",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 340661.53240000736,
+        "y" : 611118.67030000128
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 23405,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010013",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 340760.76230000425,
+        "y" : 611010.70780000091
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 23406,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010014",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 340906.91710000858,
+        "y" : 610135.00160000287
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 23407,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010015",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 340907.11830000393,
+        "y" : 610217.7452000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 23408,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010016",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 341227.66950000916,
+        "y" : 610867.14729999937
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 23409,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010017",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 341288.61500000767,
+        "y" : 609751.21700000204
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 23410,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010018",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 341369.17590000574,
+        "y" : 610940.04209999926
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 23411,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "안내판 설치 요망",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010019",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 341296.76350001059,
+        "y" : 609727.56000000052
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 23412,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "이정표 교체 요망",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010020",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 341297.68590000924,
+        "y" : 609743.2218000032
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 23413,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "왕,대나무길",
+        "ETC_MATTER" : "목 계단 설치 요망",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010021",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 341259.38200001232,
+        "y" : 609782.1670000013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 23414,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "대나무길",
+        "ETC_MATTER" : "목 계단/이정표 설치 요망 주변환경 정리 요망",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010022",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 341226.51550000813,
+        "y" : 609785.91739999875
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 23415,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "목 계단 설치 요망",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010023",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 341187.77080001216,
+        "y" : 609900.05279999971
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 23416,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "벤치 설치요망",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010024",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 341162.85150000919,
+        "y" : 609986.78930000216
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 23417,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등",
+        "ETC_MATTER" : "이정표 설치 요망",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010025",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 340907.02690000646,
+        "y" : 610135.24780000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 23418,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "목 계단 설치 요망 내리막 길 오르막 길",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010026",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 341139.72380000819,
+        "y" : 610197.7573000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 23419,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "쉼터 및 운동기구 설치 요망",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010027",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 340780.11580000818,
+        "y" : 610214.22760000452
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 23420,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "목 계단 보수 및 안내판 설치",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010028",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 340913.79560001008,
+        "y" : 610216.43640000187
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 23421,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "대나무길",
+        "ETC_MATTER" : "주변 환경 정리",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010029",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 340954.62230000831,
+        "y" : 610219.20730000176
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 23422,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "목 계단 보수",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010030",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 341004.41740000993,
+        "y" : 610240.35540000163
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 23423,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "미래목 구간 안내판 설치 요망",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010031",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 340585.6347000096,
+        "y" : 610291.11140000261
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 23424,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험,지역",
+        "ETC_MATTER" : "휴지통 설치 요망",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010032",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 340749.4801000068,
+        "y" : 610297.34649999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 23425,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "이정표 설치 요망",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010033",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 340705.24540001061,
+        "y" : 610393.43370000087
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 23426,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "구간 목 계단 보수 요망",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010034",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 340304.02710001078,
+        "y" : 610534.46150000207
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 23427,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "관동대 캠퍼스 전경",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010035",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 340232.70260001067,
+        "y" : 610551.11229999922
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 23428,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010036",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 340047.46530001331,
+        "y" : 610558.66650000028
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 23429,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "이정표 설치 요망",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010037",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 340619.58990000933,
+        "y" : 610607.34370000102
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 23430,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010038",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 340398.85050000995,
+        "y" : 610708.7631000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 23431,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "목 계단 설치 및 보수",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010039",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 340297.39560000971,
+        "y" : 610719.93100000173
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 23432,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "위험,지역",
+        "ETC_MATTER" : "안전 로프 보수 및 교체 요망",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010040",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 340335.56940001063,
+        "y" : 610720.65450000204
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 23433,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "물탱크,이정표",
+        "ETC_MATTER" : "이정표 교체 요망",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010041",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 340041.77200000826,
+        "y" : 610726.64090000093
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 23434,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "모로,샘터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010042",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 340410.07780000847,
+        "y" : 610729.02160000056
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 23435,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010043",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 340263.34460000973,
+        "y" : 610733.10320000164
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 23436,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "위험지역,훼손지",
+        "ETC_MATTER" : "침식지 복구 요망",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010044",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 340208.26960001048,
+        "y" : 610740.92830000073
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 23437,
+        "MNTN_CODE" : "428301101",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "동두산",
+        "PAST_SPOT_" : "4283011010045",
+        "MNTN_ID" : "428301101"
+      },
+      "geometry" : {
+        "x" : 340195.35160000809,
+        "y" : 610747.00220000185
+      }
+    }
+  ]
+}

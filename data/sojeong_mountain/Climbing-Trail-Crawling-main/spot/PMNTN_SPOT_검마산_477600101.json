@@ -1,0 +1,711 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 3739,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "18",
+        "MANAGE_SP2" : "주차장",
+        "DETAIL_SPO" : "주차장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000001",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 399410.76950005908,
+        "y" : 463094.94130000286
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 3740,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000002",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 399461.14240005612,
+        "y" : 463096.2499000039
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 3741,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목재교량",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000003",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 399469.88030005619,
+        "y" : 463099.96800000407
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 3742,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000004",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 399484.46990005858,
+        "y" : 463102.63620000705
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 3743,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철재교량",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000005",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 399494.33350005746,
+        "y" : 463114.33210000768
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 3744,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000006",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 399697.7392000556,
+        "y" : 463131.05980000645
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 3745,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000007",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 399838.17190005817,
+        "y" : 463144.87260000594
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 3746,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000008",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 399981.02560005989,
+        "y" : 463125.18000000529
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 3747,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000009",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 400014.196200056,
+        "y" : 463125.10660000332
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 3748,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000010",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 400072.69267018605,
+        "y" : 463143.65396429971
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 3749,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000011",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 400422.85380005557,
+        "y" : 463420.02970000356
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 3750,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000012",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 400976.93730005901,
+        "y" : 463614.43270000629
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 3751,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000013",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 401263.18990005832,
+        "y" : 463521.73020000756
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 3752,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000014",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 400552.00730005745,
+        "y" : 462584.204800006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 3753,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "임도삼거리이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000015",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 400525.10416504275,
+        "y" : 462606.82745520771
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 3754,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000016",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 400505.35720005818,
+        "y" : 462604.04400000349
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 3755,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000017",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 399614.29400005843,
+        "y" : 462507.56210000813
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 3756,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "낙동정맥갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000018",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 399532.50903871935,
+        "y" : 462439.43222859129
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 3757,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도차단기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000019",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 399923.37650005706,
+        "y" : 462919.83280000649
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 3758,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000020",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 399633.72140005603,
+        "y" : 462934.92700000666
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 3759,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "콘크리트교량",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000021",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 399538.19920005556,
+        "y" : 462997.978500003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 3760,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼림문화휴양관",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000022",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 399507.51990005746,
+        "y" : 463026.02510000765
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 3761,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "콘크리크교량",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000023",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 399474.10520005412,
+        "y" : 463047.50860000402
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 3762,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,휴양림관리사무소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000024",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 399347.18170005549,
+        "y" : 463102.17960000411
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 3763,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000025",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 401518.2985707866,
+        "y" : 464518.74924178794
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 3764,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "갈미산정상,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000026",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 400324.30970005784,
+        "y" : 462217.44080000371
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 3765,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "삼거리이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000027",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 401359.40370017849,
+        "y" : 463367.02090001479
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 3766,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "검마산정상,삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000028",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 402150.54050006066,
+        "y" : 463320.71410000324
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 3767,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000029",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 399449.38560016453,
+        "y" : 463090.21840000898
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 3768,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000030",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 399400.45448944066,
+        "y" : 463100.51308627985
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 3769,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000031",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 401835.35637033544,
+        "y" : 463510.24775388092
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 3770,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000032",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 401502.18695050012,
+        "y" : 464437.15727717988
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 3771,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000033",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 401257.78911601659,
+        "y" : 465003.85949570872
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 3772,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000034",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 401426.93850052729,
+        "y" : 465040.24888368137
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 3773,
+        "MNTN_CODE" : "477600101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검마산",
+        "PAST_SPOT_" : "27139901000035",
+        "MNTN_ID" : "2713990100"
+      },
+      "geometry" : {
+        "x" : 402037.97828576434,
+        "y" : 465319.87091702037
+      }
+    }
+  ]
+}

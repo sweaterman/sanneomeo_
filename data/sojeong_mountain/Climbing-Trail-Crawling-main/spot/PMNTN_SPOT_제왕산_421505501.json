@@ -1,0 +1,531 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 78900,
+        "MNTN_CODE" : "421505501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "고속도로준공비",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제왕산",
+        "PAST_SPOT_" : "22012131000001",
+        "MNTN_ID" : "2201213100"
+      },
+      "geometry" : {
+        "x" : 355361.55320001021,
+        "y" : 566651.10460000671
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 78901,
+        "MNTN_CODE" : "421505501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제왕산",
+        "PAST_SPOT_" : "22012131000002",
+        "MNTN_ID" : "2201213100"
+      },
+      "geometry" : {
+        "x" : 355392.13610000815,
+        "y" : 566661.81880000234
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 78902,
+        "MNTN_CODE" : "421505501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제왕산",
+        "PAST_SPOT_" : "22012131000003",
+        "MNTN_ID" : "2201213100"
+      },
+      "geometry" : {
+        "x" : 355389.98520001303,
+        "y" : 566624.79590000398
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 78903,
+        "MNTN_CODE" : "421505501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제왕산",
+        "PAST_SPOT_" : "22012131000004",
+        "MNTN_ID" : "2201213100"
+      },
+      "geometry" : {
+        "x" : 355441.33390000928,
+        "y" : 566194.30580000579
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 78904,
+        "MNTN_CODE" : "421505501",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제왕산",
+        "PAST_SPOT_" : "22012131000005",
+        "MNTN_ID" : "2201213100"
+      },
+      "geometry" : {
+        "x" : 355479.06380001269,
+        "y" : 566177.22410000302
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 78905,
+        "MNTN_CODE" : "421505501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제왕산",
+        "PAST_SPOT_" : "22012131000006",
+        "MNTN_ID" : "2201213100"
+      },
+      "geometry" : {
+        "x" : 355503.57830001228,
+        "y" : 566145.65620000288
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 78906,
+        "MNTN_CODE" : "421505501",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판 이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제왕산",
+        "PAST_SPOT_" : "22012131000007",
+        "MNTN_ID" : "2201213100"
+      },
+      "geometry" : {
+        "x" : 355630.56110000983,
+        "y" : 566160.88000000454
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 78907,
+        "MNTN_CODE" : "421505501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제왕산",
+        "PAST_SPOT_" : "22012131000008",
+        "MNTN_ID" : "2201213100"
+      },
+      "geometry" : {
+        "x" : 356406.66040000971,
+        "y" : 566540.62980000116
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 78908,
+        "MNTN_CODE" : "421505501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제왕산",
+        "PAST_SPOT_" : "22012131000009",
+        "MNTN_ID" : "2201213100"
+      },
+      "geometry" : {
+        "x" : 356607.87370001245,
+        "y" : 566568.99850000069
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 78909,
+        "MNTN_CODE" : "421505501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제왕산",
+        "PAST_SPOT_" : "22012131000010",
+        "MNTN_ID" : "2201213100"
+      },
+      "geometry" : {
+        "x" : 356952.30560001079,
+        "y" : 566620.52999999933
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 78910,
+        "MNTN_CODE" : "421505501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제왕산",
+        "PAST_SPOT_" : "22012131000011",
+        "MNTN_ID" : "2201213100"
+      },
+      "geometry" : {
+        "x" : 357099.15990001149,
+        "y" : 566638.04700000212
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 78911,
+        "MNTN_CODE" : "421505501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제왕산",
+        "PAST_SPOT_" : "22012131000012",
+        "MNTN_ID" : "2201213100"
+      },
+      "geometry" : {
+        "x" : 357462.89600001089,
+        "y" : 566767.45220000297
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 78912,
+        "MNTN_CODE" : "421505501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표 무인감시탑",
+        "ETC_MATTER" : "우측 헬기장",
+        "MNTN_NM" : "제왕산",
+        "PAST_SPOT_" : "22012131000013",
+        "MNTN_ID" : "2201213100"
+      },
+      "geometry" : {
+        "x" : 357907.53640001174,
+        "y" : 567055.24190000445
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 78913,
+        "MNTN_CODE" : "421505501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제왕산",
+        "PAST_SPOT_" : "22012131000014",
+        "MNTN_ID" : "2201213100"
+      },
+      "geometry" : {
+        "x" : 358018.67020001076,
+        "y" : 567372.69649999961
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 78914,
+        "MNTN_CODE" : "421505501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제왕산",
+        "PAST_SPOT_" : "22012131000015",
+        "MNTN_ID" : "2201213100"
+      },
+      "geometry" : {
+        "x" : 358054.6802000124,
+        "y" : 567351.97220000625
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 78915,
+        "MNTN_CODE" : "421505501",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "낙엽송군락지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제왕산",
+        "PAST_SPOT_" : "22012131000016",
+        "MNTN_ID" : "2201213100"
+      },
+      "geometry" : {
+        "x" : 358351.33120001107,
+        "y" : 567766.35869999975
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 78916,
+        "MNTN_CODE" : "421505501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제왕산",
+        "PAST_SPOT_" : "22012131000017",
+        "MNTN_ID" : "2201213100"
+      },
+      "geometry" : {
+        "x" : 358379.2268000124,
+        "y" : 567804.17460000329
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 78917,
+        "MNTN_CODE" : "421505501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제왕산",
+        "PAST_SPOT_" : "22012131000018",
+        "MNTN_ID" : "2201213100"
+      },
+      "geometry" : {
+        "x" : 357773.06250001118,
+        "y" : 568535.72390000708
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 78918,
+        "MNTN_CODE" : "421505501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,화장실",
+        "ETC_MATTER" : "(구)대관령휴게소",
+        "MNTN_NM" : "제왕산",
+        "PAST_SPOT_" : "22012131000019",
+        "MNTN_ID" : "2201213100"
+      },
+      "geometry" : {
+        "x" : 355214.36750001088,
+        "y" : 566557.04900000431
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 78919,
+        "MNTN_CODE" : "421505501",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "제왕산정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제왕산",
+        "PAST_SPOT_" : "22012131000020",
+        "MNTN_ID" : "2201213100"
+      },
+      "geometry" : {
+        "x" : 357506.62640001159,
+        "y" : 566837.8004999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 78920,
+        "MNTN_CODE" : "421505501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제왕산",
+        "PAST_SPOT_" : "22012131000021",
+        "MNTN_ID" : "2201213100"
+      },
+      "geometry" : {
+        "x" : 357742.22810001206,
+        "y" : 568592.92369999923
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 78921,
+        "MNTN_CODE" : "421505501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제왕산",
+        "PAST_SPOT_" : "22012131000022",
+        "MNTN_ID" : "2201213100"
+      },
+      "geometry" : {
+        "x" : 357742.88250000961,
+        "y" : 566974.66090000793
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 78922,
+        "MNTN_CODE" : "421505501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제왕산",
+        "PAST_SPOT_" : "22012131000023",
+        "MNTN_ID" : "2201213100"
+      },
+      "geometry" : {
+        "x" : 357757.46260001231,
+        "y" : 568533.03820000216
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 78923,
+        "MNTN_CODE" : "421505501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제왕산",
+        "PAST_SPOT_" : "22012131000024",
+        "MNTN_ID" : "2201213100"
+      },
+      "geometry" : {
+        "x" : 357872.64240001142,
+        "y" : 567045.32230000198
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 78924,
+        "MNTN_CODE" : "421505501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "제왕산",
+        "PAST_SPOT_" : "22012131000025",
+        "MNTN_ID" : "2201213100"
+      },
+      "geometry" : {
+        "x" : 357839.58880312275,
+        "y" : 568650.20337467827
+      }
+    }
+  ]
+}

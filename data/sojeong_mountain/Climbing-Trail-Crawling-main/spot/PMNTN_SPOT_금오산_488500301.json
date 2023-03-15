@@ -1,0 +1,819 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 13789,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "공군부대",
+        "ETC_MATTER" : "사진찰영안됨",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000001",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 281878.26630000211,
+        "y" : 268477.72419999912
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 13790,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000002",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 279313.08500000089,
+        "y" : 266630.06290000305
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 13791,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000003",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 279176.97709999979,
+        "y" : 266308.23660000041
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 13792,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000004",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 279189.30530000012,
+        "y" : 266275.42350000143
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 13793,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : "급경사",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000005",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 279011.75350000057,
+        "y" : 266241.38800000213
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 13794,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : "이정표부족",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000006",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 278963.67930000089,
+        "y" : 266042.59820000269
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 13795,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000007",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 278835.22740000207,
+        "y" : 265699.84060000069
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 13796,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000008",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 278840.74680000171,
+        "y" : 265702.57330000214
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 13797,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "반공호",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000009",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 278534.03560000099,
+        "y" : 267829.77820000052
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 13798,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "나무의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000010",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 278512.8348000003,
+        "y" : 268026.4726000037
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 13799,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : "부분정비",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000011",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 278816.17709999997,
+        "y" : 268410.12410000339
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 13800,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : "부분정비",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000012",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 278724.70569999982,
+        "y" : 268786.96730000339
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 13801,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : "의자2개",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000013",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 278728.90830000304,
+        "y" : 268800.31799999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 13802,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000014",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 278720.10150000174,
+        "y" : 268914.39169999957
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 13803,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "표지판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000015",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 278717.04110000096,
+        "y" : 269264.00410000235
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 13804,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "입간판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000016",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 279317.50580000225,
+        "y" : 266627.78230000101
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 13805,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000017",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 279286.36720000114,
+        "y" : 266560.7621000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 13806,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000018",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 279252.18919999991,
+        "y" : 266458.82069999911
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 13807,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "마애불,간판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000019",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 279189.49780000281,
+        "y" : 266310.10930000059
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 13808,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000020",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 279715.20100000035,
+        "y" : 266325.753800001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 13809,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000021",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 279816.98280000221,
+        "y" : 266211.01719999872
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 13810,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000022",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 279936.97640000097,
+        "y" : 266266.24500000291
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 13811,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "석굴암",
+        "ETC_MATTER" : "봉수대있슴",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000023",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 279940.78680000082,
+        "y" : 266253.4188000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 13812,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "바윗길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000024",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 279948.75240000151,
+        "y" : 266238.43200000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 13813,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "밧줄",
+        "ETC_MATTER" : "급경사",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000025",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 280011.52470000181,
+        "y" : 266132.56540000252
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 13814,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "밧줄",
+        "ETC_MATTER" : "급경사",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000026",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 280069.509200003,
+        "y" : 266131.40900000371
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 13815,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000027",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 280458.94760000054,
+        "y" : 266081.77150000259
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 13816,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000028",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 280807.25470000319,
+        "y" : 266004.17019999959
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 13817,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : "의자3개",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000029",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 280810.54840000253,
+        "y" : 265995.17870000191
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 13818,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000030",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 281391.88000000082,
+        "y" : 265818.17320000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 13819,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "입간판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000031",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 281589.05230000056,
+        "y" : 265673.71560000069
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 13820,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "청소년 수련원",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000032",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 281752.12660000101,
+        "y" : 265584.00150000118
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 13821,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000033",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 278425.32220000215,
+        "y" : 265124.5262000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 13822,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000034",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 278505.91830000002,
+        "y" : 269527.15200000443
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 13823,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "반공호",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000035",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 278546.85950000118,
+        "y" : 267789.80089999922
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 13824,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "반공호,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000036",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 278804.26090000011,
+        "y" : 268291.98829999939
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 13825,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암석지대",
+        "ETC_MATTER" : "밧줄필요",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000037",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 278975.17850000039,
+        "y" : 266047.55740000308
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 13826,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000038",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 279180.82610000018,
+        "y" : 266311.8981999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 13827,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상(해맞이전망대)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000039",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 279393.68730000127,
+        "y" : 266595.83460000344
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 13828,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,입간판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000040",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 281937.98369999975,
+        "y" : 265536.82720000111
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 13829,
+        "MNTN_CODE" : "488500301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금오산",
+        "PAST_SPOT_" : "28179903000041",
+        "MNTN_ID" : "2817990300"
+      },
+      "geometry" : {
+        "x" : 282545.66960000247,
+        "y" : 269518.42060000077
+      }
+    }
+  ]
+}

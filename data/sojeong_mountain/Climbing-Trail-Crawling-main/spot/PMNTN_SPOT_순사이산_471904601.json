@@ -1,0 +1,531 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 55650,
+        "MNTN_CODE" : "471904601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "순사이산",
+        "PAST_SPOT_" : "4719021010001",
+        "MNTN_ID" : "471902101"
+      },
+      "geometry" : {
+        "x" : 318714.417600004,
+        "y" : 414788.68280000798
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 55651,
+        "MNTN_CODE" : "471904601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "순사이산",
+        "PAST_SPOT_" : "4719021010002",
+        "MNTN_ID" : "471902101"
+      },
+      "geometry" : {
+        "x" : 319013.95760000031,
+        "y" : 414877.85219999962
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 55652,
+        "MNTN_CODE" : "471904601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "순사이산",
+        "PAST_SPOT_" : "4719021010003",
+        "MNTN_ID" : "471902101"
+      },
+      "geometry" : {
+        "x" : 319106.59000000171,
+        "y" : 414235.48610000126
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 55653,
+        "MNTN_CODE" : "471904601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "순사이산",
+        "PAST_SPOT_" : "4719021010004",
+        "MNTN_ID" : "471902101"
+      },
+      "geometry" : {
+        "x" : 319243.37409999967,
+        "y" : 412805.3125
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 55654,
+        "MNTN_CODE" : "471904601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "순사이산",
+        "PAST_SPOT_" : "4719021010005",
+        "MNTN_ID" : "471902101"
+      },
+      "geometry" : {
+        "x" : 319261.55430000369,
+        "y" : 413661.5121000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 55655,
+        "MNTN_CODE" : "471904601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "순사이산",
+        "PAST_SPOT_" : "4719021010006",
+        "MNTN_ID" : "471902101"
+      },
+      "geometry" : {
+        "x" : 319354.18660000153,
+        "y" : 414293.48950000107
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 55656,
+        "MNTN_CODE" : "471904601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "순사이산",
+        "PAST_SPOT_" : "4719021010007",
+        "MNTN_ID" : "471902101"
+      },
+      "geometry" : {
+        "x" : 319378.42680000141,
+        "y" : 413547.23670000024
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 55657,
+        "MNTN_CODE" : "471904601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "순사이산",
+        "PAST_SPOT_" : "4719021010008",
+        "MNTN_ID" : "471902101"
+      },
+      "geometry" : {
+        "x" : 319450.3797000004,
+        "y" : 414266.4553999994
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 55658,
+        "MNTN_CODE" : "471904601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "순사이산",
+        "PAST_SPOT_" : "4719021010009",
+        "MNTN_ID" : "471902101"
+      },
+      "geometry" : {
+        "x" : 319493.56790000387,
+        "y" : 413594.85139999911
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 55659,
+        "MNTN_CODE" : "471904601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "순사이산",
+        "PAST_SPOT_" : "4719021010010",
+        "MNTN_ID" : "471902101"
+      },
+      "geometry" : {
+        "x" : 319510.88240000233,
+        "y" : 413555.02820000425
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 55660,
+        "MNTN_CODE" : "471904601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "순사이산",
+        "PAST_SPOT_" : "4719021010011",
+        "MNTN_ID" : "471902101"
+      },
+      "geometry" : {
+        "x" : 319515.21100000571,
+        "y" : 414232.88890000433
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 55661,
+        "MNTN_CODE" : "471904601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "순사이산",
+        "PAST_SPOT_" : "4719021010012",
+        "MNTN_ID" : "471902101"
+      },
+      "geometry" : {
+        "x" : 320205.1919000037,
+        "y" : 414115.15070000105
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 55662,
+        "MNTN_CODE" : "471904601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "월림1리 원흥마을",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "순사이산",
+        "PAST_SPOT_" : "4719021010013",
+        "MNTN_ID" : "471902101"
+      },
+      "geometry" : {
+        "x" : 319239.67200000491,
+        "y" : 412801.94220000133
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 55663,
+        "MNTN_CODE" : "471904601",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동기구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "순사이산",
+        "PAST_SPOT_" : "4719021010014",
+        "MNTN_ID" : "471902101"
+      },
+      "geometry" : {
+        "x" : 319072.20600000676,
+        "y" : 413067.61130000278
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 55664,
+        "MNTN_CODE" : "471904601",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "순사이산",
+        "PAST_SPOT_" : "4719021010015",
+        "MNTN_ID" : "471902101"
+      },
+      "geometry" : {
+        "x" : 319089.38150000479,
+        "y" : 413148.39520000294
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 55665,
+        "MNTN_CODE" : "471904601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "월림리 한실마을 입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "순사이산",
+        "PAST_SPOT_" : "4719021010016",
+        "MNTN_ID" : "471902101"
+      },
+      "geometry" : {
+        "x" : 319380.53180000465,
+        "y" : 413545.98490000144
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 55666,
+        "MNTN_CODE" : "471904601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "월림리 한실마을 입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "순사이산",
+        "PAST_SPOT_" : "4719021010017",
+        "MNTN_ID" : "471902101"
+      },
+      "geometry" : {
+        "x" : 319515.63360000495,
+        "y" : 413552.14709999971
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 55667,
+        "MNTN_CODE" : "471904601",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "정자,운동기구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "순사이산",
+        "PAST_SPOT_" : "4719021010018",
+        "MNTN_ID" : "471902101"
+      },
+      "geometry" : {
+        "x" : 319135.32510000467,
+        "y" : 414033.50769999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 55668,
+        "MNTN_CODE" : "471904601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "순사이산",
+        "PAST_SPOT_" : "4719021010019",
+        "MNTN_ID" : "471902101"
+      },
+      "geometry" : {
+        "x" : 319448.74850000534,
+        "y" : 414036.53110000119
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 55669,
+        "MNTN_CODE" : "471904601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산불감시초소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "순사이산",
+        "PAST_SPOT_" : "4719021010020",
+        "MNTN_ID" : "471902101"
+      },
+      "geometry" : {
+        "x" : 319518.61470000539,
+        "y" : 414114.32180000097
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 55670,
+        "MNTN_CODE" : "471904601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "신곡리 곤충농장 입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "순사이산",
+        "PAST_SPOT_" : "4719021010021",
+        "MNTN_ID" : "471902101"
+      },
+      "geometry" : {
+        "x" : 320208.14570000488,
+        "y" : 414116.51239999942
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 55671,
+        "MNTN_CODE" : "471904601",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치,운동기구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "순사이산",
+        "PAST_SPOT_" : "4719021010022",
+        "MNTN_ID" : "471902101"
+      },
+      "geometry" : {
+        "x" : 319030.99890000187,
+        "y" : 414334.21780000068
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 55672,
+        "MNTN_CODE" : "471904601",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "순사이산",
+        "PAST_SPOT_" : "4719021010023",
+        "MNTN_ID" : "471902101"
+      },
+      "geometry" : {
+        "x" : 318825.05620000139,
+        "y" : 414606.14590000175
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 55673,
+        "MNTN_CODE" : "471904601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "동산리 우측 입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "순사이산",
+        "PAST_SPOT_" : "4719021010024",
+        "MNTN_ID" : "471902101"
+      },
+      "geometry" : {
+        "x" : 318718.75210000388,
+        "y" : 414789.18900000118
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 55674,
+        "MNTN_CODE" : "471904601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "동산리 용정교 입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "순사이산",
+        "PAST_SPOT_" : "4719021010025",
+        "MNTN_ID" : "471902101"
+      },
+      "geometry" : {
+        "x" : 319010.2274000058,
+        "y" : 414878.49610000104
+      }
+    }
+  ]
+}

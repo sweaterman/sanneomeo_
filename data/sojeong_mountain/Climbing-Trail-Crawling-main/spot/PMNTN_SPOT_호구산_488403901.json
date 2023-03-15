@@ -1,0 +1,873 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 92505,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "4884037010001",
+        "MNTN_ID" : "488403701"
+      },
+      "geometry" : {
+        "x" : 284958.0382000003,
+        "y" : 245187.48560000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 92506,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "4884037010002",
+        "MNTN_ID" : "488403701"
+      },
+      "geometry" : {
+        "x" : 285836.02801576164,
+        "y" : 244454.70995281637
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 92507,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "용문사입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000003",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 284551.87839999981,
+        "y" : 243903.43560000136
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 92508,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000004",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 283783.29540000111,
+        "y" : 245458.50670000166
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 92509,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000005",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 285842.20480000041,
+        "y" : 244460.93830000237
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 92510,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000006",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 285473.2639000006,
+        "y" : 244579.25249999948
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 92511,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000007",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 285208.21219999995,
+        "y" : 244497.65310000442
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 92512,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000008",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 285129.36640000064,
+        "y" : 244440.71930000186
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 92513,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000009",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 285120.36590000242,
+        "y" : 244441.70600000024
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 92514,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000010",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 284874.53529999964,
+        "y" : 244515.17870000191
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 92515,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000011",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 282213.87830000091,
+        "y" : 243720.86930000223
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 92516,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000012",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 281985.85850000102,
+        "y" : 242976.06570000201
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 92517,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000013",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 282597.75260000024,
+        "y" : 246623.17970000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 92518,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000014",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 282660.87340000272,
+        "y" : 245420.08800000139
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 92519,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000015",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 282773.49760000408,
+        "y" : 245258.29609999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 92520,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000016",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 282775.79320000298,
+        "y" : 245254.6585999988
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 92521,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000017",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 282780.19840000104,
+        "y" : 245119.18040000089
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 92522,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000018",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 282633.69390000124,
+        "y" : 244587.00010000169
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 92523,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000019",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 282692.99960000161,
+        "y" : 244519.63169999793
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 92524,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000020",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 283523.04170000181,
+        "y" : 244191.60490000248
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 92525,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "호구산 봉수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000021",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 284407.83000000194,
+        "y" : 244924.78950000182
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 92526,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000022",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 284329.61450000014,
+        "y" : 245317.63849999942
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 92527,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000023",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 284280.75490000006,
+        "y" : 245970.02380000241
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 92528,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000024",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 282022.48810000066,
+        "y" : 242739.6070000045
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 92529,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "괴음산 정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000025",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 282389.91309999954,
+        "y" : 245677.88209999911
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 92530,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000026",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 282450.64100000169,
+        "y" : 243789.48750000075
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 92531,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000027",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 282459.62430000026,
+        "y" : 243812.04120000079
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 92532,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "송등산정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000028",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 282824.91299999878,
+        "y" : 244297.79399999976
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 92533,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000029",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 283225.6026999997,
+        "y" : 247864.84970000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 92534,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000030",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 283779.83180000074,
+        "y" : 244422.79330000095
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 92535,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000031",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 284001.03610000014,
+        "y" : 244563.69200000353
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 92536,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000032",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 284033.66509999987,
+        "y" : 245816.20600000024
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 92537,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000033",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 284207.18210000079,
+        "y" : 244187.80390000157
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 92538,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000034",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 284234.01960000023,
+        "y" : 244395.83900000155
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 92539,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "표지판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000035",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 284335.11909999978,
+        "y" : 244890.46730000153
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 92540,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "표지판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000036",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 284359.64970000181,
+        "y" : 244877.18290000409
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 92541,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "호구산 정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000037",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 284425.06260000076,
+        "y" : 244915.52610000037
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 92542,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000038",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 284442.19590000063,
+        "y" : 244857.8104000017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 92543,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000039",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 284546.1657000035,
+        "y" : 247165.23820000142
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 92544,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "등산로안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000040",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 284693.25439999904,
+        "y" : 243688.39310000464
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 92545,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,대형주차장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000041",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 284746.87170000002,
+        "y" : 243548.69900000095
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 92546,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000042",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 285824.50220000278,
+        "y" : 244389.03420000151
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 92547,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000043",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 285854.95360000059,
+        "y" : 244356.51590000279
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 92548,
+        "MNTN_CODE" : "488403901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호구산",
+        "PAST_SPOT_" : "28050939000044",
+        "MNTN_ID" : "2805093900"
+      },
+      "geometry" : {
+        "x" : 287617.32230000012,
+        "y" : 243728.57540000044
+      }
+    }
+  ]
+}

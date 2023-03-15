@@ -1,0 +1,999 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 74168,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010001",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 231832.48430000059,
+        "y" : 569656.96700000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 74169,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010002",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 232649.4319000002,
+        "y" : 567337.40980000421
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 74170,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010003",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 232775.84010000154,
+        "y" : 573983.77390000038
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 74171,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010004",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 233082.49720000103,
+        "y" : 571106.97000000253
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 74172,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010005",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 233727.46500000078,
+        "y" : 566384.24350000173
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 74173,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010006",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 233746.10950000118,
+        "y" : 571530.43850000203
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 74174,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010007",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 234758.62430000119,
+        "y" : 571736.72410000116
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 74175,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010008",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 235522.32310000248,
+        "y" : 569099.49120000191
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 74176,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010009",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 235541.95310000144,
+        "y" : 573107.99200000055
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 74177,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010010",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 236042.54680000152,
+        "y" : 572258.22470000386
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 74178,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010011",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 236315.58040000312,
+        "y" : 570655.99450000189
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 74179,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010012",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 236426.09150000196,
+        "y" : 571809.30950000137
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 74180,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010013",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 236493.04740000237,
+        "y" : 571671.96840000153
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 74181,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010014",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 233714.56589999981,
+        "y" : 566389.20240000077
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 74182,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010015",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 233261.54540000111,
+        "y" : 566628.29520000331
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 74183,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010016",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 232651.57149999868,
+        "y" : 567335.97260000184
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 74184,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010017",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 232018.06880000141,
+        "y" : 567450.32269999757
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 74185,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010018",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 231623.78300000355,
+        "y" : 567531.15550000034
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 74186,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010019",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 232276.10640000366,
+        "y" : 567573.9706000071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 74187,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010020",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 232091.5156000033,
+        "y" : 567637.49699999951
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 74188,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4136017010021",
+        "MNTN_ID" : "413601701"
+      },
+      "geometry" : {
+        "x" : 231306.9672000017,
+        "y" : 567753.61570000276
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 74189,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010022",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 232395.36090000067,
+        "y" : 568479.68630000204
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 74190,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010023",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 231272.77599999961,
+        "y" : 568589.18800000101
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 74191,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010024",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 235527.32990000024,
+        "y" : 569107.28250000253
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 74192,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010025",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 234007.28490000218,
+        "y" : 570263.99770000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 74193,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010026",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 233748.66740000248,
+        "y" : 570389.65070000105
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 74194,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "나무벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010027",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 233648.71169999987,
+        "y" : 570417.78060000017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 74195,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010028",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 232728.16570000071,
+        "y" : 570609.80760000274
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 74196,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010029",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 233486.59530000295,
+        "y" : 570660.9550000038
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 74197,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010030",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 236317.47450000048,
+        "y" : 570668.16889999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 74198,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010031",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 235423.11010000389,
+        "y" : 570842.4737000037
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 74199,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010032",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 236700.13219999801,
+        "y" : 570887.17229999974
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 74200,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010033",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 235201.39189999923,
+        "y" : 570960.6361000035
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 74201,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010034",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 235026.35690000001,
+        "y" : 571144.57709999941
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 74202,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010035",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 233381.51350000408,
+        "y" : 571331.98910000175
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 74203,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010036",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 234094.22609999962,
+        "y" : 571472.73660000227
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 74204,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노선내분기,",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010037",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 233743.24769999832,
+        "y" : 571529.29330000095
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 74205,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노선내분기,헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010038",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 234740.72960000299,
+        "y" : 571720.99910000339
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 74206,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010039",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 235051.81630000006,
+        "y" : 571724.63020000048
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 74207,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010040",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 235507.18910000101,
+        "y" : 572006.86529999971
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 74208,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010041",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 235866.4534,
+        "y" : 572064.36660000123
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 74209,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010042",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 236286.7918000007,
+        "y" : 572115.42500000447
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 74210,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010043",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 234910.21130000055,
+        "y" : 572232.90780000016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 74211,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010044",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 236043.00590000022,
+        "y" : 572260.51740000211
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 74212,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010045",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 235023.11590000242,
+        "y" : 572693.73450000212
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 74213,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010046",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 232513.57799999882,
+        "y" : 572732.16660000198
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 74214,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010047",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 235524.17960000411,
+        "y" : 573060.55420000106
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 74215,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010048",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 235539.9168000035,
+        "y" : 573108.14970000461
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 74216,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010049",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 232781.22300000116,
+        "y" : 573970.64240000024
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 74217,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010050",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 236292.24880000111,
+        "y" : 572333.85700000264
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 50,
+        "PMNTN_SPOT" : 74218,
+        "MNTN_CODE" : "418204601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "은두봉",
+        "PAST_SPOT_" : "4182032010051",
+        "MNTN_ID" : "418203201"
+      },
+      "geometry" : {
+        "x" : 236166.86078076623,
+        "y" : 572814.25273819454
+      }
+    }
+  ]
+}

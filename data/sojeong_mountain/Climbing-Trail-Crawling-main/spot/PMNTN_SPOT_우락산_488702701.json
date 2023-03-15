@@ -1,0 +1,441 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 69739,
+        "MNTN_CODE" : "488702701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "폐공장입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우락산",
+        "PAST_SPOT_" : "4887027010001",
+        "MNTN_ID" : "488702701"
+      },
+      "geometry" : {
+        "x" : 262934.72100000083,
+        "y" : 340117.23719999939
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 69740,
+        "MNTN_CODE" : "488702701",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "우륵산정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우락산",
+        "PAST_SPOT_" : "4887027010002",
+        "MNTN_ID" : "488702701"
+      },
+      "geometry" : {
+        "x" : 262862.35599999968,
+        "y" : 341008.44270000048
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 69741,
+        "MNTN_CODE" : "488702701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우락산",
+        "PAST_SPOT_" : "4887027010003",
+        "MNTN_ID" : "488702701"
+      },
+      "geometry" : {
+        "x" : 262863.59329999983,
+        "y" : 341042.79870000295
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 69742,
+        "MNTN_CODE" : "488702701",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우락산",
+        "PAST_SPOT_" : "4887027010004",
+        "MNTN_ID" : "488702701"
+      },
+      "geometry" : {
+        "x" : 262908.26649999898,
+        "y" : 341232.91260000132
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 69743,
+        "MNTN_CODE" : "488702701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우락산",
+        "PAST_SPOT_" : "4887027010005",
+        "MNTN_ID" : "488702701"
+      },
+      "geometry" : {
+        "x" : 262897.04050000198,
+        "y" : 341779.41370000131
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 69744,
+        "MNTN_CODE" : "488702701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "숲길끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우락산",
+        "PAST_SPOT_" : "4887027010006",
+        "MNTN_ID" : "488702701"
+      },
+      "geometry" : {
+        "x" : 262812.33350000158,
+        "y" : 341904.56929999962
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 69745,
+        "MNTN_CODE" : "488702701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "거기마을입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우락산",
+        "PAST_SPOT_" : "4887027010007",
+        "MNTN_ID" : "488702701"
+      },
+      "geometry" : {
+        "x" : 262524.03720000014,
+        "y" : 339853.40460000187
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 69746,
+        "MNTN_CODE" : "488702701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우락산",
+        "PAST_SPOT_" : "4887027010008",
+        "MNTN_ID" : "488702701"
+      },
+      "geometry" : {
+        "x" : 262663.97929999977,
+        "y" : 342234.51370000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 69747,
+        "MNTN_CODE" : "488702701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우락산",
+        "PAST_SPOT_" : "4887027010009",
+        "MNTN_ID" : "488702701"
+      },
+      "geometry" : {
+        "x" : 262724.09260000102,
+        "y" : 340642.00410000049
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 69748,
+        "MNTN_CODE" : "488702701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우락산",
+        "PAST_SPOT_" : "4887027010010",
+        "MNTN_ID" : "488702701"
+      },
+      "geometry" : {
+        "x" : 262805.17090000212,
+        "y" : 340410.81200000085
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 69749,
+        "MNTN_CODE" : "488702701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우락산",
+        "PAST_SPOT_" : "4887027010011",
+        "MNTN_ID" : "488702701"
+      },
+      "geometry" : {
+        "x" : 262862.16580000054,
+        "y" : 341008.4486999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 69750,
+        "MNTN_CODE" : "488702701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우락산",
+        "PAST_SPOT_" : "4887027010012",
+        "MNTN_ID" : "488702701"
+      },
+      "geometry" : {
+        "x" : 262939.91910000052,
+        "y" : 340112.77200000174
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 69751,
+        "MNTN_CODE" : "488702701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우락산",
+        "PAST_SPOT_" : "4887027010013",
+        "MNTN_ID" : "488702701"
+      },
+      "geometry" : {
+        "x" : 263552.1089000022,
+        "y" : 341410.48069999926
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 69752,
+        "MNTN_CODE" : "488702701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우락산",
+        "PAST_SPOT_" : "4887027010014",
+        "MNTN_ID" : "488702701"
+      },
+      "geometry" : {
+        "x" : 263851.96040000115,
+        "y" : 341153.93960000016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 69753,
+        "MNTN_CODE" : "488702701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우락산",
+        "PAST_SPOT_" : "4887027010015",
+        "MNTN_ID" : "488702701"
+      },
+      "geometry" : {
+        "x" : 263936.28720000014,
+        "y" : 341210.97880000249
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 98709,
+        "MNTN_CODE" : "488702701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우락산",
+        "PAST_SPOT_" : "4887027010016",
+        "MNTN_ID" : "488702701"
+      },
+      "geometry" : {
+        "x" : 262719.15019999968,
+        "y" : 340525.96620000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 98710,
+        "MNTN_CODE" : "488702701",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우락산",
+        "PAST_SPOT_" : "4887027010017",
+        "MNTN_ID" : "488702701"
+      },
+      "geometry" : {
+        "x" : 262718.35079999955,
+        "y" : 340938.74120000028
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 98711,
+        "MNTN_CODE" : "488702701",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우락산",
+        "PAST_SPOT_" : "4887027010018",
+        "MNTN_ID" : "488702701"
+      },
+      "geometry" : {
+        "x" : 262823.16469999996,
+        "y" : 340989.75060000113
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 98712,
+        "MNTN_CODE" : "488702701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타, 조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우락산",
+        "PAST_SPOT_" : "4887027010019",
+        "MNTN_ID" : "488702701"
+      },
+      "geometry" : {
+        "x" : 262897.45820000081,
+        "y" : 341197.54959999904
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 98713,
+        "MNTN_CODE" : "488702701",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "우락산",
+        "PAST_SPOT_" : "4887027010020",
+        "MNTN_ID" : "488702701"
+      },
+      "geometry" : {
+        "x" : 263547.01590000041,
+        "y" : 341408.40750000143
+      }
+    }
+  ]
+}

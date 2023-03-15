@@ -1,0 +1,909 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 50268,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010001",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 188093.06750000175,
+        "y" : 535121.0484000016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 50269,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010002",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 188129.59470000304,
+        "y" : 534879.20130000077
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 50270,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010003",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 188142.84300000407,
+        "y" : 535270.37490000017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 50271,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010004",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 188197.7424000036,
+        "y" : 534296.09300000407
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 50272,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010005",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 188341.81759999972,
+        "y" : 535048.18999999948
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 50273,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010006",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 188352.19280000031,
+        "y" : 534936.58640000224
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 50274,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010007",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 188356.38479999918,
+        "y" : 534997.42740000226
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 50275,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010008",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 188527.1836000029,
+        "y" : 535066.00740000233
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 50276,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010009",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 188558.96850000322,
+        "y" : 535854.31750000268
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 50277,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010010",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 188560.79840000067,
+        "y" : 535866.7685000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 50278,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010011",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 188577.73600000329,
+        "y" : 536121.0019000005
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 50279,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010012",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 188642.1640999997,
+        "y" : 533680.87630000338
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 50280,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010013",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 188676.37079999968,
+        "y" : 535925.34750000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 50281,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010014",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 188816.71620000061,
+        "y" : 535794.9254999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 50282,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010015",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 188835.67470000312,
+        "y" : 535777.68710000068
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 50283,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010016",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 188935.70660000201,
+        "y" : 535927.54240000062
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 50284,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010017",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 188940.25800000317,
+        "y" : 535935.57440000214
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 50285,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010018",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 188962.73210000247,
+        "y" : 535965.04110000096
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 50286,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010019",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 188974.23920000065,
+        "y" : 535971.95720000193
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 50287,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010020",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 188991.20590000041,
+        "y" : 535968.43029999733
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 50288,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010021",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 189070.83130000066,
+        "y" : 535721.64190000109
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 50289,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010022",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 189106.43620000128,
+        "y" : 536047.23880000412
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 50290,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010023",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 189120.08899999969,
+        "y" : 535882.81860000454
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 50291,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010024",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 189122.52219999954,
+        "y" : 535698.89530000277
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 50292,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010025",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 189167.53309999965,
+        "y" : 535508.23059999943
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 50293,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010026",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 189188.94850000087,
+        "y" : 535814.87930000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 50294,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010027",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 189329.64790000115,
+        "y" : 536320.31390000507
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 50295,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010028",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 189395.96310000028,
+        "y" : 536280.21800000221
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 50296,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010029",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 189399.60250000004,
+        "y" : 536296.65279999934
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 50297,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010030",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 189414.9888000004,
+        "y" : 536262.79100000113
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 50298,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010031",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 189463.71740000136,
+        "y" : 536314.80060000159
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 50299,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010032",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 189488.67279999983,
+        "y" : 535772.9523000028
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 50300,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "활강장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010033",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 188544.50600000285,
+        "y" : 535032.01019999944
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 50301,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010034",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 189133.9151999997,
+        "y" : 535570.59339999966
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 50302,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "옛약수터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010035",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 188513.75430000108,
+        "y" : 535663.80640000291
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 50303,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010036",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 188948.43700000364,
+        "y" : 535933.54140000418
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 50304,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "옛약수터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010037",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 189080.12679999974,
+        "y" : 535936.09640000202
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 50305,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "쉼터(정자)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010038",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 188945.07959999982,
+        "y" : 535938.18510000221
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 50306,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "절골약수터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010039",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 188942.54869999923,
+        "y" : 535938.66579999961
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 50307,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010040",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 188963.90790000092,
+        "y" : 535965.25160000101
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 50308,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010041",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 189143.81660000142,
+        "y" : 536045.25579999946
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 50309,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "국기대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010042",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 189149.35030000005,
+        "y" : 536046.39169999957
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 50310,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "서독산정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010043",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 188832.04939999897,
+        "y" : 536158.22259999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 50311,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010044",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 189271.22410000302,
+        "y" : 536186.8180999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 50312,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010045",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 188490.00870000478,
+        "y" : 534333.38440000266
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 50313,
+        "MNTN_CODE" : "412100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서독산",
+        "PAST_SPOT_" : "4121004010046",
+        "MNTN_ID" : "412100401"
+      },
+      "geometry" : {
+        "x" : 188368.60099999979,
+        "y" : 534495.30020000041
+      }
+    }
+  ]
+}

@@ -1,0 +1,819 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 18714,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "김할머니집",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000001",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 238115.53160000127,
+        "y" : 581379.24990000017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 18715,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000002",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 237586.17860000208,
+        "y" : 581630.52749999799
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 18716,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "로프10m",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000003",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 237193.14630000014,
+        "y" : 582141.71949999966
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 18717,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "로프7m",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000004",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 236699.94699999876,
+        "y" : 582346.76429999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 18718,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000005",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 237559.54130000249,
+        "y" : 581531.55210000277
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 18719,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "입구표지판",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000006",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 238559.52159999963,
+        "y" : 581249.99230000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 18720,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : "마지막집",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000007",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 238429.75860000122,
+        "y" : 581258.45530000143
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 18721,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000008",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 238102.23180000111,
+        "y" : 581862.85889999755
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 18722,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "벌목지역",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000009",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 238010.23700000159,
+        "y" : 581939.77740000188
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 18723,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000010",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 238075.23269999959,
+        "y" : 582356.75000000373
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 18724,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "미끄럼주의",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000011",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 238076.41680000257,
+        "y" : 582393.90619999915
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 18725,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : "급경사10m",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000012",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 238112.27850000001,
+        "y" : 582504.34779999964
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 18726,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000013",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 237343.75170000363,
+        "y" : 582694.20050000399
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 18727,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "깃대봉 전경",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000014",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 233953.49730000366,
+        "y" : 582775.74940000288
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 18728,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : "작은예수회마을",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000015",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 234112.80400000233,
+        "y" : 582620.75579999946
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 18729,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : "크리스탈생수",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000016",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 234400.32810000144,
+        "y" : 582549.14690000191
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 18730,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "폭포 전경",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000017",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 234923.133100003,
+        "y" : 582549.00150000304
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 18731,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "폭포 전경",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000018",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 235206.61400000378,
+        "y" : 582558.78649999946
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 18732,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "이정표",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000019",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 236710.64240000118,
+        "y" : 580878.63240000419
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 18733,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000020",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 238393.30810000096,
+        "y" : 579288.82060000114
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 18734,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000021",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 238244.57210000046,
+        "y" : 579536.98520000093
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 18735,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000022",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 238248.03600000031,
+        "y" : 579986.64990000054
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 18736,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000023",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 237749.66490000114,
+        "y" : 579929.3011000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 18737,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000024",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 237541.26440000068,
+        "y" : 579867.30240000039
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 18738,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "밧줄",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000025",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 237039.34059999976,
+        "y" : 579912.31960000098
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 18739,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노선접전",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000026",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 236817.91309999954,
+        "y" : 579630.84040000103
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 18740,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000027",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 237048.57380000036,
+        "y" : 579404.88410000131
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 18741,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "옹달샘펜션",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000028",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 237927.60190000106,
+        "y" : 579166.01450000331
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 18742,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,기타",
+        "ETC_MATTER" : "버스정류장",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000029",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 232988.36270000227,
+        "y" : 583148.55340000242
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 18743,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상 약수봉",
+        "ETC_MATTER" : "약수봉",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000030",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 236206.80610000249,
+        "y" : 581545.35129999928
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 18744,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "삼거리",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000031",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 236492.46799999941,
+        "y" : 582160.32330000214
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 18745,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "삼거리",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000032",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 236594.61120000109,
+        "y" : 582290.22059999965
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 18746,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : "깃대봉정상",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000033",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 236865.34269999992,
+        "y" : 582493.50750000216
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 18747,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "노선내분기",
+        "ETC_MATTER" : "삼거리",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000034",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 236915.73089999985,
+        "y" : 582486.90650000237
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 18748,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "대금산 정상",
+        "ETC_MATTER" : "대금산 조사됨",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000035",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 237059.05300000031,
+        "y" : 579962.54110000096
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 18749,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "노선내 접점",
+        "ETC_MATTER" : "삼거리",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000036",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 237591.96700000204,
+        "y" : 581567.68510000035
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 18750,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상 송이봉",
+        "ETC_MATTER" : "송이봉정상",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000037",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 238059.38920000102,
+        "y" : 582613.23380000144
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 18751,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000038",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 238313.87880000193,
+        "y" : 579235.49010000192
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 18752,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "이정표없음",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000039",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 238563.89870000165,
+        "y" : 581006.30389999971
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 18753,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,종합표지판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000040",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 238594.29409999959,
+        "y" : 579131.86580000259
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 18754,
+        "MNTN_CODE" : "418201101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,안내판,버스종점",
+        "ETC_MATTER" : "버스종점",
+        "MNTN_NM" : "대금산",
+        "PAST_SPOT_" : "21010110000041",
+        "MNTN_ID" : "2101011000"
+      },
+      "geometry" : {
+        "x" : 238850.47750000004,
+        "y" : 580926.34000000171
+      }
+    }
+  ]
+}

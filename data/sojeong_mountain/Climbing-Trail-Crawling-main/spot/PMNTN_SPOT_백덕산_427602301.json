@@ -1,0 +1,513 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 34350,
+        "MNTN_CODE" : "427602301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "표지판",
+        "ETC_MATTER" : "백덕산5.6km",
+        "MNTN_NM" : "백덕산",
+        "PAST_SPOT_" : "22150817000001",
+        "MNTN_ID" : "2215081700"
+      },
+      "geometry" : {
+        "x" : 311344.9803000018,
+        "y" : 536923.30169999972
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 34351,
+        "MNTN_CODE" : "427602301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "표지판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백덕산",
+        "PAST_SPOT_" : "22150817000002",
+        "MNTN_ID" : "2215081700"
+      },
+      "geometry" : {
+        "x" : 313130.98900000192,
+        "y" : 534895.18350000121
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 34352,
+        "MNTN_CODE" : "427602301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백덕산",
+        "PAST_SPOT_" : "22150817000003",
+        "MNTN_ID" : "2215081700"
+      },
+      "geometry" : {
+        "x" : 311438.75710000284,
+        "y" : 536949.59140000306
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 34353,
+        "MNTN_CODE" : "427602301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백덕산",
+        "PAST_SPOT_" : "22150817000004",
+        "MNTN_ID" : "2215081700"
+      },
+      "geometry" : {
+        "x" : 311361.96070000157,
+        "y" : 536578.12140000053
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 34354,
+        "MNTN_CODE" : "427602301",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백덕산",
+        "PAST_SPOT_" : "22150817000005",
+        "MNTN_ID" : "2215081700"
+      },
+      "geometry" : {
+        "x" : 311641.5510000037,
+        "y" : 535871.8320000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 34355,
+        "MNTN_CODE" : "427602301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "군락지",
+        "ETC_MATTER" : "노루오줌,도깨비부채",
+        "MNTN_NM" : "백덕산",
+        "PAST_SPOT_" : "22150817000006",
+        "MNTN_ID" : "2215081700"
+      },
+      "geometry" : {
+        "x" : 313327.80280000251,
+        "y" : 534893.16710000299
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 34356,
+        "MNTN_CODE" : "427602301",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "둥굴레군락지",
+        "MNTN_NM" : "백덕산",
+        "PAST_SPOT_" : "22150817000007",
+        "MNTN_ID" : "2215081700"
+      },
+      "geometry" : {
+        "x" : 312798.4260000037,
+        "y" : 534991.98930000328
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 34357,
+        "MNTN_CODE" : "427602301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : "원당-먹골",
+        "MNTN_NM" : "백덕산",
+        "PAST_SPOT_" : "22150817000008",
+        "MNTN_ID" : "2215081700"
+      },
+      "geometry" : {
+        "x" : 315804.61030000262,
+        "y" : 535060.54190000333
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 34358,
+        "MNTN_CODE" : "427602301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도",
+        "ETC_MATTER" : "계촌임도",
+        "MNTN_NM" : "백덕산",
+        "PAST_SPOT_" : "22150817000009",
+        "MNTN_ID" : "2215081700"
+      },
+      "geometry" : {
+        "x" : 315691.88720000256,
+        "y" : 535440.3936999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 34359,
+        "MNTN_CODE" : "427602301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백덕산",
+        "PAST_SPOT_" : "22150817000010",
+        "MNTN_ID" : "2215081700"
+      },
+      "geometry" : {
+        "x" : 314284.04899999872,
+        "y" : 535736.77070000209
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 34360,
+        "MNTN_CODE" : "427602301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도",
+        "ETC_MATTER" : "샘터",
+        "MNTN_NM" : "백덕산",
+        "PAST_SPOT_" : "22150817000011",
+        "MNTN_ID" : "2215081700"
+      },
+      "geometry" : {
+        "x" : 314008.67980000284,
+        "y" : 535187.27630000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 34361,
+        "MNTN_CODE" : "427602301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : "계곡",
+        "MNTN_NM" : "백덕산",
+        "PAST_SPOT_" : "22150817000012",
+        "MNTN_ID" : "2215081700"
+      },
+      "geometry" : {
+        "x" : 314132.47400000412,
+        "y" : 535524.71920000017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 34362,
+        "MNTN_CODE" : "427602301",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : "범꼬리",
+        "MNTN_NM" : "백덕산",
+        "PAST_SPOT_" : "22150817000013",
+        "MNTN_ID" : "2215081700"
+      },
+      "geometry" : {
+        "x" : 314772.79780000262,
+        "y" : 534432.24370000139
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 34363,
+        "MNTN_CODE" : "427602301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "군락지",
+        "ETC_MATTER" : "옻나무,진달래",
+        "MNTN_NM" : "백덕산",
+        "PAST_SPOT_" : "22150817000014",
+        "MNTN_ID" : "2215081700"
+      },
+      "geometry" : {
+        "x" : 314170.96970000304,
+        "y" : 535861.24110000208
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 34364,
+        "MNTN_CODE" : "427602301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "군락지",
+        "ETC_MATTER" : "도깨비부채",
+        "MNTN_NM" : "백덕산",
+        "PAST_SPOT_" : "22150817000015",
+        "MNTN_ID" : "2215081700"
+      },
+      "geometry" : {
+        "x" : 314024.94820000418,
+        "y" : 534709.28050000034
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 34365,
+        "MNTN_CODE" : "427602301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "문재터널",
+        "MNTN_NM" : "백덕산",
+        "PAST_SPOT_" : "22150817000016",
+        "MNTN_ID" : "2215081700"
+      },
+      "geometry" : {
+        "x" : 311634.26670000143,
+        "y" : 537094.99099999852
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 34366,
+        "MNTN_CODE" : "427602301",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "사자산정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백덕산",
+        "PAST_SPOT_" : "22150817000017",
+        "MNTN_ID" : "2215081700"
+      },
+      "geometry" : {
+        "x" : 312075.81000000052,
+        "y" : 535025.28299999982
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 34367,
+        "MNTN_CODE" : "427602301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "비네소골",
+        "MNTN_NM" : "백덕산",
+        "PAST_SPOT_" : "22150817000018",
+        "MNTN_ID" : "2215081700"
+      },
+      "geometry" : {
+        "x" : 313848.11500000302,
+        "y" : 537463.41699999943
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 34368,
+        "MNTN_CODE" : "427602301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "사자산-비네소골",
+        "MNTN_NM" : "백덕산",
+        "PAST_SPOT_" : "22150817000019",
+        "MNTN_ID" : "2215081700"
+      },
+      "geometry" : {
+        "x" : 314012.55030000303,
+        "y" : 534570.86140000075
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 34369,
+        "MNTN_CODE" : "427602301",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "백덕산정상",
+        "ETC_MATTER" : "삼각점",
+        "MNTN_NM" : "백덕산",
+        "PAST_SPOT_" : "22150817000020",
+        "MNTN_ID" : "2215081700"
+      },
+      "geometry" : {
+        "x" : 314544.96590000298,
+        "y" : 533792.9085000027
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 34370,
+        "MNTN_CODE" : "427602301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "먹골-문재",
+        "MNTN_NM" : "백덕산",
+        "PAST_SPOT_" : "22150817000021",
+        "MNTN_ID" : "2215081700"
+      },
+      "geometry" : {
+        "x" : 314568.9813000029,
+        "y" : 534262.38620000146
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 34371,
+        "MNTN_CODE" : "427602301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백덕산",
+        "PAST_SPOT_" : "22150817000022",
+        "MNTN_ID" : "2215081700"
+      },
+      "geometry" : {
+        "x" : 314793.29230000265,
+        "y" : 534452.29460000247
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 34372,
+        "MNTN_CODE" : "427602301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "먹골",
+        "MNTN_NM" : "백덕산",
+        "PAST_SPOT_" : "22150817000023",
+        "MNTN_ID" : "2215081700"
+      },
+      "geometry" : {
+        "x" : 314997.19570000283,
+        "y" : 537222.46749999933
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 34373,
+        "MNTN_CODE" : "427602301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백덕산",
+        "PAST_SPOT_" : "22150817000024",
+        "MNTN_ID" : "2215081700"
+      },
+      "geometry" : {
+        "x" : 314135.60180000681,
+        "y" : 534380.52199999988
+      }
+    }
+  ]
+}
