@@ -8,6 +8,7 @@ import usersReducer from '@features/user/userSlice';
 
 export const store = configureStore({
   reducer: {
+    // slice 삽입. slice의 name을 key값으로 사용
     counter: counterReducer,
     mountains: mountainsReducer,
     trails: trailsReducer,

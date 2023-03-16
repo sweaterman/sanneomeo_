@@ -4,9 +4,10 @@ module.exports = {
     style: {
         sass: {
           loaderOptions: {
+            // 적용할 스타일 imoprt하기
             additionalData: `
-              @import "@/styles/_variable.scss";
-              @import "@/styles/_mixin.scss";
+            @import "src/assets/scss/_variables.scss";
+            @import "src/assets/scss/_mixins.scss";
             `
           }
         }
