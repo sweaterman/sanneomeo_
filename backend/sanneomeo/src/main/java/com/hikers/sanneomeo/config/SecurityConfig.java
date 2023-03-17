@@ -1,5 +1,7 @@
 package com.hikers.sanneomeo.config;
 
+//import static com.hikers.sanneomeo.config.Constants.HTTP_SECURITY_EXCLUDE_URI;
+
 import com.hikers.sanneomeo.repository.UserRepository;
 import com.hikers.sanneomeo.security.oauth2.CustomOAuth2CookieAuthorizationRequestRepository;
 import com.hikers.sanneomeo.security.oauth2.CustomOAuth2Provider;
@@ -43,7 +45,7 @@ public class SecurityConfig {
   @Bean
   public WebSecurityCustomizer webSecurityCustomizer() {
     return (web) -> web.ignoring().requestMatchers(PathRequest.toStaticResources().atCommonLocations())
-        .antMatchers("/resources/", "/error", "favicon.ico", "/swagger*/**");
+        .antMatchers(Constants.SECURITY_WEB_EXCLUDE_URIS);
   }
 
   @Bean
@@ -59,7 +61,7 @@ public class SecurityConfig {
         .csrf(AbstractHttpConfigurer::disable)
         .sessionManagement(session-> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
         .authorizeHttpRequests(authorize -> authorize
-            .antMatchers("/", "/user/login/after").permitAll()
+            .antMatchers(Constants.SECURITY_HTTP_EXCLUDE_URIS).permitAll()
             .anyRequest().authenticated()
         )
     ;
@@ -126,17 +128,15 @@ public class SecurityConfig {
     CorsConfiguration configuration = new CorsConfiguration();
 
     configuration.addAllowedOriginPattern("*");
-
-    //custom header 설정
-    configuration.addAllowedHeader("Authorization");
-    configuration.addAllowedHeader("Content-Type");
-    configuration.addAllowedHeader("refresh-token");
-    configuration.addExposedHeader("Authorization");
-    configuration.addExposedHeader("Content-Type");
-    configuration.addExposedHeader("refresh-token");
-
     configuration.addAllowedMethod("*");
     configuration.setAllowCredentials(true);
+
+    //custom header 설정
+    for(String key : Constants.CORS_HEADER_URIS){
+      configuration.addAllowedHeader(key);
+      configuration.addExposedHeader(key);
+    }
+
 
     UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
     source.registerCorsConfiguration("/**", configuration);
