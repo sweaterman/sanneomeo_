@@ -1,9 +1,9 @@
 
-function Footers(){
+function Header(){
     return(
         <>
         </>
     );
 }
 
-export default Footers;
+export default Header;
