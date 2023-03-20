@@ -11,6 +11,4 @@ public class S3UploadUtils {
   private String privateKey;
 
 
-
-
 }
