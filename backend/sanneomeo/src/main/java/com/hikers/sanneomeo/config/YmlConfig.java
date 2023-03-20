@@ -13,7 +13,6 @@ import org.springframework.context.annotation.Configuration;
 @Setter
 public class YmlConfig {
   private String redirectUri;
-
   private String kakaoClientId;
   private String googleClientId;
   private String googleClientSecret;
