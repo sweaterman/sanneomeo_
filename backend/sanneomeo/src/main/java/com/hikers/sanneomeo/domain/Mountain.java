@@ -47,5 +47,25 @@ public class Mountain {
     @Column(name = "difficulty")
     private String difficulty;
 
+    @Column(name = "top100")
+    private Integer top100;
+
+    @Column(name = "spring")
+    private Integer spring;
+
+    @Column(name = "summer")
+    private Integer summer;
+
+    @Column(name = "fall")
+    private Integer fall;
+
+    @Column(name = "winter")
+    private Integer winter;
+
+    @Column(name = "sunrise")
+    private Integer sunrise;
+
+    @Column(name = "sunset")
+    private Integer sunset;
 
 }
