@@ -1,9 +1,7 @@
+import React from 'react';
 
-function ReviewItems(){
-    return(
-        <>
-        </>
-    );
+function ReviewItems() {
+  return <></>;
 }
 
 export default ReviewItems;

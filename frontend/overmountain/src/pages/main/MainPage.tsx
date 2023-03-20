@@ -1,14 +1,14 @@
-
+import React from 'react';
 import Searchbar from '@components/main/Searchbar';
-import MountainItem from '@/components/main/MountainItems';
+import MountainItem from '@components/main/MountainItems';
 
-function MainPage(){
-    return(
-        <>
-        <Searchbar />
-        <MountainItem />
-        </>
-    );
+function MainPage() {
+  return (
+    <>
+      <Searchbar />
+      <MountainItem />
+    </>
+  );
 }
 
 export default MainPage;

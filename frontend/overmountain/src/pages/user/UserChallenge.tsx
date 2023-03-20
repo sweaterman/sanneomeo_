@@ -1,9 +1,7 @@
+import React from 'react';
 
-function UserChallenge(){
-    return(
-        <>
-        </>
-    );
+function UserChallenge() {
+  return <></>;
 }
 
 export default UserChallenge;

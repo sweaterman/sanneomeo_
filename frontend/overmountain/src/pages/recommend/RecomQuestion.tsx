@@ -1,9 +1,7 @@
+import React from 'react';
 
-function RecomQuestion(){
-    return(
-        <>
-        </>
-    );
+function RecomQuestion() {
+  return <></>;
 }
 
 export default RecomQuestion;

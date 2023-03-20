@@ -1,9 +1,7 @@
+import React from 'react';
 
-function Map(){
-    return(
-        <>
-        </>
-    );
+function Map() {
+  return <></>;
 }
 
 export default Map;

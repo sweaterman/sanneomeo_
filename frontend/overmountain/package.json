@@ -15,8 +15,14 @@
     "@types/react-redux": "^7.1.25",
     "@types/react-router-dom": "^5.3.3",
     "@types/redux-logger": "^3.0.9",
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
     "axios": "^1.3.4",
     "css-loader": "^6.7.3",
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.7.0",
+    "lint": "^0.8.19",
     "node-sass": "^8.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -34,12 +40,16 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "test": "craco test"
+    "test": "craco test",
+    "lint": "eslint './src/**/*.{ts,tsx,js,jsx}'",
+    "lint:fix": "eslint --fix './src/**/*.{ts,tsx,js,jsx}'"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+      "airbnb",
+      "prettier"
     ]
   },
   "browserslist": {
@@ -55,6 +65,8 @@
     ]
   },
   "devDependencies": {
-    "craco-alias": "^3.0.1"
+    "@typescript-eslint/parser": "^5.55.0",
+    "craco-alias": "^3.0.1",
+    "eslint-plugin-react": "^7.32.2"
   }
 }

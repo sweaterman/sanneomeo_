@@ -1,9 +1,7 @@
+import React from 'react';
 
-function MountainDetail(){
-    return(
-        <>
-        </>
-    );
+function MountainDetail() {
+  return <></>;
 }
 
 export default MountainDetail;
