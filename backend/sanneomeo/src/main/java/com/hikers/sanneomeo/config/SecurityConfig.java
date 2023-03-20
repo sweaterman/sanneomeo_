@@ -16,12 +16,17 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.security.servlet.PathRequest;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityCustomizer;
 import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
+import org.springframework.security.config.annotation.web.configurers.AnonymousConfigurer;
+import org.springframework.security.config.annotation.web.configurers.DefaultLoginPageConfigurer;
 import org.springframework.security.config.annotation.web.configurers.FormLoginConfigurer;
+import org.springframework.security.config.annotation.web.configurers.LogoutConfigurer;
+import org.springframework.security.config.annotation.web.configurers.RequestCacheConfigurer;
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.oauth2.client.registration.ClientRegistration;
@@ -56,18 +61,23 @@ public class SecurityConfig {
     //cors config
     http.cors().configurationSource(corsConfigurationSource());
 
+
     //기본 설정 해제와 경로 설정
     http
-        .formLogin(FormLoginConfigurer::disable)
-        .httpBasic(AbstractHttpConfigurer::disable)
         .csrf(AbstractHttpConfigurer::disable)
+        .formLogin(FormLoginConfigurer::disable)
         .sessionManagement(session-> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+        .requestCache(RequestCacheConfigurer::disable)
         .authorizeHttpRequests(authorize -> authorize
 //            .antMatchers(Constants.SECURITY_HTTP_EXCLUDE_URIS).permitAll()
-                .anyRequest().permitAll() //임시로 모든 요청 풀어두기
-            .anyRequest().authenticated()
+                .anyRequest().permitAll()
+            //임시로 모든 요청에 허용
+//            .anyRequest().authenticated()
         )
     ;
+
+    http.getConfigurer(DefaultLoginPageConfigurer.class).disable();
+
 
     //oauth2 설정
     http
@@ -79,11 +89,14 @@ public class SecurityConfig {
             .userInfoEndpoint(userInfoEndpointConfig -> userInfoEndpointConfig.userService(customOAuth2UserService()))
             .loginProcessingUrl(Constants.SECURITY_LOGIN_PROCESSING_URI)
             .clientRegistrationRepository(clientRegistrationRepository())
+            .successHandler(customOAuth2UserSuccessHandler())
             .failureHandler(customOAuth2UserFailureHandler())
         );
 
+//                .anyRequest().permitAll() //임시로 모든 요청 풀어두기
     //jwtTokenFilter 설정
     http.addFilterBefore(jwtTokenFilter(), OAuth2AuthorizationRequestRedirectFilter.class);
+    http.removeConfigurer(DefaultLoginPageConfigurer.class);
 
     return http.build();
   }

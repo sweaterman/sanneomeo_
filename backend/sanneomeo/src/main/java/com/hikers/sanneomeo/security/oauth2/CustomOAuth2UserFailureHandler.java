@@ -1,5 +1,6 @@
 package com.hikers.sanneomeo.security.oauth2;
 
+import static com.hikers.sanneomeo.security.oauth2.CustomOAuth2CookieAuthorizationRequestRepository.OAUTH2_AUTHORIZATION_REQUEST_COOKIE_NAME;
 import static com.hikers.sanneomeo.security.oauth2.CustomOAuth2CookieAuthorizationRequestRepository.REDIRECT_URI_PARAM_COOKIE_NAME;
 
 
@@ -63,6 +64,10 @@ public class CustomOAuth2UserFailureHandler extends SimpleUrlAuthenticationFailu
         .queryParam("token", jwtTokenInfo.getAccessToken())
         .encode()
         .build().toUriString();
+
+    //쿠키 삭제
+    CookieUtils.deleteCookie(request,response, OAUTH2_AUTHORIZATION_REQUEST_COOKIE_NAME);
+    CookieUtils.deleteCookie(request, response, REDIRECT_URI_PARAM_COOKIE_NAME);
 
     getRedirectStrategy().sendRedirect(request, response, url);
 

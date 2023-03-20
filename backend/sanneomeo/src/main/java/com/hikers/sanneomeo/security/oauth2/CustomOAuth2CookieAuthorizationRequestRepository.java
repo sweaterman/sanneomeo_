@@ -1,5 +1,6 @@
 package com.hikers.sanneomeo.security.oauth2;
 
+import com.hikers.sanneomeo.config.Constants;
 import com.hikers.sanneomeo.utils.CookieUtils;
 import java.util.HashMap;
 import java.util.Map;
@@ -47,9 +48,8 @@ public class CustomOAuth2CookieAuthorizationRequestRepository<T extends OAuth2Au
   public void saveAuthorizationRequest(OAuth2AuthorizationRequest authorizationRequest, HttpServletRequest request, HttpServletResponse response) {
     CookieUtils.addCookie(response, OAUTH2_AUTHORIZATION_REQUEST_COOKIE_NAME,
         CookieUtils.serialize(authorizationRequest), cookieExpireSeconds);
-    String redirectUriAfterLogin = "http://localhost:9090/user/login/after";
 //    String redirectUriAfterLogin=request.getParameter("redirectUri");
-    CookieUtils.addCookie(response, REDIRECT_URI_PARAM_COOKIE_NAME, redirectUriAfterLogin, cookieExpireSeconds);
+    CookieUtils.addCookie(response, REDIRECT_URI_PARAM_COOKIE_NAME, Constants.SECURITY_AFTER_LOGIN, cookieExpireSeconds);
 //    String redirectUriAfterLogin = request.getParameter(REDIRECT_URI_PARAM_COOKIE_NAME);
 //    if (StringUtils.isNotBlank(redirectUriAfterLogin)) {
 //      CookieUtils.addCookie(response, REDIRECT_URI_PARAM_COOKIE_NAME, redirectUriAfterLogin,

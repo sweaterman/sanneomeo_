@@ -38,6 +38,7 @@ public class JwtTokenFilter extends OncePerRequestFilter {
         System.out.println(request.getRequestURI());
 
         //login 요청의 경우 다음 필터로
+
         if (antPathMatcher.match(excludeUrl, request.getRequestURI())) {
             filterChain.doFilter(request, response);
             return;
