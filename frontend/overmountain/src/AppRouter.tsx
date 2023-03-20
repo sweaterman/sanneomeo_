@@ -15,8 +15,8 @@ import UserWishList from '@pages/user/UserWishlist';
 function AppRouter() {
   return (
     <BrowserRouter>
-      <Routes>
       <Header />
+      <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/mountain/detail" element={<MountainDetail />} />
         <Route path="/mountain/upload" element={<UploadPhoto />} />
@@ -26,8 +26,8 @@ function AppRouter() {
         <Route path="/user/mypage" element={<UserMypage />} />
         <Route path="/user/wishlist" element={<UserWishList />} />
         <Route path="/user/challenge" element={<UserChallenge />} />
-      <Footer />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

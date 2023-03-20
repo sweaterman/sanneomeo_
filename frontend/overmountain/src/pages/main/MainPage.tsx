@@ -5,6 +5,7 @@ import MountainItem from '@components/main/MountainItems';
 function MainPage() {
   return (
     <>
+      <h1>Hello Main!</h1>
       <Searchbar />
       <MountainItem />
     </>
