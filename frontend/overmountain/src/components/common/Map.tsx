@@ -1,9 +1,9 @@
 
-function MainPage(){
+function Map(){
     return(
         <>
         </>
     );
 }
 
-export default MainPage;
+export default Map;
