@@ -76,7 +76,7 @@ public class JwtTokenUtils {
 
     String accessToken = req.getHeader("Authorization");
     if (accessToken == null) {
-      throw new BaseException(BaseResponseStatus.ACCESS_TOKEN_NULL);
+      throw new BaseException(BaseResponseStatus.TOKEN_NULL_ERROR);
     }
     return accessToken;
 

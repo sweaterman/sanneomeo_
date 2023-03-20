@@ -49,12 +49,11 @@ public class CustomOAuth2UserService implements OAuth2UserService<OAuth2UserRequ
     //db에 존재하는 유저라면 authenticated user 인스턴스를 생성해서 인증 객체를 만든다.
     Map<String, Object> attributes = (CustomAuthenticatedUser.builder()
         .userSeq(user.getUserSeq())
-        .level(user.getLevel())
         .role("ROLE_USER")
         .build().objToMap());
 
     //oauth2객체의 검사를 위해 name attribute에 해당하는 값을 넣는다.
-    attributes.put(customOAuth2User.getNameAttributeKey(), customOAuth2User.get)
+    attributes.put(customOAuth2User.getNameAttributeKey(), customOAuth2User.getNameAttributeKey());
 
     //db에 존재하는 유저라면 -> 인증객체 만들고 success handler
     return new DefaultOAuth2User(

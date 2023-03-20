@@ -36,7 +36,6 @@ public class CustomOAuth2UserSuccessHandler extends SimpleUrlAuthenticationSucce
     JwtTokenInfo jwtTokenInfo = JwtTokenUtils.allocateToken(customAuthenticatedUser.getUserSeq(), customAuthenticatedUser.getRole());
 
     String url = UriComponentsBuilder.fromUriString(ymlConfig.getRedirectUri())
-        .queryParam("level", customAuthenticatedUser.getLevel())
         .queryParam("token", jwtTokenInfo.getAccessToken())
         .build().toUriString();
 

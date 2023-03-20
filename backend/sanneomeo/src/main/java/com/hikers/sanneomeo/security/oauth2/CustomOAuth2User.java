@@ -15,7 +15,6 @@ public class CustomOAuth2User  {
   private String nameAttributeKey;
   private String nickname;
   private String profileImg;
-  private Integer level;
   private Long userSeq;
 
 

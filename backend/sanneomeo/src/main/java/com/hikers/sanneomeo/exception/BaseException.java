@@ -1,12 +1,9 @@
 package com.hikers.sanneomeo.exception;
 
 
-import com.hikers.sanneomeo.dto.response.BaseResponseDto;
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 @Getter
-@AllArgsConstructor
 public class BaseException extends RuntimeException {
   private BaseResponseStatus status;
   private String message;

@@ -3,6 +3,7 @@ package com.hikers.sanneomeo.config;
 //import static com.hikers.sanneomeo.config.Constants.HTTP_SECURITY_EXCLUDE_URI;
 
 import com.hikers.sanneomeo.repository.UserRepository;
+import com.hikers.sanneomeo.security.jwt.JwtTokenFilter;
 import com.hikers.sanneomeo.security.oauth2.CustomOAuth2CookieAuthorizationRequestRepository;
 import com.hikers.sanneomeo.security.oauth2.CustomOAuth2Provider;
 import com.hikers.sanneomeo.security.oauth2.CustomOAuth2UserFailureHandler;
@@ -26,6 +27,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.oauth2.client.registration.ClientRegistration;
 import org.springframework.security.oauth2.client.registration.ClientRegistrationRepository;
 import org.springframework.security.oauth2.client.registration.InMemoryClientRegistrationRepository;
+import org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter;
 import org.springframework.security.oauth2.core.endpoint.OAuth2AuthorizationRequest;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.web.cors.CorsConfiguration;
@@ -61,7 +63,8 @@ public class SecurityConfig {
         .csrf(AbstractHttpConfigurer::disable)
         .sessionManagement(session-> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
         .authorizeHttpRequests(authorize -> authorize
-            .antMatchers(Constants.SECURITY_HTTP_EXCLUDE_URIS).permitAll()
+//            .antMatchers(Constants.SECURITY_HTTP_EXCLUDE_URIS).permitAll()
+                .anyRequest().permitAll() //임시로 모든 요청 풀어두기
             .anyRequest().authenticated()
         )
     ;
@@ -78,6 +81,9 @@ public class SecurityConfig {
             .clientRegistrationRepository(clientRegistrationRepository())
             .failureHandler(customOAuth2UserFailureHandler())
         );
+
+    //jwtTokenFilter 설정
+    http.addFilterBefore(jwtTokenFilter(), OAuth2AuthorizationRequestRedirectFilter.class);
 
     return http.build();
   }
@@ -113,15 +119,9 @@ public class SecurityConfig {
   }
 
   @Bean
-  public CustomOAuth2UserFailureHandler customOAuth2UserFailureHandler() { return new CustomOAuth2UserFailureHandler(ymlConfig, userRepository); }
-
+  public CustomOAuth2UserFailureHandler customOAuth2UserFailureHandler() { return new CustomOAuth2UserFailureHandler(userRepository); }
   @Bean
   public CustomOAuth2UserSuccessHandler customOAuth2UserSuccessHandler() {return new CustomOAuth2UserSuccessHandler(ymlConfig);}
-  @Bean
-  public BCryptPasswordEncoder passwordEncoder() {
-    return new BCryptPasswordEncoder();
-  }
-
 
   @Bean
   public CorsConfigurationSource corsConfigurationSource() {
@@ -142,4 +142,8 @@ public class SecurityConfig {
     return source;
   }
 
+  @Bean
+  public JwtTokenFilter jwtTokenFilter(){
+    return new JwtTokenFilter();
+  }
 }

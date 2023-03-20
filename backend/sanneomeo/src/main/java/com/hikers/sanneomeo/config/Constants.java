@@ -8,4 +8,6 @@ public class Constants {
   public static final String SECURITY_LOGIN_PROCESSING_URI = "/user/login/callback/*";
   public static final String BASE_URI = "/user/login";
 
+
+
 }
