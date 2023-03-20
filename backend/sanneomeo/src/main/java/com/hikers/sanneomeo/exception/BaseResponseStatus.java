@@ -15,7 +15,9 @@ public enum BaseResponseStatus {
   SIGNUP_REQUIRED(HttpStatus.OK, 4001, "회원가입이 필요한 유저입니다."),
   OAUTH_SETTING_ERROR(HttpStatus.INTERNAL_SERVER_ERROR, 4002, "OAuth2 인증 과정에서 에러가 발생했습니다."),
   TOKEN_CLAIM_ERROR(HttpStatus.INTERNAL_SERVER_ERROR, 4003, "Jwt Claim 추출에 실패했습니다."),
-  TOKEN_ALLOCATE_ERROR(HttpStatus.INTERNAL_SERVER_ERROR, 4004, "Jwt 생성에 실패했습니다.");
+  TOKEN_ALLOCATE_ERROR(HttpStatus.INTERNAL_SERVER_ERROR, 4004, "Jwt 생성에 실패했습니다."),
+  TOKEN_NULL_ERROR(HttpStatus.UNAUTHORIZED, 4005, "Jwt 토큰이 존재하지 않습니다."),
+  TOKEN_EXPIRED(HttpStatus.UNAUTHORIZED, 4006, "Jwt 토큰 유효기간이 만료됐습니다.");
 
 
 //

@@ -20,7 +20,7 @@ public class JsonUtils {
     response.setCharacterEncoding("utf-8");
 
     //BaseResponseDto 생성
-    BaseResponseDto<LoginResponseDto> baseResponseDto = new BaseResponseDto<>(baseResponseStatus);
+    BaseResponseDto<BaseResponseStatus> baseResponseDto = new BaseResponseDto<>(baseResponseStatus);
 
     //json으로 변환하여 response에 저장
     String stringResponseData = objectMapper.writeValueAsString(baseResponseDto);

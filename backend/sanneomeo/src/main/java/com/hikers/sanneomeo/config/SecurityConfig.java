@@ -1,6 +1,9 @@
 package com.hikers.sanneomeo.config;
 
+//import static com.hikers.sanneomeo.config.Constants.HTTP_SECURITY_EXCLUDE_URI;
+
 import com.hikers.sanneomeo.repository.UserRepository;
+import com.hikers.sanneomeo.security.jwt.JwtTokenFilter;
 import com.hikers.sanneomeo.security.oauth2.CustomOAuth2CookieAuthorizationRequestRepository;
 import com.hikers.sanneomeo.security.oauth2.CustomOAuth2Provider;
 import com.hikers.sanneomeo.security.oauth2.CustomOAuth2UserFailureHandler;
@@ -10,19 +13,31 @@ import java.util.ArrayList;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.security.servlet.PathRequest;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.config.annotation.web.configuration.WebSecurityCustomizer;
 import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
+import org.springframework.security.config.annotation.web.configurers.AnonymousConfigurer;
+import org.springframework.security.config.annotation.web.configurers.DefaultLoginPageConfigurer;
 import org.springframework.security.config.annotation.web.configurers.FormLoginConfigurer;
+import org.springframework.security.config.annotation.web.configurers.LogoutConfigurer;
+import org.springframework.security.config.annotation.web.configurers.RequestCacheConfigurer;
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.oauth2.client.registration.ClientRegistration;
 import org.springframework.security.oauth2.client.registration.ClientRegistrationRepository;
 import org.springframework.security.oauth2.client.registration.InMemoryClientRegistrationRepository;
+import org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter;
 import org.springframework.security.oauth2.core.endpoint.OAuth2AuthorizationRequest;
 import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.web.cors.CorsConfiguration;
+import org.springframework.web.cors.CorsConfigurationSource;
+import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
 @Configuration
 @EnableWebSecurity(debug = true)
@@ -35,31 +50,53 @@ public class SecurityConfig {
   UserRepository userRepository;
 
   @Bean
+  public WebSecurityCustomizer webSecurityCustomizer() {
+    return (web) -> web.ignoring().requestMatchers(PathRequest.toStaticResources().atCommonLocations())
+        .antMatchers(Constants.SECURITY_WEB_EXCLUDE_URIS);
+  }
+
+  @Bean
   public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+
+    //cors config
+    http.cors().configurationSource(corsConfigurationSource());
+
+
     //기본 설정 해제와 경로 설정
     http
-        .formLogin(FormLoginConfigurer::disable)
-        .httpBasic(AbstractHttpConfigurer::disable)
         .csrf(AbstractHttpConfigurer::disable)
+        .formLogin(FormLoginConfigurer::disable)
         .sessionManagement(session-> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+        .requestCache(RequestCacheConfigurer::disable)
         .authorizeHttpRequests(authorize -> authorize
-            .antMatchers("/", "/login/after", "/user/login/callback/*").permitAll()
-            .anyRequest().authenticated()
+//            .antMatchers(Constants.SECURITY_HTTP_EXCLUDE_URIS).permitAll()
+                .anyRequest().permitAll()
+            //임시로 모든 요청에 허용
+//            .anyRequest().authenticated()
         )
     ;
+
+    http.getConfigurer(DefaultLoginPageConfigurer.class).disable();
+
 
     //oauth2 설정
     http
         .oauth2Login(oauth2 -> oauth2
             .authorizationEndpoint(authorization-> authorization
-                .baseUri("/user/login")
+                .baseUri(Constants.BASE_URI)
                 .authorizationRequestRepository(oAuth2CookieAuthorizationRequestRepository())
             )
             .userInfoEndpoint(userInfoEndpointConfig -> userInfoEndpointConfig.userService(customOAuth2UserService()))
-            .loginProcessingUrl("/user/login/callback/*")
+            .loginProcessingUrl(Constants.SECURITY_LOGIN_PROCESSING_URI)
             .clientRegistrationRepository(clientRegistrationRepository())
+            .successHandler(customOAuth2UserSuccessHandler())
             .failureHandler(customOAuth2UserFailureHandler())
         );
+
+//                .anyRequest().permitAll() //임시로 모든 요청 풀어두기
+    //jwtTokenFilter 설정
+    http.addFilterBefore(jwtTokenFilter(), OAuth2AuthorizationRequestRedirectFilter.class);
+    http.removeConfigurer(DefaultLoginPageConfigurer.class);
 
     return http.build();
   }
@@ -95,14 +132,31 @@ public class SecurityConfig {
   }
 
   @Bean
-  public CustomOAuth2UserFailureHandler customOAuth2UserFailureHandler() { return new CustomOAuth2UserFailureHandler(ymlConfig, userRepository); }
-
+  public CustomOAuth2UserFailureHandler customOAuth2UserFailureHandler() { return new CustomOAuth2UserFailureHandler(userRepository); }
   @Bean
   public CustomOAuth2UserSuccessHandler customOAuth2UserSuccessHandler() {return new CustomOAuth2UserSuccessHandler(ymlConfig);}
+
   @Bean
-  public BCryptPasswordEncoder passwordEncoder() {
-    return new BCryptPasswordEncoder();
+  public CorsConfigurationSource corsConfigurationSource() {
+    CorsConfiguration configuration = new CorsConfiguration();
+
+    configuration.addAllowedOriginPattern("*");
+    configuration.addAllowedMethod("*");
+    configuration.setAllowCredentials(true);
+
+    //custom header 설정
+    for(String key : Constants.CORS_HEADER_URIS){
+      configuration.addAllowedHeader(key);
+      configuration.addExposedHeader(key);
+    }
+
+    UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
+    source.registerCorsConfiguration("/**", configuration);
+    return source;
   }
 
-
+  @Bean
+  public JwtTokenFilter jwtTokenFilter(){
+    return new JwtTokenFilter();
+  }
 }

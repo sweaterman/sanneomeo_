@@ -1,11 +1,10 @@
 package com.hikers.sanneomeo.security.oauth2;
 
+import com.hikers.sanneomeo.config.Constants;
 import com.hikers.sanneomeo.utils.CookieUtils;
-import com.nimbusds.oauth2.sdk.util.StringUtils;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
-import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import org.springframework.security.oauth2.client.registration.ClientRegistration;
@@ -45,14 +44,12 @@ public class CustomOAuth2CookieAuthorizationRequestRepository<T extends OAuth2Au
         .orElse(null);
   }
 
-
   @Override
   public void saveAuthorizationRequest(OAuth2AuthorizationRequest authorizationRequest, HttpServletRequest request, HttpServletResponse response) {
     CookieUtils.addCookie(response, OAUTH2_AUTHORIZATION_REQUEST_COOKIE_NAME,
         CookieUtils.serialize(authorizationRequest), cookieExpireSeconds);
-//    String redirectUriAfterLogin = "http://localhost:9090/login/after";
-    String redirectUriAfterLogin=request.getParameter("redirectUri");
-    CookieUtils.addCookie(response, REDIRECT_URI_PARAM_COOKIE_NAME, redirectUriAfterLogin, cookieExpireSeconds);
+//    String redirectUriAfterLogin=request.getParameter("redirectUri");
+    CookieUtils.addCookie(response, REDIRECT_URI_PARAM_COOKIE_NAME, Constants.SECURITY_AFTER_LOGIN, cookieExpireSeconds);
 //    String redirectUriAfterLogin = request.getParameter(REDIRECT_URI_PARAM_COOKIE_NAME);
 //    if (StringUtils.isNotBlank(redirectUriAfterLogin)) {
 //      CookieUtils.addCookie(response, REDIRECT_URI_PARAM_COOKIE_NAME, redirectUriAfterLogin,
@@ -70,19 +67,23 @@ public class CustomOAuth2CookieAuthorizationRequestRepository<T extends OAuth2Au
 
     OAuth2AuthorizationRequest originalRequest = this.loadAuthorizationRequest(request);
 
+    System.out.println(request.getRequestURI().split("/"));
     // 만약 쿠키에 original request가 없을 경우 카카오의 client registration에 맞는 authorizationRequest 생성
     // following logic is based on DefaultOAuth2AuthorizationRequestResolver.resolve()
     if (originalRequest == null) {
-      ClientRegistration clientRegistration = clientRegistrationRepository.findByRegistrationId("kakao");
+      String requestUri = request.getRequestURI();
+      String registrationId = requestUri.substring(requestUri.lastIndexOf("/")+1, requestUri.length());
+      ClientRegistration clientRegistration = clientRegistrationRepository.findByRegistrationId(registrationId);
       if (clientRegistration == null) {
-        throw new IllegalArgumentException("Invalid Client Registration with Id: kakao");
+        throw new IllegalArgumentException("Invalid Client Registration with Id: "+registrationId);
       }
+
       OAuth2AuthorizationRequest.Builder builder = OAuth2AuthorizationRequest.authorizationCode()
           .attributes((attrs) ->
               attrs.put(OAuth2ParameterNames.REGISTRATION_ID,
                   clientRegistration.getRegistrationId()));
 
-      String redirectUriStr = expandRedirectUri(request, clientRegistration, "login");
+      String redirectUriStr = expandRedirectUri(request, clientRegistration);
 
       builder.clientId(clientRegistration.getClientId())
           .authorizationUri(clientRegistration.getProviderDetails().getAuthorizationUri())
@@ -96,33 +97,23 @@ public class CustomOAuth2CookieAuthorizationRequestRepository<T extends OAuth2Au
     return originalRequest;
   }
 
-  /**
-   * client registration 설정을 활용해 인가코드 요청 주소를 만든다.
-   * following method is based on DefaultOAuth2AuthorizationRequestResolver.expandRedirectUri()
-   *
-   * @param request OAuth2 로그인 request
-   * @param clientRegistration OAuth2 로그인 인증 서버 정보
-   * @param action login과 같은 action
-   */
-  private static String expandRedirectUri(HttpServletRequest request, ClientRegistration clientRegistration, String action) {
+
+  //우리는 request에서 기본 주소를 뽑고,
+  //redirect uri와 조합해서 만들어낼거임
+  //현재 redirect uir는 {base}/ldfsadfsasf/{registrationID}
+  private static String expandRedirectUri(HttpServletRequest request, ClientRegistration clientRegistration) {
     Map<String, String> uriVariables = new HashMap<>();
+
     uriVariables.put("registrationId", clientRegistration.getRegistrationId());
-    // @formatter:off
+
+    //
     UriComponents uriComponents = UriComponentsBuilder.fromHttpUrl(
             UrlUtils.buildFullRequestUrl(request))
         .replacePath(request.getContextPath())
         .replaceQuery(null)
         .fragment(null)
         .build();
-    // @formatter:on
 
-    String scheme = uriComponents.getScheme();
-    uriVariables.put("baseScheme", (scheme != null) ? scheme : "");
-    String host = uriComponents.getHost();
-    uriVariables.put("baseHost", (host != null) ? host : "");
-    // following logic is based on HierarchicalUriComponents#toUriString()
-    int port = uriComponents.getPort();
-    uriVariables.put("basePort", (port == -1) ? "" : ":" + port);
     String path = uriComponents.getPath();
     if (org.springframework.util.StringUtils.hasLength(path)) {
       if (path.charAt(0) != PATH_DELIMITER) {
@@ -131,7 +122,7 @@ public class CustomOAuth2CookieAuthorizationRequestRepository<T extends OAuth2Au
     }
     uriVariables.put("basePath", (path != null) ? path : "");
     uriVariables.put("baseUrl", uriComponents.toUriString());
-    uriVariables.put("action", (action != null) ? action : "");
+
     return UriComponentsBuilder.fromUriString(clientRegistration.getRedirectUri())
         .buildAndExpand(uriVariables)
         .toUriString();
