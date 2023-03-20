@@ -9,7 +9,6 @@ import org.springframework.security.oauth2.core.OAuth2AuthenticationException;
 public class OAuth2LoginException extends OAuth2AuthenticationException {
 
     private CustomOAuth2User customOAuth2User;
-    private BaseResponseStatus baseResponseStatus;
 
     public OAuth2LoginException(BaseResponseStatus baseResponseStatus, CustomOAuth2User customOAuth2User) {
         super(String.valueOf(baseResponseStatus.getCode()));

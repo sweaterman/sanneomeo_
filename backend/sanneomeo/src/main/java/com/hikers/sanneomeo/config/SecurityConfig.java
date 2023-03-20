@@ -70,11 +70,11 @@ public class SecurityConfig {
     http
         .oauth2Login(oauth2 -> oauth2
             .authorizationEndpoint(authorization-> authorization
-                .baseUri("/user/login")
+                .baseUri(Constants.BASE_URI)
                 .authorizationRequestRepository(oAuth2CookieAuthorizationRequestRepository())
             )
             .userInfoEndpoint(userInfoEndpointConfig -> userInfoEndpointConfig.userService(customOAuth2UserService()))
-            .loginProcessingUrl("/user/login/callback/*")
+            .loginProcessingUrl(Constants.SECURITY_LOGIN_PROCESSING_URI)
             .clientRegistrationRepository(clientRegistrationRepository())
             .failureHandler(customOAuth2UserFailureHandler())
         );
@@ -136,7 +136,6 @@ public class SecurityConfig {
       configuration.addAllowedHeader(key);
       configuration.addExposedHeader(key);
     }
-
 
     UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
     source.registerCorsConfiguration("/**", configuration);

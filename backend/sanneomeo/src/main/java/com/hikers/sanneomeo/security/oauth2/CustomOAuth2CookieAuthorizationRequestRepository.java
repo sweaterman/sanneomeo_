@@ -43,7 +43,6 @@ public class CustomOAuth2CookieAuthorizationRequestRepository<T extends OAuth2Au
         .orElse(null);
   }
 
-
   @Override
   public void saveAuthorizationRequest(OAuth2AuthorizationRequest authorizationRequest, HttpServletRequest request, HttpServletResponse response) {
     CookieUtils.addCookie(response, OAUTH2_AUTHORIZATION_REQUEST_COOKIE_NAME,

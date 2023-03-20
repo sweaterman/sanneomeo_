@@ -71,16 +71,16 @@ public class JwtTokenUtils {
         .getExpiration()
         .after(new Date());
   }
-//
-//  public static String resolveAccessToken(HttpServletRequest req) throws BaseException {
-//
-//    String accessToken = req.getHeader("Authorization");
-//    if (accessToken == null) {
-//      throw new BaseException(BaseResponseStatus.ACCESS_TOKEN_NULL);
-//    }
-//    return accessToken;
-//
-//  }
+
+  public static String resolveAccessToken(HttpServletRequest req) throws BaseException {
+
+    String accessToken = req.getHeader("Authorization");
+    if (accessToken == null) {
+      throw new BaseException(BaseResponseStatus.ACCESS_TOKEN_NULL);
+    }
+    return accessToken;
+
+  }
 //
 //  //userIdx와 role로 토큰 발급
 //  public static TokenInfo allocateDevToken(Long userIdx) throws BaseException {

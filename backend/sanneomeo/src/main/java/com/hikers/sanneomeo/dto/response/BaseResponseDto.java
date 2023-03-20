@@ -16,17 +16,14 @@ import static com.hikers.sanneomeo.exception.BaseResponseStatus.SUCCESS;
 public class BaseResponseDto<T> {
   @JsonProperty("isSuccess")
   private final Boolean isSuccess;
-  private final HttpStatus httpStatus;
   private final int code;
   private final String message;
-
   @JsonInclude(JsonInclude.Include.NON_NULL)
   private T result;
 
   //요청 성공
   public BaseResponseDto(T result) {
     this.isSuccess = true;
-    this.httpStatus = SUCCESS.getStatus();
     this.code = SUCCESS.getCode();
     this.message = SUCCESS.getMessage();
     this.result = result;
@@ -35,7 +32,6 @@ public class BaseResponseDto<T> {
   //요청 실패
   public BaseResponseDto(BaseResponseStatus status) {
     this.isSuccess = false;
-    this.httpStatus = status.getStatus();
     this.message = status.getMessage();
     this.code = status.getCode();
   }
