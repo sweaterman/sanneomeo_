@@ -1,9 +1,9 @@
-import { configureStore, ThunkAction, Action, MiddlewareArray } from '@reduxjs/toolkit';
+import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
 // import additionalMiddleware from 'additional-middleware'
-import logger from 'redux-logger'
+// import logger from 'redux-logger';
 import counterReducer from '@features/counter/counterSlice';
-import mountainsReducer from '@features/counter/counterSlice';
-import trailsReducer from '@features/counter/counterSlice';
+import mountainsReducer from '@features/mountain/mountainSlice';
+import trailsReducer from '@features/trail/trailSlice';
 import usersReducer from '@features/user/userSlice';
 
 export const store = configureStore({
