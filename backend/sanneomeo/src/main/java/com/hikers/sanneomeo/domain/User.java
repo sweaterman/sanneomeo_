@@ -1,5 +1,7 @@
 package com.hikers.sanneomeo.domain;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
@@ -10,7 +12,9 @@ import java.sql.Timestamp;
 @Entity
 @Getter
 @Table(name = "tbl_user")
+@Builder
 @NoArgsConstructor
+@AllArgsConstructor
 public class User {
 
     @Id

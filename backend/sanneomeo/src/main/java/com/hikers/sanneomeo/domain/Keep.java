@@ -20,8 +20,8 @@ public class Keep {
     @Column(name = "user_seq", nullable = false)
     private Long userSeq;
 
-    @Column(name = "mountain_seq", nullable = false)
-    private String mountainSeq;
+    @Column(name = "trail_seq", nullable = false)
+    private String trailSeq;
 
     @Column(name = "created_at")
     private Timestamp createdAt;

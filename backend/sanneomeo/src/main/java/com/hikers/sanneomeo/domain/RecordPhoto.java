@@ -17,8 +17,11 @@ public class RecordPhoto {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long recordPhotoSeq;
 
-    @Column(name = "record_seq")
-    private Long recordSeq;
+    @Column(name = "mountain_seq")
+    private Long mountainSeq;
+
+    @Column(name = "user_seq")
+    private Long userSeq;
 
     @Column(name = "image")
     private String image;
