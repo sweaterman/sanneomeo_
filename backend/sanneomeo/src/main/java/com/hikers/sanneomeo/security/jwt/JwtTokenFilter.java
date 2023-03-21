@@ -38,7 +38,6 @@ public class JwtTokenFilter extends OncePerRequestFilter {
         System.out.println(request.getRequestURI());
 
         //login 요청의 경우 다음 필터로
-
         if (antPathMatcher.match(excludeUrl, request.getRequestURI())) {
             filterChain.doFilter(request, response);
             return;
@@ -46,13 +45,21 @@ public class JwtTokenFilter extends OncePerRequestFilter {
 
         try{
             String jwt = JwtTokenUtils.resolveAccessToken(request);
-            //유효할 경우
-            if(JwtTokenUtils.isValidToken(jwt)){
-                Authentication authentication = jwtTokenProvider.getAuthentication(jwt); // 정상 토큰이면 SecurityContext 저장
-                SecurityContextHolder.getContext().setAuthentication(authentication);
-            } else{ //만료된 경우
-                throw new BaseException(BaseResponseStatus.TOKEN_EXPIRED);
+            if(jwt!=null){
+                if(JwtTokenUtils.isValidToken(jwt)){
+                    Authentication authentication = jwtTokenProvider.getAuthentication(jwt); // 정상 토큰이면 SecurityContext 저장
+                    SecurityContextHolder.getContext().setAuthentication(authentication);
+                } else{ //만료된 경우
+                    throw new BaseException(BaseResponseStatus.TOKEN_EXPIRED);
+                }
             }
+//            //유효할 경우
+//            if(jwt!=null && JwtTokenUtils.isValidToken(jwt)){
+//                Authentication authentication = jwtTokenProvider.getAuthentication(jwt); // 정상 토큰이면 SecurityContext 저장
+//                SecurityContextHolder.getContext().setAuthentication(authentication);
+//            } else{ //만료된 경우
+//                throw new BaseException(BaseResponseStatus.TOKEN_EXPIRED);
+//            }
         } catch (BaseException e){
             request.setAttribute("exception", e.getStatus().name());
         }
