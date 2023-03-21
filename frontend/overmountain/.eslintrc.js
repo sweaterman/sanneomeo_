@@ -24,6 +24,7 @@ module.exports = {
     'dot-notation': 'warn', // 가능하다면 dot notation 사용
     'no-unused-vars': 'off', // 사용하지 않는 변수 금지
     'no-param-reassign': 'off', // 매개변수 재선언 금지
+    'no-promise-executor-return': 'warn', // Promise 생성자 내 반환값 사용불가
     'react/destructuring-assignment': 'warn', // state, prop 등에 구조분해 할당 적용
     'react/jsx-pascal-case': 'warn', // 컴포넌트 이름은 PascalCase로
     'react/no-direct-mutation-state': 'warn', // state 직접 수정 금지
