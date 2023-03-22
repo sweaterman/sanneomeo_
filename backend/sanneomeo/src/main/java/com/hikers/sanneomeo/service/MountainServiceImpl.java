@@ -6,17 +6,11 @@ import com.hikers.sanneomeo.dto.request.UploadImagesRequestDto;
 import com.hikers.sanneomeo.dto.response.MountainPosResponseDto;
 import com.hikers.sanneomeo.repository.MountainRepository;
 import com.hikers.sanneomeo.repository.RecordPhotoRepository;
-import com.hikers.sanneomeo.domain.RecordPhoto;
-import com.hikers.sanneomeo.dto.request.UploadImagesRequestDto;
-import com.hikers.sanneomeo.repository.MountainRepository;
-import com.hikers.sanneomeo.repository.RecordPhotoRepository;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
+
 
 import java.util.List;
 import java.util.Optional;
