@@ -17,7 +17,7 @@ public class UserController {
 
 
   //login callback 관련한 메서드로 추후 프론트와 협의 후 수정 필요합니다.
-  @GetMapping("/login/after")
+  @GetMapping("/after/login")
   public String getAfterLogin(){
     try{
 //      Long curUser = SecurityContextHolder.getContext().getAuthentication().getPrincipal().;
