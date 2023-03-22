@@ -21,7 +21,7 @@ public class SwaagerConfig {
 	public Docket api() {
 		return new Docket(DocumentationType.SWAGGER_2)
 				.select()
-				.apis(RequestHandlerSelectors.basePackage("com.hikers.sanneomeo.api.controller"))
+				.apis(RequestHandlerSelectors.basePackage("com.hikers.sanneomeo.controller"))
 //				.paths(PathSelectors.ant("/api/**"))
 				.paths(PathSelectors.any())
 				.build()
