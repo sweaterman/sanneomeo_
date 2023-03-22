@@ -47,7 +47,7 @@ public class SwaagerConfig {
 
 	//전역적인 권한 해제를 위한 authorization api key 설정
 	private ApiKey apiKey() {
-		return new ApiKey("JWT", "Authorization", "header");
+		return new ApiKey("Authorization", "Authorization", "header");
 	}
 
 	private SecurityContext securityContext() {
