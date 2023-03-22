@@ -72,10 +72,10 @@ public class SecurityConfig {
         .sessionManagement(session-> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
         .requestCache(RequestCacheConfigurer::disable)
         .authorizeHttpRequests(authorize -> authorize
-            .antMatchers(Constants.SECURITY_HTTP_EXCLUDE_URIS).permitAll()
-//                .anyRequest().permitAll()
+//            .antMatchers(Constants.SECURITY_HTTP_EXCLUDE_URIS).permitAll()
+                .anyRequest().permitAll()
             //임시로 모든 요청에 허용
-            .anyRequest().authenticated()
+//            .anyRequest().authenticated()
         )
     ;
 

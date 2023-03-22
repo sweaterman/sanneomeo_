@@ -1,37 +1,14 @@
 package com.hikers.sanneomeo.service;
 
-import com.hikers.sanneomeo.domain.RecordPhoto;
 import com.hikers.sanneomeo.dto.request.UploadImagesRequestDto;
-import com.hikers.sanneomeo.repository.MountainRepository;
-import com.hikers.sanneomeo.repository.RecordPhotoRepository;
+import com.hikers.sanneomeo.dto.response.MountainPosResponseDto;
+
 import java.util.List;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
+import java.util.Optional;
 
-@Service
-public class MountainService {
+public interface MountainService {
 
-  @Autowired
-  private RecordPhotoRepository recordPhotoRepository;
+    Optional<MountainPosResponseDto> getPos(String mountainIdx);
 
-  @Transactional
-  public boolean createRecordPhotos(UploadImagesRequestDto uploadImagesRequestDto, List<String> uploadImgUrls, Long mountainSeq){
-    uploadImgUrls.stream().forEach(
-        (uploadImgUrl) -> {
-          RecordPhoto recordPhoto = RecordPhoto.builder()
-              .mountainSeq(mountainSeq)
-              .image(uploadImgUrl)
-              .longitude(uploadImagesRequestDto.getLongitude())
-              .latitude(uploadImagesRequestDto.getLatitude())
-              .userSeq(uploadImagesRequestDto.getUserSeq())
-              .build();
-
-          recordPhotoRepository.save(recordPhoto);
-        }
-    );
-
-    return true;
-  }
-
+    boolean createRecordPhotos(UploadImagesRequestDto uploadImagesRequestDto, List<String> uploadImgUrls, Long mountainSeq);
 }
