@@ -1,7 +1,5 @@
 package com.hikers.sanneomeo.config;
 
-import com.hikers.sanneomeo.domain.Credentials;
-import java.util.Map;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -10,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @EnableConfigurationProperties
-@ConfigurationProperties(prefix = "auth")
+@ConfigurationProperties(prefix = "auth.oauth2")
 @Getter
 @Setter
 public class YmlConfig {
@@ -21,6 +19,5 @@ public class YmlConfig {
   private String weatherServiceKey;
   private String shortEndPoint;
   private String middleEndPoint;
-
 
 }

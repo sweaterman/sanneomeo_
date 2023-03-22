@@ -14,3 +14,4 @@ public class Credentials {
     private String secret;
 
 }
+>>>>>>> f93d83961956c2f1a48a9c2d160192a42df3a125
