@@ -9,8 +9,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Credentials {
-    private String id;
-    private String secret;
-
+public class Region {
+    private int nx;
+    private int ny;
 }
