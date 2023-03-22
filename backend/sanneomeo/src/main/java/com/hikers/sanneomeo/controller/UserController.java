@@ -14,9 +14,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -52,7 +54,7 @@ public class UserController {
 
 
   //여기서부터 crud -> 위는 그냥 임시용
-  @PostMapping("/photo/{photoSeq}")
+  @PutMapping("/photo/{photoSeq}")
   public BaseResponseDto<Boolean> changePhotoStatus(@PathVariable Long photoSeq){
     try {
       //요청 내부의 userSeq와 인증된 userSeq가 다를 경우
@@ -69,5 +71,24 @@ public class UserController {
         throw new BaseException(BaseResponseStatus.FAIL);
       }
     }
+  }
+
+    @DeleteMapping("/photo/{photoSeq}")
+    public BaseResponseDto<Boolean> deletePhoto(@PathVariable Long photoSeq){
+      try {
+        //요청 내부의 userSeq와 인증된 userSeq가 다를 경우 처리 위해 사용
+        Long authUserSeq = Long.parseLong(SecurityContextHolder.getContext().getAuthentication().getPrincipal().toString());
+
+        boolean result = userService.deletePhoto(authUserSeq, photoSeq);
+
+        return new BaseResponseDto<>(result);
+
+      } catch (Exception e) {
+        if (e instanceof BaseException) {
+          throw e;
+        } else {
+          throw new BaseException(BaseResponseStatus.FAIL);
+        }
+      }
   }
 }

@@ -30,4 +30,20 @@ public class UserServiceImpl implements UserService{
 
     return true;
   }
+
+  @Override
+  public boolean deletePhoto(Long authUserSeq, Long photoSeq) {
+
+    //photoSeq에 맞는 recordPhoto가 없을 경우 exception
+    RecordPhoto recordPhoto = recordPhotoRepository.findById(photoSeq).orElseThrow(()-> new BaseException(
+        BaseResponseStatus.FAIL));
+
+    //수정을 요청한 userSeq와 해당 recordPhoto를 등록한 userSeq가 다를 경우 권한 exception
+    if(recordPhoto.getUserSeq()!=authUserSeq) throw new BaseException(BaseResponseStatus.FAIL);
+
+    //삭제한다
+    recordPhotoRepository.delete(recordPhoto);
+
+    return true;
+  }
 }
