@@ -30,14 +30,6 @@ public class MountainServiceImpl implements MountainService{
     @Autowired
     private RecordPhotoRepository recordPhotoRepository;
 
-    @Override
-    public Optional<MountainPosResponseDto> getPos(String mountainIdx) {
-        //산정보
-        Mountain mountain = mountainRepository.findByMountainSeq(mountainIdx).get();
-        MountainPosResponseDto mountainPosResponseDto = new MountainPosResponseDto(mountain.getName(),mountain.getLatitude(),mountain.getLongitude(),mountain.getLatitude(),mountain.getDifficulty());
-
-        return Optional.of(mountainPosResponseDto);
-    }
 
     @Transactional
     public boolean createRecordPhotos(UploadImagesRequestDto uploadImagesRequestDto, List<String> uploadImgUrls, Long mountainSeq){
@@ -56,6 +48,14 @@ public class MountainServiceImpl implements MountainService{
         );
 
         return true;
+    }
+    @Override
+    public Optional<MountainPosResponseDto> getPos(String mountainIdx) {
+        //산정보
+        Mountain mountain = mountainRepository.findByMountainSeq(mountainIdx).get();
+        MountainPosResponseDto mountainPosResponseDto = new MountainPosResponseDto(mountain.getName(),mountain.getLatitude(),mountain.getLongitude(),mountain.getLatitude(),mountain.getDifficulty());
+
+        return Optional.of(mountainPosResponseDto);
     }
 }
 
