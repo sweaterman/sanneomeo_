@@ -1,6 +1,6 @@
 package com.hikers.sanneomeo.dto.response;
 
-import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
@@ -8,7 +8,7 @@ import java.math.BigDecimal;
 
 @Getter
 @NoArgsConstructor
-@AllArgsConstructor
+
 public class MountainPosResponseDto {
 
     //산이름
@@ -26,6 +26,14 @@ public class MountainPosResponseDto {
     //난이도
     private String difficulty;
 
-    //찜여부
-    private boolean isKeep;
+
+    @Builder
+    public MountainPosResponseDto(String name, BigDecimal latitude, BigDecimal longitude, BigDecimal altitude, String difficulty) {
+        this.name = name;
+        this.latitude = latitude;
+        this.longitude = longitude;
+        this.altitude = altitude;
+        this.difficulty = difficulty;
+
+    }
 }
