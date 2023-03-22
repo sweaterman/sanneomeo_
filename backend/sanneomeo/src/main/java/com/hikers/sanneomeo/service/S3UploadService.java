@@ -1,15 +1,6 @@
 package com.hikers.sanneomeo.service;
 
-import com.amazonaws.AmazonServiceException;
-import com.amazonaws.SdkClientException;
-import com.amazonaws.auth.AWSStaticCredentialsProvider;
-import com.amazonaws.auth.BasicAWSCredentials;
-import com.amazonaws.regions.Regions;
-import com.amazonaws.services.s3.AmazonS3;
-import com.amazonaws.services.s3.AmazonS3Client;
-import com.amazonaws.services.s3.AmazonS3ClientBuilder;
-import com.amazonaws.services.s3.model.CannedAccessControlList;
-import com.amazonaws.services.s3.model.PutObjectRequest;
+
 import com.hikers.sanneomeo.config.YmlConfig;
 import com.hikers.sanneomeo.domain.Credentials;
 import com.hikers.sanneomeo.exception.BaseException;
@@ -27,6 +18,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
+import software.amazon.awssdk.auth.credentials.AwsBasicCredentials;
+import software.amazon.awssdk.auth.credentials.StaticCredentialsProvider;
+import software.amazon.awssdk.core.sync.RequestBody;
+import software.amazon.awssdk.regions.Region;
+import software.amazon.awssdk.services.s3.S3Client;
+import software.amazon.awssdk.services.s3.model.ObjectCannedACL;
+import software.amazon.awssdk.services.s3.model.PutObjectRequest;
+import software.amazon.awssdk.services.s3.model.PutObjectResponse;
 
 @Service
 public class S3UploadService {
@@ -34,31 +33,28 @@ public class S3UploadService {
   @Autowired
   private YmlConfig ymlConfig;
   private final String bucket = "sanneomeoimg";
-  private AmazonS3 amazonS3Client;
+  private S3Client s3Client;
+
+  //S3Access 권한 가진 IAM 유저의 public key, private key로 s3client 객체 생성
   @PostConstruct
   private void init(){
     Credentials awsCredentials = ymlConfig.getCredentials().get("aws");
 
-    this.amazonS3Client = AmazonS3ClientBuilder
-        .standard()
-        .withCredentials(
-            new AWSStaticCredentialsProvider(new BasicAWSCredentials(awsCredentials.getId(), awsCredentials.getSecret())))
-        .withRegion(Regions.AP_NORTHEAST_2)
-        .build();
+    this.s3Client = S3Client
+        .builder()
+        .region(Region.AP_NORTHEAST_2)
+        .credentialsProvider(StaticCredentialsProvider.create(
+            AwsBasicCredentials.create(awsCredentials.getId(), awsCredentials.getSecret())))
+        .build()
+        ;
   }
 
+  //단일 파일 업로드 기능 -> 로컬 저장을 방지하기 위해 PutObjectRequest 객체 사용
   public String upload(MultipartFile multipartFile, String dirName){
     //유효성 검사
     this.isValidFile(multipartFile);
 
-    //업로드 가능한 File 형태로 변환
-    File uploadFile = convert(multipartFile).orElseThrow(()->new BaseException(BaseResponseStatus.FILE_SAVE_ERROR));
-
-    //S3로 업로드하기
-    String fileName = dirName+"/"+uploadFile.getName();
-    String uploadUrl = putS3(uploadFile, bucket, fileName);
-
-    return uploadUrl;
+    return this.putS3(this.getPutObjectRequest(multipartFile,dirName),multipartFile);
   }
 
   public ArrayList<String> upload(List<MultipartFile> multipartFiles, String dirName) {
@@ -70,17 +66,39 @@ public class S3UploadService {
     return uploadUrls;
   }
 
-  private String putS3(File uploadFile, String bucket, String fileName) {
-    try {
-      //public read 권한으로 upload
-      amazonS3Client.putObject(new PutObjectRequest(bucket, fileName, uploadFile).withCannedAcl(
-          CannedAccessControlList.PublicRead));
+  //PutObjectRequest 생성
+  public PutObjectRequest getPutObjectRequest(MultipartFile multipartFile, String dirName) {
 
-      return amazonS3Client.getUrl(bucket, fileName).toString();
-    } catch (AmazonServiceException ase) {
-      throw new BaseException(BaseResponseStatus.FILE_SAVE_ERROR);
-    } catch (SdkClientException sce) {
-      throw new BaseException(BaseResponseStatus.S3_CLIENT_ERROR);
+    try {
+      isValidFile(multipartFile);
+
+      //key= directory 경로 포함 파일 이름 (이미지의 key"
+      String key = dirName + "/" + createNewFileName(multipartFile.getOriginalFilename());
+
+      //필요한 ObjectMetadata
+      return PutObjectRequest.builder()
+              .bucket(bucket)
+              .contentType(multipartFile.getContentType())
+              .key(key)
+              .contentLength(multipartFile.getSize())
+              .acl(ObjectCannedACL.PUBLIC_READ)
+              .build();
+    } catch (Exception e) {
+      throw new BaseException(BaseResponseStatus.FILE_CONVERT_ERROR, e.toString());
+    }
+  }
+
+  private String putS3(PutObjectRequest putObjectRequest, MultipartFile multipartFile) {
+    try {
+      PutObjectResponse putObjectResponse = s3Client.putObject(putObjectRequest,
+          RequestBody.fromBytes(multipartFile.getBytes()));
+
+      if(putObjectResponse.sdkHttpResponse().statusCode()!=200){
+        throw new IOException();
+      }
+      return putObjectRequest.key();
+    } catch (IOException e) {
+      throw new RuntimeException(e);
     }
   }
 

@@ -63,8 +63,9 @@ dependencies {
 	implementation group: 'org.glassfish.jaxb', name: 'jaxb-runtime', version: '2.3.2'
 
 	//aws
-	implementation 'org.springframework.cloud:spring-cloud-starter-aws:2.0.1.RELEASE'
-
+//	implementation 'org.springframework.cloud:spring-cloud-starter-aws:2.0.1.RELEASE'
+	implementation platform('software.amazon.awssdk:bom:2.15.0')
+	implementation 'software.amazon.awssdk:s3'
 
 }
 
