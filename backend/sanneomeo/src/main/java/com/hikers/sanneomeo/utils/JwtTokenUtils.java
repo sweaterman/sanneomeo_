@@ -75,9 +75,9 @@ public class JwtTokenUtils {
   public static String resolveAccessToken(HttpServletRequest req) throws BaseException {
 
     String accessToken = req.getHeader("Authorization");
-    if (accessToken == null) {
-      throw new BaseException(BaseResponseStatus.TOKEN_NULL_ERROR);
-    }
+//    if (accessToken == null) {
+//      throw new BaseException(BaseResponseStatus.TOKEN_NULL_ERROR);
+//    }
     return accessToken;
 
   }

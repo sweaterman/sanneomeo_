@@ -9,17 +9,30 @@ public enum BaseResponseStatus {
   SUCCESS(HttpStatus.OK, 2000, "요청에 성공하였습니다."),
 
   //FAIL
+  //임시생성 -> 추후 코드 정리 예정
+  FAIL(HttpStatus.INTERNAL_SERVER_ERROR, 1999, "일단 실패했습니다??"),
 
 
   //인증관련 에러
   SIGNUP_REQUIRED(HttpStatus.OK, 4001, "회원가입이 필요한 유저입니다."),
-  OAUTH_SETTING_ERROR(HttpStatus.INTERNAL_SERVER_ERROR, 4002, "OAuth2 인증 과정에서 에러가 발생했습니다."),
+  OAUTH_UNKOWN_ERROR(HttpStatus.INTERNAL_SERVER_ERROR, 4002, "OAuth2 인증 과정에서 에러가 발생했습니다."),
   TOKEN_CLAIM_ERROR(HttpStatus.INTERNAL_SERVER_ERROR, 4003, "Jwt Claim 추출에 실패했습니다."),
   TOKEN_ALLOCATE_ERROR(HttpStatus.INTERNAL_SERVER_ERROR, 4004, "Jwt 생성에 실패했습니다."),
   TOKEN_NULL_ERROR(HttpStatus.UNAUTHORIZED, 4005, "Jwt 토큰이 존재하지 않습니다."),
-  TOKEN_EXPIRED(HttpStatus.UNAUTHORIZED, 4006, "Jwt 토큰 유효기간이 만료됐습니다.");
+  TOKEN_EXPIRED(HttpStatus.UNAUTHORIZED, 4006, "Jwt 토큰 유효기간이 만료됐습니다."),
+
+  // 파일 에러
+  FILE_SAVE_ERROR(HttpStatus.INTERNAL_SERVER_ERROR, 4010, "파일 변환 및 로컬 저장 과정에서 에러가 발생했습니다."),
+  FILE_UPLOAD_ERROR(HttpStatus.INTERNAL_SERVER_ERROR, 4011, "파일 s3 서버 업로드 과정에서 에러가 발생했습니다."),
+  FILE_DELETE_ERROR(HttpStatus.INTERNAL_SERVER_ERROR, 4012,"파일 로컬 삭제 과정에서 에러가 발생했습니다."),
+
+  S3_CLIENT_ERROR(HttpStatus.INTERNAL_SERVER_ERROR, 4013,"유효하지 않은 S3 클라이언트입니다."),
 
 
+  FILE_CONVERT_ERROR(HttpStatus.INTERNAL_SERVER_ERROR, 4009, "파일 변환에 실패했습니다."),
+  FILE_FORMAT_ERROR(HttpStatus.INTERNAL_SERVER_ERROR, 4008, "파일 포맷을 확인해주세요."),
+
+  UNAUTHORIZED_USER(HttpStatus.UNAUTHORIZED, 4016, "토큰 인증 정보와 요청 내의 userSeq가 다릅니다.");
 //
 //  REQUEST_ERROR(HttpStatus.INTERNAL_SERVER_ERROR, "요청에 실패하였습니다."),
 //  UNVALID_USER(HttpStatus.INTERNAL_SERVER_ERROR, "권한 없는 유저입니다."),

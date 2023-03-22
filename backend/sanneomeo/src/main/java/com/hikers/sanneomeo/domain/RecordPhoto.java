@@ -1,16 +1,21 @@
 package com.hikers.sanneomeo.domain;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
+import lombok.Setter;
 
 @Entity
 @Table(name = "tbl_record_photo")
 @Getter
 @NoArgsConstructor
+@Builder
+@AllArgsConstructor
 public class RecordPhoto {
     @Id
     @Column(name = "record_photo_seq")
