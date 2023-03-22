@@ -71,10 +71,10 @@ public class SecurityConfig {
         .sessionManagement(session-> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
         .requestCache(RequestCacheConfigurer::disable)
         .authorizeHttpRequests(authorize -> authorize
-//                .antMatchers(Constants.SECURITY_HTTP_EXCLUDE_URIS).permitAll()
-//                .anyRequest().authenticated()
+                .antMatchers(Constants.SECURITY_HTTP_EXCLUDE_URIS).permitAll()
+                .anyRequest().authenticated()
                 //임시로 모든 요청 허용
-                .anyRequest().permitAll()
+//                .anyRequest().permitAll()
         )
     ;
     http.getConfigurer(DefaultLoginPageConfigurer.class).disable();
