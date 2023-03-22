@@ -23,6 +23,7 @@ public class CustomOAuth2User  {
     switch (registrationId){
       case("kakao"): return kakaoMapper(attributes, nameAttributeKey);
       case("google"): return googleMapper(attributes, nameAttributeKey);
+      case("naver"): return naverMapper(attributes, nameAttributeKey);
       default: return null;
     }
   }
@@ -45,6 +46,18 @@ public class CustomOAuth2User  {
         .socialId(attributes.get(nameAttributeKey).toString())
         .nickname(attributes.get("name").toString())
         .profileImg(attributes.get("picture").toString())
+        .nameAttributeKey(nameAttributeKey)
+        .build();
+  }
+
+  public static CustomOAuth2User naverMapper(Map<String, Object> attributes, String nameAttributeKey){
+    Map<String, Object> properties = (Map<String,Object>)attributes.get("response");
+
+    return CustomOAuth2User.builder()
+        .registrationId("naver")
+        .socialId(properties.get("id").toString())
+        .nickname(properties.get("nickname").toString())
+        .profileImg(properties.get("profile_image").toString())
         .nameAttributeKey(nameAttributeKey)
         .build();
   }

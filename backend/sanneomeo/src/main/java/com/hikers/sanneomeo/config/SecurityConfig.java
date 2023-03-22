@@ -114,6 +114,11 @@ public class SecurityConfig {
         .clientId(credentialsMap.get("google").getId())
         .clientSecret(credentialsMap.get("google").getSecret()).build());
 
+    //naver client registration
+    registrationList.add(CustomOAuth2Provider.NAVER.getBuilder("naver")
+        .clientId(credentialsMap.get("naver").getId())
+        .clientSecret(credentialsMap.get("naver").getSecret()).build());
+
     return new InMemoryClientRegistrationRepository(registrationList);
   }
 
