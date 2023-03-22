@@ -12,8 +12,7 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.stereotype.Service;
 
 @Service
-@RequiredArgsConstructor
-public class JwtTokenProvider implements AuthenticationProvider {
+public class JwtTokenProvider{
 
   // token에 담겨있는 정보를 이용해 Authentication 객체를 리턴
   public Authentication getAuthentication(String token) {
@@ -26,13 +25,5 @@ public class JwtTokenProvider implements AuthenticationProvider {
     return cau;
   }
 
-  @Override
-  public Authentication authenticate(Authentication authentication) throws AuthenticationException {
-    return null;
-  }
 
-  @Override
-  public boolean supports(Class<?> authentication) {
-    return false;
-  }
 }

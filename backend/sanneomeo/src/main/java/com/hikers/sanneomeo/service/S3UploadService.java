@@ -15,7 +15,11 @@ import com.hikers.sanneomeo.domain.Credentials;
 import com.hikers.sanneomeo.exception.BaseException;
 import com.hikers.sanneomeo.exception.BaseResponseStatus;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 import javax.annotation.PostConstruct;
@@ -43,43 +47,36 @@ public class S3UploadService {
         .build();
   }
 
+  public String upload(MultipartFile multipartFile, String dirName){
+    //유효성 검사
+    this.isValidFile(multipartFile);
 
+    //업로드 가능한 File 형태로 변환
+    File uploadFile = convert(multipartFile).orElseThrow(()->new BaseException(BaseResponseStatus.FILE_SAVE_ERROR));
 
-
-
-  public String upload(MultipartFile multipartFile, String dirName) {
-
-    //로컬 저장 후 업로드 가능 형태로 변환
-    File uploadFile = convert(multipartFile, 1L)
-        .orElseThrow(() -> new BaseException(BaseResponseStatus.FILE_SAVE_ERROR));
-
-    //S3로 파일 업로드
-    String fileName = dirName + "/" + uploadFile.getName();
+    //S3로 업로드하기
+    String fileName = dirName+"/"+uploadFile.getName();
     String uploadUrl = putS3(uploadFile, bucket, fileName);
 
     return uploadUrl;
-
   }
 
-  //upload
-  public String uploadFile(File file){
+  public ArrayList<String> upload(List<MultipartFile> multipartFiles, String dirName) {
+    //List 입력을 받을 경우 각 multipart file에 대해 수행
+    ArrayList<String> uploadUrls = new ArrayList<>();
 
+    multipartFiles.stream().forEach((multipartFile -> uploadUrls.add(this.upload(multipartFile, dirName))));
 
-
-    String url = putS3(file, bucket, file.getName());
-    System.out.println(url);
-
-    return url;
+    return uploadUrls;
   }
 
-  // S3로 업로드
   private String putS3(File uploadFile, String bucket, String fileName) {
     try {
-
+      //public read 권한으로 upload
       amazonS3Client.putObject(new PutObjectRequest(bucket, fileName, uploadFile).withCannedAcl(
           CannedAccessControlList.PublicRead));
-      return amazonS3Client.getUrl(bucket, fileName).toString();
 
+      return amazonS3Client.getUrl(bucket, fileName).toString();
     } catch (AmazonServiceException ase) {
       throw new BaseException(BaseResponseStatus.FILE_SAVE_ERROR);
     } catch (SdkClientException sce) {
@@ -88,30 +85,31 @@ public class S3UploadService {
   }
 
   //파일 형태로 convert
-  private Optional<File> convert(MultipartFile multipartFile, Long key) {
+  private Optional<File> convert(MultipartFile multipartFile) {
     try {
       isValidFile(multipartFile);
 
       String originalFileName = multipartFile.getOriginalFilename();  //들어온 파일명
-      String newFileName = createNewFileName(originalFileName, key); //난수회된 파일명
+      String newFileName = createNewFileName(originalFileName); //난수회된 파일명
 
       File file = new File(newFileName);
-      FileOutputStream fileOutputStream = new FileOutputStream(file);
-      fileOutputStream.write(multipartFile.getBytes());
-      fileOutputStream.close();
-
-      return Optional.of(file);
+      if(file.createNewFile()) {
+        FileOutputStream fos = new FileOutputStream(file);
+        fos.write(multipartFile.getBytes());
+        fos.close();
+        return Optional.of(file);
+      }
+      return Optional.of(null);
     } catch (Exception e) {
       throw new BaseException(BaseResponseStatus.FILE_CONVERT_ERROR, e.toString());
     }
   }
 
-
-  //파일명 난수화
-  private String createNewFileName(String originalFileName, Long key) {
+    //파일명 난수화
+  private String createNewFileName(String originalFileName) {
     String extension = getExtension(originalFileName);
     String uuid = UUID.randomUUID().toString();
-    return uuid + "_" + key + "." + extension;
+    return uuid+ "." + extension;
   }
 
   //파일 확장자 검사 후 추출

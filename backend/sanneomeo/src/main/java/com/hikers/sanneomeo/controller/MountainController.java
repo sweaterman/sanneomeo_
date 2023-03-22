@@ -12,8 +12,10 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -21,17 +23,14 @@ import org.springframework.web.multipart.MultipartFile;
 @RequestMapping("/mountain")
 public class MountainController {
 
+  @Autowired
   private S3UploadService s3UploadService;
+  @Autowired
   private MountainService mountainService;
 
-  @Autowired
-  private void setMountainController(S3UploadService s3UploadService, MountainService mountainService){
-    this.s3UploadService = s3UploadService;
-    this.mountainService = mountainService;
-  }
-
-  @PostMapping("/image")
-  public BaseResponseDto<String> uploadImages(@ModelAttribute UploadImagesRequestDto uploadImagesRequestDto){
+  @PostMapping("/image/{mountainSeq}")
+  public BaseResponseDto<Boolean> uploadImages(@ModelAttribute UploadImagesRequestDto uploadImagesRequestDto,
+      @PathVariable Long mountainSeq){
     try{
       //요청 내부의 userSeq와 인증된 userSeq가 다를 경우
       Long authUserSeq = Long.parseLong(SecurityContextHolder.getContext().getAuthentication().getPrincipal().toString());
@@ -40,19 +39,20 @@ public class MountainController {
       }
 
       //이미지 업로드 후 링크 가져오기
-      List<String> urlList = s3UploadService.uploadImagesToS3(uploadImagesRequestDto.getImages());
+      List<String> uploadUrls = s3UploadService.upload(uploadImagesRequestDto.getImages(), "record");
 
+      //db 접근해서 dto 생성해오기
+      boolean result = mountainService.createRecordPhotos(uploadImagesRequestDto, uploadUrls, mountainSeq);
+
+      return new BaseResponseDto<>(result);
 
     } catch(Exception e){
-
+      if(e instanceof BaseException) {
+        throw e;
+      } else{
+        throw new BaseException(BaseResponseStatus.FAIL);
+      }
     }
-
-    System.out.println(SecurityContextHolder.getContext().getAuthentication().getPrincipal());
-    System.out.println(SecurityContextHolder.getContext().getAuthentication().getPrincipal().getClass());
-
-    System.out.println(13);
-
-
-    return null;
   }
+
 }

@@ -16,6 +16,7 @@ import org.springframework.web.multipart.MultipartFile;
 @AllArgsConstructor
 public class UploadImagesRequestDto {
   private Long userSeq;
+  private Long mountainSeq;
   private BigDecimal latitude;
   private BigDecimal longitude;
   @DateTimeFormat(pattern = "yyyy-MM-dd")

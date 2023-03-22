@@ -9,6 +9,8 @@ public enum BaseResponseStatus {
   SUCCESS(HttpStatus.OK, 2000, "요청에 성공하였습니다."),
 
   //FAIL
+  //임시생성 -> 추후 코드 정리 예정
+  FAIL(HttpStatus.INTERNAL_SERVER_ERROR, 1999, "일단 실패했습니다??"),
 
 
   //인증관련 에러

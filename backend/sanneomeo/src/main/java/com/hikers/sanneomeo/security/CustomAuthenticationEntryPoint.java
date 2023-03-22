@@ -16,6 +16,8 @@ public class CustomAuthenticationEntryPoint implements AuthenticationEntryPoint 
   @Override
   public void commence(HttpServletRequest request, HttpServletResponse response, AuthenticationException authException) throws IOException {
 
+    authException.printStackTrace();
+
     if (authException instanceof InsufficientAuthenticationException) {
       JsonUtils.writeJsonExceptionResponse(response, BaseResponseStatus.TOKEN_NULL_ERROR);
     }
