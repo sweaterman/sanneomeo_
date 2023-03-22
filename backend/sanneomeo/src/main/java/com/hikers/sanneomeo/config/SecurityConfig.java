@@ -44,10 +44,10 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
 @Configuration
 @EnableWebSecurity(debug = true)
-@RequiredArgsConstructor
 public class SecurityConfig {
 
-  private final YmlConfig ymlConfig;
+  @Autowired
+  private YmlConfig ymlConfig;
 
   @Autowired
   UserRepository userRepository;
@@ -64,7 +64,6 @@ public class SecurityConfig {
     //cors config
     http.cors().configurationSource(corsConfigurationSource());
 
-
     //기본 설정 해제와 경로 설정
     http
         .csrf(AbstractHttpConfigurer::disable)
@@ -72,15 +71,13 @@ public class SecurityConfig {
         .sessionManagement(session-> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
         .requestCache(RequestCacheConfigurer::disable)
         .authorizeHttpRequests(authorize -> authorize
-//            .antMatchers(Constants.SECURITY_HTTP_EXCLUDE_URIS).permitAll()
+//                .antMatchers(Constants.SECURITY_HTTP_EXCLUDE_URIS).permitAll()
+//                .anyRequest().authenticated()
+                //임시로 모든 요청 허용
                 .anyRequest().permitAll()
-            //임시로 모든 요청에 허용
-//            .anyRequest().authenticated()
         )
     ;
-
     http.getConfigurer(DefaultLoginPageConfigurer.class).disable();
-
 
     //oauth2 설정
     http
@@ -96,11 +93,8 @@ public class SecurityConfig {
             .failureHandler(customOAuth2UserFailureHandler())
         );
 
-//                .anyRequest().permitAll() //임시로 모든 요청 풀어두기
-    //jwtTokenFilter 설정
     http.addFilterBefore(jwtTokenFilter(), OAuth2AuthorizationRequestRedirectFilter.class)
         .exceptionHandling().authenticationEntryPoint(customAuthenticationEntryPoint());
-//    http.removeConfigurer(DefaultLoginPageConfigurer.class);
 
     return http.build();
   }
