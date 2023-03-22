@@ -3,6 +3,7 @@ package com.hikers.sanneomeo.controller;
 import static com.hikers.sanneomeo.exception.BaseResponseStatus.UNAUTHORIZED_USER;
 
 import com.hikers.sanneomeo.dto.request.UploadImagesRequestDto;
+import com.hikers.sanneomeo.dto.request.WriteReviewRequestDto;
 import com.hikers.sanneomeo.dto.response.BaseResponseDto;
 import com.hikers.sanneomeo.exception.BaseException;
 import com.hikers.sanneomeo.exception.BaseResponseStatus;
@@ -11,12 +12,7 @@ import com.hikers.sanneomeo.service.S3UploadService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.*;
 
 
 @RestController
@@ -55,10 +51,33 @@ public class MountainController {
         }
     }
 
+    @PostMapping("/review")
+    public BaseResponseDto<?> writeReview(@RequestBody WriteReviewRequestDto writeReviewRequestDto){
+        try{
+            boolean result = mountainService.writeReview(writeReviewRequestDto);
+            return new BaseResponseDto<>(result);
+        }catch (Exception e){
+            if(e instanceof BaseException){
+                throw e;
+            }else{
+                //return new BaseResponseDto<>(BaseResponseStatus.FAIL);
+                throw new BaseException(BaseResponseStatus.FAIL);
+            }
+        }
+    }
 
     @GetMapping("/position/{mountainIdx}")
     public BaseResponseDto<?> mountainPos(@PathVariable String mountainIdx) {
+        try{
+            return new BaseResponseDto<>(mountainService.getPos(mountainIdx));
 
-        return new BaseResponseDto<>(mountainService.getPos(mountainIdx));
+        }catch(Exception e){
+            if (e instanceof BaseException){
+                throw e;
+            }else{
+
+                throw new BaseException(BaseResponseStatus.FAIL);
+            }
+        }
     }
 }
