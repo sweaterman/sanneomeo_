@@ -1,18 +1,27 @@
 import React, { useState } from 'react';
 
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 function Navbar() {
   const [isLogin, setIsLogin] = useState();
   const navigate = useNavigate();
 
+  // 해당 페이지로 이동선언하는 함수
   const navigateToMain = () => {
-    console.log('go to review!');
+    console.log('go to main!');
     navigate('/');
   };
   const navigateToRecommend = () => {
     console.log('go to recommend!');
     navigate('/recommend/question');
+  };
+  const navigateToMypage = () => {
+    console.log('go to mypage!');
+    navigate('/user/mypage');
+  };
+  const navigateToWishlist = () => {
+    console.log('go to wishlist!');
+    navigate('/user/wishlist');
   };
   const navigateToLogin = () => {
     console.log('go to login!');
@@ -32,7 +41,7 @@ function Navbar() {
         <div
           className="nav-logo"
           role="presentation"
-          onClick={() => {}}
+          onClick={navigateToMain}
           onKeyDown={navigateToMain}
         >
           <img src="#" alt="sanneomeo" />
@@ -41,8 +50,10 @@ function Navbar() {
         <div className="header-font-group">
           <div
             className="header-font-tag"
+            // 정적인 div에서 동적인 onClick 기능 사용하기 위해 role 지정(eslint)
             role="presentation"
-            onClick={() => {}}
+            // 표준 HTML 규칙 준수를 위한 onClick + onKeyDown 설정
+            onClick={navigateToMain}
             onKeyDown={navigateToMain}
           >
             산너머&nbsp;
@@ -51,18 +62,18 @@ function Navbar() {
           <div
             className="header-font-tag"
             role="presentation"
-            onClick={() => {}}
+            onClick={navigateToRecommend}
             onKeyDown={navigateToRecommend}
           >
             람쥐추천&nbsp;
           </div>
-
+          {/* 로그인여부 확인하는 삼항연산자 */}
           {isLogin ? (
             <div>
               <div
                 className="header-font-tag"
                 role="presentation"
-                onClick={() => {}}
+                onClick={onLogout}
                 onKeyDown={onLogout}
               >
                 나가기&nbsp;
@@ -70,16 +81,16 @@ function Navbar() {
               <div
                 className="header-font-tag"
                 role="presentation"
-                onClick={() => {}}
-                onKeyDown={navigateToLogin}
+                onClick={navigateToMypage}
+                onKeyDown={navigateToMypage}
               >
                 나의기록&nbsp;
               </div>
               <div
                 className="header-font-tag"
                 role="presentation"
-                onClick={() => {}}
-                onKeyDown={navigateToLogin}
+                onClick={navigateToWishlist}
+                onKeyDown={navigateToWishlist}
               >
                 찜리스트&nbsp;
               </div>
@@ -88,7 +99,7 @@ function Navbar() {
             <div
               className="header-font-tag"
               role="presentation"
-              onClick={() => {}}
+              onClick={navigateToLogin}
               onKeyDown={navigateToLogin}
             >
               들어가기&nbsp;
