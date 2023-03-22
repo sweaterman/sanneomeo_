@@ -6,6 +6,7 @@ import com.hikers.sanneomeo.domain.Review;
 import com.hikers.sanneomeo.dto.request.UploadImagesRequestDto;
 import com.hikers.sanneomeo.dto.request.WriteReviewRequestDto;
 import com.hikers.sanneomeo.dto.response.MountainPosResponseDto;
+import com.hikers.sanneomeo.dto.response.ReviewResponseDto;
 import com.hikers.sanneomeo.repository.MountainRepository;
 import com.hikers.sanneomeo.repository.RecordPhotoRepository;
 import java.util.List;
@@ -71,6 +72,11 @@ public class MountainServiceImpl implements MountainService{
         MountainPosResponseDto mountainPosResponseDto = new MountainPosResponseDto(mountain.getName(),mountain.getLatitude(),mountain.getLongitude(),mountain.getLatitude(),mountain.getDifficulty());
 
         return Optional.of(mountainPosResponseDto);
+    }
+
+    @Override
+    public List<ReviewResponseDto> reviewList(String mountainIdx) {
+        return null;
     }
 }
 

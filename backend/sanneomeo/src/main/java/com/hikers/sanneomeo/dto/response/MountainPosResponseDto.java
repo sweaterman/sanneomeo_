@@ -8,7 +8,6 @@ import java.math.BigDecimal;
 
 @Getter
 @NoArgsConstructor
-
 public class MountainPosResponseDto {
 
     //산이름

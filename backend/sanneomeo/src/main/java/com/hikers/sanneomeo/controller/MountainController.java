@@ -82,9 +82,23 @@ public class MountainController {
             if (e instanceof BaseException){
                 throw e;
             }else{
-
                 throw new BaseException(BaseResponseStatus.FAIL);
             }
         }
     }
+
+    @GetMapping("/review/{mountainIdx}")
+    public BaseResponseDto<?> reviewList(@PathVariable String mountainIdx){
+        try{
+            return new BaseResponseDto<>(mountainService.reviewList(mountainIdx));
+        }catch (Exception e){
+            if (e instanceof BaseException){
+                throw e;
+            }else{
+                throw new BaseException(BaseResponseStatus.FAIL);
+            }
+        }
+    }
+
+
 }
