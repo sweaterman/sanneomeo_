@@ -1,5 +1,7 @@
 package com.hikers.sanneomeo.domain;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
@@ -11,6 +13,11 @@ import java.sql.Timestamp;
 @Table(name = "tbl_keep")
 @NoArgsConstructor
 public class Keep {
+    @Builder
+    public Keep(Long userSeq, Long trailSeq) {
+        this.userSeq = userSeq;
+        this.trailSeq = trailSeq;
+    }
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,8 +28,10 @@ public class Keep {
     private Long userSeq;
 
     @Column(name = "trail_seq", nullable = false)
-    private String trailSeq;
+    private Long trailSeq;
 
     @Column(name = "created_at")
     private Timestamp createdAt;
+
+
 }
