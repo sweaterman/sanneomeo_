@@ -1,5 +1,7 @@
 package com.hikers.sanneomeo.domain;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
@@ -10,6 +12,8 @@ import java.sql.Timestamp;
 @Table(name = "tbl_review")
 @Getter
 @NoArgsConstructor
+@Builder
+@AllArgsConstructor
 public class Review {
     @Id
     @Column(name = "review_seq", nullable = false)
@@ -17,7 +21,7 @@ public class Review {
     private Long reviewSeq;
 
     @Column(name = "mountain_seq", nullable = false)
-    private Long mountainSeq;
+    private String mountainSeq;
 
     @Column(name = "user_seq", nullable = false)
     private Long userSeq;
