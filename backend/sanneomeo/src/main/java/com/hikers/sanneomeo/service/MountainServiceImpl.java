@@ -14,7 +14,7 @@ import com.hikers.sanneomeo.repository.RecordPhotoRepository;
 import java.util.List;
 
 import com.hikers.sanneomeo.repository.ReviewRepository;
-import com.hikers.sanneomeo.repository.ReviewRepositorySupport;
+import com.hikers.sanneomeo.repository.ReviewRepositoryImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -34,8 +34,6 @@ public class MountainServiceImpl implements MountainService{
     @Autowired
     private ReviewRepository  reviewRepository;
 
-    @Autowired
-    private ReviewRepositorySupport reviewRepositorySupport;
 
 
     @Transactional
@@ -87,7 +85,7 @@ public class MountainServiceImpl implements MountainService{
         //리뷰가 없으면
 
         //리뷰가 있으면
-        List<ReviewResponseDto> reviewResponseDto = reviewRepositorySupport.getReview(mountainIdx);
+        List<ReviewResponseDto> reviewResponseDto = reviewRepository.getReview(mountainIdx);
 
         for(ReviewResponseDto review : reviewResponseDto){
             if(review.getUserSeq() == authUserSeq){
