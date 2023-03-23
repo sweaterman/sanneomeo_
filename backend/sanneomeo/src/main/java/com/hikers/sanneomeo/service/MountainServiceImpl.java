@@ -75,7 +75,7 @@ public class MountainServiceImpl implements MountainService{
     public MountainPosResponseDto getPos(String mountainIdx) {
         //산정보
         Mountain mountain = mountainRepository.findByMountainSeq(mountainIdx).orElseThrow(()-> new BaseException(BaseResponseStatus.FAIL));
-        MountainPosResponseDto mountainPosResponseDto = new MountainPosResponseDto(mountain.getName(),mountain.getLatitude(),mountain.getLongitude(),mountain.getLatitude(),mountain.getDifficulty());
+        MountainPosResponseDto mountainPosResponseDto = new MountainPosResponseDto(mountain.getName(),mountain.getLatitude(),mountain.getLongitude(),mountain.getAltitude(),mountain.getDifficulty());
 
         return mountainPosResponseDto;
     }
