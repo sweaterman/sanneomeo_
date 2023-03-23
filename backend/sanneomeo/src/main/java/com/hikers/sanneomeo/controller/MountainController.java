@@ -12,6 +12,8 @@ import com.hikers.sanneomeo.exception.BaseResponseStatus;
 import com.hikers.sanneomeo.service.MountainService;
 import com.hikers.sanneomeo.service.S3UploadService;
 import com.hikers.sanneomeo.service.TrailService;
+
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
