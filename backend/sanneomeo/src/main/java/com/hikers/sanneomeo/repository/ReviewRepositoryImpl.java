@@ -11,8 +11,7 @@ import static com.hikers.sanneomeo.domain.QUser.user;
 
 import java.util.List;
 
-@Repository
-public class ReviewRepositorySupport {
+public class ReviewRepositoryImpl implements ReviewRepositoryCustom{
 
     @Autowired
     private JPAQueryFactory query;
