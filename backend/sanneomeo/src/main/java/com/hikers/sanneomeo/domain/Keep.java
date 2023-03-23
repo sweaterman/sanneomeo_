@@ -39,5 +39,6 @@ public class Keep {
     @Column(name = "updated_at")
     private Timestamp updatedAt;
 
+    public void updateIsKeep() {this.isKeep = !this.isKeep;}
 
 }

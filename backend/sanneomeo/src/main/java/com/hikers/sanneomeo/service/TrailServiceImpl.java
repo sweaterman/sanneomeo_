@@ -7,10 +7,10 @@ import com.hikers.sanneomeo.exception.BaseResponseStatus;
 import com.hikers.sanneomeo.repository.KeepRepository;
 import com.hikers.sanneomeo.repository.TrailRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
+import java.util.Optional;
 
 @Service
 @Transactional
@@ -20,26 +20,26 @@ public class TrailServiceImpl implements TrailService {
     private final TrailRepository trailRepository;
 
     @Override
-    public boolean createKeep(Long userSeq, Long trailSeq) {
-        //to entity
-        Keep keep = Keep.builder()
-                .userSeq(userSeq)
-                .trailSeq(trailSeq)
-                .build();
+    public boolean keep(Long userSeq, Long trailSeq) {
+        Optional<Keep> keep = keepRepository.findFirstByUserSeqAndTrailSeq(userSeq, trailSeq);
+        if (keep.isPresent()) { // 레코드가 있으면
+            keep.get().updateIsKeep();
+        }
+        else { // 레코드가 없으면
+            //to entity
+            Keep keepEntity= Keep.builder()
+                    .userSeq(userSeq)
+                    .trailSeq(trailSeq)
+                    .build();
 
-        keepRepository.save(keep);
+            keepRepository.save(keepEntity);
+        }
         return true;
     }
 
     @Override
-    public boolean removeKeep(Long keepSeq) {
-        keepRepository.deleteById(keepSeq);
-        return true;
+    public TrailDetailResponseDto getTrailDetail(Long sequence) {
+        return trailRepository.findDetailBySequence(sequence).orElseThrow(() -> new BaseException(
+                BaseResponseStatus.FAIL, ""));
     }
-
-  @Override
-  public TrailDetailResponseDto getTrailDetail(Long sequence) {
-    return trailRepository.findDetailBySequence(sequence).orElseThrow(() -> new BaseException(
-        BaseResponseStatus.FAIL, ""));
-  }
 }
