@@ -7,14 +7,11 @@ import com.hikers.sanneomeo.exception.BaseException;
 import com.hikers.sanneomeo.exception.BaseResponseStatus;
 import com.hikers.sanneomeo.repository.KeepRepository;
 import com.hikers.sanneomeo.repository.TrailRepository;
-import java.util.List;
-import java.util.stream.Collectors;
-import javax.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -29,10 +26,9 @@ public class TrailServiceImpl implements TrailService {
         Optional<Keep> keep = keepRepository.findFirstByUserSeqAndTrailSeq(userSeq, trailSeq);
         if (keep.isPresent()) { // 레코드가 있으면
             keep.get().updateIsKeep();
-        }
-        else { // 레코드가 없으면
+        } else { // 레코드가 없으면
             //to entity
-            Keep keepEntity= Keep.builder()
+            Keep keepEntity = Keep.builder()
                     .userSeq(userSeq)
                     .trailSeq(trailSeq)
                     .build();
@@ -42,16 +38,16 @@ public class TrailServiceImpl implements TrailService {
         return true;
     }
 
-  @Override
-  public TrailDetailResponseDto getTrailDetail(Long sequence) {
-    return trailRepository.findDetailBySequence(sequence).orElseThrow(() -> new BaseException(
-        BaseResponseStatus.FAIL, ""));
-  }
+    @Override
+    public TrailDetailResponseDto getTrailDetail(Long sequence) {
+        return trailRepository.findDetailBySequence(sequence).orElseThrow(() -> new BaseException(
+                BaseResponseStatus.FAIL, ""));
+    }
 
-  @Override
-  public List<TrailListResponseDto> getTrailsBySequence(String sequence) {
-    return trailRepository.findTrailsByMountainSequence(sequence);
-  }
+    @Override
+    public List<TrailListResponseDto> getTrailsBySequence(String sequence) {
+        return trailRepository.findTrailsByMountainSequence(sequence);
+    }
 
 
 }

@@ -6,7 +6,6 @@ import com.hikers.sanneomeo.exception.BaseException;
 import com.hikers.sanneomeo.exception.BaseResponseStatus;
 import com.hikers.sanneomeo.service.TrailService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.*;
 
