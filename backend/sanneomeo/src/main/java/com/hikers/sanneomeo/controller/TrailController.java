@@ -28,10 +28,8 @@ public class TrailController {
         try {
             Long authUserSeq = Long.parseLong(SecurityContextHolder.getContext().getAuthentication().getPrincipal().toString());
             //유저가 해당 trailSeq에 대한 찜 데이터 있다면 get -> true/false 토글
-
             //없다면 post
-
-            boolean result = trailService.createKeep(authUserSeq, trailSeq);
+            boolean result = trailService.keep(authUserSeq, trailSeq);
             return new BaseResponseDto<>(result);
         } catch (Exception e) {
             if (e instanceof BaseException) {
