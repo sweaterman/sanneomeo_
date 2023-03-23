@@ -6,7 +6,6 @@ import com.hikers.sanneomeo.dto.response.MountainPosResponseDto;
 import com.hikers.sanneomeo.dto.response.ReviewResponseDto;
 
 import java.util.List;
-import java.util.Optional;
 
 public interface MountainService {
 
@@ -21,5 +20,8 @@ public interface MountainService {
 
     //후기 리스트
     List<ReviewResponseDto> reviewList(String mountainIdx, Long authUserSeq);
+
+    //후기 삭제
+    void deleteReview(Long reviewIdx);
 
 }

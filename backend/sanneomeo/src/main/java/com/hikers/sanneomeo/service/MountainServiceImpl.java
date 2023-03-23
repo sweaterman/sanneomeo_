@@ -18,7 +18,9 @@ import com.hikers.sanneomeo.repository.ReviewRepositorySupport;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import java.util.Optional;
+
+import javax.persistence.PersistenceException;
+
 
 @Service
 @Transactional
@@ -94,6 +96,18 @@ public class MountainServiceImpl implements MountainService{
         }
 
         return reviewResponseDto;
+    }
+
+    @Override
+    public void deleteReview(Long reviewIdx) {
+        try{
+            reviewRepository.deleteById(reviewIdx);
+
+        }catch(PersistenceException e){
+
+            throw new BaseException(BaseResponseStatus.REVIEW_DELETE_ERROR);
+        }
+
     }
 }
 

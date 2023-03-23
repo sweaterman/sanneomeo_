@@ -111,5 +111,22 @@ public class MountainController {
         }
     }
 
+    @DeleteMapping("/review/{reviewIdx}")
+    public BaseResponseDto<Boolean> deleteReview(@PathVariable Long reviewIdx){
+        try {
+            mountainService.deleteReview(reviewIdx);
+            return new BaseResponseDto<Boolean>(true);
+
+        }catch(Exception e){
+            if (e instanceof BaseException){
+                throw e;
+            }else{
+                throw new BaseException(BaseResponseStatus.FAIL);
+            }
+        }
+
+    }
+
+
 
 }
