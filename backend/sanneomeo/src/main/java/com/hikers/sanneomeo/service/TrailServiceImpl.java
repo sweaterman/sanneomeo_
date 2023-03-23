@@ -27,6 +27,7 @@ public class TrailServiceImpl implements TrailService {
 
     @Override
     public boolean removeKeep(Long keepSeq) {
-        return false;
+        keepRepository.deleteById(keepSeq);
+        return true;
     }
 }
