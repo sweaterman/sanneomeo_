@@ -5,11 +5,13 @@ import static com.hikers.sanneomeo.exception.BaseResponseStatus.UNAUTHORIZED_USE
 import com.hikers.sanneomeo.dto.request.UploadImagesRequestDto;
 import com.hikers.sanneomeo.dto.request.WriteReviewRequestDto;
 import com.hikers.sanneomeo.dto.response.BaseResponseDto;
+import com.hikers.sanneomeo.dto.response.PhotoResponseDto;
 import com.hikers.sanneomeo.dto.response.TrailListResponseDto;
 import com.hikers.sanneomeo.dto.response.ReviewResponseDto;
 import com.hikers.sanneomeo.exception.BaseException;
 import com.hikers.sanneomeo.exception.BaseResponseStatus;
 import com.hikers.sanneomeo.service.MountainService;
+import com.hikers.sanneomeo.service.PhotoService;
 import com.hikers.sanneomeo.service.S3UploadService;
 import com.hikers.sanneomeo.service.TrailService;
 
@@ -33,6 +35,8 @@ public class MountainController {
 
     @Autowired
     private TrailService trailService;
+    @Autowired
+    private PhotoService photoService;
 
     @PostMapping("/image/{mountainSeq}")
     public BaseResponseDto<Boolean> uploadImages(@ModelAttribute UploadImagesRequestDto uploadImagesRequestDto,
@@ -134,5 +138,9 @@ public class MountainController {
     @GetMapping("/trail/{mountainIdx}")
     public List<TrailListResponseDto> getTrailsByMountainSequence(@PathVariable("mountainIdx") String sequence){
         return trailService.getTrailsBySequence(sequence);
+    }
+    @GetMapping("/photo/{mountainIdx}")
+    public List<PhotoResponseDto> getTrailsByMountainSequence(@PathVariable("mountainIdx") Long sequence){
+        return photoService.getPhotosBymountainSequence(sequence);
     }
 }
