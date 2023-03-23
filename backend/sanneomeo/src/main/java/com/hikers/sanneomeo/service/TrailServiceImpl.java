@@ -2,11 +2,16 @@ package com.hikers.sanneomeo.service;
 
 import com.hikers.sanneomeo.domain.Keep;
 import com.hikers.sanneomeo.dto.response.TrailDetailResponseDto;
+import com.hikers.sanneomeo.dto.response.TrailListResponseDto;
 import com.hikers.sanneomeo.exception.BaseException;
 import com.hikers.sanneomeo.exception.BaseResponseStatus;
 import com.hikers.sanneomeo.repository.KeepRepository;
 import com.hikers.sanneomeo.repository.TrailRepository;
+import java.util.List;
+import java.util.stream.Collectors;
+import javax.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
@@ -37,9 +42,16 @@ public class TrailServiceImpl implements TrailService {
         return true;
     }
 
-    @Override
-    public TrailDetailResponseDto getTrailDetail(Long sequence) {
-        return trailRepository.findDetailBySequence(sequence).orElseThrow(() -> new BaseException(
-                BaseResponseStatus.FAIL, ""));
-    }
+  @Override
+  public TrailDetailResponseDto getTrailDetail(Long sequence) {
+    return trailRepository.findDetailBySequence(sequence).orElseThrow(() -> new BaseException(
+        BaseResponseStatus.FAIL, ""));
+  }
+
+  @Override
+  public List<TrailListResponseDto> getTrailsBySequence(String sequence) {
+    return trailRepository.findTrailsByMountainSequence(sequence);
+  }
+
+
 }

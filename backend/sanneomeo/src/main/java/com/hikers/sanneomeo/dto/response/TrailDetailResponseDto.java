@@ -1,21 +1,24 @@
 package com.hikers.sanneomeo.dto.response;
 
+import java.math.BigDecimal;
 import lombok.Builder;
+import lombok.Data;
 
+@Data
 public class TrailDetailResponseDto {
 
   private String code;
-  private int no;
+  private Integer no;
   private String name;
   private String introduction;
-  private float length;
+  private BigDecimal length;
   private String difficulty;
-  private int upTime;
-  private int downTime;
+  private Integer upTime;
+  private Integer downTime;
   private String risk;
 
-  public TrailDetailResponseDto(String code, int no, String name, String introduction, float length,
-      String difficulty, int upTime, int downTime, String risk) {
+  public TrailDetailResponseDto(String code, Integer no, String name, String introduction, BigDecimal length,
+      String difficulty, Integer upTime, Integer downTime, String risk) {
     this.code = code;
     this.no = no;
     this.name = name;
