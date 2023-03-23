@@ -7,11 +7,14 @@ import com.hikers.sanneomeo.dto.request.UploadImagesRequestDto;
 import com.hikers.sanneomeo.dto.request.WriteReviewRequestDto;
 import com.hikers.sanneomeo.dto.response.MountainPosResponseDto;
 import com.hikers.sanneomeo.dto.response.ReviewResponseDto;
+import com.hikers.sanneomeo.exception.BaseException;
+import com.hikers.sanneomeo.exception.BaseResponseStatus;
 import com.hikers.sanneomeo.repository.MountainRepository;
 import com.hikers.sanneomeo.repository.RecordPhotoRepository;
 import java.util.List;
 
 import com.hikers.sanneomeo.repository.ReviewRepository;
+import com.hikers.sanneomeo.repository.ReviewRepositorySupport;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -28,6 +31,9 @@ public class MountainServiceImpl implements MountainService{
 
     @Autowired
     private ReviewRepository  reviewRepository;
+
+    @Autowired
+    private ReviewRepositorySupport reviewRepositorySupport;
 
 
     @Transactional
@@ -66,17 +72,28 @@ public class MountainServiceImpl implements MountainService{
     }
 
     @Override
-    public Optional<MountainPosResponseDto> getPos(String mountainIdx) {
+    public MountainPosResponseDto getPos(String mountainIdx) {
         //산정보
-        Mountain mountain = mountainRepository.findByMountainSeq(mountainIdx).get();
+        Mountain mountain = mountainRepository.findByMountainSeq(mountainIdx).orElseThrow(()-> new BaseException(BaseResponseStatus.FAIL));
         MountainPosResponseDto mountainPosResponseDto = new MountainPosResponseDto(mountain.getName(),mountain.getLatitude(),mountain.getLongitude(),mountain.getLatitude(),mountain.getDifficulty());
 
-        return Optional.of(mountainPosResponseDto);
+        return mountainPosResponseDto;
     }
 
     @Override
-    public List<ReviewResponseDto> reviewList(String mountainIdx) {
-        return null;
+    public List<ReviewResponseDto> reviewList(String mountainIdx, Long authUserSeq) {
+        //리뷰가 없으면
+
+        //리뷰가 있으면
+        List<ReviewResponseDto> reviewResponseDto = reviewRepositorySupport.getReview(mountainIdx);
+
+        for(ReviewResponseDto review : reviewResponseDto){
+            if(review.getUserSeq() == authUserSeq){
+                review.setWriter(true);
+            }
+        }
+
+        return reviewResponseDto;
     }
 }
 

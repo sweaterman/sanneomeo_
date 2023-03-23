@@ -17,9 +17,9 @@ public interface MountainService {
     boolean writeReview(WriteReviewRequestDto writeReviewRequestDto);
 
     //산 위치 정보
-    Optional<MountainPosResponseDto> getPos(String mountainIdx);
+    MountainPosResponseDto getPos(String mountainIdx);
 
     //후기 리스트
-    List<ReviewResponseDto> reviewList(String mountainIdx);
+    List<ReviewResponseDto> reviewList(String mountainIdx, Long authUserSeq);
 
 }
