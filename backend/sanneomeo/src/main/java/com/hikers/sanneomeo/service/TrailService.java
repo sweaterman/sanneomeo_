@@ -1,6 +1,8 @@
 package com.hikers.sanneomeo.service;
 
 import com.hikers.sanneomeo.dto.response.TrailDetailResponseDto;
+import com.hikers.sanneomeo.dto.response.TrailListResponseDto;
+import java.util.List;
 
 public interface TrailService {
 
@@ -11,4 +13,8 @@ public interface TrailService {
   boolean removeKeep(Long keepSeq);
 
   TrailDetailResponseDto getTrailDetail(Long sequence);
+
+  List<TrailListResponseDto> getTrailsBySequence(String sequence);
+
+
 }
