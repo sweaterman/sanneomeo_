@@ -1,16 +1,21 @@
 package com.hikers.sanneomeo.domain;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
+import lombok.Setter;
 
 @Entity
 @Table(name = "tbl_record_photo")
 @Getter
 @NoArgsConstructor
+@Builder
+@AllArgsConstructor
 public class RecordPhoto {
     @Id
     @Column(name = "record_photo_seq")
@@ -32,11 +37,15 @@ public class RecordPhoto {
     @Column(name = "longitude")
     private BigDecimal longitude;
 
-    @Column(name = "is_public", columnDefinition = "TINYINT(1) default 0")
+    @Column(name = "is_public", columnDefinition = "TINYINT(1) default 1")
     private boolean isPublic = false;
 
     @Column(name = "created_at")
     private Timestamp createdAt;
+
+    public void updateIsPublic(){
+        this.isPublic = !this.isPublic;
+    }
 
 
 }

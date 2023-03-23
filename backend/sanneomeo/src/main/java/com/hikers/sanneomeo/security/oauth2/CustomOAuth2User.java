@@ -15,7 +15,6 @@ public class CustomOAuth2User  {
   private String nameAttributeKey;
   private String nickname;
   private String profileImg;
-  private Integer level;
   private Long userSeq;
 
 
@@ -24,6 +23,7 @@ public class CustomOAuth2User  {
     switch (registrationId){
       case("kakao"): return kakaoMapper(attributes, nameAttributeKey);
       case("google"): return googleMapper(attributes, nameAttributeKey);
+      case("naver"): return naverMapper(attributes, nameAttributeKey);
       default: return null;
     }
   }
@@ -40,31 +40,24 @@ public class CustomOAuth2User  {
         .build();
   }
 
-  //CustomOAuth2User의 필드 값들을 map으로 변환하여 반환한다.
-  //Authentication 객체 생성 시 필요한 attributes map 생성
-  public Map<String, Object> objToMap(){
-    Map<String, Object> attributes = new HashMap<>();
-
-    attributes.put("registrationId",this.registrationId);
-    attributes.put("socialId", this.socialId);
-    attributes.put("nickname", this.nickname);
-    attributes.put("profileImg", this.profileImg);
-    attributes.put("level", this.level);
-
-    return attributes;
-  }
-
-  //Authentication 과정이 끝난 후 다시
-//  public static CustomOAuth2User mapToObj(Map<String, String> attributes){
-//    return CustomOAuth2User.builder()
-//        .registrationId()
-//  }
   public static CustomOAuth2User googleMapper(Map<String, Object> attributes, String nameAttributeKey){
     return CustomOAuth2User.builder()
         .registrationId("google")
         .socialId(attributes.get(nameAttributeKey).toString())
         .nickname(attributes.get("name").toString())
         .profileImg(attributes.get("picture").toString())
+        .nameAttributeKey(nameAttributeKey)
+        .build();
+  }
+
+  public static CustomOAuth2User naverMapper(Map<String, Object> attributes, String nameAttributeKey){
+    Map<String, Object> properties = (Map<String,Object>)attributes.get("response");
+
+    return CustomOAuth2User.builder()
+        .registrationId("naver")
+        .socialId(properties.get("id").toString())
+        .nickname(properties.get("nickname").toString())
+        .profileImg(properties.get("profile_image").toString())
         .nameAttributeKey(nameAttributeKey)
         .build();
   }
