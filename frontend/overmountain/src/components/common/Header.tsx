@@ -14,7 +14,7 @@ function Header() {
         alt="headerbackground"
       />
       {/* page-title 향후 페이지명 동적바인딩  */}
-      <div className="page-title">들어가기</div>
+      <div className="page-title">페이지명이 들어갈자리</div>
     </div>
   );
 }
