@@ -1,7 +1,12 @@
 package com.hikers.sanneomeo.service;
 
 import com.hikers.sanneomeo.domain.Keep;
+import com.hikers.sanneomeo.dto.response.TrailDetailResponseDto;
+import com.hikers.sanneomeo.exception.BaseException;
+import com.hikers.sanneomeo.exception.BaseResponseStatus;
 import com.hikers.sanneomeo.repository.KeepRepository;
+import com.hikers.sanneomeo.repository.TrailRepository;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -9,9 +14,10 @@ import javax.transaction.Transactional;
 
 @Service
 @Transactional
+@RequiredArgsConstructor
 public class TrailServiceImpl implements TrailService {
-    @Autowired
-    private KeepRepository keepRepository;
+    private final KeepRepository keepRepository;
+    private final TrailRepository trailRepository;
 
     @Override
     public boolean createKeep(Long userSeq, Long trailSeq) {
