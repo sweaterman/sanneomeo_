@@ -18,6 +18,12 @@ public class TrailService {
   private final TrailRepository trailRepository;
 
 
+  /**
+   * Gets trail detail.
+   *
+   * @param sequence the sequence
+   * @return the trail detail
+   */
   public TrailDetailResponseDto getTrailDetail(Long sequence) {
     return trailRepository.findDetailBySequence(sequence).orElseThrow(() -> new BaseException(
         BaseResponseStatus.OAUTH_SETTING_ERROR, ""));

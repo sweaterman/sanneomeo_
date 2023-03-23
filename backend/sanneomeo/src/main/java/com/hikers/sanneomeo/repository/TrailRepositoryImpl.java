@@ -9,7 +9,7 @@ import java.util.Optional;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
-public class TrailRepositorySupport implements TrailRepositoryCustom {
+public class TrailRepositoryImpl implements TrailRepositoryCustom {
 
   private final JPAQueryFactory queryFactory;
 
