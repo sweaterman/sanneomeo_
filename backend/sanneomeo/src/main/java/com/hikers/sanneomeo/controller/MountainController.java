@@ -6,12 +6,17 @@ import com.hikers.sanneomeo.dto.request.UploadImagesRequestDto;
 import com.hikers.sanneomeo.dto.request.WriteReviewRequestDto;
 import com.hikers.sanneomeo.dto.response.BaseResponseDto;
 import com.hikers.sanneomeo.dto.response.TrailListResponseDto;
+import com.hikers.sanneomeo.dto.response.ReviewResponseDto;
 import com.hikers.sanneomeo.exception.BaseException;
 import com.hikers.sanneomeo.exception.BaseResponseStatus;
 import com.hikers.sanneomeo.service.MountainService;
 import com.hikers.sanneomeo.service.S3UploadService;
 import com.hikers.sanneomeo.service.TrailService;
+
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.*;
@@ -87,7 +92,40 @@ public class MountainController {
             if (e instanceof BaseException){
                 throw e;
             }else{
+                throw new BaseException(BaseResponseStatus.FAIL);
+            }
+        }
+    }
 
+    @GetMapping("/review/{mountainIdx}")
+    public BaseResponseDto<?> reviewList(@PathVariable String mountainIdx){
+        try{
+            Long authUserSeq = Long.parseLong(SecurityContextHolder.getContext().getAuthentication().getPrincipal().toString());
+            Map<String, Object> reviewMap = new HashMap<>();
+
+            List<ReviewResponseDto> reviews = mountainService.reviewList(mountainIdx, authUserSeq);
+            reviewMap.put("count", reviews.size());
+            reviewMap.put("reviewList", reviews);
+            return new BaseResponseDto<>(reviewMap);
+        }catch (Exception e){
+            if (e instanceof BaseException){
+                throw e;
+            }else{
+                throw new BaseException(BaseResponseStatus.FAIL);
+            }
+        }
+    }
+
+    @DeleteMapping("/review/{reviewIdx}")
+    public BaseResponseDto<Boolean> deleteReview(@PathVariable Long reviewIdx){
+        try {
+            mountainService.deleteReview(reviewIdx);
+            return new BaseResponseDto<Boolean>(true);
+
+        }catch(Exception e){
+            if (e instanceof BaseException){
+                throw e;
+            }else{
                 throw new BaseException(BaseResponseStatus.FAIL);
             }
         }
