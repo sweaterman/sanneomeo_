@@ -30,8 +30,15 @@ public class Keep {
     @Column(name = "trail_seq", nullable = false)
     private Long trailSeq;
 
+    @Column(name = "is_keep", nullable = false, columnDefinition = "TINYINT(1) default 1")
+    private boolean isKeep = true;
+
     @Column(name = "created_at")
     private Timestamp createdAt;
 
+    @Column(name = "updated_at")
+    private Timestamp updatedAt;
+
+    public void updateIsKeep() {this.isKeep = !this.isKeep;}
 
 }

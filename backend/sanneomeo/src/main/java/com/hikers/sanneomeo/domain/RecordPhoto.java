@@ -38,7 +38,7 @@ public class RecordPhoto {
     private BigDecimal longitude;
 
     @Column(name = "is_public", columnDefinition = "TINYINT(1) default 1")
-    private boolean isPublic = false;
+    private boolean isPublic = true;
 
     @Column(name = "created_at")
     private Timestamp createdAt;

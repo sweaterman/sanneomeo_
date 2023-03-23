@@ -1,10 +1,13 @@
 package com.hikers.sanneomeo.repository;
 
+import static com.hikers.sanneomeo.domain.QKeep.keep;
 import static com.hikers.sanneomeo.domain.QTrail.trail;
 
 import com.hikers.sanneomeo.dto.response.TrailDetailResponseDto;
+import com.hikers.sanneomeo.dto.response.TrailListResponseDto;
 import com.querydsl.core.types.Projections;
 import com.querydsl.jpa.impl.JPAQueryFactory;
+import java.util.List;
 import java.util.Optional;
 import lombok.RequiredArgsConstructor;
 
@@ -24,6 +27,21 @@ public class TrailRepositoryImpl implements TrailRepositoryCustom {
         )
         .from(trail)
         .where(trail.trailSeq.eq(sequence))
-        .fetchOne());
+        .fetchFirst());
   }
+
+  @Override
+  public List<TrailListResponseDto> findTrailsByMountainSequence(String sequence) {
+    return queryFactory.select(
+            Projections.constructor(TrailListResponseDto.class, trail.trailSeq, trail.name,
+                trail.length,trail.difficulty, keep.trailSeq.count())
+        )
+        .from(trail)
+        .leftJoin(keep)
+        .on(trail.trailSeq.eq(keep.trailSeq))
+        .where(trail.mountainSeq.eq(sequence))
+        .groupBy(trail.trailSeq)
+        .fetch();
+  }
+
 }
