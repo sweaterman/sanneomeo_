@@ -2,7 +2,9 @@ package com.hikers.sanneomeo.config;
 
 //import static com.hikers.sanneomeo.config.Constants.HTTP_SECURITY_EXCLUDE_URI;
 
+import com.hikers.sanneomeo.domain.Credentials;
 import com.hikers.sanneomeo.repository.UserRepository;
+import com.hikers.sanneomeo.security.CustomAuthenticationEntryPoint;
 import com.hikers.sanneomeo.security.jwt.JwtTokenFilter;
 import com.hikers.sanneomeo.security.oauth2.CustomOAuth2CookieAuthorizationRequestRepository;
 import com.hikers.sanneomeo.security.oauth2.CustomOAuth2Provider;
@@ -11,6 +13,7 @@ import com.hikers.sanneomeo.security.oauth2.CustomOAuth2UserService;
 import com.hikers.sanneomeo.security.oauth2.CustomOAuth2UserSuccessHandler;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.security.servlet.PathRequest;
@@ -41,10 +44,10 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
 @Configuration
 @EnableWebSecurity(debug = true)
-@RequiredArgsConstructor
 public class SecurityConfig {
 
-  private final YmlConfig ymlConfig;
+  @Autowired
+  private YmlConfig ymlConfig;
 
   @Autowired
   UserRepository userRepository;
@@ -61,7 +64,6 @@ public class SecurityConfig {
     //cors config
     http.cors().configurationSource(corsConfigurationSource());
 
-
     //기본 설정 해제와 경로 설정
     http
         .csrf(AbstractHttpConfigurer::disable)
@@ -69,15 +71,13 @@ public class SecurityConfig {
         .sessionManagement(session-> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
         .requestCache(RequestCacheConfigurer::disable)
         .authorizeHttpRequests(authorize -> authorize
-//            .antMatchers(Constants.SECURITY_HTTP_EXCLUDE_URIS).permitAll()
-                .anyRequest().permitAll()
-            //임시로 모든 요청에 허용
-//            .anyRequest().authenticated()
+                .antMatchers(Constants.SECURITY_HTTP_EXCLUDE_URIS).permitAll()
+                .anyRequest().authenticated()
+                //임시로 모든 요청 허용
+//                .anyRequest().permitAll()
         )
     ;
-
     http.getConfigurer(DefaultLoginPageConfigurer.class).disable();
-
 
     //oauth2 설정
     http
@@ -93,10 +93,8 @@ public class SecurityConfig {
             .failureHandler(customOAuth2UserFailureHandler())
         );
 
-//                .anyRequest().permitAll() //임시로 모든 요청 풀어두기
-    //jwtTokenFilter 설정
-    http.addFilterBefore(jwtTokenFilter(), OAuth2AuthorizationRequestRedirectFilter.class);
-    http.removeConfigurer(DefaultLoginPageConfigurer.class);
+    http.addFilterBefore(jwtTokenFilter(), OAuth2AuthorizationRequestRedirectFilter.class)
+        .exceptionHandling().authenticationEntryPoint(customAuthenticationEntryPoint());
 
     return http.build();
   }
@@ -107,16 +105,19 @@ public class SecurityConfig {
     List<ClientRegistration> registrationList = new ArrayList<>();
 
     //kakao client registration
-    String kakaoClientId = ymlConfig.getKakaoClientId();
+    Map<String, Credentials> credentialsMap = ymlConfig.getCredentials();
     registrationList.add(CustomOAuth2Provider.KAKAO.getBuilder("kakao")
-        .clientId(kakaoClientId).build());
+        .clientId(credentialsMap.get("kakao").getId()).build());
 
     //google client registration
-    String googleClientId = ymlConfig.getGoogleClientId();
-    String googleClientSecret = ymlConfig.getGoogleClientSecret();
     registrationList.add(CustomOAuth2Provider.GOOGLE.getBuilder("google")
-        .clientId(googleClientId)
-        .clientSecret(googleClientSecret).build());
+        .clientId(credentialsMap.get("google").getId())
+        .clientSecret(credentialsMap.get("google").getSecret()).build());
+
+    //naver client registration
+    registrationList.add(CustomOAuth2Provider.NAVER.getBuilder("naver")
+        .clientId(credentialsMap.get("naver").getId())
+        .clientSecret(credentialsMap.get("naver").getSecret()).build());
 
     return new InMemoryClientRegistrationRepository(registrationList);
   }
@@ -158,5 +159,10 @@ public class SecurityConfig {
   @Bean
   public JwtTokenFilter jwtTokenFilter(){
     return new JwtTokenFilter();
+  }
+
+  @Bean
+  public CustomAuthenticationEntryPoint customAuthenticationEntryPoint(){
+    return new CustomAuthenticationEntryPoint();
   }
 }

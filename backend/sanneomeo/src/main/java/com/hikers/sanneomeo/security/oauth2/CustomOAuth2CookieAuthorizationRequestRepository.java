@@ -31,11 +31,6 @@ public class CustomOAuth2CookieAuthorizationRequestRepository<T extends OAuth2Au
     this.clientRegistrationRepository = clientRegistrationRepository;
   }
 
-  /**
-   * request의 OAuth2AuthorizationRequest 쿠키를 찾아 반환한다.
-   *
-   * @param request OAuth2 로그인 request
-   */
   @Override
   public OAuth2AuthorizationRequest loadAuthorizationRequest(HttpServletRequest request) {
     return Optional.ofNullable(
@@ -48,13 +43,7 @@ public class CustomOAuth2CookieAuthorizationRequestRepository<T extends OAuth2Au
   public void saveAuthorizationRequest(OAuth2AuthorizationRequest authorizationRequest, HttpServletRequest request, HttpServletResponse response) {
     CookieUtils.addCookie(response, OAUTH2_AUTHORIZATION_REQUEST_COOKIE_NAME,
         CookieUtils.serialize(authorizationRequest), cookieExpireSeconds);
-//    String redirectUriAfterLogin=request.getParameter("redirectUri");
     CookieUtils.addCookie(response, REDIRECT_URI_PARAM_COOKIE_NAME, Constants.SECURITY_AFTER_LOGIN, cookieExpireSeconds);
-//    String redirectUriAfterLogin = request.getParameter(REDIRECT_URI_PARAM_COOKIE_NAME);
-//    if (StringUtils.isNotBlank(redirectUriAfterLogin)) {
-//      CookieUtils.addCookie(response, REDIRECT_URI_PARAM_COOKIE_NAME, redirectUriAfterLogin,
-//          cookieExpireSeconds);
-//    }
   }
 
   //쿠키의 authorizationRequest 삭제

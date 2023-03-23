@@ -1,0 +1,32 @@
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+@import 'base/base';
+@import 'base/animation';
+
+@import 'vendors/bootstrap';
+
+@import '../assets/fonts/fonts.scss';
+
+@import 'layout/grid';
+@import 'layout/navbar';
+@import 'layout/headers';
+@import 'layout/footers';
+
+@import 'components/buttons';
+@import 'components/card';
+@import 'components/carousel';
+@import 'components/dropdown';
+
+@import 'pages/main-page';
+@import 'pages/mountain-detail';
+@import 'pages/recom-question';
+@import 'pages/recom-result';
+@import 'pages/upload-photo';
+@import 'pages/user-challenge';
+@import 'pages/user-login';
+@import 'pages/user-mypage';
+@import 'pages/user-wishlist';
+
+@import 'themes/theme';
+@import 'themes/dark-theme';
