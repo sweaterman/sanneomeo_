@@ -2,10 +2,14 @@ package com.hikers.sanneomeo.service;
 
 import com.hikers.sanneomeo.domain.Keep;
 import com.hikers.sanneomeo.dto.response.TrailDetailResponseDto;
+import com.hikers.sanneomeo.dto.response.TrailListResponseDto;
 import com.hikers.sanneomeo.exception.BaseException;
 import com.hikers.sanneomeo.exception.BaseResponseStatus;
 import com.hikers.sanneomeo.repository.KeepRepository;
 import com.hikers.sanneomeo.repository.TrailRepository;
+import java.util.List;
+import java.util.stream.Collectors;
+import javax.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
