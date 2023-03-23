@@ -30,4 +30,10 @@ public class TrailServiceImpl implements TrailService {
         keepRepository.deleteById(keepSeq);
         return true;
     }
+
+  @Override
+  public TrailDetailResponseDto getTrailDetail(Long sequence) {
+    return trailRepository.findDetailBySequence(sequence).orElseThrow(() -> new BaseException(
+        BaseResponseStatus.FAIL, ""));
+  }
 }

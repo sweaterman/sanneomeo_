@@ -6,13 +6,23 @@ import com.hikers.sanneomeo.exception.BaseResponseStatus;
 import com.hikers.sanneomeo.service.TrailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/trail")
+@RequiredArgsConstructor
 public class TrailController {
-    @Autowired
-    private TrailService trailService;
+
+  private final TrailService trailService;
+
+  @GetMapping("/info/{trailIdx}")
+  public TrailDetailResponseDto getTrailInfo(@PathVariable("trailIdx") Long seq) {
+    return trailService.getTrailDetail(seq);
+  }
+
 
     @PostMapping("/keep")
     public BaseResponseDto<Boolean> keepTrail(@RequestBody Long trailSeq) {
