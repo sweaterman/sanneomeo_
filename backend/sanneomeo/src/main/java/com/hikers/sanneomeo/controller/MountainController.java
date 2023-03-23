@@ -5,6 +5,7 @@ import static com.hikers.sanneomeo.exception.BaseResponseStatus.UNAUTHORIZED_USE
 import com.hikers.sanneomeo.dto.request.UploadImagesRequestDto;
 import com.hikers.sanneomeo.dto.request.WriteReviewRequestDto;
 import com.hikers.sanneomeo.dto.response.BaseResponseDto;
+import com.hikers.sanneomeo.dto.response.MountainDetailResponseDto;
 import com.hikers.sanneomeo.dto.response.PhotoResponseDto;
 import com.hikers.sanneomeo.dto.response.TrailListResponseDto;
 import com.hikers.sanneomeo.dto.response.ReviewResponseDto;
@@ -142,5 +143,9 @@ public class MountainController {
     @GetMapping("/photo/{mountainIdx}")
     public List<PhotoResponseDto> getTrailsByMountainSequence(@PathVariable("mountainIdx") Long sequence){
         return photoService.getPhotosBymountainSequence(sequence);
+    }
+    @GetMapping("/info/{mountainIdx}")
+    public MountainDetailResponseDto getMountainInfo(@PathVariable("mountainIdx") String sequence){
+        return mountainService.getMountainInfoBysequence(sequence);
     }
 }
