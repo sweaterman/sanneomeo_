@@ -2,12 +2,17 @@ package com.hikers.sanneomeo.controller;
 
 import com.hikers.sanneomeo.config.YmlConfig;
 import com.hikers.sanneomeo.dto.response.BaseResponseDto;
+import com.hikers.sanneomeo.exception.BaseException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
@@ -18,27 +23,25 @@ public class MainController {
     private YmlConfig ymlConfig;
 
     @GetMapping("weather/location")
-    public BaseResponseDto<?> getWeekWeather(@RequestParam String lat, @RequestParam String lon) {
-        String result = null;
+    public BaseResponseDto<String> getWeekWeather(@RequestParam String lat, @RequestParam String lon) {
+        String result = "";
+
         String appid = ymlConfig.getWeatherServiceKey();
         String url_path = ymlConfig.getWeatherEndPoint(); // http://api.openweathermap.org/data/2.5/forecast ? lat & lon & appid
-        System.out.println(appid);
-
         StringBuilder sb = new StringBuilder();
-        sb.append(url_path).append("?").append("lat=").append(lat).append("&lon=").append(lon).append("&appid=").append(appid);
-
-        URL url;
-        HttpURLConnection conn = null;
+        sb.append(url_path).append("?").append("lat=").append(lat).append("&lon=").append(lon).append("&appid=").append(appid)
+                .append("&units=metric&lang=kr"); // 섭씨온도, korean
+        url_path = sb.toString();
+        System.out.println(url_path);
 
         try {
-            url = new URL(sb.toString());
-            conn.setRequestMethod("POST");
-            conn.setRequestProperty("Cache-Control", "no-cache");
-            conn.setRequestProperty("Content-Type", "application/json");
-        } catch(Exception e) {
-
+            URL url = new URL(url_path);
+            BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream()));
+            result = br.readLine();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
-
-        return null;
+        // responseDTO 에 담아야함
+        return new BaseResponseDto<>(result);
     }
 }
