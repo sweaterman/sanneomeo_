@@ -6,17 +6,18 @@ import MascottMain from '@components/main/MascottMain';
 
 function MainPage() {
   return (
-    <div>
-      <h1>Hello Main!</h1>
+    <div className="mainpage">
       <Searchbar />
       <MapContainer />
       <MascottMain />
       <div className="mountain-suggestion">
-        <div>가을산</div>
-        <MountainItem />
+        <div className="suggestion-text">가을산</div>
+        <div className="itembox">
+          <MountainItem />
+        </div>
       </div>
       <div className="mountain-suggestion">
-        <div>대한민국 100대 명산</div>
+        <div className="suggestion-text">대한민국 100대 명산</div>
         <MountainItem />
       </div>
     </div>

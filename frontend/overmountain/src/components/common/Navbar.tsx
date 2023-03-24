@@ -27,6 +27,10 @@ function Navbar() {
     console.log('go to login!');
     navigate('/user/login');
   };
+  const navigateToChallenge = () => {
+    console.log('go to 100 Challenge!');
+    navigate('/user/challenge');
+  };
 
   const onLogout = () => {
     // 메인으로 이동(새로고침)
@@ -105,6 +109,14 @@ function Navbar() {
               들어가기&nbsp;
             </div>
           )}
+          <div
+            className="header-font-tag"
+            role="presentation"
+            onClick={navigateToChallenge}
+            onKeyDown={navigateToChallenge}
+          >
+            100대 명산 완등&nbsp;
+          </div>
         </div>
       </nav>
     </div>
