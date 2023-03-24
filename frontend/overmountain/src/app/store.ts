@@ -2,7 +2,7 @@ import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
 // import additionalMiddleware from 'additional-middleware'
 // import logger from 'redux-logger';
 import counterReducer from '@features/counter/counterSlice';
-import mountainsReducer from '@features/mountain/mountainSlice';
+import mountainReducer from '@features/mountain/mountainSlice';
 import trailsReducer from '@features/trail/trailSlice';
 import usersReducer from '@features/user/userSlice';
 
@@ -10,7 +10,7 @@ export const store = configureStore({
   reducer: {
     // slice 삽입. slice의 name을 key값으로 사용
     counter: counterReducer,
-    mountains: mountainsReducer,
+    mountains: mountainReducer,
     trails: trailsReducer,
     users: usersReducer,
   },
