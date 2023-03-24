@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Balloon from '@components/common/balloon';
+import Balloon from '@components/common/Balloon';
 import MainRamgi from '@assets/images/flagramgi.png';
 
 function MascottMain() {

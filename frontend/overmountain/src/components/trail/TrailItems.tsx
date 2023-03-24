@@ -1,6 +1,6 @@
 import React from 'react';
-import mountain from '@assets/images/mountain_selected.svg';
-import like from '@assets/images/flag_selected.svg';
+import mountain from '@assets/images/mountain_selected.png';
+import like from '@assets/images/flag_selected.png';
 
 function TrailItems() {
   return (

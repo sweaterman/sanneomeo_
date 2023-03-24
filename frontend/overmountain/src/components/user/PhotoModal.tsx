@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { FiTrash2 } from 'react-icons/fi';
-import { AiFillEye } from 'react-icons/ai';
-import { AiFillEyeInvisible } from 'react-icons/ai';
+import { AiFillEye, AiFillEyeInvisible } from 'react-icons/ai';
 import { RiArrowGoBackFill } from 'react-icons/ri';
 
 function PhotoModal() {
@@ -9,7 +8,7 @@ function PhotoModal() {
   return (
     <>
       <div className="month-mountain">
-        <img alt="photo-modal" />
+        <img src="#" alt="modal" />
         <div className="selectbox">
           <FiTrash2 />
           {isPublic ? <AiFillEye /> : <AiFillEyeInvisible />}
