@@ -4,7 +4,7 @@ import com.hikers.sanneomeo.domain.User;
 import com.hikers.sanneomeo.exception.BaseResponseStatus;
 import com.hikers.sanneomeo.exception.OAuth2LoginException;
 import com.hikers.sanneomeo.repository.UserRepository;
-import com.hikers.sanneomeo.repository.UserRepositorySupport;
+import com.hikers.sanneomeo.repository.UserRepositoryImpl;
 import com.hikers.sanneomeo.security.CustomAuthenticatedUser;
 import java.util.Collections;
 import java.util.Map;
@@ -20,10 +20,10 @@ import org.springframework.security.oauth2.core.user.OAuth2User;
 public class CustomOAuth2UserService implements OAuth2UserService<OAuth2UserRequest, OAuth2User> {
 
   //Bean
-  private UserRepositorySupport userRepositorySupport;
+  private UserRepository userRepositorySupport;
 
   @Autowired
-  private void setUserRepository(UserRepositorySupport userRepositorySupport){
+  private void setUserRepository(UserRepository userRepositorySupport){
     this.userRepositorySupport = userRepositorySupport;
   }
 

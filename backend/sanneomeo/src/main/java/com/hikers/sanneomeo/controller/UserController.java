@@ -4,12 +4,16 @@ package com.hikers.sanneomeo.controller;
 import static com.hikers.sanneomeo.exception.BaseResponseStatus.UNAUTHORIZED_USER;
 
 import com.hikers.sanneomeo.dto.response.BaseResponseDto;
+import com.hikers.sanneomeo.dto.response.ChallengeResponseDto;
 import com.hikers.sanneomeo.exception.BaseException;
 import com.hikers.sanneomeo.exception.BaseResponseStatus;
 import com.hikers.sanneomeo.service.UserService;
 import com.hikers.sanneomeo.service.UserServiceImpl;
 import com.hikers.sanneomeo.utils.JwtTokenUtils;
+
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -50,6 +54,19 @@ public class UserController {
   @GetMapping("/token")
   public String getAuthToken(@RequestParam("userSeq") Long userSeq){
     return JwtTokenUtils.allocateToken(userSeq,"ROLE_USER").getAccessToken();
+  }
+
+  @GetMapping("/challenge")
+  public BaseResponseDto<Map<String,Object>>challengeList() {
+    try{
+      return new BaseResponseDto<>(userService.challengeInfo());
+    }catch (Exception e){
+      if (e instanceof BaseException) {
+        throw e;
+      } else {
+        throw new BaseException(BaseResponseStatus.FAIL);
+      }
+    }
   }
 
 
