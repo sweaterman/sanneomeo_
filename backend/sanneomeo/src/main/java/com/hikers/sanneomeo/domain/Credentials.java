@@ -10,7 +10,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Credentials {
-  private String id;
-  private String secret;
+    private String id;
+    private String secret;
 
 }
