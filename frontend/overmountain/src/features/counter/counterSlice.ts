@@ -2,11 +2,13 @@ import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { RootState, AppThunk } from '@app/store';
 import { fetchCount } from '@features/counter/counterAPI';
 
+// 초기값의 타입 정의
 export interface CounterState {
   value: number;
   status: 'idle' | 'loading' | 'failed';
 }
 
+// 초기 값 선언
 const initialState: CounterState = {
   value: 0,
   status: 'idle',
@@ -26,10 +28,13 @@ export const incrementAsync = createAsyncThunk(
   }
 );
 
+// slice 생성
 export const counterSlice = createSlice({
+  // slice 이름정의
   name: 'counter',
+  // 초기값
   initialState,
-  // The `reducers` field lets us define reducers and generate associated actions
+  // 리듀서. 여러개 기입 가능
   reducers: {
     increment: (state) => {
       // Redux Toolkit allows us to write "mutating" logic in reducers. It
@@ -63,6 +68,7 @@ export const counterSlice = createSlice({
   },
 });
 
+// 각각의 리듀서의 액션을 생성
 export const { increment, decrement, incrementByAmount } = counterSlice.actions;
 
 // The function below is called a selector and allows us to select a value from

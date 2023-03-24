@@ -37,11 +37,15 @@ public class RecordPhoto {
     @Column(name = "longitude")
     private BigDecimal longitude;
 
-    @Column(name = "is_public", columnDefinition = "TINYINT(1) default 0")
-    private boolean isPublic = false;
+    @Column(name = "is_public", columnDefinition = "TINYINT(1) default 1")
+    private boolean isPublic = true;
 
     @Column(name = "created_at")
     private Timestamp createdAt;
+
+    public void updateIsPublic(){
+        this.isPublic = !this.isPublic;
+    }
 
 
 }

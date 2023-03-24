@@ -13,12 +13,13 @@ const initialState: UserState = {
   status: 'idle',
 };
 
-const fetchUser = createAsyncThunk("FETCH_USER", async () =>{
-  try{
-    const response = await axios.get("http://localhost:8080");
+const fetchUser = createAsyncThunk('FETCH_USER', async () => {
+  try {
+    const response = await axios.get('http://localhost:8080');
     return response.data;
-  }catch(error){
+  } catch (error) {
     console.log(error);
+    return error;
   }
 });
 
@@ -27,7 +28,7 @@ export const incrementAsync = createAsyncThunk(
   async (amount: number) => {
     const response = await fetchCount(amount);
     return response.data;
-  }
+  },
 );
 
 export const userSlice = createSlice({
@@ -46,12 +47,12 @@ export const userSlice = createSlice({
   },
   extraReducers: (builder) => {
     // builder
-		// 	.addCase(fetchUser.pending, (state, action) ={})  // 데이터 통신 대기중일 때
-		// 	.addCase(fetchUser.fulfilled, (state, action) => {
-	  //     return { ...state, data: [ ...action.payload ] }
-	  //   });                                               // 데이터 통신 성공했을 때
-		// 	.addCase(fetchUser.reject, (state, action) => {}) // 데이터 통신 실패했을 때
-  },  
+    // 	.addCase(fetchUser.pending, (state, action) ={})  // 데이터 통신 대기중일 때
+    // 	.addCase(fetchUser.fulfilled, (state, action) => {
+    //     return { ...state, data: [ ...action.payload ] }
+    //   });                                               // 데이터 통신 성공했을 때
+    // 	.addCase(fetchUser.reject, (state, action) => {}) // 데이터 통신 실패했을 때
+  },
 });
 
 export const { increment, decrement, incrementByAmount } = userSlice.actions;
