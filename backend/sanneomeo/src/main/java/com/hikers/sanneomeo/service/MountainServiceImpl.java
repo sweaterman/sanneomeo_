@@ -13,6 +13,7 @@ import com.hikers.sanneomeo.exception.BaseException;
 import com.hikers.sanneomeo.exception.BaseResponseStatus;
 import com.hikers.sanneomeo.repository.MountainRepository;
 import com.hikers.sanneomeo.repository.RecordPhotoRepository;
+import java.math.BigDecimal;
 import java.text.SimpleDateFormat;
 import java.util.List;
 
