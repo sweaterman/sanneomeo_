@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/main")
 public class MainController {
     @GetMapping("weather/location")
-    public BaseResponseDto<?> getWeekWeather(@RequestParam String level1, @RequestParam String level2, @RequestParam String level3) {
+    public BaseResponseDto<?> getWeekWeather(@RequestParam String lat, @RequestParam String lon) {
 
         return null;
     }

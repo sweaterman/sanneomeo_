@@ -20,7 +20,6 @@ public class YmlConfig {
   private Map<String, Credentials> credentials;
   //날씨 api
   private String weatherServiceKey;
-  private String shortEndPoint;
-  private String middleEndPoint;
+  private String endPoint;
 
 }
