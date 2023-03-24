@@ -1,13 +1,17 @@
 package com.hikers.sanneomeo.repository;
 
 
+import static com.hikers.sanneomeo.domain.QRecordPhoto.recordPhoto;
 import static com.hikers.sanneomeo.domain.QUser.user;
 import static com.hikers.sanneomeo.domain.QMountain.mountain;
 import static com.hikers.sanneomeo.domain.QReview.review;
 
 import com.hikers.sanneomeo.domain.Mountain;
+import com.hikers.sanneomeo.domain.QRecordPhoto;
+import com.hikers.sanneomeo.domain.RecordPhoto;
 import com.hikers.sanneomeo.domain.User;
 import com.hikers.sanneomeo.dto.response.ChallengeResponseDto;
+import com.hikers.sanneomeo.dto.response.PhotoResponseDto;
 import com.querydsl.core.types.Projections;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 
@@ -53,6 +57,15 @@ public class UserRepositoryImpl implements UserRepositoryCustom {
                 .fetchOne()
                 ;
     }
+
+//    public List<RecordPhoto> getPhotosByMonth(Long userSeq, Integer month){
+//        return query
+//            .select(Projections.fields(RecordPhoto.class, recordPhoto.))
+//            .from(recordPhoto)
+//            .where(mountain.top100.eq(1))
+//            .fetch();
+//
+//    }
 
 
 

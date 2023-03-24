@@ -2,7 +2,9 @@ package com.hikers.sanneomeo.dto.response;
 
 import java.math.BigDecimal;
 import java.sql.Timestamp;
+import java.util.Date;
 import lombok.Data;
+import org.springframework.format.annotation.DateTimeFormat;
 
 /**
  * packageName    : com.hikers.sanneomeo.dto.response fileName       : PhotoResponseDto author
@@ -20,6 +22,8 @@ public class PhotoResponseDto {
   private BigDecimal latitude;
   private BigDecimal longitude;
   private boolean isPublic;
+  @DateTimeFormat(pattern = "yyyy-MM-dd")
+  private Date date;
   private Timestamp createdAt;
 
   public PhotoResponseDto(Long userSeq, String image, BigDecimal latitude, BigDecimal longitude,

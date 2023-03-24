@@ -42,7 +42,7 @@ public class MountainController {
     private PhotoService photoService;
 
 
-    @PostMapping("/image/{mountainSeq}")
+    @PostMapping("/{mountainSeq}/photo")
     public BaseResponseDto<Boolean> uploadImages(@ModelAttribute UploadImagesRequestDto uploadImagesRequestDto,
                                                  @PathVariable Long mountainSeq) {
         try {
@@ -53,7 +53,7 @@ public class MountainController {
             }
 
             //이미지 업로드 후 링크 가져오기
-            List<String> uploadUrls = s3UploadService.upload(uploadImagesRequestDto.getImages(), "record");
+            List<String> uploadUrls = s3UploadService.upload(uploadImagesRequestDto.getPhotos(), "record");
 
             //db 접근해서 dto 생성해오기
             boolean result = mountainService.createRecordPhotos(uploadImagesRequestDto, uploadUrls, mountainSeq);

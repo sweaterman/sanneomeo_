@@ -3,6 +3,8 @@ package com.hikers.sanneomeo.repository;
 
 import static com.hikers.sanneomeo.domain.QUser.user;
 import static com.hikers.sanneomeo.domain.QRecordPhoto.recordPhoto;
+
+import com.hikers.sanneomeo.domain.RecordPhoto;
 import com.hikers.sanneomeo.domain.User;
 import com.hikers.sanneomeo.dto.response.PhotoResponseDto;
 import com.querydsl.core.types.Projections;
@@ -12,23 +14,10 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-@Repository
-public class RecordPhotoRepositorySupport {
+public class RecordPhotoRepositoryImpl implements RecordPhotoRepositoryCustom{
 
   @Autowired
   private JPAQueryFactory query;
-
-
-  public Optional<User> createRecordPhotoRepository(String social, String socialId){
-
-    return Optional.ofNullable(query
-        .select(Projections.fields(User.class,
-            user.userSeq, user.level))
-        .from(user)
-        .where(user.social.eq(social).and(user.socialId.eq(socialId)))
-        .fetchOne());
-
-  }
 
 
   public List<PhotoResponseDto> findPhotosBymountainSequence(Long sequence){
@@ -39,6 +28,19 @@ public class RecordPhotoRepositorySupport {
         )
         .from(recordPhoto)
         .where(recordPhoto.mountainSeq.eq(sequence))
+        .fetch();
+  }
+
+  @Override
+  public List<RecordPhoto> findRecordPhotoByMonth(Long userSeq, Integer month) {
+    return query
+        .select(
+            Projections.fields(RecordPhoto.class,recordPhoto.image, recordPhoto.mountainSeq, recordPhoto.date)
+        )
+        .from(recordPhoto)
+        .where(recordPhoto.userSeq.eq(userSeq).and(
+            recordPhoto.date.month().eq(month)
+        ))
         .fetch();
   }
 
