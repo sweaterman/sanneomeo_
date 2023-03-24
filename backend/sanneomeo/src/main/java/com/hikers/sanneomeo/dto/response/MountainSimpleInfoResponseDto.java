@@ -17,6 +17,9 @@ public class MountainSimpleInfoResponseDto {
     // 산이름
     private String name;
 
+    //산 이미지
+    private String img;
+
     // 산 고도
     private BigDecimal altitude;
 
