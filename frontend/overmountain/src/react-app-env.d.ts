@@ -1,10 +1,7 @@
 /// <reference types="react-scripts" />
 
 interface Mountain {
-  isSuccess: boolean;
-  code: number;
-  message: string;
-  result: {
+  mountain: {
     mountainSeq: string; // 산코드
     latitude: number; // 위도
     longitude: number; // 경도

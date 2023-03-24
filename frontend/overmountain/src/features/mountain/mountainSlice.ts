@@ -1,9 +1,10 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
 import { baseURL } from '@features/port';
+import { RootState } from '@app/store';
 
 const initialMountainState: Mountain = {
-  result: {
+  mountain: {
     mountainSeq: '',
     latitude: 0,
     longitude: 0,
@@ -23,9 +24,6 @@ const initialMountainState: Mountain = {
     sunrise: 0,
     sunset: 0,
   },
-  isSuccess: false,
-  code: 0,
-  message: '',
 };
 
 // 여기서 getMountainDetail은 Action Creator로서 타입이 있어야한다.
@@ -37,7 +35,7 @@ export const getMountainDetail = createAsyncThunk(
   async (mountainIdx: string) => {
     const url = `${baseURL}mountain/info/${mountainIdx}`; // 산 메인용
     const response = await axios({ method: 'GET', url: url });
-    return response.data;
+    return response.data.result;
   },
 );
 
@@ -47,7 +45,7 @@ export const getMountainPlace = createAsyncThunk(
   async (mountainIdx: string) => {
     const url = `${baseURL}mountain/position/${mountainIdx}`; // 산 정보용
     const response = await axios({ method: 'GET', url: url });
-    return response.data;
+    return response.data.result;
   },
 );
 
@@ -64,26 +62,28 @@ export const mountainSlice = createSlice({
   // 비동기 처리 (action creator를 자동으로 만들지 못함)
   extraReducers: (builder) => {
     // API 명세서 17. 산 상세 정보
-    builder.addCase(getMountainDetail.pending, (state, action) => {
-      // state.status = 'Loading';
-    });
+    // builder.addCase(getMountainDetail.pending, (state, action) => {
+    //   // state.status = 'Loading';
+    // });
     builder.addCase(getMountainDetail.fulfilled, (state, action) => {
-      // state.value = action.payload;
-      // state.status = 'complete';
+      state.mountain = action.payload;
+      console.log('17 성공!', state.mountain);
     });
     builder.addCase(getMountainDetail.rejected, (state, action) => {
-      // state.status = 'fail';
+      console.log('17 실패!', action.error);
     });
 
     // API 명세서 18. 산 위치 정보
     builder.addCase(getMountainPlace.fulfilled, (state, action) => {
-      state = action.payload;
-      console.log(state);
+      state.mountain = action.payload;
+      console.log('18 성공!', state.mountain);
     });
     builder.addCase(getMountainPlace.rejected, (state, action) => {
-      console.log('산 위치정보 받아오기 실패!', action.error);
+      console.log('18 실패!', action.error);
     });
   },
 });
+
+export const mountain = (state: RootState) => state.mountains;
 
 export default mountainSlice.reducer;

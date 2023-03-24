@@ -1,24 +1,15 @@
 import React, { useEffect } from 'react';
-import { getMountainPlace } from '@features/mountain/mountainSlice';
-import type { RootState } from '@app/store';
-import { useSelector, useDispatch } from 'react-redux';
-import { store } from '@app/store';
+import { getMountainDetail, mountain } from '@features/mountain/mountainSlice';
 import Card from '@components/common/Card';
+import { useAppSelector, useAppDispatch } from '@app/hooks';
 
 function MountainDetail() {
-  const data = useSelector((state: RootState) => state.mountains);
-  const dispatch = useDispatch();
+  const data = useAppSelector(mountain);
+  const dispatch = useAppDispatch();
   useEffect(() => {
-    store.dispatch(getMountainPlace('111100101'));
+    // 산 코드 바꿔야함
+    dispatch(getMountainDetail('111100101'));
   }, [dispatch]);
-
-  // const getData = () => {
-  //   store.dispatch(getMountainPlace('111100101'));
-  // };
-  // useEffect(() => {
-  //   getData();
-  // }, []);
-  // console.log('data는?:', data);
 
   return (
     <>
