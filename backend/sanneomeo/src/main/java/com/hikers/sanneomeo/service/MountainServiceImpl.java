@@ -12,6 +12,7 @@ import com.hikers.sanneomeo.exception.BaseException;
 import com.hikers.sanneomeo.exception.BaseResponseStatus;
 import com.hikers.sanneomeo.repository.MountainRepository;
 import com.hikers.sanneomeo.repository.RecordPhotoRepository;
+import java.text.SimpleDateFormat;
 import java.util.List;
 
 import com.hikers.sanneomeo.repository.ReviewRepository;
@@ -47,6 +48,7 @@ public class MountainServiceImpl implements MountainService{
                             .longitude(uploadImagesRequestDto.getLongitude())
                             .latitude(uploadImagesRequestDto.getLatitude())
                             .userSeq(uploadImagesRequestDto.getUserSeq())
+                            .date(uploadImagesRequestDto.getDate())
                             .build();
 
                     recordPhotoRepository.save(recordPhoto);

@@ -1,5 +1,6 @@
 package com.hikers.sanneomeo.domain;
 
+import java.util.Date;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -9,6 +10,7 @@ import javax.persistence.*;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
 import lombok.Setter;
+import org.springframework.format.annotation.DateTimeFormat;
 
 @Entity
 @Table(name = "tbl_record_photo")
@@ -40,6 +42,9 @@ public class RecordPhoto {
     @Column(name = "is_public", columnDefinition = "TINYINT(1) default 1")
     private boolean isPublic = true;
 
+    @Column(name = "date")
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    private Date date;
     @Column(name = "created_at")
     private Timestamp createdAt;
 
