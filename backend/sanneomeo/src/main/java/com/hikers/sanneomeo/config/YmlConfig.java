@@ -11,7 +11,7 @@ import java.util.Map;
 
 @Configuration
 @EnableConfigurationProperties
-@ConfigurationProperties(prefix = "auth.oauth2")
+@ConfigurationProperties(prefix = "auth")
 @Getter
 @Setter
 public class YmlConfig {
@@ -20,6 +20,6 @@ public class YmlConfig {
   private Map<String, Credentials> credentials;
   //날씨 api
   private String weatherServiceKey;
-  private String endPoint;
+  private String weatherEndPoint;
 
 }
