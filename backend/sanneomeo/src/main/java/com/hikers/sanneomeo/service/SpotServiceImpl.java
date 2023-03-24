@@ -24,12 +24,12 @@ public class SpotServiceImpl implements SpotService{
 
   private final MountainSpotRepository mountainSpotRepository;
   @Override
-  public List<SpotResponseDto> getSpotsByMountainSequence(String sequence) {
+  public List<SpotResponseDto> getSpotsByMountainSequence(Long sequence) {
     return mountainSpotRepository.findSpotsByMountainSequence(sequence);
   }
 
   @Override
-  public List<SpotResponseDto> getSpotsByMountainSequenceAndCoordinate(String sequence,
+  public List<SpotResponseDto> getSpotsByMountainSequenceAndCoordinate(Long sequence,
       BigDecimal latitude, BigDecimal longitude) {
     return mountainSpotRepository.findSpotsByMountainSequenceAndCoordinate(sequence,latitude,longitude);
   }
