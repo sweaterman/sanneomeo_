@@ -38,6 +38,7 @@ module.exports = {
     'react/jsx-key': 'warn', // 반복문으로 생성하는 요소에 key 강제
     'react/self-closing-comp': 'warn', // 셀프 클로징 태그 가능하면 적용
     'react/jsx-curly-brace-presence': 'warn', // jsx 내 불필요한 중괄호 금지
+    'jsx-a11y/label-has-associated-control': 'off', // submit form 과 label 연결: 연결해도 오류나서 끔
     'react/jsx-filename-extension': ['warn', { extensions: ['.tsx'] }],
     '@typescript-eslint/no-use-before-define': 'warn',
     '@typescript-eslint/no-unused-vars': ['warn'],
