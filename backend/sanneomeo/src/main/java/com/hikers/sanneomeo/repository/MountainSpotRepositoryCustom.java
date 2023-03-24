@@ -6,9 +6,9 @@ import java.util.List;
 
 public interface MountainSpotRepositoryCustom {
 
-  List<SpotResponseDto> findSpotsByMountainSequence(String sequence);
+  List<SpotResponseDto> findSpotsByMountainSequence(Long sequence);
 
-  List<SpotResponseDto> findSpotsByMountainSequenceAndCoordinate(String sequence,
+  List<SpotResponseDto> findSpotsByMountainSequenceAndCoordinate(Long sequence,
       BigDecimal latitude,BigDecimal longitude);
 
 }
