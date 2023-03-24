@@ -53,8 +53,6 @@ public class MountainDetailResponseDto {
 
   private Integer sunset;
 
-  List<SpotResponseDto> spots;
-
   public MountainDetailResponseDto(String mountainSeq, BigDecimal latitude, BigDecimal longitude,
       BigDecimal altitude, String si, String gu, String dong, String name, String img,
       String introduction, String difficulty, Integer top100, Integer spring, Integer summer,

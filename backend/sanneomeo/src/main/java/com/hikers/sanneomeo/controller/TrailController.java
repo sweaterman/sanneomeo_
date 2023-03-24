@@ -23,8 +23,8 @@ public class TrailController {
     private final TrailService trailService;
 
     @GetMapping("/info/{trailIdx}")
-    public List<PathResponseDto> getTrailInfo(@PathVariable("trailIdx") Long seq) {
-        return trailService.getPathsBySequence(seq);
+    public BaseResponseDto<?> getTrailInfo(@PathVariable("trailIdx") Long seq) {
+        return new BaseResponseDto<>(trailService.getPathsBySequence(seq));
     }
 
 
