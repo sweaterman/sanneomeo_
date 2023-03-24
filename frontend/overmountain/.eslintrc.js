@@ -28,6 +28,8 @@ module.exports = {
     'prefer-const': 'off',
     'prefer-arrow-callback': 'off',
     'object-shorthand': 'off',
+    'one-var': 'off',
+    'consistent-return': 'off',
     'react/destructuring-assignment': 'warn', // state, prop 등에 구조분해 할당 적용
     'react/jsx-pascal-case': 'warn', // 컴포넌트 이름은 PascalCase로
     'react/no-direct-mutation-state': 'warn', // state 직접 수정 금지
@@ -37,7 +39,7 @@ module.exports = {
     'react/self-closing-comp': 'warn', // 셀프 클로징 태그 가능하면 적용
     'react/jsx-curly-brace-presence': 'warn', // jsx 내 불필요한 중괄호 금지
     'react/jsx-filename-extension': ['warn', { extensions: ['.tsx'] }],
-    'jsx-a11y/label-has-associated-control': 'off',
+    '@typescript-eslint/no-use-before-define': 'warn',
     '@typescript-eslint/no-unused-vars': ['warn'],
     'import/prefer-default-export': 'off',
     'import/extensions': [
