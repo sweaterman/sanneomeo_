@@ -2,9 +2,14 @@ package com.hikers.sanneomeo.repository;
 
 import static com.hikers.sanneomeo.domain.QMountain.mountain;
 
+import com.hikers.sanneomeo.domain.QMountain;
 import com.hikers.sanneomeo.dto.response.MountainDetailResponseDto;
+import com.hikers.sanneomeo.dto.response.MountainSimpleInfoResponseDto;
 import com.querydsl.core.types.Projections;
+import com.querydsl.core.types.dsl.Expressions;
 import com.querydsl.jpa.impl.JPAQueryFactory;
+
+import java.util.List;
 import java.util.Optional;
 import lombok.RequiredArgsConstructor;
 
@@ -38,4 +43,14 @@ public class MountainRepositoryImpl implements MountainRepositoryCustom {
             .fetchFirst()
     );
   }
+
+  public List<MountainSimpleInfoResponseDto> seasonMountainList(String season){
+    return queryFactory
+            .select(Projections.fields(MountainSimpleInfoResponseDto.class, mountain.mountainSeq,
+                    mountain.name, mountain.latitude, mountain.si, mountain.gu, mountain.dong, mountain.difficulty))
+            .from(mountain)
+            .where(Expressions.numberPath(Integer.class,mountain,season).eq(1))
+            .fetch();
+  }
+
 }

@@ -11,7 +11,7 @@ import java.util.Map;
 
 @Configuration
 @EnableConfigurationProperties
-@ConfigurationProperties(prefix = "auth.oauth2")
+@ConfigurationProperties(prefix = "auth")
 @Getter
 @Setter
 public class YmlConfig {
