@@ -19,7 +19,7 @@ function MapContainer() {
     let options = {
       // 지도를 생성할 때 필요한 기본 옵션
       center: new window.kakao.maps.LatLng(37.586272, 127.029005), // 지도의 중심좌표
-      level: 1, // 지도의 레벨(확대, 축소 정도)
+      level: 13, // 지도의 레벨(확대, 축소 정도)
     };
     let map = new window.kakao.maps.Map(container, options); // 지도 생성 및 객체 리턴
     // ---> 기본 맵 container, options, map 설정.
@@ -115,7 +115,7 @@ function MapContainer() {
     map.setCenter(position);
   }, []);
 
-  return <div id="map" style={{ width: '300px', height: '200px' }} />;
+  return <div id="map" style={{ width: '300px', height: '400px' }} />;
 }
 
 export default MapContainer;
