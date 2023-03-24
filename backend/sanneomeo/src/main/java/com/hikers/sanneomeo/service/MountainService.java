@@ -4,8 +4,10 @@ import com.hikers.sanneomeo.dto.request.UploadImagesRequestDto;
 import com.hikers.sanneomeo.dto.request.WriteReviewRequestDto;
 import com.hikers.sanneomeo.dto.response.MountainDetailResponseDto;
 import com.hikers.sanneomeo.dto.response.MountainPosResponseDto;
+import com.hikers.sanneomeo.dto.response.NearMountainResponseDto;
 import com.hikers.sanneomeo.dto.response.ReviewResponseDto;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 public interface MountainService {
@@ -26,4 +28,5 @@ public interface MountainService {
     void deleteReview(Long reviewIdx);
 
     MountainDetailResponseDto getMountainInfoBysequence(String sequence);
+    NearMountainResponseDto getMountainSeqByDistance(BigDecimal latitude, BigDecimal longitude);
 }

@@ -1,7 +1,9 @@
 package com.hikers.sanneomeo.controller;
 
 import com.hikers.sanneomeo.dto.response.BaseResponseDto;
+import com.hikers.sanneomeo.service.MountainService;
 import com.hikers.sanneomeo.service.SpotService;
+import com.hikers.sanneomeo.service.TrailService;
 import java.math.BigDecimal;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,8 +18,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpotController {
 
   private final SpotService spotService;
+  private final MountainService mountainService;
+  private final TrailService trailService;
 
-  @GetMapping("trail/{trailIdx}")
+  @GetMapping("/trail/{trailIdx}")
   public BaseResponseDto<?> getSpots(@PathVariable("trailIdx") Long sequence,
       @RequestParam(required = false, value = "longitude") BigDecimal longitude,
       @RequestParam(required = false, value = "latitude") BigDecimal latitude) {
@@ -29,4 +33,13 @@ public class SpotController {
     }
   }
 
+  @GetMapping("/main")
+  public BaseResponseDto<?> getNearTrail(
+      @RequestParam(required = true, value = "longitude") BigDecimal longitude,
+      @RequestParam(required = true, value = "latitude") BigDecimal latitude) {
+    String sequence = mountainService.getMountainSeqByDistance(latitude, longitude)
+        .getMountainSeq();
+    return new BaseResponseDto<>(trailService.getNearTrailByDistance(sequence,latitude,longitude));
+
+  }
 }

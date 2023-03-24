@@ -1,6 +1,7 @@
 package com.hikers.sanneomeo.service;
 
 import com.hikers.sanneomeo.domain.Keep;
+import com.hikers.sanneomeo.dto.response.NearTrailResponseDto;
 import com.hikers.sanneomeo.dto.response.PathResponseDto;
 import com.hikers.sanneomeo.dto.response.TrailDetailResponseDto;
 import com.hikers.sanneomeo.dto.response.TrailListResponseDto;
@@ -9,6 +10,7 @@ import com.hikers.sanneomeo.exception.BaseResponseStatus;
 import com.hikers.sanneomeo.repository.KeepRepository;
 import com.hikers.sanneomeo.repository.TrailPathRepository;
 import com.hikers.sanneomeo.repository.TrailRepository;
+import java.math.BigDecimal;
 import java.util.List;
 import java.util.Optional;
 import javax.transaction.Transactional;
@@ -40,6 +42,13 @@ public class TrailServiceImpl implements TrailService {
   @Override
   public List<TrailListResponseDto> getTrailsBySequence(String sequence) {
     return trailRepository.findTrailsByMountainSequence(sequence);
+  }
+
+  @Override
+  public NearTrailResponseDto getNearTrailByDistance(String sequence, BigDecimal latitude,
+      BigDecimal longitude) {
+    return trailPathRepository.findNearTrailByMountainSequence(sequence,latitude,longitude).orElseThrow(()->new BaseException(
+        BaseResponseStatus.FAIL, ""));
   }
 
 
