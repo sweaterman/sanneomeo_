@@ -10,7 +10,6 @@ public interface TrailService {
   // 등산로 찜하기
   boolean keep(Long userSeq, Long trailSeq);
 
-
   TrailDetailResponseDto getTrailDetail(Long sequence);
 
   List<PathResponseDto> getPathsBySequence(Long sequence);

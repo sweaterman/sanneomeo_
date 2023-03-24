@@ -5,6 +5,7 @@ import com.hikers.sanneomeo.domain.RecordPhoto;
 import com.hikers.sanneomeo.domain.Review;
 import com.hikers.sanneomeo.dto.request.UploadImagesRequestDto;
 import com.hikers.sanneomeo.dto.request.WriteReviewRequestDto;
+import com.hikers.sanneomeo.dto.response.MountainDetailResponseDto;
 import com.hikers.sanneomeo.dto.response.MountainPosResponseDto;
 import com.hikers.sanneomeo.dto.response.ReviewResponseDto;
 import com.hikers.sanneomeo.exception.BaseException;
@@ -106,6 +107,11 @@ public class MountainServiceImpl implements MountainService{
             throw new BaseException(BaseResponseStatus.REVIEW_DELETE_ERROR);
         }
 
+    }
+
+    @Override
+    public MountainDetailResponseDto getMountainInfoBysequence(String sequence) {
+        return mountainRepository.findMountainBySequence(sequence).orElseThrow(()->new BaseException(BaseResponseStatus.FAIL,""));
     }
 }
 

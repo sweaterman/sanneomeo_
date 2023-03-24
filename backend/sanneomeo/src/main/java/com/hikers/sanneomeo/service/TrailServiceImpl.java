@@ -55,9 +55,9 @@ public class TrailServiceImpl implements TrailService {
           .trailSeq(trailSeq)
           .build();
 
-      keepRepository.save(keepEntity);
+            keepRepository.save(keepEntity);
+        }
+        return true;
     }
-    return true;
-  }
 
 }
