@@ -33,6 +33,7 @@ public class S3UploadService {
   @Autowired
   private YmlConfig ymlConfig;
   private final String bucket = "sanneomeoimg";
+  private final String s3domain= "https://sanneomeoimg.s3.ap-northeast-2.amazonaws.com/";
   private S3Client s3Client;
 
   //S3Access 권한 가진 IAM 유저의 public key, private key로 s3client 객체 생성
@@ -96,7 +97,7 @@ public class S3UploadService {
       if(putObjectResponse.sdkHttpResponse().statusCode()!=200){
         throw new IOException();
       }
-      return putObjectRequest.key();
+      return s3domain+putObjectRequest.key();
     } catch (IOException e) {
       throw new RuntimeException(e);
     }

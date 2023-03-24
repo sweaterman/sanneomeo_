@@ -32,7 +32,11 @@ public enum BaseResponseStatus {
   FILE_CONVERT_ERROR(HttpStatus.INTERNAL_SERVER_ERROR, 4009, "파일 변환에 실패했습니다."),
   FILE_FORMAT_ERROR(HttpStatus.INTERNAL_SERVER_ERROR, 4008, "파일 포맷을 확인해주세요."),
 
-  UNAUTHORIZED_USER(HttpStatus.UNAUTHORIZED, 4016, "토큰 인증 정보와 요청 내의 userSeq가 다릅니다.");
+  UNAUTHORIZED_USER(HttpStatus.UNAUTHORIZED, 4016, "토큰 인증 정보와 요청 내의 userSeq가 다릅니다."),
+
+  //리뷰 에러
+  REVIEW_DELETE_ERROR(HttpStatus.INTERNAL_SERVER_ERROR,4017, "리뷰 삭제에 실패했습니다.");
+
 //
 //  REQUEST_ERROR(HttpStatus.INTERNAL_SERVER_ERROR, "요청에 실패하였습니다."),
 //  UNVALID_USER(HttpStatus.INTERNAL_SERVER_ERROR, "권한 없는 유저입니다."),
