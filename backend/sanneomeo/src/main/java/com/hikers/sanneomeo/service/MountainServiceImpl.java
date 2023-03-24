@@ -7,6 +7,7 @@ import com.hikers.sanneomeo.dto.request.UploadImagesRequestDto;
 import com.hikers.sanneomeo.dto.request.WriteReviewRequestDto;
 import com.hikers.sanneomeo.dto.response.MountainDetailResponseDto;
 import com.hikers.sanneomeo.dto.response.MountainPosResponseDto;
+import com.hikers.sanneomeo.dto.response.NearMountainResponseDto;
 import com.hikers.sanneomeo.dto.response.ReviewResponseDto;
 import com.hikers.sanneomeo.exception.BaseException;
 import com.hikers.sanneomeo.exception.BaseResponseStatus;
@@ -48,7 +49,6 @@ public class MountainServiceImpl implements MountainService{
                             .longitude(uploadImagesRequestDto.getLongitude())
                             .latitude(uploadImagesRequestDto.getLatitude())
                             .userSeq(uploadImagesRequestDto.getUserSeq())
-                            .date(uploadImagesRequestDto.getDate())
                             .build();
 
                     recordPhotoRepository.save(recordPhoto);
@@ -114,6 +114,12 @@ public class MountainServiceImpl implements MountainService{
     @Override
     public MountainDetailResponseDto getMountainInfoBysequence(String sequence) {
         return mountainRepository.findMountainBySequence(sequence).orElseThrow(()->new BaseException(BaseResponseStatus.FAIL,""));
+    }
+
+    @Override
+    public NearMountainResponseDto getMountainSeqByDistance(BigDecimal latitude,
+        BigDecimal longitude) {
+        return mountainRepository.findMountainSequenceByDistance(latitude,longitude).orElseThrow(()->new BaseException(BaseResponseStatus.FAIL,""));
     }
 }
 

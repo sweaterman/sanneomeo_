@@ -2,14 +2,14 @@ package com.hikers.sanneomeo.dto.response;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 import java.math.BigDecimal;
 
 @Getter
-@Setter
 @NoArgsConstructor
-public class ChallengeResponseDto {
+public class MountainSimpleInfoResponseDto {
+
+    //계절산 보여줄때 들어가는 정보
 
     //산 seq
     private String mountainSeq;
@@ -34,8 +34,5 @@ public class ChallengeResponseDto {
 
     //난이도
     private String difficulty;
-
-    //완등여부
-    private boolean isConquer;
 
 }

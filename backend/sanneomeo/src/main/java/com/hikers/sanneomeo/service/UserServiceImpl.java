@@ -43,7 +43,7 @@ public class UserServiceImpl implements UserService {
         List<ChallengeResponseDto> challengeList = userRepository.challengeistNotMember();
         long conquerNo = 0;
         //로그인 유저가 있을때
-        if (SecurityContextHolder.getContext().getAuthentication().getPrincipal() != null) {
+        if (SecurityContextHolder.getContext().getAuthentication().getPrincipal() != "anonymousUser") {
             Long authUserSeq = Long.parseLong(SecurityContextHolder.getContext().getAuthentication().getPrincipal().toString());
 
             for (ChallengeResponseDto challenge : challengeList) {
