@@ -1,5 +1,6 @@
 package com.hikers.sanneomeo.controller;
 
+import com.hikers.sanneomeo.dto.request.KeepTrailRequestDto;
 import com.hikers.sanneomeo.dto.response.BaseResponseDto;
 import com.hikers.sanneomeo.dto.response.PathResponseDto;
 import com.hikers.sanneomeo.exception.BaseException;
@@ -13,6 +14,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -29,12 +31,12 @@ public class TrailController {
 
 
     @PostMapping("/keep")
-    public BaseResponseDto<Boolean> keepTrail(@RequestBody Long trailSeq) {
+    public BaseResponseDto<Boolean> keepTrail(@RequestBody KeepTrailRequestDto keepTrailRequestDto) {
         try {
             Long authUserSeq = Long.parseLong(SecurityContextHolder.getContext().getAuthentication().getPrincipal().toString());
             //유저가 해당 trailSeq에 대한 찜 데이터 있다면 get -> true/false 토글
             //없다면 post
-            boolean result = trailService.keep(authUserSeq, trailSeq);
+            boolean result = trailService.keep(authUserSeq,  keepTrailRequestDto.getTrailSeq());
             return new BaseResponseDto<>(result);
         } catch (Exception e) {
             if (e instanceof BaseException) {

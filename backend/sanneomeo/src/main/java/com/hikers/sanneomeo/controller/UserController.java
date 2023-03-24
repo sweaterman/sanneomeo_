@@ -5,6 +5,7 @@ import static com.hikers.sanneomeo.exception.BaseResponseStatus.FAIL;
 import static com.hikers.sanneomeo.exception.BaseResponseStatus.UNAUTHORIZED_USER;
 
 import com.hikers.sanneomeo.dto.response.BaseResponseDto;
+import com.hikers.sanneomeo.dto.response.GetTrailLikeResponseDto;
 import com.hikers.sanneomeo.dto.response.GetUserPhotosByDateResponseDto;
 import com.hikers.sanneomeo.exception.BaseException;
 import com.hikers.sanneomeo.exception.BaseResponseStatus;
@@ -73,6 +74,19 @@ public class UserController {
       @RequestParam("month") Integer month){
     try{
       return new BaseResponseDto<>(userService.getUserPhotos(userSeq, month));
+    } catch(Exception e){
+      if(e instanceof BaseException){
+        throw e;
+      } else{
+        throw new BaseException(FAIL);
+      }
+    }
+  }
+
+  @GetMapping("/{userSeq}/trailLike")
+  public BaseResponseDto<List<GetTrailLikeResponseDto>> getTrailLike(@PathVariable Long userSeq){
+    try{
+      return new BaseResponseDto<>(userService.getTrailLike(userSeq));
     } catch(Exception e){
       if(e instanceof BaseException){
         throw e;
