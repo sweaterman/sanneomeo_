@@ -5,8 +5,8 @@ import java.math.BigDecimal;
 import java.util.List;
 
 public interface SpotService {
-  List<SpotResponseDto> getSpotsByMountainSequence(String sequence);
+  List<SpotResponseDto> getSpotsByMountainSequence(Long sequence);
 
-  List<SpotResponseDto> getSpotsByMountainSequenceAndCoordinate(String sequence,
+  List<SpotResponseDto> getSpotsByMountainSequenceAndCoordinate(Long sequence,
       BigDecimal latitude,BigDecimal longitude);
 }
