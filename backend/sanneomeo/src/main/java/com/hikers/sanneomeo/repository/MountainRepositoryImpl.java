@@ -1,14 +1,24 @@
 package com.hikers.sanneomeo.repository;
 
 import static com.hikers.sanneomeo.domain.QMountain.mountain;
+import static com.hikers.sanneomeo.domain.QMountainSpot.mountainSpot;
+import static com.querydsl.core.types.dsl.MathExpressions.acos;
+import static com.querydsl.core.types.dsl.MathExpressions.cos;
+import static com.querydsl.core.types.dsl.MathExpressions.radians;
+import static com.querydsl.core.types.dsl.MathExpressions.sin;
 
 import com.hikers.sanneomeo.domain.QMountain;
 import com.hikers.sanneomeo.dto.response.MountainDetailResponseDto;
 import com.hikers.sanneomeo.dto.response.MountainSimpleInfoResponseDto;
+import com.hikers.sanneomeo.dto.response.NearMountainResponseDto;
+import com.querydsl.core.types.Path;
 import com.querydsl.core.types.Projections;
+import com.querydsl.core.types.dsl.ComparableExpressionBase;
 import com.querydsl.core.types.dsl.Expressions;
+import com.querydsl.core.types.dsl.NumberExpression;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 
+import java.math.BigDecimal;
 import java.util.List;
 import java.util.Optional;
 import lombok.RequiredArgsConstructor;
@@ -51,6 +61,30 @@ public class MountainRepositoryImpl implements MountainRepositoryCustom {
             .from(mountain)
             .where(Expressions.numberPath(Integer.class,mountain,season).eq(1))
             .fetch();
+  }
+
+  @Override
+  public Optional<NearMountainResponseDto> findMountainSequenceByDistance(BigDecimal latitude,
+      BigDecimal longitude) {
+    NumberExpression<Double> distanceExpression = acos(sin(radians(Expressions.constant(latitude)))
+        .multiply(sin(radians(mountain.latitude)))
+        .add(cos(radians(Expressions.constant(latitude)))
+            .multiply(cos(radians(mountain.latitude)))
+            .multiply(cos(radians(Expressions.constant(longitude)).subtract(
+                radians(mountain.longitude))))
+        )).multiply(6371000);
+    Path<Double> distancePath = Expressions.numberPath(Double.class, "distance");
+
+    return Optional.ofNullable(
+        queryFactory
+            .select(
+                Projections.constructor(NearMountainResponseDto.class,mountain.mountainSeq
+                    , Expressions.as(distanceExpression, distancePath))
+            )
+            .from(mountain)
+            .orderBy(((ComparableExpressionBase<Double>) distancePath).asc())
+            .fetchFirst()
+    );
   }
 
 }
