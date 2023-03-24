@@ -14,8 +14,10 @@ import com.hikers.sanneomeo.exception.BaseResponseStatus;
 import com.hikers.sanneomeo.service.MountainService;
 import com.hikers.sanneomeo.service.PhotoService;
 import com.hikers.sanneomeo.service.S3UploadService;
+import com.hikers.sanneomeo.service.SpotService;
 import com.hikers.sanneomeo.service.TrailService;
 
+import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -38,6 +40,8 @@ public class MountainController {
     private TrailService trailService;
     @Autowired
     private PhotoService photoService;
+    @Autowired
+    private SpotService spotService;
 
     @PostMapping("/image/{mountainSeq}")
     public BaseResponseDto<Boolean> uploadImages(@ModelAttribute UploadImagesRequestDto uploadImagesRequestDto,
@@ -145,7 +149,13 @@ public class MountainController {
         return photoService.getPhotosBymountainSequence(sequence);
     }
     @GetMapping("/info/{mountainIdx}")
-    public MountainDetailResponseDto getMountainInfo(@PathVariable("mountainIdx") String sequence){
-        return mountainService.getMountainInfoBysequence(sequence);
+    public MountainDetailResponseDto getMountainInfo(@PathVariable("mountainIdx") String sequence,
+     @RequestParam(required = false, value = "latitude")BigDecimal latitude,@RequestParam(required = false, value = "longitude")BigDecimal longitude){
+        MountainDetailResponseDto dto = mountainService.getMountainInfoBysequence(sequence);
+        if(latitude!=null && longitude!=null)
+            dto.setSpots(spotService.getSpotsByMountainSequenceAndCoordinate(sequence,latitude,longitude));
+        else
+            dto.setSpots(spotService.getSpotsByMountainSequence(sequence));
+        return dto;
     }
 }

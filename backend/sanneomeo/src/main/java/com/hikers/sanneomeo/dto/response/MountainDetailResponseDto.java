@@ -1,6 +1,7 @@
 package com.hikers.sanneomeo.dto.response;
 
 import java.math.BigDecimal;
+import java.util.List;
 import javax.persistence.Column;
 import lombok.Data;
 
@@ -51,6 +52,8 @@ public class MountainDetailResponseDto {
   private Integer sunrise;
 
   private Integer sunset;
+
+  List<SpotResponseDto> spots;
 
   public MountainDetailResponseDto(String mountainSeq, BigDecimal latitude, BigDecimal longitude,
       BigDecimal altitude, String si, String gu, String dong, String name, String img,
