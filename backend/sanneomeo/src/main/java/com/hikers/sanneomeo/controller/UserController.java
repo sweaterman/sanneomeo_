@@ -91,6 +91,7 @@ public class UserController {
       if(e instanceof BaseException){
         throw e;
       } else{
+        e.printStackTrace();
         throw new BaseException(FAIL);
       }
     }
