@@ -4,6 +4,7 @@ package com.hikers.sanneomeo.controller;
 import static com.hikers.sanneomeo.exception.BaseResponseStatus.FAIL;
 import static com.hikers.sanneomeo.exception.BaseResponseStatus.UNAUTHORIZED_USER;
 
+import com.hikers.sanneomeo.dto.request.UpdateUserSurveyRequestDto;
 import com.hikers.sanneomeo.dto.response.BaseResponseDto;
 import com.hikers.sanneomeo.dto.response.GetTrailLikeResponseDto;
 import com.hikers.sanneomeo.dto.response.GetUserPhotosByDateResponseDto;
@@ -17,13 +18,7 @@ import java.util.List;
 import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/user")
@@ -98,7 +93,7 @@ public class UserController {
   }
 
 
-  @PutMapping("{userSeq}/photo/{photoSeq}")
+  @PutMapping("/{userSeq}/photo/{photoSeq}")
   public BaseResponseDto<Boolean> changePhotoStatus(@PathVariable("userSeq") Long userSeq,
       @PathVariable("photoSeq") Long photoSeq){
     try {
@@ -120,6 +115,28 @@ public class UserController {
       }
     }
   }
+  @PutMapping("/{userSeq}/info")
+  public BaseResponseDto<Boolean> updateUserSurvey(@PathVariable("userSeq") Long userSeq, @RequestBody UpdateUserSurveyRequestDto updateUserSurveyRequestDto){
+    try {
+      //요청 내부의 userSeq와 인증된 userSeq가 다를 경우 처리 위해 사용
+      Long authUserSeq = Long.parseLong(SecurityContextHolder.getContext().getAuthentication().getPrincipal().toString());
+      if(userSeq!=authUserSeq){
+        throw new BaseException(UNAUTHORIZED_USER);
+      }
+      boolean result = userService.updateUserSurvey(userSeq, updateUserSurveyRequestDto);
+
+      return new BaseResponseDto<>(result);
+
+    } catch (Exception e) {
+      if (e instanceof BaseException) {
+        throw e;
+      } else {
+        throw new BaseException(BaseResponseStatus.FAIL);
+      }
+    }
+  }
+
+
 
     @DeleteMapping("{userSeq}/photo/{photoSeq}")
     public BaseResponseDto<Boolean> deletePhoto(@PathVariable("userSeq") Long userSeq, @PathVariable("photoSeq") Long photoSeq){
