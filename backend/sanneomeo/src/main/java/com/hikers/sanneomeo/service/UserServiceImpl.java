@@ -1,6 +1,8 @@
 package com.hikers.sanneomeo.service;
 
 import com.hikers.sanneomeo.domain.RecordPhoto;
+import com.hikers.sanneomeo.domain.User;
+import com.hikers.sanneomeo.dto.request.UpdateUserSurveyRequestDto;
 import com.hikers.sanneomeo.dto.response.ChallengeResponseDto;
 import com.hikers.sanneomeo.dto.response.GetTrailLikeResponseDto;
 import com.hikers.sanneomeo.dto.response.GetUserPhotosByDateResponseDto;
@@ -151,5 +153,14 @@ public class UserServiceImpl implements UserService {
 
         return keepRepository.findLikeByUserWithTrail(userSeq);
 
+    }
+
+    @Override
+    public boolean updateUserSurvey(Long userSeq, UpdateUserSurveyRequestDto updateUserSurveyRequestDto) {
+        User user = userRepository.findById(userSeq).orElseThrow(()->new BaseException(BaseResponseStatus.FAIL));
+
+        user.updateUserServey(updateUserSurveyRequestDto);
+
+        return true;
     }
 }

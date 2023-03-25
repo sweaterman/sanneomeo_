@@ -1,5 +1,6 @@
 package com.hikers.sanneomeo.service;
 
+import com.hikers.sanneomeo.dto.request.UpdateUserSurveyRequestDto;
 import com.hikers.sanneomeo.dto.response.ChallengeResponseDto;
 import com.hikers.sanneomeo.dto.response.GetTrailLikeResponseDto;
 import com.hikers.sanneomeo.dto.response.GetUserPhotosByDateResponseDto;
@@ -19,4 +20,6 @@ public interface UserService {
   Map<String, Map<String, List<String>>> getUserPhotos(Long userSeq, Integer month);
 
   List<GetTrailLikeResponseDto> getTrailLike(Long userSeq);
+
+  boolean updateUserSurvey(Long userSeq, UpdateUserSurveyRequestDto updateUserSurveyRequestDto);
 }
