@@ -5,12 +5,14 @@ import static com.hikers.sanneomeo.domain.QRecordPhoto.recordPhoto;
 import static com.hikers.sanneomeo.domain.QUser.user;
 import static com.hikers.sanneomeo.domain.QMountain.mountain;
 import static com.hikers.sanneomeo.domain.QReview.review;
+import static com.hikers.sanneomeo.domain.QTrail.trail;
 
 import com.hikers.sanneomeo.domain.Mountain;
 import com.hikers.sanneomeo.domain.QRecordPhoto;
 import com.hikers.sanneomeo.domain.RecordPhoto;
 import com.hikers.sanneomeo.domain.User;
 import com.hikers.sanneomeo.dto.response.ChallengeResponseDto;
+import com.hikers.sanneomeo.dto.response.GetTrailLikeResponseDto;
 import com.hikers.sanneomeo.dto.response.PhotoResponseDto;
 import com.querydsl.core.types.Projections;
 import com.querydsl.jpa.impl.JPAQueryFactory;
@@ -18,13 +20,14 @@ import com.querydsl.jpa.impl.JPAQueryFactory;
 import java.util.List;
 import java.util.Optional;
 
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+@RequiredArgsConstructor
 public class UserRepositoryImpl implements UserRepositoryCustom {
 
-    @Autowired
-    private JPAQueryFactory query;
+    private final JPAQueryFactory query;
 
 
     public Optional<User> findUserBySocialId(String social, String socialId) {
@@ -57,17 +60,5 @@ public class UserRepositoryImpl implements UserRepositoryCustom {
                 .fetchOne()
                 ;
     }
-
-//    public List<RecordPhoto> getPhotosByMonth(Long userSeq, Integer month){
-//        return query
-//            .select(Projections.fields(RecordPhoto.class, recordPhoto.))
-//            .from(recordPhoto)
-//            .where(mountain.top100.eq(1))
-//            .fetch();
-//
-//    }
-
-
-
 
 }
