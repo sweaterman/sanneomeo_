@@ -29,3 +29,13 @@ interface SeasonMountains {
     seasonList: Array<Mountain>; // 산 리스트
   };
 }
+
+interface miniTrail {
+  latitude: number;
+  longitude: number;
+  altitude: number;
+}
+
+interface TrailPath {
+  result: Array<miniTrail>;
+}

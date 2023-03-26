@@ -1,71 +1,43 @@
-import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { RootState, AppThunk } from '@app/store';
+import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
-import { fetchCount } from '@features/counter/counterAPI';
+import { baseURL } from '@features/port';
+import { RootState } from '@app/store';
 
-export interface TrailState {
-  value: number;
-  status: 'idle' | 'loading' | 'failed';
-}
-
-const initialState: TrailState = {
-  value: 0,
-  status: 'idle',
+const initialTrailState: TrailPath = {
+  result: [
+    {
+      altitude: 0,
+      latitude: 0,
+      longitude: 0,
+    },
+  ],
 };
 
-const fetchTrail = createAsyncThunk('FETCH_TRAIL', async () => {
-  try {
-    const response = await axios.get('http://localhost:8080');
-    return response.data;
-  } catch (error) {
-    console.log(error);
-    return error;
-  }
-});
-
-export const incrementAsync = createAsyncThunk(
-  'counter/fetchCount',
-  async (amount: number) => {
-    const response = await fetchCount(amount);
-    return response.data;
+// API 명세서 15번. 등산로 상세 정보
+export const getTrailDetail = createAsyncThunk(
+  'trailSlice/getTrailDetail',
+  async (trailIdx: number) => {
+    const url = `${baseURL}trail/info/${trailIdx}`;
+    const response = await axios({ method: 'GET', url: url });
+    return response.data.result;
   },
 );
 
 export const trailSlice = createSlice({
-  name: 'trail',
-  initialState,
-  reducers: {
-    increment: (state) => {
-      state.value += 1;
-    },
-    decrement: (state) => {
-      state.value -= 1;
-    },
-    incrementByAmount: (state, action: PayloadAction<number>) => {
-      state.value += action.payload;
-    },
-  },
+  name: 'trailSlice',
+  initialState: initialTrailState,
+  reducers: {},
   extraReducers: (builder) => {
-    // builder
-    // 	.addCase(fetchUser.pending, (state, action) ={})  // 데이터 통신 대기중일 때
-    // 	.addCase(fetchUser.fulfilled, (state, action) => {
-    //     return { ...state, data: [ ...action.payload ] }
-    //   });                                               // 데이터 통신 성공했을 때
-    // 	.addCase(fetchUser.reject, (state, action) => {}) // 데이터 통신 실패했을 때
+    // API 명세서 15번. 등산로 상세 정보
+    builder.addCase(getTrailDetail.fulfilled, (state, action) => {
+      state.result = action.payload;
+      console.log('15 성공!', state.result);
+    });
+    builder.addCase(getTrailDetail.rejected, (state, action) => {
+      console.log('15 실패!', action.error);
+    });
   },
 });
 
-export const { increment, decrement, incrementByAmount } = trailSlice.actions;
-
-export const selectCount = (state: RootState) => state.trails.value;
-
-export const incrementIfOdd =
-  (amount: number): AppThunk =>
-  (dispatch, getState) => {
-    const currentValue = selectCount(getState());
-    if (currentValue % 2 === 1) {
-      dispatch(incrementByAmount(amount));
-    }
-  };
-
+export const trailDetail = (state: RootState) => state.trails;
 export default trailSlice.reducer;
