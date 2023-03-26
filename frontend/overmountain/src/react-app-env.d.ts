@@ -22,3 +22,10 @@ interface Mountain {
     sunset: number; // 일몰명산
   };
 }
+
+interface SeasonMountains {
+  result: {
+    season: string; // 계절
+    seasonList: Array<Mountain>; // 산 리스트
+  };
+}
