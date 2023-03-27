@@ -10,7 +10,7 @@ function MainPage() {
     <div className="mainpage">
       <Searchbar />
       <MapContainer />
-      <div className="float-right">
+      <div className="flex">
         <MascottMain />
       </div>
       <div className="mountain-suggestion">
