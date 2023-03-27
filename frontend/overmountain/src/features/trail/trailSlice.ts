@@ -4,13 +4,7 @@ import { baseURL } from '@features/port';
 import { RootState } from '@app/store';
 
 const initialTrailState: TrailPath = {
-  result: [
-    {
-      altitude: 0,
-      latitude: 0,
-      longitude: 0,
-    },
-  ],
+  result: [],
 };
 
 // API 명세서 15번. 등산로 상세 정보

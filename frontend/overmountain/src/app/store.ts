@@ -7,6 +7,7 @@ import trailsReducer from '@features/trail/trailSlice';
 import usersReducer from '@features/user/userSlice';
 import seasonMountainReducer from '@features/mountain/seasonMountainSlice';
 import trailListReducer from '@features/trail/trailListSlice';
+import spotListReducer from '@features/trail/spotSlice';
 
 export const store = configureStore({
   reducer: {
@@ -17,6 +18,7 @@ export const store = configureStore({
     trails: trailsReducer,
     trailLists: trailListReducer,
     users: usersReducer,
+    spotLists: spotListReducer,
   },
   // saga 쓰면 여기에 추가
   // middleware: new MiddlewareArray().concat(additionalMiddleware, logger),
