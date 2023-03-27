@@ -23,6 +23,12 @@ interface Mountain {
   };
 }
 
+interface miniTrail {
+  latitude: number;
+  longitude: number;
+  altitude: number;
+}
+
 interface SeasonMountains {
   result: {
     season: string; // 계절
@@ -30,12 +36,19 @@ interface SeasonMountains {
   };
 }
 
-interface miniTrail {
-  latitude: number;
-  longitude: number;
-  altitude: number;
-}
-
 interface TrailPath {
   result: Array<miniTrail>;
+}
+
+interface Trail {
+  sequence: number;
+  name: string;
+  length: number;
+  difficulty: string;
+  keepCount: number;
+  recommend: boolean;
+}
+
+interface TrailList {
+  result: Array<Trail>;
 }

@@ -18,7 +18,6 @@ function TrailTemp(props: { trailSeq: number }) {
       <div>
         <h4>등산로 상세정보 테스트</h4>
         <h5> Trail : {trailData.result[0].altitude}</h5>
-        <h5> Trail : {trailData.result[1].altitude}</h5>
       </div>
     </>
   );

@@ -1,4 +1,3 @@
-import TrailItems from '@components/trail/TrailItems';
 import MascottMain from '@components/main/MascottMain';
 import React from 'react';
 
@@ -8,7 +7,7 @@ function RecomResult() {
       <hr />
       <MascottMain />
       <div className="trailbox">
-        <TrailItems />
+        <div>trailitems가 들어갈 곳</div>
       </div>
     </>
   );

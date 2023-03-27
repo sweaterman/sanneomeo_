@@ -1,6 +1,5 @@
 import React from 'react';
 import MascottMain from '@components/main/MascottMain';
-import TrailItems from '@components/trail/TrailItems';
 
 function UserWishList() {
   return (
@@ -8,7 +7,7 @@ function UserWishList() {
       <hr />
       <MascottMain />
       <div className="trailbox">
-        <TrailItems />
+        <div>trailItems가 들어갈곳</div>
       </div>
     </>
   );
