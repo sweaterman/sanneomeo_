@@ -1,5 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'abstracts/responsive';
 @import 'abstracts/variables';
-@import 'abstracts/mixins';
 
 @import 'base/base';
 @import 'base/animation';
@@ -13,10 +17,17 @@
 @import 'layout/headers';
 @import 'layout/footers';
 
+@import 'components/balloon';
 @import 'components/buttons';
 @import 'components/card';
 @import 'components/carousel';
+@import 'components/challengebox';
+@import 'components/challengeitems';
 @import 'components/dropdown';
+@import 'components/img';
+@import 'components/mountainitems';
+@import 'components/searchbar';
+@import 'components/weatherforecast';
 
 @import 'pages/main-page';
 @import 'pages/mountain-detail';
