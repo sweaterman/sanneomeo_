@@ -4,16 +4,7 @@ import { baseURL } from '@features/port';
 import { RootState } from '@app/store';
 
 const initialTrailListState: TrailList = {
-  result: [
-    {
-      sequence: 0,
-      name: '',
-      length: 0,
-      difficulty: '',
-      keepCount: 0,
-      recommend: false,
-    },
-  ],
+  result: [],
 };
 
 // API 명세서 16번. 산에 해당하는 등산로 리스트
@@ -31,7 +22,7 @@ export const trailListSlice = createSlice({
   initialState: initialTrailListState,
   reducers: {},
   extraReducers: (builder) => {
-    // API 명세서 16번. 등산로 상세 정보
+    // API 명세서 16번. 산에 해당하는 등산로 리스트
     builder.addCase(getMountainTrailList.fulfilled, (state, action) => {
       state.result = action.payload;
       console.log('16 성공!', state.result);

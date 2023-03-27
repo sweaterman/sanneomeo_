@@ -11,6 +11,7 @@ import UserChallenge from '@pages/user/UserChallenge';
 import UserLogin from '@pages/user/UserLogin';
 import UserMypage from '@pages/user/UserMypage';
 import UserWishList from '@pages/user/UserWishlist';
+import MountainTrail from '@pages/mountain/MountainTrail';
 
 function AppRouter() {
   return (
@@ -20,6 +21,7 @@ function AppRouter() {
         <Route path="/" element={<MainPage />} />
         <Route path="/mountain/detail" element={<MountainDetail />} />
         <Route path="/mountain/upload" element={<UploadPhoto />} />
+        <Route path="/mountain/trail" element={<MountainTrail />} />
         <Route path="/recommend/question" element={<RecomQuestion />} />
         <Route path="/recommend/result" element={<RecomResult />} />
         <Route path="/user/login" element={<UserLogin />} />
