@@ -40,17 +40,8 @@ function Navbar({ isOpen, onClose }: any) {
   };
 
   return (
-    <nav className="hidden bg-black">
-      <div className="nav">
-        <div
-          className="nav-logo"
-          role="presentation"
-          onClick={navigateToMain}
-          onKeyDown={navigateToMain}
-        >
-          <img src="#" alt="sanneomeo" />
-        </div>
-
+    <nav className={`navbar ${isOpen ? 'open' : 'hidden'}`}>
+      <div className="nav-content">
         <div className="header-font-group">
           <div
             className="header-font-tag"
@@ -119,6 +110,10 @@ function Navbar({ isOpen, onClose }: any) {
           </div>
         </div>
       </div>
+      {/* overlay element to close navbar */}
+      {isOpen && (
+        <div className="navbar-overlay" onClick={onClose} role="presentation" />
+      )}
     </nav>
   );
 }
