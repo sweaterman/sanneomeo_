@@ -75,3 +75,13 @@ interface miniSpot {
 interface SpotList {
   result: Array<miniSpot>;
 }
+
+// 내 위치와 가까운 등산로 반환할 때 쓰는 타입
+interface PositionTrail {
+  result: {
+    trailSeq: number;
+    latitude: number;
+    longitude: number;
+    distance: number;
+  };
+}
