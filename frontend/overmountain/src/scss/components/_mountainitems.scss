@@ -1,5 +1,14 @@
 .mountain-items {
-  background-color: white;
-  .mountain-name {
+  figure {
+    display: inline-block;
+    img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+    }
+    figcaption {
+      width: 120px;
+      background-color: white;
+    }
   }
 }
