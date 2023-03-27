@@ -1,5 +1,8 @@
 package com.hikers.sanneomeo.domain;
 
+import com.hikers.sanneomeo.dto.request.UpdateUserSurveyRequestDto;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
@@ -10,7 +13,9 @@ import java.sql.Timestamp;
 @Entity
 @Getter
 @Table(name = "tbl_user")
+@Builder
 @NoArgsConstructor
+@AllArgsConstructor
 public class User {
 
     @Id
@@ -80,5 +85,13 @@ public class User {
 
     @Column(name = "updated_at")
     private Timestamp updatedAt;
+
+    public void updateUserServey(UpdateUserSurveyRequestDto updateUserSurveyRequestDto){
+        this.difficulty = updateUserSurveyRequestDto.getDifficulty()==null? this.difficulty : updateUserSurveyRequestDto.getDifficulty();
+        this.preferClimbDuration = updateUserSurveyRequestDto.getPreferClimbDuration()==null? this.preferClimbDuration : updateUserSurveyRequestDto.getPreferClimbDuration();
+        this.preferRegion = updateUserSurveyRequestDto.getPreferRegion()==null? this.preferRegion : updateUserSurveyRequestDto.getPreferRegion();
+        this.purpose = updateUserSurveyRequestDto.getPurpose()==null? this.purpose : updateUserSurveyRequestDto.getPurpose();
+
+    }
 
 }

@@ -1,7 +1,9 @@
 package com.hikers.sanneomeo.domain;
 
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
@@ -11,6 +13,7 @@ import java.sql.Timestamp;
 @Getter
 @Table(name = "tbl_mountain")
 @NoArgsConstructor
+@ToString
 public class Mountain {
 
     @Id
@@ -46,6 +49,28 @@ public class Mountain {
 
     @Column(name = "difficulty")
     private String difficulty;
+
+    @Column(name = "top100")
+    private Integer top100;
+
+    @Column(name = "spring")
+    private Integer spring;
+
+    @Column(name = "summer")
+    private Integer summer;
+
+    @Column(name = "fall")
+    private Integer fall;
+
+    @Column(name = "winter")
+    private Integer winter;
+
+    @Column(name = "sunrise")
+    private Integer sunrise;
+
+    @Column(name = "sunset")
+    private Integer sunset;
+
 
 
 }

@@ -3,7 +3,10 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 function Navbar({ isOpen, onClose }: any) {
-  const [isLogin, setIsLogin] = useState(false);
+  const [isLogin, setIsLogin] = useState(() => {
+    const token = localStorage.getItem('token');
+    return !!token;
+  });
   const navigate = useNavigate();
 
   // 해당 페이지로 이동선언하는 함수
@@ -33,10 +36,10 @@ function Navbar({ isOpen, onClose }: any) {
   };
 
   const onLogout = () => {
+    localStorage.clear();
+    setIsLogin(false);
     // 메인으로 이동(새로고침)
     navigate('/');
-    // sessionStorage에 accessToken로 저장되어 있는 아이템을 삭제
-    sessionStorage.clear();
   };
 
   return (

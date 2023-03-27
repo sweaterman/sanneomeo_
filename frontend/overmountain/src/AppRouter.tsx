@@ -12,6 +12,7 @@ import UserLogin from '@pages/user/UserLogin';
 import UserMypage from '@pages/user/UserMypage';
 import UserWishList from '@pages/user/UserWishlist';
 import MountainTrail from '@pages/mountain/MountainTrail';
+import UserLoginTokenSave from '@pages/user/UserLoginTokenSave';
 
 function AppRouter() {
   return (
@@ -28,6 +29,9 @@ function AppRouter() {
         <Route path="/user/mypage" element={<UserMypage />} />
         <Route path="/user/wishlist" element={<UserWishList />} />
         <Route path="/user/challenge" element={<UserChallenge />} />
+
+        {/* 로그인 토큰 저장용 */}
+        <Route path="/user/login/callback" element={<UserLoginTokenSave />} />
       </Routes>
       <Footer />
     </BrowserRouter>
