@@ -1,11 +1,15 @@
 package com.hikers.sanneomeo.service;
 
 import com.hikers.sanneomeo.domain.RecordPhoto;
+import com.hikers.sanneomeo.domain.User;
+import com.hikers.sanneomeo.dto.request.UpdateUserSurveyRequestDto;
 import com.hikers.sanneomeo.dto.response.ChallengeResponseDto;
+import com.hikers.sanneomeo.dto.response.GetTrailLikeResponseDto;
 import com.hikers.sanneomeo.dto.response.GetUserPhotosByDateResponseDto;
 import com.hikers.sanneomeo.dto.response.PhotoResponseDto;
 import com.hikers.sanneomeo.exception.BaseException;
 import com.hikers.sanneomeo.exception.BaseResponseStatus;
+import com.hikers.sanneomeo.repository.KeepRepository;
 import com.hikers.sanneomeo.repository.MountainRepository;
 import com.hikers.sanneomeo.repository.RecordPhotoRepository;
 import com.hikers.sanneomeo.repository.UserRepository;
@@ -35,6 +39,8 @@ public class UserServiceImpl implements UserService {
     UserRepository userRepository;
     @Autowired
     private MountainRepository mountainRepository;
+    @Autowired
+    private KeepRepository keepRepository;
 
     @Override
     public Map<String, Object> challengeInfo() {
@@ -140,5 +146,21 @@ public class UserServiceImpl implements UserService {
         }
 
         return responseDtoTreeMap;
+    }
+
+    @Override
+    public List<GetTrailLikeResponseDto> getTrailLike(Long userSeq) {
+
+        return keepRepository.findLikeByUserWithTrail(userSeq);
+
+    }
+
+    @Override
+    public boolean updateUserSurvey(Long userSeq, UpdateUserSurveyRequestDto updateUserSurveyRequestDto) {
+        User user = userRepository.findById(userSeq).orElseThrow(()->new BaseException(BaseResponseStatus.FAIL));
+
+        user.updateUserServey(updateUserSurveyRequestDto);
+
+        return true;
     }
 }

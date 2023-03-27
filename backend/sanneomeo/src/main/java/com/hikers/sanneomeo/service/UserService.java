@@ -1,6 +1,8 @@
 package com.hikers.sanneomeo.service;
 
+import com.hikers.sanneomeo.dto.request.UpdateUserSurveyRequestDto;
 import com.hikers.sanneomeo.dto.response.ChallengeResponseDto;
+import com.hikers.sanneomeo.dto.response.GetTrailLikeResponseDto;
 import com.hikers.sanneomeo.dto.response.GetUserPhotosByDateResponseDto;
 import java.util.Date;
 import org.springframework.stereotype.Service;
@@ -15,5 +17,9 @@ public interface UserService {
 
   boolean updatePhotoStatus(Long authUserSeq, Long photoSeq);
   boolean deletePhoto(Long authUserSeq, Long photoSeq);
-  public Map<String, Map<String, List<String>>> getUserPhotos(Long userSeq, Integer month);
+  Map<String, Map<String, List<String>>> getUserPhotos(Long userSeq, Integer month);
+
+  List<GetTrailLikeResponseDto> getTrailLike(Long userSeq);
+
+  boolean updateUserSurvey(Long userSeq, UpdateUserSurveyRequestDto updateUserSurveyRequestDto);
 }

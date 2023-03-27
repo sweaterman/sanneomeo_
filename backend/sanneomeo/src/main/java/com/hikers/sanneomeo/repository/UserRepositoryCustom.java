@@ -2,6 +2,7 @@ package com.hikers.sanneomeo.repository;
 
 import com.hikers.sanneomeo.domain.User;
 import com.hikers.sanneomeo.dto.response.ChallengeResponseDto;
+import com.hikers.sanneomeo.dto.response.GetTrailLikeResponseDto;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
@@ -16,4 +17,5 @@ public interface UserRepositoryCustom  {
 
     //챌린지 완등여부 확인 - 리뷰수 확인
     long reviewNum(Long authUserSeq, String mountainSeq);
+
 }

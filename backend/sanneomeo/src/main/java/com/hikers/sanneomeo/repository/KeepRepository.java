@@ -4,7 +4,9 @@ import com.hikers.sanneomeo.domain.Keep;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
+import org.springframework.stereotype.Repository;
 
-public interface KeepRepository extends JpaRepository<Keep, Long> {
+@Repository
+public interface KeepRepository extends JpaRepository<Keep, Long>, KeepRepositoryCustom {
     Optional<Keep> findFirstByUserSeqAndTrailSeq(Long userSeq, Long trailSeq);
 }
