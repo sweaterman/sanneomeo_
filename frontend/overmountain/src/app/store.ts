@@ -6,6 +6,7 @@ import mountainReducer from '@features/mountain/mountainSlice';
 import trailsReducer from '@features/trail/trailSlice';
 import usersReducer from '@features/user/userSlice';
 import seasonMountainReducer from '@features/mountain/seasonMountainSlice';
+import trailListReducer from '@features/trail/trailListSlice';
 
 export const store = configureStore({
   reducer: {
@@ -14,6 +15,7 @@ export const store = configureStore({
     mountains: mountainReducer,
     seasonMountains: seasonMountainReducer,
     trails: trailsReducer,
+    trailLists: trailListReducer,
     users: usersReducer,
   },
   // saga 쓰면 여기에 추가
