@@ -16,8 +16,10 @@ function MountainItems() {
 
   return (
     <div className="mountain-items">
-      <img src={sample} alt="도봉산" />
-      <div className="mountain-name">도봉산</div>
+      <figure>
+        <img src={sample} alt="도봉산" />
+        <figcaption>도봉산</figcaption>
+      </figure>
 
       <div>
         <h4>계절산테스트</h4>

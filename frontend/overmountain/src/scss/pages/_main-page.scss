@@ -16,8 +16,11 @@
     .suggestion-text {
       margin-bottom: 20px;
       font-size: $font-h2;
-      font-weight: bold;
       color: white;
+      .user-challenge {
+        color: white;
+        text-decoration: none;
+      }
     }
     .itembox {
       align-items: center;
