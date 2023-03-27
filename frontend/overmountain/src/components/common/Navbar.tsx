@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 
 import { useNavigate } from 'react-router-dom';
 
-function Navbar() {
-  const [isLogin, setIsLogin] = useState();
+function Navbar({ isOpen, onClose }: any) {
+  const [isLogin, setIsLogin] = useState(false);
   const navigate = useNavigate();
 
   // 해당 페이지로 이동선언하는 함수
@@ -40,8 +40,8 @@ function Navbar() {
   };
 
   return (
-    <div>
-      <nav className="nav">
+    <nav className="hidden bg-black">
+      <div className="nav">
         <div
           className="nav-logo"
           role="presentation"
@@ -118,8 +118,8 @@ function Navbar() {
             100대 명산 완등&nbsp;
           </div>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
 }
 
