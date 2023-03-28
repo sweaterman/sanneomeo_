@@ -2,7 +2,7 @@ package com.hikers.sanneomeo.service;
 
 
 import com.hikers.sanneomeo.dto.response.PhotoResponseDto;
-import com.hikers.sanneomeo.repository.RecordPhotoRepositorySupport;
+import com.hikers.sanneomeo.repository.RecordPhotoRepositoryImpl;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -22,9 +22,9 @@ import org.springframework.transaction.annotation.Transactional;
 @RequiredArgsConstructor
 public class PhotoServiceImpl implements PhotoService {
 
-  private final RecordPhotoRepositorySupport recordPhotoRepositorySupport;
+  private final RecordPhotoRepositoryImpl recordPhotoRepositoryImpl;
   @Override
   public List<PhotoResponseDto> getPhotosBymountainSequence(Long sequence) {
-    return recordPhotoRepositorySupport.findPhotosBymountainSequence(sequence);
+    return recordPhotoRepositoryImpl.findPhotosBymountainSequence(sequence);
   }
 }

@@ -1,6 +1,7 @@
 package com.hikers.sanneomeo.dto.request;
 
 import java.math.BigDecimal;
+import java.util.Date;
 import java.util.List;
 import javax.persistence.Column;
 import lombok.AllArgsConstructor;
@@ -20,7 +21,7 @@ public class UploadImagesRequestDto {
   private BigDecimal latitude;
   private BigDecimal longitude;
   @DateTimeFormat(pattern = "yyyy-MM-dd")
-  private String date;
-  private List<MultipartFile> images;
+  private Date date;
+  private List<MultipartFile> photos;
 
 }
