@@ -40,10 +40,9 @@ public class MountainController {
     private TrailService trailService;
     @Autowired
     private PhotoService photoService;
-    @Autowired
-    private SpotService spotService;
 
-    @PostMapping("/image/{mountainSeq}")
+
+    @PostMapping("/{mountainSeq}/photo")
     public BaseResponseDto<Boolean> uploadImages(@ModelAttribute UploadImagesRequestDto uploadImagesRequestDto,
                                                  @PathVariable Long mountainSeq) {
         try {
@@ -54,7 +53,7 @@ public class MountainController {
             }
 
             //이미지 업로드 후 링크 가져오기
-            List<String> uploadUrls = s3UploadService.upload(uploadImagesRequestDto.getImages(), "record");
+            List<String> uploadUrls = s3UploadService.upload(uploadImagesRequestDto.getPhotos(), "record");
 
             //db 접근해서 dto 생성해오기
             boolean result = mountainService.createRecordPhotos(uploadImagesRequestDto, uploadUrls, mountainSeq);
@@ -141,21 +140,16 @@ public class MountainController {
     }
 
     @GetMapping("/trail/{mountainIdx}")
-    public List<TrailListResponseDto> getTrailsByMountainSequence(@PathVariable("mountainIdx") String sequence){
-        return trailService.getTrailsBySequence(sequence);
+    public BaseResponseDto<?> getTrailsByMountainSequence(@PathVariable("mountainIdx") String sequence){
+        return  new BaseResponseDto<>(trailService.getTrailsBySequence(sequence));
     }
     @GetMapping("/photo/{mountainIdx}")
-    public List<PhotoResponseDto> getTrailsByMountainSequence(@PathVariable("mountainIdx") Long sequence){
-        return photoService.getPhotosBymountainSequence(sequence);
+    public BaseResponseDto<?> getTrailsByMountainSequence(@PathVariable("mountainIdx") Long sequence){
+        return  new BaseResponseDto<>(photoService.getPhotosBymountainSequence(sequence));
     }
     @GetMapping("/info/{mountainIdx}")
-    public MountainDetailResponseDto getMountainInfo(@PathVariable("mountainIdx") String sequence,
-     @RequestParam(required = false, value = "latitude")BigDecimal latitude,@RequestParam(required = false, value = "longitude")BigDecimal longitude){
-        MountainDetailResponseDto dto = mountainService.getMountainInfoBysequence(sequence);
-        if(latitude!=null && longitude!=null)
-            dto.setSpots(spotService.getSpotsByMountainSequenceAndCoordinate(sequence,latitude,longitude));
-        else
-            dto.setSpots(spotService.getSpotsByMountainSequence(sequence));
-        return dto;
+    public BaseResponseDto<?> getMountainInfo(@PathVariable("mountainIdx") String sequence){
+        return  new BaseResponseDto<>(mountainService.getMountainInfoBysequence(sequence));
+
     }
 }

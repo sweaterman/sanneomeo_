@@ -2,7 +2,6 @@ package com.hikers.sanneomeo.utils;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.hikers.sanneomeo.dto.response.BaseResponseDto;
-import com.hikers.sanneomeo.dto.response.LoginResponseDto;
 import com.hikers.sanneomeo.exception.BaseResponseStatus;
 import java.io.IOException;
 import javax.servlet.http.HttpServletResponse;
