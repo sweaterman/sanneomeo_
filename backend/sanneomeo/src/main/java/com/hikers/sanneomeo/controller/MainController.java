@@ -70,10 +70,10 @@ public class MainController {
             double maxOfDay = Double.parseDouble(String.valueOf(mainObj.get("temp_max")));
             for(int j=1; j<8; j++) { // 하루의 최저온도 최대온도 계산
                 JsonObject obj = (JsonObject) weatherArray.get(i * 8 + j);
-                JsonObject main = (JsonObject) dayWeather.get("main");
-                double min = Double.parseDouble(String.valueOf(mainObj.get("temp_min")));
+                JsonObject main = (JsonObject) obj.get("main");
+                double min = Double.parseDouble(String.valueOf(main.get("temp_min")));
                 if(min < minOfDay) minOfDay = min;
-                double max = Double.parseDouble(String.valueOf(mainObj.get("temp_max")));
+                double max = Double.parseDouble(String.valueOf(main.get("temp_max")));
                 if(max > maxOfDay) maxOfDay = max;
             }
             dayDto.setMin(minOfDay);
