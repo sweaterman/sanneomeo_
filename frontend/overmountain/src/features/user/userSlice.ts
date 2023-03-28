@@ -1,71 +1,68 @@
 import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { RootState, AppThunk } from '@app/store';
 import axios from 'axios';
-import { fetchCount } from '@features/counter/counterAPI';
+import { baseURL } from '@features/port';
 
-export interface UserState {
-  value: number;
-  status: 'idle' | 'loading' | 'failed';
-}
-
-const initialState: UserState = {
-  value: 0,
-  status: 'idle',
+const initialUserState: User = {
+  userSeq: 0,
+  nickname: '',
+  gender: '',
+  age: 0,
+  si: '',
+  gu: '',
+  dong: '',
+  latitude: 0,
+  longitude: 0,
+  level: 0,
+  difficulty: 0,
+  preferRegion: 0,
+  purpose: 0,
+  preferClimbDuration: 0,
+  social: '',
+  socialId: '',
+  totalDuration: '',
+  totalDistance: '',
+  totalNumber: 0,
+  profileImage: '',
 };
 
-const fetchUser = createAsyncThunk('FETCH_USER', async () => {
-  try {
-    const response = await axios.get('http://localhost:8080');
-    return response.data;
-  } catch (error) {
-    console.log(error);
-    return error;
-  }
-});
-
-export const incrementAsync = createAsyncThunk(
-  'counter/fetchCount',
-  async (amount: number) => {
-    const response = await fetchCount(amount);
+// API 명세서 7번. 회원정보 수정(선택 정보) - 설문내용
+const putUserInfo = createAsyncThunk(
+  'userSlice/putUserInfo',
+  async (userSeq: number, { getState }) => {
+    // Redux store에서 현재상태 가져오기
+    const currentState = (getState() as RootState).users;
+    // request에 필요한 상태만 업데이트
+    const request = {
+      ...currentState,
+    };
+    const url = `${baseURL}user/${userSeq}/info`;
+    const response = await axios({
+      method: 'PUT',
+      headers: { Authorization: localStorage.getItem('token') },
+      url: url,
+      data: request,
+    });
     return response.data;
   },
 );
 
 export const userSlice = createSlice({
   name: 'user',
-  initialState,
-  reducers: {
-    increment: (state) => {
-      state.value += 1;
-    },
-    decrement: (state) => {
-      state.value -= 1;
-    },
-    incrementByAmount: (state, action: PayloadAction<number>) => {
-      state.value += action.payload;
-    },
-  },
+  initialState: initialUserState,
+  reducers: {},
   extraReducers: (builder) => {
-    // builder
-    // 	.addCase(fetchUser.pending, (state, action) ={})  // 데이터 통신 대기중일 때
-    // 	.addCase(fetchUser.fulfilled, (state, action) => {
-    //     return { ...state, data: [ ...action.payload ] }
-    //   });                                               // 데이터 통신 성공했을 때
-    // 	.addCase(fetchUser.reject, (state, action) => {}) // 데이터 통신 실패했을 때
+    // API 명세서 7번. 회원정보 수정(선택 정보) - 설문내용
+    builder.addCase(putUserInfo.fulfilled, (state, action) => {
+      state = action.payload;
+      console.log('7 성공!', state);
+    });
+    builder.addCase(putUserInfo.rejected, (state, action) => {
+      console.log('7 실패!', action.error);
+    });
   },
 });
 
-export const { increment, decrement, incrementByAmount } = userSlice.actions;
-
-export const selectCount = (state: RootState) => state.users.value;
-
-export const incrementIfOdd =
-  (amount: number): AppThunk =>
-  (dispatch, getState) => {
-    const currentValue = selectCount(getState());
-    if (currentValue % 2 === 1) {
-      dispatch(incrementByAmount(amount));
-    }
-  };
+export const user = (state: RootState) => state.users;
 
 export default userSlice.reducer;

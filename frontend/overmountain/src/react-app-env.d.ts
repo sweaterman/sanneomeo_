@@ -52,6 +52,7 @@ interface Trail {
   difficulty: string;
   keepCount: number;
   recommend: boolean | null;
+  isLike: boolean;
 }
 
 // 등산로 리스트
@@ -84,4 +85,61 @@ interface PositionTrail {
     longitude: number;
     distance: number;
   };
+}
+// 유저 정보
+interface User {
+  userSeq: number; // 유저시퀀스
+  nickname: string; // 닉네임
+  gender: string; // 성별
+  age: number; // 나이대
+  si: string; // 시
+  gu: string; // 구
+  dong: string; // 동
+  latitude: number; // 위도
+  longitude: number; // 경도
+  level: number; // 설문레벨
+  difficulty: number | null; // 난이도: 하1/중2/상3
+  preferRegion: number | null; // 지역선호도: 집근처1/전국2
+  purpose: number | null; // 목적: 힐링1/도전2
+  preferClimbDuration: number; // 선호등반시간: 3시간이내1/3-5 2/5-7 3/7-10 4/10이상 5
+  social: string; // 소셜정보
+  socialId: string; // 소셜고유아이디
+  totalDuration: string | null; // 총등산시간
+  totalDistance: string | null; // 총등산거리
+  totalNumber: number | null; // 총등산횟수
+  profileImage: string | null; // 프로필이미지
+}
+
+// 100대 명산 리스트
+interface ChallengeMountain {
+  mountainSeq: string;
+  name: string;
+  img: string;
+  altitude: number;
+  si: string;
+  gu: string;
+  dong: string;
+  difficulty: string;
+  conquer: boolean;
+}
+// 100대 명산 챌린지 리스트
+interface ChallengeList {
+  result: Array<ChallengeMountain>;
+}
+
+// 찜한 등산로
+interface TrailLike {
+  trailSeq: number;
+  name: string;
+  mountainSeq: string;
+  difficulty: string;
+  uptime: number;
+  downtime: number;
+  length: number;
+  keep: boolean;
+}
+
+// 찜한 등산로 리스트
+interface TrailLikeList {
+  result: Array<TrailLike>;
 }
