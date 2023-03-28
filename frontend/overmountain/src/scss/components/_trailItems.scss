@@ -1,0 +1,44 @@
+// 등산로 리스트 컴포넌트
+.trailItems-root {
+  background-color: $over-beige;
+  height: 300px;
+  overflow: auto;
+}
+
+.trailItems-singleTrail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid black;
+  background-color: white;
+
+  .first {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+
+    .trail-name {
+      font-weight: bold;
+    }
+
+    .trail-etc {
+      font-size: $font-h5;
+      color: $over-lightgray;
+    }
+  }
+
+  .second {
+    white-space: pre-wrap;
+    .difficulty {
+      display: inline-flex;
+      flex-direction: row;
+    }
+    .like {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+  }
+}

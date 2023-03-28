@@ -26,8 +26,7 @@ function MainPage() {
         console.log(latitude, longitude, '바꿨다!');
       });
     } else {
-      console.log('지오로케이션이 너한텐 동작안한단다.');
-      alert('geolocation이 너한텐 동작안함 ㅅㄱ');
+      alert('geolocation이 너한텐 동작안함');
     }
   };
 
