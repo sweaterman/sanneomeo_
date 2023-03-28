@@ -34,7 +34,11 @@ export const getMountainDetail = createAsyncThunk(
   // 액션이 실행되었을 때 처리되어야 하는 작업
   async (mountainIdx: string) => {
     const url = `${baseURL}mountain/info/${mountainIdx}`; // 산 메인용
-    const response = await axios({ method: 'GET', url: url });
+    const response = await axios({
+      method: 'GET',
+      headers: { Authorization: localStorage.getItem('token') },
+      url: url,
+    });
     return response.data.result;
   },
 );

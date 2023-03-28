@@ -9,6 +9,9 @@ import seasonMountainReducer from '@features/mountain/seasonMountainSlice';
 import trailListReducer from '@features/trail/trailListSlice';
 import spotListReducer from '@features/trail/spotSlice';
 import positionTrailReducer from '@features/trail/positionTrailSlice';
+import userChallengeSlice from '@features/user/userChallengeSlice';
+import userTrailLikeSlice from '@features/user/userTrailLikeSlice';
+import trailKeepSlice from '@features/trail/trailKeepSlice';
 
 export const store = configureStore({
   reducer: {
@@ -18,9 +21,12 @@ export const store = configureStore({
     seasonMountains: seasonMountainReducer,
     trails: trailsReducer,
     trailLists: trailListReducer,
+    trailKeeps: trailKeepSlice,
     users: usersReducer,
     spotLists: spotListReducer,
     positionTrails: positionTrailReducer,
+    userChallenge: userChallengeSlice,
+    userTrailLike: userTrailLikeSlice,
   },
   // saga 쓰면 여기에 추가
   // middleware: new MiddlewareArray().concat(additionalMiddleware, logger),
