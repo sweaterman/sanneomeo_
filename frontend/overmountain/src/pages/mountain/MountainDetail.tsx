@@ -21,9 +21,22 @@ function MountainDetail() {
   return (
     <>
       <h1>Mountain Detail 페이지임다</h1>
-      <Card data={mountainData} />
-      <TrailTemp trailSeq={trailSeq} />
+      <h3>뱃지 표시</h3>
+      <h3>지도 컴포넌트</h3>
+      <h3>고도 컴포넌트</h3>
+      <h3>위에 따라다니는 등산로 | 정보 | 후기 서브 헤더</h3>
+      {/* 등산로리스트 */}
       <TrailItems mountainSeq={mountainSeq} />
+
+      {/* 산 상세정보 */}
+      {/* <Card data={mountainData} /> */}
+
+      {/* 카람쥐 */}
+      <h3>카람쥐</h3>
+
+      {/* 후기 리스트 및 후기 작성 컴포넌트 */}
+
+      {/* <TrailTemp trailSeq={trailSeq} /> */}
     </>
   );
 }
