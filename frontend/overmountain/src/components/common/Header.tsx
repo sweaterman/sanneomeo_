@@ -15,7 +15,7 @@ function Header() {
   };
   useEffect(() => {
     setIsNavOpen(false);
-  }, [location.pathname]);
+  }, [location.pathname, navigate]);
 
   const toggleNavHandler = () => {
     setIsNavOpen(!isNavOpen);
