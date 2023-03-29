@@ -39,6 +39,7 @@ public class RecordPhoto {
     @Column(name = "longitude")
     private BigDecimal longitude;
 
+    @Builder.Default
     @Column(name = "is_public", columnDefinition = "TINYINT(1) default 1")
     private boolean isPublic = true;
 
