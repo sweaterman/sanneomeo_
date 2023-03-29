@@ -4,11 +4,14 @@ import axios from 'axios';
 import { baseURL } from '@features/port';
 
 const initialChallengeState: ChallengeList = {
-  result: [],
+  result: {
+    challengeList: [],
+    conquerNo: 0,
+  },
 };
 
 // API 명세서 9번. 100대 명산 챌린지 리스트
-const getChallengeList = createAsyncThunk(
+export const getChallengeList = createAsyncThunk(
   'userChallengeSlice/getChallengeList',
   async () => {
     const url = `${baseURL}user/challenge`;

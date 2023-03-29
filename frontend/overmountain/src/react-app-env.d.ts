@@ -124,7 +124,10 @@ interface ChallengeMountain {
 }
 // 100대 명산 챌린지 리스트
 interface ChallengeList {
-  result: Array<ChallengeMountain>;
+  result: {
+    challengeList: Array<ChallengeMountain>;
+    conquerNo: number;
+  };
 }
 
 // 찜한 등산로
