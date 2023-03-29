@@ -11,6 +11,10 @@ function MountainDetail() {
   const trailSeq = 5497;
   const mountainSeq = '111100101';
 
+  // 임시 코드 -> 대표 등산로/추천받은 등산로 넘기기
+  // 추천받은 등산로에 모시깽이가 있다면 그걸 넘기고 없다면 대표 등산로?
+  const bestTrail = 32254;
+
   // 산 상세 정보 받아오기
   const mountainData = useAppSelector(mountain);
   const mountainDetailDispatch = useAppDispatch();
@@ -58,8 +62,8 @@ function MountainDetail() {
         <h3>후기</h3>
       </div>
 
-      {/* 등산로리스트 */}
-      <TrailItems mountainSeq={mountainSeq} />
+      {/* 등산로리스트 (대표 등산로 부분 API 수정하면 바꿔야함) */}
+      <TrailItems mountainSeq={mountainSeq} trailkey={bestTrail} />
 
       {/* 산 상세정보 */}
       {/* <Card data={mountainData} /> */}
