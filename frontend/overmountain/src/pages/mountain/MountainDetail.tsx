@@ -2,8 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { getMountainDetail, mountain } from '@features/mountain/mountainSlice';
 import { useAppSelector, useAppDispatch } from '@app/hooks';
 import Card from '@components/common/Card';
-import TrailTemp from '@components/trail/TrailTemp';
 import TrailItems from '@components/trail/TrailItems';
+import TrailMap from '@components/trail/TrailMap';
+import { selectedTrailKey } from '@features/trail/selectedTrailSlice';
 
 function MountainDetail() {
   // 코드 바꿔야함
@@ -36,6 +37,12 @@ function MountainDetail() {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+
+  // 선택한 등산로 key 넘기는 부분
+  const selectedKey = useAppSelector(selectedTrailKey);
+  useEffect(() => {
+    console.log('등산로 바꾸기!:', selectedKey);
+  }, [selectedKey]);
 
   return (
     <>
