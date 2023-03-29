@@ -32,7 +32,7 @@ function MainPage() {
 
   useEffect(() => {
     positionDispatch(getPositionTrail({ latitude, longitude }));
-  }, [positionDispatch, latitude, longitude]);
+  }, [latitude, longitude]);
 
   return (
     <div className="mainpage">

@@ -11,7 +11,7 @@ function TrailTemp(props: { trailSeq: number }) {
   useEffect(() => {
     // 등산로코드바꿔야함
     dispatch(getTrailDetail(trailSeq));
-  }, [dispatch]);
+  }, []);
 
   return (
     <>
