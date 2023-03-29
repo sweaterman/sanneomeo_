@@ -12,6 +12,7 @@ import positionTrailReducer from '@features/trail/positionTrailSlice';
 import userChallengeSlice from '@features/user/userChallengeSlice';
 import userTrailLikeSlice from '@features/user/userTrailLikeSlice';
 import trailKeepSlice from '@features/trail/trailKeepSlice';
+import selectedTrailSlice from '@features/trail/selectedTrailSlice';
 
 export const store = configureStore({
   reducer: {
@@ -27,6 +28,7 @@ export const store = configureStore({
     positionTrails: positionTrailReducer,
     userChallenge: userChallengeSlice,
     userTrailLike: userTrailLikeSlice,
+    selectedKey: selectedTrailSlice,
   },
   // saga 쓰면 여기에 추가
   // middleware: new MiddlewareArray().concat(additionalMiddleware, logger),

@@ -8,6 +8,10 @@ import {
   getMountainTrailList,
   trailList,
 } from '@features/trail/trailListSlice';
+import {
+  setSelectedTrailKey,
+  selectedTrailKey,
+} from '@features/trail/selectedTrailSlice';
 
 function TrailItems(props: { mountainSeq: string }) {
   const { mountainSeq } = props;
@@ -19,17 +23,38 @@ function TrailItems(props: { mountainSeq: string }) {
     trailListDispatch(getMountainTrailList(mountainSeq));
   }, []);
 
+  // 등산로 선택했을 때, state의 selected key 바꾸기
+  const selectedKey = useAppSelector(selectedTrailKey);
+  const selectedDispatch = useAppDispatch();
+  useEffect(() => {}, [selectedKey]);
+
   return (
-    <div className="trailItems-root grid grid-cols-12">
+    <div className="trailItems-root grid grid-cols-8">
       {/* TrailItems (등산로리스트) 컴포넌트 (내부 스크롤 적용해야함) */}
-      <div className="col-span-2"></div>
+      <div className="col-span-1"></div>
 
       {/* 하나의 Trail 컴포넌트 */}
-      <div className="col-span-8">
+      <div className="col-span-6">
         {trailListData &&
           trailListData.result.map((trail) => (
-            <div className="trailItems-singleTrail" key={trail.sequence}>
-              <div className="first">
+            <div
+              className={`trailItems-singleTrail ${
+                selectedKey.selectedTrailKey === trail.sequence
+                  ? 'selected'
+                  : ''
+              }`}
+              key={trail.sequence}
+            >
+              <div
+                className="first"
+                onClick={() =>
+                  selectedDispatch(setSelectedTrailKey(trail.sequence))
+                }
+                onKeyDown={() =>
+                  selectedDispatch(setSelectedTrailKey(trail.sequence))
+                }
+                role="presentation"
+              >
                 <div className="trail-name">{trail.name}</div>
                 <div className="trail-etc">3시간</div>
                 <div className="trail-etc">{trail.length}km</div>
@@ -85,7 +110,7 @@ function TrailItems(props: { mountainSeq: string }) {
           ))}
       </div>
 
-      <div className="col-span-2"></div>
+      <div className="col-span-1"></div>
     </div>
   );
 }
