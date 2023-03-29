@@ -13,8 +13,9 @@ import {
   selectedTrailKey,
 } from '@features/trail/selectedTrailSlice';
 
-function TrailItems(props: { mountainSeq: string }) {
+function TrailItems(props: { mountainSeq: string; trailkey: number }) {
   const { mountainSeq } = props;
+  const { trailkey } = props;
 
   // 산에 해당하는 등산로 리스트 받아오기
   const trailListData = useAppSelector(trailList);
@@ -26,7 +27,11 @@ function TrailItems(props: { mountainSeq: string }) {
   // 등산로 선택했을 때, state의 selected key 바꾸기
   const selectedKey = useAppSelector(selectedTrailKey);
   const selectedDispatch = useAppDispatch();
-  useEffect(() => {}, [selectedKey]);
+
+  // 처음에 페이지에 들어왔을 때, 대표 등산로/추천 등산로 선택된 상태
+  useEffect(() => {
+    selectedDispatch(setSelectedTrailKey(trailkey));
+  }, []);
 
   return (
     <div className="trailItems-root grid grid-cols-8">

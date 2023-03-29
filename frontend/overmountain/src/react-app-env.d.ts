@@ -14,13 +14,13 @@ interface Mountain {
     img: string; // 산 이미지
     introduction: string; // 산 설명
     difficulty: string; // 난이도
-    top100: number; // 백대명산
-    spring: number; // 봄산
-    summer: number; // 여름산
-    fall: number; // 가을산
-    winter: number; // 겨울산
-    sunrise: number; // 일출명산
-    sunset: number; // 일몰명산
+    top100: number | null; // 백대명산
+    spring: number | null; // 봄산
+    summer: number | null; // 여름산
+    fall: number | null; // 가을산
+    winter: number | null; // 겨울산
+    sunrise: number | null; // 일출명산
+    sunset: number | null; // 일몰명산
   };
 }
 
