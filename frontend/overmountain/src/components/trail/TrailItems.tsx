@@ -17,7 +17,7 @@ function TrailItems(props: { mountainSeq: string }) {
   const trailListDispatch = useAppDispatch();
   useEffect(() => {
     trailListDispatch(getMountainTrailList(mountainSeq));
-  }, [trailListDispatch]);
+  }, []);
 
   return (
     <div className="trailItems-root grid grid-cols-12">
