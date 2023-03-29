@@ -12,7 +12,7 @@ function MountainItems() {
   const dispatch = useAppDispatch();
   useEffect(() => {
     dispatch(getSeasonMountains());
-  }, [dispatch]);
+  }, []);
 
   return (
     <div className="mountain-items">
