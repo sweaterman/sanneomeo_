@@ -30,10 +30,10 @@ export const positionTrailSlice = createSlice({
     // API 명세서 24번. 기준 위도/경도와 가장 가까운 등산로 반환
     builder.addCase(getPositionTrail.fulfilled, (state, action) => {
       state.result = action.payload;
-      console.log('24 성공!', state.result);
+      // console.log('24 성공!', state.result);
     });
     builder.addCase(getPositionTrail.rejected, (state, action) => {
-      console.log('24 실패!', action.error);
+      // console.log('24 실패!', action.error);
     });
   },
 });
