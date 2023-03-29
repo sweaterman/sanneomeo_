@@ -80,7 +80,7 @@ public class MainController {
             dayDto.setMax(maxOfDay);
             JsonArray weather = (JsonArray) dayWeather.get("weather");
             JsonObject weatherObj = (JsonObject) weather.get(0);
-            dayDto.setDescription(weatherObj.get("description").getAsString());
+            dayDto.setDescription(weatherObj.get("icon").getAsString());
             weeklyWeather.add(dayDto);
         }
         return new BaseResponseDto<>(weeklyWeather);
