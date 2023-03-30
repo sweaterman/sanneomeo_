@@ -39,27 +39,31 @@ df.columns = ['course_seq', 'mountain_seq', 'name', 'introduction', 'length', 't
 print(df)
 
 features = ['length', 'time', 'altitude']
-# # 정규화
-# scaler = MinMaxScaler()
-# df[features] = scaler.fit_transform(df[features])
+# 정규화
+scaler = MinMaxScaler()
+df[features] = scaler.fit_transform(df[features])
 
 X = df[features].values
 print(X)
 
 
-target_trail = {'name': "북한산",'length': 5.43, 'time': 95, 'altitude': 128.4807300000}
+# target_trail = {'name': "북한산",'length': 5.43, 'time': 95, 'altitude': 128.4807300000}
+df[df['name'] == '북악산 제1코스'][features].to_dict(orient='records')[0]
+target_trail['name'] = '북한산'; # 북악산 나오는지 보려고 이름암거나씀
+print(target_trail)
+
 y = np.array([[target_trail[feature] for feature in features]])
 print("이거")
 print(y)
-distances = cosine_similarity(X, y)
-#distances = euclidean_distances(X, y)
+# distances = cosine_similarity(X, y)
+distances = euclidean_distances(X, y)
 
-def cosine_similarity(x, y):
-  dot_product = np.dot(x, y)
-  norm_x = np.linalg.norm(x)
-  norm_y = np.linalg.norm(y)
-  similarity_score = dot_product / (norm_x * norm_y)
-  return similarity_score
+# def cosine_similarity(x, y):
+#   dot_product = np.dot(x, y)
+#   norm_x = np.linalg.norm(x)
+#   norm_y = np.linalg.norm(y)
+#   similarity_score = dot_product / (norm_x * norm_y)
+#   return similarity_score
 
 print(distances.shape)
 
