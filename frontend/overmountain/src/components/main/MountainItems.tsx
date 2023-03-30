@@ -1,5 +1,4 @@
 import React from 'react';
-import sample from '@assets/images/mountsample.png';
 import { NavLink } from 'react-router-dom';
 
 // title, mountainList 전달받기
@@ -10,6 +9,8 @@ function MountainItems(props: { title: string; data: Mountain[] }) {
   return (
     <div className="mountain-suggestion">
       <div className="suggestion-text">{title}</div>
+
+      {/* react-slick 사용 */}
       <div className="mountain-items">
         {data &&
           data.map((oneMountain) => (

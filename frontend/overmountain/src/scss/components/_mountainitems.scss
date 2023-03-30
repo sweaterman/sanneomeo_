@@ -1,13 +1,15 @@
 .mountain-items {
+  display: flex;
   figure {
     display: inline-block;
+    margin-right: 5px;
     img {
-      width: 120px;
-      height: 120px;
+      width: 90px;
+      height: 90px;
       object-fit: cover;
     }
     figcaption {
-      width: 120px;
+      width: 90px;
       background-color: white;
     }
   }
@@ -15,7 +17,6 @@
 
 .mountain-suggestion {
   background-color: $over-brown;
-  align-items: center;
   padding: 30px;
   margin-top: 30px;
   text-align: center;
@@ -30,6 +31,5 @@
     }
   }
   .itembox {
-    align-items: center;
   }
 }
