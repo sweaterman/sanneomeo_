@@ -2,18 +2,16 @@ import React from 'react';
 import difficulty from '@assets/images/mountain_selected.svg';
 import MainRamgi from '@assets/images/flagramgi.png';
 
-interface ChallengeItemsProps {
-  mountain: ChallengeMountain;
-}
+function ChallengeItems(props: { mountain: Mountain }) {
+  const { mountain } = props.mountain;
 
-function ChallengeItems({ mountain }: ChallengeItemsProps) {
   let mountainName = mountain.name;
   let name = mountainName.split('_', 1);
 
   return (
     <div className="listbox" key={mountain.mountainSeq}>
       <div className="mountain-photo">
-        <img src={mountain.img} alt="list" />
+        <img src={mountain.photo} alt="list" />
       </div>
       <div className="textbox">
         <div className="textbox-name">

@@ -39,10 +39,10 @@ export const trailKeepSlice = createSlice({
     // API 명세서 14번. 찜 등록
     builder.addCase(updateTrailKeep.fulfilled, (state, action) => {
       state = action.payload;
-      // console.log('14 성공!', state);
+      console.log('14 성공!', state);
     });
     builder.addCase(updateTrailKeep.rejected, (state, action) => {
-      // console.log('14 실패!', action.error);
+      console.log('14 실패!', action.error);
     });
   },
 });

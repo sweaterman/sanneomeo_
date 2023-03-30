@@ -13,7 +13,7 @@ const initialMountainState: Mountain = {
     gu: '',
     dong: '',
     name: '',
-    img: '',
+    photo: '',
     introduction: '',
     difficulty: '',
     top100: 0,
@@ -23,6 +23,7 @@ const initialMountainState: Mountain = {
     winter: 0,
     sunrise: 0,
     sunset: 0,
+    conquer: false,
   },
 };
 
