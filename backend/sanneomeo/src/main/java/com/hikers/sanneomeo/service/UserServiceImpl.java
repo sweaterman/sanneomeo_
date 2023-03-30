@@ -171,7 +171,7 @@ public class UserServiceImpl implements UserService {
         User user = userRepository.findById(userSeq).orElseThrow(()->new BaseException(BaseResponseStatus.FAIL));
 
         GetUserSurveyResponseDto getUserSurveyResponseDto = new GetUserSurveyResponseDto();
-        getUserSurveyResponseDto.setLogined(true);
+        getUserSurveyResponseDto.setLogin(true);
         getUserSurveyResponseDto.setTime(user.getPreferClimbDuration());
         getUserSurveyResponseDto.setPurpose(user.getPurpose());
         getUserSurveyResponseDto.setRegion(user.getPreferRegion());

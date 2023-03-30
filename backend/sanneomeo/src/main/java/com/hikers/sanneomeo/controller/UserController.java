@@ -135,14 +135,12 @@ public class UserController {
       }
     }
   }
-  @PutMapping("/{userSeq}/info")
-  public BaseResponseDto<Boolean> updateUserSurvey(@PathVariable("userSeq") Long userSeq, @RequestBody UpdateUserSurveyRequestDto updateUserSurveyRequestDto){
+  @PutMapping("/info")
+  public BaseResponseDto<Boolean> updateUserSurvey(@RequestBody UpdateUserSurveyRequestDto updateUserSurveyRequestDto){
     try {
       //요청 내부의 userSeq와 인증된 userSeq가 다를 경우 처리 위해 사용
-      Long authUserSeq = Long.parseLong(SecurityContextHolder.getContext().getAuthentication().getPrincipal().toString());
-      if(userSeq!=authUserSeq){
-        throw new BaseException(UNAUTHORIZED_USER);
-      }
+      Long userSeq = Long.parseLong(SecurityContextHolder.getContext().getAuthentication().getPrincipal().toString());
+
       boolean result = userService.updateUserSurvey(userSeq, updateUserSurveyRequestDto);
 
       return new BaseResponseDto<>(result);
