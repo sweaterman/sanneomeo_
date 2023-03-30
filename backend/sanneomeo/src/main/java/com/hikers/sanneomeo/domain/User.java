@@ -91,7 +91,6 @@ public class User {
         this.preferClimbDuration = updateUserSurveyRequestDto.getPreferClimbDuration()==null? this.preferClimbDuration : updateUserSurveyRequestDto.getPreferClimbDuration();
         this.preferRegion = updateUserSurveyRequestDto.getPreferRegion()==null? this.preferRegion : updateUserSurveyRequestDto.getPreferRegion();
         this.purpose = updateUserSurveyRequestDto.getPurpose()==null? this.purpose : updateUserSurveyRequestDto.getPurpose();
-
     }
 
 }

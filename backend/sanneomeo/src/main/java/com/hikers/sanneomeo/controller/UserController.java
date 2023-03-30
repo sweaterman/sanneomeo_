@@ -8,11 +8,13 @@ import com.hikers.sanneomeo.dto.request.UpdateUserSurveyRequestDto;
 import com.hikers.sanneomeo.dto.response.BaseResponseDto;
 import com.hikers.sanneomeo.dto.response.GetTrailLikeResponseDto;
 import com.hikers.sanneomeo.dto.response.GetUserPhotosByDateResponseDto;
+import com.hikers.sanneomeo.dto.response.GetUserSurveyResponseDto;
 import com.hikers.sanneomeo.exception.BaseException;
 import com.hikers.sanneomeo.exception.BaseResponseStatus;
 import com.hikers.sanneomeo.service.UserService;
 import com.hikers.sanneomeo.utils.JwtTokenUtils;
 
+import java.security.Principal;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
@@ -63,6 +65,27 @@ public class UserController {
 
 
   //여기서부터 crud -> 위는 그냥 임시용
+
+  @GetMapping("/info")
+  public BaseResponseDto<GetUserSurveyResponseDto> getUserSurvey(){
+    try{
+      Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+      if(principal.toString().equals("anonymousUser")){
+        GetUserSurveyResponseDto getUserSurveyResponseDto = new GetUserSurveyResponseDto();
+        getUserSurveyResponseDto.setLogined(false);
+        return new BaseResponseDto<>(getUserSurveyResponseDto);
+      }
+
+      Long userSeq = Long.parseLong(principal.toString());
+      return new BaseResponseDto<>(userService.getUserSurveyResponseDto(userSeq));
+    } catch(Exception e){
+      if(e instanceof BaseException){
+        throw e;
+      } else{
+        throw new BaseException(FAIL);
+      }
+    }
+  }
 
   @GetMapping("/photo")
   public BaseResponseDto<Map<String, Map<String, List<String>>>> getUserPhotos(@RequestParam("month") Integer month){
