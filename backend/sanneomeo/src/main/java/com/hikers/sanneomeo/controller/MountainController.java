@@ -11,6 +11,7 @@ import com.hikers.sanneomeo.dto.response.TrailListResponseDto;
 import com.hikers.sanneomeo.dto.response.ReviewResponseDto;
 import com.hikers.sanneomeo.exception.BaseException;
 import com.hikers.sanneomeo.exception.BaseResponseStatus;
+import com.hikers.sanneomeo.service.CourseService;
 import com.hikers.sanneomeo.service.MountainService;
 import com.hikers.sanneomeo.service.PhotoService;
 import com.hikers.sanneomeo.service.S3UploadService;
@@ -40,6 +41,8 @@ public class MountainController {
     private TrailService trailService;
     @Autowired
     private PhotoService photoService;
+    @Autowired
+    private CourseService courseService;
 
 
     @PostMapping("/{mountainSeq}/photo")
@@ -141,7 +144,7 @@ public class MountainController {
 
     @GetMapping("/trail/{mountainIdx}")
     public BaseResponseDto<?> getTrailsByMountainSequence(@PathVariable("mountainIdx") String sequence){
-        return  new BaseResponseDto<>(trailService.getTrailsBySequence(sequence));
+        return  new BaseResponseDto<>(courseService.getTrailsBySequence(sequence));
     }
     @GetMapping("/photo/{mountainIdx}")
     public BaseResponseDto<?> getTrailsByMountainSequence(@PathVariable("mountainIdx") Long sequence){

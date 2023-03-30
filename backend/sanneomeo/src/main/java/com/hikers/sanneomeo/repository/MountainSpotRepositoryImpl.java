@@ -1,8 +1,8 @@
 package com.hikers.sanneomeo.repository;
 
-import static com.hikers.sanneomeo.domain.QTrail.trail;
-import static com.hikers.sanneomeo.domain.QMountainSpot.mountainSpot;
+import static com.hikers.sanneomeo.domain.QCourse.course;
 import static com.hikers.sanneomeo.domain.QMountain.mountain;
+import static com.hikers.sanneomeo.domain.QMountainSpot.mountainSpot;
 import static com.querydsl.core.types.dsl.MathExpressions.acos;
 import static com.querydsl.core.types.dsl.MathExpressions.cos;
 import static com.querydsl.core.types.dsl.MathExpressions.radians;
@@ -19,42 +19,32 @@ import java.math.BigDecimal;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
 
-/**
- * packageName    : com.hikers.sanneomeo.repository fileName       : MountainSpotRepositoryImpl
- * author         : SSAFY date           : 2023-03-24 description    :
- * <p>
- * =========================================================== DATE              AUTHOR NOTE
- * -----------------------------------------------------------
- * <p>
- * 2023-03-24        SSAFY       최초 생성
- */
 @RequiredArgsConstructor
 public class MountainSpotRepositoryImpl implements MountainSpotRepositoryCustom {
 
   private final JPAQueryFactory jpaQueryFactory;
 
   @Override
-  public List<SpotResponseDto> findSpotsByMountainSequence(Long sequence) {
+  public List<SpotResponseDto> findSpotsByMountainSequence(Long sequence) {//trail -> course seq
     return jpaQueryFactory
         .select(
             Projections.constructor(SpotResponseDto.class, mountainSpot.mountainSeq,
                 mountainSpot.name, mountainSpot.code, mountainSpot.introduction, mountainSpot.etc,
                 mountainSpot.latitude, mountainSpot.longitude)
         )
-        .from(trail)
-        .leftJoin(mountain)
-        .on(trail.mountainSeq.eq(mountain.mountainSeq))
+        .from(course)
+        .rightJoin(mountain)
+        .on(course.mountainSeq.eq(mountain.mountainSeq))
         .leftJoin(mountainSpot)
-        .on(trail.mountainSeq.eq(mountainSpot.mountainSeq))
-        .where(trail.trailSeq.eq(sequence))
+        .on(mountain.mountainSeq.eq(mountainSpot.mountainSeq))
+        .where(course.courseSeq.eq(sequence))
         .fetch();
-
 
   }
 
   @Override
   public List<SpotResponseDto> findSpotsByMountainSequenceAndCoordinate(Long sequence,
-      BigDecimal latitude, BigDecimal longitude) {
+      BigDecimal latitude, BigDecimal longitude) {//trail -> course seq
 
     NumberExpression<Double> distanceExpression = acos(sin(radians(Expressions.constant(latitude)))
         .multiply(sin(radians(mountainSpot.latitude)))
@@ -65,6 +55,22 @@ public class MountainSpotRepositoryImpl implements MountainSpotRepositoryCustom 
         )).multiply(6371000);
     Path<Double> distancePath = Expressions.numberPath(Double.class, "distance");
 
+//    return jpaQueryFactory
+//        .select(
+//            Projections.constructor(SpotResponseDto.class, mountainSpot.mountainSeq,
+//                mountainSpot.name, mountainSpot.code, mountainSpot.introduction, mountainSpot.etc,
+//                mountainSpot.latitude, mountainSpot.longitude
+//                , Expressions.as(distanceExpression, distancePath))
+//        )
+//        .from(trail)
+//        .leftJoin(mountain)
+//        .on(trail.mountainSeq.eq(mountain.mountainSeq))
+//        .leftJoin(mountainSpot)
+//        .on(trail.mountainSeq.eq(mountainSpot.mountainSeq))
+//        .where(trail.trailSeq.eq(sequence))
+//        .orderBy(((ComparableExpressionBase<Double>) distancePath).asc())
+//        .fetch();
+
     return jpaQueryFactory
         .select(
             Projections.constructor(SpotResponseDto.class, mountainSpot.mountainSeq,
@@ -72,12 +78,12 @@ public class MountainSpotRepositoryImpl implements MountainSpotRepositoryCustom 
                 mountainSpot.latitude, mountainSpot.longitude
                 , Expressions.as(distanceExpression, distancePath))
         )
-        .from(trail)
-        .leftJoin(mountain)
-        .on(trail.mountainSeq.eq(mountain.mountainSeq))
+        .from(course)
+        .rightJoin(mountain)
+        .on(course.mountainSeq.eq(mountain.mountainSeq))
         .leftJoin(mountainSpot)
-        .on(trail.mountainSeq.eq(mountainSpot.mountainSeq))
-        .where(trail.trailSeq.eq(sequence))
+        .on(mountain.mountainSeq.eq(mountainSpot.mountainSeq))
+        .where(course.courseSeq.eq(sequence))
         .orderBy(((ComparableExpressionBase<Double>) distancePath).asc())
         .fetch();
   }
