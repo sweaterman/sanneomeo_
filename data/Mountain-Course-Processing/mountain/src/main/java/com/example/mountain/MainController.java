@@ -1,8 +1,10 @@
 package com.example.mountain;
 
+import com.example.mountain.entity.Course;
+import com.example.mountain.entity.Courses;
 import com.google.maps.errors.ApiException;
 import java.io.IOException;
-import lombok.Getter;
+import java.util.List;
 import lombok.RequiredArgsConstructor;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +12,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 // AIzaSyCDNueCqNZfkC7ov0eC_W6qK2tO3MY7GQE
@@ -19,10 +20,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/")
 @RequiredArgsConstructor
-public class MountainController {
+public class MainController {
 
   @Autowired
   final MountainService mountainService;
+
+  @Autowired
+  CourseService courseService;
 
   @GetMapping("/load")
   public ResponseEntity loadData() throws IOException, InvalidFormatException {
@@ -38,25 +42,44 @@ public class MountainController {
     return new ResponseEntity(HttpStatus.OK);
   }
 
+  @GetMapping("/address")
+  public ResponseEntity getAddress() throws IOException, InterruptedException, ApiException {
+    mountainService.getAddress();
+    return new ResponseEntity(HttpStatus.OK);
+  }
+
+
+
   @GetMapping("/detail")
   public ResponseEntity getDetail() throws IOException, InterruptedException, ApiException {
     mountainService.getDetail();
     return new ResponseEntity(HttpStatus.OK);
   }
-
-
-  @GetMapping("/detailInfo")
-  public ResponseEntity updateDetailInfo() throws IOException, InterruptedException, ApiException {
-    mountainService.updateDetailInfo();
-    return new ResponseEntity(HttpStatus.OK);
-  }
-
+//
+//
+//  @GetMapping("/detailInfo")
+//  public ResponseEntity updateDetailInfo() throws IOException, InterruptedException, ApiException {
+//    mountainService.updateDetailInfo();
+//    return new ResponseEntity(HttpStatus.OK);
+//  }
+//
   @GetMapping("/image")
   public ResponseEntity getImages() throws IOException, InterruptedException, ApiException {
     mountainService.getImages();
     return new ResponseEntity(HttpStatus.OK);
   }
 
+  @GetMapping("/randomimage")
+  public ResponseEntity saveRandomImage() throws IOException, InterruptedException, ApiException {
+    mountainService.saveRandomImage();
+    return new ResponseEntity(HttpStatus.OK);
+  }
+//
+
+  @GetMapping("/course")
+  public ResponseEntity<List<Course>> getCourses(){
+    return new ResponseEntity<>(courseService.getCourse(),HttpStatus.OK);
+  }
 
 
 
