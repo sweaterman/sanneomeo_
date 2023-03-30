@@ -1,0 +1,21 @@
+.balloon {
+  // display: none;
+  width: 200px;
+  height: 40px;
+  background: #bbbbbb;
+  margin: 50px 0px 10px 20px;
+  color: black;
+  border-radius: 30px;
+  padding: 12px 12.8px;
+}
+
+.balloon:after {
+  border-top: 10px solid #bbbbbb;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 0px solid transparent;
+  content: '';
+  position: absolute;
+  top: 665px;
+  left: 30%;
+}

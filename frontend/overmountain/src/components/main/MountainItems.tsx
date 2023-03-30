@@ -1,7 +1,32 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import {
+  getSeasonMountains,
+  seasonMountains,
+} from '@features/mountain/seasonMountainSlice';
+import { useAppSelector, useAppDispatch } from '@app/hooks';
+import sample from '@assets/images/mountsample.png';
 
 function MountainItems() {
-  return <></>;
+  // 콘솔에서만 API 테스트 완료
+  const data = useAppSelector(seasonMountains);
+  const dispatch = useAppDispatch();
+  useEffect(() => {
+    dispatch(getSeasonMountains());
+  }, [dispatch]);
+
+  return (
+    <div className="mountain-items">
+      <figure>
+        <img src={sample} alt="도봉산" />
+        <figcaption>도봉산</figcaption>
+      </figure>
+
+      <div>
+        <h4>계절산테스트</h4>
+        <h1>계절: {data.result.season}</h1>
+      </div>
+    </div>
+  );
 }
 
 export default MountainItems;

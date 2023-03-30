@@ -1,0 +1,36 @@
+.listbox {
+  display: flex;
+  justify-content: center;
+  box-shadow: 5px 5px 2px gray;
+  width: 300px;
+  height: 90px;
+  padding: 1px;
+  align-items: center;
+  .mountain-photo {
+    width: 85px;
+    font-size: $font-h5;
+  }
+  .textbox {
+    .textbox-name {
+      display: flex;
+      align-items: baseline;
+      .mountain-name {
+        font-size: $font-h4;
+      }
+      .height {
+        margin-left: 9px;
+        font-size: $font-h5;
+      }
+    }
+    .address {
+      font-size: $font-h5;
+    }
+  }
+  .conquer-mascott {
+    margin-left: 30px;
+    img {
+      width: 60px;
+      height: auto;
+    }
+  }
+}
