@@ -25,10 +25,10 @@ export const trailSlice = createSlice({
     // API 명세서 15번. 등산로 상세 정보
     builder.addCase(getTrailDetail.fulfilled, (state, action) => {
       state.result = action.payload;
-      // console.log('15 성공!', state.result);
+      console.log('15 성공!', state.result);
     });
     builder.addCase(getTrailDetail.rejected, (state, action) => {
-      // console.log('15 실패!', action.error);
+      console.log('15 실패!', action.error);
     });
   },
 });

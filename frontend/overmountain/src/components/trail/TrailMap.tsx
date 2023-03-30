@@ -30,13 +30,62 @@ function TrailTemp(props: { trailkey: number }) {
   }, [selectedKey.selectedTrailKey]);
 
   // 고도를 위한 데이터 조작
-  // const [altitudeData, setAltitudeData] = useState<number[]>([]);
-  // useEffect(() => {
-  //   const altitudes = trailData.result.map((row) => row.altitude);
-  //   setAltitudeData(altitudes);
-  //   console.log('바뀐조작고도:', altitudes);
-  // }, [trailData]);
-  // 북악산 등산로에 등산로 path가 안들어가있는게 분명하다...
+  const [altitudeData, setAltitudeData] = useState<number[]>([]);
+  useEffect(() => {
+    const altitudes = trailData.result.map((row) => row.altitude);
+    setAltitudeData(altitudes);
+    console.log('바뀐조작고도:', altitudes);
+  }, [trailData]);
+
+  // 차트 데이터 생성
+  const chartData = {
+    labels: altitudeData,
+    datasets: [
+      {
+        label: '고도',
+        data: altitudeData,
+        pointRadius: 0,
+        // borderColor: '#000000',
+        // borderWidth: 2, // 라인의 선 두께
+        backgroundColor: '#F1DBBF',
+        tension: 1,
+      },
+    ],
+  };
+  const options = {
+    maintainAspectRatio: false,
+    width: 320,
+    height: 100,
+    responsive: false,
+    interaction: {
+      mode: 'index' as const,
+      intersect: false,
+    },
+    scales: {
+      x: {
+        grid: {
+          display: false,
+        },
+        ticks: {
+          display: false,
+        },
+      },
+      y: {
+        grid: {
+          display: false,
+        },
+        ticks: {
+          display: false,
+        },
+      },
+    },
+    fill: true,
+    plugins: {
+      legend: {
+        display: false,
+      },
+    },
+  };
 
   return (
     <>
@@ -44,7 +93,9 @@ function TrailTemp(props: { trailkey: number }) {
       <div></div>
 
       {/* 고도가 들어갈 부분 */}
-      <div>{/* <Line data={chartData}></Line> */}</div>
+      <div>
+        <Line data={chartData} options={options}></Line>
+      </div>
     </>
   );
 }

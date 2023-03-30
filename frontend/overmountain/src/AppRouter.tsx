@@ -20,9 +20,12 @@ function AppRouter() {
       <Header />
       <Routes>
         <Route path="/" element={<MainPage />} />
-        <Route path="/mountain/detail" element={<MountainDetail />} />
+        <Route
+          path="/mountain/detail/:mountainSeq"
+          element={<MountainDetail />}
+        />
         <Route path="/mountain/upload" element={<UploadPhoto />} />
-        <Route path="/mountain/trail" element={<MountainTrail />} />
+        <Route path="/mountain/trail/:trailSeq" element={<MountainTrail />} />
         <Route path="/recommend/question" element={<RecomQuestion />} />
         <Route path="/recommend/result" element={<RecomResult />} />
         <Route path="/user/login" element={<UserLogin />} />

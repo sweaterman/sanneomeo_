@@ -11,7 +11,7 @@ interface Mountain {
     gu: string; // 구
     dong: string; // 동
     name: string; // 산이름
-    img: string; // 산 이미지
+    photo: string; // 산 이미지
     introduction: string; // 산 설명
     difficulty: string; // 난이도
     top100: number | null; // 백대명산
@@ -21,6 +21,7 @@ interface Mountain {
     winter: number | null; // 겨울산
     sunrise: number | null; // 일출명산
     sunset: number | null; // 일몰명산
+    conquer: boolean; // 100대 명산용
   };
 }
 
@@ -99,9 +100,9 @@ interface User {
   longitude: number; // 경도
   level: number; // 설문레벨
   difficulty: number | null; // 난이도: 하1/중2/상3
-  preferRegion: number | null; // 지역선호도: 집근처1/전국2
+  region: number | null; // 지역선호도: 집근처1/전국2
   purpose: number | null; // 목적: 힐링1/도전2
-  preferClimbDuration: number; // 선호등반시간: 3시간이내1/3-5 2/5-7 3/7-10 4/10이상 5
+  time: number; // 선호등반시간: 3시간이내1/3-5 2/5-7 3/7-10 4/10이상 5
   social: string; // 소셜정보
   socialId: string; // 소셜고유아이디
   totalDuration: string | null; // 총등산시간
@@ -110,22 +111,10 @@ interface User {
   profileImage: string | null; // 프로필이미지
 }
 
-// 100대 명산 리스트
-interface ChallengeMountain {
-  mountainSeq: string;
-  name: string;
-  img: string;
-  altitude: number;
-  si: string;
-  gu: string;
-  dong: string;
-  difficulty: string;
-  conquer: boolean;
-}
 // 100대 명산 챌린지 리스트
 interface ChallengeList {
   result: {
-    challengeList: Array<ChallengeMountain>;
+    challengeList: Array<Mountain>;
     conquerNo: number;
   };
 }
