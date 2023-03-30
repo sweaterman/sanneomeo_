@@ -46,6 +46,11 @@ hr {
     background-color: $over-beige;
     border-radius: 30px;
     width: 300px;
+    filter: grayscale(1);
+    &.active {
+      filter: grayscale(0);
+      background-color: $over-beige;
+    }
     img {
       margin: 10px;
     }
@@ -59,6 +64,10 @@ hr {
 .select-circle {
   text-align: center;
   margin: 20px;
+  filter: grayscale(1);
+  &.active {
+    filter: grayscale(0);
+  }
 }
 
 .question-finish {
