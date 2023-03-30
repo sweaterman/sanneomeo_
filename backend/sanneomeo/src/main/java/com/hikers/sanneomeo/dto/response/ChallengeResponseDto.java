@@ -18,7 +18,7 @@ public class ChallengeResponseDto {
     private String name;
 
     //산 이미지
-    private String img;
+    private String photo;
 
     // 산 고도
     private BigDecimal altitude;
