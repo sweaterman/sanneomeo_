@@ -6,6 +6,7 @@ import com.hikers.sanneomeo.dto.request.UpdateUserSurveyRequestDto;
 import com.hikers.sanneomeo.dto.response.ChallengeResponseDto;
 import com.hikers.sanneomeo.dto.response.GetTrailLikeResponseDto;
 import com.hikers.sanneomeo.dto.response.GetUserPhotosByDateResponseDto;
+import com.hikers.sanneomeo.dto.response.GetUserSurveyResponseDto;
 import com.hikers.sanneomeo.dto.response.PhotoResponseDto;
 import com.hikers.sanneomeo.exception.BaseException;
 import com.hikers.sanneomeo.exception.BaseResponseStatus;
@@ -13,6 +14,7 @@ import com.hikers.sanneomeo.repository.KeepRepository;
 import com.hikers.sanneomeo.repository.MountainRepository;
 import com.hikers.sanneomeo.repository.RecordPhotoRepository;
 import com.hikers.sanneomeo.repository.UserRepository;
+import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
 import java.util.Comparator;
 import java.util.Date;
@@ -162,5 +164,21 @@ public class UserServiceImpl implements UserService {
         user.updateUserServey(updateUserSurveyRequestDto);
 
         return true;
+    }
+
+    @Override
+    public GetUserSurveyResponseDto getUserSurveyResponseDto(Long userSeq){
+        User user = userRepository.findById(userSeq).orElseThrow(()->new BaseException(BaseResponseStatus.FAIL));
+
+        GetUserSurveyResponseDto getUserSurveyResponseDto = new GetUserSurveyResponseDto();
+        getUserSurveyResponseDto.setLogin(true);
+        getUserSurveyResponseDto.setTime(user.getPreferClimbDuration());
+        getUserSurveyResponseDto.setPurpose(user.getPurpose());
+        getUserSurveyResponseDto.setRegion(user.getPreferRegion());
+        getUserSurveyResponseDto.setLevel(user.getLevel());
+        getUserSurveyResponseDto.setModifiedAt(user.getUpdatedAt());
+
+        return getUserSurveyResponseDto;
+
     }
 }
