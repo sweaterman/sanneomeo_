@@ -38,7 +38,7 @@ public class Course {
   private Integer uptime;
 
   @Column(name = "difficulty_mean")
-  private String difficultyMean;
+  private BigDecimal difficultyMean;
 
   @Column(name = "review_cnt")
   private Integer reviewCnt;
