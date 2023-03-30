@@ -41,7 +41,7 @@ public class CourseRepositoryImpl implements CourseRepositoryCustom {
     return Optional.ofNullable(
         queryFactory
             .select(
-                Projections.constructor(NearTrailResponseDto.class,trailPath.trailSeq,trailPath.latitude,trailPath.longitude
+                Projections.constructor(NearTrailResponseDto.class,course.courseSeq,trailPath.latitude,trailPath.longitude
                     , Expressions.as(distanceExpression, distancePath))
             )
             .from(mountain)
@@ -54,6 +54,7 @@ public class CourseRepositoryImpl implements CourseRepositoryCustom {
             .leftJoin(trailPath)
             .on(trail.trailSeq.eq(trailPath.trailSeq))
             .where(mountain.mountainSeq.eq(sequence))
+            .groupBy(course.courseSeq)
             .orderBy(((ComparableExpressionBase<Double>) distancePath).asc())
             .fetchFirst()
     );
