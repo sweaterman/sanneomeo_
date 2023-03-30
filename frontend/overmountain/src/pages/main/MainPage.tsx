@@ -6,9 +6,10 @@ import {
 import { useAppSelector, useAppDispatch } from '@app/hooks';
 import Searchbar from '@components/main/Searchbar';
 import MountainItem from '@components/main/MountainItems';
-import MapContainer from '@components/common/MapContainer';
+import MapContainerMain from '@components/common/MapContainerMain';
 import MascottMain from '@components/main/MascottMain';
 import { NavLink } from 'react-router-dom';
+import MapContainerDetail from '@components/common/MapContainerDetail';
 
 function MainPage() {
   const positionData = useAppSelector(positionTrail);
@@ -37,7 +38,7 @@ function MainPage() {
   return (
     <div className="mainpage">
       <Searchbar />
-      <MapContainer />
+      <MapContainerMain />
       <div className="flex">
         <MascottMain />
       </div>
