@@ -1,27 +1,40 @@
 import React from 'react';
-import mountain from '@assets/images/mountain_selected.svg';
+import difficulty from '@assets/images/mountain_selected.svg';
 import MainRamgi from '@assets/images/flagramgi.png';
 
-function ChallengeItems() {
+function ChallengeItems(props: { mountain: Mountain }) {
+  const { mountain } = props.mountain;
+
+  let mountainName = mountain.name;
+  let name = mountainName.split('_', 1);
+
   return (
-    <div className="listbox">
+    <div className="listbox" key={mountain.mountainSeq}>
       <div className="mountain-photo">
-        <img alt="list" />
+        <img src={mountain.photo} alt="list" />
       </div>
       <div className="textbox">
         <div className="textbox-name">
-          <div className="mountain-name">관악산</div>
-          <div className="height">330m</div>
+          <div className="mountain-name">{name}</div>
+          <div className="height">{Math.floor(mountain.altitude)}m</div>
         </div>
-        <div className="address">서울시 관악구 신림동</div>
+        <div className="address">
+          {mountain.si} {mountain.gu} {mountain.dong}
+        </div>
         <div className="difficulty">
-          <img src={mountain} alt="difficulty" />
-          <img src={mountain} alt="difficulty" />
-          <img src={mountain} alt="difficulty" />
+          <img src={difficulty} alt="difficulty" />
+          <img src={difficulty} alt="difficulty" />
+          <img src={difficulty} alt="difficulty" />
         </div>
       </div>
       <div className="conquer-mascott">
-        <img src={MainRamgi} alt="MainRamgi" />
+        {mountain.conquer ? (
+          <div className="not-conquered">
+            <img src={MainRamgi} alt="MainRamgi" className="not-conquered" />
+          </div>
+        ) : (
+          <img src={MainRamgi} alt="MainRamgi" />
+        )}
       </div>
     </div>
   );

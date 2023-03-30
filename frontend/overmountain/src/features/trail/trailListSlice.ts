@@ -12,7 +12,11 @@ export const getMountainTrailList = createAsyncThunk(
   'trailListSlice/getMountainTrailList',
   async (mountainIdx: string) => {
     const url = `${baseURL}mountain/trail/${mountainIdx}`;
-    const response = await axios({ method: 'GET', url: url });
+    const response = await axios({
+      method: 'GET',
+      headers: { Authorization: localStorage.getItem('token') },
+      url: url,
+    });
     return response.data.result;
   },
 );

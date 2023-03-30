@@ -1,9 +1,14 @@
 .challengebox {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   .filter-text {
     font-size: $font-h5;
+    margin-left: 10px;
+  }
+  .filter-button {
+    font-size: $font-h5;
+    margin-right: 10px;
   }
   .itembox {
     align-items: end;

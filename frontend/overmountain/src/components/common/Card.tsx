@@ -9,7 +9,7 @@ function Card(props: { data: Mountain }) {
       <div className="container">
         {/* 산의 이미지 */}
         <div className="col-6">
-          <h4>이미지임다</h4>
+          <h4>Card Component</h4>
         </div>
         {/* 산의 정보 */}
         <div className="col-6">

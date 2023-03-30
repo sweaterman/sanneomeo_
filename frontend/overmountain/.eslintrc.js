@@ -25,6 +25,7 @@ module.exports = {
     'no-unused-vars': 'off', // 사용하지 않는 변수 금지
     'no-param-reassign': 'off', // 매개변수 재선언 금지
     'no-promise-executor-return': 'warn', // Promise 생성자 내 반환값 사용불가
+    'no-console': 'off', // 나는 콘솔을 쓰고싶어
     'prefer-const': 'off',
     'prefer-arrow-callback': 'off',
     'object-shorthand': 'off',
