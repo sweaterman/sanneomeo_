@@ -43,10 +43,4 @@ public class Trail {
     @Column(name = "risk")
     private String risk;
 
-    @Column(name = "recommand")
-    private String recommand;
-
-    @Column(name = "best_trail")
-    private Long bestTrail;
-
 }

@@ -6,6 +6,7 @@ import com.hikers.sanneomeo.dto.request.UpdateUserSurveyRequestDto;
 import com.hikers.sanneomeo.dto.response.ChallengeResponseDto;
 import com.hikers.sanneomeo.dto.response.GetTrailLikeResponseDto;
 import com.hikers.sanneomeo.dto.response.GetUserPhotosByDateResponseDto;
+import com.hikers.sanneomeo.dto.response.GetUserSurveyResponseDto;
 import com.hikers.sanneomeo.dto.response.PhotoResponseDto;
 import com.hikers.sanneomeo.exception.BaseException;
 import com.hikers.sanneomeo.exception.BaseResponseStatus;
@@ -13,6 +14,7 @@ import com.hikers.sanneomeo.repository.KeepRepository;
 import com.hikers.sanneomeo.repository.MountainRepository;
 import com.hikers.sanneomeo.repository.RecordPhotoRepository;
 import com.hikers.sanneomeo.repository.UserRepository;
+import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
 import java.util.Comparator;
 import java.util.Date;
@@ -44,15 +46,20 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public Map<String, Object> challengeInfo() {
-        Map<String, Object> map = new HashMap<>();
+        Map<String, Object> response = new HashMap<>();
 
-        List<ChallengeResponseDto> challengeList = userRepository.challengeistNotMember();
+        //challengeList 만들기
+        List<Map<String,Object>> challengeList = new ArrayList<>();
+
+        List<ChallengeResponseDto> totalChallengeList = userRepository.challengeistNotMember();
         long conquerNo = 0;
-        //로그인 유저가 있을때
-        if (SecurityContextHolder.getContext().getAuthentication().getPrincipal() != "anonymousUser") {
-            Long authUserSeq = Long.parseLong(SecurityContextHolder.getContext().getAuthentication().getPrincipal().toString());
 
-            for (ChallengeResponseDto challenge : challengeList) {
+        for(ChallengeResponseDto challenge: totalChallengeList){
+
+            //로그인 유저가 있을때 conquer 여부 true로
+            if (SecurityContextHolder.getContext().getAuthentication().getPrincipal() != "anonymousUser") {
+                Long authUserSeq = Long.parseLong(SecurityContextHolder.getContext().getAuthentication().getPrincipal().toString());
+
                 //후기 몇개 남겼는지 확인
                 long reviewNum = userRepository.reviewNum(authUserSeq, challenge.getMountainSeq());
                 //후기 있으면 true
@@ -62,12 +69,16 @@ public class UserServiceImpl implements UserService {
                 }
             }
 
+            //front가 원하는 요청 응답으로 변환하기 위해 한번 더 map으로 감싼다.
+            Map<String,Object> mountainKeyMap = new HashMap<>();
+            mountainKeyMap.put("mountain",challenge);
+
+            challengeList.add(mountainKeyMap);
         }
 
-        map.put("challengeList",challengeList);
-        map.put("conquerNo",conquerNo );
-        return map;
-
+        response.put("challengeList",challengeList);
+        response.put("conquerNo",conquerNo );
+        return response;
     }
 
     @Override
@@ -162,5 +173,21 @@ public class UserServiceImpl implements UserService {
         user.updateUserServey(updateUserSurveyRequestDto);
 
         return true;
+    }
+
+    @Override
+    public GetUserSurveyResponseDto getUserSurveyResponseDto(Long userSeq){
+        User user = userRepository.findById(userSeq).orElseThrow(()->new BaseException(BaseResponseStatus.FAIL));
+
+        GetUserSurveyResponseDto getUserSurveyResponseDto = new GetUserSurveyResponseDto();
+        getUserSurveyResponseDto.setLogin(true);
+        getUserSurveyResponseDto.setTime(user.getPreferClimbDuration());
+        getUserSurveyResponseDto.setPurpose(user.getPurpose());
+        getUserSurveyResponseDto.setRegion(user.getPreferRegion());
+        getUserSurveyResponseDto.setLevel(user.getLevel());
+        getUserSurveyResponseDto.setModifiedAt(user.getUpdatedAt());
+
+        return getUserSurveyResponseDto;
+
     }
 }
