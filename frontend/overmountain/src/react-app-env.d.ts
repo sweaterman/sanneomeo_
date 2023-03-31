@@ -22,6 +22,7 @@ interface Mountain {
     sunrise: number | null; // 일출명산
     sunset: number | null; // 일몰명산
     conquer: boolean; // 100대 명산용
+    trailSeq: number; // 대표 등산로
   };
 }
 
@@ -54,6 +55,7 @@ interface Trail {
   keepCount: number;
   recommend: boolean | null;
   isLike: boolean;
+  time: number;
 }
 
 // 등산로 리스트
