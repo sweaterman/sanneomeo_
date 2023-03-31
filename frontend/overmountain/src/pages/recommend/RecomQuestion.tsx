@@ -80,12 +80,14 @@ function RecomQuestion() {
     questionDispatch(
       putUserInfo({ userLevel, userRegion, userPurpose, userTime }),
     );
-    // navigate('/recommend/result');
+    navigate('/recommend/result');
   };
+  // 람쥐설문문구
+  const mascottMessage = '람쥐가 추천해줄겡&nbsp; 자유롭게 선택해봐';
   return (
     // 선택된 이미지로 submit 구현하기
     <div>
-      <MascottMain />
+      <MascottMain balloonText={mascottMessage} />
       <form onSubmit={submitHandler}>
         <div className="level-text">본인의 등산레벨은?</div>
         <div className="level-question">
