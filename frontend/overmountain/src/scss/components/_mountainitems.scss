@@ -1,23 +1,40 @@
 .mountain-items {
+  .arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   figure {
     display: inline-block;
+    padding-bottom: 10px;
     img {
-      width: 120px;
-      height: 120px;
+      width: 80px;
+      height: 80px;
       object-fit: cover;
+
+      @media only screen and (min-width: 321px) {
+        width: 90px;
+        height: 90px;
+      }
     }
     figcaption {
-      width: 120px;
+      width: 80px;
+      height: 30px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
       background-color: white;
+
+      @media only screen and (min-width: 321px) {
+        width: 90px;
+      }
     }
   }
 }
 
 .mountain-suggestion {
   background-color: $over-brown;
-  align-items: center;
-  padding: 30px;
-  margin-top: 30px;
   text-align: center;
 
   .suggestion-text {
@@ -30,6 +47,5 @@
     }
   }
   .itembox {
-    align-items: center;
   }
 }

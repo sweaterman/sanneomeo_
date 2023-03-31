@@ -7,21 +7,24 @@ import {
   selectedTrailKey,
   setSelectedTrailKey,
 } from '@features/trail/selectedTrailSlice';
+import { rountingTrailKey } from '@features/trail/routingTrailSlice';
 
 ChartJS.register(...registerables);
 
 // 지도와 고도
-function TrailTemp(props: { trailkey: number }) {
+function TrailTemp() {
   const dispatch = useAppDispatch();
-  const { trailkey } = props;
 
   // 현재 선택된 등산로 가져오기
   const selectedKey = useAppSelector(selectedTrailKey);
   const trailData = useAppSelector(trailDetail);
 
   // 처음에 페이지에 들어왔을 때, 대표 등산로/추천 등산로 선택된 상태
+  const defaultRecomKey = useAppSelector(rountingTrailKey);
   useEffect(() => {
-    dispatch(getTrailDetail(trailkey));
+    if (defaultRecomKey.rountingTrailKey !== 0) {
+      dispatch(getTrailDetail(defaultRecomKey.rountingTrailKey));
+    }
   }, []);
 
   // 선택하는 등산로가 바뀔 때 마다 trailData도 변경
