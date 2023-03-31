@@ -14,8 +14,11 @@ import under10 from '@assets/images/under10.png';
 import over10 from '@assets/images/over10.png';
 import { useAppDispatch, useAppSelector } from '@app/hooks';
 import { putUserInfo, user } from '@features/user/userSlice';
+import { useNavigate } from 'react-router-dom';
 
 function RecomQuestion() {
+  const navigate = useNavigate();
+  // slice 연결
   const questionData = useAppSelector(user);
   const questionDispatch = useAppDispatch();
 
@@ -77,11 +80,14 @@ function RecomQuestion() {
     questionDispatch(
       putUserInfo({ userLevel, userRegion, userPurpose, userTime }),
     );
+    navigate('/recommend/result');
   };
+  // 람쥐설문문구
+  const mascottMessage = '람쥐가 추천해줄겡&nbsp; 자유롭게 선택해봐';
   return (
     // 선택된 이미지로 submit 구현하기
     <div>
-      <MascottMain />
+      <MascottMain balloonText={mascottMessage} />
       <form onSubmit={submitHandler}>
         <div className="level-text">본인의 등산레벨은?</div>
         <div className="level-question">
