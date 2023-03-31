@@ -2,6 +2,7 @@ package com.hikers.sanneomeo.repository;
 
 import static com.hikers.sanneomeo.domain.QMountain.mountain;
 import static com.hikers.sanneomeo.domain.QMountainSpot.mountainSpot;
+import static com.hikers.sanneomeo.domain.QCourse.course;
 import static com.querydsl.core.types.dsl.MathExpressions.acos;
 import static com.querydsl.core.types.dsl.MathExpressions.cos;
 import static com.querydsl.core.types.dsl.MathExpressions.radians;
@@ -23,15 +24,7 @@ import java.util.List;
 import java.util.Optional;
 import lombok.RequiredArgsConstructor;
 
-/**
- * packageName    : com.hikers.sanneomeo.repository fileName       : MountainRepositoryImpl author :
- * SSAFY date           : 2023-03-23 description    :
- * <p>
- * =========================================================== DATE              AUTHOR NOTE
- * -----------------------------------------------------------
- * <p>
- * 2023-03-23        SSAFY       최초 생성
- */
+
 @RequiredArgsConstructor
 public class MountainRepositoryImpl implements MountainRepositoryCustom {
 
@@ -46,9 +39,11 @@ public class MountainRepositoryImpl implements MountainRepositoryCustom {
                     mountain.latitude, mountain.longitude, mountain.altitude, mountain.si,
                     mountain.gu, mountain.dong, mountain.name, mountain.photo, mountain.introduction,
                     mountain.difficulty, mountain.top100, mountain.spring, mountain.summer,
-                    mountain.fall, mountain.winter, mountain.sunrise, mountain.sunset)
+                    mountain.fall, mountain.winter, mountain.sunrise, mountain.sunset,course.courseSeq)
             )
             .from(mountain)
+            .leftJoin(course)
+            .on(mountain.mountainSeq.eq(course.mountainSeq))
             .where(mountain.mountainSeq.eq(sequence))
             .fetchFirst()
     );
