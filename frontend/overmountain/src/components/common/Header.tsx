@@ -51,7 +51,7 @@ function Header() {
             className="cursor-pointer"
             color="white"
             size="30px"
-            style={{ zIndex: 1 }}
+            style={{ zIndex: 99 }}
           />
         </div>
 
