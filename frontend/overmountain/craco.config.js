@@ -7,7 +7,7 @@ module.exports = {
         // 적용할 스타일 imoprt하기
         additionalData: `
             @import "@scss/abstracts/_variables.scss";
-            @import "@scss/abstracts/_mixins.scss";
+            @import "@scss/abstracts/_responsive.scss";
             `,
       },
     },

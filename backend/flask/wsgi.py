@@ -6,7 +6,6 @@ from sklearn.metrics.pairwise import cosine_similarity, euclidean_distances
 from sklearn.preprocessing import MinMaxScaler
 
 
-
 app = Flask(__name__)
 
 # MySQL 데이터베이스 연결 설정
@@ -27,7 +26,7 @@ mydb = pymysql.connect(
     # charset = "utf8"
 )
 
-# print(mydb)
+print(mydb)
 
 curs = mydb.cursor()
 sql = "select * from tbl_course"
@@ -37,7 +36,7 @@ mydb.close()
 
 df = pd.DataFrame(result)
 df.columns = ['course_seq', 'mountain_seq', 'name', 'introduction', 'length', 'time', 'difficulty_mean', 'review_cnt', 'review_mean', 'slope_mean', 'altitude', 'recommend', 'best_trail']
-# print(df)
+print(df)
 
 features = ['length', 'time', 'altitude']
 # 정규화

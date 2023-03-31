@@ -56,7 +56,7 @@ public enum CustomOAuth2Provider {
 
 ;
 
-  private static String DEFAULT_REDIRECT_URL = "{baseUrl}/user/login/callback/{registrationId}";
+  private static String DEFAULT_REDIRECT_URL = "https://sanneomeo.site/api/user/login/callback/{registrationId}";
 
   protected final Builder getBuilder(String registrationId, ClientAuthenticationMethod method,
       String redirectUri) {
