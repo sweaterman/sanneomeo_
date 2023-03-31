@@ -18,8 +18,8 @@ public class CourseTrails {
 
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
-  @Column(name = "course_trails_seq", nullable = false)
-  private Long courseTrailsSeq;
+  @Column(name = "course_trail_seq", nullable = false)
+  private Long courseTrailSeq;
   @Column(name = "course_seq")
   private Long courseSeq;
   @Column(name = "trail_seq")
