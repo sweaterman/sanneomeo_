@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Footer from '@components/common/Footer';
 import Header from '@components/common/Header';
 import MainPage from '@pages/main/MainPage';
 import MountainDetail from '@pages/mountain/MountainDetail';
@@ -36,7 +35,6 @@ function AppRouter() {
         {/* 로그인 토큰 저장용 */}
         <Route path="/user/login/callback" element={<UserLoginTokenSave />} />
       </Routes>
-      <Footer />
     </BrowserRouter>
   );
 }

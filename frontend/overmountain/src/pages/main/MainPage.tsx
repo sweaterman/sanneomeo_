@@ -75,23 +75,6 @@ function MainPage() {
       <MapContainerMain />
       <div className="flex">{/* <MascottMain /> */}</div>
 
-      {/* 계절 명산 */}
-      <MountainItem
-        title={`${koreanTitle} 명산`}
-        data={seasonMountainData.result.seasonList}
-      />
-
-      {/* 100대 명산 자세히 보기 버튼 */}
-      <NavLink to="/user/challenge" className="user-challenge">
-        100대명산으로 이동하는 태그
-      </NavLink>
-
-      {/* 100대 명산 리스트 */}
-      <MountainItem
-        title={`100대 명산`}
-        data={userChallengeData.result.challengeList}
-      />
-
       {/* 내 위치 기반 등산로 return API 테스트 */}
       {/* 아래부분 Routing 수정 해서 trailSeq 넘기기 */}
       <div>
@@ -104,6 +87,25 @@ function MainPage() {
           등산로 : {positionData.result.trailSeq}
         </div>
       </div>
+
+      <hr />
+      {/* 계절 명산 */}
+      <MountainItem
+        title={`${koreanTitle} 명산`}
+        data={seasonMountainData.result.seasonList}
+      />
+      <hr />
+      {/* 100대 명산 자세히 보기 버튼 */}
+      <NavLink to="/user/challenge" className="user-challenge">
+        100대명산으로 이동하는 태그
+      </NavLink>
+
+      {/* 100대 명산 리스트 */}
+      <MountainItem
+        title={`100대 명산`}
+        data={userChallengeData.result.challengeList}
+      />
+      <hr />
     </div>
   );
 }
