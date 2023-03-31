@@ -13,9 +13,9 @@ import javax.persistence.Column;
 @AllArgsConstructor
 public class UpdateUserSurveyRequestDto {
 
-    private Integer difficulty;
-    private Integer preferRegion;
+    private Integer level;
+    private Integer region;
     private Integer purpose;
-    private Integer preferClimbDuration;
+    private Integer time;
 
 }

@@ -43,7 +43,7 @@ public class UserRepositoryImpl implements UserRepositoryCustom {
 
     public List<ChallengeResponseDto> challengeistNotMember() {
         return query
-                .select(Projections.fields(ChallengeResponseDto.class, mountain.mountainSeq, mountain.name, mountain.img, mountain.altitude, mountain.si
+                .select(Projections.fields(ChallengeResponseDto.class, mountain.mountainSeq, mountain.name, mountain.photo, mountain.altitude, mountain.si
                         , mountain.gu, mountain.dong, mountain.difficulty))
                 .from(mountain)
                 .where(mountain.top100.eq(1))

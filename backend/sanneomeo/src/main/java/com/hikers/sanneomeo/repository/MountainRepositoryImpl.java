@@ -44,7 +44,7 @@ public class MountainRepositoryImpl implements MountainRepositoryCustom {
             .select(
                 Projections.constructor(MountainDetailResponseDto.class, mountain.mountainSeq,
                     mountain.latitude, mountain.longitude, mountain.altitude, mountain.si,
-                    mountain.gu, mountain.dong, mountain.name, mountain.img, mountain.introduction,
+                    mountain.gu, mountain.dong, mountain.name, mountain.photo, mountain.introduction,
                     mountain.difficulty, mountain.top100, mountain.spring, mountain.summer,
                     mountain.fall, mountain.winter, mountain.sunrise, mountain.sunset)
             )
@@ -57,7 +57,7 @@ public class MountainRepositoryImpl implements MountainRepositoryCustom {
   public List<MountainSimpleInfoResponseDto> seasonMountainList(String season){
     return queryFactory
             .select(Projections.fields(MountainSimpleInfoResponseDto.class, mountain.mountainSeq,
-                    mountain.name, mountain.img,mountain.latitude, mountain.si, mountain.gu, mountain.dong, mountain.difficulty))
+                    mountain.name, mountain.photo,mountain.latitude, mountain.si, mountain.gu, mountain.dong, mountain.difficulty, mountain.altitude))
             .from(mountain)
             .where(Expressions.numberPath(Integer.class,mountain,season).eq(1))
             .fetch();

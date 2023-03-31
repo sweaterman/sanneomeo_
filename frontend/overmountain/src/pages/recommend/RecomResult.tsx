@@ -1,3 +1,4 @@
+import TrailItems from '@components/trail/TrailItems';
 import MascottMain from '@components/main/MascottMain';
 import React from 'react';
 import { setRountingTrailKey } from '@features/trail/routingTrailSlice';
@@ -16,7 +17,7 @@ function RecomResult() {
   return (
     <>
       <hr />
-      <MascottMain />
+      <MascottMain balloonText={mascottMessage} />
       <div className="trailbox">
         <div>trailitems가 들어갈 곳</div>
 

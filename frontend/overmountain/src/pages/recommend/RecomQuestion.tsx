@@ -14,8 +14,11 @@ import under10 from '@assets/images/under10.png';
 import over10 from '@assets/images/over10.png';
 import { useAppDispatch, useAppSelector } from '@app/hooks';
 import { putUserInfo, user } from '@features/user/userSlice';
+import { useNavigate } from 'react-router-dom';
 
 function RecomQuestion() {
+  const navigate = useNavigate();
+  // slice 연결
   const questionData = useAppSelector(user);
   const questionDispatch = useAppDispatch();
 
@@ -77,11 +80,14 @@ function RecomQuestion() {
     questionDispatch(
       putUserInfo({ userLevel, userRegion, userPurpose, userTime }),
     );
+    navigate('/recommend/result');
   };
+  // 람쥐설문문구
+  const mascottMessage = '람쥐가 추천해줄겡&nbsp; 자유롭게 선택해봐';
   return (
     // 선택된 이미지로 submit 구현하기
     <div>
-      <MascottMain />
+      <MascottMain balloonText={mascottMessage} />
       <form onSubmit={submitHandler}>
         <div className="level-text">본인의 등산레벨은?</div>
         <div className="level-question">
@@ -184,7 +190,7 @@ function RecomQuestion() {
             onKeyDown={setUnder3Handler}
           >
             <img src={under3} alt="under3" />
-            <div>3시간 이내</div>
+            <div>30분 이내</div>
           </div>
           <div
             className={userTime === 2 ? 'select-time active' : 'select-time'}
@@ -193,7 +199,7 @@ function RecomQuestion() {
             onKeyDown={setUnder5Handler}
           >
             <img src={under5} alt="under5" />
-            <div>3시간 이상 5시간 이내</div>
+            <div>30분이상 1시간이내</div>
           </div>
           <div
             className={userTime === 3 ? 'select-time active' : 'select-time'}
@@ -202,7 +208,7 @@ function RecomQuestion() {
             onKeyDown={setUnder7Handler}
           >
             <img src={under7} alt="under7" />
-            <div>5시간 이상 7시간 이내</div>
+            <div>1시간이상 2시간이내</div>
           </div>
           <div
             className={userTime === 4 ? 'select-time active' : 'select-time'}
@@ -211,7 +217,7 @@ function RecomQuestion() {
             onKeyDown={setUnder10Handler}
           >
             <img src={under10} alt="under10" />
-            <div>7시간 이상 10시간 이내</div>
+            <div>2시간이상 3시간이내</div>
           </div>
           <div
             className={userTime === 5 ? 'select-time active' : 'select-time'}
@@ -220,7 +226,7 @@ function RecomQuestion() {
             onKeyDown={setOver10Handler}
           >
             <img src={over10} alt="over10" />
-            <div>10시간 이상</div>
+            <div>3시간이상</div>
           </div>
         </div>
         <br />

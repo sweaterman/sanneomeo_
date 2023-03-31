@@ -73,9 +73,7 @@ function MainPage() {
     <div className="mainpage">
       <Searchbar />
       <MapContainerMain />
-      <div className="flex">
-        <MascottMain />
-      </div>
+      <div className="flex">{/* <MascottMain /> */}</div>
 
       {/* 내 위치 기반 등산로 return API 테스트 */}
       {/* 아래부분 Routing 수정 해서 trailSeq 넘기기 */}
