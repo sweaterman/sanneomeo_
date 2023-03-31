@@ -33,7 +33,7 @@ public class MountainDetailResponseDto {
 
   private String name;
 
-  private String img;
+  private String photo;
 
   private String introduction;
 
@@ -52,11 +52,12 @@ public class MountainDetailResponseDto {
   private Integer sunrise;
 
   private Integer sunset;
+  private Long trailSeq;
 
   public MountainDetailResponseDto(String mountainSeq, BigDecimal latitude, BigDecimal longitude,
-      BigDecimal altitude, String si, String gu, String dong, String name, String img,
+      BigDecimal altitude, String si, String gu, String dong, String name, String photo,
       String introduction, String difficulty, Integer top100, Integer spring, Integer summer,
-      Integer fall, Integer winter, Integer sunrise, Integer sunset) {
+      Integer fall, Integer winter, Integer sunrise, Integer sunset, Long trailSeq) {
     this.mountainSeq = mountainSeq;
     this.latitude = latitude;
     this.longitude = longitude;
@@ -65,7 +66,7 @@ public class MountainDetailResponseDto {
     this.gu = gu;
     this.dong = dong;
     this.name = name;
-    this.img = img;
+    this.photo = photo;
     this.introduction = introduction;
     this.difficulty = difficulty;
     this.top100 = top100;
@@ -75,5 +76,6 @@ public class MountainDetailResponseDto {
     this.winter = winter;
     this.sunrise = sunrise;
     this.sunset = sunset;
+    this.trailSeq = trailSeq;
   }
 }
