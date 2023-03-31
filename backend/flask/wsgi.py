@@ -3,6 +3,7 @@ import pymysql
 import pandas as pd
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity, euclidean_distances
+from sklearn.preprocessing import MinMaxScaler
 
 
 
@@ -48,7 +49,8 @@ print(X)
 
 
 # target_trail = {'name': "북한산",'length': 5.43, 'time': 95, 'altitude': 128.4807300000}
-df[df['name'] == '북악산 제1코스'][features].to_dict(orient='records')[0]
+# print(target_trail)
+target_trail = df[df['name'] == '북악산 제1코스'][features].to_dict(orient='records')[0]
 target_trail['name'] = '북한산'; # 북악산 나오는지 보려고 이름암거나씀
 print(target_trail)
 
