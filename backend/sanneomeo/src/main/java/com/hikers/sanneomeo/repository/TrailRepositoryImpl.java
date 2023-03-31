@@ -34,7 +34,7 @@ public class TrailRepositoryImpl implements TrailRepositoryCustom {
   public List<TrailListResponseDto> findTrailsByMountainSequence(String sequence) {
     return queryFactory.select(
             Projections.constructor(TrailListResponseDto.class, trail.trailSeq, trail.name,
-                trail.length,trail.difficulty, keep.trailSeq.count())
+                trail.length,trail.difficulty, keep.trailSeq.count(),trail.uptime)
         )
         .from(trail)
         .leftJoin(keep)

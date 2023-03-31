@@ -19,12 +19,15 @@ public class TrailListResponseDto {
   private String difficulty;
   private Long keepCount;
 
-  public TrailListResponseDto(Long sequence,String name, BigDecimal length, String difficulty,Long keepCount) {
+  private Integer time;
+
+  public TrailListResponseDto(Long sequence,String name, BigDecimal length, String difficulty,Long keepCount,Integer time) {
     this.sequence = sequence;
     this.name = name;
     this.length = length;
     this.difficulty = difficulty;
     this.keepCount =keepCount;
+    this.time = time;
   }
 
   private Boolean recommend;
