@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import PhotoItems from '@components/user/PhotoItems';
 import PhotoModal from './PhotoModal';
 
-function MypageBox() {
+function MypageBox(props: { isPublic: boolean }) {
   const [modalOpen, setModalOpen] = useState(false);
   return (
     <>
@@ -11,7 +11,7 @@ function MypageBox() {
         <PhotoItems />
       </div>
       <div className="photo-modal">
-        <PhotoModal />
+        <PhotoModal open={modalOpen} isPublic={props.isPublic} />
       </div>
     </>
   );
