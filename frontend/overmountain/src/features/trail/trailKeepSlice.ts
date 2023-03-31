@@ -13,7 +13,8 @@ const initialTrailState: TrailLike = {
   length: 0,
   keep: false,
 };
-// API 명세서 14번. 찜 등록
+
+// API 명세서 15번. 찜 등록
 export const updateTrailKeep = createAsyncThunk(
   'trailKeepSlice/updateTrailKeep',
   async () => {
@@ -36,13 +37,13 @@ export const trailKeepSlice = createSlice({
   initialState: initialTrailState,
   reducers: {},
   extraReducers: (builder) => {
-    // API 명세서 14번. 찜 등록
+    // API 명세서 15번. 찜 등록
     builder.addCase(updateTrailKeep.fulfilled, (state, action) => {
       state = action.payload;
-      console.log('14 성공!', state);
+      console.log('15 성공!', state);
     });
     builder.addCase(updateTrailKeep.rejected, (state, action) => {
-      console.log('14 실패!', action.error);
+      console.log('15 실패!', action.error);
     });
   },
 });

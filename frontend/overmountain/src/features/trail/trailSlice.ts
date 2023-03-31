@@ -12,6 +12,7 @@ export const getTrailDetail = createAsyncThunk(
   'trailSlice/getTrailDetail',
   async (trailIdx: number) => {
     const url = `${baseURL}trail/info/${trailIdx}`;
+    console.log(url);
     const response = await axios({ method: 'GET', url: url });
     return response.data.result;
   },

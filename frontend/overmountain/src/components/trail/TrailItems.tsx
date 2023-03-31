@@ -12,10 +12,10 @@ import {
   setSelectedTrailKey,
   selectedTrailKey,
 } from '@features/trail/selectedTrailSlice';
+import { rountingTrailKey } from '@features/trail/routingTrailSlice';
 
-function TrailItems(props: { mountainSeq: string; trailkey: number }) {
-  const { mountainSeq } = props;
-  const { trailkey } = props;
+function TrailItems(props: { mountainSeq: string; trailKey: number }) {
+  const { mountainSeq, trailKey } = props;
 
   // 산에 해당하는 등산로 리스트 받아오기
   const trailListData = useAppSelector(trailList);
@@ -29,8 +29,11 @@ function TrailItems(props: { mountainSeq: string; trailkey: number }) {
   const selectedDispatch = useAppDispatch();
 
   // 처음에 페이지에 들어왔을 때, 대표 등산로/추천 등산로 선택된 상태
+  const defaultRecomKey = useAppSelector(rountingTrailKey);
   useEffect(() => {
-    selectedDispatch(setSelectedTrailKey(trailkey));
+    if (defaultRecomKey.rountingTrailKey !== 0) {
+      selectedDispatch(setSelectedTrailKey(defaultRecomKey.rountingTrailKey));
+    }
   }, []);
 
   return (
@@ -43,7 +46,7 @@ function TrailItems(props: { mountainSeq: string; trailkey: number }) {
         {trailListData &&
           trailListData.result.map((trail) => (
             <div
-              className={`trailItems-singleTrail ${
+              className={`grid grid-cols-10 trailItems-singleTrail ${
                 selectedKey.selectedTrailKey === trail.sequence
                   ? 'selected'
                   : ''
@@ -51,7 +54,7 @@ function TrailItems(props: { mountainSeq: string; trailkey: number }) {
               key={trail.sequence}
             >
               <div
-                className="first"
+                className="first col-span-6"
                 onClick={() =>
                   selectedDispatch(setSelectedTrailKey(trail.sequence))
                 }
@@ -60,13 +63,15 @@ function TrailItems(props: { mountainSeq: string; trailkey: number }) {
                 }
                 role="presentation"
               >
-                <div className="trail-name">{trail.name}</div>
-                <div className="trail-etc">3시간</div>
+                <div className="trail-name">
+                  {trail.name.trim().substring(trail.name.indexOf(' ') + 1)}
+                </div>
+                <div className="trail-etc">{trail.time}분</div>
                 <div className="trail-etc">{trail.length}km</div>
               </div>
 
-              <div className="second">
-                <div>
+              <div className="second col-span-4">
+                <div className="parent_difficulty">
                   {trail.difficulty === '어려움' ? (
                     <div className="difficulty">
                       <img src={mountain_selected} alt="difficulty" />
@@ -90,7 +95,7 @@ function TrailItems(props: { mountainSeq: string; trailkey: number }) {
                   ) : null}
                 </div>
 
-                <div className="like">
+                <div className="parent_like">
                   <div>
                     {trail.isLike ? (
                       <img
