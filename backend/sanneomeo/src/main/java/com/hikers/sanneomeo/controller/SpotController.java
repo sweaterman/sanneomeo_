@@ -1,6 +1,7 @@
 package com.hikers.sanneomeo.controller;
 
 import com.hikers.sanneomeo.dto.response.BaseResponseDto;
+import com.hikers.sanneomeo.service.CourseService;
 import com.hikers.sanneomeo.service.MountainService;
 import com.hikers.sanneomeo.service.SpotService;
 import com.hikers.sanneomeo.service.TrailService;
@@ -20,6 +21,7 @@ public class SpotController {
   private final SpotService spotService;
   private final MountainService mountainService;
   private final TrailService trailService;
+  private final CourseService courseService;
 
   @GetMapping("/trail/{trailIdx}")
   public BaseResponseDto<?> getSpots(@PathVariable("trailIdx") Long sequence,
@@ -39,7 +41,7 @@ public class SpotController {
       @RequestParam(required = true, value = "latitude") BigDecimal latitude) {
     String sequence = mountainService.getMountainSeqByDistance(latitude, longitude)
         .getMountainSeq();
-    return new BaseResponseDto<>(trailService.getNearTrailByDistance(sequence,latitude,longitude));
+    return new BaseResponseDto<>(courseService.getNearTrailByDistance(sequence,latitude,longitude));
 
   }
 }

@@ -41,8 +41,8 @@ public class Mountain {
     @Column(name = "name")
     private String name;
 
-    @Column(name = "img")
-    private String img;
+    @Column(name = "photo")
+    private String photo;
 
     @Column(name = "introduction")
     private String introduction;
