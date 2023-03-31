@@ -2,6 +2,7 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
 import { baseURL } from '@features/port';
 import { RootState } from '@app/store';
+import { setSelectedTrailKey } from '@features/trail/selectedTrailSlice';
 
 const initialMountainState: Mountain = {
   mountain: {
@@ -24,6 +25,7 @@ const initialMountainState: Mountain = {
     sunrise: 0,
     sunset: 0,
     conquer: false,
+    trailSeq: 0,
   },
 };
 
@@ -72,19 +74,19 @@ export const mountainSlice = createSlice({
     // });
     builder.addCase(getMountainDetail.fulfilled, (state, action) => {
       state.mountain = action.payload;
-      // console.log('17 성공!', state.mountain);
+      console.log('17 성공!', state.mountain);
     });
     builder.addCase(getMountainDetail.rejected, (state, action) => {
-      // console.log('17 실패!', action.error);
+      console.log('17 실패!', action.error);
     });
 
     // API 명세서 18. 산 위치 정보
     builder.addCase(getMountainPlace.fulfilled, (state, action) => {
       state.mountain = action.payload;
-      // console.log('18 성공!', state.mountain);
+      console.log('18 성공!', state.mountain);
     });
     builder.addCase(getMountainPlace.rejected, (state, action) => {
-      // console.log('18 실패!', action.error);
+      console.log('18 실패!', action.error);
     });
   },
 });
