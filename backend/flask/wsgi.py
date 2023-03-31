@@ -26,7 +26,7 @@ mydb = pymysql.connect(
     # charset = "utf8"
 )
 
-print(mydb)
+
 
 curs = mydb.cursor()
 sql = "select * from tbl_course"
@@ -36,15 +36,17 @@ mydb.close()
 
 df = pd.DataFrame(result)
 df.columns = ['course_seq', 'mountain_seq', 'name', 'introduction', 'length', 'time', 'difficulty_mean', 'review_cnt', 'review_mean', 'slope_mean', 'altitude', 'recommend', 'best_trail']
-print(df)
+
 
 features = ['length', 'time', 'altitude']
+
+
 # 정규화
 scaler = MinMaxScaler()
 df[features] = scaler.fit_transform(df[features])
 
 X = df[features].values
-print(X)
+
 
 
 # Flask API
