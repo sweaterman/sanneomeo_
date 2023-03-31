@@ -47,4 +47,15 @@ public class TrailController {
 
         }
     }
+
+    @GetMapping("/trail/recommend/survey")
+    public BaseResponseDto<?> getRecommendTrails(@RequestParam(value="level", required=false) int level,
+                                                 @RequestParam(value="level", required=false) int region,
+                                                 @RequestParam(value="level", required=false) int purpose,
+                                                 @RequestParam(value="level", required=false) int time) {
+
+        String flaskUrl = "";
+        return null;
+    }
+
 }
