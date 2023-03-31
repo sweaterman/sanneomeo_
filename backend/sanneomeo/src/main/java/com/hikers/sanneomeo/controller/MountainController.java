@@ -155,4 +155,11 @@ public class MountainController {
         return  new BaseResponseDto<>(mountainService.getMountainInfoBysequence(sequence));
 
     }
+
+    @GetMapping("/search")
+    public BaseResponseDto<Boolean> searchMountain(@RequestParam("key") String key){
+        mountainService.search(key);
+        return new BaseResponseDto<>(true);
+
+    }
 }
