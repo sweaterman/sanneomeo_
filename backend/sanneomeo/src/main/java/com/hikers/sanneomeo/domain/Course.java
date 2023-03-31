@@ -34,7 +34,7 @@ public class Course {
   @Column(name = "length")
   private BigDecimal length;
 
-  @Column(name = "uptime")
+  @Column(name = "time")
   private Integer time;
 
   @Column(name = "difficulty_mean")
