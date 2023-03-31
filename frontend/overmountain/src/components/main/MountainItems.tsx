@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import Slider from 'react-slick';
 
 // title, mountainList 전달받기
 function MountainItems(props: { title: string; data: Mountain[] }) {
@@ -17,6 +18,37 @@ function MountainItems(props: { title: string; data: Mountain[] }) {
     setCurrentIndex((prevIndex) =>
       prevIndex + moveNum > data.length - 1 ? prevIndex : prevIndex + moveNum,
     );
+  };
+
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 6,
+    slidesToScroll: 6,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 4,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
@@ -63,6 +95,22 @@ function MountainItems(props: { title: string; data: Mountain[] }) {
           ▶
         </div>
       </div>
+
+      {/* 슬라이더부분 수정하기 */}
+      <Slider className="my-slider" {...settings}>
+        {data.map((oneMountain) => (
+          <div className="itembox" key={oneMountain.mountain.mountainSeq}>
+            <NavLink
+              to={`/mountain/detail/${oneMountain.mountain.mountainSeq}`}
+            >
+              <figure>
+                <img src={oneMountain.mountain.photo} alt="산이미지" />
+                <figcaption>{oneMountain.mountain.name}</figcaption>
+              </figure>
+            </NavLink>
+          </div>
+        ))}
+      </Slider>
     </div>
   );
 }

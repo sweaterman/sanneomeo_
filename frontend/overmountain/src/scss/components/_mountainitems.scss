@@ -7,7 +7,9 @@
 
   figure {
     display: inline-block;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
     img {
       width: 80px;
       height: 80px;
@@ -34,8 +36,8 @@
 }
 
 .mountain-suggestion {
-  background-color: $over-brown;
   text-align: center;
+  width: 100%;
 
   .suggestion-text {
     margin-bottom: 20px;
@@ -46,6 +48,12 @@
       text-decoration: none;
     }
   }
-  .itembox {
+
+  .mountain-window {
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .my-slider {
+    display: inline-block;
   }
 }

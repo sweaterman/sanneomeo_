@@ -19,6 +19,7 @@ module.exports = {
   plugins: ['react', '@typescript-eslint'],
   rules: {
     'no-var': 'warn', // var 금지
+    'react/jsx-props-no-spreading': 'warn', // 연희: 캐러셀때문에...
     'no-multiple-empty-lines': 'warn', // 여러 줄 공백 금지
     'no-nested-ternary': 'warn', // 중첩 삼항 연산자 금지
     'dot-notation': 'warn', // 가능하다면 dot notation 사용
