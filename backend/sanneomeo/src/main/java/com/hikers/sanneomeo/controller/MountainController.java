@@ -2,9 +2,12 @@ package com.hikers.sanneomeo.controller;
 
 import static com.hikers.sanneomeo.exception.BaseResponseStatus.UNAUTHORIZED_USER;
 
+import com.google.gson.JsonObject;
+import com.hikers.sanneomeo.config.YmlConfig;
 import com.hikers.sanneomeo.dto.request.UploadImagesRequestDto;
 import com.hikers.sanneomeo.dto.request.WriteReviewRequestDto;
 import com.hikers.sanneomeo.dto.response.BaseResponseDto;
+import com.hikers.sanneomeo.dto.response.GetUserSurveyResponseDto;
 import com.hikers.sanneomeo.dto.response.MountainDetailResponseDto;
 import com.hikers.sanneomeo.dto.response.PhotoResponseDto;
 import com.hikers.sanneomeo.dto.response.TrailListResponseDto;
@@ -23,11 +26,18 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import java.util.stream.Collectors;
+import lombok.extern.slf4j.Slf4j;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
+import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.*;
 
 
+@Slf4j
 @RestController
 @RequestMapping("/mountain")
 public class MountainController {
@@ -43,6 +53,9 @@ public class MountainController {
     private PhotoService photoService;
     @Autowired
     private CourseService courseService;
+
+    @Autowired
+    private YmlConfig ymlConfig;
 
 
     @PostMapping("/{mountainSeq}/photo")
@@ -144,7 +157,24 @@ public class MountainController {
 
     @GetMapping("/trail/{mountainIdx}")
     public BaseResponseDto<?> getTrailsByMountainSequence(@PathVariable("mountainIdx") String sequence){
-        return  new BaseResponseDto<>(courseService.getTrailsBySequence(sequence));
+        try {
+            Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+            List<TrailListResponseDto> trails = courseService.getTrailsBySequence(sequence);
+
+            if (principal.toString().equals("anonymousUser")) {
+                return new BaseResponseDto<>(trails);
+            } else {
+                OkHttpClient client = new OkHttpClient();
+                Request request = new Request.Builder() .url(ymlConfig.getFlaskEndPoint()+"/recommendCourse/"+principal.toString()+"/"+sequence) .build();
+                Response response = client.newCall(request).execute();
+                JSONObject message = new JSONObject(response.body().string());
+                List<Object> courses = message.getJSONArray("recommend").toList();
+                return new BaseResponseDto<>(trails.stream().map( trail -> recommendCheck(trail,courses)).collect(Collectors.toList()));
+            }
+        }
+        catch (Exception e){
+                throw new BaseException(BaseResponseStatus.FAIL);
+        }
     }
     @GetMapping("/photo/{mountainIdx}")
     public BaseResponseDto<?> getTrailsByMountainSequence(@PathVariable("mountainIdx") Long sequence){
@@ -155,4 +185,18 @@ public class MountainController {
         return  new BaseResponseDto<>(mountainService.getMountainInfoBysequence(sequence));
 
     }
+
+    public TrailListResponseDto recommendCheck(TrailListResponseDto trail,List<Object> courses){
+        for(Object obj : courses){
+            if(trail.getSequence().equals((Long)obj)) {
+                trail.setRecommend(true);
+                break;
+            }
+        }
+        return trail;
+    }
+
+
+
+
 }

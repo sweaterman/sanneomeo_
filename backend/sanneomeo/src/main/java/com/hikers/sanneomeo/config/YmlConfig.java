@@ -21,5 +21,6 @@ public class YmlConfig {
   //날씨 api
   private String weatherServiceKey;
   private String weatherEndPoint;
+  private String flaskEndPoint;
 
 }
