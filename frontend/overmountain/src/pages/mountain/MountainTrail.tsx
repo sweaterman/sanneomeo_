@@ -12,7 +12,7 @@ function MountainTrail() {
   useEffect(() => {
     // 산 코드 바꿔야함
     spotListDispatch(getTrailSpotList(trailSeq));
-  }, [spotListDispatch, trailSeq]);
+  }, [trailSeq]);
 
   return (
     <>

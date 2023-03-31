@@ -13,7 +13,7 @@ const initialMountainState: Mountain = {
     gu: '',
     dong: '',
     name: '',
-    img: '',
+    photo: '',
     introduction: '',
     difficulty: '',
     top100: 0,
@@ -23,6 +23,7 @@ const initialMountainState: Mountain = {
     winter: 0,
     sunrise: 0,
     sunset: 0,
+    conquer: false,
   },
 };
 
@@ -34,7 +35,11 @@ export const getMountainDetail = createAsyncThunk(
   // 액션이 실행되었을 때 처리되어야 하는 작업
   async (mountainIdx: string) => {
     const url = `${baseURL}mountain/info/${mountainIdx}`; // 산 메인용
-    const response = await axios({ method: 'GET', url: url });
+    const response = await axios({
+      method: 'GET',
+      headers: { Authorization: localStorage.getItem('token') },
+      url: url,
+    });
     return response.data.result;
   },
 );
@@ -67,19 +72,19 @@ export const mountainSlice = createSlice({
     // });
     builder.addCase(getMountainDetail.fulfilled, (state, action) => {
       state.mountain = action.payload;
-      console.log('17 성공!', state.mountain);
+      // console.log('17 성공!', state.mountain);
     });
     builder.addCase(getMountainDetail.rejected, (state, action) => {
-      console.log('17 실패!', action.error);
+      // console.log('17 실패!', action.error);
     });
 
     // API 명세서 18. 산 위치 정보
     builder.addCase(getMountainPlace.fulfilled, (state, action) => {
       state.mountain = action.payload;
-      console.log('18 성공!', state.mountain);
+      // console.log('18 성공!', state.mountain);
     });
     builder.addCase(getMountainPlace.rejected, (state, action) => {
-      console.log('18 실패!', action.error);
+      // console.log('18 실패!', action.error);
     });
   },
 });
