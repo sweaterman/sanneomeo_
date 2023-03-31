@@ -29,4 +29,7 @@ public interface MountainService {
 
     MountainDetailResponseDto getMountainInfoBysequence(String sequence);
     NearMountainResponseDto getMountainSeqByDistance(BigDecimal latitude, BigDecimal longitude);
+
+    //mountain
+    void search(String key);
 }

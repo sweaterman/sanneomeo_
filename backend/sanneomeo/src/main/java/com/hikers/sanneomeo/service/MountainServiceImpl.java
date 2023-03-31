@@ -1,6 +1,7 @@
 package com.hikers.sanneomeo.service;
 
 import com.hikers.sanneomeo.domain.Mountain;
+import com.hikers.sanneomeo.domain.MountainDocument;
 import com.hikers.sanneomeo.domain.RecordPhoto;
 import com.hikers.sanneomeo.domain.Review;
 import com.hikers.sanneomeo.dto.request.UploadImagesRequestDto;
@@ -11,6 +12,7 @@ import com.hikers.sanneomeo.dto.response.NearMountainResponseDto;
 import com.hikers.sanneomeo.dto.response.ReviewResponseDto;
 import com.hikers.sanneomeo.exception.BaseException;
 import com.hikers.sanneomeo.exception.BaseResponseStatus;
+import com.hikers.sanneomeo.repository.MountainDocumentRepository;
 import com.hikers.sanneomeo.repository.MountainRepository;
 import com.hikers.sanneomeo.repository.RecordPhotoRepository;
 import java.math.BigDecimal;
@@ -19,7 +21,15 @@ import java.util.List;
 
 import com.hikers.sanneomeo.repository.ReviewRepository;
 import com.hikers.sanneomeo.repository.ReviewRepositoryImpl;
+import org.elasticsearch.index.query.MultiMatchQueryBuilder;
+import org.elasticsearch.index.query.QueryBuilders;
+import org.elasticsearch.search.sort.FieldSortBuilder;
+import org.elasticsearch.search.sort.SortBuilders;
+import org.elasticsearch.search.sort.SortOrder;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.elasticsearch.core.query.NativeSearchQuery;
+import org.springframework.data.elasticsearch.core.query.NativeSearchQueryBuilder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -37,6 +47,9 @@ public class MountainServiceImpl implements MountainService{
 
     @Autowired
     private ReviewRepository  reviewRepository;
+
+    @Autowired
+    private MountainDocumentRepository mountainDocumentRepository;
 
 
 
@@ -121,6 +134,15 @@ public class MountainServiceImpl implements MountainService{
     public NearMountainResponseDto getMountainSeqByDistance(BigDecimal latitude,
         BigDecimal longitude) {
         return mountainRepository.findMountainSequenceByDistance(latitude,longitude).orElseThrow(()->new BaseException(BaseResponseStatus.FAIL,""));
+    }
+
+
+    @Override
+    public void search(String key){
+        List<MountainDocument> mountainDocumentList = mountainDocumentRepository.searchByKey(key);
+
+
+        System.out.println(mountainDocumentList);
     }
 }
 

@@ -41,9 +41,24 @@ public class MountainController {
     private TrailService trailService;
     @Autowired
     private PhotoService photoService;
+
     @Autowired
     private CourseService courseService;
-
+    @GetMapping("/search")
+    public BaseResponseDto<Boolean> search(@RequestParam("key") String key) {
+//        try{
+//            mountainService.search(key);
+//            return new BaseResponseDto<>(true);
+//        } catch (Exception e) {
+//            if (e instanceof BaseException) {
+//                throw e;
+//            } else {
+//                throw new BaseException(BaseResponseStatus.FAIL);
+//            }
+//        }
+        mountainService.search(key);
+        return new BaseResponseDto<>(true);
+    }
 
     @PostMapping("/{mountainSeq}/photo")
     public BaseResponseDto<Boolean> uploadImages(@ModelAttribute UploadImagesRequestDto uploadImagesRequestDto,
