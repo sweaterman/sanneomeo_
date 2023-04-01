@@ -36,7 +36,6 @@ function MountainDetail() {
 
   return (
     <>
-      <h3>뱃지 표시</h3>
       <TrailMap />
 
       {/* 등산로리스트 히히 체크체크(대표 등산로 부분 API 수정하면 바꿔야함) */}

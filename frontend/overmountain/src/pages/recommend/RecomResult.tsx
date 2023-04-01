@@ -17,7 +17,7 @@ function RecomResult() {
   return (
     <>
       <hr />
-      <MascottMain balloonText={mascottMessage} />
+      {/* <MascottMain balloonText={mascottMessage} /> */}
       <div className="trailbox">
         <div>trailitems가 들어갈 곳</div>
 

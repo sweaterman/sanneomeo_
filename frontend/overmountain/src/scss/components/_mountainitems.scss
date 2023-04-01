@@ -1,13 +1,17 @@
-.mountain-items {
-  .arrow {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.mountain-suggestion {
+  text-align: center;
+  width: 100%;
 
+  .suggestion-text {
+    margin: 20px 0px;
+    font-size: $font-h2;
+    .user-challenge {
+      text-decoration: none;
+    }
+  }
   figure {
     display: inline-block;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
     img {
@@ -32,28 +36,5 @@
         width: 90px;
       }
     }
-  }
-}
-
-.mountain-suggestion {
-  text-align: center;
-  width: 100%;
-
-  .suggestion-text {
-    margin-bottom: 20px;
-    font-size: $font-h2;
-    color: white;
-    .user-challenge {
-      color: white;
-      text-decoration: none;
-    }
-  }
-
-  .mountain-window {
-    transition: transform 0.5s ease-in-out;
-  }
-
-  .my-slider {
-    display: inline-block;
   }
 }

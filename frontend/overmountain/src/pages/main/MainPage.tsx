@@ -88,24 +88,22 @@ function MainPage() {
         </div>
       </div>
 
-      <hr />
       {/* 계절 명산 */}
       <MountainItem
         title={`${koreanTitle} 명산`}
         data={seasonMountainData.result.seasonList}
       />
-      <hr />
-      {/* 100대 명산 자세히 보기 버튼 */}
-      <NavLink to="/user/challenge" className="user-challenge">
-        100대명산으로 이동하는 태그
-      </NavLink>
 
       {/* 100대 명산 리스트 */}
       <MountainItem
         title={`100대 명산`}
         data={userChallengeData.result.challengeList}
       />
-      <hr />
+
+      {/* 100대 명산 자세히 보기 버튼 */}
+      {/* <div className="user-challenge">
+        <NavLink to="/user/challenge">자세히보기</NavLink>
+      </div> */}
     </div>
   );
 }

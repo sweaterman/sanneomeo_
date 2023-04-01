@@ -54,9 +54,8 @@ function TrailTemp() {
   };
   const options = {
     maintainAspectRatio: false,
-    width: 320,
     height: 100,
-    responsive: false,
+    responsive: true,
     interaction: {
       mode: 'index' as const,
       intersect: false,
@@ -75,7 +74,7 @@ function TrailTemp() {
           display: false,
         },
         ticks: {
-          display: false,
+          display: true,
         },
       },
     },
