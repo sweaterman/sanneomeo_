@@ -31,7 +31,7 @@ function UserWishList() {
               <TrailItems
                 key={trail.trailSeq}
                 mountainSeq={trail.mountainSeq}
-                trailkey={trail.trailSeq}
+                trailKey={trail.trailSeq}
               />
             ))} */}
         </div>

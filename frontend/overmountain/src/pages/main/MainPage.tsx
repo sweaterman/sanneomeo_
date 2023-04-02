@@ -3,6 +3,11 @@ import {
   getPositionTrail,
   positionTrail,
 } from '@features/trail/positionTrailSlice';
+import {
+  getMountainSearch,
+  searchMountain,
+} from '@features/mountain/searchMountainSlice';
+import { getMountainPlace, mountain } from '@features/mountain/mountainSlice';
 import { useAppSelector, useAppDispatch } from '@app/hooks';
 import Searchbar from '@components/main/Searchbar';
 import MountainItem from '@components/main/MountainItems';
@@ -20,11 +25,30 @@ import {
 } from '@features/user/userChallengeSlice';
 
 function MainPage() {
+  const [searchMountainText, setSearchMountainText] = useState('');
+  // const [searchResultList, setSearchResultList] = useState([]);
+  const [latitude, setLatitude] = useState(0);
+  const [longitude, setLongitude] = useState(0);
+
   const positionData = useAppSelector(positionTrail);
   const positionDispatch = useAppDispatch();
 
-  const [latitude, setLatitude] = useState(0);
-  const [longitude, setLongitude] = useState(0);
+  const searchData = useAppSelector(searchMountain);
+  const searchDispatch = useAppDispatch();
+
+  const searchClickData = useAppSelector(mountain);
+  const searchClickDispatch = useAppDispatch();
+
+  // 검색바 실시간 반영
+  useEffect(() => {
+    console.log(searchMountainText);
+    searchDispatch(getMountainSearch(searchMountainText));
+  }, [searchMountainText]);
+
+  // 검색목록 클릭시 실행할 useEffect
+  useEffect(() => {
+    console.log('검색목록클릭했다');
+  }, []);
 
   // 내 위치 조사해서 가장 가까운 등산로 받아오는 코드
   const positionClick = () => {
@@ -71,7 +95,10 @@ function MainPage() {
 
   return (
     <div className="mainpage">
-      <Searchbar />
+      <Searchbar
+        setSearchMountain={setSearchMountainText}
+        searchList={searchData.result}
+      />
       <MapContainerMain />
       <div className="flex">{/* <MascottMain /> */}</div>
 
