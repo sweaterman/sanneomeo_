@@ -15,6 +15,7 @@ import lombok.Data;
 @Data
 public class SpotResponseDto {
 
+  private Long spotSeq;
   private String mountainSeq;
   private String name;
   private String code;
@@ -24,8 +25,9 @@ public class SpotResponseDto {
   private BigDecimal longitude;
   private Double distance;
 
-  public SpotResponseDto(String mountainSeq, String name, String code, String introduction,
+  public SpotResponseDto(Long spotSeq,String mountainSeq, String name, String code, String introduction,
       String etc, BigDecimal latitude, BigDecimal longitude, Double distance) {
+    this.spotSeq=spotSeq;
     this.mountainSeq = mountainSeq;
     this.name = name;
     this.code = code;
@@ -36,8 +38,9 @@ public class SpotResponseDto {
     this.distance = distance;
   }
 
-  public SpotResponseDto(String mountainSeq, String name, String code, String introduction,
+  public SpotResponseDto(Long spotSeq,String mountainSeq, String name, String code, String introduction,
       String etc, BigDecimal latitude, BigDecimal longitude) {
+    this.spotSeq=spotSeq;
     this.mountainSeq = mountainSeq;
     this.name = name;
     this.code = code;
