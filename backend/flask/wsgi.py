@@ -8,19 +8,19 @@ from sklearn.preprocessing import MinMaxScaler
 
 app = Flask(__name__)
 
-# MySQL 데이터베이스 연결 설정
-mydb = DBInfo.mydb()
-
 
 # Flask API
 @app.route('/recommendCourse/<int:course_seq>', methods=['GET'])
 def recommend_course(course_seq):
-    curs = mydb.cursor()
-    sql = "select * from tbl_course"
-    curs.execute(sql)
-    result = curs.fetchall()
-    mydb.close()
-
+    try:
+        # MySQL 데이터베이스 연결 설정
+        mydb = DBInfo.mydb()
+        with mydb.cursor() as curs:
+            sql = "select * from tbl_course"
+            curs.execute(sql)
+            result = curs.fetchall()
+    finally:
+        mydb.close();
     df = pd.DataFrame(result)
     df.columns = ['course_seq', 'mountain_seq', 'name', 'introduction', 'length', 'time', 'difficulty_mean',
                   'review_cnt', 'review_mean', 'slope_mean', 'altitude', 'recommend', 'best_trail']
