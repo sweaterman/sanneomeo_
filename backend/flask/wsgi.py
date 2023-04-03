@@ -67,6 +67,7 @@ def target_course():
     location = request.args.get('region')
     purpose = request.args.get('purpose')
     time = request.args.get('time')
+    userseq = request.args.get('userseq')
 
 
     # 데이터프레임 생성 및 필터링
@@ -104,6 +105,56 @@ def target_course():
 
     print("시간 필터링")
     print(df)
+    #협업 필터링
+    if userseq != '0':
+
+        # 리뷰 리스트 기반 협업 필터링
+        try:
+            # MySQL 데이터베이스 연결 설정
+            mydb = DBInfo.mydb()
+            with mydb.cursor() as curs:
+                sql = f'SELECT c.course_seq, r.rate FROM tbl_course c JOIN tbl_mountain m ON c.mountain_seq = m.mountain_seq JOIN tbl_review r ON m.mountain_seq = r.mountain_seq WHERE r.user_seq = {userseq}'
+                curs.execute(sql)
+                review_result = curs.fetchall()
+        finally:
+            mydb.close();
+
+
+        review_df = pd.DataFrame(review_result)
+        review_df.columns = ['course_seq', 'rate']
+
+        # 찜 리스트 기반 협업 필터링
+        try:
+            # MySQL 데이터베이스 연결 설정
+            mydb = DBInfo.mydb()
+            with mydb.cursor() as curs:
+                sql = f'SELECT course_seq FROM tbl_keep WHERE user_seq = {userseq} AND is_keep = 1'
+                curs.execute(sql)
+                keep_result = curs.fetchall()
+        finally:
+            mydb.close();
+
+        keep_df = pd.DataFrame(keep_result)
+        keep_df.columns = ['course_seq']
+
+        # 리뷰 리스트와 찜 리스트를 합친 데이터프레임 생성
+        collab_df = pd.concat([review_df, keep_df], ignore_index=True)
+
+        # 협업 필터링을 위한 pivot table 생성
+        pivot_table = collab_df.pivot_table(index=['course_seq'], aggfunc='mean')
+        pivot_table.columns = ['collaborative_rate']
+
+        # 데이터프레임에 협업 필터링 결과를 추가
+        df = df.join(pivot_table, on='course_seq', how='left')
+
+        # 협업 필터링 결과에 따라 추천 결과 필터링
+        if 'collaborative_rate' in df.columns:
+            df = df[(df['collaborative_rate'] > 4.0) | (df['collaborative_rate'].isna())]
+
+        print("협업필터링 결과")
+        print(df)
+        
+
 
     # 목적 필터링
     df['sum'] = df['difficulty_mean'] + df['time']
