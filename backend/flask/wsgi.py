@@ -53,7 +53,7 @@ def recommend_course(course_seq):
 
 @app.route('/targetCourse', methods=['GET'])
 def target_course():
-    print("dddd")
+
     try:
         # MySQL 데이터베이스 연결 설정
         mydb = DBInfo.mydb()
