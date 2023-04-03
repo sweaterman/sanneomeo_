@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect } from 'react';
 import { getMountainDetail, mountain } from '@features/mountain/mountainSlice';
 import { useAppSelector, useAppDispatch } from '@app/hooks';
 import Card from '@components/common/Card';
@@ -7,6 +7,7 @@ import TrailMap from '@components/trail/TrailMap';
 import { useParams } from 'react-router-dom';
 import { setSelectedTrailKey } from '@features/trail/selectedTrailSlice';
 import { rountingTrailKey } from '@features/trail/routingTrailSlice';
+import ReviewItems from '@components/mountain/ReviewItems';
 
 function MountainDetail() {
   // 처음 페이지에 들어갔을 때, 스크롤 위치는 최상단
@@ -38,7 +39,7 @@ function MountainDetail() {
     <>
       <TrailMap />
 
-      {/* 등산로리스트 히히 체크체크(대표 등산로 부분 API 수정하면 바꿔야함) */}
+      {/* 등산로리스트 */}
       <TrailItems mountainSeq={mountainSeq} />
 
       {/* 산 상세정보 */}
@@ -48,6 +49,7 @@ function MountainDetail() {
       <h3>카람쥐</h3>
 
       {/* 후기 리스트 및 후기 작성 컴포넌트 */}
+      <ReviewItems mountainSeq={mountainSeq} />
     </>
   );
 }
