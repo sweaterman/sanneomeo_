@@ -11,7 +11,7 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 public class GetRecommendCourseResponseDto {
 
-    private Long courseSeq;
+    private Long trailSeq;
     private String name;
     private String mountainSeq;
     private String difficulty;
