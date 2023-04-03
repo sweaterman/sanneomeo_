@@ -71,8 +71,10 @@ dependencies {
 	// https://mvnrepository.com/artifact/com.google.code.gson/gson
 	implementation group: 'com.google.code.gson', name: 'gson', version: '2.8.6'
 
-	// https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp
-	implementation 'com.squareup.okhttp3:okhttp:3.14.9'
+	//엘라스틱 서치
+	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-elasticsearch
+	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-elasticsearch', version: '2.6.2'
+
 
 }
 

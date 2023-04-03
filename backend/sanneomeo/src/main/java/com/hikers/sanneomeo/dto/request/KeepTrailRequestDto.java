@@ -6,6 +6,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class KeepTrailRequestDto {
-  Long trailSeq;
+  Long courseSeq;
 
 }

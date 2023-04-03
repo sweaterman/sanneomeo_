@@ -53,15 +53,15 @@ public class TrailServiceImpl implements TrailService {
 
 
   @Override
-  public boolean keep(Long userSeq, Long trailSeq) {
-    Optional<Keep> keep = keepRepository.findFirstByUserSeqAndTrailSeq(userSeq, trailSeq);
+  public boolean keep(Long userSeq, Long courseSeq) {
+    Optional<Keep> keep = keepRepository.findFirstByUserSeqAndCourseSeq(userSeq, courseSeq);
     if (keep.isPresent()) { // 레코드가 있으면
       keep.get().updateIsKeep();
     } else { // 레코드가 없으면
       //to entity
       Keep keepEntity = Keep.builder()
           .userSeq(userSeq)
-          .trailSeq(trailSeq)
+          .courseSeq(courseSeq)
           .build();
 
             keepRepository.save(keepEntity);

@@ -8,10 +8,10 @@ const initialTrailLikeState: TrailLikeList = {
 };
 
 // API 명세서 8번. 찜한 등산로 리스트
-const getUserTrailLike = createAsyncThunk(
+export const getUserTrailLike = createAsyncThunk(
   'userChallengeSlice/getUserTrailLike',
-  async (userSeq: number) => {
-    const url = `${baseURL}user/${userSeq}/trailLike`;
+  async () => {
+    const url = `${baseURL}user/trailLike`;
     const response = await axios({
       method: 'GET',
       headers: { Authorization: localStorage.getItem('token') },

@@ -6,9 +6,6 @@
 }
 
 .trailItems-singleTrail {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   padding: 10px;
   margin: 10px;
   // border: 1px solid black;
@@ -39,14 +36,34 @@
 
   .second {
     white-space: pre-wrap;
-    .difficulty {
-      display: inline-flex;
-      flex-direction: row;
-    }
-    .like {
+
+    .parent_difficulty {
       display: flex;
-      flex-direction: row;
       justify-content: flex-end;
+      padding-top: 5px;
+      padding-bottom: 10px;
+
+      .difficulty {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+        img {
+          width: 25px;
+          height: 18px;
+        }
+      }
+    }
+
+    .parent_like {
+      display: flex;
+      justify-content: flex-end;
+
+      .like {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+      }
     }
   }
 }

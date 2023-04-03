@@ -73,9 +73,7 @@ function MainPage() {
     <div className="mainpage">
       <Searchbar />
       <MapContainerMain />
-      <div className="flex">
-        <MascottMain />
-      </div>
+      <div className="flex">{/* <MascottMain /> */}</div>
 
       {/* 계절 명산 */}
       <MountainItem
