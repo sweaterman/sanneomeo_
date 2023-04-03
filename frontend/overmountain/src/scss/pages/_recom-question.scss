@@ -29,6 +29,21 @@ hr {
 .like-question {
   display: flex;
   justify-content: center;
+  .korea-map {
+    color: black;
+    position: relative;
+    .seoul {
+      position: absolute;
+      top: 20%;
+      left: 20%;
+      z-index: 9;
+    }
+    .gyeonggi {
+      position: absolute;
+      top: 20%;
+      left: 20%;
+    }
+  }
 }
 .purpose-question {
   display: flex;
