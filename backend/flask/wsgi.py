@@ -65,20 +65,10 @@ def target_course():
         mydb.close();
         
 
-    data = request.args
-
-    difficulty = data.get('level')
-    location = data.get('region')
-    purpose = data.get('purpose')
-    time = data.get('time')
-
-
-    print("제발ㄹㄹㄹㄹ")
-    # 입력으로 들어온 문제 정보
-    # difficulty = 1
-    # location = '서울'
-    # purpose = 2
-    # time = 30
+    difficulty = request.args.get('level')
+    location = request.args.get('region')
+    purpose = request.args.get('purpose')
+    time = request.args.get('time')
 
 
     # 데이터프레임 생성 및 필터링
