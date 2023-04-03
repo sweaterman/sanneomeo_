@@ -8,18 +8,19 @@ from sklearn.preprocessing import MinMaxScaler
 
 app = Flask(__name__)
 
-# MySQL 데이터베이스 연결 설정
-mydb = DBInfo.mydb()
-
-
 # Flask API
 @app.route('/recommendCourse/<int:course_seq>', methods=['GET'])
 def recommend_course(course_seq):
-    curs = mydb.cursor()
-    sql = "select * from tbl_course"
-    curs.execute(sql)
-    result = curs.fetchall()
-    mydb.close()
+    try:
+        # MySQL 데이터베이스 연결 설정
+        mydb = DBInfo.mydb()
+        with mydb.cursor() as curs:
+            sql = "select * from tbl_course"
+            curs.execute(sql)
+            result = curs.fetchall()
+    finally:
+        mydb.close();
+
 
     df = pd.DataFrame(result)
     df.columns = ['course_seq', 'mountain_seq', 'name', 'introduction', 'length', 'time', 'difficulty_mean',
@@ -50,136 +51,124 @@ def recommend_course(course_seq):
 
 @app.route('/targetCourse', methods=['GET'])
 def target_course():
-    data = request.args
 
-    # 이거로 유사도 뽑고
-    difficulty = data.get('level')
-    location = data.get('si')
-    time = data.get('time')
+    try:
+        # MySQL 데이터베이스 연결 설정
+        mydb = DBInfo.mydb()
+        with mydb.cursor() as curs:
+            sql = "select c.course_seq , c.mountain_seq, c.difficulty_mean, c.time, m.si from tbl_course c left join tbl_mountain m on c.mountain_seq = m.mountain_seq"
+            curs.execute(sql)
+            result = curs.fetchall()
+    finally:
+        mydb.close();
+        
 
-
-    # 입력으로 들어온 문제 정보
-    difficulty = '쉬움'
-    location = '서울'
-    time = 30
-
-    # 입력된 난이도를 범위 값으로 변환합니다.
-    difficulty_ranges = {
-        '쉬움': [1, 1.3],
-        '중간': [1.3, 2.0],
-        '어려움': [2.0, 3.0]
-    }
-    for key, value in difficulty_ranges.items():
-        if value[0] <= difficulty <= value[1]:
-            difficulty = key
-            break
-
-    # 데이터베이스에서 모든 문제 정보를 가져옵니다.
-    conn = sqlite3.connect('problems.db')
-    cur = conn.cursor()
-    cur.execute("SELECT difficulty, location, time FROM problems")
-    problems = cur.fetchall()
-    conn.close()
-
-    # 각 문제의 난이도, 지역, 시간 정보를 벡터로 변환합니다.
-    def convert_difficulty_to_range(difficulty):
-        for key, value in difficulty_ranges.items():
-            if value[0] <= difficulty <= value[1]:
-                return key
-        return None
-
-    vectors = []
-    for problem in problems:
-        problem_difficulty = convert_difficulty_to_range(problem[0])
-        problem_location = problem[1]
-        problem_time = problem[2]
-        vectors.append(np.array([problem_difficulty, problem_location, problem_time]))
-
-    # 입력된 문제 정보도 벡터로 변환합니다.
-    new_problem = np.array([difficulty, location, time])
-    new_problem[0] = convert_difficulty_to_range(new_problem[0])
-
-    # 각 문제와 새로운 문제 간의 코사인 유사도를 계산합니다.
-    similarities = []
-    for i, vector in enumerate(vectors):
-        if vector[1] == new_problem[1]:
-            # 지역이 같을 경우, 난이도와 시간 정보만을 이용하여 유사도를 계산합니다.
-            weight = np.array([1, 0, 1])
-            problem_difficulty = difficulty_ranges[vector[0]]
-            new_problem_difficulty = difficulty_ranges[new_problem[0]]
-            vector[0] = np.mean(problem_difficulty)
-            new_problem[0] = np.mean(new_problem_difficulty)
-            sim = cosine_similarity(vector[[0, 2]].reshape(1, -1), new_problem[[0, 2]].reshape(1, -1))
-            similarities.append((i, sim[0][0]))
-        else:
-            # 지역이 다를 경우, 모든 정보를 이용하여 유사도를 계산합니다.
-            weight = np.array([1, 1, 1])
-            sim = cosine_similarity(vector.reshape(1, -1), new_problem.reshape(1, -1))
-            similarities.append((i, sim[0][0]))
-
-    # 유사도가 가장 높은 문제의 지역 정보를 반환합니다.
-    most_similar = max(similarities, key=lambda x: x[1])
-    location = vectors[most_similar[0]][1]
-    print
+    difficulty = request.args.get('level')
+    location = request.args.get('region')
+    purpose = request.args.get('purpose')
+    time = request.args.get('time')
+    userseq = request.args.get('userseq')
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    #유사도 뽑기
-    curs = mydb.cursor()
-    sql = "select c.course_seq, c.mountain_seq,  c.difficulty_mean, c.time, m.gu, m.dong  from tbl_course c left join tbl_mountain m on c.mountain_seq = m.mountain_seq"
-    curs.execute(sql)
-    result = curs.fetchall()
-    mydb.close()
-
+    # 데이터프레임 생성 및 필터링
     df = pd.DataFrame(result)
-    df.columns = ['course_seq', 'mountain_seq', 'difficulty_mean', 'time', 'gu', 'dong']
+    df.columns = ['course_seq', 'mountain_seq', 'difficulty_mean', 'time', 'si']
 
-    features = ['difficulty_mean', 'time', 'gu','dong']
-    # 정규화
-    scaler = MinMaxScaler()
-    df[features] = scaler.fit_transform(df[features])
+    # 난이도 필터링
+    if difficulty == '1' : #쉬움
+        df = df[df['difficulty_mean'] <= 1.0]
+    elif difficulty == '2': #중간
+        df = df[(df['difficulty_mean'] > 1.0) & (df['difficulty_mean'] < 1.3)]
+    elif difficulty == '3': #어려움
+        df = df[(df['difficulty_mean'] >= 1.3)]
+        
+    print("난이도 필터링")
+    print(df)
 
-    X = df[features].values
+    # 지역 필터링
+    df = df[df['si'].str.contains(location)]
 
-    target_trail = {feature: X[0, i] for i, feature in enumerate(features)}
+    print("지역 필터링")
+    print(df)
 
-    y = np.array([[target_trail[feature] for feature in features]])
+    # 시간 필터링
+    if time == '1': # 30분 미만
+        df = df[df['time'] < 30]
+    elif time == '2': # 30분 이상 1시간 미만
+        df = df[(df['time'] >= 30 ) & (df['time'] < 60)]
+    elif time == '3': # 1시간 이상 2시간 미만
+        df = df[(df['time'] >= 60) & (df['time'] < 120)]
+    elif time == '4': # 2시간 이상 3시간 미만
+        df = df[(df['time'] >= 120) & (df['time'] < 180)]
+    elif time == '5': # 3시간 이상
+        df = df[(df['time'] >= 180) ]
 
-    distances = euclidean_distances(X, y)
+    print("시간 필터링")
+    print(df)
+    #협업 필터링
+    if userseq != '0':
 
-    ranked_trails = sorted(zip(df['course_seq'], distances), key=lambda x: x[1])
-    recommended_trails = [trail[0] for trail in ranked_trails if trail[0] != target_trail['course_seq']][:10]
-
-    recommended_result = {"recommended_result": recommended_trails}
-
-    print(recommended_result)
-
-
-
-
-
-    # 시간 기준으로 필터링
-
-
-    # 집주변 필터링
-
-    # 리스트 중에 힐링이면 유사도 제일 높은거 도전이면 유사도 낮은거 -> 하나 결과로 return
+        # 리뷰 리스트 기반 협업 필터링
+        try:
+            # MySQL 데이터베이스 연결 설정
+            mydb = DBInfo.mydb()
+            with mydb.cursor() as curs:
+                sql = f'SELECT c.course_seq, r.rate FROM tbl_course c JOIN tbl_mountain m ON c.mountain_seq = m.mountain_seq JOIN tbl_review r ON m.mountain_seq = r.mountain_seq WHERE r.user_seq = {userseq}'
+                curs.execute(sql)
+                review_result = curs.fetchall()
+        finally:
+            mydb.close();
 
 
-    return "성공"
+        review_df = pd.DataFrame(review_result)
+        review_df.columns = ['course_seq', 'rate']
+
+        # 찜 리스트 기반 협업 필터링
+        try:
+            # MySQL 데이터베이스 연결 설정
+            mydb = DBInfo.mydb()
+            with mydb.cursor() as curs:
+                sql = f'SELECT course_seq FROM tbl_keep WHERE user_seq = {userseq} AND is_keep = 1'
+                curs.execute(sql)
+                keep_result = curs.fetchall()
+        finally:
+            mydb.close();
+
+        keep_df = pd.DataFrame(keep_result)
+        keep_df.columns = ['course_seq']
+
+        # 리뷰 리스트와 찜 리스트를 합친 데이터프레임 생성
+        collab_df = pd.concat([review_df, keep_df], ignore_index=True)
+
+        # 협업 필터링을 위한 pivot table 생성
+        pivot_table = collab_df.pivot_table(index=['course_seq'], aggfunc='mean')
+        pivot_table.columns = ['collaborative_rate']
+
+        # 데이터프레임에 협업 필터링 결과를 추가
+        df = df.join(pivot_table, on='course_seq', how='left')
+
+        # 협업 필터링 결과에 따라 추천 결과 필터링
+        if 'collaborative_rate' in df.columns:
+            df = df[(df['collaborative_rate'] > 4.0) | (df['collaborative_rate'].isna())]
+
+        print("협업필터링 결과")
+        print(df)
+        
+
+
+    # 목적 필터링
+    df['sum'] = df['difficulty_mean'] + df['time']
+
+    if purpose == '1':  # 힐링
+        result_course_seq = df.loc[df['sum'].astype(int).idxmin()]
+
+    elif purpose == '2':  # 도전
+        result_course_seq = df.loc[df['sum'].astype(int).idxmax()]
+
+    print("목적 필터링")
+    print(df)
+
+    return str(result_course_seq['course_seq'])
 
 if __name__ == '__main__':
     app.run(debug=True)
