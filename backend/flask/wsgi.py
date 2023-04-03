@@ -8,8 +8,6 @@ from sklearn.preprocessing import MinMaxScaler
 
 app = Flask(__name__)
 
-
-
 # Flask API
 @app.route('/recommendCourse/<int:course_seq>', methods=['GET'])
 def recommend_course(course_seq):
