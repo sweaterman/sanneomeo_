@@ -18,8 +18,8 @@ public class Keep {
     private Long keepSeq;
     @Column(name = "user_seq", nullable = false)
     private Long userSeq;
-    @Column(name = "trail_seq", nullable = false)
-    private Long trailSeq;
+    @Column(name = "course_seq", nullable = false)
+    private Long courseSeq;
     @Column(name = "is_keep", nullable = false, columnDefinition = "TINYINT(1) default 1")
     private boolean isKeep = true;
     @Column(name = "created_at")
@@ -28,9 +28,9 @@ public class Keep {
     private Timestamp updatedAt;
 
     @Builder
-    public Keep(Long userSeq, Long trailSeq) {
+    public Keep(Long userSeq, Long courseSeq) {
         this.userSeq = userSeq;
-        this.trailSeq = trailSeq;
+        this.courseSeq = courseSeq;
     }
 
     public void updateIsKeep() {
