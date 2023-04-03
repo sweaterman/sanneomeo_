@@ -11,30 +11,8 @@ function UserChallenge() {
   const userChallengeData = useAppSelector(userChallenge);
   const userChallengeDispatch = useAppDispatch();
 
-  // 따라다니는 메뉴바 관련 코드
-  const [menuVisible, setMenuVisible] = useState(false);
-  const handleScroll = () => {
-    const trailItems = document.querySelector('.trail-items');
-    const menu = document.querySelector('.menu');
-    if (trailItems && menu) {
-      const trailItemsBottom = trailItems.getBoundingClientRect().bottom;
-      const scrollTop =
-        window.pageYOffset || document.documentElement.scrollTop;
-      setMenuVisible(scrollTop > trailItemsBottom);
-    }
-  };
-
-  useEffect(() => {
-    userChallengeDispatch(getChallengeList());
-    console.log('result', userChallengeData.result.challengeList[0]);
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
   return (
-    <>
+    <div className="user-challenge">
       <div className="user-conquer">
         <div className="conquer-text">정복한 산</div>
         <div className="conquer-number">
@@ -42,7 +20,7 @@ function UserChallenge() {
         </div>
       </div>
       <ChallengeBox challengeList={userChallengeData.result.challengeList} />
-    </>
+    </div>
   );
 }
 
