@@ -11,14 +11,14 @@ function Searchbar(props: { setSearchMountain: any; searchList: Array<any> }) {
     <div>
       <div className="searchbar">
         <input type="search" placeholder="찾아보기" onChange={getValue}></input>
-        <BiSearch size="24" />
+        {/* <BiSearch size="24" /> */}
       </div>
       <ul>
         {props.searchList.map((mountain) => (
-          <li key={mountain.mountainSeq}>
-            {mountain.name} {mountain.si}
-            {mountain.gu}
-            {mountain.dong}
+          <li className="search-list" key={mountain.mountainSeq}>
+            {mountain.name}
+            <br />
+            {mountain.si} {mountain.gu} {mountain.dong}
           </li>
         ))}
       </ul>

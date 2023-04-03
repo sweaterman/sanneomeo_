@@ -36,6 +36,7 @@ interface elasticMountain {
   latitude: number;
   longitude: number;
   altitude: number;
+  difficulty: string;
 }
 
 interface elasticList {
