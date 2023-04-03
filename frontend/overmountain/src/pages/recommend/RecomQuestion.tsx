@@ -3,6 +3,8 @@ import React, { useState, useEffect } from 'react';
 import lowLevel from '@assets/images/question_low.png';
 import midLevel from '@assets/images/question_mid.png';
 import highLevel from '@assets/images/question_high.png';
+import Lottie from 'lottie-react';
+import squirrelAnimation from '@assets/lottie/squirrel.json'
 
 import { ReactComponent as Seoul } from '@assets/images/Seoul.svg';
 import { ReactComponent as Chungcheongbuk_do } from '@assets/images/Chungcheongbuk_do.svg';
@@ -83,10 +85,25 @@ function RecomQuestion() {
   const mascottMessage = '람쥐가 추천해줄겡  자유롭게 선택해봐';
   return (
     // 선택된 이미지로 submit 구현하기
-    <div>
-      <MascottMain balloonText={mascottMessage} />
+    <div className="recom-question">
+      <div className="recom-banner">
+        <div className="recom-title">
+          <h1>람쥐의 추천!</h1>
+          <span>
+          어떤 등산 스타일을 가지고 계신가요?<br/>
+          람쥐가 산을 추천해줄거에요!
+          </span>
+        </div>
+        <Lottie
+          style={{ height: 320 }}
+          animationData={squirrelAnimation} 
+          loop={false}
+        />
+      </div>
+      {/* <MascottMain balloonText={mascottMessage} /> */}
+      {/* <hr/> */}
       <form onSubmit={submitHandler}>
-        <div className="level-text">본인의 등산레벨은?</div>
+        <div className="level-text">어느 단계의 산을 원하시나요?</div>
         <div className="level-question">
           <div
             className={
@@ -97,7 +114,7 @@ function RecomQuestion() {
             onKeyDown={setLowHandler}
           >
             <img src={lowLevel} alt="low" />
-            <div>동산</div>
+            <div className="question-text">동산</div>
           </div>
           <div
             className={
@@ -108,7 +125,7 @@ function RecomQuestion() {
             onKeyDown={setMidHandler}
           >
             <img src={midLevel} alt="mid" />
-            <div>관악산</div>
+            <div className="question-text">관악산</div>
           </div>
           <div
             className={
@@ -119,12 +136,12 @@ function RecomQuestion() {
             onKeyDown={setHighHandler}
           >
             <img src={highLevel} alt="high" />
-            <div>한라산</div>
+            <div className="question-text">한라산</div>
           </div>
         </div>
-        <br />
+        {/* <br /> */}
         <hr />
-        <div className="like-text">등산지역 선호도</div>
+        <div className="like-text">어디에 있는 산을 가고싶나요?</div>
         <div className="like-question">
           <div className="korea-map">
             <Seoul className="seoul" />
@@ -211,7 +228,7 @@ function RecomQuestion() {
             onKeyDown={setHealingHandler}
           >
             <img src={healing} alt="healing" />
-            <div>힐링</div>
+            <div className="question-text">힐링</div>
           </div>
           <div
             className={
@@ -222,7 +239,7 @@ function RecomQuestion() {
             onKeyDown={setChallengeHandler}
           >
             <img src={challenge} alt="challenge" />
-            <div>도전</div>
+            <div className="question-text">도전</div>
           </div>
         </div>
         <br />
@@ -240,7 +257,7 @@ function RecomQuestion() {
             }}
           >
             <img src={under3} alt="under3" />
-            <div>30분 이내</div>
+            <div className="time-text">30분 이내</div>
           </div>
           <div
             className={userTime === 2 ? 'select-time active' : 'select-time'}
@@ -253,7 +270,7 @@ function RecomQuestion() {
             }}
           >
             <img src={under5} alt="under5" />
-            <div>30분이상 1시간이내</div>
+            <div className="time-text">30분 이상 1시간 이내</div>
           </div>
           <div
             className={userTime === 3 ? 'select-time active' : 'select-time'}
@@ -266,7 +283,7 @@ function RecomQuestion() {
             }}
           >
             <img src={under7} alt="under7" />
-            <div>1시간이상 2시간이내</div>
+            <div className="time-text">1시간 이상 2시간 이내</div>
           </div>
           <div
             className={userTime === 4 ? 'select-time active' : 'select-time'}
@@ -279,7 +296,7 @@ function RecomQuestion() {
             }}
           >
             <img src={under10} alt="under10" />
-            <div>2시간이상 3시간이내</div>
+            <div className="time-text">2시간 이상 3시간 이내</div>
           </div>
           <div
             className={userTime === 5 ? 'select-time active' : 'select-time'}
@@ -292,7 +309,7 @@ function RecomQuestion() {
             }}
           >
             <img src={over10} alt="over10" />
-            <div>3시간이상</div>
+            <div className="time-text">3시간 이상</div>
           </div>
         </div>
         <br />

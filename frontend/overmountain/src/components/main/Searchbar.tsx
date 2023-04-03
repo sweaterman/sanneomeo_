@@ -11,10 +11,13 @@ function Searchbar(props: {
   };
 
   return (
-    <div>
-      <div className="searchbar">
-        <input type="search" placeholder="찾아보기" onChange={getValue}></input>
-        {/* <BiSearch size="24" /> */}
+    <div className="search-bar">
+      {/* <div className = "search-title">
+        <h1></h1>
+      </div> */}
+      <div className="search-container">
+        <input type="search" placeholder="등산하고 싶은 산을 찾아보세요!" onChange={getValue}></input>
+        <BiSearch size="24" />
       </div>
       <ul>
         {props.searchList.map((mountain) => (

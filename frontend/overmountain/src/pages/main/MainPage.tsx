@@ -95,6 +95,8 @@ function MainPage() {
 
   return (
     <div className="mainpage">
+      {/* <MainBanner/> */}
+
       <Searchbar
         setSearchMountain={setSearchMountainText}
         searchList={searchData.result}
@@ -102,9 +104,11 @@ function MainPage() {
       <MapContainerMain />
       <div className="flex">{/* <MascottMain /> */}</div>
 
+      {/* <hr/> */}
+
       {/* 내 위치 기반 등산로 return API 테스트 */}
       {/* 아래부분 Routing 수정 해서 trailSeq 넘기기 */}
-      <div>
+      {/* <div>
         <button type="button" onClick={positionClick}>
           TEST
         </button>
@@ -113,24 +117,29 @@ function MainPage() {
           position - latitude : {latitude}
           등산로 : {positionData.result.trailSeq}
         </div>
-      </div>
+      </div> */}
 
       {/* 계절 명산 */}
       <MountainItem
-        title={`${koreanTitle} 명산`}
+        title={`${koreanTitle} 명산으로 떠나봐요!`}
         data={seasonMountainData.result.seasonList}
+        is100={false}
       />
 
       {/* 100대 명산 리스트 */}
       <MountainItem
-        title={`100대 명산`}
+        title={`100대 명산 챌린지`}
         data={userChallengeData.result.challengeList}
+        is100={true}
       />
 
       {/* 100대 명산 자세히 보기 버튼 */}
       {/* <div className="user-challenge">
         <NavLink to="/user/challenge">자세히보기</NavLink>
       </div> */}
+
+      {/* 지금등산중이라면? */}
+
     </div>
   );
 }
