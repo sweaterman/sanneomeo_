@@ -53,9 +53,88 @@ def target_course():
     data = request.args
 
     # 이거로 유사도 뽑고
-    level = data.get('level')
-    si = data.get('si')
+    difficulty = data.get('level')
+    location = data.get('si')
     time = data.get('time')
+
+
+    # 입력으로 들어온 문제 정보
+    difficulty = '쉬움'
+    location = '서울'
+    time = 30
+
+    # 입력된 난이도를 범위 값으로 변환합니다.
+    difficulty_ranges = {
+        '쉬움': [1, 1.3],
+        '중간': [1.3, 2.0],
+        '어려움': [2.0, 3.0]
+    }
+    for key, value in difficulty_ranges.items():
+        if value[0] <= difficulty <= value[1]:
+            difficulty = key
+            break
+
+    # 데이터베이스에서 모든 문제 정보를 가져옵니다.
+    conn = sqlite3.connect('problems.db')
+    cur = conn.cursor()
+    cur.execute("SELECT difficulty, location, time FROM problems")
+    problems = cur.fetchall()
+    conn.close()
+
+    # 각 문제의 난이도, 지역, 시간 정보를 벡터로 변환합니다.
+    def convert_difficulty_to_range(difficulty):
+        for key, value in difficulty_ranges.items():
+            if value[0] <= difficulty <= value[1]:
+                return key
+        return None
+
+    vectors = []
+    for problem in problems:
+        problem_difficulty = convert_difficulty_to_range(problem[0])
+        problem_location = problem[1]
+        problem_time = problem[2]
+        vectors.append(np.array([problem_difficulty, problem_location, problem_time]))
+
+    # 입력된 문제 정보도 벡터로 변환합니다.
+    new_problem = np.array([difficulty, location, time])
+    new_problem[0] = convert_difficulty_to_range(new_problem[0])
+
+    # 각 문제와 새로운 문제 간의 코사인 유사도를 계산합니다.
+    similarities = []
+    for i, vector in enumerate(vectors):
+        if vector[1] == new_problem[1]:
+            # 지역이 같을 경우, 난이도와 시간 정보만을 이용하여 유사도를 계산합니다.
+            weight = np.array([1, 0, 1])
+            problem_difficulty = difficulty_ranges[vector[0]]
+            new_problem_difficulty = difficulty_ranges[new_problem[0]]
+            vector[0] = np.mean(problem_difficulty)
+            new_problem[0] = np.mean(new_problem_difficulty)
+            sim = cosine_similarity(vector[[0, 2]].reshape(1, -1), new_problem[[0, 2]].reshape(1, -1))
+            similarities.append((i, sim[0][0]))
+        else:
+            # 지역이 다를 경우, 모든 정보를 이용하여 유사도를 계산합니다.
+            weight = np.array([1, 1, 1])
+            sim = cosine_similarity(vector.reshape(1, -1), new_problem.reshape(1, -1))
+            similarities.append((i, sim[0][0]))
+
+    # 유사도가 가장 높은 문제의 지역 정보를 반환합니다.
+    most_similar = max(similarities, key=lambda x: x[1])
+    location = vectors[most_similar[0]][1]
+    print
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     #유사도 뽑기
