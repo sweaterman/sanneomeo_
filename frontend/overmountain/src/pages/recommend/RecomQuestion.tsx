@@ -3,6 +3,19 @@ import React, { useState, useEffect } from 'react';
 import lowLevel from '@assets/images/question_low.png';
 import midLevel from '@assets/images/question_mid.png';
 import highLevel from '@assets/images/question_high.png';
+
+import { ReactComponent as Seoul } from '@assets/images/Seoul.svg';
+import { ReactComponent as Chungcheongbuk_do } from '@assets/images/Chungcheongbuk_do.svg';
+import { ReactComponent as Chungcheongnam_do } from '@assets/images/Chungcheongnam_do.svg';
+import { ReactComponent as Gangwon_do } from '@assets/images/Gangwon_do.svg';
+import { ReactComponent as Gyeonggi_do } from '@assets/images/Gyeonggi_do.svg';
+import { ReactComponent as Gyeongsangbuk_do } from '@assets/images/Gyeongsangbuk_do.svg';
+import { ReactComponent as Gyeongsangnam_do } from '@assets/images/Gyeongsangnam_do.svg';
+import { ReactComponent as Incheon } from '@assets/images/Incheon.svg';
+import { ReactComponent as Jeju_do } from '@assets/images/Jeju_do.svg';
+import { ReactComponent as Jeollabuk_do } from '@assets/images/Jeollabuk_do.svg';
+import { ReactComponent as Jeollanam_do } from '@assets/images/Jeollanam_do.svg';
+
 import narrow from '@assets/images/question_narrow.png';
 import broad from '@assets/images/question_broad.png';
 import healing from '@assets/images/question_healing.png';
@@ -83,7 +96,7 @@ function RecomQuestion() {
     navigate('/recommend/result');
   };
   // 람쥐설문문구
-  const mascottMessage = '람쥐가 추천해줄겡&nbsp; 자유롭게 선택해봐';
+  const mascottMessage = '람쥐가 추천해줄겡  {}자유롭게 선택해봐';
   return (
     // 선택된 이미지로 submit 구현하기
     <div>
@@ -129,6 +142,20 @@ function RecomQuestion() {
         <hr />
         <div className="like-text">등산지역 선호도</div>
         <div className="like-question">
+          <div className="korea-map">
+            <Seoul className="seoul" />
+            <Gyeonggi_do className="gyeonggi" />
+            <Incheon className="incheon" />
+            <Chungcheongbuk_do className="chungbuk" />
+            <Chungcheongnam_do className="chungnam" />
+            <Gangwon_do className="gangwon" />
+            <Gyeongsangbuk_do className="gyeongbuk" />
+            <Gyeongsangnam_do className="gyeongnam" />
+            <Jeollabuk_do className="jeonbuk" />
+            <Jeollanam_do className="jeonnam" />
+            <Jeju_do className="jeju" />
+          </div>
+
           <div
             className={
               userRegion === 1 ? 'select-circle active' : 'select-circle'

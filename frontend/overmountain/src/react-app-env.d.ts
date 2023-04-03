@@ -28,11 +28,11 @@ interface Mountain {
 
 // elastic 검색위한 산정보
 interface elasticMountain {
-  mountainSeq: string;
   name: string;
   si: string;
   gu: string;
   dong: string;
+  sequence: string;
   latitude: number;
   longitude: number;
   altitude: number;
