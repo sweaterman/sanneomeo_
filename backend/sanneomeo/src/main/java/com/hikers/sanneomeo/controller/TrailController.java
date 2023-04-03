@@ -1,5 +1,6 @@
 package com.hikers.sanneomeo.controller;
 
+import com.hikers.sanneomeo.config.YmlConfig;
 import com.hikers.sanneomeo.dto.request.KeepTrailRequestDto;
 import com.hikers.sanneomeo.dto.response.BaseResponseDto;
 import com.hikers.sanneomeo.dto.response.PathResponseDto;
@@ -23,6 +24,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TrailController {
 
     private final TrailService trailService;
+    private final YmlConfig ymlConfig;
 
     @GetMapping("/info/{trailIdx}")
     public BaseResponseDto<?> getTrailInfo(@PathVariable("trailIdx") Long seq) {
@@ -36,7 +38,7 @@ public class TrailController {
             Long authUserSeq = Long.parseLong(SecurityContextHolder.getContext().getAuthentication().getPrincipal().toString());
             //유저가 해당 trailSeq에 대한 찜 데이터 있다면 get -> true/false 토글
             //없다면 post
-            boolean result = trailService.keep(authUserSeq,  keepTrailRequestDto.getTrailSeq());
+            boolean result = trailService.keep(authUserSeq,  keepTrailRequestDto.getCourseSeq());
             return new BaseResponseDto<>(result);
         } catch (Exception e) {
             if (e instanceof BaseException) {
@@ -50,11 +52,13 @@ public class TrailController {
 
     @GetMapping("/trail/recommend/survey")
     public BaseResponseDto<?> getRecommendTrails(@RequestParam(value="level", required=false) int level,
-                                                 @RequestParam(value="level", required=false) int region,
-                                                 @RequestParam(value="level", required=false) int purpose,
-                                                 @RequestParam(value="level", required=false) int time) {
+                                                 @RequestParam(value="region", required=false) String region,
+                                                 @RequestParam(value="purpose", required=false) int purpose,
+                                                 @RequestParam(value="time", required=false) int time) {
 
-        String flaskUrl = "";
+        // level : 1/2/3, region : si(8도), purpose :
+        String flaskUrl = ymlConfig.getFlaskEndPoint();
+
         return null;
     }
 
