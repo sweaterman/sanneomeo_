@@ -89,12 +89,8 @@ public class MountainController {
     public BaseResponseDto<?> writeReview(@RequestBody WriteReviewRequestDto writeReviewRequestDto){
         try{
 
-            //요청 내부의 userSeq와 인증된 userSeq가 다를 경우
             Long authUserSeq = Long.parseLong(SecurityContextHolder.getContext().getAuthentication().getPrincipal().toString());
-            if (authUserSeq != writeReviewRequestDto.getUserSeq()) {
-                throw new BaseException(UNAUTHORIZED_USER);
-            }
-
+            writeReviewRequestDto.setUserSeq(authUserSeq);
             boolean result = mountainService.writeReview(writeReviewRequestDto);
             return new BaseResponseDto<>(result);
         }catch (Exception e){
