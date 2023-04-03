@@ -38,4 +38,10 @@ public class MountainDocument {
   @Field(type = FieldType.Text)
   private String longitude;
 
+  @Field(type = FieldType.Text)
+  private String altitude;
+
+  @Field(type = FieldType.Text)
+  private String difficulty;
+
 }

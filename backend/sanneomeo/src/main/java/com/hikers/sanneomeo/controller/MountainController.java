@@ -2,10 +2,12 @@ package com.hikers.sanneomeo.controller;
 
 import static com.hikers.sanneomeo.exception.BaseResponseStatus.UNAUTHORIZED_USER;
 
+import com.hikers.sanneomeo.domain.MountainDocument;
 import com.hikers.sanneomeo.dto.request.UploadImagesRequestDto;
 import com.hikers.sanneomeo.dto.request.WriteReviewRequestDto;
 import com.hikers.sanneomeo.dto.response.BaseResponseDto;
 import com.hikers.sanneomeo.dto.response.MountainDetailResponseDto;
+import com.hikers.sanneomeo.dto.response.MountainSearchResponseDto;
 import com.hikers.sanneomeo.dto.response.PhotoResponseDto;
 import com.hikers.sanneomeo.dto.response.TrailListResponseDto;
 import com.hikers.sanneomeo.dto.response.ReviewResponseDto;
@@ -157,9 +159,9 @@ public class MountainController {
     }
 
     @GetMapping("/search")
-    public BaseResponseDto<Boolean> searchMountain(@RequestParam("key") String key){
-        mountainService.search(key);
-        return new BaseResponseDto<>(true);
+    public BaseResponseDto<List<MountainDocument>> searchMountain(@RequestParam("key") String key){
+        return new BaseResponseDto<>(mountainService.search(key));
 
     }
+
 }

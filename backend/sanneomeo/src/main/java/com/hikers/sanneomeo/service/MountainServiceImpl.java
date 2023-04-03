@@ -138,11 +138,9 @@ public class MountainServiceImpl implements MountainService{
 
 
     @Override
-    public void search(String key){
+    public List<MountainDocument> search(String key){
         List<MountainDocument> mountainDocumentList = mountainDocumentRepository.searchByKey(key);
-
-
-        System.out.println(mountainDocumentList);
+        return mountainDocumentList;
     }
 }
 
