@@ -8,18 +8,21 @@ from sklearn.preprocessing import MinMaxScaler
 
 app = Flask(__name__)
 
-# MySQL 데이터베이스 연결 설정
-mydb = DBInfo.mydb()
 
 
 # Flask API
 @app.route('/recommendCourse/<int:course_seq>', methods=['GET'])
 def recommend_course(course_seq):
-    curs = mydb.cursor()
-    sql = "select * from tbl_course"
-    curs.execute(sql)
-    result = curs.fetchall()
-    mydb.close()
+    try:
+        # MySQL 데이터베이스 연결 설정
+        mydb = DBInfo.mydb()
+        with mydb.cursor() as curs:
+            sql = "select * from tbl_course"
+            curs.execute(sql)
+            result = curs.fetchall()
+    finally:
+        mydb.close();
+
 
     df = pd.DataFrame(result)
     df.columns = ['course_seq', 'mountain_seq', 'name', 'introduction', 'length', 'time', 'difficulty_mean',
@@ -50,32 +53,37 @@ def recommend_course(course_seq):
 
 @app.route('/targetCourse', methods=['GET'])
 def target_course():
+    print("dddd")
+    try:
+        # MySQL 데이터베이스 연결 설정
+        mydb = DBInfo.mydb()
+        with mydb.cursor() as curs:
+            sql = "select c.course_seq , c.mountain_seq, c.difficulty_mean, c.time, m.si from tbl_course c left join tbl_mountain m on c.mountain_seq = m.mountain_seq"
+            curs.execute(sql)
+            result = curs.fetchall()
+    finally:
+        mydb.close();
+        
+
     data = request.args
 
-    # 이거로 유사도 뽑고
     difficulty = data.get('level')
     location = data.get('region')
     purpose = data.get('purpose')
     time = data.get('time')
 
 
+    print("제발ㄹㄹㄹㄹ")
     # 입력으로 들어온 문제 정보
-    difficulty = 1
-    location = '서울'
-    purpose = 1
-    time = 30
+    # difficulty = 1
+    # location = '서울'
+    # purpose = 2
+    # time = 30
 
-    # 코스 정보 가져오기
-    curs = mydb.cursor()
-    sql = "select c.course_seq , c.mountain_seq, c.difficulty_mean, c.time, m.si from tbl_course c left join tbl_mountain m on c.mountain_seq = m.mountain_seq"
-    curs.execute(sql)
-    result = curs.fetchall()
-    mydb.close()
 
     # 데이터프레임 생성 및 필터링
     df = pd.DataFrame(result)
     df.columns = ['course_seq', 'mountain_seq', 'difficulty_mean', 'time', 'si']
-
 
     # 난이도 필터링
     if difficulty == 1 : #쉬움
@@ -85,11 +93,8 @@ def target_course():
     elif difficulty == 3: #어려움
         df = df[(df['difficulty_mean'] >= 1.3) ]
 
-    print(df)
-
     # 지역 필터링
     df = df[df['si'].str.contains(location)]
-    print(df)
 
     # 시간 필터링
     if time == 1: # 30분 미만
@@ -104,19 +109,14 @@ def target_course():
         df = df[(df['time'] >= 180) ]
 
     # 목적 필터링
-    # df['sum'] = df['difficulty_mean'] + df['time']
-    # if purpose == 1 : #힐링
-    #     df = df.loc[df['sum'].idxmin(), ['difficulty_mean', 'time']]
-    # elif purpose == 2 : #도전
-    #     df['sum'] = df['difficulty_mean'] + df['time']
-    #     df = df.loc[df['sum'].idxmax()]
-
-    print("목적 필터링")
-    print(df)
+    df['sum'] = df['difficulty_mean'] + df['time']
+    if purpose == 1: #힐링
+        result_course_seq = df.loc[df['sum'].astype(int).idxmin()]
+    elif purpose == 2: #도전
+        result_course_seq = df.loc[df['sum'].astype(int).idxmax()]
 
 
-
-    return "안녕"
+    return str(result_course_seq['course_seq'])
 
 if __name__ == '__main__':
     app.run(debug=True)
