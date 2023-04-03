@@ -8,5 +8,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface KeepRepository extends JpaRepository<Keep, Long>, KeepRepositoryCustom {
-    Optional<Keep> findFirstByUserSeqAndTrailSeq(Long userSeq, Long trailSeq);
+    Optional<Keep> findFirstByUserSeqAndCourseSeq(Long userSeq, Long courseSeq);
 }

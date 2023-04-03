@@ -1,5 +1,6 @@
 package com.hikers.sanneomeo.repository;
 
+import static com.hikers.sanneomeo.domain.QCourse.course;
 import static com.hikers.sanneomeo.domain.QKeep.keep;
 import static com.hikers.sanneomeo.domain.QMountain.mountain;
 import static com.hikers.sanneomeo.domain.QTrail.trail;
@@ -27,7 +28,7 @@ public class KeepRepositoryImpl implements KeepRepositoryCustom{
                     trail.trailSeq, trail.name, trail.mountainSeq, trail.difficulty,
                     trail.uptime, trail.downtime, trail.length, keep.isKeep))
             .from(keep)
-            .join(trail).on(keep.trailSeq.eq(trail.trailSeq))
+            .join(course).on(keep.courseSeq.eq(trail.trailSeq))
             .where(keep.userSeq.eq(userSeq).and(keep.isKeep.eq(true)))
             .fetch();
   }

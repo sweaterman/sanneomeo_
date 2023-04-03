@@ -1,5 +1,6 @@
 package com.hikers.sanneomeo.service;
 
+import com.hikers.sanneomeo.domain.MountainDocument;
 import com.hikers.sanneomeo.dto.request.UploadImagesRequestDto;
 import com.hikers.sanneomeo.dto.request.WriteReviewRequestDto;
 import com.hikers.sanneomeo.dto.response.MountainDetailResponseDto;
@@ -29,4 +30,8 @@ public interface MountainService {
 
     MountainDetailResponseDto getMountainInfoBysequence(String sequence);
     NearMountainResponseDto getMountainSeqByDistance(BigDecimal latitude, BigDecimal longitude);
+
+    //mountain
+    List<MountainDocument> search(String key);
+
 }
