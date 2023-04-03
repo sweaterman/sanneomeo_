@@ -8,6 +8,7 @@ import com.hikers.sanneomeo.domain.Keep;
 import com.hikers.sanneomeo.dto.response.*;
 import com.hikers.sanneomeo.exception.BaseException;
 import com.hikers.sanneomeo.exception.BaseResponseStatus;
+import com.hikers.sanneomeo.repository.CourseRepository;
 import com.hikers.sanneomeo.repository.KeepRepository;
 import com.hikers.sanneomeo.repository.TrailPathRepository;
 import com.hikers.sanneomeo.repository.TrailRepository;
@@ -32,7 +33,9 @@ public class TrailServiceImpl implements TrailService {
     private final KeepRepository keepRepository;
     private final TrailRepository trailRepository;
     private final TrailPathRepository trailPathRepository;
+    private final CourseRepository courseRepository;
     private final YmlConfig ymlConfig;
+
 
     @Override
     public TrailDetailResponseDto getTrailDetail(Long sequence) {
@@ -104,17 +107,23 @@ public class TrailServiceImpl implements TrailService {
             String responseJson = response.getBody();
             JsonNode responseNode = objectMapper.readTree(responseJson);
             List<GetRecommendCourseResponseDto> result = new ArrayList<>();
-//            List<String> recommendedTrails = new ArrayList<>();
             JsonNode recommendedResultNode = responseNode.get("recommended_result");
             if (recommendedResultNode != null && recommendedResultNode.isArray()) {
-                for (JsonNode trailNode : recommendedResultNode) {
-
-//                    GetRecommendCourseResponseDto courseDto = new GetRecommendCourseResponseDto(trailNode.asLong());
-//                    GetRecommendCourseResponseDto courseDto =
-//                    result.add(courseDto);
+                //로그인 유저가 있을때 isKeep정보도 가져와야함
+                if (SecurityContextHolder.getContext().getAuthentication().getPrincipal() != "anonymousUser") {
+                    Long authUserSeq = Long.parseLong(SecurityContextHolder.getContext().getAuthentication().getPrincipal().toString());
+                    for (JsonNode trailNode : recommendedResultNode) {
+                        Optional<GetRecommendCourseResponseDto> courseDto = courseRepository.findCourseByCourseSequenceAndUserSeq(trailNode.asLong(), authUserSeq);
+                        courseDto.ifPresent(result::add);
+                    }
+                } else {
+                    for (JsonNode trailNode : recommendedResultNode) {
+                        Optional<GetRecommendCourseResponseDto> courseDto = courseRepository.findCourseByCourseSequence(trailNode.asLong());
+                        courseDto.ifPresent(result::add);
+                    }
                 }
-            }
 
+            }
             return result; // 처리 결과에 맞게 반환값 설정
         } catch (JsonProcessingException e) {
             // 예외 처리
