@@ -72,6 +72,7 @@ def target_course():
 
 
     print("제발ㄹㄹㄹㄹ")
+    print(location)
     # 입력으로 들어온 문제 정보
     # difficulty = 1
     # location = '서울'
@@ -113,7 +114,7 @@ def target_course():
     elif purpose == 2: #도전
         result_course_seq = df.loc[df['sum'].astype(int).idxmax()]
 
-
+    print(result_course_seq)
     return str(result_course_seq['course_seq'])
 
 if __name__ == '__main__':

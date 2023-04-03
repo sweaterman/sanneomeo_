@@ -63,12 +63,13 @@ public class TrailController {
                                                  @RequestParam(value = "purpose", required = false) int purpose,
                                                  @RequestParam(value = "time", required = false) int time) {
         // level : 1/2/3, region : si(8도), purpose : 1/2, time : 1/2/3/4/5
-        String flaskUrl = ymlConfig.getFlaskEndPoint() +
+        String flaskUrl = ymlConfig.getFlaskEndPoint() + "/targetCourse" +
                 "?level=" + level + "&region=" + region + "&purpose=" + purpose + "&time=" + time;
 //        String flaskUrl = "http://localhost:5000/recommendCourse/41550070105";
         RestTemplate restTemplate = new RestTemplate();
         ResponseEntity<String> response = restTemplate.getForEntity(flaskUrl, String.class);
         ObjectMapper objectMapper = new ObjectMapper(); // JSON 형식의 문자열을 객체로 변환하기 위한 ObjectMapper 생성
+        System.out.println(response.getBody());
         try {
             // JSON 형식의 문자열을 응답 객체로 변환
             String responseJson = response.getBody();
