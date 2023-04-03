@@ -8,11 +8,6 @@ from sklearn.preprocessing import MinMaxScaler
 
 app = Flask(__name__)
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 6111df171842ca1e6e6ef8efc80adff30f3848b9
-
 # Flask API
 @app.route('/recommendCourse/<int:course_seq>', methods=['GET'])
 def recommend_course(course_seq):
@@ -25,11 +20,8 @@ def recommend_course(course_seq):
             result = curs.fetchall()
     finally:
         mydb.close();
-<<<<<<< HEAD
-=======
 
 
->>>>>>> 6111df171842ca1e6e6ef8efc80adff30f3848b9
     df = pd.DataFrame(result)
     df.columns = ['course_seq', 'mountain_seq', 'name', 'introduction', 'length', 'time', 'difficulty_mean',
                   'review_cnt', 'review_mean', 'slope_mean', 'altitude', 'recommend', 'best_trail']
