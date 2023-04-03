@@ -1,5 +1,5 @@
 from flask import Flask, request
-import pymysql
+from DBInfo import DBInfo
 import pandas as pd
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity, euclidean_distances
@@ -9,22 +9,7 @@ from sklearn.preprocessing import MinMaxScaler
 app = Flask(__name__)
 
 # MySQL 데이터베이스 연결 설정
-mydb = pymysql.connect(
-  # MySQL 로컬 연결 정보 입력
-  host="localhost",
-  port=3306,
-  user="ssafy",
-  password="ssafy",
-  database="sanneomeo"
-
-    # # MySQL 서버 연결 정보 입력
-    # host = "13.124.170.93",
-    # port = 3306,
-    # user = "ssafy",
-    # password = "hikers",
-    # database = "sanneomeo",
-    # charset = "utf8"
-)
+mydb = DBInfo.mydb()
 
 
 
