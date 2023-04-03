@@ -17,7 +17,7 @@ public interface MountainDocumentRepository extends
 
   //  @Query("{\"match\": {\"title\": {\"query\": \"*?0*\"}}}")
   @Query("{\"multi_match\" : {\n"
-      + "        \"query\":    \"서ㄷ\", \n"
+      + "        \"query\":    \"?0\", \n"
       + "        \"fields\": [ \"name^2\", \"dong\", \"gu\",\"si\" ]\n"
       + "      }\n"
       + "}")
