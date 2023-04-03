@@ -154,3 +154,21 @@ interface TrailLike {
 interface TrailLikeList {
   result: Array<TrailLike>;
 }
+
+// 한 개의 리뷰
+interface Review {
+  userSeq: number;
+  mountainSeq: string;
+  nickname: string;
+  profileImage: string;
+  reviewSeq: number;
+  rate: number;
+  content: string;
+  createdAt: number;
+  writer: true;
+}
+
+// 리뷰 리스트
+interface ReviewList {
+  reviewList: Array<Review>;
+}
