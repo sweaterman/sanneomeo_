@@ -12,6 +12,7 @@ import {
   setSelectedTrailKey,
   selectedTrailKey,
 } from '@features/trail/selectedTrailSlice';
+import { trailKeep, updateTrailKeep } from '@features/trail/trailKeepSlice';
 
 function TrailItems(props: { mountainSeq: string }) {
   const { mountainSeq } = props;
@@ -26,6 +27,23 @@ function TrailItems(props: { mountainSeq: string }) {
   // 등산로 선택했을 때, state의 selected key 바꾸기
   const selectedKey = useAppSelector(selectedTrailKey);
   const selectedDispatch = useAppDispatch();
+
+  // 등산로 찜하기
+  const keepDispatch = useAppDispatch();
+  const keepChange = (checkVal: boolean, trailSeq: number) => {
+    console.log('찜번호:', trailSeq);
+    keepDispatch(updateTrailKeep(trailSeq)).then(() => {
+      // 찜 X -> 찜 O
+      if (checkVal) {
+        alert('찜 목록에 추가되었습니다.');
+      }
+      // 찜 O -> 찜 X
+      else {
+        alert('찜 목록에서 삭제되었습니다.');
+      }
+      trailListDispatch(getMountainTrailList(mountainSeq));
+    });
+  };
 
   return (
     <div className="trailItems-root grid grid-cols-8">
@@ -90,6 +108,9 @@ function TrailItems(props: { mountainSeq: string }) {
                   <div>
                     {trail.isLike ? (
                       <img
+                        onClick={() => keepChange(false, trail.sequence)}
+                        onKeyDown={() => keepChange(false, trail.sequence)}
+                        role="presentation"
                         src={like_selected}
                         alt="like"
                         height="30"
@@ -97,6 +118,9 @@ function TrailItems(props: { mountainSeq: string }) {
                       />
                     ) : (
                       <img
+                        onClick={() => keepChange(true, trail.sequence)}
+                        onKeyDown={() => keepChange(true, trail.sequence)}
+                        role="presentation"
                         src={like_unselected}
                         alt="unlike"
                         height="30"
