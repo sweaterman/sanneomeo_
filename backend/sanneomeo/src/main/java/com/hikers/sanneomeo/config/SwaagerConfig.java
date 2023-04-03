@@ -14,6 +14,7 @@ import springfox.documentation.service.ApiInfo;
 import springfox.documentation.service.ApiKey;
 import springfox.documentation.service.AuthorizationScope;
 import springfox.documentation.service.SecurityReference;
+import springfox.documentation.service.Server;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spi.service.contexts.SecurityContext;
 import springfox.documentation.spring.web.plugins.Docket;
@@ -26,7 +27,10 @@ public class SwaagerConfig {
 
 	@Bean
 	public Docket api() {
-		return new Docket(DocumentationType.SWAGGER_2)
+		Server serverLocal = new Server("local", "http://localhost:9090", "for local usages", Collections.emptyList(), Collections.emptyList());
+		Server realServer = new Server("test", "https://sanneomeo.site/api", "for testing", Collections.emptyList(), Collections.emptyList());
+		return new Docket(DocumentationType.OAS_30)
+				.servers(serverLocal,realServer)
 				.select()
 				.apis(RequestHandlerSelectors.basePackage("com.hikers.sanneomeo.controller"))
 				.paths(PathSelectors.any())
@@ -41,7 +45,7 @@ public class SwaagerConfig {
 		return new ApiInfoBuilder()
 				.title("Sanneomeo Swaager")
 				.description("Sanneomeo swagger")
-				.version("v2")
+				.version("v3")
 				.build();
 	}
 
