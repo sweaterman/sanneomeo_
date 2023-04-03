@@ -8,6 +8,7 @@ import static com.querydsl.core.types.dsl.MathExpressions.cos;
 import static com.querydsl.core.types.dsl.MathExpressions.radians;
 import static com.querydsl.core.types.dsl.MathExpressions.sin;
 
+import com.hikers.sanneomeo.dto.response.LocationResponseDto;
 import com.hikers.sanneomeo.dto.response.SpotResponseDto;
 import com.querydsl.core.types.Path;
 import com.querydsl.core.types.Projections;
@@ -17,6 +18,7 @@ import com.querydsl.core.types.dsl.NumberExpression;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import java.math.BigDecimal;
 import java.util.List;
+import java.util.Optional;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
@@ -28,7 +30,7 @@ public class MountainSpotRepositoryImpl implements MountainSpotRepositoryCustom 
   public List<SpotResponseDto> findSpotsByMountainSequence(Long sequence) {//trail -> course seq
     return jpaQueryFactory
         .select(
-            Projections.constructor(SpotResponseDto.class, mountainSpot.mountainSeq,
+            Projections.constructor(SpotResponseDto.class, mountainSpot.spotSeq,mountainSpot.mountainSeq,
                 mountainSpot.name, mountainSpot.code, mountainSpot.introduction, mountainSpot.etc,
                 mountainSpot.latitude, mountainSpot.longitude)
         )
@@ -73,7 +75,7 @@ public class MountainSpotRepositoryImpl implements MountainSpotRepositoryCustom 
 
     return jpaQueryFactory
         .select(
-            Projections.constructor(SpotResponseDto.class, mountainSpot.mountainSeq,
+            Projections.constructor(SpotResponseDto.class,mountainSpot.spotSeq, mountainSpot.mountainSeq,
                 mountainSpot.name, mountainSpot.code, mountainSpot.introduction, mountainSpot.etc,
                 mountainSpot.latitude, mountainSpot.longitude
                 , Expressions.as(distanceExpression, distancePath))
@@ -86,6 +88,19 @@ public class MountainSpotRepositoryImpl implements MountainSpotRepositoryCustom 
         .where(course.courseSeq.eq(sequence))
         .orderBy(((ComparableExpressionBase<Double>) distancePath).asc())
         .fetch();
+  }
+
+  @Override
+  public Optional<LocationResponseDto> getSpotInfo(Long spotSeq) {
+    return Optional.ofNullable(
+        jpaQueryFactory
+            .select(
+                Projections.constructor(LocationResponseDto.class,mountainSpot.latitude,mountainSpot.longitude)
+            )
+            .from(mountainSpot)
+            .where(mountainSpot.spotSeq.eq(spotSeq))
+            .fetchFirst()
+    );
   }
 
 

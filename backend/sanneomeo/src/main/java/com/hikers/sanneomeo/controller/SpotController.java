@@ -1,5 +1,6 @@
 package com.hikers.sanneomeo.controller;
 
+import com.hikers.sanneomeo.dto.request.NavigationRequestDto;
 import com.hikers.sanneomeo.dto.response.BaseResponseDto;
 import com.hikers.sanneomeo.service.CourseService;
 import com.hikers.sanneomeo.service.MountainService;
@@ -9,6 +10,8 @@ import java.math.BigDecimal;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -44,4 +47,14 @@ public class SpotController {
     return new BaseResponseDto<>(courseService.getNearTrailByDistance(sequence,latitude,longitude));
 
   }
+
+  @PostMapping("/navigation")
+  public BaseResponseDto<?> fromCurFromToSpot(@RequestBody NavigationRequestDto request) {
+    return new BaseResponseDto<>(spotService.getRouteFromCurToSpot(
+        request.getLatitude(),request.getLongitude(),request.getTrailSeq(),request.getSpotSeq()));
+
+  }
+
+
+
 }
