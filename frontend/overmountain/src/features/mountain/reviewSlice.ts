@@ -17,7 +17,7 @@ export const getReviewList = createAsyncThunk(
       headers: { Authorization: localStorage.getItem('token') },
       url: url,
     });
-    return response.data.result;
+    return response.data.result.reviewList;
   },
 );
 
@@ -37,6 +37,7 @@ export const writeReview = createAsyncThunk(
       data: review,
       url: url,
     });
+    console.log('24:', review);
     return response.data.result;
   },
 );
@@ -48,7 +49,9 @@ export const deleteReview = createAsyncThunk(
     const url = `${baseURL}mountain/review/${reviewIdx}`;
     const response = await axios({
       method: 'DELETE',
-      headers: { Authorization: localStorage.getItem('token') },
+      headers: {
+        Authorization: localStorage.getItem('token'),
+      },
       url: url,
     });
     return response.data.result;
