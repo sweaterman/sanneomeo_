@@ -74,35 +74,48 @@ def target_course():
     df.columns = ['course_seq', 'mountain_seq', 'difficulty_mean', 'time', 'si']
 
     # 난이도 필터링
-    if difficulty == 1 : #쉬움
+    if difficulty == '1' : #쉬움
         df = df[df['difficulty_mean'] <= 1.0]
-    elif difficulty == 2: #중간
+    elif difficulty == '2': #중간
         df = df[(df['difficulty_mean'] > 1.0) & (df['difficulty_mean'] < 1.3)]
-    elif difficulty == 3: #어려움
-        df = df[(df['difficulty_mean'] >= 1.3) ]
+    elif difficulty == '3': #어려움
+        df = df[(df['difficulty_mean'] >= 1.3)]
+        
+    print("난이도 필터링")
+    print(df)
 
     # 지역 필터링
     df = df[df['si'].str.contains(location)]
 
+    print("지역 필터링")
+    print(df)
+
     # 시간 필터링
-    if time == 1: # 30분 미만
+    if time == '1': # 30분 미만
         df = df[df['time'] < 30]
-    elif time == 2: # 30분 이상 1시간 미만
+    elif time == '2': # 30분 이상 1시간 미만
         df = df[(df['time'] >= 30 ) & (df['time'] < 60)]
-    elif time == 3: # 1시간 이상 2시간 미만
+    elif time == '3': # 1시간 이상 2시간 미만
         df = df[(df['time'] >= 60) & (df['time'] < 120)]
-    elif time == 4: # 2시간 이상 3시간 미만
+    elif time == '4': # 2시간 이상 3시간 미만
         df = df[(df['time'] >= 120) & (df['time'] < 180)]
-    elif time == 5: # 3시간 이상
+    elif time == '5': # 3시간 이상
         df = df[(df['time'] >= 180) ]
+
+    print("시간 필터링")
+    print(df)
 
     # 목적 필터링
     df['sum'] = df['difficulty_mean'] + df['time']
-    if purpose == 1: #힐링
+
+    if purpose == '1':  # 힐링
         result_course_seq = df.loc[df['sum'].astype(int).idxmin()]
-    elif purpose == 2: #도전
+
+    elif purpose == '2':  # 도전
         result_course_seq = df.loc[df['sum'].astype(int).idxmax()]
 
+    print("목적 필터링")
+    print(df)
 
     return str(result_course_seq['course_seq'])
 
