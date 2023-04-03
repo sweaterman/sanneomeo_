@@ -10,6 +10,7 @@ import com.hikers.sanneomeo.exception.BaseException;
 import com.hikers.sanneomeo.exception.BaseResponseStatus;
 import com.hikers.sanneomeo.service.TrailService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.*;
@@ -58,15 +59,20 @@ public class TrailController {
     }
 
     @GetMapping("/trail/recommend/survey")
-    public BaseResponseDto<?> getRecommendTrails(@RequestParam(value = "level", required = false) int level,
+    public ResponseEntity<List<String>> getRecommendTrails(@RequestParam(value = "level", required = false) int level,
                                                  @RequestParam(value = "region", required = false) String region,
                                                  @RequestParam(value = "purpose", required = false) int purpose,
                                                  @RequestParam(value = "time", required = false) int time) {
         // level : 1/2/3, region : si(8도), purpose : 1/2, time : 1/2/3/4/5
-        String flaskUrl = ymlConfig.getFlaskEndPoint() +
-                "?level=" + level + "&region=" + region + "&purpose=" + purpose + "&time=" + time;
+//        String flaskUrl = ymlConfig.getFlaskEndPoint() + "/targetCourse" +
+//                "?level=" + level + "&region=" + region + "&purpose=" + purpose + "&time=" + time;
 //        String flaskUrl = "http://localhost:5000/recommendCourse/41550070105";
+        String flaskUrl = "http://localhost:5000/targetCourse";
         RestTemplate restTemplate = new RestTemplate();
+        ResponseEntity<String> targetCourse = restTemplate.getForEntity(flaskUrl, String.class);
+        String targetCourseSeq = targetCourse.getBody();
+        flaskUrl = "http://localhost:5000/recommendCourse/" + targetCourseSeq;
+
         ResponseEntity<String> response = restTemplate.getForEntity(flaskUrl, String.class);
         ObjectMapper objectMapper = new ObjectMapper(); // JSON 형식의 문자열을 객체로 변환하기 위한 ObjectMapper 생성
         try {
@@ -81,7 +87,7 @@ public class TrailController {
                 }
             }
 
-            return null; // 처리 결과에 맞게 반환값 설정
+            return new ResponseEntity<>(recommendedTrails, HttpStatus.OK); // 처리 결과에 맞게 반환값 설정
         } catch (JsonProcessingException e) {
             // 예외 처리
             // ...
