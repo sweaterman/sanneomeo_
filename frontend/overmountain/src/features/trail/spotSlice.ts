@@ -7,7 +7,7 @@ const initialSpotListState: SpotList = {
   result: [],
 };
 
-// API 명세서 25번. 산->지도 스팟 상세정보
+// API 명세서 28번. 산->지도 스팟 상세정보
 export const getTrailSpotList = createAsyncThunk(
   'spotSlice/getTrailSpotList',
   async (trailIdx: number) => {
@@ -22,13 +22,13 @@ export const spotSlice = createSlice({
   initialState: initialSpotListState,
   reducers: {},
   extraReducers: (builder) => {
-    // API 명세서 25번. 산->지도 스팟 상세정보
+    // API 명세서 28번. 산->지도 스팟 상세정보
     builder.addCase(getTrailSpotList.fulfilled, (state, action) => {
       state.result = action.payload;
-      console.log('25 성공!', state.result);
+      console.log('28 성공!', state.result);
     });
     builder.addCase(getTrailSpotList.rejected, (state, action) => {
-      console.log('25 실패!', action.error);
+      console.log('28 실패!', action.error);
     });
   },
 });
