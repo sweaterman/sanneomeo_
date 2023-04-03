@@ -1,8 +1,23 @@
 .mainpage {
+  display: flex;
   align-items: center;
   text-align: center;
+  flex-direction: column;
+
+  hr {
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 
   Mascottmain {
     width: 90px;
   }
+}
+.kakao-map {
+  width: 320px;
+  z-index: 0;
+}
+.mountain-suggestion {
+  z-index: 0;
 }

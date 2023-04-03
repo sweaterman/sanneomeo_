@@ -26,6 +26,23 @@ interface Mountain {
   };
 }
 
+// elastic 검색위한 산정보
+interface elasticMountain {
+  mountainSeq: string;
+  name: string;
+  si: string;
+  gu: string;
+  dong: string;
+  latitude: number;
+  longitude: number;
+  altitude: number;
+  difficulty: string;
+}
+
+interface elasticList {
+  result: Array<elasticMountain>;
+}
+
 // 등산로 하나의 작은 정보
 interface miniTrail {
   latitude: number;

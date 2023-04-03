@@ -2,9 +2,10 @@ import React from 'react';
 import googleLogin from '@assets/images/google_login.png';
 import naverLogin from '@assets/images/naver_login.png';
 import kakaoLogin from '@assets/images/kakao_login.png';
+import { baseURL } from '@features/port';
 
 function UserLogin() {
-  const URL = 'http://localhost:9090/user/login/';
+  const URL = `${baseURL}user/login/`;
 
   const loginToGoogle = () => {
     console.log('google');

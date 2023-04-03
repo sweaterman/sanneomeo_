@@ -8,12 +8,21 @@
   align-items: center;
   .mountain-photo {
     width: 85px;
+    height: 80px;
     font-size: $font-h5;
+    overflow: hidden;
+    .mountain-100-photo {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      vertical-align: middle;
+    }
   }
   .textbox {
     .textbox-name {
       display: flex;
       align-items: baseline;
+      margin: 2px;
       .mountain-name {
         font-size: $font-h4;
       }
@@ -25,20 +34,22 @@
     .address {
       width: 150px;
       font-size: $font-h5;
+      margin: 2px;
     }
     .difficulty {
       display: flex;
+      margin: 2px;
+      img {
+        width: 25px;
+        height: 18px;
+      }
     }
   }
   .conquer-mascott {
     margin-left: 30px;
-    .not-conquered {
-      filter: grayscale(100%);
-      width: 10px;
-    }
-    img {
+    &.not-conquered {
+      filter: grayscale(1);
       width: 60px;
-      height: auto;
     }
   }
 }

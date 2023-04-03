@@ -190,7 +190,7 @@ function RecomQuestion() {
             onKeyDown={setUnder3Handler}
           >
             <img src={under3} alt="under3" />
-            <div>3시간 이내</div>
+            <div>30분 이내</div>
           </div>
           <div
             className={userTime === 2 ? 'select-time active' : 'select-time'}
@@ -199,7 +199,7 @@ function RecomQuestion() {
             onKeyDown={setUnder5Handler}
           >
             <img src={under5} alt="under5" />
-            <div>3시간 이상 5시간 이내</div>
+            <div>30분이상 1시간이내</div>
           </div>
           <div
             className={userTime === 3 ? 'select-time active' : 'select-time'}
@@ -208,7 +208,7 @@ function RecomQuestion() {
             onKeyDown={setUnder7Handler}
           >
             <img src={under7} alt="under7" />
-            <div>5시간 이상 7시간 이내</div>
+            <div>1시간이상 2시간이내</div>
           </div>
           <div
             className={userTime === 4 ? 'select-time active' : 'select-time'}
@@ -217,7 +217,7 @@ function RecomQuestion() {
             onKeyDown={setUnder10Handler}
           >
             <img src={under10} alt="under10" />
-            <div>7시간 이상 10시간 이내</div>
+            <div>2시간이상 3시간이내</div>
           </div>
           <div
             className={userTime === 5 ? 'select-time active' : 'select-time'}
@@ -226,7 +226,7 @@ function RecomQuestion() {
             onKeyDown={setOver10Handler}
           >
             <img src={over10} alt="over10" />
-            <div>10시간 이상</div>
+            <div>3시간이상</div>
           </div>
         </div>
         <br />
