@@ -108,6 +108,7 @@ public class TrailServiceImpl implements TrailService {
             JsonNode recommendedResultNode = responseNode.get("recommended_result");
             if (recommendedResultNode != null && recommendedResultNode.isArray()) {
                 for (JsonNode trailNode : recommendedResultNode) {
+
 //                    GetRecommendCourseResponseDto courseDto = new GetRecommendCourseResponseDto(trailNode.asLong());
 //                    GetRecommendCourseResponseDto courseDto =
 //                    result.add(courseDto);
