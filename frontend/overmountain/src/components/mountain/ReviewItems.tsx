@@ -6,12 +6,15 @@ import {
   writeReview,
   deleteReview,
 } from '@features/mountain/reviewSlice';
+import star_full from '@assets/images/start_full.png';
+import star_empty from '@assets/images/star_empty.png';
+import trash_can from '@assets/images/trash_can.png';
 
 function ReviewItems(props: { mountainSeq: string }) {
   const { mountainSeq } = props;
 
   // 후기 리스트 받아오기
-  const reviewList = useAppSelector(review);
+  const reviewData = useAppSelector(review) || { reviewList: [] };
   const getReviewDispatch = useAppDispatch();
   useEffect(() => {
     getReviewDispatch(getReviewList(mountainSeq));
@@ -33,73 +36,111 @@ function ReviewItems(props: { mountainSeq: string }) {
         content: content,
         rate: rate,
       };
-      writeReviewDispatch(writeReview(sendReview));
+      writeReviewDispatch(writeReview(sendReview)).then(() => {
+        setContent('');
+        setRate(0);
+        getReviewDispatch(getReviewList(mountainSeq));
+      });
     }
   };
 
   // 후기 삭제하기
   const deleteReviewDistpatch = useAppDispatch();
   const deleteMyReview = (reviewNum: number) => {
-    console.log(reviewNum);
+    deleteReviewDistpatch(deleteReview(reviewNum)).then(() => {
+      getReviewDispatch(getReviewList(mountainSeq));
+    });
   };
 
   return (
-    <>
+    <div className="mountain-reviewItems">
       {/* 후기 리스트 */}
-      <div>후기 및 평점</div>
-      {reviewList &&
-        reviewList.reviewList.map((oneReview) => (
-          <div>
-            <div>작성자 : {oneReview.nickname}</div>
-            <div>
-              프로필 이미지:
-              <img src={oneReview.profileImage} alt="프로필 이미지" />
+      {reviewData &&
+        reviewData.reviewList &&
+        reviewData.reviewList.map((oneReview) => (
+          // 한 개의 후기
+          <div className="oneReview">
+            <div className="firstline">
+              <div className="userInfo">
+                <img src={oneReview.profileImage} alt="프로필 이미지" />
+                <div>{oneReview.nickname}</div>
+              </div>
+              <div className="star">
+                {(() => {
+                  let stars = [];
+                  for (let i = 1; i <= 5; i += 1) {
+                    if (i <= oneReview.rate) {
+                      stars.push(
+                        <img key={i} src={star_full} alt="filled star" />,
+                      );
+                    } else {
+                      stars.push(
+                        <img key={i} src={star_empty} alt="empty star" />,
+                      );
+                    }
+                  }
+                  return stars;
+                })()}
+              </div>
             </div>
-            <div>평점 : {oneReview.rate}</div>
-            <div>날짜 : {oneReview.createdAt}</div>
-            <div>내용 : {oneReview.content}</div>
-            {oneReview.writer ? (
-              <button
-                onClick={() => deleteMyReview(oneReview.reviewSeq)}
-                onKeyDown={() => deleteMyReview(oneReview.reviewSeq)}
-                type="button"
-              >
-                삭제하기버튼
-              </button>
-            ) : null}
+
+            <div className="dayTime">
+              {new Date(oneReview.createdAt).toISOString().slice(0, 10)}
+            </div>
+
+            <div className="content">{oneReview.content}</div>
+            <div className="delete-review">
+              {oneReview.writer ? (
+                <img
+                  onClick={() => deleteMyReview(oneReview.reviewSeq)}
+                  onKeyDown={() => deleteMyReview(oneReview.reviewSeq)}
+                  role="presentation"
+                  src={trash_can}
+                  alt=""
+                />
+              ) : null}
+            </div>
           </div>
         ))}
 
       {/* 후기 작성 */}
-      <div>
-        <form>
-          <label>Blog title:</label>
-          <input
-            type="text"
-            required
+      <div className="write-form">
+        <div className="choice-rate">
+          <div className="write-title">후기 등록하기</div>
+
+          <select
+            onChange={(e) => setRate(Number(e.target.value))}
+            value={rate}
+          >
+            <option value="1">1점</option>
+            <option value="2">2점</option>
+            <option value="3">3점</option>
+            <option value="4">4점</option>
+            <option value="5">5점</option>
+          </select>
+        </div>
+
+        <form className="write-input">
+          <textarea
+            className="w-full h-100 resize-none overflow-y-auto rounded"
             value={content}
             onChange={(e) => setContent(e.target.value)}
             onKeyDown={(e) => setContent(e.currentTarget.value)}
-          />
+          ></textarea>
+        </form>
 
+        <div className="submit-parent">
           <div
+            className="submit-button"
             onClick={writeMyReview}
             onKeyDown={writeMyReview}
             role="presentation"
           >
-            작성하기
+            등록
           </div>
-        </form>
-
-        <select onChange={(e) => setRate(Number(e.target.value))} value={rate}>
-          <option value="1">0.1톤</option>
-          <option value="2">0.2톤</option>
-          <option value="3">0.3톤</option>
-          <option value="4">0.4톤</option>
-          <option value="5">0.5톤</option>
-        </select>
+        </div>
       </div>
-    </>
+    </div>
   );
 }
 
