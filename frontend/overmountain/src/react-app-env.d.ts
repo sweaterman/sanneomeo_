@@ -82,6 +82,7 @@ interface TrailList {
 
 // 한 개 스팟의 상세 정보
 interface miniSpot {
+  spotSeq: number;
   mountainSeq: string;
   name: string;
   code: number;

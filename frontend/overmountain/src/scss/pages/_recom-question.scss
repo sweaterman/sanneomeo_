@@ -28,20 +28,41 @@ hr {
 }
 .like-question {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   .korea-map {
+    display: none;
     color: black;
     position: relative;
     .seoul {
       position: absolute;
-      top: 20%;
+      top: 10%;
       left: 20%;
       z-index: 9;
+      color: black;
     }
     .gyeonggi {
       position: absolute;
-      top: 20%;
+      top: 5%;
       left: 20%;
+    }
+    .incheon {
+      position: absolute;
+      top: 5%;
+      left: -10%;
+    }
+  }
+  .select-area {
+    display: flex;
+    justify-content: center;
+    margin: 14px;
+    background-color: $over-beige;
+    border-radius: 30px;
+    width: 80px;
+    filter: grayscale(1);
+    &.active {
+      filter: grayscale(0);
+      background-color: $over-beige;
     }
   }
 }
@@ -60,7 +81,7 @@ hr {
     margin: 20px;
     background-color: $over-beige;
     border-radius: 30px;
-    width: 300px;
+    width: 290px;
     filter: grayscale(1);
     &.active {
       filter: grayscale(0);

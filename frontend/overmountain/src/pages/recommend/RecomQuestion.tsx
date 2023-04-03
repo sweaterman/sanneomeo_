@@ -55,13 +55,9 @@ function RecomQuestion() {
     setUserLevel(3);
     console.log('high', userLevel);
   };
-  const setNarrowHandler = () => {
-    setUserRegion(1);
+  const setRegionHandler = (region: number) => {
+    setUserRegion(region);
     console.log('narrow', userRegion);
-  };
-  const setBroadHandler = () => {
-    setUserRegion(2);
-    console.log('broad', userRegion);
   };
 
   const setHealingHandler = () => {
@@ -72,20 +68,8 @@ function RecomQuestion() {
     setUserPurpose(2);
     console.log('challenge', userPurpose);
   };
-  const setUnder3Handler = () => {
-    setUserTime(1);
-  };
-  const setUnder5Handler = () => {
-    setUserTime(2);
-  };
-  const setUnder7Handler = () => {
-    setUserTime(3);
-  };
-  const setUnder10Handler = () => {
-    setUserTime(4);
-  };
-  const setOver10Handler = () => {
-    setUserTime(5);
+  const setTimeHandler = (time: number) => {
+    setUserTime(time);
   };
 
   const submitHandler = (event: any) => {
@@ -96,7 +80,7 @@ function RecomQuestion() {
     navigate('/recommend/result');
   };
   // 람쥐설문문구
-  const mascottMessage = '람쥐가 추천해줄겡  {}자유롭게 선택해봐';
+  const mascottMessage = '람쥐가 추천해줄겡  자유롭게 선택해봐';
   return (
     // 선택된 이미지로 submit 구현하기
     <div>
@@ -157,26 +141,61 @@ function RecomQuestion() {
           </div>
 
           <div
-            className={
-              userRegion === 1 ? 'select-circle active' : 'select-circle'
-            }
+            className={userRegion === 1 ? 'select-area active' : 'select-area'}
             role="presentation"
-            onClick={setNarrowHandler}
-            onKeyDown={setNarrowHandler}
+            onClick={() => setRegionHandler(1)}
+            onKeyDown={() => setRegionHandler(1)}
           >
-            <img src={narrow} alt="narrow" />
-            <div>집 주변</div>
+            <div>서울</div>
           </div>
           <div
-            className={
-              userRegion === 2 ? 'select-circle active' : 'select-circle'
-            }
+            className={userRegion === 2 ? 'select-area active' : 'select-area'}
             role="presentation"
-            onClick={setBroadHandler}
-            onKeyDown={setBroadHandler}
+            onClick={() => setRegionHandler(2)}
+            onKeyDown={() => setRegionHandler(2)}
           >
-            <img src={broad} alt="broad" />
-            <div>전국</div>
+            <div>경기</div>
+          </div>
+          <div
+            className={userRegion === 3 ? 'select-area active' : 'select-area'}
+            role="presentation"
+            onClick={() => setRegionHandler(3)}
+            onKeyDown={() => setRegionHandler(3)}
+          >
+            <div>강원</div>
+          </div>
+          <br />
+          <div
+            className={userRegion === 4 ? 'select-area active' : 'select-area'}
+            role="presentation"
+            onClick={() => setRegionHandler(4)}
+            onKeyDown={() => setRegionHandler(4)}
+          >
+            <div>충청</div>
+          </div>
+          <div
+            className={userRegion === 5 ? 'select-area active' : 'select-area'}
+            role="presentation"
+            onClick={() => setRegionHandler(5)}
+            onKeyDown={() => setRegionHandler(5)}
+          >
+            <div>전라</div>
+          </div>
+          <div
+            className={userRegion === 6 ? 'select-area active' : 'select-area'}
+            role="presentation"
+            onClick={() => setRegionHandler(6)}
+            onKeyDown={() => setRegionHandler(6)}
+          >
+            <div>경상</div>
+          </div>
+          <div
+            className={userRegion === 7 ? 'select-area active' : 'select-area'}
+            role="presentation"
+            onClick={() => setRegionHandler(7)}
+            onKeyDown={() => setRegionHandler(7)}
+          >
+            <div>제주</div>
           </div>
         </div>
         <br />
@@ -213,8 +232,12 @@ function RecomQuestion() {
           <div
             className={userTime === 1 ? 'select-time active' : 'select-time'}
             role="presentation"
-            onClick={setUnder3Handler}
-            onKeyDown={setUnder3Handler}
+            onClick={() => {
+              setTimeHandler(1);
+            }}
+            onKeyDown={() => {
+              setTimeHandler(1);
+            }}
           >
             <img src={under3} alt="under3" />
             <div>30분 이내</div>
@@ -222,8 +245,12 @@ function RecomQuestion() {
           <div
             className={userTime === 2 ? 'select-time active' : 'select-time'}
             role="presentation"
-            onClick={setUnder5Handler}
-            onKeyDown={setUnder5Handler}
+            onClick={() => {
+              setTimeHandler(2);
+            }}
+            onKeyDown={() => {
+              setTimeHandler(2);
+            }}
           >
             <img src={under5} alt="under5" />
             <div>30분이상 1시간이내</div>
@@ -231,8 +258,12 @@ function RecomQuestion() {
           <div
             className={userTime === 3 ? 'select-time active' : 'select-time'}
             role="presentation"
-            onClick={setUnder7Handler}
-            onKeyDown={setUnder7Handler}
+            onClick={() => {
+              setTimeHandler(3);
+            }}
+            onKeyDown={() => {
+              setTimeHandler(3);
+            }}
           >
             <img src={under7} alt="under7" />
             <div>1시간이상 2시간이내</div>
@@ -240,8 +271,12 @@ function RecomQuestion() {
           <div
             className={userTime === 4 ? 'select-time active' : 'select-time'}
             role="presentation"
-            onClick={setUnder10Handler}
-            onKeyDown={setUnder10Handler}
+            onClick={() => {
+              setTimeHandler(4);
+            }}
+            onKeyDown={() => {
+              setTimeHandler(4);
+            }}
           >
             <img src={under10} alt="under10" />
             <div>2시간이상 3시간이내</div>
@@ -249,8 +284,12 @@ function RecomQuestion() {
           <div
             className={userTime === 5 ? 'select-time active' : 'select-time'}
             role="presentation"
-            onClick={setOver10Handler}
-            onKeyDown={setOver10Handler}
+            onClick={() => {
+              setTimeHandler(5);
+            }}
+            onKeyDown={() => {
+              setTimeHandler(5);
+            }}
           >
             <img src={over10} alt="over10" />
             <div>3시간이상</div>
