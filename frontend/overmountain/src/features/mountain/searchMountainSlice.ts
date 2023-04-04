@@ -40,8 +40,8 @@ export const searchMountainSlice = createSlice({
     //   // state.status = 'Loading';
     // });
     builder.addCase(getMountainSearch.fulfilled, (state, action) => {
-      state = action.payload;
-      console.log('13 성공!', state);
+      state.result = action.payload;
+      console.log('13 성공!', state.result);
     });
     builder.addCase(getMountainSearch.rejected, (state, action) => {
       console.log('13 실패!', action.error);
