@@ -100,7 +100,7 @@ function MapContainerMain(props: { searchResult: ElasticMountain }) {
       <Map
         center={state.center}
         isPanto={state.isPanto}
-        style={{ width: '320px', height: '360px', zIndex: '1' }}
+        style={{ width: '100%', height: '360px', zIndex: '1' }}
         level={7}
       >
         <MapMarker
