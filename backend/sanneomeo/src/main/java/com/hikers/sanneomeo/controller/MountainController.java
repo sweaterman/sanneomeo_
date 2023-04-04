@@ -6,6 +6,7 @@ import com.hikers.sanneomeo.domain.MountainDocument;
 import com.hikers.sanneomeo.dto.request.UploadImagesRequestDto;
 import com.hikers.sanneomeo.dto.request.WriteReviewRequestDto;
 import com.hikers.sanneomeo.dto.response.BaseResponseDto;
+import com.hikers.sanneomeo.dto.response.GetUserSurveyResponseDto;
 import com.hikers.sanneomeo.dto.response.MountainDetailResponseDto;
 import com.hikers.sanneomeo.dto.response.MountainSearchResponseDto;
 import com.hikers.sanneomeo.dto.response.PhotoResponseDto;
@@ -145,7 +146,15 @@ public class MountainController {
 
     @GetMapping("/trail/{mountainIdx}")
     public BaseResponseDto<?> getTrailsByMountainSequence(@PathVariable("mountainIdx") String sequence){
-        return  new BaseResponseDto<>(courseService.getTrailsBySequence(sequence));
+        Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        if(principal.toString().equals("anonymousUser")){
+            GetUserSurveyResponseDto getUserSurveyResponseDto = new GetUserSurveyResponseDto();
+            getUserSurveyResponseDto.setLogin(false);
+            return new BaseResponseDto<>(courseService.getTrailsBySequence(sequence));
+        }
+
+        Long userSeq = Long.parseLong(principal.toString());
+        return  new BaseResponseDto<>(courseService.getTrailsBySequence(sequence, userSeq));
     }
     @GetMapping("/photo/{mountainIdx}")
     public BaseResponseDto<?> getTrailsByMountainSequence(@PathVariable("mountainIdx") Long sequence){

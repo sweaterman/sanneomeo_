@@ -28,13 +28,13 @@ public class KeepRepositoryImpl implements KeepRepositoryCustom{
   public List<GetTrailLikeResponseDto> findLikeByUserWithTrail(Long userSeq) {
     return query
             .select(Projections.fields(GetTrailLikeResponseDto.class,
-                    course.courseSeq.as("trailSeq"), course.name, course.mountainSeq,
+                    course.courseSeq.as("sequence"), course.name, course.mountainSeq,
                     new CaseBuilder()
                             .when(course.difficultyMean.goe(BigDecimal.valueOf(1.3))).then("어려움")
                             .when(course.difficultyMean.lt(BigDecimal.valueOf(1.3)).and(course.difficultyMean.gt(BigDecimal.valueOf(1.0)))).then("중간")
                             .otherwise("쉬움")
                             .as("difficulty"),
-                    course.time, course.length, keep.isKeep))
+                    course.time, course.length, keep.isKeep.as("isLike")))
             .from(keep)
             .join(course).on(keep.courseSeq.eq(course.courseSeq))
             .where(keep.userSeq.eq(userSeq).and(keep.isKeep.eq(true)))
