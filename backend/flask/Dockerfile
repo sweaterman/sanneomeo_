@@ -3,4 +3,4 @@ COPY . /flask
 WORKDIR /flask
 RUN pip3 install -r requirements.txt
 RUN chmod 777 /flask/wsgi.py
-CMD ["python3.9", "recommend.py"]
+CMD ["python3.9", "wsgi.py"]
