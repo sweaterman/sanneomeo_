@@ -16,8 +16,7 @@ public class GetTrailLikeResponseDto {
   private String name;
   private String mountainSeq;
   private String difficulty;
-  private Integer uptime;
-  private Integer downtime;
+  private Integer time;
   private BigDecimal length;
   private boolean isKeep;
 }
