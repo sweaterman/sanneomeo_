@@ -46,7 +46,7 @@ public class TrailController {
         }
     }
 
-    @GetMapping("/trail/recommend/survey")
+    @GetMapping("/recommend/survey")
     public BaseResponseDto<List<GetRecommendCourseResponseDto>> getRecommendTrails(@RequestParam(value = "level", required = false) int level,
                                                                                    @RequestParam(value = "region", required = false) String region,
                                                                                    @RequestParam(value = "purpose", required = false) int purpose,
@@ -54,12 +54,14 @@ public class TrailController {
         // level : 1/2/3, region : si(8도), purpose : 1/2, time : 1/2/3/4/5
         try {
             String targetCourseSeq = trailService.getTargetCourseSeqFlask(level, region, purpose, time);
+            System.out.println(targetCourseSeq);
             List<GetRecommendCourseResponseDto> result = trailService.getRecommendCoursesFlask(targetCourseSeq);
             return new BaseResponseDto<>(result); // 처리 결과에 맞게 반환값 설정
         } catch (Exception e) {
             if (e instanceof BaseException) {
                 throw e;
             } else {
+                e.printStackTrace();
                 throw new BaseException(BaseResponseStatus.FAIL);
             }
         }

@@ -90,16 +90,16 @@ public class CourseRepositoryImpl implements CourseRepositoryCustom {
     public Optional<GetRecommendCourseResponseDto> findCourseByCourseSequenceAndUserSeq(Long courseSeq, Long userSeq) {
         return Optional.ofNullable(queryFactory
                 .select(Projections.fields(GetRecommendCourseResponseDto.class,
-                        course.courseSeq.as("trailSeq"), course.name, course.mountainSeq,
+                        course.courseSeq.as("sequence"), course.name, course.mountainSeq,
                         new CaseBuilder()
                                 .when(course.difficultyMean.goe(BigDecimal.valueOf(1.3))).then("어려움")
                                 .when(course.difficultyMean.lt(BigDecimal.valueOf(1.3)).and(course.difficultyMean.gt(BigDecimal.valueOf(1.0)))).then("중간")
                                 .otherwise("쉬움")
                                 .as("difficulty"),
-                        course.time, course.length, keep.isKeep))
-                .from(keep)
-                .join(course).on(keep.courseSeq.eq(course.courseSeq))
-                .where(keep.userSeq.eq(userSeq).and(course.courseSeq.eq(courseSeq)))
+                        course.time, course.length, keep.isKeep.as("isLike")))
+                .from(course)
+                .leftJoin(keep).on(course.courseSeq.eq(keep.courseSeq).and(keep.userSeq.eq(userSeq)))
+                .where(course.courseSeq.eq(courseSeq))
                 .fetchOne());
 
     }
@@ -108,15 +108,14 @@ public class CourseRepositoryImpl implements CourseRepositoryCustom {
     public Optional<GetRecommendCourseResponseDto> findCourseByCourseSequence(Long courseSeq) {
         return Optional.ofNullable(queryFactory
                 .select(Projections.fields(GetRecommendCourseResponseDto.class,
-                        course.courseSeq.as("trailSeq"), course.name, course.mountainSeq,
+                        course.courseSeq.as("sequence"), course.name, course.mountainSeq,
                         new CaseBuilder()
                                 .when(course.difficultyMean.goe(BigDecimal.valueOf(1.3))).then("어려움")
                                 .when(course.difficultyMean.lt(BigDecimal.valueOf(1.3)).and(course.difficultyMean.gt(BigDecimal.valueOf(1.0)))).then("중간")
                                 .otherwise("쉬움")
                                 .as("difficulty"),
-                        course.time, course.length, keep.isKeep))
-                .from(keep)
-                .join(course).on(keep.courseSeq.eq(course.courseSeq))
+                        course.time, course.length))
+                .from(course)
                 .where(course.courseSeq.eq(courseSeq))
                 .fetchOne());
     }

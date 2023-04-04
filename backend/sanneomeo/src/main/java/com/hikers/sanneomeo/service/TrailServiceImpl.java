@@ -87,9 +87,10 @@ public class TrailServiceImpl implements TrailService {
         if (SecurityContextHolder.getContext().getAuthentication().getPrincipal() != "anonymousUser") {
             userSeq = Long.parseLong(SecurityContextHolder.getContext().getAuthentication().getPrincipal().toString());
         }
-//        String flaskUrl = ymlConfig.getFlaskEndPoint() + "/targetCourse" +
-//                "?userSeq=" + userSeq + "&level=" + level + "&region=" + region + "&purpose=" + purpose + "&time=" + time;
-        String flaskUrl = "http://localhost:5000/targetCourse" + "?userSeq="+userSeq + "&level=" + level + "&region=" + region + "&purpose=" + purpose + "&time=" + time;
+        System.out.println(userSeq);
+        String flaskUrl = ymlConfig.getFlaskEndPoint() + "/targetCourse" +
+                "?userseq=" + userSeq + "&level=" + level + "&region=" + region + "&purpose=" + purpose + "&time=" + time;
+//        String flaskUrl = "http://localhost:5000/targetCourse" + "?userseq="+userSeq + "&level=" + level + "&region=" + region + "&purpose=" + purpose + "&time=" + time;
         RestTemplate restTemplate = new RestTemplate();
         ResponseEntity<String> targetCourse = restTemplate.getForEntity(flaskUrl, String.class);
         return targetCourse.getBody();
@@ -97,10 +98,12 @@ public class TrailServiceImpl implements TrailService {
 
     @Override
     public List<GetRecommendCourseResponseDto> getRecommendCoursesFlask(String targetCourseSeq) {
-//        String flaskUrl = ymlConfig.getFlaskEndPoint() + "/recommendCourse/" + targetCourseSeq;
-        String flaskUrl = "http://localhost:5000/recommendCourse/" + targetCourseSeq;
+        String flaskUrl = ymlConfig.getFlaskEndPoint() + "/recommendCourse/" + targetCourseSeq;
+//        String flaskUrl = "http://localhost:5000/recommendCourse/" + targetCourseSeq;
         RestTemplate restTemplate = new RestTemplate();
         ResponseEntity<String> response = restTemplate.getForEntity(flaskUrl, String.class);
+        System.out.println("여기까지됨");
+        System.out.println(response.getBody());
         ObjectMapper objectMapper = new ObjectMapper(); // JSON 형식의 문자열을 객체로 변환하기 위한 ObjectMapper 생성
         try {
             // JSON 형식의 문자열을 응답 객체로 변환
@@ -108,11 +111,14 @@ public class TrailServiceImpl implements TrailService {
             JsonNode responseNode = objectMapper.readTree(responseJson);
             List<GetRecommendCourseResponseDto> result = new ArrayList<>();
             JsonNode recommendedResultNode = responseNode.get("recommended_result");
+            System.out.println(recommendedResultNode);
             if (recommendedResultNode != null && recommendedResultNode.isArray()) {
                 //로그인 유저가 있을때 isKeep정보도 가져와야함
                 if (SecurityContextHolder.getContext().getAuthentication().getPrincipal() != "anonymousUser") {
                     Long authUserSeq = Long.parseLong(SecurityContextHolder.getContext().getAuthentication().getPrincipal().toString());
                     for (JsonNode trailNode : recommendedResultNode) {
+                        System.out.println(authUserSeq);
+                        System.out.println(trailNode.asLong());
                         Optional<GetRecommendCourseResponseDto> courseDto = courseRepository.findCourseByCourseSequenceAndUserSeq(trailNode.asLong(), authUserSeq);
                         courseDto.ifPresent(result::add);
                     }

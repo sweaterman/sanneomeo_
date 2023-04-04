@@ -1,5 +1,6 @@
 package com.hikers.sanneomeo.service;
 
+import com.hikers.sanneomeo.domain.Keep;
 import com.hikers.sanneomeo.dto.response.NearTrailResponseDto;
 import com.hikers.sanneomeo.dto.response.TrailListResponseDto;
 import com.hikers.sanneomeo.exception.BaseException;
