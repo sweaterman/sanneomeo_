@@ -1,0 +1,19 @@
+.recomLikeTrail-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .trail-list {
+    background-color: aquamarine;
+    width: 80%;
+
+    .single-trail {
+      margin-bottom: 10px;
+      background-color: chartreuse;
+    }
+
+    .difficulty {
+      display: flex;
+    }
+  }
+}
