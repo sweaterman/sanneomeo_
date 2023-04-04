@@ -18,6 +18,12 @@ function Card(props: { data: Mountain }) {
           {data.mountain.si} {data.mountain.dong} {data.mountain.gu}
         </div>
         <div className="body-title">
+          고도
+        </div>
+        <div className="body-discription">
+          {data.mountain.altitude}m
+        </div>
+        <div className="body-title">
           설명
         </div>
         <div className="body-discription">
