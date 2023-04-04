@@ -109,7 +109,10 @@ public class MountainController {
     @GetMapping("/review/{mountainIdx}")
     public BaseResponseDto<?> reviewList(@PathVariable String mountainIdx){
         try{
-            Long authUserSeq = Long.parseLong(SecurityContextHolder.getContext().getAuthentication().getPrincipal().toString());
+            Long authUserSeq = 0L;
+            if (SecurityContextHolder.getContext().getAuthentication().getPrincipal() != "anonymousUser") {
+                authUserSeq = Long.parseLong(SecurityContextHolder.getContext().getAuthentication().getPrincipal().toString());
+            }
             Map<String, Object> reviewMap = new HashMap<>();
 
             List<ReviewResponseDto> reviews = mountainService.reviewList(mountainIdx, authUserSeq);
