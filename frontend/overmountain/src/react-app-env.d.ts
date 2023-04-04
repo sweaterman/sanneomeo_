@@ -27,7 +27,7 @@ interface Mountain {
 }
 
 // elastic 검색위한 산정보
-interface elasticMountain {
+interface ElasticMountain {
   name: string;
   si: string;
   gu: string;
@@ -39,12 +39,12 @@ interface elasticMountain {
   difficulty: string;
 }
 
-interface elasticList {
-  result: Array<elasticMountain>;
+interface ElasticList {
+  result: Array<ElasticMountain>;
 }
 
 // 등산로 하나의 작은 정보
-interface miniTrail {
+interface MiniTrail {
   latitude: number;
   longitude: number;
   altitude: number;
@@ -60,7 +60,7 @@ interface SeasonMountains {
 
 // 등산로 하나의 모든 위경도값
 interface TrailPath {
-  result: Array<miniTrail>;
+  result: Array<MiniTrail>;
 }
 
 // 한 개 등산로 상세 정보
@@ -73,6 +73,7 @@ interface Trail {
   recommend: boolean | null;
   isLike: boolean;
   time: number;
+  mountainSeq: string;
 }
 
 // 등산로 리스트
@@ -81,7 +82,7 @@ interface TrailList {
 }
 
 // 한 개 스팟의 상세 정보
-interface miniSpot {
+interface MiniSpot {
   spotSeq: number;
   mountainSeq: string;
   name: string;
@@ -95,7 +96,7 @@ interface miniSpot {
 
 // 스팟 리스트
 interface SpotList {
-  result: Array<miniSpot>;
+  result: Array<MiniSpot>;
 }
 
 // 내 위치와 가까운 등산로 반환할 때 쓰는 타입
@@ -139,21 +140,9 @@ interface ChallengeList {
   };
 }
 
-// 찜한 등산로
-interface TrailLike {
-  trailSeq: number;
-  name: string;
-  mountainSeq: string;
-  difficulty: string;
-  uptime: number;
-  downtime: number;
-  length: number;
-  keep: boolean;
-}
-
 // 찜한 등산로 리스트
 interface TrailLikeList {
-  result: Array<TrailLike>;
+  result: Array<Trail>;
 }
 
 // 한 개의 리뷰

@@ -1,7 +1,4 @@
 import React from 'react';
-import googleLogin from '@assets/images/google_login.png';
-import naverLogin from '@assets/images/naver_login.png';
-import kakaoLogin from '@assets/images/kakao_login.png';
 import googleLogo from '@assets/images/google-logo.png';
 import naverLogo from '@assets/images/naver-logo.png';
 import kakaoLogo from '@assets/images/kakao-logo.png';
@@ -46,29 +43,6 @@ function UserLogin() {
           <div className="login-text">카카오 로그인</div>
         </div>
       </button>
-
-      {/* <img
-        className="google-login"
-        src={googleLogin}
-        alt="googleLogin"
-        role="presentation"
-        onClick={loginToGoogle}
-      />
-      <img
-        className="naver-login"
-        src={naverLogin}
-        alt="naverLogin"
-        role="presentation"
-        onClick={loginToNaver}
-      />
-
-      <img
-        className="kakao-login"
-        src={kakaoLogin}
-        alt="kakaoLogin"
-        role="presentation"
-        onClick={loginToKakao}
-      /> */}
     </div>
   );
 }

@@ -12,7 +12,11 @@ import {
   setSelectedTrailKey,
   selectedTrailKey,
 } from '@features/trail/selectedTrailSlice';
-import { trailKeep, updateTrailKeep } from '@features/trail/trailKeepSlice';
+import { updateTrailKeep } from '@features/trail/trailKeepSlice';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { toast, ToastContainer } from 'react-toastify';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import 'react-toastify/dist/ReactToastify.css';
 
 function TrailItems(props: { mountainSeq: string }) {
   const { mountainSeq } = props;
@@ -31,18 +35,21 @@ function TrailItems(props: { mountainSeq: string }) {
   // 등산로 찜하기
   const keepDispatch = useAppDispatch();
   const keepChange = (checkVal: boolean, trailSeq: number) => {
-    console.log('찜번호:', trailSeq);
-    keepDispatch(updateTrailKeep(trailSeq)).then(() => {
-      // 찜 X -> 찜 O
-      if (checkVal) {
-        alert('찜 목록에 추가되었습니다.');
-      }
-      // 찜 O -> 찜 X
-      else {
-        alert('찜 목록에서 삭제되었습니다.');
-      }
-      trailListDispatch(getMountainTrailList(mountainSeq));
-    });
+    if (localStorage.getItem('token') !== null) {
+      keepDispatch(updateTrailKeep(trailSeq)).then(() => {
+        // 찜 X -> 찜 O
+        if (checkVal) {
+          toast.success('찜 목록에 추가되었습니다.', { autoClose: 2000 });
+        }
+        // 찜 O -> 찜 X
+        else {
+          alert('찜 목록에서 삭제되었습니다.');
+        }
+        trailListDispatch(getMountainTrailList(mountainSeq));
+      });
+    } else {
+      alert('로그인 먼저 해주세요!');
+    }
   };
 
   return (

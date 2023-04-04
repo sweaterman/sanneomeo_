@@ -1,8 +1,9 @@
 .listbox {
   display: flex;
   justify-content: space-between;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 6px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-  
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 6px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
   width: 100%;
   height: 100px;
   padding: 10px;
@@ -11,13 +12,13 @@
   margin-bottom: 15px;
   // background-color: $light-yellow;
 
-  .mountain-container{
+  .mountain-container {
     display: flex;
 
     .mountain-photo {
       width: 85px;
       height: 80px;
-      border-radius:10px;
+      border-radius: 10px;
       font-size: $font-h5;
       overflow: hidden;
       .mountain-100-photo {
@@ -61,12 +62,11 @@
     }
   }
 
-  
   .conquer-mascott {
-    margin-left: 30px;
+    width: 70px;
+    height: auto;
     &.not-conquered {
       filter: grayscale(1);
-      width: 60px;
     }
   }
 }

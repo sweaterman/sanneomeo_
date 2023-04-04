@@ -3,7 +3,7 @@ import { BiSearch } from 'react-icons/bi';
 
 function Searchbar(props: {
   setSearchMountain: any;
-  searchList: Array<elasticMountain>;
+  searchList: Array<ElasticMountain>;
 }) {
   // input 값 변경감지하여 mainpage에 반영하는 함수
   const getValue = (e: any) => {
@@ -16,7 +16,11 @@ function Searchbar(props: {
         <h1></h1>
       </div> */}
       <div className="search-container">
-        <input type="search" placeholder="등산하고 싶은 산을 찾아보세요!" onChange={getValue}></input>
+        <input
+          type="search"
+          placeholder="등산하고 싶은 산을 찾아보세요!"
+          onChange={getValue}
+        ></input>
         <BiSearch size="24" />
       </div>
       <ul>

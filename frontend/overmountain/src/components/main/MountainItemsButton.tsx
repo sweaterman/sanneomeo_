@@ -1,13 +1,12 @@
 import React from 'react';
-import Balloon from '@components/common/Balloon';
-import MainRamgi from '@assets/images/flagramgi.png';
-import Flag from '@assets/images/like_selected.png'
+import { NavLink } from 'react-router-dom';
 
 function MountainItemsButton() {
   return (
     <div className="mountain-items-button">
-      {/* <img src={Flag} alt="깃발"></img> */}
-      <h5>바로가기 &gt;</h5>
+      <NavLink to="/user/challenge">
+        <h5>바로가기 &gt;</h5>
+      </NavLink>
     </div>
   );
 }
