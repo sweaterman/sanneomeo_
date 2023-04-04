@@ -2,7 +2,6 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
 import { baseURL } from '@features/port';
 import { RootState } from '@app/store';
-import { setSelectedTrailKey } from '@features/trail/selectedTrailSlice';
 
 const initialMountainState: Mountain = {
   mountain: {

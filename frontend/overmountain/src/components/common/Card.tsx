@@ -5,22 +5,23 @@ function Card(props: { data: Mountain }) {
   const { data } = props;
 
   return (
-    <>
-      <div className="container">
-        {/* 산의 이미지 */}
-        <div className="col-6">
-          <h4>Card Component</h4>
-        </div>
-        {/* 산의 정보 */}
-        <div className="col-6">
-          <h4>위치: </h4>
-          <h4>고도: </h4>
-          <h4>면적: </h4>
-          <h4>설명: </h4>
-          <h4>데이터 : {data.mountain.name}</h4>
+    <div className="mountain-card">
+      <div className="grid grid-cols-12 gap-4">
+        <div className="col-span-1"></div>
+        <div className="col-span-10">
+          <div className="one-discription">
+            {data.mountain.si}
+            {data.mountain.dong}
+            {data.mountain.gu}
+          </div>
+          <div className="one-discription">{data.mountain.altitude}m</div>
+          <div className="one-discription discription">
+            {data.mountain.introduction}
+          </div>
         </div>
       </div>
-    </>
+      <div className="col-span-1"></div>
+    </div>
   );
 }
 

@@ -1,0 +1,13 @@
+.category {
+  position: relative;
+  display: inline-block;
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 150px;
+    z-index: 1;
+    div {
+      display: block;
+    }
+  }
+}

@@ -26,6 +26,23 @@ interface Mountain {
   };
 }
 
+// elastic 검색위한 산정보
+interface elasticMountain {
+  name: string;
+  si: string;
+  gu: string;
+  dong: string;
+  sequence: string;
+  latitude: number;
+  longitude: number;
+  altitude: number;
+  difficulty: string;
+}
+
+interface elasticList {
+  result: Array<elasticMountain>;
+}
+
 // 등산로 하나의 작은 정보
 interface miniTrail {
   latitude: number;
@@ -65,6 +82,7 @@ interface TrailList {
 
 // 한 개 스팟의 상세 정보
 interface miniSpot {
+  spotSeq: number;
   mountainSeq: string;
   name: string;
   code: number;
@@ -136,4 +154,22 @@ interface TrailLike {
 // 찜한 등산로 리스트
 interface TrailLikeList {
   result: Array<TrailLike>;
+}
+
+// 한 개의 리뷰
+interface Review {
+  userSeq: number;
+  mountainSeq: string;
+  nickname: string;
+  profileImage: string;
+  reviewSeq: number;
+  rate: number;
+  content: string;
+  createdAt: number;
+  writer: true;
+}
+
+// 리뷰 리스트
+interface ReviewList {
+  reviewList: Array<Review>;
 }
