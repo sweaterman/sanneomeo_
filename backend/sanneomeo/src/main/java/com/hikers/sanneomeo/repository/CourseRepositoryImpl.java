@@ -81,7 +81,7 @@ public class CourseRepositoryImpl implements CourseRepositoryCustom {
         .from(course)
         .leftJoin(keep)
         .on(course.courseSeq.eq(keep.courseSeq))
-        .where(course.mountainSeq.eq(sequence))
+        .where(course.mountainSeq.eq(sequence),keep.isKeep.eq(true))
         .groupBy(course.courseSeq)
         .fetch();
   }
