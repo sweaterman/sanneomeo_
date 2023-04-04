@@ -215,7 +215,6 @@ function RecomQuestion() {
             <div>제주</div>
           </div>
         </div>
-        <br />
         <hr />
         <div className="purpose-text">등산 목적</div>
         <div className="purpose-question">
@@ -242,7 +241,6 @@ function RecomQuestion() {
             <div className="question-text">도전</div>
           </div>
         </div>
-        <br />
         <hr />
         <div className="time-text">원하는 등반시간</div>
         <div className="time-question">
@@ -257,7 +255,7 @@ function RecomQuestion() {
             }}
           >
             <img src={under3} alt="under3" />
-            <div className="time-text">30분 이내</div>
+            <div className="time-specific-text">30분 이내</div>
           </div>
           <div
             className={userTime === 2 ? 'select-time active' : 'select-time'}
@@ -270,7 +268,7 @@ function RecomQuestion() {
             }}
           >
             <img src={under5} alt="under5" />
-            <div className="time-text">30분 이상 1시간 이내</div>
+            <div className="time-specific-text">30분 이상 1시간 이내</div>
           </div>
           <div
             className={userTime === 3 ? 'select-time active' : 'select-time'}
@@ -283,7 +281,7 @@ function RecomQuestion() {
             }}
           >
             <img src={under7} alt="under7" />
-            <div className="time-text">1시간 이상 2시간 이내</div>
+            <div className="time-specific-text">1시간 이상 2시간 이내</div>
           </div>
           <div
             className={userTime === 4 ? 'select-time active' : 'select-time'}
@@ -296,7 +294,7 @@ function RecomQuestion() {
             }}
           >
             <img src={under10} alt="under10" />
-            <div className="time-text">2시간 이상 3시간 이내</div>
+            <div className="time-specific-text">2시간 이상 3시간 이내</div>
           </div>
           <div
             className={userTime === 5 ? 'select-time active' : 'select-time'}
@@ -309,7 +307,7 @@ function RecomQuestion() {
             }}
           >
             <img src={over10} alt="over10" />
-            <div className="time-text">3시간 이상</div>
+            <div className="time-specific-text">3시간 이상</div>
           </div>
         </div>
         <br />

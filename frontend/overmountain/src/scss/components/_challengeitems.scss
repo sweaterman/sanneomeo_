@@ -56,17 +56,28 @@
         margin: 2px;
         img {
           width: 25px;
-          height: 18px;
         }
       }
     }
   }
 
   .conquer-mascott {
-    width: 70px;
-    height: auto;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(240, 240, 240, 0.579);
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     &.not-conquered {
       filter: grayscale(1);
     }
+
+    img{
+      width: 45px;
+    }
+    
+
+   
   }
 }

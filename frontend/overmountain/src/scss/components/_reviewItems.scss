@@ -34,12 +34,11 @@
       .oneReview {
         width: 100%;
         padding: 10px;
-        margin-bottom: 10px;
 
         .oneRiveiw-hr{
           width: 100%;
           margin: 10px 0px;
-          height: 1px;
+          height: 0.3px;
           border: 0;
           background: grey;
         }
@@ -47,6 +46,9 @@
         .firstline {
           display: flex;
           justify-content: space-between;
+          align-items: center;
+          margin-bottom: 10px;
+
     
           .userInfo {
             display: flex;
@@ -72,13 +74,16 @@
               height: 20px;
             }
           }
+
+          .dayTime {
+            font-size: $font-h5;
+            text-align: right;
+            color: $over-lightgray;
+            margin-top: 5px;
+          }
         }
     
-        .dayTime {
-          font-size: $font-h5;
-          text-align: right;
-          color: $over-lightgray;
-        }
+
     
         .content {
           white-space: pre-wrap;
@@ -88,6 +93,10 @@
         .delete-review {
           display: flex;
           justify-content: flex-end;
+
+          img{
+            height: 20px;
+          }
         }
       }
     }
@@ -162,3 +171,4 @@
     
   }
 }
+

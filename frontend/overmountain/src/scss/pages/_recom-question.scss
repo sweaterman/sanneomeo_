@@ -42,22 +42,22 @@
 
     .level-text {
       margin: 15px 0px;
-      font-size: $font_h3;
+      font-size: 1.5rem;
       font-weight: 500;
     }
     .like-text {
       margin: 15px 0px;
-      font-size: $font_h3;
+      font-size: 1.5rem;
       font-weight: 500;
     }
     .purpose-text {
       margin: 15px 0px;
-      font-size: $font_h3;
+      font-size: 1.5rem;
       font-weight: 500;
     }
     .time-text {
       margin: 20px 0px;
-      font-size: $font_h3;
+      font-size: 1.5rem;
       font-weight: 500;
     }
 
@@ -66,6 +66,10 @@
       font-size: $font_h4;
       font-weight: 600;
       margin: 5px;
+    }
+
+    .time-specific-text{
+      font-size: $font-h4;
     }
   }
 }
@@ -129,7 +133,7 @@ hr {
   .select-time {
     display: flex;
     justify-content: center;
-    margin: 10px;
+    margin: 5px;
     background-color: $midi-yellow;
     border-radius: 30px;
     width: 290px;
@@ -140,10 +144,11 @@ hr {
     }
     img {
       margin: 10px;
+      height: 30px;
     }
     div {
       margin: auto;
-      font-size: large;
+      font-size: 1rem;
     }
   }
 }

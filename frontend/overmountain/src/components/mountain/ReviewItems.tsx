@@ -75,33 +75,37 @@ function ReviewItems(props: { mountainSeq: string }) {
             reviewData.reviewList &&
             reviewData.reviewList.map((oneReview) => (
               // 한 개의 후기
+              // eslint-disable-next-line react/jsx-key
               <div className="oneReview">
                 <div className="firstline">
                   <div className="userInfo">
                     <img src={oneReview.profileImage} alt="프로필 이미지"/>
                     <div className="userName">{oneReview.nickname}</div>
                   </div>
-                  <div className="star">
-                    {(() => {
-                      let stars = [];
-                      for (let i = 1; i <= 5; i += 1) {
-                        if (i <= oneReview.rate) {
-                          stars.push(
-                            <img key={i} src={star_full} alt="filled star" />,
-                          );
-                        } else {
-                          stars.push(
-                            <img key={i} src={star_empty} alt="empty star" />,
-                          );
+                  <div className="reviewInfo">
+                    <div className="star">
+                      {(() => {
+                        let stars = [];
+                        for (let i = 1; i <= 5; i += 1) {
+                          if (i <= oneReview.rate) {
+                            stars.push(
+                              <img key={i} src={star_full} alt="filled star" />,
+                            );
+                          } else {
+                            stars.push(
+                              <img key={i} src={star_empty} alt="empty star" />,
+                            );
+                          }
                         }
-                      }
-                      return stars;
-                    })()}
-                  </div>
-                </div>
+                        return stars;
+                      })()}
+                    </div>
 
-                <div className="dayTime">
-                  {new Date(oneReview.createdAt).toISOString().slice(0, 10)}
+                    <div className="dayTime">
+                      {new Date(oneReview.createdAt).toISOString().slice(0, 10)}
+                    </div>
+                  </div>
+                  
                 </div>
 
                 <div className="content">{oneReview.content}</div>
@@ -114,7 +118,10 @@ function ReviewItems(props: { mountainSeq: string }) {
                       src={trash_can}
                       alt=""
                     />
-                  ) : null}
+                  ) : (
+                    <br/>
+                  )
+                  }
                 </div>
                 <hr className="oneRiveiw-hr"/>
               </div>
