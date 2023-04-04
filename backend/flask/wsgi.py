@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity, euclidean_distances
 from sklearn.preprocessing import MinMaxScaler
+import decimal
 
 
 app = Flask(__name__)
@@ -126,6 +127,8 @@ def target_course():
 
 
     # 목적 필터링
+    df['time'] = df['time'].apply(decimal.Decimal)
+
     df['sum'] = df['difficulty_mean'] + df['time']
 
     if purpose == '1':  # 힐링
@@ -136,6 +139,18 @@ def target_course():
 
     print("목적 필터링")
     print(df)
+
+    # if purpose == '1':  # 힐링
+    #     # 'sum' 열을 기준으로 오름차순 정렬
+    #     df_sorted = df.sort_values(by='sum')
+    #     # 'sum' 열 값이 작은 2개의 행 선택
+    #     df = df_sorted.head(1)
+    #
+    # elif purpose == '2':  # 도전
+    #     # 'sum' 열을 기준으로 내림차순 정렬
+    #     df_sorted = df.sort_values(by='sum', ascending=False)
+    #     # 'sum' 열 값이 큰 2개의 행 선택
+    #     df = df_sorted.head(1)
 
     return str(result_course_seq['course_seq'])
 
