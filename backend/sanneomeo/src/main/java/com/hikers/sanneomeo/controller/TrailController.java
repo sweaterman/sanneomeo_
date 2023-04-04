@@ -46,7 +46,7 @@ public class TrailController {
         }
     }
 
-    @GetMapping("/trail/recommend/survey")
+    @GetMapping("/recommend/survey")
     public BaseResponseDto<List<GetRecommendCourseResponseDto>> getRecommendTrails(@RequestParam(value = "level", required = false) int level,
                                                                                    @RequestParam(value = "region", required = false) String region,
                                                                                    @RequestParam(value = "purpose", required = false) int purpose,
@@ -60,6 +60,7 @@ public class TrailController {
             if (e instanceof BaseException) {
                 throw e;
             } else {
+                e.printStackTrace();
                 throw new BaseException(BaseResponseStatus.FAIL);
             }
         }
