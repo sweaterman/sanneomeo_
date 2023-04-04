@@ -1,3 +1,4 @@
+/* eslint-disable no-nested-ternary */
 import React, { useEffect, useState } from 'react';
 import {
   getPositionTrail,
@@ -7,24 +8,27 @@ import {
   getMountainSearch,
   searchMountain,
 } from '@features/mountain/searchMountainSlice';
-import { getMountainPlace, mountain } from '@features/mountain/mountainSlice';
+import { mountain } from '@features/mountain/mountainSlice';
 import { useAppSelector, useAppDispatch } from '@app/hooks';
 import Searchbar from '@components/main/Searchbar';
 import MountainItem from '@components/main/MountainItems';
 import MapContainerMain from '@components/common/MapContainerMain';
-import MascottMain from '@components/main/MascottMain';
-import { NavLink } from 'react-router-dom';
 import {
   getSeasonMountains,
   seasonMountains,
 } from '@features/mountain/seasonMountainSlice';
-import MapContainerDetail from '@components/common/MapContainerDetail';
 import {
   userChallenge,
   getChallengeList,
 } from '@features/user/userChallengeSlice';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import churamgi from '@assets/images/ramgi_flag.png';
+import { useNavigate, NavLink } from 'react-router-dom';
 
 function MainPage() {
+  const navigate = useNavigate();
+
   // searchbar에 입력한 텍스트
   const [searchMountainText, setSearchMountainText] = useState('');
   // 검색목록에서 클릭한 mountain 정보
@@ -39,12 +43,6 @@ function MainPage() {
     altitude: 0,
     difficulty: '',
   });
-
-  const [latitude, setLatitude] = useState(0);
-  const [longitude, setLongitude] = useState(0);
-
-  const positionData = useAppSelector(positionTrail);
-  const positionDispatch = useAppDispatch();
 
   const searchData = useAppSelector(searchMountain);
   const searchDispatch = useAppDispatch();
@@ -68,21 +66,29 @@ function MainPage() {
   }, []);
 
   // 내 위치 조사해서 가장 가까운 등산로 받아오는 코드
+  const [latitude, setLatitude] = useState(0);
+  const [longitude, setLongitude] = useState(0);
+  const positionData = useAppSelector(positionTrail);
+  const positionDispatch = useAppDispatch();
   const positionClick = () => {
     if (navigator.geolocation) {
+      // eslint-disable-next-line func-names
       navigator.geolocation.getCurrentPosition(function (position) {
         setLatitude(position.coords.latitude);
         setLongitude(position.coords.longitude);
         console.log(latitude, longitude, '바꿨다!');
+        positionDispatch(getPositionTrail({ latitude, longitude }))
+          .then(() => {
+            navigate(`/mountain/trail/${positionData.result.trailSeq}`);
+          })
+          .catch(() => {
+            toast.error('현재위치를 받아올 수 없습니다.');
+          });
       });
     } else {
-      alert('geolocation이 너한텐 동작안함');
+      toast.error('현재위치를 받아올 수 없습니다.');
     }
   };
-
-  useEffect(() => {
-    positionDispatch(getPositionTrail({ latitude, longitude }));
-  }, [latitude, longitude]);
 
   // 계절 산 리스트 받아오기
   const seasonMountainData = useAppSelector(seasonMountains);
@@ -112,7 +118,27 @@ function MainPage() {
 
   return (
     <div className="mainpage">
-      {/* <MainBanner/> */}
+      <ToastContainer position="top-center" autoClose={1000} hideProgressBar />
+
+      <div className="main-header grid grid-cols-8">
+        <div
+          className="left col-span-4"
+          onClick={positionClick}
+          onKeyDown={positionClick}
+          role="presentation"
+        >
+          <div className="head">지금 등산 중이라면?</div>
+          <div className="sub">현재 등산로 근처 지점 확인하기 &gt;</div>
+          <img src={churamgi} alt="추람쥐" />
+        </div>
+
+        <NavLink className="right col-span-4" to="/recommend/question">
+          <div className="head">어디로 가야할 지</div>
+          <div className="head">모르겠다면?</div>
+          <div className="sub">나에게 맞는 등산로 추천받기 &gt;</div>
+          <img src={churamgi} alt="추람쥐" />
+        </NavLink>
+      </div>
 
       <Searchbar
         searchMountainText={searchMountainText}
@@ -121,22 +147,6 @@ function MainPage() {
         searchResult={setSearchResult}
       />
       <MapContainerMain searchResult={searchResult} />
-      <div className="flex">{/* <MascottMain /> */}</div>
-
-      {/* <hr/> */}
-
-      {/* 내 위치 기반 등산로 return API 테스트 */}
-      {/* 아래부분 Routing 수정 해서 trailSeq 넘기기 */}
-      {/* <div>
-        <button type="button" onClick={positionClick}>
-          TEST
-        </button>
-        <div>
-          position - longitude : {longitude}
-          position - latitude : {latitude}
-          등산로 : {positionData.result.trailSeq}
-        </div>
-      </div> */}
 
       {/* 계절 명산 */}
       <MountainItem
@@ -147,17 +157,10 @@ function MainPage() {
 
       {/* 100대 명산 리스트 */}
       <MountainItem
-        title={`100대 명산 챌린지`}
+        title="100대 명산 챌린지"
         data={userChallengeData.result.challengeList}
-        is100={true}
+        is100
       />
-
-      {/* 100대 명산 자세히 보기 버튼 */}
-      {/* <div className="user-challenge">
-        <NavLink to="/user/challenge">자세히보기</NavLink>
-      </div> */}
-
-      {/* 지금등산중이라면? */}
     </div>
   );
 }

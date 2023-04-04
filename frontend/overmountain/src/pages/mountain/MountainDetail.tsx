@@ -4,7 +4,7 @@ import { useAppSelector, useAppDispatch } from '@app/hooks';
 import Card from '@components/common/Card';
 import TrailItems from '@components/trail/TrailItems';
 import TrailMap from '@components/trail/TrailMap';
-import { useParams } from 'react-router-dom';
+import { useParams, NavLink } from 'react-router-dom';
 import { setSelectedTrailKey } from '@features/trail/selectedTrailSlice';
 import { rountingTrailKey } from '@features/trail/routingTrailSlice';
 import ReviewItems from '@components/mountain/ReviewItems';
@@ -38,7 +38,12 @@ function MountainDetail() {
 
   return (
     <div className="mountainDetail-root">
-      <TrailMap />
+      {/* 스팟 페이지로 라우팅 */}
+      <NavLink to={`/mountain/trail/${defaultRecomKey.rountingTrailKey}`}>
+        <div className="trail-routing">선택한 등산로 지도로 상세보기! &gt;</div>
+      </NavLink>
+
+      {/* <TrailMap /> */}
 
       {/* 등산로리스트 */}
       <TrailItems mountainSeq={mountainSeq} />

@@ -36,18 +36,15 @@ function TrailItems(props: { mountainSeq: string }) {
   const keepChange = (checkVal: boolean, trailSeq: number) => {
     if (localStorage.getItem('token') !== null) {
       keepDispatch(updateTrailKeep(trailSeq)).then(() => {
-        // 찜 X -> 찜 O
         if (checkVal) {
-          toast.success('찜 목록에 추가되었습니다.', { autoClose: 2000 });
-        }
-        // 찜 O -> 찜 X
-        else {
-          alert('찜 목록에서 삭제되었습니다.');
+          toast.success('찜 목록에 추가되었습니다.');
+        } else {
+          toast.success('찜 목록에서 삭제되었습니다.');
         }
         trailListDispatch(getMountainTrailList(mountainSeq));
       });
     } else {
-      alert('로그인 먼저 해주세요!');
+      toast.error('로그인 먼저 해주세요!');
     }
   };
 
@@ -141,7 +138,13 @@ function TrailItems(props: { mountainSeq: string }) {
           ))}
       </div>
 
-      <div className="col-span-1"></div>
+      <div className="col-span-1">
+        <ToastContainer
+          position="top-center"
+          autoClose={1000}
+          hideProgressBar
+        />
+      </div>
     </div>
   );
 }

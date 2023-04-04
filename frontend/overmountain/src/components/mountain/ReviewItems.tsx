@@ -9,6 +9,8 @@ import {
 import star_full from '@assets/images/star_full.png';
 import star_empty from '@assets/images/star_empty.png';
 import trash_can from '@assets/images/trash_can.png';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function ReviewItems(props: { mountainSeq: string }) {
   const { mountainSeq } = props;
@@ -26,9 +28,9 @@ function ReviewItems(props: { mountainSeq: string }) {
   const [rate, setRate] = useState('0');
   const writeMyReview = () => {
     if (content === '') {
-      alert('내용을 작성해주세요!');
+      toast.error('내용을 작성 해주세요!');
     } else if (rate === '0' || rate === 'none') {
-      alert('평점을 선택해주세요!');
+      toast.error('평점을 선택 해주세요!');
     } else {
       const sendReview = {
         mountainSeq: mountainSeq,
@@ -40,6 +42,7 @@ function ReviewItems(props: { mountainSeq: string }) {
         setContent('');
         setRate('0');
         getReviewDispatch(getReviewList(mountainSeq));
+        toast.success('후기가 등록되었습니다.');
       });
     }
   };
@@ -48,12 +51,15 @@ function ReviewItems(props: { mountainSeq: string }) {
   const deleteReviewDistpatch = useAppDispatch();
   const deleteMyReview = (reviewNum: number) => {
     deleteReviewDistpatch(deleteReview(reviewNum)).then(() => {
+      toast.success('후기가 삭제되었습니다.');
       getReviewDispatch(getReviewList(mountainSeq));
     });
   };
 
   return (
     <div className="mountain-reviewItems">
+      <ToastContainer position="top-center" autoClose={1000} hideProgressBar />
+
       <div className="review-title">후기</div>
 
       <div className="review-body">
@@ -158,7 +164,7 @@ function ReviewItems(props: { mountainSeq: string }) {
             value={content}
             onChange={(e) => setContent(e.target.value)}
             onKeyDown={(e) => setContent(e.currentTarget.value)}
-          ></textarea>
+          />
         </form>
       </div>
     </div>
