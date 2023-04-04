@@ -30,24 +30,23 @@ function Searchbar(props: {
           onChange={getValue}
         ></input>
         <BiSearch size="24" />
-      </div>
-
-      <div className="search-result-container">
-        {props.searchList.map((mountain) => (
-          <div
-            key={mountain.sequence}
-            className="result-box"
-            role="presentation"
-            onClick={() => markerMapHandler(mountain)}
-            onKeyDown={() => markerMapHandler(mountain)}
-          >
-            <div className="mountain-name">{mountain.name}</div>
-            <div className="mountain-address">
-              {mountain.si} {mountain.gu} {mountain.dong}
+        <div className="search-result-container">
+          {props.searchList.map((mountain) => (
+            <div
+              key={mountain.sequence}
+              className="result-box"
+              role="presentation"
+              onClick={() => markerMapHandler(mountain)}
+              onKeyDown={() => markerMapHandler(mountain)}
+            >
+              <div className="mountain-name">{mountain.name}</div>
+              <div className="mountain-address">
+                {mountain.si} {mountain.gu} {mountain.dong}
+              </div>
+              <hr style={{ color: 'black' }} />
             </div>
-            <hr style={{ color: 'black' }} />
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );

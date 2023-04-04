@@ -66,18 +66,15 @@
     height: 60px;
     background-color: rgba(240, 240, 240, 0.579);
     border-radius: 50%;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     &.not-conquered {
       filter: grayscale(1);
     }
 
-    img{
+    img {
       width: 45px;
     }
-    
-
-   
   }
 }

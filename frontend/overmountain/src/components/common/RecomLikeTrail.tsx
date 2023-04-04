@@ -20,7 +20,7 @@ function RecomLikeTrail(props: { data: Trail[] }) {
 
   return (
     <div className="recomLikeTrail-component">
-      <div>등산로 컴포넌트</div>
+      {/* <div>등산로 컴포넌트</div> */}
 
       {/* 등산로들 */}
       <div className="trail-list">
@@ -29,54 +29,67 @@ function RecomLikeTrail(props: { data: Trail[] }) {
             // 하나의 등산로
             // eslint-disable-next-line react/jsx-key
             <div className="single-trail">
-              {/* 이름 */}
-              <div
-                onClick={() =>
-                  moveToDetail(singleTrail.sequence, singleTrail.mountainSeq)
-                }
-                onKeyDown={() =>
-                  moveToDetail(singleTrail.sequence, singleTrail.mountainSeq)
-                }
-                role="presentation"
-              >
-                {singleTrail.name}
+              <div className="single-info">
+                <div className="info-name">
+                  {/* 이름 */}
+                  <div
+                    onClick={() =>
+                      moveToDetail(
+                        singleTrail.sequence,
+                        singleTrail.mountainSeq,
+                      )
+                    }
+                    onKeyDown={() =>
+                      moveToDetail(
+                        singleTrail.sequence,
+                        singleTrail.mountainSeq,
+                      )
+                    }
+                    role="presentation"
+                  >
+                    {singleTrail.name}
+                  </div>
+                </div>
+                <div className="info-km-time">
+                  {/* km */}
+                  <div className="info-km">{singleTrail.length}km</div>
+                  {/* 시간 */}
+                  <div className="info-time">{singleTrail.time}분 예상</div>
+                </div>
+                <div className="info-difficulty">
+                  {/* 난이도 */}
+                  {singleTrail.difficulty === '어려움' ? (
+                    <div className="difficulty">
+                      <img src={mountain_selected} alt="difficulty" />
+                      <img src={mountain_selected} alt="difficulty" />
+                      <img src={mountain_selected} alt="difficulty" />
+                    </div>
+                  ) : null}
+                  {singleTrail.difficulty === '중간' ? (
+                    <div className="difficulty">
+                      <img src={mountain_selected} alt="difficulty" />
+                      <img src={mountain_selected} alt="difficulty" />
+                      <img src={mountain_unselected} alt="difficulty" />
+                    </div>
+                  ) : null}
+                  {singleTrail.difficulty === '쉬움' ? (
+                    <div className="difficulty">
+                      <img src={mountain_selected} alt="difficulty" />
+                      <img src={mountain_unselected} alt="difficulty" />
+                      <img src={mountain_unselected} alt="difficulty" />
+                    </div>
+                  ) : null}
+                </div>
               </div>
 
-              {/* 난이도 */}
-              {singleTrail.difficulty === '어려움' ? (
-                <div className="difficulty">
-                  <img src={mountain_selected} alt="difficulty" />
-                  <img src={mountain_selected} alt="difficulty" />
-                  <img src={mountain_selected} alt="difficulty" />
-                </div>
-              ) : null}
-              {singleTrail.difficulty === '중간' ? (
-                <div className="difficulty">
-                  <img src={mountain_selected} alt="difficulty" />
-                  <img src={mountain_selected} alt="difficulty" />
-                  <img src={mountain_unselected} alt="difficulty" />
-                </div>
-              ) : null}
-              {singleTrail.difficulty === '쉬움' ? (
-                <div className="difficulty">
-                  <img src={mountain_selected} alt="difficulty" />
-                  <img src={mountain_unselected} alt="difficulty" />
-                  <img src={mountain_unselected} alt="difficulty" />
-                </div>
-              ) : null}
-
-              {/* 시간 */}
-              <div>{singleTrail.time}분</div>
-
-              {/* km */}
-              <div>{singleTrail.length}km</div>
-
               {/* 찜 여부 */}
-              {singleTrail.isLike ? (
-                <img src={like_selected} alt="찜" />
-              ) : (
-                <img src={like_unselected} alt="안찜" />
-              )}
+              <div className="single-islike">
+                {singleTrail.isLike ? (
+                  <img src={like_selected} alt="찜" />
+                ) : (
+                  <img src={like_unselected} alt="안찜" />
+                )}
+              </div>
             </div>
           ))}
       </div>

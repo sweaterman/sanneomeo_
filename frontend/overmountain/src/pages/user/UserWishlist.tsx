@@ -15,12 +15,19 @@ function UserWishList() {
   }, []);
 
   return (
-    <>
-      <div>내가 찜한 등산로 리스트</div>
+    <div className="user-wishlist">
+      <div className="wish-header">
+        <div className="wish-title">
+          <h1>내가 찜한 등산로</h1>
+          {/* <span>
+          찜해놓은 등산로를 확인해봐요!
+          </span> */}
+        </div>
+      </div>
 
       {/* 등산로들 컴포넌트  */}
       <RecomLikeTrail data={userLikeData.result} />
-    </>
+    </div>
   );
 }
 

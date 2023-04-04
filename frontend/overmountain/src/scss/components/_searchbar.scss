@@ -9,7 +9,8 @@
     margin: 20px 0px 20px 0px;
     display: flex;
     justify-content: space-around;
-    background-color: rgb(224, 224, 224);
+    position: relative;
+    background-color: rgb(237, 237, 237);
     height: 40px;
     font-size: 20px;
     color: black;
@@ -19,11 +20,13 @@
     padding-left: 20px;
     padding-right: 20px;
     align-items: center;
+    z-index: 2;
 
     input {
       background-color: rgba(209, 209, 209, 0);
       font-size: $font-h5;
       width: 80%;
+      z-index: 2;
       &:focus {
         outline: none;
       }
@@ -31,29 +34,30 @@
 
     svg {
       fill: grey;
+      z-index: 2;
     }
-  }
 
-  .search-result-container {
-    position: absolute;
-    z-index: 1;
-    width: 60%;
-    height: auto;
-    max-height: 330px;
-    background-color: rgba(224, 224, 224, 0.9);
-    margin-left: 5%;
-    text-align: left;
-    overflow: hidden;
-    .result-box {
-      margin-top: 5%;
-      .mountain-name {
-        margin-left: 5%;
-      }
-      .mountain-address {
-        margin-left: 5%;
-      }
-      hr {
-        color: black;
+    .search-result-container {
+      position: absolute;
+      top: 40px;
+      z-index: 1;
+      width: 100%;
+      height: auto;
+      max-height: 330px;
+      background-color: rgb(237, 237, 237);
+      text-align: left;
+      overflow: hidden;
+      .result-box {
+        margin-top: 5%;
+        .mountain-name {
+          margin-left: 5%;
+        }
+        .mountain-address {
+          margin-left: 5%;
+        }
+        hr {
+          color: black;
+        }
       }
     }
   }
