@@ -3,38 +3,30 @@ import {
   getUserTrailLike,
   userTrailLike,
 } from '@features/user/userTrailLikeSlice';
-import MascottMain from '@components/main/MascottMain';
-import TrailItems from '@components/trail/TrailItems';
 import { useAppDispatch, useAppSelector } from '@app/hooks';
 
 function UserWishList() {
-  // 찜리스트 소환 slice
+  // 처음에 찜리스트 받아오기
   const userLikeData = useAppSelector(userTrailLike);
   const userLikeDispatch = useAppDispatch();
-
-  const trailLikeArray = userLikeData.result;
   useEffect(() => {
     userLikeDispatch(getUserTrailLike());
-    console.log(userLikeData);
   }, []);
-  // 람쥐찜문구
-  const mascottMessage = '아직 찜리스트가 없네';
 
   return (
     <>
-      <hr />
-      <MascottMain balloonText={mascottMessage} />
+      <div>내가 찜한 등산로 리스트</div>
+
+      {/* 하나의 등산로 컴포넌트  */}
       <div className="trailbox">
-        <div>
-          {/* {trailLikeArray &&
-            trailLikeArray.map((trail) => (
-              <TrailItems
-                key={trail.trailSeq}
-                mountainSeq={trail.mountainSeq}
-                trailKey={trail.trailSeq}
-              />
-            ))} */}
-        </div>
+        {userLikeData.result &&
+          userLikeData.result.map((singleTrail) => (
+            // eslint-disable-next-line react/jsx-key
+            <div>
+              <div>{singleTrail.name}</div>
+              <div>{singleTrail.difficulty}</div>
+            </div>
+          ))}
       </div>
     </>
   );
