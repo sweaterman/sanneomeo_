@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import React, { useEffect } from 'react';
 import mountain_selected from '@assets/images/mountain_selected.png';
 import mountain_unselected from '@assets/images/mountain_unselected.png';
@@ -13,9 +14,7 @@ import {
   selectedTrailKey,
 } from '@features/trail/selectedTrailSlice';
 import { updateTrailKeep } from '@features/trail/trailKeepSlice';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { toast, ToastContainer } from 'react-toastify';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import 'react-toastify/dist/ReactToastify.css';
 
 function TrailItems(props: { mountainSeq: string }) {
