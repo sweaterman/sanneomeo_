@@ -23,22 +23,22 @@ function ReviewItems(props: { mountainSeq: string }) {
   // 후기 작성하기 (mountainSeq, content, rate)
   const writeReviewDispatch = useAppDispatch();
   const [content, setContent] = useState('');
-  const [rate, setRate] = useState(0);
+  const [rate, setRate] = useState('0');
   const writeMyReview = () => {
     if (content === '') {
       alert('내용을 작성해주세요!');
-    } else if (rate === 0) {
+    } else if (rate === '0' || rate === 'none') {
       alert('평점을 선택해주세요!');
     } else {
       const sendReview = {
         mountainSeq: mountainSeq,
         userSeq: 0,
         content: content,
-        rate: rate,
+        rate: Number(rate),
       };
       writeReviewDispatch(writeReview(sendReview)).then(() => {
         setContent('');
-        setRate(0);
+        setRate('0');
         getReviewDispatch(getReviewList(mountainSeq));
       });
     }
@@ -54,22 +54,18 @@ function ReviewItems(props: { mountainSeq: string }) {
 
   return (
     <div className="mountain-reviewItems">
-      <div className="review-title">
-        후기
-      </div>
+      <div className="review-title">후기</div>
 
       <div className="review-body">
-        <div className="review-info">
-        </div>
         <div className="review-list">
           <div className="review-filter">
             <div>· 최신순</div>
             <div>· 별점 높은 순</div>
             <div>· 별점 낮은 순</div>
           </div>
-          
-          <hr className="review-hr"/>
-          
+
+          <hr className="review-hr" />
+
           {/* 후기 리스트 */}
           {reviewData &&
             reviewData.reviewList &&
@@ -79,7 +75,7 @@ function ReviewItems(props: { mountainSeq: string }) {
               <div className="oneReview">
                 <div className="firstline">
                   <div className="userInfo">
-                    <img src={oneReview.profileImage} alt="프로필 이미지"/>
+                    <img src={oneReview.profileImage} alt="프로필 이미지" />
                     <div className="userName">{oneReview.nickname}</div>
                   </div>
                   <div className="reviewInfo">
@@ -105,7 +101,6 @@ function ReviewItems(props: { mountainSeq: string }) {
                       {new Date(oneReview.createdAt).toISOString().slice(0, 10)}
                     </div>
                   </div>
-                  
                 </div>
 
                 <div className="content">{oneReview.content}</div>
@@ -119,11 +114,10 @@ function ReviewItems(props: { mountainSeq: string }) {
                       alt=""
                     />
                   ) : (
-                    <br/>
-                  )
-                  }
+                    <br />
+                  )}
                 </div>
-                <hr className="oneRiveiw-hr"/>
+                <hr className="oneRiveiw-hr" />
               </div>
             ))}
         </div>
@@ -134,10 +128,10 @@ function ReviewItems(props: { mountainSeq: string }) {
         <div className="write-button">
           <div className="write-rate">
             별점
-            <select
-              onChange={(e) => setRate(Number(e.target.value))}
-              value={rate}
-            >
+            <select onChange={(e) => setRate(e.target.value)} value={rate}>
+              <option value="none" selected>
+                선택
+              </option>
               <option value="5">5점</option>
               <option value="4">4점</option>
               <option value="3">3점</option>
@@ -146,29 +140,26 @@ function ReviewItems(props: { mountainSeq: string }) {
             </select>
           </div>
 
-          <div className="submit-button"
-              onClick={writeMyReview}
-              onKeyDown={writeMyReview}
-              role="presentation"
-            >
+          <div
+            className="submit-button"
+            onClick={writeMyReview}
+            onKeyDown={writeMyReview}
+            role="presentation"
+          >
             등록하기
           </div>
-
-
         </div>
-        <hr className="write-hr"/>
+        <hr className="write-hr" />
 
         <form className="write-input">
           <textarea
-            placeholder='후기를 등록해주세요!'
+            placeholder="후기를 등록해주세요!"
             className="w-full h-100 resize-none overflow-y-auto rounded"
             value={content}
             onChange={(e) => setContent(e.target.value)}
             onKeyDown={(e) => setContent(e.currentTarget.value)}
           ></textarea>
         </form>
-
-        
       </div>
     </div>
   );
