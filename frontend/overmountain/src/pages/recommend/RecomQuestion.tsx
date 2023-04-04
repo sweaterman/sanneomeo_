@@ -314,10 +314,17 @@ function RecomQuestion() {
         </div>
         <br />
         <div className="question-finish">
+          <div className="finish-text">
+            많은 항목에 응답할수록 좋은 추천 결과를 받을 수 있어요!
+          </div>
           <button className="submit-button" type="submit">
-            완료
+          
+          추천 받으러 가기
+          
+            
           </button>
-        </div>
+          </div>
+        
       </form>
     </div>
   );

@@ -129,7 +129,7 @@ hr {
   .select-time {
     display: flex;
     justify-content: center;
-    margin: 20px;
+    margin: 10px;
     background-color: $midi-yellow;
     border-radius: 30px;
     width: 290px;
@@ -157,13 +157,30 @@ hr {
   }
 }
 
-.question-finish {
-  margin-right: 30px;
-  text-align: right;
-  .submit-button {
-    background-color: white;
-    border: none;
-    color: $over-red;
-    font-size: large;
+.question-finish{
+
+  width:100%;
+  margin-bottom: 20px;
+
+  .finish-text{
+    font-size: $font-h5;
+    margin: 10px;
+    font-weight: 500;
+    color:rgb(122, 122, 122);
   }
+
+  .submit-button {
+    width: 100%;
+    background-color: $heavy-green;
+    border: none;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    height: 50px;
+    border-radius: 10px;
+  
+  }
+
+
 }
+
