@@ -1,0 +1,567 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 6919,
+        "MNTN_CODE" : "428107304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "다리설치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "관대리",
+        "PAST_SPOT_" : "4281073040001",
+        "MNTN_ID" : "428107304"
+      },
+      "geometry" : {
+        "x" : 297445.01499999966,
+        "y" : 602859.96100000292
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 6920,
+        "MNTN_CODE" : "428107304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "다리설치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "관대리",
+        "PAST_SPOT_" : "4281073040002",
+        "MNTN_ID" : "428107304"
+      },
+      "geometry" : {
+        "x" : 297551.20920000225,
+        "y" : 603107.76610000059
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 6921,
+        "MNTN_CODE" : "428107304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "다리설치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "관대리",
+        "PAST_SPOT_" : "4281073040003",
+        "MNTN_ID" : "428107304"
+      },
+      "geometry" : {
+        "x" : 297758.54369999934,
+        "y" : 603233.79350000061
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 6922,
+        "MNTN_CODE" : "428107304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "다리설치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "관대리",
+        "PAST_SPOT_" : "4281073040004",
+        "MNTN_ID" : "428107304"
+      },
+      "geometry" : {
+        "x" : 297988.83850000147,
+        "y" : 603317.45490000211
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 6923,
+        "MNTN_CODE" : "428107304",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치, 화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "관대리",
+        "PAST_SPOT_" : "4281073040005",
+        "MNTN_ID" : "428107304"
+      },
+      "geometry" : {
+        "x" : 298078.71220000088,
+        "y" : 603487.52990000136
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 6924,
+        "MNTN_CODE" : "428107304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프설치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "관대리",
+        "PAST_SPOT_" : "4281073040006",
+        "MNTN_ID" : "428107304"
+      },
+      "geometry" : {
+        "x" : 297871.19760000054,
+        "y" : 603138.54320000112
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 6925,
+        "MNTN_CODE" : "428107304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경고판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "관대리",
+        "PAST_SPOT_" : "4281073040007",
+        "MNTN_ID" : "428107304"
+      },
+      "geometry" : {
+        "x" : 297563.35320000071,
+        "y" : 602414.02590000257
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 6926,
+        "MNTN_CODE" : "428107304",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경고판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "관대리",
+        "PAST_SPOT_" : "4281073040008",
+        "MNTN_ID" : "428107304"
+      },
+      "geometry" : {
+        "x" : 297553.78830000106,
+        "y" : 602410.48729999922
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 6927,
+        "MNTN_CODE" : "428107304",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판,지도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "관대리",
+        "PAST_SPOT_" : "4281073040009",
+        "MNTN_ID" : "428107304"
+      },
+      "geometry" : {
+        "x" : 297413.27950000018,
+        "y" : 602176.6967999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 6928,
+        "MNTN_CODE" : "428107304",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "관대리",
+        "PAST_SPOT_" : "4281073040010",
+        "MNTN_ID" : "428107304"
+      },
+      "geometry" : {
+        "x" : 297170.11690000072,
+        "y" : 602704.92596524581
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 6929,
+        "MNTN_CODE" : "428107304",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "관대리",
+        "PAST_SPOT_" : "4281073040011",
+        "MNTN_ID" : "428107304"
+      },
+      "geometry" : {
+        "x" : 297254.29039602913,
+        "y" : 602361.24974121526
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 95933,
+        "MNTN_CODE" : "428107304",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판또는지도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "관대리",
+        "PAST_SPOT_" : "4281073040012",
+        "MNTN_ID" : "428107304"
+      },
+      "geometry" : {
+        "x" : 297259.70700000029,
+        "y" : 602728.33269999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 95934,
+        "MNTN_CODE" : "428107304",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "관대리",
+        "PAST_SPOT_" : "4281073040013",
+        "MNTN_ID" : "428107304"
+      },
+      "geometry" : {
+        "x" : 297413.89209999947,
+        "y" : 602784.58819999872
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 95935,
+        "MNTN_CODE" : "428107304",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "관대리",
+        "PAST_SPOT_" : "4281073040014",
+        "MNTN_ID" : "428107304"
+      },
+      "geometry" : {
+        "x" : 297418.32890000072,
+        "y" : 602822.41170000017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 95936,
+        "MNTN_CODE" : "428107304",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "관대리",
+        "PAST_SPOT_" : "4281073040015",
+        "MNTN_ID" : "428107304"
+      },
+      "geometry" : {
+        "x" : 297438.26500000106,
+        "y" : 602837.10080000048
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 95937,
+        "MNTN_CODE" : "428107304",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "관대리",
+        "PAST_SPOT_" : "4281073040016",
+        "MNTN_ID" : "428107304"
+      },
+      "geometry" : {
+        "x" : 297463.66980000027,
+        "y" : 602934.50579999911
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 95938,
+        "MNTN_CODE" : "428107304",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "관대리",
+        "PAST_SPOT_" : "4281073040017",
+        "MNTN_ID" : "428107304"
+      },
+      "geometry" : {
+        "x" : 297528.44160000095,
+        "y" : 602972.75190000038
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 95939,
+        "MNTN_CODE" : "428107304",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "관대리",
+        "PAST_SPOT_" : "4281073040018",
+        "MNTN_ID" : "428107304"
+      },
+      "geometry" : {
+        "x" : 297368.94319999928,
+        "y" : 603156.27749999985
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 95940,
+        "MNTN_CODE" : "428107304",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "관대리",
+        "PAST_SPOT_" : "4281073040019",
+        "MNTN_ID" : "428107304"
+      },
+      "geometry" : {
+        "x" : 297634.22060000035,
+        "y" : 603144.7328999989
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 95941,
+        "MNTN_CODE" : "428107304",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "관대리",
+        "PAST_SPOT_" : "4281073040020",
+        "MNTN_ID" : "428107304"
+      },
+      "geometry" : {
+        "x" : 297995.45290000027,
+        "y" : 603309.73640000087
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 95942,
+        "MNTN_CODE" : "428107304",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "관대리",
+        "PAST_SPOT_" : "4281073040021",
+        "MNTN_ID" : "428107304"
+      },
+      "geometry" : {
+        "x" : 298083.24760000035,
+        "y" : 603360.58379999921
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 95943,
+        "MNTN_CODE" : "428107304",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "관대리",
+        "PAST_SPOT_" : "4281073040022",
+        "MNTN_ID" : "428107304"
+      },
+      "geometry" : {
+        "x" : 298024.7214000005,
+        "y" : 603313.31660000084
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 95944,
+        "MNTN_CODE" : "428107304",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "관대리",
+        "PAST_SPOT_" : "4281073040023",
+        "MNTN_ID" : "428107304"
+      },
+      "geometry" : {
+        "x" : 297791.74239999999,
+        "y" : 602981.7257000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 95945,
+        "MNTN_CODE" : "428107304",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "관대리",
+        "PAST_SPOT_" : "4281073040024",
+        "MNTN_ID" : "428107304"
+      },
+      "geometry" : {
+        "x" : 297639.35429999849,
+        "y" : 602733.17879999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 95946,
+        "MNTN_CODE" : "428107304",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "관대리",
+        "PAST_SPOT_" : "4281073040025",
+        "MNTN_ID" : "428107304"
+      },
+      "geometry" : {
+        "x" : 297583.375300001,
+        "y" : 602515.24730000051
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 95947,
+        "MNTN_CODE" : "428107304",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "관대리",
+        "PAST_SPOT_" : "4281073040026",
+        "MNTN_ID" : "428107304"
+      },
+      "geometry" : {
+        "x" : 297458.71200000064,
+        "y" : 602258.62360000028
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 95948,
+        "MNTN_CODE" : "428107304",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판또는지도, 이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "관대리",
+        "PAST_SPOT_" : "4281073040027",
+        "MNTN_ID" : "428107304"
+      },
+      "geometry" : {
+        "x" : 297255.20670000074,
+        "y" : 602361.29320000042
+      }
+    }
+  ]
+}

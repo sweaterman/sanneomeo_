@@ -1,0 +1,603 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 75904,
+        "MNTN_CODE" : "471704301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "찜질방",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "자암산",
+        "PAST_SPOT_" : "4717043010001",
+        "MNTN_ID" : "471704301"
+      },
+      "geometry" : {
+        "x" : 349771.18020000029,
+        "y" : 435284.72369999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 75905,
+        "MNTN_CODE" : "471704301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로사진",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "자암산",
+        "PAST_SPOT_" : "4717043010002",
+        "MNTN_ID" : "471704301"
+      },
+      "geometry" : {
+        "x" : 350273.58710000105,
+        "y" : 434648.44880000316
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 75906,
+        "MNTN_CODE" : "471704301",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동기구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "자암산",
+        "PAST_SPOT_" : "4717043010003",
+        "MNTN_ID" : "471704301"
+      },
+      "geometry" : {
+        "x" : 350946.61060000025,
+        "y" : 434539.37700000033
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 75907,
+        "MNTN_CODE" : "471704301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "보현사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "자암산",
+        "PAST_SPOT_" : "4717043010004",
+        "MNTN_ID" : "471704301"
+      },
+      "geometry" : {
+        "x" : 350796.04569999967,
+        "y" : 434988.00390000083
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 75908,
+        "MNTN_CODE" : "471704301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "외나무다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "자암산",
+        "PAST_SPOT_" : "4717043010005",
+        "MNTN_ID" : "471704301"
+      },
+      "geometry" : {
+        "x" : 350607.3348000003,
+        "y" : 435053.58510000072
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 75909,
+        "MNTN_CODE" : "471704301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "외나무다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "자암산",
+        "PAST_SPOT_" : "4717043010006",
+        "MNTN_ID" : "471704301"
+      },
+      "geometry" : {
+        "x" : 350606.92050000001,
+        "y" : 435062.25039999746
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 75910,
+        "MNTN_CODE" : "471704301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "자암산",
+        "PAST_SPOT_" : "4717043010007",
+        "MNTN_ID" : "471704301"
+      },
+      "geometry" : {
+        "x" : 349795.26589999907,
+        "y" : 435314.39330000058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 75911,
+        "MNTN_CODE" : "471704301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "자암산",
+        "PAST_SPOT_" : "4717043010008",
+        "MNTN_ID" : "471704301"
+      },
+      "geometry" : {
+        "x" : 350440.92230000161,
+        "y" : 435130.90310000069
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 75912,
+        "MNTN_CODE" : "471704301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "자암산",
+        "PAST_SPOT_" : "4717043010009",
+        "MNTN_ID" : "471704301"
+      },
+      "geometry" : {
+        "x" : 350605.86890000012,
+        "y" : 435045.59350000322
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 75913,
+        "MNTN_CODE" : "471704301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "자암산",
+        "PAST_SPOT_" : "4717043010010",
+        "MNTN_ID" : "471704301"
+      },
+      "geometry" : {
+        "x" : 350630.41339999996,
+        "y" : 436551.24590000138
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 75914,
+        "MNTN_CODE" : "471704301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "자암산",
+        "PAST_SPOT_" : "4717043010011",
+        "MNTN_ID" : "471704301"
+      },
+      "geometry" : {
+        "x" : 350665.08340000082,
+        "y" : 436918.29340000451
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 75915,
+        "MNTN_CODE" : "471704301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "자암산",
+        "PAST_SPOT_" : "4717043010012",
+        "MNTN_ID" : "471704301"
+      },
+      "geometry" : {
+        "x" : 350983.40140000079,
+        "y" : 435507.20690000243
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 75916,
+        "MNTN_CODE" : "471704301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "자암산",
+        "PAST_SPOT_" : "4717043010013",
+        "MNTN_ID" : "471704301"
+      },
+      "geometry" : {
+        "x" : 351239.5382000003,
+        "y" : 434661.58620000258
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 75917,
+        "MNTN_CODE" : "471704301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "자암산",
+        "PAST_SPOT_" : "4717043010014",
+        "MNTN_ID" : "471704301"
+      },
+      "geometry" : {
+        "x" : 351292.51630000118,
+        "y" : 434752.93600000069
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 99016,
+        "MNTN_CODE" : "471704301",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "자암산",
+        "PAST_SPOT_" : "4717043010015",
+        "MNTN_ID" : "471704301"
+      },
+      "geometry" : {
+        "x" : 350994.47359999921,
+        "y" : 435850.26999999961
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 99017,
+        "MNTN_CODE" : "471704301",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "자암산",
+        "PAST_SPOT_" : "4717043010016",
+        "MNTN_ID" : "471704301"
+      },
+      "geometry" : {
+        "x" : 350979.89880000066,
+        "y" : 435500.19119999942
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 99018,
+        "MNTN_CODE" : "471704301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "자암산",
+        "PAST_SPOT_" : "4717043010017",
+        "MNTN_ID" : "471704301"
+      },
+      "geometry" : {
+        "x" : 351263.05350000109,
+        "y" : 435403.39840000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 99019,
+        "MNTN_CODE" : "471704301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "자암산",
+        "PAST_SPOT_" : "4717043010018",
+        "MNTN_ID" : "471704301"
+      },
+      "geometry" : {
+        "x" : 351377.55670000007,
+        "y" : 435079.64650000032
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 99020,
+        "MNTN_CODE" : "471704301",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "자암산",
+        "PAST_SPOT_" : "4717043010019",
+        "MNTN_ID" : "471704301"
+      },
+      "geometry" : {
+        "x" : 351290.48269999848,
+        "y" : 434752.99159999948
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 99021,
+        "MNTN_CODE" : "471704301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "자암산",
+        "PAST_SPOT_" : "4717043010020",
+        "MNTN_ID" : "471704301"
+      },
+      "geometry" : {
+        "x" : 351235.44079999847,
+        "y" : 434655.01879999961
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 99022,
+        "MNTN_CODE" : "471704301",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "자암산",
+        "PAST_SPOT_" : "4717043010021",
+        "MNTN_ID" : "471704301"
+      },
+      "geometry" : {
+        "x" : 352358.69010000012,
+        "y" : 435535.06169999944
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 99023,
+        "MNTN_CODE" : "471704301",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "자암산",
+        "PAST_SPOT_" : "4717043010022",
+        "MNTN_ID" : "471704301"
+      },
+      "geometry" : {
+        "x" : 352166.68080000061,
+        "y" : 435833.87340000109
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 99024,
+        "MNTN_CODE" : "471704301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "자암산",
+        "PAST_SPOT_" : "4717043010023",
+        "MNTN_ID" : "471704301"
+      },
+      "geometry" : {
+        "x" : 351827.85549999983,
+        "y" : 436351.06780000048
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 99025,
+        "MNTN_CODE" : "471704301",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "자암산",
+        "PAST_SPOT_" : "4717043010024",
+        "MNTN_ID" : "471704301"
+      },
+      "geometry" : {
+        "x" : 351367.43299999874,
+        "y" : 436596.37659999903
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 99026,
+        "MNTN_CODE" : "471704301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "찜질방",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "자암산",
+        "PAST_SPOT_" : "4717043010025",
+        "MNTN_ID" : "471704301"
+      },
+      "geometry" : {
+        "x" : 349731.9663999998,
+        "y" : 435204.22269999969
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 99027,
+        "MNTN_CODE" : "471704301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "자암산",
+        "PAST_SPOT_" : "4717043010026",
+        "MNTN_ID" : "471704301"
+      },
+      "geometry" : {
+        "x" : 349809.84689999989,
+        "y" : 435102.53800000052
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 99028,
+        "MNTN_CODE" : "471704301",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "자암산",
+        "PAST_SPOT_" : "4717043010027",
+        "MNTN_ID" : "471704301"
+      },
+      "geometry" : {
+        "x" : 349865.32149999886,
+        "y" : 434948.84850000043
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 99029,
+        "MNTN_CODE" : "471704301",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "자암산",
+        "PAST_SPOT_" : "4717043010028",
+        "MNTN_ID" : "471704301"
+      },
+      "geometry" : {
+        "x" : 350606.54359999998,
+        "y" : 435051.57059999905
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 99030,
+        "MNTN_CODE" : "471704301",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물(운동기구등)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "자암산",
+        "PAST_SPOT_" : "4717043010029",
+        "MNTN_ID" : "471704301"
+      },
+      "geometry" : {
+        "x" : 350714.09410000034,
+        "y" : 435101.36170000018
+      }
+    }
+  ]
+}

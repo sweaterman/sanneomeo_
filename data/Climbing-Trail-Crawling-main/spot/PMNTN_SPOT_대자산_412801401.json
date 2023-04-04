@@ -1,0 +1,909 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 20166,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010001",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 189036.29669999983,
+        "y" : 565351.39230000228
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 20167,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로 전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010002",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 189945.36980000045,
+        "y" : 565823.79739999957
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 20168,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "송전탑,송전탑, 분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010003",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 190004.20910000056,
+        "y" : 565857.02329999954
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 20169,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010004",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 189713.02850000001,
+        "y" : 565755.63900000229
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 20170,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실,화장실, 사슴농장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010005",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 189634.89169999957,
+        "y" : 565574.45150000043
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 20171,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "종점(한성농축원)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010006",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 189408.07969999965,
+        "y" : 565239.91679999791
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 20172,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "송전탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010007",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 189840.70370000042,
+        "y" : 565581.59540000185
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 20173,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "도로입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010008",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 190417.64060000144,
+        "y" : 564907.5625
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 20174,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "상수도배수지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010009",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 190183.91710000206,
+        "y" : 564931.88470000401
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 20175,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "민가 앞",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010010",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 190135.40490000043,
+        "y" : 564933.79230000265
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 20176,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "매지골 길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010011",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 190180.89989999961,
+        "y" : 564867.1436999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 20177,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "종점(대양로 입구)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010012",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 189758.32290000096,
+        "y" : 566227.56870000064
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 20178,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계곡",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010013",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 190426.32180000003,
+        "y" : 566056.30720000342
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 20179,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "용복교",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010014",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 190599.76730000041,
+        "y" : 564757.51590000466
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 20180,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치,벤치, 운동기구, 음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010015",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 190055.27300000098,
+        "y" : 565536.93810000271
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 20181,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "대자조절지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010016",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 190249.67659999989,
+        "y" : 565841.93129999936
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 20182,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010017",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 190163.54210000113,
+        "y" : 565105.79439999908
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 20183,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010018",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 188917.89760000072,
+        "y" : 565370.01350000128
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 20184,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010019",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 189212.98560000025,
+        "y" : 565338.97040000185
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 20185,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010020",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 189281.42920000106,
+        "y" : 565253.4243999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 20186,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010021",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 189398.10750000086,
+        "y" : 566031.88279999979
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 20187,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010022",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 189402.45060000103,
+        "y" : 565217.91320000216
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 20188,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010023",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 189440.26970000099,
+        "y" : 566122.65450000204
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 20189,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010024",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 189463.6799999997,
+        "y" : 566021.10759999976
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 20190,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010025",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 189534.52510000113,
+        "y" : 566238.42670000158
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 20191,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010026",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 189626.35770000052,
+        "y" : 566055.35120000131
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 20192,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010027",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 189634.17020000052,
+        "y" : 565575.77360000275
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 20193,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010028",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 189726.40230000019,
+        "y" : 565781.15460000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 20194,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010029",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 189828.21650000103,
+        "y" : 566044.06699999981
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 20195,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010030",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 189836.11689999979,
+        "y" : 566011.35160000063
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 20196,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010031",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 189978.42239999957,
+        "y" : 565925.27270000242
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 20197,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010032",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 190007.19230000023,
+        "y" : 565861.76540000178
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 20198,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010033",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 190061.17239999864,
+        "y" : 566286.04690000042
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 20199,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010034",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 190091.34130000044,
+        "y" : 564801.9215000011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 20200,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010035",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 190138.62660000101,
+        "y" : 565843.92469999939
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 20201,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010036",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 190163.26690000109,
+        "y" : 565106.39389999956
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 20202,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010037",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 190248.95820000116,
+        "y" : 565842.65920000151
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 20203,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010038",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 190271.00720000081,
+        "y" : 566054.15560000204
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 20204,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010039",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 190317.69710000046,
+        "y" : 564890.89450000413
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 20205,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010040",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 190418.27230000217,
+        "y" : 565038.53090000339
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 20206,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010041",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 190449.89840000123,
+        "y" : 565018.92149999924
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 20207,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010042",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 190577.42889999971,
+        "y" : 566196.09180000424
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 20208,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010043",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 190976.52910000086,
+        "y" : 565620.01989999786
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 96063,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010044",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 189883.56739999974,
+        "y" : 565772.07719999959
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 96064,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "주요나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010045",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 190109.92519999991,
+        "y" : 565755.15459999978
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 96065,
+        "MNTN_CODE" : "412801401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대자산",
+        "PAST_SPOT_" : "4128014010046",
+        "MNTN_ID" : "412801401"
+      },
+      "geometry" : {
+        "x" : 191207.70889999971,
+        "y" : 565474.58699999936
+      }
+    }
+  ]
+}

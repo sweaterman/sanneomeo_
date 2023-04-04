@@ -1,0 +1,855 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 64394,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000001",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 418283.0150001226,
+        "y" : 325525.34230000526
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 64395,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000002",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 418317.73140012566,
+        "y" : 327060.20330000482
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 64396,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000003",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 418937.26270012371,
+        "y" : 325698.17990000732
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 64397,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000004",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 418383.37980012596,
+        "y" : 327690.98870000988
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 64398,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000005",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 419054.83230012376,
+        "y" : 328388.27450000681
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 64399,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000006",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 419874.46840012725,
+        "y" : 329012.7813000083
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 64400,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "정자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000007",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 419956.68110012636,
+        "y" : 328929.20790001191
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 64401,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물(운동기구 등)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000008",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 420269.48420012929,
+        "y" : 328808.46930001117
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 64402,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000009",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 419385.55090012401,
+        "y" : 328754.6335000135
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 64403,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000010",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 419739.82320012618,
+        "y" : 326563.89990001358
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 64404,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000011",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 418012.64900012128,
+        "y" : 328120.94310001098
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 64405,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000012",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 418279.69570012391,
+        "y" : 325552.19120000862
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 64406,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000013",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 418294.78200012259,
+        "y" : 326462.84350000322
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 64407,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000014",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 418330.0841001207,
+        "y" : 327054.18300000578
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 64408,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000015",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 418378.50390012376,
+        "y" : 326166.63230000995
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 64409,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000016",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 418390.19840012304,
+        "y" : 327564.72170001082
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 64410,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물(운동기구 등)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000017",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 418507.77140012197,
+        "y" : 326991.59080000594
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 64411,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000018",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 418529.29550012294,
+        "y" : 327777.59620000795
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 64412,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "염포산정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000019",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 418530.79720012564,
+        "y" : 327600.22640000656
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 64413,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000020",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 418599.37550012581,
+        "y" : 327521.72440000623
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 64414,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000021",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 418632.3618001258,
+        "y" : 326295.20340000838
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 64415,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000022",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 418715.84920012485,
+        "y" : 326833.67730001174
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 64416,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000023",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 419052.09360012412,
+        "y" : 328391.85730000772
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 64417,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000024",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 419062.20840012748,
+        "y" : 326891.20180000924
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 64418,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000025",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 419075.84800012689,
+        "y" : 327334.07740001008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 64419,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000026",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 419177.36970012449,
+        "y" : 327233.50450001098
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 64420,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000027",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 419210.72430012561,
+        "y" : 325697.69820001349
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 64421,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000028",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 419240.83800012805,
+        "y" : 326168.06610000879
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 64422,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000029",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 419292.34330012742,
+        "y" : 324177.08440000564
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 64423,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000030",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 419363.34430012479,
+        "y" : 328773.13240000978
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 64424,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000031",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 419406.19930012897,
+        "y" : 326746.34230000339
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 64425,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000032",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 419437.01400012802,
+        "y" : 326100.80750001036
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 64426,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000033",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 419507.14840012696,
+        "y" : 326542.53420000523
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 64427,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000034",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 419537.26470012683,
+        "y" : 326624.17290001176
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 64428,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000035",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 419573.33600012772,
+        "y" : 328277.20950000361
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 64429,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000036",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 419590.58340012655,
+        "y" : 327084.25100000948
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 64430,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000037",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 419592.68430012744,
+        "y" : 326856.37480001152
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 64431,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000038",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 419734.78070012853,
+        "y" : 326561.50020000711
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 64432,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000039",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 419805.69630012661,
+        "y" : 328656.90670000948
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 64433,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000040",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 419876.9233001275,
+        "y" : 329000.00820001028
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 64434,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000041",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 419905.80320012663,
+        "y" : 327298.3186000064
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 64435,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000042",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 420004.60480012745,
+        "y" : 329516.2961000111
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 64436,
+        "MNTN_CODE" : "311700401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "염포산",
+        "PAST_SPOT_" : "17021004000043",
+        "MNTN_ID" : "1702100400"
+      },
+      "geometry" : {
+        "x" : 420275.28130012937,
+        "y" : 328727.51100000739
+      }
+    }
+  ]
+}

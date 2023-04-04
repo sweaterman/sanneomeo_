@@ -1,0 +1,387 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 85668,
+        "MNTN_CODE" : "418203801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청우산",
+        "PAST_SPOT_" : "4182038010001",
+        "MNTN_ID" : "418203801"
+      },
+      "geometry" : {
+        "x" : 236471.44516940508,
+        "y" : 575734.33178208768
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 85669,
+        "MNTN_CODE" : "418203801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청우산",
+        "PAST_SPOT_" : "4182038010002",
+        "MNTN_ID" : "418203801"
+      },
+      "geometry" : {
+        "x" : 237061.85610000324,
+        "y" : 579411.85440000147
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 85670,
+        "MNTN_CODE" : "418203801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "이정표설치요",
+        "MNTN_NM" : "청우산",
+        "PAST_SPOT_" : "21010331000003",
+        "MNTN_ID" : "2101033100"
+      },
+      "geometry" : {
+        "x" : 235108.02180000115,
+        "y" : 573607.41510000266
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 85671,
+        "MNTN_CODE" : "418203801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청우산",
+        "PAST_SPOT_" : "21010331000004",
+        "MNTN_ID" : "2101033100"
+      },
+      "geometry" : {
+        "x" : 235104.62540000025,
+        "y" : 573660.23450000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 85672,
+        "MNTN_CODE" : "418203801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청우산",
+        "PAST_SPOT_" : "21010331000005",
+        "MNTN_ID" : "2101033100"
+      },
+      "geometry" : {
+        "x" : 235237.4477000013,
+        "y" : 574170.82320000045
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 85673,
+        "MNTN_CODE" : "418203801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청우산",
+        "PAST_SPOT_" : "21010331000006",
+        "MNTN_ID" : "2101033100"
+      },
+      "geometry" : {
+        "x" : 236084.83779999986,
+        "y" : 575299.64030000195
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 85674,
+        "MNTN_CODE" : "418203801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청우산",
+        "PAST_SPOT_" : "21010331000007",
+        "MNTN_ID" : "2101033100"
+      },
+      "geometry" : {
+        "x" : 236694.90060000122,
+        "y" : 575248.27040000446
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 85675,
+        "MNTN_CODE" : "418203801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "청오사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청우산",
+        "PAST_SPOT_" : "21010331000008",
+        "MNTN_ID" : "2101033100"
+      },
+      "geometry" : {
+        "x" : 235698.45710000023,
+        "y" : 574476.37299999967
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 85676,
+        "MNTN_CODE" : "418203801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "이정표설치요",
+        "MNTN_NM" : "청우산",
+        "PAST_SPOT_" : "21010331000009",
+        "MNTN_ID" : "2101033100"
+      },
+      "geometry" : {
+        "x" : 235536.240600002,
+        "y" : 574334.37700000219
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 85677,
+        "MNTN_CODE" : "418203801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청우산",
+        "PAST_SPOT_" : "21010331000010",
+        "MNTN_ID" : "2101033100"
+      },
+      "geometry" : {
+        "x" : 235353.60240000021,
+        "y" : 574021.36400000565
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 85678,
+        "MNTN_CODE" : "418203801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청우산",
+        "PAST_SPOT_" : "21010331000011",
+        "MNTN_ID" : "2101033100"
+      },
+      "geometry" : {
+        "x" : 234729.59940000065,
+        "y" : 574540.5102000013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 85679,
+        "MNTN_CODE" : "418203801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "조가터교",
+        "MNTN_NM" : "청우산",
+        "PAST_SPOT_" : "21010331000012",
+        "MNTN_ID" : "2101033100"
+      },
+      "geometry" : {
+        "x" : 234665.40419999976,
+        "y" : 574195.48909999989
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 85680,
+        "MNTN_CODE" : "418203801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,기타",
+        "ETC_MATTER" : "유원지",
+        "MNTN_NM" : "청우산",
+        "PAST_SPOT_" : "21010331000013",
+        "MNTN_ID" : "2101033100"
+      },
+      "geometry" : {
+        "x" : 234888.14140000101,
+        "y" : 575785.32730000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 85681,
+        "MNTN_CODE" : "418203801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,종합표지판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청우산",
+        "PAST_SPOT_" : "21010331000014",
+        "MNTN_ID" : "2101033100"
+      },
+      "geometry" : {
+        "x" : 235048.33059999999,
+        "y" : 573303.58970000222
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 85682,
+        "MNTN_CODE" : "418203801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청우산",
+        "PAST_SPOT_" : "21010331000015",
+        "MNTN_ID" : "2101033100"
+      },
+      "geometry" : {
+        "x" : 235189.33440000098,
+        "y" : 573526.03639999963
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 85683,
+        "MNTN_CODE" : "418203801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청우산",
+        "PAST_SPOT_" : "21010331000016",
+        "MNTN_ID" : "2101033100"
+      },
+      "geometry" : {
+        "x" : 235381.13470000215,
+        "y" : 574794.56570000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 85684,
+        "MNTN_CODE" : "418203801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "청우산",
+        "PAST_SPOT_" : "21010331000017",
+        "MNTN_ID" : "2101033100"
+      },
+      "geometry" : {
+        "x" : 236372.03630000073,
+        "y" : 575682.50270000286
+      }
+    }
+  ]
+}

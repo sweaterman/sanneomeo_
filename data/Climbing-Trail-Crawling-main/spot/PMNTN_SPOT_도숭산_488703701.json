@@ -1,0 +1,837 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 22644,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010001",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 263900.23639999982,
+        "y" : 333696.38840000331
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 22645,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010002",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 264230.39470000286,
+        "y" : 326987.96870000288
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 22646,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010003",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 264773.00970000029,
+        "y" : 331401.23390000314
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 22647,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010004",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 265107.55310000107,
+        "y" : 333557.58070000075
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 22648,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010005",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 265113.31909999996,
+        "y" : 329675.19769999944
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 22649,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010006",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 265134.43960000016,
+        "y" : 329684.77190000005
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 22650,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010007",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 265218.43120000139,
+        "y" : 333727.82950000279
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 22651,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010008",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 265262.72339999862,
+        "y" : 333226.4915000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 22652,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010009",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 265308.24630000256,
+        "y" : 332031.46610000171
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 22653,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010010",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 265311.62179999985,
+        "y" : 332030.67010000162
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 22654,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010011",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 266147.12569999974,
+        "y" : 331706.39250000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 22655,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010012",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 266179.6118999999,
+        "y" : 330445.38169999979
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 22656,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010013",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 266778.71080000047,
+        "y" : 330952.68260000087
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 22657,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010014",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 266906.17110000271,
+        "y" : 330826.4915000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 22658,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010015",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 267348.85490000062,
+        "y" : 336439.52500000224
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 22659,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010016",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 267628.34759999905,
+        "y" : 333879.49950000271
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 22660,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010017",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 267629.26260000095,
+        "y" : 333882.87350000069
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 22661,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010018",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 267987.19840000011,
+        "y" : 330447.77910000086
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 22662,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010019",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 268342.80510000233,
+        "y" : 331886.97020000033
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 22663,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010020",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 268695.11690000352,
+        "y" : 332098.60340000317
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 22664,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010021",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 268845.98760000058,
+        "y" : 331250.92420000024
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 22665,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010022",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 269097.87620000262,
+        "y" : 332121.16120000184
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 22666,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "대광령",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010023",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 266170.56950000022,
+        "y" : 330446.89120000415
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 22667,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "두동마을",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010024",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 266899.4812000012,
+        "y" : 330843.23660000227
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 22668,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판또는지도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010025",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 266699.12510000262,
+        "y" : 331108.03410000168
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 22669,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "과수원",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010026",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 264794.68800000194,
+        "y" : 331285.6742000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 22670,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010027",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 265337.04250000045,
+        "y" : 331854.98340000212
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 22671,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010028",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 265850.88180000242,
+        "y" : 331901.68309999816
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 22672,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010029",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 265314.63819999993,
+        "y" : 332032.02310000174
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 22673,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "천왕봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010030",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 267281.40250000078,
+        "y" : 332376.0150000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 22674,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010031",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 265339.07130000275,
+        "y" : 332526.25180000439
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 22675,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010032",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 267146.72050000262,
+        "y" : 332798.33980000764
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 22676,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010033",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 266905.45760000031,
+        "y" : 333042.89690000191
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 22677,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010034",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 265108.50850000139,
+        "y" : 333555.00220000185
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 22678,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "도숭산정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010035",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 265123.03180000093,
+        "y" : 333582.95900000073
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 22679,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010036",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 265163.03690000158,
+        "y" : 333634.84720000066
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 22680,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판또는지도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010037",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 263902.88690000121,
+        "y" : 333654.76410000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 22681,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010038",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 265658.87910000049,
+        "y" : 333815.4916999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 22682,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010039",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 266213.63190000132,
+        "y" : 333847.25850000046
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 22683,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010040",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 266584.63089999929,
+        "y" : 333851.06930000335
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 22684,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "대황령",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010041",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 267625.4877000032,
+        "y" : 333880.94480000064
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 22685,
+        "MNTN_CODE" : "488703701",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "도숭산",
+        "PAST_SPOT_" : "4887011010042",
+        "MNTN_ID" : "488701101"
+      },
+      "geometry" : {
+        "x" : 266869.60790000111,
+        "y" : 333882.8571000006
+      }
+    }
+  ]
+}

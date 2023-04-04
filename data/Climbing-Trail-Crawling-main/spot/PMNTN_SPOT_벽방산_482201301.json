@@ -1,0 +1,3843 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 37966,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "4822013010001",
+        "MNTN_ID" : "482201301"
+      },
+      "geometry" : {
+        "x" : 325098.40870000795,
+        "y" : 258844.59240000509
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 37967,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "4822013010002",
+        "MNTN_ID" : "482201301"
+      },
+      "geometry" : {
+        "x" : 325510.78930000868,
+        "y" : 259242.26440000348
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 37968,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "4822013010003",
+        "MNTN_ID" : "482201301"
+      },
+      "geometry" : {
+        "x" : 325619.35520000942,
+        "y" : 259083.15609999932
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 37969,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "4822013010004",
+        "MNTN_ID" : "482201301"
+      },
+      "geometry" : {
+        "x" : 325805.1265000077,
+        "y" : 258925.76279999875
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 37970,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000005",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 325992.53930000495,
+        "y" : 262636.85099999979
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 37971,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암반 경사지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000006",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326076.94770000596,
+        "y" : 262562.48650000617
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 37972,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000007",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326067.2835000027,
+        "y" : 262514.57950000092
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 37973,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000008",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326180.5363000026,
+        "y" : 262425.1995000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 37974,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000009",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326307.21110000275,
+        "y" : 262326.10740000196
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 37975,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "진달래군락지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000010",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326324.37950000539,
+        "y" : 262293.06389999948
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 37976,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000011",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326518.10370000545,
+        "y" : 262368.58470000513
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 37977,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : "편백 조림지",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000012",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 325174.18400000315,
+        "y" : 264103.71880000271
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 37978,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면, 갈참",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000013",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326819.47640000377,
+        "y" : 262612.88300000317
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 37979,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000014",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326806.53660000488,
+        "y" : 262727.64940000139
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 37980,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000015",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326782.8664000053,
+        "y" : 262813.07010000199
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 37981,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000016",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326772.99170000385,
+        "y" : 262925.59310000204
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 37982,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000017",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326775.97470000573,
+        "y" : 263016.85429999977
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 37983,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000018",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326738.08720000274,
+        "y" : 263039.14509999752
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 37984,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지 암벽",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000019",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326669.47870000638,
+        "y" : 263005.0354999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 37985,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000020",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326624.76340000331,
+        "y" : 263030.84979999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 37986,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "소나무고사지 노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000021",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326617.56100000348,
+        "y" : 263106.91090000235
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 37987,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000022",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 325191.13560000435,
+        "y" : 263949.93219999969
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 37988,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면 임상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000023",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326612.94840000197,
+        "y" : 263196.53539999947
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 37989,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000024",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 325224.64440000243,
+        "y" : 263770.58259999938
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 37990,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000025",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 325244.79200000688,
+        "y" : 263590.31750000268
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 37991,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000026",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 325332.95300000533,
+        "y" : 263458.40340000205
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 37992,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000027",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 325393.71070000529,
+        "y" : 263246.36920000054
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 37993,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000028",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 325573.21100000385,
+        "y" : 262942.99280000106
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 37994,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000029",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 325814.02480000537,
+        "y" : 262762.2444000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 37995,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000030",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326413.17920000292,
+        "y" : 262276.23569999821
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 37996,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "43~44",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000031",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326319.31200000551,
+        "y" : 262106.26000000164
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 37997,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사방땜",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000032",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327488.27360000554,
+        "y" : 261987.64900000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 37998,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000033",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326784.10240000486,
+        "y" : 260994.30720000155
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 37999,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000034",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327551.93580000568,
+        "y" : 258337.41250000149
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 38000,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철계단",
+        "ETC_MATTER" : "매바위를 통과하는 코스(돌아가는 코스도 존재함)",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000035",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327734.00740000326,
+        "y" : 257932.68050000258
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 38001,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "매바위",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000036",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327743.1797000058,
+        "y" : 257923.93060000055
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 38002,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "SKT기지국",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000037",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 328172.97720000613,
+        "y" : 256940.61270000413
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 38003,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "은봉암",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000038",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326834.4522000039,
+        "y" : 261396.61580000445
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 38004,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "불상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000039",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326783.90600000508,
+        "y" : 261265.63299999945
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 38005,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000040",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326766.71110000461,
+        "y" : 261253.52059999853
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 38006,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000041",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326753.67230000347,
+        "y" : 261238.24760000221
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 38007,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사계사",
+        "ETC_MATTER" : "사찰",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000042",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 325738.84960000403,
+        "y" : 260574.61060000211
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 38008,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000043",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327853.80330000166,
+        "y" : 260436.23930000141
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 38009,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "천광사",
+        "ETC_MATTER" : "사찰",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000044",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 328203.23430000339,
+        "y" : 259500.40750000253
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 38010,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "구 약수터",
+        "ETC_MATTER" : "사용안함",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000045",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327896.77110000141,
+        "y" : 259454.28320000321
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 38011,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "굿당",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000046",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327381.95190000441,
+        "y" : 259346.00780000165
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 38012,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "광명농원",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000047",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327564.19940000586,
+        "y" : 259235.131500002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 38013,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사슴농장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000048",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 328144.627500006,
+        "y" : 258300.1892000027
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 38014,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "송전탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000049",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327583.08500000462,
+        "y" : 257689.43310000189
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 38015,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "미륵불사",
+        "ETC_MATTER" : "사찰",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000050",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327690.32610000484,
+        "y" : 263150.80710000172
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 50,
+        "PMNTN_SPOT" : 38016,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000051",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327416.02950000484,
+        "y" : 262483.58080000058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 51,
+        "PMNTN_SPOT" : 38017,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,원동(KT기지국)",
+        "ETC_MATTER" : "등산로입구",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000052",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 324198.42380000278,
+        "y" : 260546.13629999943
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 52,
+        "PMNTN_SPOT" : 38018,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000053",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 325038.42640000489,
+        "y" : 260729.80519999936
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 53,
+        "PMNTN_SPOT" : 38019,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000054",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 325093.78300000448,
+        "y" : 264182.33040000126
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 54,
+        "PMNTN_SPOT" : 38020,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000055",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 325188.74670000467,
+        "y" : 260550.3107000012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 55,
+        "PMNTN_SPOT" : 38021,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "등산로입구",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000056",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 325206.3860000046,
+        "y" : 261004.31640000269
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 56,
+        "PMNTN_SPOT" : 38022,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "도덕산과연결지점",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000057",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 325265.79147864506,
+        "y" : 259368.18336780742
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 57,
+        "PMNTN_SPOT" : 38023,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000058",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 325408.96330000553,
+        "y" : 260953.90640000068
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 58,
+        "PMNTN_SPOT" : 38024,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "약수",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000059",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 325704.88160000648,
+        "y" : 261124.56610000134
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 59,
+        "PMNTN_SPOT" : 38025,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "약수",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000060",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 325710.91740000714,
+        "y" : 261113.39320000261
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 60,
+        "PMNTN_SPOT" : 38026,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000061",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 325866.139600005,
+        "y" : 260210.77449999936
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 61,
+        "PMNTN_SPOT" : 38027,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000062",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 325895.02900000568,
+        "y" : 260648.00239999965
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 62,
+        "PMNTN_SPOT" : 38028,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000063",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326217.45980000589,
+        "y" : 260218.75549999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 63,
+        "PMNTN_SPOT" : 38029,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "벽방산,삼각점,전경사진",
+        "ETC_MATTER" : "38~42훼손지,벽방산전경",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000064",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326360.44260000531,
+        "y" : 262264.07660000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 64,
+        "PMNTN_SPOT" : 38030,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000065",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326392.30530000851,
+        "y" : 261844.61939999834
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 65,
+        "PMNTN_SPOT" : 38031,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "구 채광터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000066",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326425.78950000554,
+        "y" : 260795.25740000419
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 66,
+        "PMNTN_SPOT" : 38032,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000067",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326436.18050000351,
+        "y" : 262324.27200000361
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 67,
+        "PMNTN_SPOT" : 38033,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "구 채광터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000068",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326438.39030000474,
+        "y" : 260778.57320000231
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 68,
+        "PMNTN_SPOT" : 38034,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000069",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326445.44230000675,
+        "y" : 261703.32960000448
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 69,
+        "PMNTN_SPOT" : 38035,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : "7EA,WP46~137임도를 지나감",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000070",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326446.56930000521,
+        "y" : 261727.62699999847
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 70,
+        "PMNTN_SPOT" : 38036,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000071",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326450.55140000675,
+        "y" : 262316.32670000754
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 71,
+        "PMNTN_SPOT" : 38037,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000072",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326454.91890000366,
+        "y" : 260882.8844000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 72,
+        "PMNTN_SPOT" : 38038,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000073",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326593.83520000521,
+        "y" : 263300.61940000206
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 73,
+        "PMNTN_SPOT" : 38039,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000074",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326605.15540000144,
+        "y" : 259911.06000000052
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 74,
+        "PMNTN_SPOT" : 38040,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000075",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326609.25780000445,
+        "y" : 260924.18960000202
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 75,
+        "PMNTN_SPOT" : 38041,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "카메라철탑",
+        "ETC_MATTER" : "2EA",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000076",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326675.48470000736,
+        "y" : 260921.70470000245
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 76,
+        "PMNTN_SPOT" : 38042,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000077",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326707.16300000623,
+        "y" : 260993.79610000178
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 77,
+        "PMNTN_SPOT" : 38043,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000078",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326725.47140000481,
+        "y" : 262561.41220000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 78,
+        "PMNTN_SPOT" : 38044,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "구 약수터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000079",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326730.91810000595,
+        "y" : 262322.69070000201
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 79,
+        "PMNTN_SPOT" : 38045,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000080",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326733.30020000413,
+        "y" : 261231.19600000232
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 80,
+        "PMNTN_SPOT" : 38046,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000081",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326777.97070000321,
+        "y" : 261174.29580000043
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 81,
+        "PMNTN_SPOT" : 38047,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000082",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326789.70300000627,
+        "y" : 261177.04600000009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 82,
+        "PMNTN_SPOT" : 38048,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000083",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326819.28990000486,
+        "y" : 261277.82150000148
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 83,
+        "PMNTN_SPOT" : 38049,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000084",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326838.33890000544,
+        "y" : 260985.75010000356
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 84,
+        "PMNTN_SPOT" : 38050,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000085",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326861.63150000293,
+        "y" : 261423.48469999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 85,
+        "PMNTN_SPOT" : 38051,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000086",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326925.85850000568,
+        "y" : 259671.24259999953
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 86,
+        "PMNTN_SPOT" : 38052,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "의상암",
+        "ETC_MATTER" : "사찰",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000087",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326934.99160000402,
+        "y" : 262525.93380000256
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 87,
+        "PMNTN_SPOT" : 38053,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000088",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326982.69520000368,
+        "y" : 262389.93090000376
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 88,
+        "PMNTN_SPOT" : 38054,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000089",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326988.33900000528,
+        "y" : 259422.48509999923
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 89,
+        "PMNTN_SPOT" : 38055,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000090",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326996.85820000526,
+        "y" : 259388.5541999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 90,
+        "PMNTN_SPOT" : 38056,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000091",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326999.26890000328,
+        "y" : 259265.67270000093
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 91,
+        "PMNTN_SPOT" : 38057,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000092",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327020.02240000479,
+        "y" : 262302.91080000252
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 92,
+        "PMNTN_SPOT" : 38058,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000093",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327025.93920000736,
+        "y" : 262322.24939999916
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 93,
+        "PMNTN_SPOT" : 38059,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000094",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327028.38650000561,
+        "y" : 260987.17190000415
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 94,
+        "PMNTN_SPOT" : 38060,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000095",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327030.11310000438,
+        "y" : 262645.69209999964
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 95,
+        "PMNTN_SPOT" : 38061,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000096",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327049.51730000041,
+        "y" : 260827.53490000218
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 96,
+        "PMNTN_SPOT" : 38062,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000097",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327051.1190000046,
+        "y" : 261677.27999999933
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 97,
+        "PMNTN_SPOT" : 38063,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000098",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327051.49600000586,
+        "y" : 260839.03050000034
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 98,
+        "PMNTN_SPOT" : 38064,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000099",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327053.29500000551,
+        "y" : 261699.89880000055
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 99,
+        "PMNTN_SPOT" : 38065,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로입구",
+        "ETC_MATTER" : "2EA,WP25~27 임도를 지남",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000100",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327059.13360000402,
+        "y" : 262244.21759999916
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 100,
+        "PMNTN_SPOT" : 38066,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000101",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327063.38890000619,
+        "y" : 262663.99930000305
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 101,
+        "PMNTN_SPOT" : 38067,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000102",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327067.78110000212,
+        "y" : 262637.50290000252
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 102,
+        "PMNTN_SPOT" : 38068,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000103",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327068.61510000564,
+        "y" : 261597.39770000428
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 103,
+        "PMNTN_SPOT" : 38069,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000104",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327085.5407000035,
+        "y" : 262628.24039999954
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 104,
+        "PMNTN_SPOT" : 38070,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000105",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327088.40790000185,
+        "y" : 261593.45570000075
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 105,
+        "PMNTN_SPOT" : 38071,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000106",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327096.93100000545,
+        "y" : 261749.4913000036
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 106,
+        "PMNTN_SPOT" : 38072,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000107",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327131.01940000523,
+        "y" : 263531.85240000114
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 107,
+        "PMNTN_SPOT" : 38073,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000108",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327147.54440000374,
+        "y" : 261654.93320000172
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 108,
+        "PMNTN_SPOT" : 38074,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000109",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327176.83430000488,
+        "y" : 261830.40830000304
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 109,
+        "PMNTN_SPOT" : 38075,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000110",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327186.14990000334,
+        "y" : 262128.15130000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 110,
+        "PMNTN_SPOT" : 38076,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,천개암",
+        "ETC_MATTER" : "사찰",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000111",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327228.81140000373,
+        "y" : 260059.09760000184
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 111,
+        "PMNTN_SPOT" : 38077,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000112",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327231.21360000502,
+        "y" : 262137.21280000173
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 112,
+        "PMNTN_SPOT" : 38078,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000113",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327242.03790000733,
+        "y" : 261513.13870000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 113,
+        "PMNTN_SPOT" : 38079,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000114",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327247.33210000582,
+        "y" : 262056.6566999983
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 114,
+        "PMNTN_SPOT" : 38080,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000115",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327257.63970000297,
+        "y" : 260988.35040000267
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 115,
+        "PMNTN_SPOT" : 38081,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000116",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327262.62220000196,
+        "y" : 260729.73330000043
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 116,
+        "PMNTN_SPOT" : 38082,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000117",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327264.52040000539,
+        "y" : 261946.35779999942
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 117,
+        "PMNTN_SPOT" : 38083,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000118",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327276.08680000342,
+        "y" : 261976.98330000043
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 118,
+        "PMNTN_SPOT" : 38084,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "가섭암",
+        "ETC_MATTER" : "사찰",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000119",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327276.76780000608,
+        "y" : 262161.75610000268
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 119,
+        "PMNTN_SPOT" : 38085,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000120",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327276.7935000062,
+        "y" : 262029.35979999974
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 120,
+        "PMNTN_SPOT" : 38086,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000121",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327281.49420000426,
+        "y" : 262020.16919999942
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 121,
+        "PMNTN_SPOT" : 38087,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "가섭암",
+        "ETC_MATTER" : "사찰",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000122",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327285.06860000454,
+        "y" : 262134.86110000126
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 122,
+        "PMNTN_SPOT" : 38088,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000123",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327291.22050000168,
+        "y" : 260791.36319999956
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 123,
+        "PMNTN_SPOT" : 38089,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000124",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327295.82480000518,
+        "y" : 262039.99450000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 124,
+        "PMNTN_SPOT" : 38090,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000125",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327300.82830000576,
+        "y" : 262011.42980000377
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 125,
+        "PMNTN_SPOT" : 38091,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000126",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327316.51160000358,
+        "y" : 262051.50720000267
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 126,
+        "PMNTN_SPOT" : 38092,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로입구",
+        "ETC_MATTER" : "WP 10~12 임도를 지남",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000127",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327323.08810000587,
+        "y" : 261966.37130000256
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 127,
+        "PMNTN_SPOT" : 38093,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000128",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327327.79870000575,
+        "y" : 262021.81259999983
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 128,
+        "PMNTN_SPOT" : 38094,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로입구",
+        "ETC_MATTER" : "WP 10~12 임도를 지남",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000129",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327329.91740000527,
+        "y" : 261987.7733000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 129,
+        "PMNTN_SPOT" : 38095,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로입구",
+        "ETC_MATTER" : "WP 10~12 임도를 지남",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000130",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327347.9959000051,
+        "y" : 262001.89670000225
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 130,
+        "PMNTN_SPOT" : 38096,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로입구",
+        "ETC_MATTER" : "WP 10~12 임도를 지남",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000131",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327359.88440000452,
+        "y" : 261972.85730000772
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 131,
+        "PMNTN_SPOT" : 38097,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000132",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327362.14700000267,
+        "y" : 261682.71299999952
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 132,
+        "PMNTN_SPOT" : 38098,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000133",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327364.61960000359,
+        "y" : 261070.50830000266
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 133,
+        "PMNTN_SPOT" : 38099,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로입구",
+        "ETC_MATTER" : "WP 10~12 임도를 지남",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000134",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327378.5110000046,
+        "y" : 262002.21070000343
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 134,
+        "PMNTN_SPOT" : 38100,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000135",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327399.25400000531,
+        "y" : 261609.23920000158
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 135,
+        "PMNTN_SPOT" : 38101,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로입구",
+        "ETC_MATTER" : "WP 10~12 임도를 지남",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000136",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327404.17860000487,
+        "y" : 261963.5055999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 136,
+        "PMNTN_SPOT" : 38102,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000137",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327407.0287000034,
+        "y" : 261156.95090000145
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 137,
+        "PMNTN_SPOT" : 38103,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000138",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327410.43870000355,
+        "y" : 262019.19040000066
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 138,
+        "PMNTN_SPOT" : 38104,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000139",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327413.24710000586,
+        "y" : 262198.00760000199
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 139,
+        "PMNTN_SPOT" : 38105,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000140",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327419.59480000567,
+        "y" : 261921.42689999938
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 140,
+        "PMNTN_SPOT" : 38106,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000141",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327422.29000000376,
+        "y" : 261657.2126000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 141,
+        "PMNTN_SPOT" : 38107,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000142",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327428.26170000434,
+        "y" : 262182.79150000028
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 142,
+        "PMNTN_SPOT" : 38108,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000143",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327430.38120000344,
+        "y" : 261624.07049999945
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 143,
+        "PMNTN_SPOT" : 38109,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000144",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327440.97870000452,
+        "y" : 261952.39780000411
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 144,
+        "PMNTN_SPOT" : 38110,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000145",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327452.50640000589,
+        "y" : 261698.04690000229
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 145,
+        "PMNTN_SPOT" : 38111,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000146",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327454.81010000594,
+        "y" : 261665.73719999939
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 146,
+        "PMNTN_SPOT" : 38112,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000147",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327466.78500000481,
+        "y" : 261834.9888000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 147,
+        "PMNTN_SPOT" : 38113,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000148",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327475.25870000385,
+        "y" : 261855.48660000227
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 148,
+        "PMNTN_SPOT" : 38114,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000149",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327480.14940000419,
+        "y" : 261928.0540000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 149,
+        "PMNTN_SPOT" : 38115,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000150",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327483.39699999988,
+        "y" : 261970.71870000102
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 150,
+        "PMNTN_SPOT" : 38116,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000151",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327491.98210000806,
+        "y" : 261892.04170000181
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 151,
+        "PMNTN_SPOT" : 38117,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000152",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327502.07690000441,
+        "y" : 263029.105100004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 152,
+        "PMNTN_SPOT" : 38118,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안정사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000153",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327507.80640000291,
+        "y" : 261720.39420000277
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 153,
+        "PMNTN_SPOT" : 38119,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000154",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327508.3215000052,
+        "y" : 262004.68549999967
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 154,
+        "PMNTN_SPOT" : 38120,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안정사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000155",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327522.67390000448,
+        "y" : 261678.84010000527
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 155,
+        "PMNTN_SPOT" : 38121,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000156",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327526.51330000535,
+        "y" : 262377.5877000019
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 156,
+        "PMNTN_SPOT" : 38122,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000157",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327530.89830000605,
+        "y" : 261874.03920000233
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 157,
+        "PMNTN_SPOT" : 38123,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안정사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000158",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327537.85380000435,
+        "y" : 261707.56690000184
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 158,
+        "PMNTN_SPOT" : 38124,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000159",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327539.47380000353,
+        "y" : 261657.88430000097
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 159,
+        "PMNTN_SPOT" : 38125,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000160",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327556.02080000285,
+        "y" : 262397.64159999974
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 160,
+        "PMNTN_SPOT" : 38126,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000161",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327556.42180000246,
+        "y" : 261902.26970000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 161,
+        "PMNTN_SPOT" : 38127,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000162",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327559.54280000553,
+        "y" : 261827.46890000068
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 162,
+        "PMNTN_SPOT" : 38128,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000163",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327559.96970000584,
+        "y" : 261882.55640000105
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 163,
+        "PMNTN_SPOT" : 38129,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000164",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327567.66240000259,
+        "y" : 261805.42810000293
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 164,
+        "PMNTN_SPOT" : 38130,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000165",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327572.60940000601,
+        "y" : 261785.97499999963
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 165,
+        "PMNTN_SPOT" : 38131,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000166",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327579.21670000441,
+        "y" : 262415.128800001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 166,
+        "PMNTN_SPOT" : 38132,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000167",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327583.19690000452,
+        "y" : 261425.45020000078
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 167,
+        "PMNTN_SPOT" : 38133,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000168",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327610.57080000453,
+        "y" : 261424.599700002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 168,
+        "PMNTN_SPOT" : 38134,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000169",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327621.29960000329,
+        "y" : 261648.37230000086
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 169,
+        "PMNTN_SPOT" : 38135,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000170",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327623.40920000244,
+        "y" : 261896.6491000019
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 170,
+        "PMNTN_SPOT" : 38136,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000171",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327634.69120000489,
+        "y" : 261736.44999999925
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 171,
+        "PMNTN_SPOT" : 38137,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000172",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327651.33900000341,
+        "y" : 261748.33459999971
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 172,
+        "PMNTN_SPOT" : 38138,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000173",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327689.95590000879,
+        "y" : 259496.23630000092
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 173,
+        "PMNTN_SPOT" : 38139,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "안정사방향",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000174",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327696.51170000341,
+        "y" : 261736.74350000173
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 174,
+        "PMNTN_SPOT" : 38140,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000175",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327701.86830000579,
+        "y" : 261630.74230000377
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 175,
+        "PMNTN_SPOT" : 38141,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,주차장광장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000176",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327707.0240000058,
+        "y" : 261752.33019999787
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 176,
+        "PMNTN_SPOT" : 38142,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,주차장광장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000177",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327708.30760000274,
+        "y" : 261765.11000000313
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 177,
+        "PMNTN_SPOT" : 38143,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,주차장광장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000178",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327715.20590000413,
+        "y" : 261794.61430000328
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 178,
+        "PMNTN_SPOT" : 38144,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000179",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327715.20800000336,
+        "y" : 261670.5728999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 179,
+        "PMNTN_SPOT" : 38145,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000180",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327736.43920000363,
+        "y" : 257948.14140000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 180,
+        "PMNTN_SPOT" : 38146,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000181",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327746.93160000443,
+        "y" : 257903.04380000196
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 181,
+        "PMNTN_SPOT" : 38147,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000182",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327762.60020000488,
+        "y" : 257929.49719999917
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 182,
+        "PMNTN_SPOT" : 38148,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000183",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327781.6992000062,
+        "y" : 260969.41530000418
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 183,
+        "PMNTN_SPOT" : 38149,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000184",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327792.45520000439,
+        "y" : 261674.39939999953
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 184,
+        "PMNTN_SPOT" : 38150,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "솔받가든",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000185",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327894.86670000385,
+        "y" : 261787.24829999916
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 185,
+        "PMNTN_SPOT" : 38151,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000186",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327918.02350000478,
+        "y" : 260603.99380000122
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 186,
+        "PMNTN_SPOT" : 38152,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000187",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327926.3514000047,
+        "y" : 259447.29690000042
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 187,
+        "PMNTN_SPOT" : 38153,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000188",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327966.17290000431,
+        "y" : 260735.38930000179
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 188,
+        "PMNTN_SPOT" : 38154,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000189",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327980.00390000455,
+        "y" : 260778.24290000275
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 189,
+        "PMNTN_SPOT" : 38155,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000190",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327989.92470000684,
+        "y" : 257825.41260000318
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 190,
+        "PMNTN_SPOT" : 38156,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000191",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 327993.52190000471,
+        "y" : 260950.03289999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 191,
+        "PMNTN_SPOT" : 38157,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000192",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 328028.04420000594,
+        "y" : 261085.30540000275
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 192,
+        "PMNTN_SPOT" : 38158,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000193",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 328047.0007000044,
+        "y" : 259313.0063000042
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 193,
+        "PMNTN_SPOT" : 38159,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000194",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 328058.94350000285,
+        "y" : 257237.34180000238
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 194,
+        "PMNTN_SPOT" : 38160,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "안정마을",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000195",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 328091.78490000591,
+        "y" : 262015.72440000065
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 195,
+        "PMNTN_SPOT" : 38161,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000196",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 328112.58200000878,
+        "y" : 261085.39130000211
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 196,
+        "PMNTN_SPOT" : 38162,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000197",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 328131.63610000536,
+        "y" : 257301.25090000033
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 197,
+        "PMNTN_SPOT" : 38163,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000198",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 328143.60710000712,
+        "y" : 257294.61300000362
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 198,
+        "PMNTN_SPOT" : 38164,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000199",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 328200.34640000388,
+        "y" : 260626.41379999742
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 199,
+        "PMNTN_SPOT" : 38165,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,무량마을",
+        "ETC_MATTER" : "안정교회(등입)",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000200",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 328214.75040000491,
+        "y" : 263467.1074000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 200,
+        "PMNTN_SPOT" : 38166,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,천개마을",
+        "ETC_MATTER" : "버스종점",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000201",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 328223.46030000597,
+        "y" : 259576.81850000098
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 201,
+        "PMNTN_SPOT" : 38167,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "노산(마을)",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000202",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 328332.24290000461,
+        "y" : 256790.47670000233
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 202,
+        "PMNTN_SPOT" : 38168,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,광도찜질방",
+        "ETC_MATTER" : "등산로입구",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000203",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 328333.58600000851,
+        "y" : 257268.89970000274
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 203,
+        "PMNTN_SPOT" : 38169,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "천개(마을)",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000204",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 328356.54320000485,
+        "y" : 259570.02800000273
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 204,
+        "PMNTN_SPOT" : 38170,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,대촌마을",
+        "ETC_MATTER" : "등산로입구",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000205",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 328441.03010000568,
+        "y" : 258922.79590000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 205,
+        "PMNTN_SPOT" : 38171,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,대촌마을",
+        "ETC_MATTER" : "등산로입구",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000206",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 328443.37510000262,
+        "y" : 258925.04830000177
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 206,
+        "PMNTN_SPOT" : 38172,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "우동교회",
+        "ETC_MATTER" : "전투마을(등입)",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000207",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 328529.00440000463,
+        "y" : 258110.71260000393
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 207,
+        "PMNTN_SPOT" : 38173,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,전두마을",
+        "ETC_MATTER" : "등산로입구",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000208",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 328708.72710000724,
+        "y" : 258040.87730000168
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 208,
+        "PMNTN_SPOT" : 38174,
+        "MNTN_CODE" : "482201301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "벽방산",
+        "PAST_SPOT_" : "28160413000209",
+        "MNTN_ID" : "2816041300"
+      },
+      "geometry" : {
+        "x" : 326875.2256000042,
+        "y" : 262620.43679999933
+      }
+    }
+  ]
+}

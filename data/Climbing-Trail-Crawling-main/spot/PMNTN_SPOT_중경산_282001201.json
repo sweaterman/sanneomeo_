@@ -1,0 +1,765 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 80227,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "수산교회쪽입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010001",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 176108.98140000086,
+        "y" : 537041.37899999879
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 80228,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "능곡마을쪽 입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010002",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 175714.54289999977,
+        "y" : 536779.79690000229
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 80229,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "방죽3거리쪽입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010003",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 176345.67490000091,
+        "y" : 536530.88230000064
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 80230,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동시설및\n측량점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010004",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 175981.7789000012,
+        "y" : 536449.4803000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 80231,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010005",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 175938.78670000099,
+        "y" : 536285.15830000117
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 80232,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "유치원쪽입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010006",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 176022.89140000008,
+        "y" : 536166.77050000243
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 80233,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "아이파크쪽입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010007",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 176091.25340000167,
+        "y" : 536141.14980000071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 80234,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010008",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 176132.60670000035,
+        "y" : 536332.46470000222
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 80235,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "무궁산업쪽입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010009",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 176223.26369999908,
+        "y" : 536208.45060000196
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 80236,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "블루밍아파트쪽입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010010",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 176077.21190000046,
+        "y" : 535989.56350000016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 80237,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점및 누각",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010011",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 175867.21650000103,
+        "y" : 535898.57269999944
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 80238,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010012",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 175851.98310000077,
+        "y" : 535980.2396000009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 80239,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "도림농원쪽입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010013",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 175492.64300000016,
+        "y" : 535921.4700000044
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 80240,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010014",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 175493.16029999964,
+        "y" : 535923.29180000164
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 80241,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010015",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 175702.46790000144,
+        "y" : 536783.28339999728
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 80242,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010016",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 175840.42250000127,
+        "y" : 536043.10300000012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 80243,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010017",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 175869.63510000054,
+        "y" : 536113.75909999944
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 80244,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010018",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 175874.90759999957,
+        "y" : 535897.57349999994
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 80245,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010019",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 175888.66210000031,
+        "y" : 535947.92870000377
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 80246,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010020",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 175910.11420000158,
+        "y" : 535837.65860000066
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 80247,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010021",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 175915.30649999995,
+        "y" : 536296.04350000061
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 80248,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010022",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 175921.35089999903,
+        "y" : 536461.99300000258
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 80249,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010023",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 175926.73709999863,
+        "y" : 535990.18990000151
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 80250,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010024",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 175945.77550000232,
+        "y" : 536589.52390000224
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 80251,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010025",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 175953.61400000006,
+        "y" : 536564.92210000195
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 80252,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010026",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 175992.73430000152,
+        "y" : 536390.05269999988
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 80253,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010027",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 176043.71010000072,
+        "y" : 536548.70880000107
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 80254,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010028",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 176068.95200000051,
+        "y" : 535978.47030000202
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 80255,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010029",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 176079.96680000052,
+        "y" : 536601.17830000445
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 80256,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010030",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 176104.49290000182,
+        "y" : 536137.98670000397
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 80257,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010031",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 176109.0261000013,
+        "y" : 537041.46270000376
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 80258,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010032",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 176113.01480000187,
+        "y" : 536309.84930000082
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 80259,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010033",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 176124.94010000117,
+        "y" : 536917.42480000108
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 80260,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010034",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 176130.88850000128,
+        "y" : 536953.94300000183
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 80261,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010035",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 176232.49539999943,
+        "y" : 535992.33240000159
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 80262,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010036",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 176300.26820000075,
+        "y" : 536986.00480000116
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 80263,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010037",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 176345.67490000091,
+        "y" : 536530.88230000064
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 80264,
+        "MNTN_CODE" : "282001201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "중경산",
+        "PAST_SPOT_" : "2820012010038",
+        "MNTN_ID" : "282001201"
+      },
+      "geometry" : {
+        "x" : 176500.78710000031,
+        "y" : 536350.78990000114
+      }
+    }
+  ]
+}

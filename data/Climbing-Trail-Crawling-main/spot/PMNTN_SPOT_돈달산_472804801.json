@@ -1,0 +1,801 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 23001,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010001",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 307350.55080000032,
+        "y" : 445502.79219999909
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 23002,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점,조망점,기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010002",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 307228.5373000009,
+        "y" : 445612.71560000256
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 23003,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010003",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 307156.5828999998,
+        "y" : 445713.48650000244
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 23004,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010004",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 307114.23940000124,
+        "y" : 445786.32580000162
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 23005,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,이정표,갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010005",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 307112.04430000111,
+        "y" : 445848.11980000138
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 23006,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010006",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 307058.79449999984,
+        "y" : 445819.26710000262
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 23007,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상,정상,조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010007",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 307058.89479999989,
+        "y" : 445782.30570000224
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 23008,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010008",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 307034.78679999989,
+        "y" : 445749.15500000305
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 23009,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010009",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 306974.59200000018,
+        "y" : 445703.88870000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 23010,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010010",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 306963.01339999959,
+        "y" : 445555.34520000219
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 23011,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010011",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 306720.77110000048,
+        "y" : 445287.61470000073
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 23012,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010012",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 306739.24399999995,
+        "y" : 445443.12759999931
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 23013,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치,벤치,조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010013",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 306833.46440000087,
+        "y" : 445401.12070000358
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 23014,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010014",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 306874.55000000075,
+        "y" : 445379.32170000114
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 23015,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010015",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 306912.73209999967,
+        "y" : 445374.465499999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 23016,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "기타,기타,조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010016",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 306948.43520000018,
+        "y" : 445274.0231999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 23017,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "충혼탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010017",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 307171.5532999998,
+        "y" : 445359.8256000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 23018,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010018",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 307127.34360000025,
+        "y" : 445525.09919999912
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 23019,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010019",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 307626.1201000018,
+        "y" : 445844.00030000135
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 23020,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010020",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 307591.87180000078,
+        "y" : 445891.85659999959
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 23021,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010021",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 307590.10170000046,
+        "y" : 445972.74679999985
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 23022,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010022",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 307453.57749999966,
+        "y" : 446052.06289999932
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 23023,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010023",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 307410.21790000051,
+        "y" : 446098.69890000112
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 23024,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단구간시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010024",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 307374.8105000006,
+        "y" : 446125.44120000303
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 23025,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단구간끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010025",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 307375.90330000035,
+        "y" : 446145.43870000169
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 23026,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010026",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 307364.65470000077,
+        "y" : 446135.64119999856
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 23027,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010027",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 307360.93169999961,
+        "y" : 446154.46210000291
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 23028,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010028",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 306775.56749999989,
+        "y" : 445530.8618999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 23029,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010029",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 306998.31820000149,
+        "y" : 445692.31939999945
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 23030,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010030",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 307008.28500000015,
+        "y" : 445727.96419999935
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 23031,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010031",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 307055.15130000003,
+        "y" : 445966.83760000207
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 23032,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010032",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 307101.09879999887,
+        "y" : 445837.50259999931
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 23033,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010033",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 307103.9401000021,
+        "y" : 445850.09630000405
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 23034,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010034",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 307234.01060000062,
+        "y" : 445578.16730000079
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 23035,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010035",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 307265.89049999975,
+        "y" : 446258.91930000111
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 23036,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010036",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 307378.0588999996,
+        "y" : 446132.07550000399
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 23037,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010037",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 307406.00480000116,
+        "y" : 445473.6715000011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 23038,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010038",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 307566.76900000032,
+        "y" : 445999.63070000149
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 23039,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010039",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 307619.02070000023,
+        "y" : 445843.16259999946
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 96106,
+        "MNTN_CODE" : "472804801",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "돈달산",
+        "PAST_SPOT_" : "4728048010040",
+        "MNTN_ID" : "472804801"
+      },
+      "geometry" : {
+        "x" : 307454.77740000014,
+        "y" : 446049.08220000018
+      }
+    }
+  ]
+}

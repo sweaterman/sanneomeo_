@@ -1,0 +1,495 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 33615,
+        "MNTN_CODE" : "416703801",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "배미산",
+        "PAST_SPOT_" : "4167038010001",
+        "MNTN_ID" : "416703801"
+      },
+      "geometry" : {
+        "x" : 251742.45729999896,
+        "y" : 531436.44189999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 33616,
+        "MNTN_CODE" : "416703801",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "배미산",
+        "PAST_SPOT_" : "4167038010002",
+        "MNTN_ID" : "416703801"
+      },
+      "geometry" : {
+        "x" : 251673.20349999983,
+        "y" : 531411.8347000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 33617,
+        "MNTN_CODE" : "416703801",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "배미산",
+        "PAST_SPOT_" : "4167038010003",
+        "MNTN_ID" : "416703801"
+      },
+      "geometry" : {
+        "x" : 251696.70690000057,
+        "y" : 531344.73709999956
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 33618,
+        "MNTN_CODE" : "416703801",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "배미산",
+        "PAST_SPOT_" : "4167038010004",
+        "MNTN_ID" : "416703801"
+      },
+      "geometry" : {
+        "x" : 251700.50250000041,
+        "y" : 531312.00430000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 33619,
+        "MNTN_CODE" : "416703801",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "배미산",
+        "PAST_SPOT_" : "4167038010005",
+        "MNTN_ID" : "416703801"
+      },
+      "geometry" : {
+        "x" : 251389.27830000035,
+        "y" : 531151.88550000079
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 33620,
+        "MNTN_CODE" : "416703801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "배미산",
+        "PAST_SPOT_" : "4167038010006",
+        "MNTN_ID" : "416703801"
+      },
+      "geometry" : {
+        "x" : 251317.78850000165,
+        "y" : 531334.95030000247
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 33621,
+        "MNTN_CODE" : "416703801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "배미산",
+        "PAST_SPOT_" : "4167038010007",
+        "MNTN_ID" : "416703801"
+      },
+      "geometry" : {
+        "x" : 251709.34350000042,
+        "y" : 530908.91760000028
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 33622,
+        "MNTN_CODE" : "416703801",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "배미산",
+        "PAST_SPOT_" : "4167038010008",
+        "MNTN_ID" : "416703801"
+      },
+      "geometry" : {
+        "x" : 251633.91350000072,
+        "y" : 530784.88749999925
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 33623,
+        "MNTN_CODE" : "416703801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "배미산",
+        "PAST_SPOT_" : "4167038010009",
+        "MNTN_ID" : "416703801"
+      },
+      "geometry" : {
+        "x" : 251385.03940000013,
+        "y" : 531156.14130000398
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 33624,
+        "MNTN_CODE" : "416703801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "배미산",
+        "PAST_SPOT_" : "4167038010010",
+        "MNTN_ID" : "416703801"
+      },
+      "geometry" : {
+        "x" : 251578.98900000006,
+        "y" : 530619.24780000374
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 33625,
+        "MNTN_CODE" : "416703801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "배미산",
+        "PAST_SPOT_" : "4167038010011",
+        "MNTN_ID" : "416703801"
+      },
+      "geometry" : {
+        "x" : 251662.40919999965,
+        "y" : 531388.90310000069
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 33626,
+        "MNTN_CODE" : "416703801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "배미산",
+        "PAST_SPOT_" : "4167038010012",
+        "MNTN_ID" : "416703801"
+      },
+      "geometry" : {
+        "x" : 251698.42860000022,
+        "y" : 531340.62680000067
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 33627,
+        "MNTN_CODE" : "416703801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "배미산",
+        "PAST_SPOT_" : "4167038010013",
+        "MNTN_ID" : "416703801"
+      },
+      "geometry" : {
+        "x" : 251905.03010000102,
+        "y" : 531151.19290000387
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 33628,
+        "MNTN_CODE" : "416703801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "배미산",
+        "PAST_SPOT_" : "4167038010014",
+        "MNTN_ID" : "416703801"
+      },
+      "geometry" : {
+        "x" : 251948.12420000136,
+        "y" : 530902.41860000044
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 33629,
+        "MNTN_CODE" : "416703801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "배미산",
+        "PAST_SPOT_" : "4167038010015",
+        "MNTN_ID" : "416703801"
+      },
+      "geometry" : {
+        "x" : 251999.45170000102,
+        "y" : 531411.658400001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 33630,
+        "MNTN_CODE" : "416703801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "배미산",
+        "PAST_SPOT_" : "4167038010016",
+        "MNTN_ID" : "416703801"
+      },
+      "geometry" : {
+        "x" : 252031.35610000137,
+        "y" : 530946.5373999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 33631,
+        "MNTN_CODE" : "416703801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "배미산",
+        "PAST_SPOT_" : "4167038010017",
+        "MNTN_ID" : "416703801"
+      },
+      "geometry" : {
+        "x" : 252036.91119999997,
+        "y" : 531053.68580000103
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 33632,
+        "MNTN_CODE" : "416703801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "배미산",
+        "PAST_SPOT_" : "4167038010018",
+        "MNTN_ID" : "416703801"
+      },
+      "geometry" : {
+        "x" : 252216.78290000092,
+        "y" : 531208.14970000461
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 96319,
+        "MNTN_CODE" : "416703801",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "배미산",
+        "PAST_SPOT_" : "4167038010019",
+        "MNTN_ID" : "416703801"
+      },
+      "geometry" : {
+        "x" : 251661.90829999972,
+        "y" : 531388.36749999947
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 96320,
+        "MNTN_CODE" : "416703801",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "배미산",
+        "PAST_SPOT_" : "4167038010020",
+        "MNTN_ID" : "416703801"
+      },
+      "geometry" : {
+        "x" : 251903.17610000074,
+        "y" : 531152.05580000044
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 96321,
+        "MNTN_CODE" : "416703801",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "배미산",
+        "PAST_SPOT_" : "4167038010021",
+        "MNTN_ID" : "416703801"
+      },
+      "geometry" : {
+        "x" : 251700.57430000065,
+        "y" : 531341.21649999917
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 96322,
+        "MNTN_CODE" : "416703801",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "배미산",
+        "PAST_SPOT_" : "4167038010022",
+        "MNTN_ID" : "416703801"
+      },
+      "geometry" : {
+        "x" : 251659.81749999881,
+        "y" : 531389.12680000102
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 96323,
+        "MNTN_CODE" : "416703801",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "배미산",
+        "PAST_SPOT_" : "4167038010023",
+        "MNTN_ID" : "416703801"
+      },
+      "geometry" : {
+        "x" : 251607.68640000015,
+        "y" : 530771.07780000009
+      }
+    }
+  ]
+}

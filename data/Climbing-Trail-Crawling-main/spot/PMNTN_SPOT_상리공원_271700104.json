@@ -1,0 +1,999 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 49182,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "초소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040001",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338329.57400000002,
+        "y" : 363862.75229999982
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 49183,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040002",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338362.3310000021,
+        "y" : 363897.38170000166
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 49184,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "간이화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040003",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338440.61820000224,
+        "y" : 363917.49490000121
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 49185,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내문",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040004",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338408.46689999942,
+        "y" : 363913.82780000195
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 49186,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "간이화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040005",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338150.68700000085,
+        "y" : 363976.96349999867
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 49187,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내문",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040006",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 337987.3741000006,
+        "y" : 364090.25850000419
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 49188,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040007",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338028.38560000062,
+        "y" : 363846.30810000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 49189,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040008",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338360.0232999986,
+        "y" : 363810.71979999915
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 49190,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040009",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 337916.61620000098,
+        "y" : 363867.53110000119
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 49191,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040010",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 337956.88010000065,
+        "y" : 363779.73500000127
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 49192,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040011",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 337965.73819999956,
+        "y" : 363903.60690000281
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 49193,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040012",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 337994.16270000115,
+        "y" : 364078.19550000131
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 49194,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040013",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338006.83249999955,
+        "y" : 364096.08490000106
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 49195,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040014",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338010.94100000057,
+        "y" : 363965.34420000389
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 49196,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040015",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338013.13810000103,
+        "y" : 363972.96230000071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 49197,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040016",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338035.23520000093,
+        "y" : 364015.02679999918
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 49198,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040017",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338074.41949999984,
+        "y" : 363876.14250000194
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 49199,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040018",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338103.24260000046,
+        "y" : 363922.89970000274
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 49200,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040019",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338108.52359999996,
+        "y" : 363981.56080000103
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 49201,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040020",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338111.17360000033,
+        "y" : 363991.7332000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 49202,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040021",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338130.19699999969,
+        "y" : 363983.24010000005
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 49203,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040022",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338146.6643000003,
+        "y" : 364018.68290000223
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 49204,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040023",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338160.17329999991,
+        "y" : 363880.32670000196
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 49205,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040024",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338162.57900000084,
+        "y" : 363874.47709999979
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 49206,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040025",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338177.75200000126,
+        "y" : 363982.85750000179
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 49207,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040026",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338194.55790000036,
+        "y" : 364004.7555999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 49208,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040027",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338206.09389999975,
+        "y" : 363991.36510000005
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 49209,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040028",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338206.43020000122,
+        "y" : 363858.2768000029
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 49210,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040029",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338211.96059999987,
+        "y" : 364045.57829999924
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 49211,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040030",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338256.93400000129,
+        "y" : 363980.23010000214
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 49212,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040031",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338259.63550000079,
+        "y" : 363861.53040000238
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 49213,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040032",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338264.25019999966,
+        "y" : 363980.0811999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 49214,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040033",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338325.56419999991,
+        "y" : 363758.92329999804
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 49215,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040034",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338327.19590000063,
+        "y" : 363852.56210000068
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 49216,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040035",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338327.76720000058,
+        "y" : 363839.65680000372
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 49217,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040036",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338418.10230000038,
+        "y" : 363896.36150000244
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 49218,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040037",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338421.46350000054,
+        "y" : 363889.36180000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 49219,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040038",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338423.58100000024,
+        "y" : 363895.85560000129
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 49220,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040039",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338468.84069999959,
+        "y" : 363831.4916999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 49221,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040040",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338491.62370000035,
+        "y" : 363784.35940000042
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 49222,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040041",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338520.64490000065,
+        "y" : 364062.47100000083
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 49223,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040042",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338258.70320000127,
+        "y" : 363889.24090000056
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 49224,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040043",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338271.37730000168,
+        "y" : 363895.65919999965
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 49225,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040044",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338383.74710000027,
+        "y" : 363939.83260000125
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 97513,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "초소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040045",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338333.03049999767,
+        "y" : 363856.74989999935
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 97514,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "등산로전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040046",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338420.39910000097,
+        "y" : 363893.73289999913
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 97515,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물(운동기구등)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040047",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338508.91530000028,
+        "y" : 364061.74829999928
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 97516,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판또는지도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040048",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338270.49099999963,
+        "y" : 363984.42049999896
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 97517,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물(운동기구등)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040049",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338128.33920000133,
+        "y" : 363982.73570000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 97518,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판또는지도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040050",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 337919.05810000107,
+        "y" : 363868.62199999916
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 50,
+        "PMNTN_SPOT" : 97519,
+        "MNTN_CODE" : "271700104",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "등산로전경",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "상리공원",
+        "PAST_SPOT_" : "2717001040051",
+        "MNTN_ID" : "271700104"
+      },
+      "geometry" : {
+        "x" : 338329.27680000011,
+        "y" : 363838.20480000018
+      }
+    }
+  ]
+}

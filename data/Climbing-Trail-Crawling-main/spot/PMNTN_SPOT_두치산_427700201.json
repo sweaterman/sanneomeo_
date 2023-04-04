@@ -1,0 +1,333 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 24414,
+        "MNTN_CODE" : "427700201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두치산",
+        "PAST_SPOT_" : "4277024010001",
+        "MNTN_ID" : "427702401"
+      },
+      "geometry" : {
+        "x" : 363168.91400001664,
+        "y" : 515926.32440000772
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 24415,
+        "MNTN_CODE" : "427700201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두치산",
+        "PAST_SPOT_" : "4277024010002",
+        "MNTN_ID" : "427702401"
+      },
+      "geometry" : {
+        "x" : 364206.78070001677,
+        "y" : 516476.68400000408
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 24416,
+        "MNTN_CODE" : "427700201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : "벤치필요",
+        "MNTN_NM" : "두치산",
+        "PAST_SPOT_" : "4277024010003",
+        "MNTN_ID" : "427702401"
+      },
+      "geometry" : {
+        "x" : 363514.09690003097,
+        "y" : 515328.59779999964
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 24417,
+        "MNTN_CODE" : "427700201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : "벤치필요",
+        "MNTN_NM" : "두치산",
+        "PAST_SPOT_" : "4277024010004",
+        "MNTN_ID" : "427702401"
+      },
+      "geometry" : {
+        "x" : 363696.26080003195,
+        "y" : 515332.45240000077
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 24418,
+        "MNTN_CODE" : "427700201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "전망대필요",
+        "MNTN_NM" : "두치산",
+        "PAST_SPOT_" : "4277024010005",
+        "MNTN_ID" : "427702401"
+      },
+      "geometry" : {
+        "x" : 363802.82140002865,
+        "y" : 515340.46780000255
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 24419,
+        "MNTN_CODE" : "427700201",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두치산",
+        "PAST_SPOT_" : "4277024010006",
+        "MNTN_ID" : "427702401"
+      },
+      "geometry" : {
+        "x" : 363802.84530003089,
+        "y" : 515342.43370000273
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 24420,
+        "MNTN_CODE" : "427700201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두치산",
+        "PAST_SPOT_" : "4277024010007",
+        "MNTN_ID" : "427702401"
+      },
+      "geometry" : {
+        "x" : 363556.18600003142,
+        "y" : 515347.81540000997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 24421,
+        "MNTN_CODE" : "427700201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : "로프필요(20)",
+        "MNTN_NM" : "두치산",
+        "PAST_SPOT_" : "4277024010008",
+        "MNTN_ID" : "427702401"
+      },
+      "geometry" : {
+        "x" : 363838.35130003095,
+        "y" : 515393.69280000217
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 24422,
+        "MNTN_CODE" : "427700201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두치산",
+        "PAST_SPOT_" : "4277024010009",
+        "MNTN_ID" : "427702401"
+      },
+      "geometry" : {
+        "x" : 363010.23320002854,
+        "y" : 515427.20160000212
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 24423,
+        "MNTN_CODE" : "427700201",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두치산",
+        "PAST_SPOT_" : "4277024010010",
+        "MNTN_ID" : "427702401"
+      },
+      "geometry" : {
+        "x" : 364389.88020002935,
+        "y" : 515623.02679999918
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 24424,
+        "MNTN_CODE" : "427700201",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "두치산",
+        "PAST_SPOT_" : "4277024010011",
+        "MNTN_ID" : "427702401"
+      },
+      "geometry" : {
+        "x" : 364431.66390003264,
+        "y" : 515658.15510000288
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 24425,
+        "MNTN_CODE" : "427700201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : "계단필요(130)",
+        "MNTN_NM" : "두치산",
+        "PAST_SPOT_" : "4277024010012",
+        "MNTN_ID" : "427702401"
+      },
+      "geometry" : {
+        "x" : 363118.9935000306,
+        "y" : 515676.07280000485
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 24426,
+        "MNTN_CODE" : "427700201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : "로프필요(20)",
+        "MNTN_NM" : "두치산",
+        "PAST_SPOT_" : "4277024010013",
+        "MNTN_ID" : "427702401"
+      },
+      "geometry" : {
+        "x" : 364399.772200034,
+        "y" : 515801.50610000081
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 24427,
+        "MNTN_CODE" : "427700201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "영동APT",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "두치산",
+        "PAST_SPOT_" : "4277024010014",
+        "MNTN_ID" : "427702401"
+      },
+      "geometry" : {
+        "x" : 363347.07070003264,
+        "y" : 515838.22039999999
+      }
+    }
+  ]
+}

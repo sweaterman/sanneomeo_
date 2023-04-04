@@ -1,0 +1,711 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 20275,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146503010001",
+        "MNTN_ID" : "414650301"
+      },
+      "geometry" : {
+        "x" : 211669.92330000084,
+        "y" : 526094.43950000219
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 20276,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146503010002",
+        "MNTN_ID" : "414650301"
+      },
+      "geometry" : {
+        "x" : 211701.67340000067,
+        "y" : 525980.66840000264
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 20277,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146503010003",
+        "MNTN_ID" : "414650301"
+      },
+      "geometry" : {
+        "x" : 211841.90279999934,
+        "y" : 525997.42540000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 20278,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146503010004",
+        "MNTN_ID" : "414650301"
+      },
+      "geometry" : {
+        "x" : 211851.60420000087,
+        "y" : 526037.99490000308
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 20279,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146503010005",
+        "MNTN_ID" : "414650301"
+      },
+      "geometry" : {
+        "x" : 211857.7778000012,
+        "y" : 526012.41850000247
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 20280,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146503010006",
+        "MNTN_ID" : "414650301"
+      },
+      "geometry" : {
+        "x" : 211898.34740000404,
+        "y" : 526041.52270000055
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 20281,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146503010007",
+        "MNTN_ID" : "414650301"
+      },
+      "geometry" : {
+        "x" : 212019.17400000058,
+        "y" : 526142.94649999961
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 20282,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146503010008",
+        "MNTN_ID" : "414650301"
+      },
+      "geometry" : {
+        "x" : 212145.09220000077,
+        "y" : 526692.95409999974
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 20283,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146503010009",
+        "MNTN_ID" : "414650301"
+      },
+      "geometry" : {
+        "x" : 212209.50320000015,
+        "y" : 526601.85690000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 20284,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146503010010",
+        "MNTN_ID" : "414650301"
+      },
+      "geometry" : {
+        "x" : 212238.37740000058,
+        "y" : 526483.28969999775
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 20285,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146503010011",
+        "MNTN_ID" : "414650301"
+      },
+      "geometry" : {
+        "x" : 212327.8552000029,
+        "y" : 526505.42640000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 20286,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146503010012",
+        "MNTN_ID" : "414650301"
+      },
+      "geometry" : {
+        "x" : 212338.4385000011,
+        "y" : 526152.64790000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 20287,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146503010013",
+        "MNTN_ID" : "414650301"
+      },
+      "geometry" : {
+        "x" : 212352.54970000312,
+        "y" : 526171.16879999824
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 20288,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146503010014",
+        "MNTN_ID" : "414650301"
+      },
+      "geometry" : {
+        "x" : 212372.83440000005,
+        "y" : 526445.4541000016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 20289,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146503010015",
+        "MNTN_ID" : "414650301"
+      },
+      "geometry" : {
+        "x" : 212403.70249999966,
+        "y" : 526496.60689999908
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 20290,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146503010016",
+        "MNTN_ID" : "414650301"
+      },
+      "geometry" : {
+        "x" : 212420.48640000354,
+        "y" : 526551.70309999958
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 20291,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146503010017",
+        "MNTN_ID" : "414650301"
+      },
+      "geometry" : {
+        "x" : 212446.94380000047,
+        "y" : 526491.81240000203
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 20292,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146503010018",
+        "MNTN_ID" : "414650301"
+      },
+      "geometry" : {
+        "x" : 212509.53610000107,
+        "y" : 525588.20230000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 20293,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146503010019",
+        "MNTN_ID" : "414650301"
+      },
+      "geometry" : {
+        "x" : 212514.45070000086,
+        "y" : 526189.85690000281
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 20294,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146503010020",
+        "MNTN_ID" : "414650301"
+      },
+      "geometry" : {
+        "x" : 212565.05109999981,
+        "y" : 526353.23939999938
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 20295,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146104010021",
+        "MNTN_ID" : "414610401"
+      },
+      "geometry" : {
+        "x" : 212707.69400000107,
+        "y" : 525755.14470000193
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 20296,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4161009010022",
+        "MNTN_ID" : "416100901"
+      },
+      "geometry" : {
+        "x" : 213019.98890000116,
+        "y" : 526446.8441000022
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 20297,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146104010023",
+        "MNTN_ID" : "414610401"
+      },
+      "geometry" : {
+        "x" : 213136.03340000194,
+        "y" : 526502.06300000101
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 20298,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146104010024",
+        "MNTN_ID" : "414610401"
+      },
+      "geometry" : {
+        "x" : 213350.91280000098,
+        "y" : 525907.02590000071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 20299,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4161009010025",
+        "MNTN_ID" : "416100901"
+      },
+      "geometry" : {
+        "x" : 213734.01030000113,
+        "y" : 526779.57010000199
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 20300,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146104010026",
+        "MNTN_ID" : "414610401"
+      },
+      "geometry" : {
+        "x" : 214005.909500001,
+        "y" : 525840.30409999937
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 20301,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146104010027",
+        "MNTN_ID" : "414610401"
+      },
+      "geometry" : {
+        "x" : 214172.06640000176,
+        "y" : 526984.4952000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 20302,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146104010028",
+        "MNTN_ID" : "414610401"
+      },
+      "geometry" : {
+        "x" : 214282.39790000208,
+        "y" : 527048.7891000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 20303,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146104010029",
+        "MNTN_ID" : "414610401"
+      },
+      "geometry" : {
+        "x" : 214730.07380000409,
+        "y" : 527137.68930000439
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 20304,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146104010030",
+        "MNTN_ID" : "414610401"
+      },
+      "geometry" : {
+        "x" : 215111.07450000104,
+        "y" : 526831.30120000057
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 20305,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146104010031",
+        "MNTN_ID" : "414610401"
+      },
+      "geometry" : {
+        "x" : 215138.85580000002,
+        "y" : 527216.27070000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 20306,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146104010032",
+        "MNTN_ID" : "414610401"
+      },
+      "geometry" : {
+        "x" : 215260.29980000202,
+        "y" : 527250.4020000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 20307,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146104010033",
+        "MNTN_ID" : "414610401"
+      },
+      "geometry" : {
+        "x" : 215289.66870000027,
+        "y" : 527047.9953000024
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 20308,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146104010034",
+        "MNTN_ID" : "414610401"
+      },
+      "geometry" : {
+        "x" : 215346.02500000317,
+        "y" : 527140.07050000131
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 20309,
+        "MNTN_CODE" : "416102901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "대지산",
+        "PAST_SPOT_" : "4146104010035",
+        "MNTN_ID" : "414610401"
+      },
+      "geometry" : {
+        "x" : 215652.4131000014,
+        "y" : 527228.97070000321
+      }
+    }
+  ]
+}

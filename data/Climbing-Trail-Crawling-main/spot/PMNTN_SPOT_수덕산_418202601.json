@@ -1,0 +1,693 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 54207,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "4182026010001",
+        "MNTN_ID" : "418202601"
+      },
+      "geometry" : {
+        "x" : 244486.55320000183,
+        "y" : 589040.08600000292
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 54208,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "4182026010002",
+        "MNTN_ID" : "418202601"
+      },
+      "geometry" : {
+        "x" : 244838.35120000318,
+        "y" : 588643.70380000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 54209,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "4182026010003",
+        "MNTN_ID" : "418202601"
+      },
+      "geometry" : {
+        "x" : 246217.59609999973,
+        "y" : 590558.21470000222
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 54210,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "4182026010004",
+        "MNTN_ID" : "418202601"
+      },
+      "geometry" : {
+        "x" : 247914.06170000136,
+        "y" : 589365.45800000057
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 54211,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "21010224000005",
+        "MNTN_ID" : "2101022400"
+      },
+      "geometry" : {
+        "x" : 244555.72269999981,
+        "y" : 589231.27290000208
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 54212,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "21010224000006",
+        "MNTN_ID" : "2101022400"
+      },
+      "geometry" : {
+        "x" : 244698.9590999987,
+        "y" : 589832.48100000061
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 54213,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "21010224000007",
+        "MNTN_ID" : "2101022400"
+      },
+      "geometry" : {
+        "x" : 244806.3236000035,
+        "y" : 590333.03099999763
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 54214,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "21010224000008",
+        "MNTN_ID" : "2101022400"
+      },
+      "geometry" : {
+        "x" : 245096.66669999994,
+        "y" : 591436.81580000184
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 54215,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "21010224000009",
+        "MNTN_ID" : "2101022400"
+      },
+      "geometry" : {
+        "x" : 245205.1687000012,
+        "y" : 593195.37980000116
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 54216,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "21010224000010",
+        "MNTN_ID" : "2101022400"
+      },
+      "geometry" : {
+        "x" : 244521.90320000052,
+        "y" : 594730.09290000238
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 54217,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "21010224000011",
+        "MNTN_ID" : "2101022400"
+      },
+      "geometry" : {
+        "x" : 244511.33490000013,
+        "y" : 595309.45920000039
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 54218,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "21010224000012",
+        "MNTN_ID" : "2101022400"
+      },
+      "geometry" : {
+        "x" : 244075.5398000041,
+        "y" : 596087.24300000072
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 54219,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "21010224000013",
+        "MNTN_ID" : "2101022400"
+      },
+      "geometry" : {
+        "x" : 246389.83660000283,
+        "y" : 589451.06990000047
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 54220,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "21010224000014",
+        "MNTN_ID" : "2101022400"
+      },
+      "geometry" : {
+        "x" : 246184.29960000049,
+        "y" : 590087.44220000133
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 54221,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "21010224000015",
+        "MNTN_ID" : "2101022400"
+      },
+      "geometry" : {
+        "x" : 246136.66330000199,
+        "y" : 590604.02500000037
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 54222,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "21010224000016",
+        "MNTN_ID" : "2101022400"
+      },
+      "geometry" : {
+        "x" : 247415.83890000079,
+        "y" : 592716.9421000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 54223,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "21010224000017",
+        "MNTN_ID" : "2101022400"
+      },
+      "geometry" : {
+        "x" : 246905.5577000007,
+        "y" : 592265.01470000111
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 54224,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "21010224000018",
+        "MNTN_ID" : "2101022400"
+      },
+      "geometry" : {
+        "x" : 246441.93400000315,
+        "y" : 592211.60940000229
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 54225,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "21010224000019",
+        "MNTN_ID" : "2101022400"
+      },
+      "geometry" : {
+        "x" : 244368.62920000218,
+        "y" : 591898.76530000754
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 54226,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "전경사진",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "21010224000020",
+        "MNTN_ID" : "2101022400"
+      },
+      "geometry" : {
+        "x" : 246366.17459999956,
+        "y" : 588782.27229999937
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 54227,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "21010224000021",
+        "MNTN_ID" : "2101022400"
+      },
+      "geometry" : {
+        "x" : 243470.10030000005,
+        "y" : 591725.97639999911
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 54228,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "21010224000022",
+        "MNTN_ID" : "2101022400"
+      },
+      "geometry" : {
+        "x" : 243858.00350000151,
+        "y" : 596471.10600000434
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 54229,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "21010224000023",
+        "MNTN_ID" : "2101022400"
+      },
+      "geometry" : {
+        "x" : 244223.16610000003,
+        "y" : 595879.01150000095
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 54230,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,기타",
+        "ETC_MATTER" : "한울림팬션입구",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "21010224000024",
+        "MNTN_ID" : "2101022400"
+      },
+      "geometry" : {
+        "x" : 244393.97080000211,
+        "y" : 588608.09009999968
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 54231,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "21010224000025",
+        "MNTN_ID" : "2101022400"
+      },
+      "geometry" : {
+        "x" : 244543.51670000236,
+        "y" : 594502.30580000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 54232,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "헬기장",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "21010224000026",
+        "MNTN_ID" : "2101022400"
+      },
+      "geometry" : {
+        "x" : 244671.07010000106,
+        "y" : 593973.92270000093
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 54233,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "21010224000027",
+        "MNTN_ID" : "2101022400"
+      },
+      "geometry" : {
+        "x" : 244851.61670000199,
+        "y" : 594287.87330000103
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 54234,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : "헬기장,삼각점",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "21010224000028",
+        "MNTN_ID" : "2101022400"
+      },
+      "geometry" : {
+        "x" : 245069.78410000261,
+        "y" : 590932.08400000259
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 54235,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "21010224000029",
+        "MNTN_ID" : "2101022400"
+      },
+      "geometry" : {
+        "x" : 245102.34040000103,
+        "y" : 590806.57720000111
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 54236,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "21010224000030",
+        "MNTN_ID" : "2101022400"
+      },
+      "geometry" : {
+        "x" : 245309.03470000159,
+        "y" : 592124.23189999908
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 54237,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "21010224000031",
+        "MNTN_ID" : "2101022400"
+      },
+      "geometry" : {
+        "x" : 245327.98150000069,
+        "y" : 592379.32640000246
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 54238,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "21010224000032",
+        "MNTN_ID" : "2101022400"
+      },
+      "geometry" : {
+        "x" : 246498.41770000011,
+        "y" : 588645.85710000247
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 54239,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "임도,이정표없음",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "21010224000033",
+        "MNTN_ID" : "2101022400"
+      },
+      "geometry" : {
+        "x" : 247198.89180000313,
+        "y" : 592734.48520000093
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 54240,
+        "MNTN_CODE" : "418202601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,기타",
+        "ETC_MATTER" : "신촌말입구,이정표없음",
+        "MNTN_NM" : "수덕산",
+        "PAST_SPOT_" : "21010224000034",
+        "MNTN_ID" : "2101022400"
+      },
+      "geometry" : {
+        "x" : 247702.88370000385,
+        "y" : 592880.97609999962
+      }
+    }
+  ]
+}

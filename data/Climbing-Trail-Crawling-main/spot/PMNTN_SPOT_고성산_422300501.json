@@ -1,0 +1,279 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 6354,
+        "MNTN_CODE" : "422300501",
+        "MANAGE_SP1" : "17",
+        "MANAGE_SP2" : "대피소",
+        "DETAIL_SPO" : "대피소",
+        "ETC_MATTER" : "군용추정됨",
+        "MNTN_NM" : "고성산",
+        "PAST_SPOT_" : "22040703000001",
+        "MNTN_ID" : "2204070300"
+      },
+      "geometry" : {
+        "x" : 393856.20720003918,
+        "y" : 539099.71130000427
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 6355,
+        "MNTN_CODE" : "422300501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고성산",
+        "PAST_SPOT_" : "22040703000002",
+        "MNTN_ID" : "2204070300"
+      },
+      "geometry" : {
+        "x" : 393918.91920003947,
+        "y" : 539016.49020000547
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 6356,
+        "MNTN_CODE" : "422300501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : "E 설치필요",
+        "MNTN_NM" : "고성산",
+        "PAST_SPOT_" : "22040703000003",
+        "MNTN_ID" : "2204070300"
+      },
+      "geometry" : {
+        "x" : 393917.38160003908,
+        "y" : 538981.26820000447
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 6357,
+        "MNTN_CODE" : "422300501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "E 설치필요",
+        "MNTN_NM" : "고성산",
+        "PAST_SPOT_" : "22040703000004",
+        "MNTN_ID" : "2204070300"
+      },
+      "geometry" : {
+        "x" : 393926.90060003847,
+        "y" : 538798.41640000418
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 6358,
+        "MNTN_CODE" : "422300501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "고성산길입구",
+        "MNTN_NM" : "고성산",
+        "PAST_SPOT_" : "22040703000005",
+        "MNTN_ID" : "2204070300"
+      },
+      "geometry" : {
+        "x" : 393754.3093000371,
+        "y" : 539145.69700000621
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 6359,
+        "MNTN_CODE" : "422300501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,길없음",
+        "ETC_MATTER" : "길 없음",
+        "MNTN_NM" : "고성산",
+        "PAST_SPOT_" : "22040703000006",
+        "MNTN_ID" : "2204070300"
+      },
+      "geometry" : {
+        "x" : 393764.41070004087,
+        "y" : 539086.70090000704
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 6360,
+        "MNTN_CODE" : "422300501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "남부교회앞",
+        "MNTN_NM" : "고성산",
+        "PAST_SPOT_" : "22040703000007",
+        "MNTN_ID" : "2204070300"
+      },
+      "geometry" : {
+        "x" : 393764.79900003783,
+        "y" : 538661.48540000431
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 6361,
+        "MNTN_CODE" : "422300501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고성산",
+        "PAST_SPOT_" : "22040703000008",
+        "MNTN_ID" : "2204070300"
+      },
+      "geometry" : {
+        "x" : 393809.93310004193,
+        "y" : 539103.3990000058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 6362,
+        "MNTN_CODE" : "422300501",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상,조망점,유적",
+        "ETC_MATTER" : "\"국난…\"표석/ 정상에서 바라 보이는 탁트인 동해바다와  바다에 합류하는 오십천 하구의 조망은 매우 훌륭하다.",
+        "MNTN_NM" : "고성산",
+        "PAST_SPOT_" : "22040703000009",
+        "MNTN_ID" : "2204070300"
+      },
+      "geometry" : {
+        "x" : 393903.73900003824,
+        "y" : 538913.83110000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 6363,
+        "MNTN_CODE" : "422300501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고성산",
+        "PAST_SPOT_" : "22040703000010",
+        "MNTN_ID" : "2204070300"
+      },
+      "geometry" : {
+        "x" : 393922.71730004065,
+        "y" : 538728.34360000305
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 6364,
+        "MNTN_CODE" : "422300501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "고성산",
+        "PAST_SPOT_" : "22040703000011",
+        "MNTN_ID" : "2204070300"
+      },
+      "geometry" : {
+        "x" : 393922.85780003946,
+        "y" : 538673.79910000414
+      }
+    }
+  ]
+}

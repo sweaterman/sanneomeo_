@@ -1,0 +1,927 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 95148,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단시점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000001",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240342.2517000027,
+        "y" : 414179.52370000258
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 95149,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000002",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240370.80630000122,
+        "y" : 414140.81639999896
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 95150,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "휴식시설",
+        "ETC_MATTER" : "벤치도색요망",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000003",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240397.59040000197,
+        "y" : 414174.23130000383
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 95151,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단시점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000004",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240575.52639999893,
+        "y" : 414221.33150000125
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 95152,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000005",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240671.47910000104,
+        "y" : 414171.84200000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 95153,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "난간계단시점",
+        "ETC_MATTER" : "백색로프설치됨",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000006",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240700.05610000063,
+        "y" : 414147.89490000159
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 95154,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "난간계단종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000007",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240719.62800000235,
+        "y" : 414129.45430000126
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 95155,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판,운동시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000008",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240740.67960000038,
+        "y" : 414101.81010000221
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 95156,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단시점",
+        "ETC_MATTER" : "교체요망",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000009",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240995.30970000383,
+        "y" : 414345.20510000363
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 95157,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단종점",
+        "ETC_MATTER" : "교체요망",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000010",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 241004.15839999914,
+        "y" : 414372.98909999989
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 95158,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단시점",
+        "ETC_MATTER" : "교체요망",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000011",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 241002.43190000206,
+        "y" : 414415.48220000416
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 95159,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "휴식시설",
+        "ETC_MATTER" : "벤치5개설치됨",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000012",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240889.00000000093,
+        "y" : 414037.65350000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 95160,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "휴식시설",
+        "ETC_MATTER" : "벤치6개설치됨",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000013",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240891.97210000083,
+        "y" : 414035.78100000136
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 95161,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "휴식시설",
+        "ETC_MATTER" : "벤치1개설치됨",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000014",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240982.28950000182,
+        "y" : 413925.23610000126
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 95162,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "휴식시설",
+        "ETC_MATTER" : "벤치4개설치됨",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000015",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 241017.08490000293,
+        "y" : 413858.81829999946
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 95163,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계 단종점",
+        "ETC_MATTER" : "계단정비요망",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000016",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 241094.70100000221,
+        "y" : 414214.28570000269
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 95164,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단시점",
+        "ETC_MATTER" : "계단정비요망",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000017",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 241001.83970000036,
+        "y" : 414236.04210000113
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 95165,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "벤치2개설치됨",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000018",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240500.61290000007,
+        "y" : 414226.53180000186
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 95166,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단끝",
+        "ETC_MATTER" : "계단설치요망",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000019",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240538.87880000286,
+        "y" : 414378.29420000315
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 95167,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤 치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000020",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240526.94100000057,
+        "y" : 414357.93120000325
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 95168,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "표지석",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000021",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240510.88680000044,
+        "y" : 414276.51590000093
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 95169,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼거리",
+        "ETC_MATTER" : "이정표설치요망",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000022",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240637.45860000048,
+        "y" : 414092.11820000224
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 95170,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "공 간",
+        "ETC_MATTER" : "운동시설요망",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000023",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240701.27270000242,
+        "y" : 413887.12190000527
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 95171,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "공 지",
+        "ETC_MATTER" : "벤치설치요망",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000024",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240561.51989999972,
+        "y" : 414008.53749999963
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 95172,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "공 지",
+        "ETC_MATTER" : "벤치설치요망",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000025",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240490.12110000104,
+        "y" : 413913.88169999979
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 95173,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "육각정",
+        "ETC_MATTER" : "각종시설설치됨",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000026",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240644.42040000204,
+        "y" : 414197.5717999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 95174,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,삼거리",
+        "ETC_MATTER" : "이정표설치요망",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000027",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240333.24660000205,
+        "y" : 414185.03050000034
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 95175,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "이정표설치요망",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000028",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240360.25310000218,
+        "y" : 414170.39650000073
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 95176,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "사거리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000029",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240382.73599999957,
+        "y" : 414163.06560000032
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 95177,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "산불지역",
+        "ETC_MATTER" : "이정표설치요망",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000030",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240448.39190000016,
+        "y" : 414198.54710000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 95178,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,삼거리(종점)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000031",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240451.41920000128,
+        "y" : 413874.86280000396
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 95179,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "삼거리",
+        "ETC_MATTER" : "이정표설치요망",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000032",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240535.64549999963,
+        "y" : 414231.18760000169
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 95180,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,안내판(시점)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000033",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240568.4101000037,
+        "y" : 414385.99720000289
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 95181,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,삼거리(시점)",
+        "ETC_MATTER" : "이정표설치요망",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000034",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240605.35610000137,
+        "y" : 413908.86880000122
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 95182,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,(단군상)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000035",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240634.39740000013,
+        "y" : 413862.50780000165
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 95183,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "삼거리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000036",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240728.68510000315,
+        "y" : 414112.85110000148
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 95184,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부,휴식시설",
+        "ETC_MATTER" : "이정표설치요망",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000037",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240781.37260000035,
+        "y" : 414040.96700000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 95185,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,쌍청회관입구",
+        "ETC_MATTER" : "보호수",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000038",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240843.67750000022,
+        "y" : 413655.5914000012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 95186,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "삼거리(종점)",
+        "ETC_MATTER" : "이정표설치요망",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000039",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240928.34169999976,
+        "y" : 413939.85240000114
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 95187,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "삼거리(종점)",
+        "ETC_MATTER" : "이정표설치요망",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000040",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240936.89590000268,
+        "y" : 414030.44350000098
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 95188,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "삼거리",
+        "ETC_MATTER" : "벤치3개설치됨",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000041",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240945.38630000129,
+        "y" : 414179.09510000236
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 95189,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "휴식시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000042",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 240990.65440000035,
+        "y" : 414241.8105999995
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 95190,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "삼거리",
+        "ETC_MATTER" : "이정표설치요망",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000043",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 241042.88240000047,
+        "y" : 414101.29670000263
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 95191,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점(삼거리)",
+        "ETC_MATTER" : "이정표설치요망",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000044",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 241046.09800000116,
+        "y" : 413666.84359999932
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 95192,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000045",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 241083.28170000017,
+        "y" : 414103.26259999909
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 95193,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "이정표설치요망",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000046",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 241085.25370000117,
+        "y" : 414471.127700001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 95194,
+        "MNTN_CODE" : "301101701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점(삼거리)",
+        "ETC_MATTER" : "이정표설치요망",
+        "MNTN_NM" : "황태봉",
+        "PAST_SPOT_" : "16029917000047",
+        "MNTN_ID" : "1602991700"
+      },
+      "geometry" : {
+        "x" : 241144.01730000135,
+        "y" : 414229.38840000145
+      }
+    }
+  ]
+}

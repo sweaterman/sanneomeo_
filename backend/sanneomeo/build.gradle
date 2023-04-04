@@ -1,3 +1,10 @@
+buildscript {
+	dependencies {
+		classpath("gradle.plugin.com.ewerk.gradle.plugins:querydsl-plugin:1.0.10")
+	}
+}
+
+
 plugins {
 	id 'java'
 	id 'org.springframework.boot' version '2.7.9'
@@ -13,24 +20,95 @@ configurations {
 		extendsFrom annotationProcessor
 	}
 }
+apply plugin: "com.ewerk.gradle.plugins.querydsl" // querydsl
 
 repositories {
 	mavenCentral()
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-	implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
-	implementation 'org.springframework.boot:spring-boot-starter-security'
+	//basic spring boot
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
-	runtimeOnly 'com.mysql:mysql-connector-j'
-	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	//spring security
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
 	testImplementation 'org.springframework.security:spring-security-test'
+
+	//database + jpa
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'
+
+	//lombok + configuration processor
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+	annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
+
+	//swagger
+//	implementation 'io.springfox:springfox-swagger-ui:2.9.2'
+//	implementation 'io.springfox:springfox-swagger2:2.9.2'
+	implementation group: 'io.springfox', name: 'springfox-boot-starter', version: '3.0.0'
+
+	// querydsl
+	implementation 'com.querydsl:querydsl-jpa'
+	annotationProcessor 'com.querydsl:querydsl-apt'
+	implementation 'com.querydsl:querydsl-apt'
+
+	//json
+	implementation group: 'org.json', name: 'json', version: '20220320'
+
+	//jwt
+	implementation group: 'io.jsonwebtoken', name: 'jjwt', version: '0.9.1'
+	implementation group: 'org.glassfish.jaxb', name: 'jaxb-runtime', version: '2.3.2'
+
+	//aws
+//   implementation 'org.springframework.cloud:spring-cloud-starter-aws:2.0.1.RELEASE'
+	implementation platform('software.amazon.awssdk:bom:2.15.0')
+	implementation 'software.amazon.awssdk:s3'
+
+	// https://mvnrepository.com/artifact/com.google.code.gson/gson
+	implementation group: 'com.google.code.gson', name: 'gson', version: '2.8.6'
+
+	//엘라스틱 서치
+	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-elasticsearch
+	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-elasticsearch', version: '2.6.2'
+
+
 }
 
 tasks.named('test') {
 	useJUnitPlatform()
+}
+
+
+
+//querydsl
+def querydslDir = "$buildDir/generated/querydsl"
+
+//querydsl
+querydsl {
+	library = "com.querydsl:querydsl-apt"
+	jpa = true
+	querydslSourcesDir = querydslDir
+}
+
+//querydsl
+sourceSets {
+	main {
+		java {
+			srcDirs = ['src/main/java', querydslDir]
+		}
+	}
+}
+
+//querydsl
+compileQuerydsl{
+	options.annotationProcessorPath = configurations.querydsl
+}
+
+//querydsl
+configurations {
+	querydsl.extendsFrom compileClasspath
 }

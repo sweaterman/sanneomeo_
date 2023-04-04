@@ -1,0 +1,369 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 56367,
+        "MNTN_CODE" : "427704001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신기산",
+        "PAST_SPOT_" : "4277058010001",
+        "MNTN_ID" : "427705801"
+      },
+      "geometry" : {
+        "x" : 362024.56190001592,
+        "y" : 520105.81750000827
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 56368,
+        "MNTN_CODE" : "427704001",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신기산",
+        "PAST_SPOT_" : "4277058010002",
+        "MNTN_ID" : "427705801"
+      },
+      "geometry" : {
+        "x" : 362359.36850001384,
+        "y" : 521320.02270000055
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 56369,
+        "MNTN_CODE" : "427704001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신기산",
+        "PAST_SPOT_" : "4277058010003",
+        "MNTN_ID" : "427705801"
+      },
+      "geometry" : {
+        "x" : 362304.68340003211,
+        "y" : 520060.94810000062
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 56370,
+        "MNTN_CODE" : "427704001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신기산",
+        "PAST_SPOT_" : "4277058010004",
+        "MNTN_ID" : "427705801"
+      },
+      "geometry" : {
+        "x" : 362390.24760002829,
+        "y" : 520070.85260000639
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 56371,
+        "MNTN_CODE" : "427704001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : "로프필요(15)",
+        "MNTN_NM" : "신기산",
+        "PAST_SPOT_" : "4277058010005",
+        "MNTN_ID" : "427705801"
+      },
+      "geometry" : {
+        "x" : 362146.71970002819,
+        "y" : 520089.18720000423
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 56372,
+        "MNTN_CODE" : "427704001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신기산",
+        "PAST_SPOT_" : "4277058010006",
+        "MNTN_ID" : "427705801"
+      },
+      "geometry" : {
+        "x" : 362469.90410003066,
+        "y" : 520090.23750000075
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 56373,
+        "MNTN_CODE" : "427704001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : "로프필요(25)",
+        "MNTN_NM" : "신기산",
+        "PAST_SPOT_" : "4277058010007",
+        "MNTN_ID" : "427705801"
+      },
+      "geometry" : {
+        "x" : 362442.91590002738,
+        "y" : 520090.2594000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 56374,
+        "MNTN_CODE" : "427704001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신기산",
+        "PAST_SPOT_" : "4277058010008",
+        "MNTN_ID" : "427705801"
+      },
+      "geometry" : {
+        "x" : 362034.40620002896,
+        "y" : 520100.96570000239
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 56375,
+        "MNTN_CODE" : "427704001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신기산",
+        "PAST_SPOT_" : "4277058010009",
+        "MNTN_ID" : "427705801"
+      },
+      "geometry" : {
+        "x" : 362592.05230003037,
+        "y" : 520171.01790000126
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 56376,
+        "MNTN_CODE" : "427704001",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신기산",
+        "PAST_SPOT_" : "4277058010010",
+        "MNTN_ID" : "427705801"
+      },
+      "geometry" : {
+        "x" : 362587.47350003105,
+        "y" : 520212.70240000263
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 56377,
+        "MNTN_CODE" : "427704001",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신기산",
+        "PAST_SPOT_" : "4277058010011",
+        "MNTN_ID" : "427705801"
+      },
+      "geometry" : {
+        "x" : 362428.40650002751,
+        "y" : 520333.83270000294
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 56378,
+        "MNTN_CODE" : "427704001",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "벤치필요",
+        "MNTN_NM" : "신기산",
+        "PAST_SPOT_" : "4277058010012",
+        "MNTN_ID" : "427705801"
+      },
+      "geometry" : {
+        "x" : 362433.21850003116,
+        "y" : 520336.93490000255
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 56379,
+        "MNTN_CODE" : "427704001",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신기산",
+        "PAST_SPOT_" : "4277058010013",
+        "MNTN_ID" : "427705801"
+      },
+      "geometry" : {
+        "x" : 362411.59560002945,
+        "y" : 520543.63869999908
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 56380,
+        "MNTN_CODE" : "427704001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신기산",
+        "PAST_SPOT_" : "4277058010014",
+        "MNTN_ID" : "427705801"
+      },
+      "geometry" : {
+        "x" : 362349.46760002989,
+        "y" : 521179.16040000692
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 56381,
+        "MNTN_CODE" : "427704001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "서낭당",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신기산",
+        "PAST_SPOT_" : "4277058010015",
+        "MNTN_ID" : "427705801"
+      },
+      "geometry" : {
+        "x" : 362360.58760003187,
+        "y" : 521240.09190000966
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 56382,
+        "MNTN_CODE" : "427704001",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "다리",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "신기산",
+        "PAST_SPOT_" : "4277058010016",
+        "MNTN_ID" : "427705801"
+      },
+      "geometry" : {
+        "x" : 362357.69840002712,
+        "y" : 521316.5202000048
+      }
+    }
+  ]
+}

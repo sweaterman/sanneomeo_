@@ -1,0 +1,1737 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 46361,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "4782015010001",
+        "MNTN_ID" : "478201501"
+      },
+      "geometry" : {
+        "x" : 341159.88967033662,
+        "y" : 344180.94841405191
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 46362,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "4782015010002",
+        "MNTN_ID" : "478201501"
+      },
+      "geometry" : {
+        "x" : 342254.53440000676,
+        "y" : 344895.38749999925
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 46363,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000003",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 336235.93300000485,
+        "y" : 347210.92210000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 46364,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "유가사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000004",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 336469.85030000471,
+        "y" : 347140.10380000249
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 46365,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000005",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 336552.17930000648,
+        "y" : 346985.97800000198
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 46366,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000006",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 336882.42950000614,
+        "y" : 346898.56290000118
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 46367,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000007",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 337511.5601000078,
+        "y" : 346704.78429999948
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 46368,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000008",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 337725.82560000569,
+        "y" : 346314.07399999909
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 46369,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000009",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 337818.62870000675,
+        "y" : 346167.52060000412
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 46370,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000010",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 337884.25220000837,
+        "y" : 346022.3964000009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 46371,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000011",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 338064.6441000076,
+        "y" : 345871.65420000814
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 46372,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000012",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 338245.24480000697,
+        "y" : 345513.7304999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 46373,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000013",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 338374.19830000773,
+        "y" : 345469.48850000091
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 46374,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000014",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 338661.83950000443,
+        "y" : 345603.46120000444
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 46375,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000015",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 338556.34560000803,
+        "y" : 346659.95940000564
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 46376,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "고정로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000016",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 338526.76300000865,
+        "y" : 346718.69519999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 46377,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000017",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 338362.39010000695,
+        "y" : 347100.91460000165
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 46378,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000018",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 337665.63580000866,
+        "y" : 347959.54720000178
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 46379,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000019",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 337537.72350000683,
+        "y" : 347939.06770000421
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 46380,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000020",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 337052.01970000658,
+        "y" : 347935.26360000111
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 46381,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000021",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 336694.39900000859,
+        "y" : 347548.67890000157
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 46382,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000022",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 336664.97270000447,
+        "y" : 347500.12939999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 46383,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000023",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 337286.93630000856,
+        "y" : 346888.15160000138
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 46384,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000024",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 337513.88250000682,
+        "y" : 346847.26190000214
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 46385,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000025",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 337687.41620000731,
+        "y" : 346748.20380000211
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 46386,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "급경사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000026",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 337988.1824000068,
+        "y" : 346812.06369999982
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 46387,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "석불상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000027",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 338050.56030001026,
+        "y" : 347070.16770000383
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 46388,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000028",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 337889.61260000616,
+        "y" : 347279.60899999924
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 46389,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000029",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 337917.8308000071,
+        "y" : 347456.58570000157
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 46390,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000030",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 338665.8878000062,
+        "y" : 345418.94859999977
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 46391,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "톱바위",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000031",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 338799.10480000731,
+        "y" : 345292.73390000127
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 46392,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000032",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 338659.29390000645,
+        "y" : 345379.58379999734
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 46393,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000033",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 338578.96030000877,
+        "y" : 345402.3805000037
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 46394,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "대견사지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000034",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 338507.04160000756,
+        "y" : 345416.89690000191
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 46395,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000035",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 336292.47960000765,
+        "y" : 345128.41520000063
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 46396,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000036",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 336624.893400006,
+        "y" : 344806.08650000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 46397,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "정자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000037",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 337130.07190000638,
+        "y" : 344634.42090000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 46398,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000038",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 337625.53740000632,
+        "y" : 344799.31220000051
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 46399,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000039",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 337909.88920000568,
+        "y" : 344855.51270000078
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 46400,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암괴류",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000040",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 338111.71660000738,
+        "y" : 344880.84259999916
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 46401,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "구급함",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000041",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 338399.9402000038,
+        "y" : 345075.86130000278
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 46402,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000042",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 338652.32720000669,
+        "y" : 345342.47729999945
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 46403,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000043",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 336199.47540000733,
+        "y" : 345781.84640000202
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 46404,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000044",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 337593.02400000673,
+        "y" : 344852.45590000041
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 46405,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "영불암석탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000045",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 337555.62740000803,
+        "y" : 345123.81090000831
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 46406,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000046",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 337824.78600000776,
+        "y" : 345283.36810000427
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 46407,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000047",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 337946.25980001036,
+        "y" : 345429.54270000383
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 46408,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000048",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 338059.71130000707,
+        "y" : 345508.99860000238
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 46409,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000049",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 338085.09970000852,
+        "y" : 345526.04170000181
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 46410,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000050",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 342152.78600000776,
+        "y" : 344911.27749999985
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 50,
+        "PMNTN_SPOT" : 46411,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000051",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 340849.8447000077,
+        "y" : 343795.32730000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 51,
+        "PMNTN_SPOT" : 46412,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000052",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 339582.04370000772,
+        "y" : 343505.26530000009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 52,
+        "PMNTN_SPOT" : 46413,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000053",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 339112.66890001018,
+        "y" : 343599.66039999947
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 53,
+        "PMNTN_SPOT" : 46414,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000054",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 338807.91340000648,
+        "y" : 343881.63540000096
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 54,
+        "PMNTN_SPOT" : 46415,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000055",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 338684.01940000709,
+        "y" : 343986.99750000425
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 55,
+        "PMNTN_SPOT" : 46416,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000056",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 339824.29020000901,
+        "y" : 344802.15199999884
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 56,
+        "PMNTN_SPOT" : 46417,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "비슬정일품송",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000057",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 340192.33930000942,
+        "y" : 344430.56290000118
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 57,
+        "PMNTN_SPOT" : 46418,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "용천사사리탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000058",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 340628.96660000831,
+        "y" : 347835.75500000268
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 58,
+        "PMNTN_SPOT" : 46419,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000059",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 340422.74950000644,
+        "y" : 347519.8574000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 59,
+        "PMNTN_SPOT" : 46420,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000060",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 340363.70240000822,
+        "y" : 347437.52820000052
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 60,
+        "PMNTN_SPOT" : 46421,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "18",
+        "MANAGE_SP2" : "주차장",
+        "DETAIL_SPO" : "주차장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000061",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 339941.76310000662,
+        "y" : 347214.43459999934
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 61,
+        "PMNTN_SPOT" : 46422,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000062",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 339774.33560000639,
+        "y" : 347211.80020000041
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 62,
+        "PMNTN_SPOT" : 46423,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "4-1구간",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000063",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 338857.69630000647,
+        "y" : 346937.32200000063
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 63,
+        "PMNTN_SPOT" : 46424,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000064",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 340596.54270000849,
+        "y" : 348836.05150000192
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 64,
+        "PMNTN_SPOT" : 46425,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000065",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 340068.45440000668,
+        "y" : 348461.4253000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 65,
+        "PMNTN_SPOT" : 46426,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000066",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 339974.02400000673,
+        "y" : 348422.93879999965
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 66,
+        "PMNTN_SPOT" : 46427,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000067",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 339177.47570000682,
+        "y" : 347751.85770000145
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 67,
+        "PMNTN_SPOT" : 46428,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000068",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 335625.43460000679,
+        "y" : 347205.25120000169
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 68,
+        "PMNTN_SPOT" : 46429,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "18",
+        "MANAGE_SP2" : "주차장",
+        "DETAIL_SPO" : "주차장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000069",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 335751.45750000421,
+        "y" : 345733.06970000081
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 69,
+        "PMNTN_SPOT" : 46430,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000070",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 335906.46520000696,
+        "y" : 347325.64100000262
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 70,
+        "PMNTN_SPOT" : 46431,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000071",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 336278.86650000606,
+        "y" : 347315.08180000074
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 71,
+        "PMNTN_SPOT" : 46432,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000072",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 336377.66100000404,
+        "y" : 346363.58910000138
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 72,
+        "PMNTN_SPOT" : 46433,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000073",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 337165.86500000488,
+        "y" : 346912.18110000342
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 73,
+        "PMNTN_SPOT" : 46434,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "비슬산",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000074",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 337861.89670000877,
+        "y" : 347561.16200000048
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 74,
+        "PMNTN_SPOT" : 46435,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000075",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 337914.41350000724,
+        "y" : 346801.66950000264
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 75,
+        "PMNTN_SPOT" : 46436,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "팔각정",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000076",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 338143.13210000843,
+        "y" : 345578.74000000209
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 76,
+        "PMNTN_SPOT" : 46437,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000077",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 338200.53220000956,
+        "y" : 347322.23450000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 77,
+        "PMNTN_SPOT" : 46438,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000078",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 338448.40970000718,
+        "y" : 345452.14440000057
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 78,
+        "PMNTN_SPOT" : 46439,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000079",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 338490.9743000092,
+        "y" : 346788.43380000256
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 79,
+        "PMNTN_SPOT" : 46440,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000080",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 338497.15200000815,
+        "y" : 346779.28060000017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 80,
+        "PMNTN_SPOT" : 46441,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000081",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 338531.35650000628,
+        "y" : 345455.28589999862
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 81,
+        "PMNTN_SPOT" : 46442,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000082",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 338667.00090000499,
+        "y" : 347561.83789999969
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 82,
+        "PMNTN_SPOT" : 46443,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000083",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 338668.55450000428,
+        "y" : 345376.14550000057
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 83,
+        "PMNTN_SPOT" : 46444,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "조화봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000084",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 338943.32920000795,
+        "y" : 345169.65680000186
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 84,
+        "PMNTN_SPOT" : 46445,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000085",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 339058.55850001052,
+        "y" : 345226.72580000199
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 85,
+        "PMNTN_SPOT" : 46446,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000086",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 339187.41060000937,
+        "y" : 347204.71260000207
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 86,
+        "PMNTN_SPOT" : 46447,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000087",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 339241.07160000689,
+        "y" : 347222.0373999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 87,
+        "PMNTN_SPOT" : 46448,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000088",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 340915.54260000587,
+        "y" : 347459.2097000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 88,
+        "PMNTN_SPOT" : 46449,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "헐티재",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000089",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 341133.9782000063,
+        "y" : 349094.31410000101
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 89,
+        "PMNTN_SPOT" : 46450,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000090",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 341494.36350000929,
+        "y" : 344831.29639999941
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 90,
+        "PMNTN_SPOT" : 46451,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000091",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 342249.2783000106,
+        "y" : 344902.95910000429
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 91,
+        "PMNTN_SPOT" : 46452,
+        "MNTN_CODE" : "277101501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "비슬산",
+        "PAST_SPOT_" : "13030115000092",
+        "MNTN_ID" : "1303011500"
+      },
+      "geometry" : {
+        "x" : 337618.91410000715,
+        "y" : 344802.95570000075
+      }
+    }
+  ]
+}

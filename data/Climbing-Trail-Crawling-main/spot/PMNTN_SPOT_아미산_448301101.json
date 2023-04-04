@@ -1,0 +1,963 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 57566,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "정자,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000001",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 169625.85500000045,
+        "y" : 472510.95980000123
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 57567,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000002",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 169626.14660000056,
+        "y" : 472520.18100000359
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 57568,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000003",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 169829.4412000021,
+        "y" : 472354.88720000349
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 57569,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000004",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 169989.34839999955,
+        "y" : 472279.27710000239
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 57570,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000005",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 170085.33100000117,
+        "y" : 472156.8629999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 57571,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치,목조계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000006",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 170110.99980000034,
+        "y" : 472080.7752000019
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 57572,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목조계단(끝점)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000007",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 170133.78770000022,
+        "y" : 471964.03550000116
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 57573,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목조계단(시작점)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000008",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 170124.05230000056,
+        "y" : 471889.28210000135
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 57574,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목조계단(끝점)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000009",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 170233.49770000204,
+        "y" : 471738.01270000078
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 57575,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000010",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 170255.15340000112,
+        "y" : 471719.90300000459
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 57576,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "정자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000011",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 170273.19890000299,
+        "y" : 471529.26950000226
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 57577,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000012",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 170550.6361000007,
+        "y" : 470489.65570000187
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 57578,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "장승",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000013",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 170114.62189999875,
+        "y" : 470325.32400000095
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 57579,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목조계단(시작점)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000014",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 169956.27199999988,
+        "y" : 471895.00159999914
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 57580,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목조계단(끝점)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000015",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 169934.87910000049,
+        "y" : 471898.83950000443
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 57581,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기착륙장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000016",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 169885.30860000011,
+        "y" : 471877.19710000046
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 57582,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "구름다리(시작점)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000017",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 169301.46570000332,
+        "y" : 471592.20130000263
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 57583,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "구름다리(끝점)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000018",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 169221.90170000028,
+        "y" : 471587.22910000011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 57584,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "정자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000019",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 168564.73380000051,
+        "y" : 471380.52239999734
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 57585,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000020",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 169269.25947088934,
+        "y" : 472184.09742640704
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 57586,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "정자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000021",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 171795.34630000219,
+        "y" : 471424.6716999989
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 57587,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000022",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 170261.52379999962,
+        "y" : 471580.43760000356
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 57588,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,노선종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000023",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 167602.30730000138,
+        "y" : 471918.28720000386
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 57589,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000024",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 169488.89120000321,
+        "y" : 472962.27209999971
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 57590,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,노선종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000025",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 169852.45620000176,
+        "y" : 469083.46220000274
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 57591,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000026",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 170113.86270000134,
+        "y" : 471908.51710000262
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 57592,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000027",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 170554.95210000128,
+        "y" : 470748.94990000129
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 57593,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,노선종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000028",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 170637.75860000122,
+        "y" : 468868.67930000089
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 57594,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000029",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 171003.24539999943,
+        "y" : 470445.11730000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 57595,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000030",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 171006.59329999983,
+        "y" : 470535.18490000069
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 57596,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,노선종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000031",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 171331.4664000012,
+        "y" : 471310.78170000203
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 57597,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000032",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 171616.10000000056,
+        "y" : 471074.14970000274
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 57598,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,노선종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000033",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 171769.6986999996,
+        "y" : 469548.89149999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 57599,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,노선종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000034",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 171905.04339999985,
+        "y" : 471863.94810000435
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 57600,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,노선종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000035",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 172170.34250000026,
+        "y" : 471113.35300000198
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 57601,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000036",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 168849.39460000116,
+        "y" : 472617.11709999852
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 57602,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000037",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 170555.90927536506,
+        "y" : 470494.87162871659
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 57603,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000038",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 170493.00436751917,
+        "y" : 472315.16873741522
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 57604,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000039",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 170389.32340131514,
+        "y" : 469247.60486716405
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 57605,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000040",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 167680.07630000077,
+        "y" : 472016.51259999909
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 57606,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000041",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 167874.26834265981,
+        "y" : 472044.15651409142
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 57607,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000042",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 167900.90021578968,
+        "y" : 472188.34379724972
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 57608,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000043",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 169492.09617436863,
+        "y" : 472252.18641913682
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 57609,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000044",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 169499.06174494326,
+        "y" : 472642.98325680196
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 57610,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000045",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 169461.67968740594,
+        "y" : 472693.1539025642
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 57611,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000046",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 170247.88399368618,
+        "y" : 472280.50525020808
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 57612,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000047",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 169772.91847515386,
+        "y" : 471763.35935038701
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 57613,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "18",
+        "MANAGE_SP2" : "주차장",
+        "DETAIL_SPO" : "아미산주차장,화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000048",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 169237.95601136517,
+        "y" : 472146.24735000916
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 57614,
+        "MNTN_CODE" : "448301101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "숲길방문자센터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "아미산",
+        "PAST_SPOT_" : "24059911000049",
+        "MNTN_ID" : "2405991100"
+      },
+      "geometry" : {
+        "x" : 169272.97640961036,
+        "y" : 472122.32631294057
+      }
+    }
+  ]
+}

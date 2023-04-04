@@ -1,0 +1,927 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 18003,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010001",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 402091.88870000187,
+        "y" : 303982.39250000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 18004,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010002",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 402425.92700000014,
+        "y" : 303603.61710000224
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 18005,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "좌천초교",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010003",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 403833.42099999916,
+        "y" : 304052.6585000027
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 18006,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010004",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 403076.82369999867,
+        "y" : 303745.21160000376
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 18007,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010005",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 401417.28810000047,
+        "y" : 303101.63610000163
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 18008,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "청소년수련원",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010006",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 400051.62810000032,
+        "y" : 303804.06250000186
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 18009,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "원효사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010007",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 400428.57820000034,
+        "y" : 302651.51490000263
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 18010,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "대도사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010008",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 400601.44440000039,
+        "y" : 302797.46749999747
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 18011,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010009",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 401864.31759999972,
+        "y" : 302756.14200000092
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 18012,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010010",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 397577.38170000073,
+        "y" : 303282.32330000214
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 18013,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010011",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 398661.6556000011,
+        "y" : 304042.86610000208
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 18014,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010012",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 398876.98770000134,
+        "y" : 303412.4626000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 18015,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010013",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 399133.27040000074,
+        "y" : 304186.95399999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 18016,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010014",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 399241.32430000231,
+        "y" : 303217.91259999946
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 18017,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010015",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 399246.16740000062,
+        "y" : 303211.40809999965
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 18018,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010016",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 399587.63819999993,
+        "y" : 303407.91730000079
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 18019,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010017",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 399595.90560000017,
+        "y" : 303555.69769999944
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 18020,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010018",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 400031.59169999976,
+        "y" : 303635.9400000032
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 18021,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010019",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 400072.16090000048,
+        "y" : 303662.17930000275
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 18022,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010020",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 400374.3909,
+        "y" : 302244.43820000254
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 18023,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010021",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 400426.56359999999,
+        "y" : 302648.1827000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 18024,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010022",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 400470.69656589534,
+        "y" : 304257.87646800838
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 18025,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010023",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 400651.38015579991,
+        "y" : 302890.48960786872
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 18026,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010024",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 400663.3741000006,
+        "y" : 303729.02779999748
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 18027,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010025",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 400812.20449999999,
+        "y" : 303598.74390000105
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 18028,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010026",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 401082.67210000101,
+        "y" : 303566.35370000079
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 18029,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010027",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 401214.29770000093,
+        "y" : 303227.00020000339
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 18030,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010028",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 401258.27480000071,
+        "y" : 301249.38220000267
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 18031,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010029",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 401278.987900001,
+        "y" : 301100.76940000057
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 18032,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010030",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 401356.70230000187,
+        "y" : 303124.9123999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 18033,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010031",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 401665.32410000078,
+        "y" : 302939.8908000011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 18034,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010032",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 401857.95277478453,
+        "y" : 302384.90811017714
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 18035,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010033",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 401866.67713389359,
+        "y" : 302241.86373446882
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 18036,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010034",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 401889.12761697546,
+        "y" : 302723.94760280661
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 18037,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010035",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 401889.62458657939,
+        "y" : 301341.71801965684
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 18038,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010036",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 402171.61752388161,
+        "y" : 303346.18331987783
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 18039,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010037",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 402237.7611000007,
+        "y" : 303348.62910000421
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 18040,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010038",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 402258.51640000101,
+        "y" : 303850.33420000225
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 18041,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010039",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 402421.9645999996,
+        "y" : 303237.90339999832
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 18042,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010040",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 402455.55540000089,
+        "y" : 303371.4357000012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 18043,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010041",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 402503.14552734978,
+        "y" : 303664.97654339857
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 18044,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010042",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 402550.817900002,
+        "y" : 302921.39330000058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 18045,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010043",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 402574.61230000108,
+        "y" : 303684.90159999952
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 18046,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010044",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 402973.53129999992,
+        "y" : 303374.19150000438
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 18047,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010045",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 403834.15680000093,
+        "y" : 304053.15420000255
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 96037,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010046",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 399069.04140000121,
+        "y" : 303364.52700000053
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 96038,
+        "MNTN_CODE" : "267100401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "달음산",
+        "PAST_SPOT_" : "2671004010047",
+        "MNTN_ID" : "267100401"
+      },
+      "geometry" : {
+        "x" : 399581.68189999973,
+        "y" : 303410.37279999902
+      }
+    }
+  ]
+}

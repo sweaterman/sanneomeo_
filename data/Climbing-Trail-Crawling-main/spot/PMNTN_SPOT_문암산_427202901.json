@@ -1,0 +1,963 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 30731,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010001",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 314203.23240000289,
+        "y" : 575342.83500000089
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 30732,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010002",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 320472.85329999961,
+        "y" : 576016.62079999968
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 30733,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010003",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 320532.92160000373,
+        "y" : 576427.35780000128
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 30734,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010004",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321233.44740000367,
+        "y" : 576743.93380000256
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 30735,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010005",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321334.28710000217,
+        "y" : 576814.76430000179
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 30736,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010006",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321490.36100000236,
+        "y" : 576185.05540000461
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 30737,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010007",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321553.5389000047,
+        "y" : 576115.11529999971
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 30738,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010008",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321640.12580000423,
+        "y" : 576146.09219999984
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 30739,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010009",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321772.57580000348,
+        "y" : 576748.77800000086
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 30740,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010010",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321781.36740000453,
+        "y" : 575687.05700000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 30741,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010011",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321935.22130000219,
+        "y" : 575581.96000000276
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 30742,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010012",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 322728.66030000243,
+        "y" : 577515.89220000245
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 30743,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010013",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 323104.77180000301,
+        "y" : 577513.3730999995
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 30744,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010014",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 322327.64310000371,
+        "y" : 575325.8423999995
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 30745,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "물탱크",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010015",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321299.74180000555,
+        "y" : 575487.43590000272
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 30746,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010016",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321899.25740000419,
+        "y" : 575585.2714000009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 30747,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010017",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321779.80470000394,
+        "y" : 575690.45690000057
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 30748,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010018",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321204.96090000495,
+        "y" : 575698.32100000232
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 30749,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로상태",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010019",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321964.37380000297,
+        "y" : 575729.07840000093
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 30750,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010020",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321570.86510000564,
+        "y" : 575842.65340000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 30751,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010021",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 320958.30970000289,
+        "y" : 575901.34940000065
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 30752,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010022",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321718.19690000452,
+        "y" : 576016.90350000374
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 30753,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사방댐공사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010023",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 320473.14070000406,
+        "y" : 576023.40230000019
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 30754,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010024",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321490.71970000584,
+        "y" : 576188.02430000156
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 30755,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010025",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321424.42559999973,
+        "y" : 576234.65520000271
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 30756,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010026",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321400.87650000863,
+        "y" : 576266.57220000029
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 30757,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010027",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321321.62600000389,
+        "y" : 576345.79870000109
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 30758,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "문 바위",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010028",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 320114.29250000138,
+        "y" : 576392.36270000227
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 30759,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로상태",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010029",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 320110.06850000005,
+        "y" : 576446.41420000046
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 30760,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010030",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321224.39700000919,
+        "y" : 576629.65720000304
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 30761,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010031",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321238.68670000602,
+        "y" : 576647.24270000122
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 30762,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물(운동기구등)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010032",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321768.98330000229,
+        "y" : 576739.55810000189
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 30763,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010033",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321958.27980000526,
+        "y" : 576744.70969999954
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 30764,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010034",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321877.5688000042,
+        "y" : 576746.20299999975
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 30765,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무벤취",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010035",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321963.74510000367,
+        "y" : 576763.63150000013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 30766,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010036",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321747.55060000345,
+        "y" : 576765.98750000261
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 30767,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010037",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321310.56390000507,
+        "y" : 576773.64660000056
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 30768,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010038",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321674.37030000612,
+        "y" : 576788.03370000236
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 30769,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010039",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321659.79190000426,
+        "y" : 576794.26910000108
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 30770,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산로상태",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010040",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321596.03160000686,
+        "y" : 576797.80279999971
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 30771,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010041",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321339.82270000502,
+        "y" : 576815.87780000083
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 30772,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010042",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321339.90520000458,
+        "y" : 576821.65230000205
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 30773,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010043",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321315.99100000504,
+        "y" : 576865.33280000091
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 30774,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010044",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 322442.00870000571,
+        "y" : 577039.60080000386
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 30775,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "등산로입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010045",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 320080.82150000334,
+        "y" : 577170.03060000204
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 30776,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010046",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 320015.31640000176,
+        "y" : 577226.5206000004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 30777,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "등산로상태",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010047",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 322807.52950000204,
+        "y" : 577362.25939999893
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 30778,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010048",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 322325.18400795292,
+        "y" : 575858.60546826571
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 30779,
+        "MNTN_CODE" : "427202901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문암산",
+        "PAST_SPOT_" : "4272029010049",
+        "MNTN_ID" : "427202901"
+      },
+      "geometry" : {
+        "x" : 321915.9111001445,
+        "y" : 576143.81639990956
+      }
+    }
+  ]
+}

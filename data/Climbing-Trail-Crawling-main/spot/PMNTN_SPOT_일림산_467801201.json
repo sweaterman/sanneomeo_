@@ -1,0 +1,693 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 75424,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000001",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 205283.47450000048,
+        "y" : 231798.52979999967
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 75425,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "18",
+        "MANAGE_SP2" : "주차장",
+        "DETAIL_SPO" : "주차장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000002",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 205282.14600000065,
+        "y" : 231774.08599999733
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 75426,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "녹차밭",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000003",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 205018.61840000097,
+        "y" : 232071.48960000277
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 75427,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "이정표훼손",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000004",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 205459.26809999999,
+        "y" : 233441.00480000116
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 75428,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000005",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 202526.30100000091,
+        "y" : 231557.59420000203
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 75429,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "이정표훼손",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000006",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 202219.89840000216,
+        "y" : 231178.81940000132
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 75430,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000007",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 202056.37140000146,
+        "y" : 231356.03690000251
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 75431,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "이정표훼손",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000008",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 201793.66780000087,
+        "y" : 231730.39450000226
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 75432,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "이정표훼손",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000009",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 201585.22340000141,
+        "y" : 231844.7125000041
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 75433,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기점",
+        "ETC_MATTER" : "임도접점",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000010",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 200802.71290000249,
+        "y" : 231786.53900000453
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 75434,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기점",
+        "ETC_MATTER" : "임도접점",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000011",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 200725.97610000055,
+        "y" : 231905.08090000413
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 75435,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000012",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 201289.11639999878,
+        "y" : 232743.29519999959
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 75436,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000013",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 202694.49240000267,
+        "y" : 232263.84480000101
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 75437,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "등산안내도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000014",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 203633.89020000026,
+        "y" : 230852.06030000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 75438,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000015",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 202246.52100000065,
+        "y" : 231184.71440000087
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 75439,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000016",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 202238.37620000076,
+        "y" : 231186.16100000218
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 75440,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000017",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 202486.50310000218,
+        "y" : 230643.54850000329
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 75441,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000018",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 202470.79619999975,
+        "y" : 230516.69179999828
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 75442,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000019",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 202621.94550000131,
+        "y" : 230116.54530000128
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 75443,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000020",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 203108.56740000006,
+        "y" : 229403.67860000022
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 75444,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000021",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 201184.19739999995,
+        "y" : 232964.78700000234
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 75445,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,이정표,분기점",
+        "ETC_MATTER" : "용반리",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000022",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 201251.3133000005,
+        "y" : 232867.93029999919
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 75446,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "일림산정상",
+        "ETC_MATTER" : "이정표훼손",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000023",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 202044.85100000352,
+        "y" : 231279.43040000089
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 75447,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000024",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 202233.28220000118,
+        "y" : 231185.70450000279
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 75448,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000025",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 202239.53580000345,
+        "y" : 231182.26810000278
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 75449,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "웅치면 봉산리",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000026",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 202546.15220000036,
+        "y" : 231558.43539999984
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 75450,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000027",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 202918.11959999986,
+        "y" : 232114.25680000335
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 75451,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000028",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 203110.02730000298,
+        "y" : 229405.50879999995
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 75452,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000029",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 203113.08740000147,
+        "y" : 229398.39780000225
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 75453,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "웅치면 봉산리",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000030",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 203608.0352000026,
+        "y" : 229077.15920000151
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 75454,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "웅치면 봉산리",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000031",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 203638.6129999999,
+        "y" : 230847.37260000035
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 75455,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000032",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 204163.34470000397,
+        "y" : 232599.29990000091
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 75456,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "이정표미설",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000033",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 204669.65420000069,
+        "y" : 231989.84960000217
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 75457,
+        "MNTN_CODE" : "467801201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,이정표",
+        "ETC_MATTER" : "봉산리(한치재)",
+        "MNTN_NM" : "일림산",
+        "PAST_SPOT_" : "26100912000034",
+        "MNTN_ID" : "2610091200"
+      },
+      "geometry" : {
+        "x" : 205360.24900000077,
+        "y" : 233455.7693000026
+      }
+    }
+  ]
+}

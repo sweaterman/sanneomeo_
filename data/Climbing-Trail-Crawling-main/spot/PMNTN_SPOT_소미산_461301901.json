@@ -1,0 +1,477 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 53288,
+        "MNTN_CODE" : "461301901",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "소미산",
+        "PAST_SPOT_" : "4613019010001",
+        "MNTN_ID" : "461301901"
+      },
+      "geometry" : {
+        "x" : 271097.61020000093,
+        "y" : 233028.88819999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 53289,
+        "MNTN_CODE" : "461301901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "소미산",
+        "PAST_SPOT_" : "4613019010002",
+        "MNTN_ID" : "461301901"
+      },
+      "geometry" : {
+        "x" : 271085.1380000012,
+        "y" : 232995.76080000401
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 53290,
+        "MNTN_CODE" : "461301901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산성",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "소미산",
+        "PAST_SPOT_" : "4613019010003",
+        "MNTN_ID" : "461301901"
+      },
+      "geometry" : {
+        "x" : 271067.76220000163,
+        "y" : 232981.9384000022
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 53291,
+        "MNTN_CODE" : "461301901",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치,화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "소미산",
+        "PAST_SPOT_" : "4613019010004",
+        "MNTN_ID" : "461301901"
+      },
+      "geometry" : {
+        "x" : 271065.60060000047,
+        "y" : 232971.37630000152
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 53292,
+        "MNTN_CODE" : "461301901",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "팔각정,조망점,정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "소미산",
+        "PAST_SPOT_" : "4613019010005",
+        "MNTN_ID" : "461301901"
+      },
+      "geometry" : {
+        "x" : 271060.7508000005,
+        "y" : 232948.84390000254
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 53293,
+        "MNTN_CODE" : "461301901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "소인산 등산\n안내도,목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "소미산",
+        "PAST_SPOT_" : "4613019010006",
+        "MNTN_ID" : "461301901"
+      },
+      "geometry" : {
+        "x" : 271068.89870000165,
+        "y" : 232533.3021000009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 53294,
+        "MNTN_CODE" : "461301901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "소미산",
+        "PAST_SPOT_" : "4613019010007",
+        "MNTN_ID" : "461301901"
+      },
+      "geometry" : {
+        "x" : 271066.57930000126,
+        "y" : 232547.2145000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 53295,
+        "MNTN_CODE" : "461301901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "소미산",
+        "PAST_SPOT_" : "4613019010008",
+        "MNTN_ID" : "461301901"
+      },
+      "geometry" : {
+        "x" : 271075.57870000135,
+        "y" : 232578.55740000308
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 53296,
+        "MNTN_CODE" : "461301901",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "소미산",
+        "PAST_SPOT_" : "4613019010009",
+        "MNTN_ID" : "461301901"
+      },
+      "geometry" : {
+        "x" : 271079.06209999975,
+        "y" : 232674.77630000375
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 53297,
+        "MNTN_CODE" : "461301901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단,벤치,돌계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "소미산",
+        "PAST_SPOT_" : "4613019010010",
+        "MNTN_ID" : "461301901"
+      },
+      "geometry" : {
+        "x" : 271089.73280000128,
+        "y" : 232748.378800001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 53298,
+        "MNTN_CODE" : "461301901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "소미산",
+        "PAST_SPOT_" : "4613019010011",
+        "MNTN_ID" : "461301901"
+      },
+      "geometry" : {
+        "x" : 271316.40139999986,
+        "y" : 233217.27960000187
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 53299,
+        "MNTN_CODE" : "461301901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "소미산",
+        "PAST_SPOT_" : "4613019010012",
+        "MNTN_ID" : "461301901"
+      },
+      "geometry" : {
+        "x" : 271080.38320000004,
+        "y" : 232863.20900000259
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 53300,
+        "MNTN_CODE" : "461301901",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "동백군락지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "소미산",
+        "PAST_SPOT_" : "4613019010013",
+        "MNTN_ID" : "461301901"
+      },
+      "geometry" : {
+        "x" : 271075.34260000102,
+        "y" : 232875.38020000421
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 53301,
+        "MNTN_CODE" : "461301901",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "소미산",
+        "PAST_SPOT_" : "4613019010014",
+        "MNTN_ID" : "461301901"
+      },
+      "geometry" : {
+        "x" : 271219.2631000001,
+        "y" : 233095.59139999934
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 53302,
+        "MNTN_CODE" : "461301901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "소미산",
+        "PAST_SPOT_" : "4613019010015",
+        "MNTN_ID" : "461301901"
+      },
+      "geometry" : {
+        "x" : 271207.98139999993,
+        "y" : 233086.40960000269
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 53303,
+        "MNTN_CODE" : "461301901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "소미산",
+        "PAST_SPOT_" : "4613019010016",
+        "MNTN_ID" : "461301901"
+      },
+      "geometry" : {
+        "x" : 271187.87500000093,
+        "y" : 233073.12370000035
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 53304,
+        "MNTN_CODE" : "461301901",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "소미산",
+        "PAST_SPOT_" : "4613019010017",
+        "MNTN_ID" : "461301901"
+      },
+      "geometry" : {
+        "x" : 271164.24670000188,
+        "y" : 233021.53480000421
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 53305,
+        "MNTN_CODE" : "461301901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단,벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "소미산",
+        "PAST_SPOT_" : "4613019010018",
+        "MNTN_ID" : "461301901"
+      },
+      "geometry" : {
+        "x" : 271162.56460000016,
+        "y" : 233024.51610000432
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 53306,
+        "MNTN_CODE" : "461301901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "소미산",
+        "PAST_SPOT_" : "4613019010019",
+        "MNTN_ID" : "461301901"
+      },
+      "geometry" : {
+        "x" : 271115.08189999964,
+        "y" : 233054.16810000315
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 53307,
+        "MNTN_CODE" : "461301901",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "소미산",
+        "PAST_SPOT_" : "4613019010020",
+        "MNTN_ID" : "461301901"
+      },
+      "geometry" : {
+        "x" : 271098.75760000106,
+        "y" : 233048.43480000272
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 53308,
+        "MNTN_CODE" : "461301901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "소미산",
+        "PAST_SPOT_" : "4613019010021",
+        "MNTN_ID" : "461301901"
+      },
+      "geometry" : {
+        "x" : 271068.33810000122,
+        "y" : 232518.32880000211
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 53309,
+        "MNTN_CODE" : "461301901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "소미산",
+        "PAST_SPOT_" : "4613019010022",
+        "MNTN_ID" : "461301901"
+      },
+      "geometry" : {
+        "x" : 271288.74320000038,
+        "y" : 233293.48500000127
+      }
+    }
+  ]
+}

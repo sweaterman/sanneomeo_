@@ -1,0 +1,423 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 87543,
+        "MNTN_CODE" : "477303701",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "탑산",
+        "PAST_SPOT_" : "4773037010001",
+        "MNTN_ID" : "477303701"
+      },
+      "geometry" : {
+        "x" : 342792.69740000181,
+        "y" : 412560.01360000297
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 87544,
+        "MNTN_CODE" : "477303701",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "탑산",
+        "PAST_SPOT_" : "4773037010002",
+        "MNTN_ID" : "477303701"
+      },
+      "geometry" : {
+        "x" : 342801.94959999993,
+        "y" : 412552.35920000076
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 87545,
+        "MNTN_CODE" : "477303701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "씨름한국체육머릿돌",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "탑산",
+        "PAST_SPOT_" : "4773037010003",
+        "MNTN_ID" : "477303701"
+      },
+      "geometry" : {
+        "x" : 342878.27600000054,
+        "y" : 412529.70450000092
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 87546,
+        "MNTN_CODE" : "477303701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산불감시초소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "탑산",
+        "PAST_SPOT_" : "4773037010004",
+        "MNTN_ID" : "477303701"
+      },
+      "geometry" : {
+        "x" : 342879.54970000032,
+        "y" : 412521.04500000179
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 87547,
+        "MNTN_CODE" : "477303701",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "탑산",
+        "PAST_SPOT_" : "4773037010005",
+        "MNTN_ID" : "477303701"
+      },
+      "geometry" : {
+        "x" : 342892.41509999987,
+        "y" : 412505.74730000272
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 87548,
+        "MNTN_CODE" : "477303701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "갈림길,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "탑산",
+        "PAST_SPOT_" : "4773037010006",
+        "MNTN_ID" : "477303701"
+      },
+      "geometry" : {
+        "x" : 342902.81720000133,
+        "y" : 412485.3003999982
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 87549,
+        "MNTN_CODE" : "477303701",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "탑산",
+        "PAST_SPOT_" : "4773037010007",
+        "MNTN_ID" : "477303701"
+      },
+      "geometry" : {
+        "x" : 342913.85099999979,
+        "y" : 412452.07360000163
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 87550,
+        "MNTN_CODE" : "477303701",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "탑산",
+        "PAST_SPOT_" : "4773037010008",
+        "MNTN_ID" : "477303701"
+      },
+      "geometry" : {
+        "x" : 342919.11089999974,
+        "y" : 412423.57880000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 87551,
+        "MNTN_CODE" : "477303701",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "갈림길,벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "탑산",
+        "PAST_SPOT_" : "4773037010009",
+        "MNTN_ID" : "477303701"
+      },
+      "geometry" : {
+        "x" : 342920.56850000098,
+        "y" : 412367.26449999958
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 87552,
+        "MNTN_CODE" : "477303701",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "탑산",
+        "PAST_SPOT_" : "4773037010010",
+        "MNTN_ID" : "477303701"
+      },
+      "geometry" : {
+        "x" : 342901.34100000095,
+        "y" : 412332.5420000013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 87553,
+        "MNTN_CODE" : "477303701",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "돌탑,정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "탑산",
+        "PAST_SPOT_" : "4773037010011",
+        "MNTN_ID" : "477303701"
+      },
+      "geometry" : {
+        "x" : 342891.11620000005,
+        "y" : 412330.82300000265
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 87554,
+        "MNTN_CODE" : "477303701",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "탑산",
+        "PAST_SPOT_" : "4773037010012",
+        "MNTN_ID" : "477303701"
+      },
+      "geometry" : {
+        "x" : 342908.75999999978,
+        "y" : 412505.60319999978
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 87555,
+        "MNTN_CODE" : "477303701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "탑산",
+        "PAST_SPOT_" : "4773037010013",
+        "MNTN_ID" : "477303701"
+      },
+      "geometry" : {
+        "x" : 342825.28650000039,
+        "y" : 413022.49810000136
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 87556,
+        "MNTN_CODE" : "477303701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "탑산",
+        "PAST_SPOT_" : "4773037010014",
+        "MNTN_ID" : "477303701"
+      },
+      "geometry" : {
+        "x" : 342827.30009999964,
+        "y" : 412618.30870000273
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 87557,
+        "MNTN_CODE" : "477303701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "탑산",
+        "PAST_SPOT_" : "4773037010015",
+        "MNTN_ID" : "477303701"
+      },
+      "geometry" : {
+        "x" : 342888.46470000129,
+        "y" : 412515.20550000109
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 87558,
+        "MNTN_CODE" : "477303701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "탑산",
+        "PAST_SPOT_" : "4773037010016",
+        "MNTN_ID" : "477303701"
+      },
+      "geometry" : {
+        "x" : 342888.75909999944,
+        "y" : 412334.64709999971
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 87559,
+        "MNTN_CODE" : "477303701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "탑산",
+        "PAST_SPOT_" : "4773037010017",
+        "MNTN_ID" : "477303701"
+      },
+      "geometry" : {
+        "x" : 342903.97219999973,
+        "y" : 412482.9961000029
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 87560,
+        "MNTN_CODE" : "477303701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "탑산",
+        "PAST_SPOT_" : "4773037010018",
+        "MNTN_ID" : "477303701"
+      },
+      "geometry" : {
+        "x" : 342909.86450000014,
+        "y" : 412523.80150000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 99562,
+        "MNTN_CODE" : "477303701",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "탑산",
+        "PAST_SPOT_" : "4773037010019",
+        "MNTN_ID" : "477303701"
+      },
+      "geometry" : {
+        "x" : 342841.2238999994,
+        "y" : 412529.54360000044
+      }
+    }
+  ]
+}

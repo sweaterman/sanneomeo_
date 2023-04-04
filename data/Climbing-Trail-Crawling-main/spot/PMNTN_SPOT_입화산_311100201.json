@@ -1,0 +1,657 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 75752,
+        "MNTN_CODE" : "311100201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "입화산",
+        "PAST_SPOT_" : "17050302000001",
+        "MNTN_ID" : "1705030200"
+      },
+      "geometry" : {
+        "x" : 407298.54670009017,
+        "y" : 331455.96680000424
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 75753,
+        "MNTN_CODE" : "311100201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "저수지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "입화산",
+        "PAST_SPOT_" : "17050302000002",
+        "MNTN_ID" : "1705030200"
+      },
+      "geometry" : {
+        "x" : 407377.58310008794,
+        "y" : 331772.37810000405
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 75754,
+        "MNTN_CODE" : "311100201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "입화산",
+        "PAST_SPOT_" : "17050302000003",
+        "MNTN_ID" : "1705030200"
+      },
+      "geometry" : {
+        "x" : 406240.39620008506,
+        "y" : 331903.39490000345
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 75755,
+        "MNTN_CODE" : "311100201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "입화산",
+        "PAST_SPOT_" : "17050302000004",
+        "MNTN_ID" : "1705030200"
+      },
+      "geometry" : {
+        "x" : 406180.75720008742,
+        "y" : 332482.42100000568
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 75756,
+        "MNTN_CODE" : "311100201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "입화산",
+        "PAST_SPOT_" : "17050302000005",
+        "MNTN_ID" : "1705030200"
+      },
+      "geometry" : {
+        "x" : 406158.95540008787,
+        "y" : 331795.69460000284
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 75757,
+        "MNTN_CODE" : "311100201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "입화산",
+        "PAST_SPOT_" : "17050302000006",
+        "MNTN_ID" : "1705030200"
+      },
+      "geometry" : {
+        "x" : 406374.06140008476,
+        "y" : 331615.89160000533
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 75758,
+        "MNTN_CODE" : "311100201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "입화산",
+        "PAST_SPOT_" : "17050302000007",
+        "MNTN_ID" : "1705030200"
+      },
+      "geometry" : {
+        "x" : 407119.29550008662,
+        "y" : 332541.8905000072
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 75759,
+        "MNTN_CODE" : "311100201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "입화산",
+        "PAST_SPOT_" : "17050302000008",
+        "MNTN_ID" : "1705030200"
+      },
+      "geometry" : {
+        "x" : 407039.76850008871,
+        "y" : 332775.00770000368
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 75760,
+        "MNTN_CODE" : "311100201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "입화산",
+        "PAST_SPOT_" : "17050302000009",
+        "MNTN_ID" : "1705030200"
+      },
+      "geometry" : {
+        "x" : 406720.49230008852,
+        "y" : 333038.54890000448
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 75761,
+        "MNTN_CODE" : "311100201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "송전탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "입화산",
+        "PAST_SPOT_" : "17050302000010",
+        "MNTN_ID" : "1705030200"
+      },
+      "geometry" : {
+        "x" : 406437.47030008677,
+        "y" : 333123.83130000532
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 75762,
+        "MNTN_CODE" : "311100201",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "정자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "입화산",
+        "PAST_SPOT_" : "17050302000011",
+        "MNTN_ID" : "1705030200"
+      },
+      "geometry" : {
+        "x" : 406202.08720008656,
+        "y" : 333201.00600000657
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 75763,
+        "MNTN_CODE" : "311100201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "입화산",
+        "PAST_SPOT_" : "17050302000012",
+        "MNTN_ID" : "1705030200"
+      },
+      "geometry" : {
+        "x" : 406351.67710008193,
+        "y" : 333173.7038000077
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 75764,
+        "MNTN_CODE" : "311100201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "입화산",
+        "PAST_SPOT_" : "17050302000013",
+        "MNTN_ID" : "1705030200"
+      },
+      "geometry" : {
+        "x" : 407312.27740009036,
+        "y" : 331587.64590000734
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 75765,
+        "MNTN_CODE" : "311100201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "입화산",
+        "PAST_SPOT_" : "17050302000014",
+        "MNTN_ID" : "1705030200"
+      },
+      "geometry" : {
+        "x" : 406333.86700008716,
+        "y" : 332307.18330000713
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 75766,
+        "MNTN_CODE" : "311100201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "입화산",
+        "PAST_SPOT_" : "17050302000015",
+        "MNTN_ID" : "1705030200"
+      },
+      "geometry" : {
+        "x" : 406339.21650009044,
+        "y" : 332209.1479000058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 75767,
+        "MNTN_CODE" : "311100201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "입화산",
+        "PAST_SPOT_" : "17050302000016",
+        "MNTN_ID" : "1705030200"
+      },
+      "geometry" : {
+        "x" : 406332.7737000864,
+        "y" : 333206.57890000381
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 75768,
+        "MNTN_CODE" : "311100201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "입화산",
+        "PAST_SPOT_" : "17050302000017",
+        "MNTN_ID" : "1705030200"
+      },
+      "geometry" : {
+        "x" : 406695.88710008468,
+        "y" : 333066.84970000386
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 75769,
+        "MNTN_CODE" : "311100201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "입화산",
+        "PAST_SPOT_" : "17050302000018",
+        "MNTN_ID" : "1705030200"
+      },
+      "geometry" : {
+        "x" : 405889.37820008397,
+        "y" : 331885.22390000522
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 75770,
+        "MNTN_CODE" : "311100201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "입화산",
+        "PAST_SPOT_" : "17050302000019",
+        "MNTN_ID" : "1705030200"
+      },
+      "geometry" : {
+        "x" : 406988.23010008875,
+        "y" : 333499.34990000539
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 75771,
+        "MNTN_CODE" : "311100201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "입화산",
+        "PAST_SPOT_" : "17050302000020",
+        "MNTN_ID" : "1705030200"
+      },
+      "geometry" : {
+        "x" : 405847.88050008286,
+        "y" : 331742.5510000065
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 75772,
+        "MNTN_CODE" : "311100201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "입화산",
+        "PAST_SPOT_" : "17050302000021",
+        "MNTN_ID" : "1705030200"
+      },
+      "geometry" : {
+        "x" : 405974.96200008504,
+        "y" : 332330.32350000553
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 75773,
+        "MNTN_CODE" : "311100201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "입화산",
+        "PAST_SPOT_" : "17050302000022",
+        "MNTN_ID" : "1705030200"
+      },
+      "geometry" : {
+        "x" : 406027.48660008609,
+        "y" : 331626.43590000831
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 75774,
+        "MNTN_CODE" : "311100201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "입화산",
+        "PAST_SPOT_" : "17050302000023",
+        "MNTN_ID" : "1705030200"
+      },
+      "geometry" : {
+        "x" : 406112.45270008408,
+        "y" : 331813.49820000306
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 75775,
+        "MNTN_CODE" : "311100201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "입화산",
+        "PAST_SPOT_" : "17050302000024",
+        "MNTN_ID" : "1705030200"
+      },
+      "geometry" : {
+        "x" : 406173.83640008699,
+        "y" : 331838.89920000546
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 75776,
+        "MNTN_CODE" : "311100201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "입화산",
+        "PAST_SPOT_" : "17050302000025",
+        "MNTN_ID" : "1705030200"
+      },
+      "geometry" : {
+        "x" : 406306.6615000898,
+        "y" : 332596.91160000488
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 75777,
+        "MNTN_CODE" : "311100201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "입화산",
+        "PAST_SPOT_" : "17050302000026",
+        "MNTN_ID" : "1705030200"
+      },
+      "geometry" : {
+        "x" : 406567.46000008844,
+        "y" : 331301.97980000451
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 75778,
+        "MNTN_CODE" : "311100201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "입화산",
+        "PAST_SPOT_" : "17050302000027",
+        "MNTN_ID" : "1705030200"
+      },
+      "geometry" : {
+        "x" : 406733.09610008635,
+        "y" : 332960.44640000537
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 75779,
+        "MNTN_CODE" : "311100201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "입화산",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "입화산",
+        "PAST_SPOT_" : "17050302000028",
+        "MNTN_ID" : "1705030200"
+      },
+      "geometry" : {
+        "x" : 406796.68910008762,
+        "y" : 332890.88380000368
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 75780,
+        "MNTN_CODE" : "311100201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "입화산",
+        "PAST_SPOT_" : "17050302000029",
+        "MNTN_ID" : "1705030200"
+      },
+      "geometry" : {
+        "x" : 407091.8438000856,
+        "y" : 333658.98580000736
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 75781,
+        "MNTN_CODE" : "311100201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "입화산",
+        "PAST_SPOT_" : "17050302000030",
+        "MNTN_ID" : "1705030200"
+      },
+      "geometry" : {
+        "x" : 407335.95850008633,
+        "y" : 331286.61030000634
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 75782,
+        "MNTN_CODE" : "311100201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "입화산",
+        "PAST_SPOT_" : "17050302000031",
+        "MNTN_ID" : "1705030200"
+      },
+      "geometry" : {
+        "x" : 407536.39190008957,
+        "y" : 331878.70980000496
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 75783,
+        "MNTN_CODE" : "311100201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "입화산",
+        "PAST_SPOT_" : "17050302000032",
+        "MNTN_ID" : "1705030200"
+      },
+      "geometry" : {
+        "x" : 407767.61370008998,
+        "y" : 331590.45080000721
+      }
+    }
+  ]
+}

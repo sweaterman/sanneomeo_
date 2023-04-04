@@ -1,0 +1,999 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 79947,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "주산 전경사진",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000001",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 274963.90286443383,
+        "y" : 295768.15038827248
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 79948,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "18",
+        "MANAGE_SP2" : "주차장",
+        "DETAIL_SPO" : "문화마을주차장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000002",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 274753.6127175251,
+        "y" : 293327.85919509642
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 79949,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "반천마을회관",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000003",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 271590.52457605302,
+        "y" : 293523.54368396476
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 79950,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "등산입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000004",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 274756.21342887636,
+        "y" : 293172.0643563699
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 79951,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "한우리연수원",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000005",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 271171.1596580185,
+        "y" : 293444.82694380544
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 79952,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000006",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 274899.9504923746,
+        "y" : 292546.18502599746
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 79953,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "배바위 입구(등산안내판)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000007",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 270421.47676645964,
+        "y" : 293515.18882580847
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 79954,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "배바위(이정표)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000008",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 270308.36327998247,
+        "y" : 293600.63219899684
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 79955,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "임도접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000009",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 274696.90001604334,
+        "y" : 292156.13622100651
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 79956,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "갈림길(이정표)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000010",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 270303.11608689092,
+        "y" : 293620.92156406865
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 79957,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "임도접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000011",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 274684.491865688,
+        "y" : 292115.45500621758
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 79958,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000012",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 269788.79174308572,
+        "y" : 293446.66910015792
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 79959,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000013",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 274389.4531616671,
+        "y" : 291962.24772686325
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 79960,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "움막",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000014",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 269225.28526837192,
+        "y" : 293380.96466056257
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 79961,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000015",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 273358.83225205448,
+        "y" : 291870.75355128385
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 79962,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길(배바위골,주산)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000016",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 268536.08126262017,
+        "y" : 293697.92709128559
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 79963,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산입구(도로 접점)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000017",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 268262.84453821275,
+        "y" : 294415.00543241017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 79964,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산출입구(국도 접점)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000018",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 268262.84453821275,
+        "y" : 294415.00543241017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 79965,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "주산정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000019",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 273345.31392634194,
+        "y" : 291842.80836585164
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 79966,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길(배바위골)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000020",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 268536.08126262017,
+        "y" : 293697.92709128559
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 79967,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "고운암",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000021",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 268883.39600282721,
+        "y" : 294442.00692505576
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 79968,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "밤나무단지 끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000022",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 274188.73785606865,
+        "y" : 292588.65498222969
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 79969,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "운적사 입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000023",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 269087.09622421395,
+        "y" : 294847.31771204062
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 79970,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산청양수발전처(상부댐)관리소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000024",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 269610.62613084167,
+        "y" : 294617.95822014101
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 79971,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "송전탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000025",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 273972.602895041,
+        "y" : 292250.30936641432
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 79972,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "임도접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000026",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 273834.7461280711,
+        "y" : 292092.41848923825
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 79973,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "포장로 접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000027",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 269884.02202849835,
+        "y" : 294220.00427144021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 79974,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "고운동폭포(이정표)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000028",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 270199.8016059855,
+        "y" : 294066.97179252654
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 79975,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "삼성연수소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000029",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 274275.56679041684,
+        "y" : 293805.28049345315
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 79976,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "밤나무단지 입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000030",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 273968.12046168186,
+        "y" : 293684.21845505014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 79977,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "밤나무단지 끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000031",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 273967.81832552608,
+        "y" : 293231.57378419861
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 79978,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000032",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 273550.81533719227,
+        "y" : 292911.72224870883
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 79979,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "임도접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000033",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 273426.59867113642,
+        "y" : 292504.32761353254
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 79980,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "송전탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000034",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 273478.7074912861,
+        "y" : 292320.4519276619
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 79981,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노선단절지점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000035",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 272003.74589974061,
+        "y" : 291795.25560844503
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 79982,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무장애물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000036",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 271485.38032469153,
+        "y" : 291711.44147922471
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 79983,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000037",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 270667.22702008393,
+        "y" : 291729.52729724534
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 79984,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000038",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 270367.07194499578,
+        "y" : 292037.58791957796
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 79985,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000039",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 270075.52474588249,
+        "y" : 292140.536399398
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 79986,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노선단절구간(WP13 - WP22)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000040",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 270539.66546841525,
+        "y" : 292079.11831995845
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 79987,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "임도교차점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000041",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 270715.18235694524,
+        "y" : 292416.57748917863
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 79988,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "임도차단기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000042",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 270423.5489094872,
+        "y" : 293472.2304091882
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 79989,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "배바위 기도도량",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000043",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 270442.16291534249,
+        "y" : 293479.91640317254
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 79990,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도차단기(송전탑)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000044",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 274213.46039169934,
+        "y" : 292072.90022317134
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 79991,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "갈치재",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000045",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 275707.74409904797,
+        "y" : 292464.82957600243
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 79992,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000046",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 275723.13498945162,
+        "y" : 292742.9618709255
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 79993,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "중태마을",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000047",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 277157.43746996578,
+        "y" : 295517.49750799127
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 79994,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "내공마을(등산안내판)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000048",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 274800.73681584653,
+        "y" : 293661.08648917079
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 79995,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "고운호",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000049",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 269313.90022116154,
+        "y" : 294518.79769160412
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 79996,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "내원암",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000050",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 273846.65766518097,
+        "y" : 293854.5821043849
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 50,
+        "PMNTN_SPOT" : 79997,
+        "MNTN_CODE" : "488605201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "정각사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "주산",
+        "PAST_SPOT_" : "28090749000051",
+        "MNTN_ID" : "2809074900"
+      },
+      "geometry" : {
+        "x" : 274066.87294882257,
+        "y" : 294051.91225681268
+      }
+    }
+  ]
+}

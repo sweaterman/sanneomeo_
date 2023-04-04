@@ -1,0 +1,531 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 55675,
+        "MNTN_CODE" : "451400501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "숭림산",
+        "PAST_SPOT_" : "4514005010001",
+        "MNTN_ID" : "451400501"
+      },
+      "geometry" : {
+        "x" : 191385.27309999987,
+        "y" : 387845.19109999947
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 55676,
+        "MNTN_CODE" : "451400501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "숭림산",
+        "PAST_SPOT_" : "4514005010002",
+        "MNTN_ID" : "451400501"
+      },
+      "geometry" : {
+        "x" : 191546.2519000005,
+        "y" : 387888.37290000357
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 55677,
+        "MNTN_CODE" : "451400501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "숭림산",
+        "PAST_SPOT_" : "4514005010003",
+        "MNTN_ID" : "451400501"
+      },
+      "geometry" : {
+        "x" : 191573.92870000005,
+        "y" : 387340.34060000256
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 55678,
+        "MNTN_CODE" : "451400501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "숭림산",
+        "PAST_SPOT_" : "4514005010004",
+        "MNTN_ID" : "451400501"
+      },
+      "geometry" : {
+        "x" : 191649.94699999969,
+        "y" : 387268.62199999951
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 55679,
+        "MNTN_CODE" : "451400501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "숭림산",
+        "PAST_SPOT_" : "4514005010005",
+        "MNTN_ID" : "451400501"
+      },
+      "geometry" : {
+        "x" : 191681.11160000134,
+        "y" : 387949.27290000208
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 55680,
+        "MNTN_CODE" : "451400501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "숭림산",
+        "PAST_SPOT_" : "4514005010006",
+        "MNTN_ID" : "451400501"
+      },
+      "geometry" : {
+        "x" : 191782.95419999957,
+        "y" : 387193.57450000383
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 55681,
+        "MNTN_CODE" : "451400501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "숭림산",
+        "PAST_SPOT_" : "4514005010007",
+        "MNTN_ID" : "451400501"
+      },
+      "geometry" : {
+        "x" : 191894.4793000007,
+        "y" : 388301.20869999938
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 55682,
+        "MNTN_CODE" : "451400501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "숭림산",
+        "PAST_SPOT_" : "4514005010008",
+        "MNTN_ID" : "451400501"
+      },
+      "geometry" : {
+        "x" : 191897.79270000197,
+        "y" : 387373.76550000161
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 55683,
+        "MNTN_CODE" : "451400501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "숭림산",
+        "PAST_SPOT_" : "4514005010009",
+        "MNTN_ID" : "451400501"
+      },
+      "geometry" : {
+        "x" : 191948.43979999982,
+        "y" : 388446.73350000195
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 55684,
+        "MNTN_CODE" : "451400501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "숭림산",
+        "PAST_SPOT_" : "4514005010010",
+        "MNTN_ID" : "451400501"
+      },
+      "geometry" : {
+        "x" : 192164.84280000068,
+        "y" : 386298.0839000009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 55685,
+        "MNTN_CODE" : "451400501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "숭림산",
+        "PAST_SPOT_" : "4514005010011",
+        "MNTN_ID" : "451400501"
+      },
+      "geometry" : {
+        "x" : 192184.5987000009,
+        "y" : 387064.75879999995
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 55686,
+        "MNTN_CODE" : "451400501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "숭림산",
+        "PAST_SPOT_" : "4514005010012",
+        "MNTN_ID" : "451400501"
+      },
+      "geometry" : {
+        "x" : 192228.23650000151,
+        "y" : 387224.72170000151
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 55687,
+        "MNTN_CODE" : "451400501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "숭림산",
+        "PAST_SPOT_" : "4514005010013",
+        "MNTN_ID" : "451400501"
+      },
+      "geometry" : {
+        "x" : 192246.67890000064,
+        "y" : 388252.80140000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 55688,
+        "MNTN_CODE" : "451400501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "숭림산",
+        "PAST_SPOT_" : "4514005010014",
+        "MNTN_ID" : "451400501"
+      },
+      "geometry" : {
+        "x" : 192284.5290000001,
+        "y" : 386990.66829999909
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 55689,
+        "MNTN_CODE" : "451400501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "숭림산",
+        "PAST_SPOT_" : "4514005010015",
+        "MNTN_ID" : "451400501"
+      },
+      "geometry" : {
+        "x" : 192337.39749999996,
+        "y" : 386841.30060000159
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 55690,
+        "MNTN_CODE" : "451400501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "숭림산",
+        "PAST_SPOT_" : "4514005010016",
+        "MNTN_ID" : "451400501"
+      },
+      "geometry" : {
+        "x" : 192420.37150000036,
+        "y" : 387077.9197000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 55691,
+        "MNTN_CODE" : "451400501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "숭림산",
+        "PAST_SPOT_" : "4514005010017",
+        "MNTN_ID" : "451400501"
+      },
+      "geometry" : {
+        "x" : 192440.3219000008,
+        "y" : 388351.27840000205
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 55692,
+        "MNTN_CODE" : "451400501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "숭림산",
+        "PAST_SPOT_" : "4514005010018",
+        "MNTN_ID" : "451400501"
+      },
+      "geometry" : {
+        "x" : 192473.25119999889,
+        "y" : 387411.45189999975
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 55693,
+        "MNTN_CODE" : "451400501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "숭림산",
+        "PAST_SPOT_" : "4514005010019",
+        "MNTN_ID" : "451400501"
+      },
+      "geometry" : {
+        "x" : 192525.98429999966,
+        "y" : 387450.16050000116
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 55694,
+        "MNTN_CODE" : "451400501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "숭림산",
+        "PAST_SPOT_" : "4514005010020",
+        "MNTN_ID" : "451400501"
+      },
+      "geometry" : {
+        "x" : 192550.82460000087,
+        "y" : 386840.90260000154
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 55695,
+        "MNTN_CODE" : "451400501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "숭림산",
+        "PAST_SPOT_" : "4514005010021",
+        "MNTN_ID" : "451400501"
+      },
+      "geometry" : {
+        "x" : 192594.99030000065,
+        "y" : 386755.94070000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 55696,
+        "MNTN_CODE" : "451400501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "숭림산",
+        "PAST_SPOT_" : "4514005010022",
+        "MNTN_ID" : "451400501"
+      },
+      "geometry" : {
+        "x" : 192637.98380000051,
+        "y" : 387294.33610000275
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 55697,
+        "MNTN_CODE" : "451400501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "숭림산",
+        "PAST_SPOT_" : "4514005010023",
+        "MNTN_ID" : "451400501"
+      },
+      "geometry" : {
+        "x" : 192641.48749999981,
+        "y" : 387254.37820000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 55698,
+        "MNTN_CODE" : "451400501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "숭림산",
+        "PAST_SPOT_" : "4514005010024",
+        "MNTN_ID" : "451400501"
+      },
+      "geometry" : {
+        "x" : 192727.81720000226,
+        "y" : 387105.96090000123
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 55699,
+        "MNTN_CODE" : "451400501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "숭림산",
+        "PAST_SPOT_" : "4514005010025",
+        "MNTN_ID" : "451400501"
+      },
+      "geometry" : {
+        "x" : 193371.71700000111,
+        "y" : 387056.91210000217
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+.login-box {
+  display: flex;
+  flex-wrap: wrap; /* 줄바꿈 */
+  flex-direction: column; /* 수직정렬 */
+  justify-content: center;
+  align-items: center;
+
+  .login-welcome-text{
+    font-size: $font-h3;
+    font-weight: 500;
+    color: rgb(119, 119, 119);
+    margin: 30px;
+  }
+
+  button{
+    margin-bottom: 30px;
+    
+    .login-button{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      width: 250px;
+      height: 50px;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  
+      .logo-img{
+        width:40px;
+      }
+  
+      .login-text{
+        font-size: $font-h4;
+        font-weight: 700;
+        width: 80%;
+        color: rgb(61, 61, 61);
+      }
+    }
+
+    .login-button.naver-login{
+      background-color:  #05BE34;
+      .login-text{
+        color: rgb(255, 255, 255);
+      }
+    }
+
+    .login-button.kakao-login{
+      background-color:  #F9E000;
+    }
+  }
+
+
+
+  // img {
+  //   margin-top: 50px;
+  //   margin-bottom: 30px;
+  // }
+}
+
+// .naver-login {
+//   width: 190px;
+// }

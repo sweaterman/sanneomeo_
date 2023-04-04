@@ -1,0 +1,963 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 75559,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000001",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 388410.9499000404,
+        "y" : 471419.29290000722
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 75560,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000002",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 388347.90300003998,
+        "y" : 470282.67150000669
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 75561,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "구멍바위",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000003",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 385223.06170003768,
+        "y" : 471054.72580000386
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 75562,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "참남배기이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000004",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 384201.3962000329,
+        "y" : 470759.29820000753
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 75563,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "장수바위,장수바위이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000005",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 384115.19710003678,
+        "y" : 470627.7740000058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 75564,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "다래바위이정표",
+        "ETC_MATTER" : "이정표훼손",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000006",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 384117.18620003667,
+        "y" : 470495.99620000832
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 75565,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "비조암조망,비조암이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000007",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 384084.78130003251,
+        "y" : 470359.29270000383
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 75566,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "추자봉이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000008",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 383675.526000035,
+        "y" : 468090.44720000587
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 75567,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "월자봉이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000009",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 386224.28530003875,
+        "y" : 469904.7480000034
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 75568,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "일월산정상표지석",
+        "ETC_MATTER" : "자연석",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000010",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 386502.80820003711,
+        "y" : 469819.07770000771
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 75569,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000011",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 386574.27240003925,
+        "y" : 469769.98929999955
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 75570,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000012",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 388817.49160003942,
+        "y" : 469016.59010000713
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 75571,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000013",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 388823.64030003734,
+        "y" : 469024.4081000071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 75572,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "아랫예계봉이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000014",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 385537.97990003694,
+        "y" : 467246.45660000294
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 75573,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "윗예개봉이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000015",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 386584.15000003669,
+        "y" : 468240.15469999984
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 75574,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "조망소이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000016",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 386713.66710003838,
+        "y" : 468437.32610000484
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 75575,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "대관봉이정표",
+        "ETC_MATTER" : "이정표훼손",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000017",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 386836.67620003689,
+        "y" : 468574.56660000049
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 75576,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "천화사(사찰),천화사앞이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000018",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 386028.13140003942,
+        "y" : 468322.99920000508
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 75577,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000019",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 386165.52710003313,
+        "y" : 469529.94040000625
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 75578,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "군사도로접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000020",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 386191.94680003915,
+        "y" : 469736.66370000318
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 75579,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "황씨부인당(굿당)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000021",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 386270.70990003832,
+        "y" : 469776.15780000761
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 75580,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000022",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 387464.70340004191,
+        "y" : 468139.71520000696
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 75581,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사찰(불향사)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000023",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 388231.38630004041,
+        "y" : 467069.2868000064
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 75582,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000024",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 386907.91080003791,
+        "y" : 470481.89940000698
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 75583,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "안내판훼손",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000025",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 386978.81940003578,
+        "y" : 470600.88970000483
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 75584,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000026",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 387121.89020003565,
+        "y" : 470450.33220000751
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 75585,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,통나무다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000027",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 387219.14020003844,
+        "y" : 470419.56679999828
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 75586,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,통나무다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000028",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 387540.55530003831,
+        "y" : 471159.82090000622
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 75587,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사찰(불선사)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000029",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 387960.69000003859,
+        "y" : 471431.72970000282
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 75588,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000030",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 384215.86290003639,
+        "y" : 467607.9864000082
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 75589,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000031",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 384972.18150003441,
+        "y" : 467525.37140000612
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 75590,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "방아목안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000032",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 385235.01470003556,
+        "y" : 467173.52740000375
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 75591,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000033",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 385991.21850003768,
+        "y" : 468305.87170000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 75592,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "배틀바우이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000034",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 386131.18331350759,
+        "y" : 468099.15132501535
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 75593,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "월자봉정상,조망점,삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000035",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 386224.58150003757,
+        "y" : 469912.80270000361
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 75594,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000036",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 386283.86790003628,
+        "y" : 466246.85740000382
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 75595,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "중계소옆이정표,KBS중계소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000037",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 386504.29610003624,
+        "y" : 469807.97530000471
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 75596,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "중계소옆이정표,KBS중계소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000038",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 386524.94700003788,
+        "y" : 469847.79610000551
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 75597,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000039",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 386583.83710003551,
+        "y" : 469854.02000000514
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 75598,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "등산안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000040",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 387189.95170003641,
+        "y" : 469072.7329000067
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 75599,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "종점,갈림길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000041",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 387195.80580004118,
+        "y" : 468963.91400000639
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 75600,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000042",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 387668.55620003864,
+        "y" : 469245.95370000787
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 75601,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "종점,일자봉정상,해맞이과장조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000043",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 387696.17260003835,
+        "y" : 469257.11290000379
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 75602,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "표지석훼손",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000044",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 387830.90970003884,
+        "y" : 469445.94790000655
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 75603,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000045",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 387927.83770003915,
+        "y" : 471398.02790000662
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 75604,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,주차장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000046",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 388246.15770004038,
+        "y" : 467061.69859999977
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 75605,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,주차장,등산안내지도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000047",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 388469.14060004056,
+        "y" : 471408.85930000246
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 75606,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000048",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 389586.53830004483,
+        "y" : 470404.13560000435
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 75607,
+        "MNTN_CODE" : "477601301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "일월산",
+        "PAST_SPOT_" : "27130609000049",
+        "MNTN_ID" : "2713060900"
+      },
+      "geometry" : {
+        "x" : 390175.92700004112,
+        "y" : 470120.03670000285
+      }
+    }
+  ]
+}

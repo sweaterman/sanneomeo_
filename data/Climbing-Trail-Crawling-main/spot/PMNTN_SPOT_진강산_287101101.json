@@ -1,0 +1,765 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 81184,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "양도초등학교",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010001",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 148767.63220000174,
+        "y" : 565464.62690000422
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 81185,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "교회입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010002",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 149527.28030000068,
+        "y" : 565044.15789999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 81186,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "양봉장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010003",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 150271.12090000231,
+        "y" : 564634.62870000303
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 81187,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "군 사격장입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010004",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 150801.58100000024,
+        "y" : 564151.75510000251
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 81188,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "통신 시설물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010005",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 150398.80140000023,
+        "y" : 563467.67110000178
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 81189,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010006",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 150390.52950000111,
+        "y" : 563439.90310000069
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 81190,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "급경사\n훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010007",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 150389.22490000073,
+        "y" : 563485.00510000437
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 81191,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010008",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 150353.44760000054,
+        "y" : 563496.28170000203
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 81192,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010009",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 150271.55659999978,
+        "y" : 563461.33650000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 81193,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010010",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 150190.17850000132,
+        "y" : 563492.02540000156
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 81194,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010011",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 150047.97380000167,
+        "y" : 563580.07580000162
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 81195,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010012",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 149887.76250000112,
+        "y" : 563638.43860000186
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 81196,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "거대암석",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010013",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 149702.26999999862,
+        "y" : 563578.89599999972
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 81197,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노랑새 고개\nor펜션입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010014",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 148403.24039999954,
+        "y" : 564220.48100000061
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 81198,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "능안버스정저장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010015",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 148960.78890000004,
+        "y" : 562645.31330000237
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 81199,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "가능 입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010016",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 149379.07430000044,
+        "y" : 562256.19050000049
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 81200,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "가능",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010017",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 149782.56379999965,
+        "y" : 562341.65980000421
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 81201,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010018",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 150302.58490000013,
+        "y" : 562825.70890000276
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 81202,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010019",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 150246.3684000019,
+        "y" : 563094.96550000086
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 81203,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010020",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 150325.39630000107,
+        "y" : 563225.19610000402
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 81204,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "말발굽 바위\n정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010021",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 150405.15359999985,
+        "y" : 563424.44590000249
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 81205,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산성의 흔적",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010022",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 150651.92170000076,
+        "y" : 563388.57489999942
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 81206,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010023",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 150903.50420000125,
+        "y" : 563170.43580000103
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 81207,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "소나무 조림지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010024",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 150895.23610000033,
+        "y" : 562257.03700000234
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 81208,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "인천카톨릭대학교",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010025",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 151391.64310000092,
+        "y" : 562001.34840000048
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 81209,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "인천카톨릭대학교\n입구 정거장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010026",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 151819.91380000021,
+        "y" : 561756.26460000128
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 81210,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010027",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 148403.0420000013,
+        "y" : 564220.68689999729
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 81211,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010028",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 148768.3264000006,
+        "y" : 565465.70190000162
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 81212,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010029",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 148956.58529999945,
+        "y" : 562655.684799999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 81213,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010030",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 150327.64240000024,
+        "y" : 562685.7200000044
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 81214,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010031",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 150387.14379999973,
+        "y" : 563445.04960000329
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 81215,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010032",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 150403.53849999886,
+        "y" : 563425.03670000285
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 81216,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010033",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 150742.1941000009,
+        "y" : 562408.82770000212
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 81217,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010034",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 151830.4570000004,
+        "y" : 561766.19769999944
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 99278,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "양봉장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010035",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 150873.65479999949,
+        "y" : 563917.35180000064
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 99279,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010036",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 150710.51029999965,
+        "y" : 563763.76290000055
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 99280,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010037",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 150330.14720000024,
+        "y" : 562689.86060000071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 99281,
+        "MNTN_CODE" : "287101101",
+        "MANAGE_SP1" : "13",
+        "MANAGE_SP2" : "유적(문화, 역사)",
+        "DETAIL_SPO" : "산성의 흔적",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "진강산",
+        "PAST_SPOT_" : "2871011010038",
+        "MNTN_ID" : "287101101"
+      },
+      "geometry" : {
+        "x" : 150741.93809999974,
+        "y" : 562408.50699999859
+      }
+    }
+  ]
+}

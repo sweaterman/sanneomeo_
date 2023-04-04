@@ -1,0 +1,405 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 64437,
+        "MNTN_CODE" : "422300204",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영경묘",
+        "PAST_SPOT_" : "4223050010001",
+        "MNTN_ID" : "422305001"
+      },
+      "geometry" : {
+        "x" : 383875.27550002933,
+        "y" : 533990.29169999994
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 64438,
+        "MNTN_CODE" : "422300204",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영경묘",
+        "PAST_SPOT_" : "4223050010002",
+        "MNTN_ID" : "422305001"
+      },
+      "geometry" : {
+        "x" : 383888.11150002852,
+        "y" : 534020.57490000501
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 64439,
+        "MNTN_CODE" : "422300204",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영경묘",
+        "PAST_SPOT_" : "4223050010003",
+        "MNTN_ID" : "422305001"
+      },
+      "geometry" : {
+        "x" : 383957.29540002998,
+        "y" : 534252.05800000206
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 64440,
+        "MNTN_CODE" : "422300204",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영경묘",
+        "PAST_SPOT_" : "4223050010004",
+        "MNTN_ID" : "422305001"
+      },
+      "geometry" : {
+        "x" : 384002.99380002916,
+        "y" : 534136.60560000129
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 64441,
+        "MNTN_CODE" : "422300204",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "표지판,다리",
+        "ETC_MATTER" : "안내판,",
+        "MNTN_NM" : "영경묘",
+        "PAST_SPOT_" : "4223050010005",
+        "MNTN_ID" : "422305001"
+      },
+      "geometry" : {
+        "x" : 383891.2324000597,
+        "y" : 534014.59790000878
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 64442,
+        "MNTN_CODE" : "422300204",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영경묘",
+        "PAST_SPOT_" : "4223050010006",
+        "MNTN_ID" : "422305001"
+      },
+      "geometry" : {
+        "x" : 383896.48870005831,
+        "y" : 534018.96710000746
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 64443,
+        "MNTN_CODE" : "422300204",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영경묘",
+        "PAST_SPOT_" : "4223050010007",
+        "MNTN_ID" : "422305001"
+      },
+      "geometry" : {
+        "x" : 383939.86160006188,
+        "y" : 534020.39900000766
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 64444,
+        "MNTN_CODE" : "422300204",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "낙석",
+        "ETC_MATTER" : "위험지역",
+        "MNTN_NM" : "영경묘",
+        "PAST_SPOT_" : "4223050010008",
+        "MNTN_ID" : "422305001"
+      },
+      "geometry" : {
+        "x" : 383884.75230005756,
+        "y" : 534035.64520000666
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 64445,
+        "MNTN_CODE" : "422300204",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : "목계단",
+        "MNTN_NM" : "영경묘",
+        "PAST_SPOT_" : "4223050010009",
+        "MNTN_ID" : "422305001"
+      },
+      "geometry" : {
+        "x" : 383959.33950005937,
+        "y" : 534040.52930000611
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 64446,
+        "MNTN_CODE" : "422300204",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노선",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "영경묘",
+        "PAST_SPOT_" : "4223050010010",
+        "MNTN_ID" : "422305001"
+      },
+      "geometry" : {
+        "x" : 383894.37100005709,
+        "y" : 534068.09700000472
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 64447,
+        "MNTN_CODE" : "422300204",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : "영경묘 좌",
+        "MNTN_NM" : "영경묘",
+        "PAST_SPOT_" : "4223050010011",
+        "MNTN_ID" : "422305001"
+      },
+      "geometry" : {
+        "x" : 383992.63900005911,
+        "y" : 534094.59229999967
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 64448,
+        "MNTN_CODE" : "422300204",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "주요나무",
+        "ETC_MATTER" : "소나무군락지",
+        "MNTN_NM" : "영경묘",
+        "PAST_SPOT_" : "4223050010012",
+        "MNTN_ID" : "422305001"
+      },
+      "geometry" : {
+        "x" : 383895.4908000594,
+        "y" : 534098.96250000037
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 64449,
+        "MNTN_CODE" : "422300204",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "우물",
+        "ETC_MATTER" : "우물",
+        "MNTN_NM" : "영경묘",
+        "PAST_SPOT_" : "4223050010013",
+        "MNTN_ID" : "422305001"
+      },
+      "geometry" : {
+        "x" : 383983.30680005904,
+        "y" : 534108.72450000793
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 64450,
+        "MNTN_CODE" : "422300204",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘",
+        "ETC_MATTER" : "영경묘",
+        "MNTN_NM" : "영경묘",
+        "PAST_SPOT_" : "4223050010014",
+        "MNTN_ID" : "422305001"
+      },
+      "geometry" : {
+        "x" : 383982.3071000576,
+        "y" : 534114.28880000673
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 64451,
+        "MNTN_CODE" : "422300204",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대",
+        "ETC_MATTER" : "옛우물터",
+        "MNTN_NM" : "영경묘",
+        "PAST_SPOT_" : "4223050010015",
+        "MNTN_ID" : "422305001"
+      },
+      "geometry" : {
+        "x" : 384019.47290005907,
+        "y" : 534183.49650000595
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 64452,
+        "MNTN_CODE" : "422300204",
+        "MANAGE_SP1" : "13",
+        "MANAGE_SP2" : "유적(문화, 역사)",
+        "DETAIL_SPO" : "유적지",
+        "ETC_MATTER" : "영경묘",
+        "MNTN_NM" : "영경묘",
+        "PAST_SPOT_" : "4223050010016",
+        "MNTN_ID" : "422305001"
+      },
+      "geometry" : {
+        "x" : 384047.65680005774,
+        "y" : 534197.78830000199
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 64453,
+        "MNTN_CODE" : "422300204",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "전경",
+        "ETC_MATTER" : "영겸묘전경",
+        "MNTN_NM" : "영경묘",
+        "PAST_SPOT_" : "4223050010017",
+        "MNTN_ID" : "422305001"
+      },
+      "geometry" : {
+        "x" : 384001.41500005871,
+        "y" : 534243.39250000194
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 64454,
+        "MNTN_CODE" : "422300204",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "주요나무",
+        "ETC_MATTER" : "소나무군락지",
+        "MNTN_NM" : "영경묘",
+        "PAST_SPOT_" : "4223050010018",
+        "MNTN_ID" : "422305001"
+      },
+      "geometry" : {
+        "x" : 384108.4263000628,
+        "y" : 534333.47390000708
+      }
+    }
+  ]
+}

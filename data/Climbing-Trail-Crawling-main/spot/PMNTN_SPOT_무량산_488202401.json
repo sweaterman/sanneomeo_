@@ -1,0 +1,837 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 29407,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "4882024010001",
+        "MNTN_ID" : "488202401"
+      },
+      "geometry" : {
+        "x" : 314111.70980000403,
+        "y" : 267939.12980000116
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 29408,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "4882024010002",
+        "MNTN_ID" : "488202401"
+      },
+      "geometry" : {
+        "x" : 315369.69597205333,
+        "y" : 270183.37345708907
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 29409,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000003",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 317893.76090000384,
+        "y" : 269992.98340000212
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 29410,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물",
+        "ETC_MATTER" : "목계단",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000004",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 317847.66050000396,
+        "y" : 270009.13299999945
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 29411,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : "이평시묘지",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000005",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 317771.49380000215,
+        "y" : 270061.69219999947
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 29412,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물",
+        "ETC_MATTER" : "목계단",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000006",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 317695.77340000495,
+        "y" : 270105.20270000212
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 29413,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000007",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 317587.53840000276,
+        "y" : 270109.63260000013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 29414,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000008",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 317485.63070000336,
+        "y" : 270134.55260000005
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 29415,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "유적",
+        "ETC_MATTER" : "봉수대",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000009",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 317424.51080000401,
+        "y" : 270158.10120000131
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 29416,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000010",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 317404.15160000697,
+        "y" : 270185.19319999963
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 29417,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000011",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 317336.80580000393,
+        "y" : 270263.42579999939
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 29418,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000012",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 317214.81420000363,
+        "y" : 270440.59600000083
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 29419,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000013",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 317866.19080000278,
+        "y" : 270280.52750000171
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 29420,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000014",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 317030.58780000266,
+        "y" : 270521.19100000337
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 29421,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000015",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 316803.70190000348,
+        "y" : 270602.95210000128
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 29422,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000016",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 316583.39450000226,
+        "y" : 270682.42800000124
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 29423,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000017",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 316372.36280000396,
+        "y" : 270687.72239999846
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 29424,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "산림훼손지",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000018",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 316321.53910000343,
+        "y" : 270660.33040000126
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 29425,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000019",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 316184.3161000032,
+        "y" : 270661.53289999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 29426,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000020",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 316053.57750000246,
+        "y" : 270690.46240000054
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 29427,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000021",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 315874.51960000396,
+        "y" : 270548.7639000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 29428,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000022",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 315770.82220000308,
+        "y" : 270384.71089999937
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 29429,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000023",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 315598.23950000573,
+        "y" : 270307.50679999962
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 29430,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물",
+        "ETC_MATTER" : "설명문",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000024",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 317846.1957000019,
+        "y" : 270287.12710000202
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 29431,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000025",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 315334.1127000032,
+        "y" : 270197.71059999987
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 29432,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000026",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 315220.53670000285,
+        "y" : 270302.9383000005
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 29433,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000027",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 315135.14970000181,
+        "y" : 270416.30210000463
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 29434,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000028",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 315359.83110000286,
+        "y" : 270355.55609999783
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 29435,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000029",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 315608.38690000586,
+        "y" : 270484.95270000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 29436,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000030",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 315633.78670000378,
+        "y" : 270714.25909999944
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 29437,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000031",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 315783.98510000389,
+        "y" : 270959.20940000191
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 29438,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000032",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 317836.87630000431,
+        "y" : 270268.67440000176
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 29439,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000033",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 316018.70640000328,
+        "y" : 271068.64560000226
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 29440,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000034",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 316215.64540000446,
+        "y" : 271263.78520000353
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 29441,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000035",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 317830.41450000182,
+        "y" : 270252.31160000525
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 29442,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000036",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 317861.79490000196,
+        "y" : 270210.27109999955
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 29443,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000037",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 317874.99690000154,
+        "y" : 270174.82039999962
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 29444,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000038",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 317901.25730000157,
+        "y" : 270093.1641000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 29445,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000039",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 317895.80700000282,
+        "y" : 270054.34290000424
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 29446,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "무량산정상",
+        "ETC_MATTER" : "안테나",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000040",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 315226.10760000255,
+        "y" : 270246.87280000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 29447,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,도로접점",
+        "ETC_MATTER" : "큰재고개",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000041",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 316177.03180000372,
+        "y" : 271291.32049999945
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 29448,
+        "MNTN_CODE" : "488202401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,휴게시설,주차지",
+        "ETC_MATTER" : "팔각정,의자6개",
+        "MNTN_NM" : "무량산",
+        "PAST_SPOT_" : "28030323000042",
+        "MNTN_ID" : "2803032300"
+      },
+      "geometry" : {
+        "x" : 317907.83910000417,
+        "y" : 270300.31959999911
+      }
+    }
+  ]
+}

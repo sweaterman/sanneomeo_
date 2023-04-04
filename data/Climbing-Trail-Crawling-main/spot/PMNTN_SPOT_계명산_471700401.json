@@ -1,0 +1,981 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 4403,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000001",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 373804.40910003055,
+        "y" : 426321.52300000377
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 4404,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "연못",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000002",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 373842.51920002699,
+        "y" : 426441.79100000672
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 4405,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산불감시초소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000003",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 373962.58630002663,
+        "y" : 426509.13360000215
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 4406,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "임도안내도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000004",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 374547.01160003059,
+        "y" : 426924.67400000803
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 4407,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000005",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 374721.59110002499,
+        "y" : 426975.79509999976
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 4408,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "창고",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000006",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 374852.43950002827,
+        "y" : 426780.111600006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 4409,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000007",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 375131.88030002825,
+        "y" : 426633.43480000645
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 4410,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "매표소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000008",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 374612.37340002973,
+        "y" : 425307.7712000031
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 4411,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "18",
+        "MANAGE_SP2" : "주차장",
+        "DETAIL_SPO" : "주차장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000009",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 374641.4844000265,
+        "y" : 425504.20680000074
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 4412,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000010",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 374641.33240002394,
+        "y" : 425496.60920000449
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 4413,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "자연휴양림",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000011",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 374726.29390002694,
+        "y" : 425510.4141000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 4414,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000012",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 374787.30420002528,
+        "y" : 425533.0186999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 4415,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "지진관측시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000013",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 374814.4843000276,
+        "y" : 425537.64220000245
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 4416,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌,목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000014",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 375115.06810002774,
+        "y" : 425601.07360000163
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 4417,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌,목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000015",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 375180.99330002815,
+        "y" : 425573.1720000077
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 4418,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000016",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 375443.27610002644,
+        "y" : 425363.44500000216
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 4419,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "20",
+        "MANAGE_SP2" : "동굴",
+        "DETAIL_SPO" : "동굴",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000017",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 375697.23430002853,
+        "y" : 426011.50410000235
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 4420,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000018",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 375430.27070003003,
+        "y" : 426385.0672999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 4421,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "주택",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000019",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 375320.69730002899,
+        "y" : 426539.98080000468
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 4422,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "연못",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000020",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 375175.35640002787,
+        "y" : 426499.93200000562
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 4423,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000021",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 375627.55020002834,
+        "y" : 426109.75320000388
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 4424,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000022",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 375590.27980002668,
+        "y" : 426057.61160000786
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 4425,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000023",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 374627.809600031,
+        "y" : 425872.61170000397
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 4426,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000024",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 374652.41760002729,
+        "y" : 425949.09810000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 4427,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "팔각정",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000025",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 374561.54370002821,
+        "y" : 426398.38760000281
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 4428,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000026",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 374554.80790002923,
+        "y" : 426427.59750000201
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 4429,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000027",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 374534.76000002678,
+        "y" : 426427.64860000089
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 4430,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000028",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 374563.91930002812,
+        "y" : 426458.14840000495
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 4431,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "휴양림",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000029",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 374155.73020002432,
+        "y" : 425718.03160000592
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 4432,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000030",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 374409.4760000268,
+        "y" : 426567.30010000616
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 4433,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000031",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 374376.17840002663,
+        "y" : 426572.95820000768
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 4434,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000032",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 372232.06530002411,
+        "y" : 426282.79900000617
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 4435,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000033",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 372071.4490000261,
+        "y" : 426169.43070000224
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 4436,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묵계서원",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000034",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 372001.61840002611,
+        "y" : 425857.1377000045
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 4437,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000035",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 371743.66980002727,
+        "y" : 425973.54020000808
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 4438,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계명산",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000036",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 373760.59880002402,
+        "y" : 425927.14950000495
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 4439,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "길안면 고란리(원고란 예분예골)",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000037",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 373771.67640002724,
+        "y" : 424470.35700000264
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 4440,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000038",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 373830.1559000276,
+        "y" : 426431.08110000193
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 4441,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000039",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 373852.80090002716,
+        "y" : 426558.33290000632
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 4442,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000040",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 374135.59485136531,
+        "y" : 426359.16600777395
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 4443,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000041",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 374169.35520002805,
+        "y" : 426667.5521000009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 4444,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,휴양림입구,종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000042",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 374189.68760002498,
+        "y" : 424480.47200000472
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 4445,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "휴양림",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000043",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 374531.52490002755,
+        "y" : 426431.21290000156
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 4446,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000044",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 374565.35600002762,
+        "y" : 426932.50520000048
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 4447,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000045",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 374668.90300002787,
+        "y" : 425988.24730000459
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 4448,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000046",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 374757.58450002782,
+        "y" : 426945.75240000151
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 4449,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000047",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 375114.44280002732,
+        "y" : 425622.91210000031
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 4450,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000048",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 375304.18000002671,
+        "y" : 426659.9388000071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 4451,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000049",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 375669.74880002812,
+        "y" : 426171.53270000033
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 4452,
+        "MNTN_CODE" : "471700401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계명산",
+        "PAST_SPOT_" : "27119905000050",
+        "MNTN_ID" : "2711990500"
+      },
+      "geometry" : {
+        "x" : 376063.91800002567,
+        "y" : 427397.26850000024
+      }
+    }
+  ]
+}

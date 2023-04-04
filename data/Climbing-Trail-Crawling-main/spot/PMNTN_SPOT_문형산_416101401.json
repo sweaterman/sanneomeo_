@@ -1,0 +1,801 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 31209,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목교",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000001",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 218462.54960000236,
+        "y" : 530562.15790000185
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 31210,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치,운동기구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000002",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 218356.45490000304,
+        "y" : 530493.01460000128
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 31211,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000003",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 218324.45629999973,
+        "y" : 530434.34420000389
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 31212,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "정자(고산정)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000004",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 218317.04710000101,
+        "y" : 530363.04170000553
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 31213,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판,분기,이정표,",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000005",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 218105.44370000344,
+        "y" : 530306.36950000189
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 31214,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치,문형정",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000006",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 217446.20980000217,
+        "y" : 530142.17240000144
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 31215,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000007",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 216807.26580000296,
+        "y" : 531125.75200000033
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 31216,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000008",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 217436.13769999985,
+        "y" : 530035.53840000182
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 31217,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상석,운동기구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000009",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 216918.98460000101,
+        "y" : 530143.37200000137
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 31218,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "송전탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000010",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 216181.07390000205,
+        "y" : 530836.72780000232
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 31219,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "운동장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000011",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 216114.50320000388,
+        "y" : 530799.7751000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 31220,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목교",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000012",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 218181.9896000009,
+        "y" : 530102.57540000044
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 31221,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "급경사",
+        "ETC_MATTER" : "계단필요",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000013",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 218402.91959999967,
+        "y" : 529890.20639999956
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 31222,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : "로프로인한나무훼손",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000014",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 218165.14300000016,
+        "y" : 529736.54050000198
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 31223,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "안전로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000015",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 218054.27359999996,
+        "y" : 529673.78370000236
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 31224,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "송신탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000016",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 217725.74140000064,
+        "y" : 529690.75470000319
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 31225,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "송전탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000017",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 218628.5933000017,
+        "y" : 529785.01070000231
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 31226,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철재다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000018",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 217255.33180000167,
+        "y" : 529311.37160000391
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 31227,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000019",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 217312.12389999907,
+        "y" : 529415.59279999882
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 31228,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "약수터,벤치2",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000020",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 217333.65800000168,
+        "y" : 529485.13639999926
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 31229,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동기구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000021",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 216917.34560000151,
+        "y" : 529764.15210000239
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 31230,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물(난간,목교)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000022",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 216985.95679999981,
+        "y" : 529661.33960000053
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 31231,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노동교육연수원",
+        "ETC_MATTER" : "수신관",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000023",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 217116.0410999991,
+        "y" : 529614.16759999841
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 31232,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,통점골",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000024",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 215794.62190000061,
+        "y" : 530702.33410000429
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 31233,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기,",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000025",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 216245.95050000027,
+        "y" : 530750.57220000029
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 31234,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상,벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000026",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 216644.04500000086,
+        "y" : 530071.13849999756
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 31235,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000027",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 216777.36700000055,
+        "y" : 530484.49270000122
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 31236,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,영생제일교회",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000028",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 216908.51220000163,
+        "y" : 531263.14310000092
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 31237,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000029",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 217053.7564000003,
+        "y" : 530043.34580000117
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 31238,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,정문",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000030",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 217230.06919999886,
+        "y" : 529110.80179999769
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 31239,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,이정표,봉곡사,",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000031",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 217280.25760000013,
+        "y" : 529144.27800000273
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 31240,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기,벤치,",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000032",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 217389.83390000183,
+        "y" : 529946.8759000022
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 31241,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기,",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000033",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 217469.95000000205,
+        "y" : 530104.07349999994
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 31242,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목교",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000034",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 218217.35470000282,
+        "y" : 530276.67800000124
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 31243,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000035",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 218219.75079999957,
+        "y" : 530213.21020000242
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 31244,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000036",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 218361.64800000098,
+        "y" : 529919.22790000029
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 31245,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000037",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 218415.37430000026,
+        "y" : 529878.0252000019
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 31246,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,안내판,화장실,음수대,운동기구,관리소,",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000038",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 218560.36319999956,
+        "y" : 530575.12230000459
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 31247,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "두리봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000039",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 218825.76440000068,
+        "y" : 529775.55350000039
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 31248,
+        "MNTN_CODE" : "416101401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,은말고개입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "문형산",
+        "PAST_SPOT_" : "21071110000040",
+        "MNTN_ID" : "2107111000"
+      },
+      "geometry" : {
+        "x" : 219583.3050000025,
+        "y" : 530068.13570000231
+      }
+    }
+  ]
+}

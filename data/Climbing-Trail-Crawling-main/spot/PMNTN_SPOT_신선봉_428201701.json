@@ -1,0 +1,783 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 56662,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000001",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 328794.04110000562,
+        "y" : 626142.0764000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 56663,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "선인재",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000002",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 328139.92580000404,
+        "y" : 625381.66029999778
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 56664,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암반지대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000003",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 326420.29290000349,
+        "y" : 625697.7958999984
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 56665,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "2개",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000004",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 326158.59720000159,
+        "y" : 626186.13749999925
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 56666,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "2개",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000005",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 326158.49910000246,
+        "y" : 626191.32140000165
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 56667,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000006",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 326114.78910000529,
+        "y" : 626220.25540000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 56668,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암반지대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000007",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 325961.89880000334,
+        "y" : 626460.85080000199
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 56669,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000008",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 325825.31110000238,
+        "y" : 626607.49810000509
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 56670,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "1개",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000009",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 325964.62480000593,
+        "y" : 627303.38400000148
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 56671,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "1개",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000010",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 326665.64560000319,
+        "y" : 627206.39520000108
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 56672,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000011",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 329184.51410000306,
+        "y" : 626396.29910000041
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 56673,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "미시령정상",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000012",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 325995.49550000392,
+        "y" : 624849.01160000451
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 56674,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "샘터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000013",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 326185.31990000233,
+        "y" : 625940.60690000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 56675,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000014",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 326114.78910000529,
+        "y" : 626220.25540000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 56676,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암반지대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000015",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 325961.89880000334,
+        "y" : 626460.85080000199
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 56677,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000016",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 320928.31380000338,
+        "y" : 630627.80650000088
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 56678,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000017",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 321062.36060000211,
+        "y" : 630548.74180000275
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 56679,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000018",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 321607.50240000337,
+        "y" : 630358.01920000277
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 56680,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000019",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 321864.45180000644,
+        "y" : 630514.19720000029
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 56681,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000020",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 322408.78100000415,
+        "y" : 630610.07559999824
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 56682,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000021",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 322552.7795000039,
+        "y" : 629990.36500000022
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 56683,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암반지대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000022",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 323732.47380000167,
+        "y" : 629796.1006000042
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 56684,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "새이령",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000023",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 324076.42530000303,
+        "y" : 629200.83110000193
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 56685,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "새이령(샛령)",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000024",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 324795.39070000313,
+        "y" : 628925.99330000207
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 56686,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000025",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 325243.28920000605,
+        "y" : 628325.19720000215
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 56687,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000026",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 325722.52500000596,
+        "y" : 627761.68469999917
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 56688,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000027",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 325961.89880000334,
+        "y" : 626460.85080000199
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 56689,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암반지대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000028",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 326114.78910000529,
+        "y" : 626220.25540000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 56690,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000029",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 326185.31990000233,
+        "y" : 625940.60690000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 56691,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "샘터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000030",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 326116.47250000481,
+        "y" : 625442.91440000013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 56692,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "마산봉",
+        "ETC_MATTER" : "마산봉",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000031",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 322421.67220968753,
+        "y" : 630630.93915509246
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 56693,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : "정상",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000032",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 325827.94200000167,
+        "y" : 626689.48250000179
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 56694,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000033",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 325906.42480000481,
+        "y" : 627306.53320000134
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 56695,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,기암괴석",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000034",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 325994.42680000328,
+        "y" : 624848.43979999796
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 56696,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "신선봉",
+        "ETC_MATTER" : "정상",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000035",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 326157.24150000419,
+        "y" : 627755.51080000028
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 56697,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000036",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 326184.46670000255,
+        "y" : 625943.09190000035
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 56698,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "화암사",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000037",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 329532.92690000404,
+        "y" : 626098.29690000042
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 56699,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000038",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 320779.31490000151,
+        "y" : 630714.90149999969
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 56700,
+        "MNTN_CODE" : "428201701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "신선봉",
+        "PAST_SPOT_" : "22020511000039",
+        "MNTN_ID" : "2202051100"
+      },
+      "geometry" : {
+        "x" : 330313.0493000038,
+        "y" : 626374.30430000462
+      }
+    }
+  ]
+}

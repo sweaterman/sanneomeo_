@@ -1,0 +1,657 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 5165,
+        "MNTN_CODE" : "427500201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계족산",
+        "PAST_SPOT_" : "22080602000001",
+        "MNTN_ID" : "2208060200"
+      },
+      "geometry" : {
+        "x" : 332898.7534000054,
+        "y" : 508205.54099999927
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 5166,
+        "MNTN_CODE" : "427500201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계족산",
+        "PAST_SPOT_" : "22080602000002",
+        "MNTN_ID" : "2208060200"
+      },
+      "geometry" : {
+        "x" : 333087.0260000024,
+        "y" : 508316.43810000084
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 5167,
+        "MNTN_CODE" : "427500201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계족산",
+        "PAST_SPOT_" : "22080602000003",
+        "MNTN_ID" : "2208060200"
+      },
+      "geometry" : {
+        "x" : 333422.27480000537,
+        "y" : 508340.24630000442
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 5168,
+        "MNTN_CODE" : "427500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "폭포",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계족산",
+        "PAST_SPOT_" : "22080602000004",
+        "MNTN_ID" : "2208060200"
+      },
+      "geometry" : {
+        "x" : 333464.46190000419,
+        "y" : 508325.49760000035
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 5169,
+        "MNTN_CODE" : "427500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "폭포",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계족산",
+        "PAST_SPOT_" : "22080602000005",
+        "MNTN_ID" : "2208060200"
+      },
+      "geometry" : {
+        "x" : 333595.9585000053,
+        "y" : 508281.33090000786
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 5170,
+        "MNTN_CODE" : "427500201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계족산",
+        "PAST_SPOT_" : "22080602000006",
+        "MNTN_ID" : "2208060200"
+      },
+      "geometry" : {
+        "x" : 333613.37600000482,
+        "y" : 508272.35680000111
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 5171,
+        "MNTN_CODE" : "427500201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계족산",
+        "PAST_SPOT_" : "22080602000007",
+        "MNTN_ID" : "2208060200"
+      },
+      "geometry" : {
+        "x" : 333772.88220000174,
+        "y" : 508484.56909999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 5172,
+        "MNTN_CODE" : "427500201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계족산",
+        "PAST_SPOT_" : "22080602000008",
+        "MNTN_ID" : "2208060200"
+      },
+      "geometry" : {
+        "x" : 334043.0443000067,
+        "y" : 508565.95500000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 5173,
+        "MNTN_CODE" : "427500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계족산",
+        "PAST_SPOT_" : "22080602000009",
+        "MNTN_ID" : "2208060200"
+      },
+      "geometry" : {
+        "x" : 334205.13930000458,
+        "y" : 508614.7909000013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 5174,
+        "MNTN_CODE" : "427500201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "암릉분기점",
+        "ETC_MATTER" : "암릉우회",
+        "MNTN_NM" : "계족산",
+        "PAST_SPOT_" : "22080602000010",
+        "MNTN_ID" : "2208060200"
+      },
+      "geometry" : {
+        "x" : 334466.46390000544,
+        "y" : 508785.47220000066
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 5175,
+        "MNTN_CODE" : "427500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : "113-114",
+        "MNTN_NM" : "계족산",
+        "PAST_SPOT_" : "22080602000011",
+        "MNTN_ID" : "2208060200"
+      },
+      "geometry" : {
+        "x" : 334473.66820000578,
+        "y" : 508797.92139999941
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 5176,
+        "MNTN_CODE" : "427500201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계족산",
+        "PAST_SPOT_" : "22080602000012",
+        "MNTN_ID" : "2208060200"
+      },
+      "geometry" : {
+        "x" : 334532.38560000341,
+        "y" : 508829.6950000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 5177,
+        "MNTN_CODE" : "427500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암릉",
+        "ETC_MATTER" : "116-117",
+        "MNTN_NM" : "계족산",
+        "PAST_SPOT_" : "22080602000013",
+        "MNTN_ID" : "2208060200"
+      },
+      "geometry" : {
+        "x" : 334564.26050000452,
+        "y" : 508842.53869999945
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 5178,
+        "MNTN_CODE" : "427500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : "118-119",
+        "MNTN_NM" : "계족산",
+        "PAST_SPOT_" : "22080602000014",
+        "MNTN_ID" : "2208060200"
+      },
+      "geometry" : {
+        "x" : 334586.31630000751,
+        "y" : 508852.14200000092
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 5179,
+        "MNTN_CODE" : "427500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노선내나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계족산",
+        "PAST_SPOT_" : "22080602000015",
+        "MNTN_ID" : "2208060200"
+      },
+      "geometry" : {
+        "x" : 334625.59230000433,
+        "y" : 508865.10429999977
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 5180,
+        "MNTN_CODE" : "427500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계족산",
+        "PAST_SPOT_" : "22080602000016",
+        "MNTN_ID" : "2208060200"
+      },
+      "geometry" : {
+        "x" : 334982.47730000503,
+        "y" : 508923.2407000009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 5181,
+        "MNTN_CODE" : "427500201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계족산",
+        "PAST_SPOT_" : "22080602000017",
+        "MNTN_ID" : "2208060200"
+      },
+      "geometry" : {
+        "x" : 335106.92620000336,
+        "y" : 508703.2229999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 5182,
+        "MNTN_CODE" : "427500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : "132-133",
+        "MNTN_NM" : "계족산",
+        "PAST_SPOT_" : "22080602000018",
+        "MNTN_ID" : "2208060200"
+      },
+      "geometry" : {
+        "x" : 335079.25670000631,
+        "y" : 508428.34420000017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 5183,
+        "MNTN_CODE" : "427500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : "132-133",
+        "MNTN_NM" : "계족산",
+        "PAST_SPOT_" : "22080602000019",
+        "MNTN_ID" : "2208060200"
+      },
+      "geometry" : {
+        "x" : 335028.87950000539,
+        "y" : 508338.11340000108
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 5184,
+        "MNTN_CODE" : "427500201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계족산",
+        "PAST_SPOT_" : "22080602000020",
+        "MNTN_ID" : "2208060200"
+      },
+      "geometry" : {
+        "x" : 334877.54360000603,
+        "y" : 508079.75410000235
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 5185,
+        "MNTN_CODE" : "427500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암릉",
+        "ETC_MATTER" : "138-139",
+        "MNTN_NM" : "계족산",
+        "PAST_SPOT_" : "22080602000021",
+        "MNTN_ID" : "2208060200"
+      },
+      "geometry" : {
+        "x" : 334608.45690000709,
+        "y" : 507930.52150000073
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 5186,
+        "MNTN_CODE" : "427500201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계족산",
+        "PAST_SPOT_" : "22080602000022",
+        "MNTN_ID" : "2208060200"
+      },
+      "geometry" : {
+        "x" : 334510.60040000547,
+        "y" : 507876.53749999963
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 5187,
+        "MNTN_CODE" : "427500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "폐삭도터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계족산",
+        "PAST_SPOT_" : "22080602000023",
+        "MNTN_ID" : "2208060200"
+      },
+      "geometry" : {
+        "x" : 334073.33480000496,
+        "y" : 507283.69470000453
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 5188,
+        "MNTN_CODE" : "427500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "정양산성",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계족산",
+        "PAST_SPOT_" : "22080602000024",
+        "MNTN_ID" : "2208060200"
+      },
+      "geometry" : {
+        "x" : 333858.21860000584,
+        "y" : 507308.02390000038
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 5189,
+        "MNTN_CODE" : "427500201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,왕검성지표지석",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계족산",
+        "PAST_SPOT_" : "22080602000025",
+        "MNTN_ID" : "2208060200"
+      },
+      "geometry" : {
+        "x" : 333591.79710000474,
+        "y" : 507454.88460000046
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 5190,
+        "MNTN_CODE" : "427500201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "정양산성안내판,목계단,개울",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계족산",
+        "PAST_SPOT_" : "22080602000026",
+        "MNTN_ID" : "2208060200"
+      },
+      "geometry" : {
+        "x" : 333438.10540000536,
+        "y" : 507652.87530000322
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 5191,
+        "MNTN_CODE" : "427500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "개울",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계족산",
+        "PAST_SPOT_" : "22080602000027",
+        "MNTN_ID" : "2208060200"
+      },
+      "geometry" : {
+        "x" : 333279.70830000378,
+        "y" : 507992.63519999944
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 5192,
+        "MNTN_CODE" : "427500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "정조대왕태실비",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계족산",
+        "PAST_SPOT_" : "22080602000028",
+        "MNTN_ID" : "2208060200"
+      },
+      "geometry" : {
+        "x" : 333056.33420000598,
+        "y" : 508072.35630000383
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 5193,
+        "MNTN_CODE" : "427500201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : "125-1-126",
+        "MNTN_NM" : "계족산",
+        "PAST_SPOT_" : "22080602000029",
+        "MNTN_ID" : "2208060200"
+      },
+      "geometry" : {
+        "x" : 334873.38330000546,
+        "y" : 508955.41059999913
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 5194,
+        "MNTN_CODE" : "427500201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계족산",
+        "PAST_SPOT_" : "22080602000030",
+        "MNTN_ID" : "2208060200"
+      },
+      "geometry" : {
+        "x" : 332953.25550000556,
+        "y" : 508019.28850000165
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 5195,
+        "MNTN_CODE" : "427500201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계족산",
+        "PAST_SPOT_" : "22080602000031",
+        "MNTN_ID" : "2208060200"
+      },
+      "geometry" : {
+        "x" : 332957.11390000489,
+        "y" : 508044.5418999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 5196,
+        "MNTN_CODE" : "427500201",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부,표지석,조망점,삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "계족산",
+        "PAST_SPOT_" : "22080602000032",
+        "MNTN_ID" : "2208060200"
+      },
+      "geometry" : {
+        "x" : 334875.84050000552,
+        "y" : 508955.26659999974
+      }
+    }
+  ]
+}

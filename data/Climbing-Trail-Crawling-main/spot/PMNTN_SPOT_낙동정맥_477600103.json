@@ -1,0 +1,927 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 15607,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4723005010001",
+        "MNTN_ID" : "472300501"
+      },
+      "geometry" : {
+        "x" : 390040.65450004861,
+        "y" : 388555.82230000757
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 15608,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4723005010002",
+        "MNTN_ID" : "472300501"
+      },
+      "geometry" : {
+        "x" : 390240.80040004663,
+        "y" : 388845.11610000767
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 15609,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4776004010003",
+        "MNTN_ID" : "477600401"
+      },
+      "geometry" : {
+        "x" : 392611.24500004482,
+        "y" : 460283.29680000804
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 15610,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4776004010004",
+        "MNTN_ID" : "477600401"
+      },
+      "geometry" : {
+        "x" : 392679.92790004611,
+        "y" : 477064.95120000467
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 15611,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4723005010005",
+        "MNTN_ID" : "472300501"
+      },
+      "geometry" : {
+        "x" : 392893.63560004812,
+        "y" : 386670.28770000488
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 15612,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4776004010006",
+        "MNTN_ID" : "477600401"
+      },
+      "geometry" : {
+        "x" : 394621.54370004684,
+        "y" : 473470.65260000341
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 15613,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4776004010007",
+        "MNTN_ID" : "477600401"
+      },
+      "geometry" : {
+        "x" : 394837.72350005154,
+        "y" : 475196.65130000561
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 15614,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4776004010008",
+        "MNTN_ID" : "477600401"
+      },
+      "geometry" : {
+        "x" : 395150.2909000488,
+        "y" : 469900.81420000829
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 15615,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4776004010009",
+        "MNTN_ID" : "477600401"
+      },
+      "geometry" : {
+        "x" : 395179.95890004933,
+        "y" : 467375.74490000308
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 15616,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4776004010010",
+        "MNTN_ID" : "477600401"
+      },
+      "geometry" : {
+        "x" : 395183.14060004614,
+        "y" : 461038.62220000476
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 15617,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4777006010011",
+        "MNTN_ID" : "477700601"
+      },
+      "geometry" : {
+        "x" : 395654.22850005422,
+        "y" : 429278.17870000377
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 15618,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4776004010012",
+        "MNTN_ID" : "477600401"
+      },
+      "geometry" : {
+        "x" : 395847.7582000494,
+        "y" : 461472.23050000705
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 15619,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4775007010013",
+        "MNTN_ID" : "477500701"
+      },
+      "geometry" : {
+        "x" : 395890.63630005345,
+        "y" : 427914.98150000349
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 15620,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4776004010014",
+        "MNTN_ID" : "477600401"
+      },
+      "geometry" : {
+        "x" : 396028.75370004959,
+        "y" : 465730.09980000742
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 15621,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4776004010015",
+        "MNTN_ID" : "477600401"
+      },
+      "geometry" : {
+        "x" : 396809.01280005369,
+        "y" : 462276.76430000365
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 15622,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4711301010016",
+        "MNTN_ID" : "471130101"
+      },
+      "geometry" : {
+        "x" : 398060.4357000608,
+        "y" : 403377.98120000586
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 15623,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4776004010017",
+        "MNTN_ID" : "477600401"
+      },
+      "geometry" : {
+        "x" : 398096.22070005536,
+        "y" : 461989.53820000775
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 15624,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4776004010018",
+        "MNTN_ID" : "477600401"
+      },
+      "geometry" : {
+        "x" : 398312.11080005765,
+        "y" : 435980.75140000694
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 15625,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4711301010019",
+        "MNTN_ID" : "471130101"
+      },
+      "geometry" : {
+        "x" : 398350.64070006087,
+        "y" : 403297.57000000589
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 15626,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4776004010020",
+        "MNTN_ID" : "477600401"
+      },
+      "geometry" : {
+        "x" : 398865.38230005745,
+        "y" : 436299.48390000314
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 15627,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4775007010021",
+        "MNTN_ID" : "477500701"
+      },
+      "geometry" : {
+        "x" : 398910.83610006049,
+        "y" : 420348.29780000448
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 15628,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4776004010022",
+        "MNTN_ID" : "477600401"
+      },
+      "geometry" : {
+        "x" : 399066.30280006118,
+        "y" : 435450.73910000548
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 15629,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4777006010023",
+        "MNTN_ID" : "477700601"
+      },
+      "geometry" : {
+        "x" : 399095.60440005921,
+        "y" : 420290.25540000759
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 15630,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4776004010024",
+        "MNTN_ID" : "477600401"
+      },
+      "geometry" : {
+        "x" : 399154.75450005755,
+        "y" : 436302.70330000482
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 15631,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4776004010025",
+        "MNTN_ID" : "477600401"
+      },
+      "geometry" : {
+        "x" : 399326.63840005826,
+        "y" : 435550.14000000805
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 15632,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4776004010026",
+        "MNTN_ID" : "477600401"
+      },
+      "geometry" : {
+        "x" : 399336.85530005954,
+        "y" : 437553.62970000319
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 15633,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4776004010027",
+        "MNTN_ID" : "477600401"
+      },
+      "geometry" : {
+        "x" : 399396.66530006006,
+        "y" : 437450.77420000732
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 15634,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4776004010028",
+        "MNTN_ID" : "477600401"
+      },
+      "geometry" : {
+        "x" : 399430.43100005947,
+        "y" : 437369.37040000409
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 15635,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4777006010029",
+        "MNTN_ID" : "477700601"
+      },
+      "geometry" : {
+        "x" : 399746.64670006372,
+        "y" : 424188.77010000497
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 15636,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4777006010030",
+        "MNTN_ID" : "477700601"
+      },
+      "geometry" : {
+        "x" : 399838.86000006273,
+        "y" : 425049.41400000826
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 15637,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4777006010031",
+        "MNTN_ID" : "477700601"
+      },
+      "geometry" : {
+        "x" : 399851.42750006169,
+        "y" : 424486.6282000076
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 15638,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4776004010032",
+        "MNTN_ID" : "477600401"
+      },
+      "geometry" : {
+        "x" : 399903.38490005862,
+        "y" : 464467.10590000637
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 15639,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4777006010033",
+        "MNTN_ID" : "477700601"
+      },
+      "geometry" : {
+        "x" : 399959.50360006094,
+        "y" : 424793.35400000587
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 15640,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4777006010034",
+        "MNTN_ID" : "477700601"
+      },
+      "geometry" : {
+        "x" : 400274.65440006275,
+        "y" : 423380.92060000449
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 15641,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4776004010035",
+        "MNTN_ID" : "477600401"
+      },
+      "geometry" : {
+        "x" : 400461.74190005753,
+        "y" : 436995.7833000049
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 15642,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4777006010036",
+        "MNTN_ID" : "477700601"
+      },
+      "geometry" : {
+        "x" : 401008.36470006593,
+        "y" : 425165.95410000719
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 15643,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4777006010037",
+        "MNTN_ID" : "477700601"
+      },
+      "geometry" : {
+        "x" : 401022.90990006179,
+        "y" : 436341.39400000311
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 15644,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4776004010038",
+        "MNTN_ID" : "477600401"
+      },
+      "geometry" : {
+        "x" : 401809.72420006339,
+        "y" : 454742.13430000469
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 15645,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4776004010039",
+        "MNTN_ID" : "477600401"
+      },
+      "geometry" : {
+        "x" : 401819.63100006152,
+        "y" : 454744.33020000532
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 15646,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4776004010040",
+        "MNTN_ID" : "477600401"
+      },
+      "geometry" : {
+        "x" : 402147.09540006239,
+        "y" : 463321.49780000374
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 15647,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4777006010041",
+        "MNTN_ID" : "477700601"
+      },
+      "geometry" : {
+        "x" : 403269.24250006396,
+        "y" : 451260.54550000466
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 15648,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4793005010042",
+        "MNTN_ID" : "479300501"
+      },
+      "geometry" : {
+        "x" : 403724.76920006704,
+        "y" : 456204.8776000049
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 15649,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4776004010043",
+        "MNTN_ID" : "477600401"
+      },
+      "geometry" : {
+        "x" : 404119.47520006727,
+        "y" : 458800.70940000378
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 15650,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4776004010044",
+        "MNTN_ID" : "477600401"
+      },
+      "geometry" : {
+        "x" : 404688.68800006621,
+        "y" : 459925.03480000608
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 15651,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4793005010045",
+        "MNTN_ID" : "479300501"
+      },
+      "geometry" : {
+        "x" : 404940.4942000648,
+        "y" : 459963.01430000365
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 15652,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4793005010046",
+        "MNTN_ID" : "479300501"
+      },
+      "geometry" : {
+        "x" : 405001.9149000654,
+        "y" : 460104.99580000713
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 15653,
+        "MNTN_CODE" : "477600103",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "낙동정맥",
+        "PAST_SPOT_" : "4793005010047",
+        "MNTN_ID" : "479300501"
+      },
+      "geometry" : {
+        "x" : 405427.03970006667,
+        "y" : 460009.77520000748
+      }
+    }
+  ]
+}

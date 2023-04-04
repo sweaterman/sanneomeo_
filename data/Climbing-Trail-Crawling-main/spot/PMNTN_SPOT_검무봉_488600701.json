@@ -1,0 +1,333 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 3774,
+        "MNTN_CODE" : "488600701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검무봉",
+        "PAST_SPOT_" : "4886007010001",
+        "MNTN_ID" : "488600701"
+      },
+      "geometry" : {
+        "x" : 288332.52369999979,
+        "y" : 298411.92610000074
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 3775,
+        "MNTN_CODE" : "488600701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검무봉",
+        "PAST_SPOT_" : "4886007010002",
+        "MNTN_ID" : "488600701"
+      },
+      "geometry" : {
+        "x" : 288367.98890000116,
+        "y" : 298336.30520000122
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 3776,
+        "MNTN_CODE" : "488600701",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤취",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검무봉",
+        "PAST_SPOT_" : "4886007010003",
+        "MNTN_ID" : "488600701"
+      },
+      "geometry" : {
+        "x" : 288641.7882000003,
+        "y" : 298083.61150000058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 3777,
+        "MNTN_CODE" : "488600701",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤취",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검무봉",
+        "PAST_SPOT_" : "4886007010004",
+        "MNTN_ID" : "488600701"
+      },
+      "geometry" : {
+        "x" : 288877.73480000161,
+        "y" : 297873.3826999981
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 3778,
+        "MNTN_CODE" : "488600701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단 시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검무봉",
+        "PAST_SPOT_" : "4886007010005",
+        "MNTN_ID" : "488600701"
+      },
+      "geometry" : {
+        "x" : 288983.15500000119,
+        "y" : 297616.0941000022
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 3779,
+        "MNTN_CODE" : "488600701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단 끝(밧줄시작)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검무봉",
+        "PAST_SPOT_" : "4886007010006",
+        "MNTN_ID" : "488600701"
+      },
+      "geometry" : {
+        "x" : 288990.6118999999,
+        "y" : 297597.02670000121
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 3780,
+        "MNTN_CODE" : "488600701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길(밧줄끝)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검무봉",
+        "PAST_SPOT_" : "4886007010007",
+        "MNTN_ID" : "488600701"
+      },
+      "geometry" : {
+        "x" : 289008.18050000072,
+        "y" : 297566.61920000054
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 3781,
+        "MNTN_CODE" : "488600701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "검무봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검무봉",
+        "PAST_SPOT_" : "4886007010008",
+        "MNTN_ID" : "488600701"
+      },
+      "geometry" : {
+        "x" : 289151.19510000106,
+        "y" : 297542.03500000201
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 3782,
+        "MNTN_CODE" : "488600701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묵하마을(데크)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검무봉",
+        "PAST_SPOT_" : "4886007010009",
+        "MNTN_ID" : "488600701"
+      },
+      "geometry" : {
+        "x" : 288255.48819999956,
+        "y" : 297912.47850000113
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 3783,
+        "MNTN_CODE" : "488600701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "등산입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검무봉",
+        "PAST_SPOT_" : "4886007010010",
+        "MNTN_ID" : "488600701"
+      },
+      "geometry" : {
+        "x" : 288292.71239999961,
+        "y" : 297862.21890000068
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 3784,
+        "MNTN_CODE" : "488600701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "전망대 데크",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검무봉",
+        "PAST_SPOT_" : "4886007010011",
+        "MNTN_ID" : "488600701"
+      },
+      "geometry" : {
+        "x" : 288985.64110000059,
+        "y" : 297564.29500000179
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 3785,
+        "MNTN_CODE" : "488600701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검무봉",
+        "PAST_SPOT_" : "4886007010012",
+        "MNTN_ID" : "488600701"
+      },
+      "geometry" : {
+        "x" : 288255.68490000069,
+        "y" : 297912.64790000208
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 3786,
+        "MNTN_CODE" : "488600701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검무봉",
+        "PAST_SPOT_" : "4886007010013",
+        "MNTN_ID" : "488600701"
+      },
+      "geometry" : {
+        "x" : 288331.9570000004,
+        "y" : 298412.94360000268
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 3787,
+        "MNTN_CODE" : "488600701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "검무봉",
+        "PAST_SPOT_" : "4886007010014",
+        "MNTN_ID" : "488600701"
+      },
+      "geometry" : {
+        "x" : 289150.74700000044,
+        "y" : 297541.84460000135
+      }
+    }
+  ]
+}

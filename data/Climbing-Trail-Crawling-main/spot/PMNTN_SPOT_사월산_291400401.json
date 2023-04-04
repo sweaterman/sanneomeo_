@@ -1,0 +1,873 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 47286,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "월암길136담장모퉁이",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010001",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 185117.87910000049,
+        "y" : 282522.45869999938
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 47287,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010002",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 185137.57639999967,
+        "y" : 282474.3879000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 47288,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010003",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 185129.85749999993,
+        "y" : 282435.57029999979
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 47289,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "허리돌리기,평행봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010004",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 184976.39830000047,
+        "y" : 282387.67360000312
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 47290,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "소로교차점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010005",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 184921.70799999963,
+        "y" : 282382.21710000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 47291,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치(등받이없는)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010006",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 184880.71279999986,
+        "y" : 282391.60460000113
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 47292,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철탑, 삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010007",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 184850.35240000114,
+        "y" : 282384.22210000269
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 47293,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손(토석자루담김)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010008",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 184844.20930000022,
+        "y" : 282362.04360000044
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 47294,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "허리돌리기1,벤치1,윗몸일으키기1,철봉1",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010009",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 184844.16290000081,
+        "y" : 282334.30780000053
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 47295,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "안내판, 벤치3",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010010",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 184836.83930000011,
+        "y" : 282275.45739999972
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 47296,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암반노출부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010011",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 184792.33100000117,
+        "y" : 282240.09250000119
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 47297,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손(묘지)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010012",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 184746.74400000088,
+        "y" : 282229.07469999976
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 47298,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손(묘지)지 경계",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010013",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 184717.94170000125,
+        "y" : 282227.23709999956
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 47299,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "순환우길 도로",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010014",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 184608.565200001,
+        "y" : 282220.09970000386
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 47300,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "산책로시작안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010015",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 184724.86490000132,
+        "y" : 281846.35639999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 47301,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치1",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010016",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 184772.26690000016,
+        "y" : 282014.57799999975
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 47302,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010017",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 184811.84759999998,
+        "y" : 282084.73890000395
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 47303,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치(등받이없는)2",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010018",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 184842.32320000138,
+        "y" : 282160.46230000257
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 47304,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010019",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 184833.35489999969,
+        "y" : 282247.45710000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 47305,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사월산팔각정",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010020",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 184991.62700000126,
+        "y" : 282393.19559999928
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 47306,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암반노출부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010021",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 185012.78819999937,
+        "y" : 282348.78319999948
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 47307,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "숲끝 묘지경계",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010022",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 185064.01760000084,
+        "y" : 282078.77310000174
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 47308,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "농로",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010023",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 185114.03130000085,
+        "y" : 282010.23880000412
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 47309,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "충주박공묘",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010024",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 185079.01280000061,
+        "y" : 281997.42679999955
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 47310,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "마을회관앞 시민세탁소 벽진길 85",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010025",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 185160.68890000135,
+        "y" : 281907.79609999806
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 47311,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010026",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 184608.565200001,
+        "y" : 282220.09970000386
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 47312,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010027",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 184936.16719999909,
+        "y" : 282383.31370000169
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 47313,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010028",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 184991.87710000016,
+        "y" : 282387.94490000047
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 97443,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010029",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 185094.89829999872,
+        "y" : 282402.34459999885
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 97444,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노선꺽임",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010030",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 185037.17929999909,
+        "y" : 282383.91200000054
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 97445,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010031",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 185017.39389999979,
+        "y" : 282378.39750000084
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 97446,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "허리돌리기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010032",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 184965.74470000065,
+        "y" : 282393.23839999863
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 97447,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010033",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 184862.4795000008,
+        "y" : 282387.86299999984
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 97448,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "허리돌리기, 윗몸일으키기, 철봉, 벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010034",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 184836.49979999964,
+        "y" : 282275.18769999954
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 97449,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010035",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 184638.95129999891,
+        "y" : 282242.23690000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 97450,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "산책로시작안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010036",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 184732.44500000091,
+        "y" : 281855.55189999926
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 97451,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010037",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 184750.66689999957,
+        "y" : 281851.86009999906
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 97452,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010038",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 184753.80620000081,
+        "y" : 281875.92960000044
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 97453,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010039",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 184747.77440000046,
+        "y" : 281920.31709999952
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 97454,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "허리돌리기, 윗몸일으키기, 철봉, 벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010040",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 184862.43320000096,
+        "y" : 282360.1271000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 97455,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010041",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 184898.90890000007,
+        "y" : 282373.046800001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 97456,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "암반노출부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010042",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 185002.03670000049,
+        "y" : 282295.21519999922
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 97457,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010043",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 185089.75189999971,
+        "y" : 282043.56169999973
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 97458,
+        "MNTN_CODE" : "291400401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사월산",
+        "PAST_SPOT_" : "2914004010044",
+        "MNTN_ID" : "291400401"
+      },
+      "geometry" : {
+        "x" : 185159.43450000061,
+        "y" : 281908.54020000057
+      }
+    }
+  ]
+}

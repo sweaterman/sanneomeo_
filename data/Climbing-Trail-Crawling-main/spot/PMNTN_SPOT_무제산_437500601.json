@@ -1,0 +1,783 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 29785,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010001",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 232216.45239999983,
+        "y" : 481384.84830000252
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 29786,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010002",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 231291.11149999965,
+        "y" : 481119.21030000038
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 29787,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010003",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 233748.76720000152,
+        "y" : 481604.58840000071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 29788,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010004",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 233813.79499999993,
+        "y" : 481779.52129999921
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 29789,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010005",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 234198.09950000048,
+        "y" : 481371.61000000127
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 29790,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010006",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 234439.81180000026,
+        "y" : 481023.8861999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 29791,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010007",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 234983.53610000014,
+        "y" : 481129.19170000218
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 29792,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010008",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 234998.01930000074,
+        "y" : 479891.10160000063
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 29793,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010009",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 235041.43499999959,
+        "y" : 480996.08400000073
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 29794,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010010",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 235043.69490000047,
+        "y" : 481227.30740000308
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 29795,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010011",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 235123.78180000093,
+        "y" : 482380.40650000051
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 29796,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010012",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 235193.96659999993,
+        "y" : 480989.17830000259
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 29797,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010013",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 235902.81680000015,
+        "y" : 480179.72310000286
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 29798,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010014",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 235923.88380000088,
+        "y" : 479285.27969999984
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 29799,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010015",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 236819.70870000031,
+        "y" : 476996.1958000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 29800,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010016",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 236874.82460000087,
+        "y" : 477036.88620000333
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 29801,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010017",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 236922.72809999995,
+        "y" : 476830.78839999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 29802,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010018",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 237098.76140000112,
+        "y" : 479263.59940000251
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 29803,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010019",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 237112.09030000027,
+        "y" : 476580.76910000294
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 29804,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010020",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 237911.10960000101,
+        "y" : 476980.85780000128
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 29805,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010021",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 234900.96500070486,
+        "y" : 479820.25565653294
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 29806,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010022",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 234705.53136723675,
+        "y" : 479325.6889106147
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 29807,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010023",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 235001.28884560242,
+        "y" : 478354.85654879361
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 29808,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010024",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 235234.79942343105,
+        "y" : 477735.01811114699
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 29809,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010025",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 237219.195563199,
+        "y" : 479087.26697427593
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 29810,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010026",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 237867.00462790858,
+        "y" : 477344.50470876321
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 29811,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010027",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 236864.79185233917,
+        "y" : 476554.96856520884
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 29812,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010028",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 234028.05288730096,
+        "y" : 481292.6328803096
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 29813,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010029",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 234315.27972585056,
+        "y" : 481168.48646540195
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 29814,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010030",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 234514.17709999997,
+        "y" : 481047.09109999798
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 29815,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010031",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 234469.27192224376,
+        "y" : 480939.37342104688
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 29816,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010032",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 234698.37828118354,
+        "y" : 480748.53664956987
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 29817,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010033",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 234092.74629540462,
+        "y" : 480804.70767384209
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 29818,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010034",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 234096.35145769082,
+        "y" : 480205.07794181444
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 29819,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010035",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 234383.46471616812,
+        "y" : 479930.93490813673
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 29820,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010036",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 236289.76914432738,
+        "y" : 478503.15246630274
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 29821,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010037",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 236348.07363102958,
+        "y" : 478449.58491931483
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 29822,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010038",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 237523.35484226514,
+        "y" : 477089.72802191041
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 29823,
+        "MNTN_CODE" : "437500601",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "무제산",
+        "PAST_SPOT_" : "4375006010039",
+        "MNTN_ID" : "437500601"
+      },
+      "geometry" : {
+        "x" : 236955.49069329631,
+        "y" : 476728.53542882763
+      }
+    }
+  ]
+}

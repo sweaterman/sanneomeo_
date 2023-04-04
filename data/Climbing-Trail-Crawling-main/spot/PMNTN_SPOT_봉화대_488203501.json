@@ -1,0 +1,945 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 42289,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010001",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 326914.01700000558,
+        "y" : 270951.15350000374
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 42290,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010002",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 329459.32610000484,
+        "y" : 269453.47240000404
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 42291,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010003",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 329628.84330000542,
+        "y" : 269622.15139999986
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 42292,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010004",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 329635.94860000536,
+        "y" : 270776.00799999945
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 42293,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010005",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 329791.99520000443,
+        "y" : 270295.77380000055
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 42294,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010006",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 330471.48430000525,
+        "y" : 271223.51640000194
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 42295,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010007",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 329810.62400001381,
+        "y" : 269426.20420000143
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 42296,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내도,주차지",
+        "ETC_MATTER" : "포장길",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010008",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 329461.40850000829,
+        "y" : 269454.06790000387
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 42297,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010009",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 329725.55540000927,
+        "y" : 269468.74039999768
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 42298,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010010",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 330163.86710001156,
+        "y" : 269513.00430000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 42299,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010011",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 329916.46610001288,
+        "y" : 269515.00400000066
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 42300,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010012",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 330084.68440000899,
+        "y" : 269535.19070000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 42301,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010013",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 330254.83580000885,
+        "y" : 269538.88390000351
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 42302,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010014",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 329640.48520000838,
+        "y" : 269602.02170000784
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 42303,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,용두폭포3",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010015",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 329627.17890000902,
+        "y" : 269621.56399999931
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 42304,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010016",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 330264.970500011,
+        "y" : 269632.84720000438
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 42305,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010017",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 329579.24540001247,
+        "y" : 269672.39760000072
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 42306,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010018",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 329651.57790001202,
+        "y" : 269708.67109999992
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 42307,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010019",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 329725.73570001125,
+        "y" : 269712.85500000231
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 42308,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010020",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 329754.17480000854,
+        "y" : 269743.71110000089
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 42309,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010021",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 330277.87750001065,
+        "y" : 269781.99389999732
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 42310,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010022",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 329765.03080000822,
+        "y" : 269875.87050000019
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 42311,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010023",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 330231.68480001297,
+        "y" : 269902.5194000043
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 42312,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면,애기일엽초",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010024",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 330200.2074000109,
+        "y" : 269937.54880000278
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 42313,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010025",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 329718.03830000944,
+        "y" : 270022.33290000446
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 42314,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010026",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 330100.60310000833,
+        "y" : 270066.11300000176
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 42315,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010027",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 329715.09240001254,
+        "y" : 270096.58889999799
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 42316,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면,소나무고사지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010028",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 329702.04050000943,
+        "y" : 270136.79830000177
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 42317,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면,팥배,물푸레",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010029",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 329982.61230000947,
+        "y" : 270189.08920000121
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 42318,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010030",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 329872.57660000958,
+        "y" : 270262.04150000587
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 42319,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기1종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010031",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 329790.00410000887,
+        "y" : 270293.27080000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 42320,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010032",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 329774.68300000951,
+        "y" : 270368.47149999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 42321,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010033",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 329705.35710000992,
+        "y" : 270485.79590000212
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 42322,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010034",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 329682.12260000966,
+        "y" : 270533.99499999918
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 42323,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010035",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 329605.36660000961,
+        "y" : 270625.73450000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 42324,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "너덜지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010036",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 329623.80570000876,
+        "y" : 270684.92449999973
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 42325,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "철제계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010037",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 329631.82460000832,
+        "y" : 270741.81340000406
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 42326,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010038",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 329635.80720000807,
+        "y" : 270773.10960000195
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 42327,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010039",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 329684.1552000111,
+        "y" : 270830.12810000032
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 42328,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010040",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 326915.53490000963,
+        "y" : 270962.03779999912
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 42329,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "철제계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010041",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 329848.47050000913,
+        "y" : 270972.04040000029
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 42330,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010042",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 329887.19240000844,
+        "y" : 271021.52109999955
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 42331,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내도,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010043",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 330472.18400000874,
+        "y" : 271219.90860000439
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 42332,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010044",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 328428.39850001037,
+        "y" : 271274.78580000252
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 42333,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010045",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 327055.42430000938,
+        "y" : 271350.85260000452
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 42334,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010046",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 328277.37660000939,
+        "y" : 271385.31000000052
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 42335,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "곡산 봉수대,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010047",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 328147.12290000729,
+        "y" : 271476.48589999974
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 42336,
+        "MNTN_CODE" : "488203501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노면",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "봉화대",
+        "PAST_SPOT_" : "4882005010048",
+        "MNTN_ID" : "488200501"
+      },
+      "geometry" : {
+        "x" : 327325.54660000745,
+        "y" : 271497.76680000126
+      }
+    }
+  ]
+}

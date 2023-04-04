@@ -1,0 +1,855 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 47243,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010001",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351843.95100000035,
+        "y" : 540605.83500000089
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 47244,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010002",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351841.25780000072,
+        "y" : 540595.64140000381
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 47245,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "샘터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010003",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351586.13780000154,
+        "y" : 540690.20000000298
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 47246,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010004",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351586.10840000119,
+        "y" : 540728.94420000166
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 47247,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010005",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351501.48930000048,
+        "y" : 540753.73479999974
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 47248,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010006",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351543.15820000041,
+        "y" : 540973.23289999925
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 47249,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010007",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351542.29450000077,
+        "y" : 540975.44160000235
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 47250,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010008",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351583.10640000086,
+        "y" : 540952.73040000163
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 47251,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010009",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351641.55840000045,
+        "y" : 540960.80189999938
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 47252,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010010",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351658.50970000122,
+        "y" : 540730.95930000208
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 47253,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010011",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351725.37270000018,
+        "y" : 541400.23750000261
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 47254,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010012",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351717.93219999969,
+        "y" : 541397.74740000255
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 47255,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010013",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351419.65310000163,
+        "y" : 541960.04440000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 47256,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010014",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351407.32250000071,
+        "y" : 541707.00669999979
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 47257,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010015",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351478.01880000066,
+        "y" : 541464.45950000174
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 47258,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010016",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351507.34260000102,
+        "y" : 541434.04710000195
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 47259,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010017",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 350966.26809999999,
+        "y" : 541049.07460000366
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 47260,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010018",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 350973.85800000094,
+        "y" : 541003.61759999953
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 47261,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010019",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 350990.89599999972,
+        "y" : 540957.57799999975
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 47262,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010020",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351005.90460000094,
+        "y" : 540886.38220000267
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 47263,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010021",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351025.74340000004,
+        "y" : 540823.78990000114
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 47264,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010022",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351037.75930000003,
+        "y" : 540807.20870000124
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 47265,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010023",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351047.63240000047,
+        "y" : 540765.17159999907
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 47266,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010024",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351018.28839999996,
+        "y" : 540697.58359999955
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 47267,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010025",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 350994.74139999971,
+        "y" : 540559.4057
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 47268,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010026",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351034.52699999977,
+        "y" : 540526.60309999995
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 47269,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010027",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351054.78849999979,
+        "y" : 540484.94969999976
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 47270,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010028",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351100.36730000097,
+        "y" : 540442.45229999721
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 47271,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010029",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351381.07110000122,
+        "y" : 540696.42170000076
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 47272,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010030",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 350890.95969999954,
+        "y" : 541173.753800001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 47273,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010031",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351399.29680000059,
+        "y" : 540772.36510000005
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 47274,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010032",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351427.72369999997,
+        "y" : 542139.25650000013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 47275,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010033",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351532.42860000022,
+        "y" : 540976.1557
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 47276,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010034",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351551.26010000054,
+        "y" : 541337.96949999966
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 47277,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010035",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351675.46610000078,
+        "y" : 540623.59610000066
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 47278,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010036",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 352199.39499999955,
+        "y" : 541831.80060000159
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 47279,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010037",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 352609.97890000045,
+        "y" : 540668.11769999936
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 97437,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010038",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351399.46449999901,
+        "y" : 540772.39320000098
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 97438,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010039",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351835.10820000013,
+        "y" : 540940.51889999968
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 97439,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010040",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 352611.90679999907,
+        "y" : 540667.04780000052
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 97440,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010041",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351428.4910000012,
+        "y" : 542137.85569999926
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 97441,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010042",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351546.65459999896,
+        "y" : 541338.66790000058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 97442,
+        "MNTN_CODE" : "427705401",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "사실골산",
+        "PAST_SPOT_" : "4277054010043",
+        "MNTN_ID" : "427705401"
+      },
+      "geometry" : {
+        "x" : 351261.47209999955,
+        "y" : 540297.87869999954
+      }
+    }
+  ]
+}

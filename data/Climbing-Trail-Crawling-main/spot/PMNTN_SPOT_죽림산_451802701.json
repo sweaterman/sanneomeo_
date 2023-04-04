@@ -1,0 +1,999 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 80125,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판,가로등",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010001",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 186137.10350000113,
+        "y" : 329272.72800000012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 80126,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동기구,벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010002",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 186111.00790000055,
+        "y" : 329334.49480000138
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 80127,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "평상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010003",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 186085.33320000116,
+        "y" : 329398.07650000043
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 80128,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010004",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 186045.37049999926,
+        "y" : 329466.31090000272
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 80129,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010005",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 186028.2424999997,
+        "y" : 329461.81069999933
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 80130,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010006",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185659.90560000017,
+        "y" : 330022.83909999952
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 80131,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등,고무계단[시작]",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010007",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185644.50239999872,
+        "y" : 330029.31540000066
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 80132,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010008",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185613.28160000034,
+        "y" : 330054.03360000253
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 80133,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "고무계단[끝]",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010009",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185601.8105000006,
+        "y" : 330062.24430000037
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 80134,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치,가로등",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010010",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185583.23489999957,
+        "y" : 330073.39650000073
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 80135,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010011",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185541.48410000093,
+        "y" : 330108.60390000418
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 80136,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010012",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185521.15490000043,
+        "y" : 330125.66230000183
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 80137,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010013",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185489.86160000041,
+        "y" : 330119.28149999864
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 80138,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010014",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185462.45189999882,
+        "y" : 330144.52700000256
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 80139,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010015",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185433.52670000028,
+        "y" : 330188.55939999968
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 80140,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등,고무계단[시작]",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010016",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185469.45239999983,
+        "y" : 330192.91410000063
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 80141,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010017",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185500.66669999994,
+        "y" : 330217.69730000384
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 80142,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010018",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185534.15430000145,
+        "y" : 330217.13930000179
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 80143,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "고무계단[끝],종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010019",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185557.73790000193,
+        "y" : 330215.41349999979
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 80144,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프시작,목계단시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010020",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 186067.37009999994,
+        "y" : 329460.64210000075
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 80145,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010021",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 186081.01210000087,
+        "y" : 329470.72919999808
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 80146,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프난간시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010022",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 186131.1211000029,
+        "y" : 329504.15770000219
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 80147,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프난간끝.모계단끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010023",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 186156.3142000027,
+        "y" : 329525.75400000066
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 80148,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,가로등,샘골정",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010024",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 186260.95920000039,
+        "y" : 329636.03750000149
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 80149,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등,고무계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010025",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185679.75130000059,
+        "y" : 330061.57360000163
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 80150,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010026",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185715.77500000224,
+        "y" : 330078.14990000054
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 80151,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010027",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185734.10419999994,
+        "y" : 330099.08600000292
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 80152,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010028",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185762.89699999895,
+        "y" : 330107.90910000168
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 80153,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등.분기4-1종점(분기4우회",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010029",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185780.33310000133,
+        "y" : 330098.68889999948
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 80154,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010030",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185603.13220000174,
+        "y" : 329979.34290000051
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 80155,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기3종점(주노선 우회)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010031",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185599.18929999787,
+        "y" : 330061.81580000184
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 80156,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010032",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185625.25949999876,
+        "y" : 330094.12870000303
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 80157,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010033",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185638.05210000183,
+        "y" : 330113.80969999917
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 80158,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010034",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185667.23440000042,
+        "y" : 330136.38920000009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 80159,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010035",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185420.80709999986,
+        "y" : 329850.75779999979
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 80160,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010036",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185423.17620000057,
+        "y" : 329323.3741999995
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 80161,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010037",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185561.1930999998,
+        "y" : 330216.76570000127
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 80162,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010038",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185584.00569999963,
+        "y" : 329121.84860000201
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 80163,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010039",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185584.21180000156,
+        "y" : 330078.88740000129
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 80164,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010040",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185598.49810000136,
+        "y" : 330063.23350000381
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 80165,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010041",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185663.49460000079,
+        "y" : 330034.07489999942
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 80166,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010042",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185686.70719999913,
+        "y" : 330061.52370000072
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 80167,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010043",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185706.07620000094,
+        "y" : 330145.35469999909
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 80168,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010044",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185713.76559999958,
+        "y" : 329843.99300000258
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 80169,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010045",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185778.31330000143,
+        "y" : 330102.44189999811
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 80170,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010046",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185798.47539999988,
+        "y" : 330100.2117999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 80171,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010047",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185841.11990000028,
+        "y" : 329418.22580000199
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 80172,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010048",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 185965.9748000009,
+        "y" : 329455.4355999995
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 80173,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010049",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 186063.1026999997,
+        "y" : 329462.02210000157
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 80174,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010050",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 186166.06219999865,
+        "y" : 329274.76270000078
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 50,
+        "PMNTN_SPOT" : 80175,
+        "MNTN_CODE" : "451802701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "죽림산",
+        "PAST_SPOT_" : "4518027010051",
+        "MNTN_ID" : "451802701"
+      },
+      "geometry" : {
+        "x" : 186261.07469999976,
+        "y" : 329635.07420000248
+      }
+    }
+  ]
+}

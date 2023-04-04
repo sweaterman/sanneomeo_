@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'abstracts/responsive';
+@import 'abstracts/variables';
+
+@import 'base/base';
+@import 'base/animation';
+
+@import 'vendors/bootstrap';
+
+@import '../assets/fonts/fonts.scss';
+
+@import 'layout/grid';
+@import 'layout/navbar';
+@import 'layout/headers';
+
+@import 'components/balloon';
+@import 'components/buttons';
+@import 'components/card';
+@import 'components/carousel';
+@import 'components/challengebox';
+@import 'components/challengeitems';
+@import 'components/dropdown';
+@import 'components/img';
+@import 'components/mountainitems';
+@import 'components/photomodal';
+@import 'components/searchbar';
+@import 'components/weatherforecast';
+@import 'components/trailItems';
+@import 'components/reviewItems';
+@import 'components/mountainitemsbutton';
+
+@import 'pages/main-page';
+@import 'pages/mountain-detail';
+@import 'pages/mountain-trail';
+@import 'pages/recom-question';
+@import 'pages/recom-result';
+@import 'pages/upload-photo';
+@import 'pages/user-challenge';
+@import 'pages/user-login';
+@import 'pages/user-mypage';
+@import 'pages/user-wishlist';
+
+@import 'themes/theme';
+@import 'themes/dark-theme';

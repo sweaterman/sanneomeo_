@@ -1,0 +1,819 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 50011,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "대리3구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010001",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 197139.21820000187,
+        "y" : 273141.92430000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 50012,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010002",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 197085.17590000108,
+        "y" : 273305.94539999962
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 50013,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010003",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 197268.5307,
+        "y" : 274186.11390000209
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 50014,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010004",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 197362.6716,
+        "y" : 274184.71519999951
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 50015,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010005",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 197515.64710000064,
+        "y" : 274160.75880000181
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 50016,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010006",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 197605.64319999982,
+        "y" : 274132.77950000204
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 50017,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010007",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 197622.30420000013,
+        "y" : 274114.43440000154
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 50018,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010008",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 197639.73199999984,
+        "y" : 274058.80550000072
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 50019,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010009",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 197647.79509999882,
+        "y" : 274042.89630000293
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 50020,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010010",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 197693.11750000063,
+        "y" : 274001.91730000079
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 50021,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010011",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 197699.03850000072,
+        "y" : 273967.41340000369
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 50022,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010012",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 197714.98840000108,
+        "y" : 273937.91540000215
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 50023,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010013",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 197750.25779999886,
+        "y" : 273802.90640000254
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 50024,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010014",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 197675.51640000101,
+        "y" : 273678.0158000011
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 50025,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "대리1구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010015",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 197666.07150000054,
+        "y" : 273549.17229999974
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 50026,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "이십곡리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010016",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 196857.48240000103,
+        "y" : 274749.07220000215
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 50027,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010017",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 196834.27230000123,
+        "y" : 274565.19019999914
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 50028,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010018",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 196818.73739999998,
+        "y" : 274444.76900000125
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 50029,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010019",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 196802.21470000036,
+        "y" : 274022.46810000017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 50030,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010020",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 196832.23390000034,
+        "y" : 273917.5511000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 50031,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010021",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 197079.53540000133,
+        "y" : 274320.79659999907
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 50032,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010022",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 197015.13920000009,
+        "y" : 274348.47690000013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 50033,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010023",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 196838.66390000097,
+        "y" : 274496.58360000327
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 50034,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010024",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 196864.90070000011,
+        "y" : 274747.92459999956
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 50035,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010025",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 196888.40260000061,
+        "y" : 273835.79420000128
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 50036,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010026",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 197151.74880000204,
+        "y" : 273129.96440000273
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 50037,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010027",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 197259.61170000024,
+        "y" : 274182.37529999949
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 50038,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010028",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 197661.59080000035,
+        "y" : 273543.58640000038
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 97537,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010029",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 197012.0190999998,
+        "y" : 273482.78269999987
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 97538,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010030",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 197416.04059999992,
+        "y" : 274179.2788999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 97539,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물(운동기구등)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010031",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 197572.73960000044,
+        "y" : 274144.38299999939
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 97540,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010032",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 197726.75790000006,
+        "y" : 273887.90369999968
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 97541,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010033",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 197719.03419999909,
+        "y" : 273743.22369999986
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 97542,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010034",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 197668.90380000102,
+        "y" : 273648.96290000028
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 97543,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010035",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 196843.68659999908,
+        "y" : 274484.94280000037
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 97544,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010036",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 196783.94019999995,
+        "y" : 274427.02669999923
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 97545,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010037",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 196748.98999999906,
+        "y" : 274199.78799999994
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 97546,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010038",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 197229.43500000003,
+        "y" : 274277.32899999968
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 97547,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010039",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 197071.55659999937,
+        "y" : 274337.22030000016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 97548,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010040",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 196876.58189999961,
+        "y" : 274488.14540000039
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 97549,
+        "MNTN_CODE" : "467904501",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "서당산",
+        "PAST_SPOT_" : "4679045010041",
+        "MNTN_ID" : "467904501"
+      },
+      "geometry" : {
+        "x" : 196842.54879999935,
+        "y" : 274501.92459999904
+      }
+    }
+  ]
+}

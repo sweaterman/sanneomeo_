@@ -1,0 +1,999 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 35227,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "산책로 안내도,개방화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010001",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 186061.90759999957,
+        "y" : 280070.99799999967
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 35228,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010002",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 186028.48089999985,
+        "y" : 280089.46600000188
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 35229,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010003",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 186013.34300000127,
+        "y" : 280085.82809999771
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 35230,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010004",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 185999.66930000018,
+        "y" : 280085.84919999912
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 35231,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010005",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 185966.18850000016,
+        "y" : 280069.2594000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 35232,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "백마정",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010006",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 185847.63080000132,
+        "y" : 280036.16050000116
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 35233,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "등의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010007",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 185783.81680000015,
+        "y" : 280034.37420000136
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 35234,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "등의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010008",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 185697.2510000011,
+        "y" : 280056.6986999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 35235,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010009",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 185695.7742000008,
+        "y" : 280102.96440000273
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 35236,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010010",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 185706.47170000058,
+        "y" : 280123.25010000169
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 35237,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010011",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 185706.4951000018,
+        "y" : 280138.11649999954
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 35238,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010012",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 185691.28330000211,
+        "y" : 280145.4627000019
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 35239,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010013",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 185683.71719999984,
+        "y" : 280145.47460000217
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 35240,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010014",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 185674.63940000068,
+        "y" : 280169.56360000372
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 35241,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010015",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 185642.71679999959,
+        "y" : 280158.51970000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 35242,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010016",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 185624.4765000008,
+        "y" : 280153.00140000321
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 35243,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010017",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 185592.58600000106,
+        "y" : 280162.2602000013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 35244,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010018",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 185575.9160000002,
+        "y" : 280169.71990000084
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 35245,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010019",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 185400.86420000065,
+        "y" : 279981.39630000107
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 35246,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,등의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010020",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 185277.77530000079,
+        "y" : 279966.83960000053
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 35247,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "등의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010021",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 185254.91940000001,
+        "y" : 279926.16059999913
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 35248,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010022",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 185253.26460000128,
+        "y" : 279861.48340000398
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 35249,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010023",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 185262.33850000054,
+        "y" : 279835.50800000131
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 35250,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010024",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 185272.98340000026,
+        "y" : 279822.62130000256
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 35251,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,등의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010025",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 185288.18030000106,
+        "y" : 279805.9552000016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 35252,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010026",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 185286.62450000178,
+        "y" : 279802.1857000012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 35253,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010027",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 185237.98770000227,
+        "y" : 279772.75370000303
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 35254,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010028",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 185231.87680000067,
+        "y" : 279770.87759999745
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 35255,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010029",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 185227.30379999895,
+        "y" : 279761.67679999955
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 35256,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "등의자,철봉,전망대,삼각점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010030",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 185210.62120000087,
+        "y" : 279761.70400000177
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 35257,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "윗몸일으키기,등맛사지기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010031",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 185167.97329999972,
+        "y" : 279715.5102000013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 35258,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장,등의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010032",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 185139.06279999949,
+        "y" : 279708.12430000119
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 35259,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "등의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010033",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 185061.55690000113,
+        "y" : 279697.15719999932
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 35260,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "팔각정",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010034",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 185012.94920000061,
+        "y" : 279686.14299999923
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 35261,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010035",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 184973.45760000125,
+        "y" : 279675.11389999837
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 35262,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010036",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 184900.50009999983,
+        "y" : 279658.59349999949
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 35263,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "파고라",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010037",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 184759.17030000035,
+        "y" : 279642.18810000271
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 35264,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010038",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 184517.9140999997,
+        "y" : 279833.08560000174
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 35265,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "송학초007",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010039",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 184522.11220000219,
+        "y" : 279621.95360000245
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 35266,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암반지대005",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010040",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 184463.45940000098,
+        "y" : 279441.66029999964
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 35267,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "눌재로006",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010041",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 184434.7265000008,
+        "y" : 279432.39030000195
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 35268,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "암반노출003",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010042",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 184676.00949999969,
+        "y" : 279576.2060000021
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 35269,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "벙커",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010043",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 184722.58640000131,
+        "y" : 279625.83000000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 35270,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010044",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 184460.0923999995,
+        "y" : 279602.26440000162
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 35271,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010045",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 184464.00860000029,
+        "y" : 279442.9907000009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 35272,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010046",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 184509.70980000123,
+        "y" : 279834.32770000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 35273,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010047",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 184591.53809999954,
+        "y" : 279515.74810000136
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 35274,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010048",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 184740.93480000179,
+        "y" : 279640.44360000081
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 35275,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010049",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 186072.17930000089,
+        "y" : 279990.84810000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 96712,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "정자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010050",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 184668.20129999949,
+        "y" : 279757.05639999924
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 50,
+        "PMNTN_SPOT" : 96713,
+        "MNTN_CODE" : "291400201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판또는지도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "백마산",
+        "PAST_SPOT_" : "2914002010051",
+        "MNTN_ID" : "291400201"
+      },
+      "geometry" : {
+        "x" : 184593.0348000002,
+        "y" : 279513.10880000005
+      }
+    }
+  ]
+}

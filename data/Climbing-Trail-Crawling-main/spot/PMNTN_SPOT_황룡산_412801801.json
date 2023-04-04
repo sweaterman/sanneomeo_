@@ -1,0 +1,837 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 94782,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010001",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 179647.39040000085,
+        "y" : 566718.65870000422
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 94783,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010002",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 179665.46140000038,
+        "y" : 566722.81079999916
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 94784,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010003",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 179783.93580000009,
+        "y" : 566664.80749999732
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 94785,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010004",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 179931.21910000034,
+        "y" : 566687.65730000101
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 94786,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010005",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 179968.92420000117,
+        "y" : 566571.67130000144
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 94787,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010006",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 179971.10819999874,
+        "y" : 566690.2173999995
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 94788,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010007",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 180016.7106999997,
+        "y" : 566639.39120000228
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 94789,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010008",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 180142.94880000036,
+        "y" : 567829.0661000032
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 94790,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010009",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 180144.90140000079,
+        "y" : 566671.6630000025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 94791,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010010",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 180171.38890000153,
+        "y" : 566898.31100000255
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 94792,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010011",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 180208.50910000131,
+        "y" : 566477.4886000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 94793,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010012",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 180222.86340000015,
+        "y" : 566577.25150000118
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 94794,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010013",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 180246.88490000088,
+        "y" : 566826.18490000255
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 94795,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010014",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 180248.16260000039,
+        "y" : 566586.77530000359
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 94796,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010015",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 180254.56579999998,
+        "y" : 566530.47630000114
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 94797,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010016",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 180261.55800000019,
+        "y" : 566347.89990000241
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 94798,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010017",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 180295.46480000019,
+        "y" : 566607.68329999968
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 94799,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010018",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 180323.0083999997,
+        "y" : 566636.46639999934
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 94800,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010019",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 180354.80530000199,
+        "y" : 566747.89430000074
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 94801,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010020",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 180421.07770000212,
+        "y" : 566732.75630000047
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 94802,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010021",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 180551.06489999965,
+        "y" : 566741.90000000037
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 94803,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010022",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 180560.99210000131,
+        "y" : 566802.01680000126
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 94804,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010023",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 180580.44520000089,
+        "y" : 566690.41800000332
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 94805,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010024",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 180664.94790000096,
+        "y" : 566613.14600000158
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 100430,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010025",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 179928.05779999873,
+        "y" : 566685.59050000086
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 100431,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "08",
+        "MANAGE_SP2" : "가로등",
+        "DETAIL_SPO" : "가로등",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010026",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 179670.94720000008,
+        "y" : 566730.6157000009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 100432,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물(운동기구등)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010027",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 179922.21450000064,
+        "y" : 566700.40359999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 100433,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "약수터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010028",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 179949.86289999954,
+        "y" : 566585.64499999979
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 100434,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물(운동기구등)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010029",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 180221.76659999968,
+        "y" : 566577.59039999871
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 100435,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010030",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 179955.66600000038,
+        "y" : 566554.18339999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 100436,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물(운동기구등)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010031",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 180173.67880000093,
+        "y" : 566751.59249999933
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 100437,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010032",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 179976.58910000138,
+        "y" : 566696.5719000008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 100438,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010033",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 180204.89509999965,
+        "y" : 566897.65670000052
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 100439,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010034",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 180328.06239999941,
+        "y" : 566773.42180000071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 100440,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물(운동기구등)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010035",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 180420.56409999961,
+        "y" : 566732.50520000048
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 100441,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물(운동기구등)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010036",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 180449.9299000001,
+        "y" : 566719.48660000041
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 100442,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010037",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 180433.77930000063,
+        "y" : 566726.92429999891
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 100443,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "13",
+        "MANAGE_SP2" : "유적(문화, 역사)",
+        "DETAIL_SPO" : "비석",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010038",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 180529.33510000084,
+        "y" : 566734.09799999953
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 100444,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010039",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 180579.19150000019,
+        "y" : 566684.03439999965
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 100445,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "서바이벌 게임장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010040",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 180548.14659999966,
+        "y" : 566608.2631999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 100446,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "15",
+        "MANAGE_SP2" : "훼손지",
+        "DETAIL_SPO" : "훼손지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010041",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 180172.55979999958,
+        "y" : 566897.73420000053
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 100447,
+        "MNTN_CODE" : "412801801",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물(운동기구등)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "황룡산",
+        "PAST_SPOT_" : "4128018010042",
+        "MNTN_ID" : "412801801"
+      },
+      "geometry" : {
+        "x" : 180098.51849999986,
+        "y" : 567278.983799999
+      }
+    }
+  ]
+}

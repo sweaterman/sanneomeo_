@@ -1,0 +1,441 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 26821,
+        "MNTN_CODE" : "428301201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만월산",
+        "PAST_SPOT_" : "4283012010001",
+        "MNTN_ID" : "428301201"
+      },
+      "geometry" : {
+        "x" : 347036.13130000606,
+        "y" : 594132.24730000086
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 26822,
+        "MNTN_CODE" : "428301201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만월산",
+        "PAST_SPOT_" : "4283012010002",
+        "MNTN_ID" : "428301201"
+      },
+      "geometry" : {
+        "x" : 348852.43150000647,
+        "y" : 596134.68779999949
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 26823,
+        "MNTN_CODE" : "428301201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만월산",
+        "PAST_SPOT_" : "4283012010003",
+        "MNTN_ID" : "428301201"
+      },
+      "geometry" : {
+        "x" : 349010.37310000788,
+        "y" : 600784.42239999957
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 26824,
+        "MNTN_CODE" : "428301201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만월산",
+        "PAST_SPOT_" : "4283012010004",
+        "MNTN_ID" : "428301201"
+      },
+      "geometry" : {
+        "x" : 350058.02490000799,
+        "y" : 597968.16260000132
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 26825,
+        "MNTN_CODE" : "428301201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산불감시 카메라",
+        "ETC_MATTER" : "산불감시 카메라",
+        "MNTN_NM" : "만월산",
+        "PAST_SPOT_" : "4283012010005",
+        "MNTN_ID" : "428301201"
+      },
+      "geometry" : {
+        "x" : 348854.66150001343,
+        "y" : 596135.26889999956
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 26826,
+        "MNTN_CODE" : "428301201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "산불감시탑",
+        "ETC_MATTER" : "산불감시탑",
+        "MNTN_NM" : "만월산",
+        "PAST_SPOT_" : "4283012010006",
+        "MNTN_ID" : "428301201"
+      },
+      "geometry" : {
+        "x" : 348852.18240001518,
+        "y" : 596136.21220000274
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 26827,
+        "MNTN_CODE" : "428301201",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : "헬기장",
+        "MNTN_NM" : "만월산",
+        "PAST_SPOT_" : "4283012010007",
+        "MNTN_ID" : "428301201"
+      },
+      "geometry" : {
+        "x" : 348798.85020001326,
+        "y" : 596153.88760000095
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 26828,
+        "MNTN_CODE" : "428301201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "목계단 설치 요망",
+        "MNTN_NM" : "만월산",
+        "PAST_SPOT_" : "4283012010008",
+        "MNTN_ID" : "428301201"
+      },
+      "geometry" : {
+        "x" : 348350.61270001344,
+        "y" : 596194.47350000031
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 26829,
+        "MNTN_CODE" : "428301201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "주변 환경 개선 요망",
+        "MNTN_NM" : "만월산",
+        "PAST_SPOT_" : "4283012010009",
+        "MNTN_ID" : "428301201"
+      },
+      "geometry" : {
+        "x" : 348321.13130001538,
+        "y" : 596210.97380000353
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 26830,
+        "MNTN_CODE" : "428301201",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : "(좌)급경사 지대",
+        "MNTN_NM" : "만월산",
+        "PAST_SPOT_" : "4283012010010",
+        "MNTN_ID" : "428301201"
+      },
+      "geometry" : {
+        "x" : 348307.25180001371,
+        "y" : 596236.49579999968
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 26831,
+        "MNTN_CODE" : "428301201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길에 낙옆이 많고 뚜렷하지가 않아 확실한 노선 정리 요망",
+        "ETC_MATTER" : "길 개선 사업 요망",
+        "MNTN_NM" : "만월산",
+        "PAST_SPOT_" : "4283012010011",
+        "MNTN_ID" : "428301201"
+      },
+      "geometry" : {
+        "x" : 348286.33560001384,
+        "y" : 596258.28150000051
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 26832,
+        "MNTN_CODE" : "428301201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "목계단 설치 요망",
+        "MNTN_NM" : "만월산",
+        "PAST_SPOT_" : "4283012010012",
+        "MNTN_ID" : "428301201"
+      },
+      "geometry" : {
+        "x" : 348283.18600001372,
+        "y" : 596339.50870000198
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 26833,
+        "MNTN_CODE" : "428301201",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : "바닥에 낙엽이 많아 미끄러움",
+        "MNTN_NM" : "만월산",
+        "PAST_SPOT_" : "4283012010013",
+        "MNTN_ID" : "428301201"
+      },
+      "geometry" : {
+        "x" : 348282.27770001441,
+        "y" : 596384.34280000255
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 26834,
+        "MNTN_CODE" : "428301201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "목계단 설치 요망",
+        "MNTN_NM" : "만월산",
+        "PAST_SPOT_" : "4283012010014",
+        "MNTN_ID" : "428301201"
+      },
+      "geometry" : {
+        "x" : 348178.36820001621,
+        "y" : 596468.48829999939
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 26835,
+        "MNTN_CODE" : "428301201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : "대치리 가는 길,만월산 올라 가는 길,입구 안내판 설치 요망",
+        "MNTN_NM" : "만월산",
+        "PAST_SPOT_" : "4283012010015",
+        "MNTN_ID" : "428301201"
+      },
+      "geometry" : {
+        "x" : 348046.86790001206,
+        "y" : 596534.80230000056
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 26836,
+        "MNTN_CODE" : "428301201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "임도길 이정표,어성전 가는 길",
+        "MNTN_NM" : "만월산",
+        "PAST_SPOT_" : "4283012010016",
+        "MNTN_ID" : "428301201"
+      },
+      "geometry" : {
+        "x" : 347789.63250001241,
+        "y" : 598041.17410000227
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 26837,
+        "MNTN_CODE" : "428301201",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판 설치 요망 및 만월산 입구 임도길 시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "만월산",
+        "PAST_SPOT_" : "4283012010017",
+        "MNTN_ID" : "428301201"
+      },
+      "geometry" : {
+        "x" : 349020.29620001372,
+        "y" : 600788.89090000093
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 26838,
+        "MNTN_CODE" : "428301201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : "임도길 이정표,명지리 가는 길",
+        "MNTN_NM" : "만월산",
+        "PAST_SPOT_" : "4283012010018",
+        "MNTN_ID" : "428301201"
+      },
+      "geometry" : {
+        "x" : 348094.20360001177,
+        "y" : 600798.23430000059
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 26839,
+        "MNTN_CODE" : "428301201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,다리",
+        "ETC_MATTER" : "임도길 이정표,언덕길 시작 지점",
+        "MNTN_NM" : "만월산",
+        "PAST_SPOT_" : "4283012010019",
+        "MNTN_ID" : "428301201"
+      },
+      "geometry" : {
+        "x" : 348661.77090001293,
+        "y" : 600951.59980000183
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 26840,
+        "MNTN_CODE" : "428301201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도길 중간 중간이 포장도로로 되어 있음",
+        "ETC_MATTER" : "포장길",
+        "MNTN_NM" : "만월산",
+        "PAST_SPOT_" : "4283012010020",
+        "MNTN_ID" : "428301201"
+      },
+      "geometry" : {
+        "x" : 348902.53050001431,
+        "y" : 600979.17640000023
+      }
+    }
+  ]
+}

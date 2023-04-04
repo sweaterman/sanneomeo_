@@ -1,0 +1,585 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 12070,
+        "MNTN_CODE" : "418204701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "귀목봉",
+        "PAST_SPOT_" : "4182010010001",
+        "MNTN_ID" : "418201001"
+      },
+      "geometry" : {
+        "x" : 233294.26730000041,
+        "y" : 594640.06130000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 12071,
+        "MNTN_CODE" : "418204701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "귀목봉",
+        "PAST_SPOT_" : "4182010010002",
+        "MNTN_ID" : "418201001"
+      },
+      "geometry" : {
+        "x" : 234781.93900000025,
+        "y" : 591575.12000000104
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 12072,
+        "MNTN_CODE" : "418204701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "귀목봉",
+        "PAST_SPOT_" : "4182010010003",
+        "MNTN_ID" : "418201001"
+      },
+      "geometry" : {
+        "x" : 235855.48082667962,
+        "y" : 593149.8870038297
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 12073,
+        "MNTN_CODE" : "418204701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "귀목봉",
+        "PAST_SPOT_" : "4182010010004",
+        "MNTN_ID" : "418201001"
+      },
+      "geometry" : {
+        "x" : 237144.98199999891,
+        "y" : 596596.23740000091
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 12074,
+        "MNTN_CODE" : "418204701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "귀목봉",
+        "PAST_SPOT_" : "4182010010005",
+        "MNTN_ID" : "418201001"
+      },
+      "geometry" : {
+        "x" : 234578.44529999886,
+        "y" : 591493.11159999855
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 12075,
+        "MNTN_CODE" : "418204701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "귀목봉",
+        "PAST_SPOT_" : "4182010010006",
+        "MNTN_ID" : "418201001"
+      },
+      "geometry" : {
+        "x" : 234695.78579999879,
+        "y" : 591536.31770000048
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 12076,
+        "MNTN_CODE" : "418204701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "귀목봉",
+        "PAST_SPOT_" : "4182010010007",
+        "MNTN_ID" : "418201001"
+      },
+      "geometry" : {
+        "x" : 234764.50329999998,
+        "y" : 591585.51340000145
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 12077,
+        "MNTN_CODE" : "418204701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "귀목봉",
+        "PAST_SPOT_" : "4182010010008",
+        "MNTN_ID" : "418201001"
+      },
+      "geometry" : {
+        "x" : 234981.05000000075,
+        "y" : 592023.01920000091
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 12078,
+        "MNTN_CODE" : "418204701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "귀목봉",
+        "PAST_SPOT_" : "4182010010009",
+        "MNTN_ID" : "418201001"
+      },
+      "geometry" : {
+        "x" : 235026.07819999941,
+        "y" : 592069.58570000343
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 12079,
+        "MNTN_CODE" : "418204701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "귀목봉",
+        "PAST_SPOT_" : "4182010010010",
+        "MNTN_ID" : "418201001"
+      },
+      "geometry" : {
+        "x" : 235350.78990000021,
+        "y" : 592496.2415000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 12080,
+        "MNTN_CODE" : "418204701",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "귀목봉",
+        "PAST_SPOT_" : "4182010010011",
+        "MNTN_ID" : "418201001"
+      },
+      "geometry" : {
+        "x" : 235367.75120000076,
+        "y" : 592548.83869999833
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 12081,
+        "MNTN_CODE" : "418204701",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "귀목봉",
+        "PAST_SPOT_" : "4182010010012",
+        "MNTN_ID" : "418201001"
+      },
+      "geometry" : {
+        "x" : 235812.81609999947,
+        "y" : 593099.49540000036
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 12082,
+        "MNTN_CODE" : "418204701",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "귀목봉",
+        "PAST_SPOT_" : "4182010010013",
+        "MNTN_ID" : "418201001"
+      },
+      "geometry" : {
+        "x" : 235703.50949999969,
+        "y" : 593311.9254999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 12083,
+        "MNTN_CODE" : "418204701",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "귀목봉",
+        "PAST_SPOT_" : "4182010010014",
+        "MNTN_ID" : "418201001"
+      },
+      "geometry" : {
+        "x" : 235660.87450000085,
+        "y" : 593372.70060000196
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 12084,
+        "MNTN_CODE" : "418204701",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "귀목봉",
+        "PAST_SPOT_" : "4182010010015",
+        "MNTN_ID" : "418201001"
+      },
+      "geometry" : {
+        "x" : 235243.0401999997,
+        "y" : 593652.72270000167
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 12085,
+        "MNTN_CODE" : "418204701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "귀목봉",
+        "PAST_SPOT_" : "4182010010016",
+        "MNTN_ID" : "418201001"
+      },
+      "geometry" : {
+        "x" : 235031.85290000029,
+        "y" : 593720.5055000037
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 12086,
+        "MNTN_CODE" : "418204701",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "귀목봉",
+        "PAST_SPOT_" : "4182010010017",
+        "MNTN_ID" : "418201001"
+      },
+      "geometry" : {
+        "x" : 234991.24949999899,
+        "y" : 593782.71350000054
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 12087,
+        "MNTN_CODE" : "418204701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "귀목봉",
+        "PAST_SPOT_" : "4182010010018",
+        "MNTN_ID" : "418201001"
+      },
+      "geometry" : {
+        "x" : 234291.6679999996,
+        "y" : 593785.65909999982
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 12088,
+        "MNTN_CODE" : "418204701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "귀목봉",
+        "PAST_SPOT_" : "4182010010019",
+        "MNTN_ID" : "418201001"
+      },
+      "geometry" : {
+        "x" : 234560.20480000228,
+        "y" : 593889.06850000285
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 12089,
+        "MNTN_CODE" : "418204701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "귀목봉",
+        "PAST_SPOT_" : "4182010010020",
+        "MNTN_ID" : "418201001"
+      },
+      "geometry" : {
+        "x" : 234887.06820000056,
+        "y" : 593896.52100000344
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 12090,
+        "MNTN_CODE" : "418204701",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "귀목봉",
+        "PAST_SPOT_" : "4182010010021",
+        "MNTN_ID" : "418201001"
+      },
+      "geometry" : {
+        "x" : 234871.76700000186,
+        "y" : 593912.53969999962
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 12091,
+        "MNTN_CODE" : "418204701",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "시설물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "귀목봉",
+        "PAST_SPOT_" : "4182010010022",
+        "MNTN_ID" : "418201001"
+      },
+      "geometry" : {
+        "x" : 234748.83280000091,
+        "y" : 593944.90780000016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 12092,
+        "MNTN_CODE" : "418204701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "귀목봉",
+        "PAST_SPOT_" : "4182010010023",
+        "MNTN_ID" : "418201001"
+      },
+      "geometry" : {
+        "x" : 236444.2229000004,
+        "y" : 594184.87060000189
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 12093,
+        "MNTN_CODE" : "418204701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "귀목봉",
+        "PAST_SPOT_" : "4165010010024",
+        "MNTN_ID" : "416501001"
+      },
+      "geometry" : {
+        "x" : 233833.00850000326,
+        "y" : 594196.7376000043
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 12094,
+        "MNTN_CODE" : "418204701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "귀목봉",
+        "PAST_SPOT_" : "4182010010025",
+        "MNTN_ID" : "418201001"
+      },
+      "geometry" : {
+        "x" : 236409.94700000063,
+        "y" : 594657.92730000056
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 12095,
+        "MNTN_CODE" : "418204701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "귀목봉",
+        "PAST_SPOT_" : "4182010010026",
+        "MNTN_ID" : "418201001"
+      },
+      "geometry" : {
+        "x" : 236533.27689999994,
+        "y" : 595213.6230999995
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 12096,
+        "MNTN_CODE" : "418204701",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "귀목봉",
+        "PAST_SPOT_" : "4182010010027",
+        "MNTN_ID" : "418201001"
+      },
+      "geometry" : {
+        "x" : 237223.9935000008,
+        "y" : 596539.10899999924
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 12097,
+        "MNTN_CODE" : "418204701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "귀목봉",
+        "PAST_SPOT_" : "4182010010028",
+        "MNTN_ID" : "418201001"
+      },
+      "geometry" : {
+        "x" : 237211.04889999982,
+        "y" : 596622.68799999915
+      }
+    }
+  ]
+}

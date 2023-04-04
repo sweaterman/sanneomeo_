@@ -1,0 +1,243 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 86058,
+        "MNTN_CODE" : "488804101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "초점산",
+        "PAST_SPOT_" : "28029919000001",
+        "MNTN_ID" : "2802991900"
+      },
+      "geometry" : {
+        "x" : 278109.67600000091,
+        "y" : 367267.16379999928
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 86059,
+        "MNTN_CODE" : "488804101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "초점산",
+        "PAST_SPOT_" : "28029919000002",
+        "MNTN_ID" : "2802991900"
+      },
+      "geometry" : {
+        "x" : 280130.02749999985,
+        "y" : 368597.77390000224
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 86060,
+        "MNTN_CODE" : "488804101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "초점산",
+        "PAST_SPOT_" : "28029919000003",
+        "MNTN_ID" : "2802991900"
+      },
+      "geometry" : {
+        "x" : 281237.56120000035,
+        "y" : 371639.66010000184
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 86061,
+        "MNTN_CODE" : "488804101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "초점산",
+        "PAST_SPOT_" : "28029919000004",
+        "MNTN_ID" : "2802991900"
+      },
+      "geometry" : {
+        "x" : 282473.42020000145,
+        "y" : 366310.17890000157
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 86062,
+        "MNTN_CODE" : "488804101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "대덕산",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "초점산",
+        "PAST_SPOT_" : "28029919000005",
+        "MNTN_ID" : "2802991900"
+      },
+      "geometry" : {
+        "x" : 279751.26819999982,
+        "y" : 370055.92440000176
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 86063,
+        "MNTN_CODE" : "488804101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "덕산재",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "초점산",
+        "PAST_SPOT_" : "28029919000006",
+        "MNTN_ID" : "2802991900"
+      },
+      "geometry" : {
+        "x" : 281223.86430000328,
+        "y" : 371603.14820000157
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 86064,
+        "MNTN_CODE" : "488804101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "땀때기고개",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "초점산",
+        "PAST_SPOT_" : "28029919000007",
+        "MNTN_ID" : "2802991900"
+      },
+      "geometry" : {
+        "x" : 280647.80950000137,
+        "y" : 365846.89280000329
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 86065,
+        "MNTN_CODE" : "488804101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "소사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "초점산",
+        "PAST_SPOT_" : "28029919000008",
+        "MNTN_ID" : "2802991900"
+      },
+      "geometry" : {
+        "x" : 278107.98340000119,
+        "y" : 367226.3786000032
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 86066,
+        "MNTN_CODE" : "488804101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "초점산 1249.1m",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "초점산",
+        "PAST_SPOT_" : "28029919000009",
+        "MNTN_ID" : "2802991900"
+      },
+      "geometry" : {
+        "x" : 280147.54129999969,
+        "y" : 368930.23709999956
+      }
+    }
+  ]
+}

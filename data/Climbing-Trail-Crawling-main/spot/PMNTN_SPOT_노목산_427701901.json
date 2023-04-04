@@ -1,0 +1,981 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 17053,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "집수장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000001",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 363119.00920001697,
+        "y" : 519498.58540000208
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 17054,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : "로프필요(30)",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000002",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 363259.04410001542,
+        "y" : 519312.3151000049
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 17055,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000003",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 363363.6436000159,
+        "y" : 519182.2104000058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 17056,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : "로프필요(30)",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000004",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 363382.96050001681,
+        "y" : 519110.85390000232
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 17057,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : "벤치 필요",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000005",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 363385.60700001568,
+        "y" : 519061.49230000377
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 17058,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : "벤치 필요",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000006",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 363480.03620001394,
+        "y" : 518815.70869999938
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 17059,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "노목산정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000007",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 363749.77220001817,
+        "y" : 518861.71420000121
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 17060,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : "벤치 필요",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000008",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 363748.89790001418,
+        "y" : 518861.03100000508
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 17061,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000009",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 362200.43350001518,
+        "y" : 518132.2169000078
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 17062,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000010",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 363138.93420001585,
+        "y" : 518166.26480000094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 17063,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000011",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 363207.56610001437,
+        "y" : 518215.78920000419
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 17064,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000012",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 364111.73740001488,
+        "y" : 518593.72890000232
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 17065,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : "로프필요 (80)",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000013",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 363910.563500016,
+        "y" : 518522.73280000314
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 17066,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "쉼터",
+        "ETC_MATTER" : "벤치 필요",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000014",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 363800.68680001702,
+        "y" : 518608.53420000151
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 17067,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : "로프필요 (100)",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000015",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 363774.50090001523,
+        "y" : 518676.86909999885
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 17068,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : "로프필요(100)",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000016",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 364068.18980001286,
+        "y" : 518996.40170000121
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 17069,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000017",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 364237.2171000177,
+        "y" : 518795.1668999996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 17070,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000018",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 364373.78440001421,
+        "y" : 516750.23949999735
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 17071,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : "로프필요(50)",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000019",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 363988.60930001643,
+        "y" : 519076.35190000013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 17072,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : "로프필요(100)",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000020",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 364248.18140001502,
+        "y" : 519378.34800000116
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 17073,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000021",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 364736.5596000161,
+        "y" : 519118.19250000268
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 17074,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000022",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 363864.31410001498,
+        "y" : 519264.58369999938
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 17075,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "12",
+        "MANAGE_SP2" : "위험지역",
+        "DETAIL_SPO" : "위험",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000023",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 363809.73170001525,
+        "y" : 519337.25029999949
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 17076,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : "로프필요(30)",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000024",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 363756.14860001579,
+        "y" : 519777.4824000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 17077,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000025",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 363877.06560001709,
+        "y" : 519911.98010000214
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 17078,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000026",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 363933.6959000146,
+        "y" : 519943.39970000274
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 17079,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000027",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 363858.74100001529,
+        "y" : 519991.46110000275
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 17080,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000028",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 363995.38220001664,
+        "y" : 520333.91490000673
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 17081,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000029",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 364254.52130001597,
+        "y" : 520592.37710000202
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 17082,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000030",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 364589.01980001573,
+        "y" : 521491.70459999889
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 17083,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "갈림길",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000031",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 364662.15020001493,
+        "y" : 521604.06990000047
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 17084,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "경사지",
+        "ETC_MATTER" : "로프필요(40)",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000032",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 363465.19500001706,
+        "y" : 519500.76339999959
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 17085,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000033",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 361687.31390001625,
+        "y" : 518189.95040000044
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 17086,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "이정표 필요",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000034",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 362016.34890001453,
+        "y" : 520069.65650000051
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 17087,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "노선과노선의접점",
+        "ETC_MATTER" : "이정표 필요",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000035",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 363182.77520001493,
+        "y" : 519415.98020000197
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 17088,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "이정표 필요",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000036",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 363420.82540001534,
+        "y" : 518829.76920000091
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 17089,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000037",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 363458.92750001512,
+        "y" : 519359.70930000022
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 17090,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000038",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 363604.61059164722,
+        "y" : 519588.78644881025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 17091,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000039",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 363616.91140001267,
+        "y" : 519579.39390000701
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 17092,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "노선과노선의접점",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000040",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 363732.66419074778,
+        "y" : 519497.42072301731
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 17093,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000041",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 363747.23590001557,
+        "y" : 518859.77710000053
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 17094,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000042",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 363747.46950001549,
+        "y" : 518859.90139999986
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 17095,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "노선과노선의접점",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000043",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 363934.49400001578,
+        "y" : 519161.35250000283
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 17096,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000044",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 363988.90170001704,
+        "y" : 519065.91980000027
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 17097,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,경사지",
+        "ETC_MATTER" : "이정표필요,로프필요(70)",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000045",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 364274.78470001463,
+        "y" : 516532.41720000096
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 17098,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "노선과노선의접점",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000046",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 364437.53120001405,
+        "y" : 518673.83090000227
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 17099,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000047",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 364726.01160001568,
+        "y" : 522038.95680000447
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 17100,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000048",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 365081.23990001623,
+        "y" : 519490.38099999912
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 17101,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000049",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 365380.38670001552,
+        "y" : 518497.57120000385
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 17102,
+        "MNTN_CODE" : "427701901",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : "이정표필요",
+        "MNTN_NM" : "노목산",
+        "PAST_SPOT_" : "22110610000050",
+        "MNTN_ID" : "2211061000"
+      },
+      "geometry" : {
+        "x" : 365539.59410001803,
+        "y" : 519621.01140000299
+      }
+    }
+  ]
+}

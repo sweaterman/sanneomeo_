@@ -1,0 +1,801 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 87021,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "위럼지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000001",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 216877.83640000038,
+        "y" : 464559.12270000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 87022,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌탑",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000002",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 216875.34480000194,
+        "y" : 464580.78460000083
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 87023,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "삼각점,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000003",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 216747.28040000144,
+        "y" : 464503.11520000175
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 87024,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "휀스봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000004",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 216800.72290000133,
+        "y" : 464422.65460000373
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 87025,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000005",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 216974.37509999983,
+        "y" : 464247.80780000053
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 87026,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000006",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 217000.90420000255,
+        "y" : 464215.72880000249
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 87027,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000007",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 217014.23760000058,
+        "y" : 464213.32780000009
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 87028,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000008",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 217030.21939999983,
+        "y" : 464199.34039999917
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 87029,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "2단평행봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000009",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 217084.1875999989,
+        "y" : 464160.88440000266
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 87030,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "평의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000010",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 217103.26400000136,
+        "y" : 464140.92569999956
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 87031,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "평상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000011",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 217181.73140000086,
+        "y" : 463985.60449999943
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 87032,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "평의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000012",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 216125.02919999976,
+        "y" : 464132.39749999903
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 87033,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "평의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000013",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 215958.28289999999,
+        "y" : 464167.68889999762
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 87034,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "평상,허리,윗몸",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000014",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 215969.70560000185,
+        "y" : 464191.26060000248
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 87035,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000015",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 216563.91940000374,
+        "y" : 464985.23050000146
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 87036,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "평의자,윗몸1,허리1",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000016",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 216891.66620000079,
+        "y" : 464313.4178000018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 87037,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,천안죽전원",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000017",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 215840.53410000075,
+        "y" : 466269.41740000062
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 87038,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,이정표,돌평의자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000018",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 215985.9840000011,
+        "y" : 464214.26300000213
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 87039,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000019",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 216318.20720000006,
+        "y" : 466565.77590000257
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 87040,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000020",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 216389.14720000047,
+        "y" : 463380.75479999743
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 87041,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000021",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 216403.30339999963,
+        "y" : 464033.31620000675
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 87042,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000022",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 216513.74119174574,
+        "y" : 467090.54849670082
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 87043,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000023",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 216524.30860000104,
+        "y" : 466324.58830000274
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 87044,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000024",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 216590.05990000255,
+        "y" : 464811.86200000159
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 87045,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000025",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 216644.34449999966,
+        "y" : 466546.1286999993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 87046,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "분기,이정표,정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000026",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 216657.56419999991,
+        "y" : 464548.36920000054
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 87047,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "평의자,윗몸,등치기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000027",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 216760.13170000073,
+        "y" : 464492.88000000082
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 87048,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000028",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 216825.21460000053,
+        "y" : 464376.05790000036
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 87049,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000029",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 216872.83980000112,
+        "y" : 464602.49239999987
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 87050,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점,평의자,윗몸1,허리1,암벽구간",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000030",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 216873.94360000268,
+        "y" : 464327.45710000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 87051,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "평의자,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000031",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 216917.67599999998,
+        "y" : 464288.33320000395
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 87052,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000032",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 216918.05660000257,
+        "y" : 467137.95400000364
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 87053,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "평의자,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000033",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 216949.50490000099,
+        "y" : 464258.30850000307
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 87054,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기,목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000034",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 217124.01840000134,
+        "y" : 464099.75809999742
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 87055,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000035",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 217182.23540000245,
+        "y" : 464005.25430000387
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 87056,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "휀스봉,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000036",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 217200.94880000129,
+        "y" : 463908.08389999904
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 87057,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,동우아파트",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000037",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 217288.06549999863,
+        "y" : 463819.02690000273
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 87058,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000038",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 217295.72420000006,
+        "y" : 466400.4552000016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 87059,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,지산2리 ,갈뫼정,모과나무집부근",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000039",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 217481.23309999984,
+        "y" : 464843.95040000044
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 87060,
+        "MNTN_CODE" : "441303201",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "취암산",
+        "PAST_SPOT_" : "24134340000040",
+        "MNTN_ID" : "2413434000"
+      },
+      "geometry" : {
+        "x" : 217759.67850000318,
+        "y" : 464079.80100000277
+      }
+    }
+  ]
+}

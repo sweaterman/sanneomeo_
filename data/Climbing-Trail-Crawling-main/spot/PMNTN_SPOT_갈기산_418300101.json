@@ -1,0 +1,441 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 1404,
+        "MNTN_CODE" : "418300101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "갈기산",
+        "PAST_SPOT_" : "4272001010001",
+        "MNTN_ID" : "427200101"
+      },
+      "geometry" : {
+        "x" : 266946.94330000225,
+        "y" : 554877.48520000279
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 1405,
+        "MNTN_CODE" : "418300101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "갈기산",
+        "PAST_SPOT_" : "4183001010002",
+        "MNTN_ID" : "418300101"
+      },
+      "geometry" : {
+        "x" : 268047.12724217679,
+        "y" : 553857.11658325419
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 1406,
+        "MNTN_CODE" : "418300101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "갈기산",
+        "PAST_SPOT_" : "21301201000003",
+        "MNTN_ID" : "2130120100"
+      },
+      "geometry" : {
+        "x" : 270479.32730000187,
+        "y" : 552590.11319999956
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 1407,
+        "MNTN_CODE" : "418300101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "갈기산",
+        "PAST_SPOT_" : "21301201000004",
+        "MNTN_ID" : "2130120100"
+      },
+      "geometry" : {
+        "x" : 270260.4581000004,
+        "y" : 552875.01060000248
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 1408,
+        "MNTN_CODE" : "418300101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "갈기산",
+        "PAST_SPOT_" : "21301201000005",
+        "MNTN_ID" : "2130120100"
+      },
+      "geometry" : {
+        "x" : 270108.12350000162,
+        "y" : 553129.02430000156
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 1409,
+        "MNTN_CODE" : "418300101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "갈기산",
+        "PAST_SPOT_" : "21301201000006",
+        "MNTN_ID" : "2130120100"
+      },
+      "geometry" : {
+        "x" : 269626.00720000267,
+        "y" : 553556.02200000174
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 1410,
+        "MNTN_CODE" : "418300101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "갈기산",
+        "PAST_SPOT_" : "21301201000007",
+        "MNTN_ID" : "2130120100"
+      },
+      "geometry" : {
+        "x" : 269351.34440000262,
+        "y" : 553476.02630000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 1411,
+        "MNTN_CODE" : "418300101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "갈기산",
+        "PAST_SPOT_" : "21301201000008",
+        "MNTN_ID" : "2130120100"
+      },
+      "geometry" : {
+        "x" : 269193.58120000083,
+        "y" : 553502.46169999987
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 1412,
+        "MNTN_CODE" : "418300101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "갈기산",
+        "PAST_SPOT_" : "21301201000009",
+        "MNTN_ID" : "2130120100"
+      },
+      "geometry" : {
+        "x" : 268715.22369999997,
+        "y" : 553661.29330000281
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 1413,
+        "MNTN_CODE" : "418300101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "갈기산",
+        "PAST_SPOT_" : "21301201000010",
+        "MNTN_ID" : "2130120100"
+      },
+      "geometry" : {
+        "x" : 269447.92670000158,
+        "y" : 553547.13240000233
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 1414,
+        "MNTN_CODE" : "418300101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "갈기산",
+        "PAST_SPOT_" : "21301201000011",
+        "MNTN_ID" : "2130120100"
+      },
+      "geometry" : {
+        "x" : 268076.12730000075,
+        "y" : 553853.98409999907
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 1415,
+        "MNTN_CODE" : "418300101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "갈기산",
+        "PAST_SPOT_" : "21301201000012",
+        "MNTN_ID" : "2130120100"
+      },
+      "geometry" : {
+        "x" : 268016.31900000386,
+        "y" : 553426.14710000157
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 1416,
+        "MNTN_CODE" : "418300101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "갈기산",
+        "PAST_SPOT_" : "21301201000013",
+        "MNTN_ID" : "2130120100"
+      },
+      "geometry" : {
+        "x" : 268013.76800000202,
+        "y" : 553378.02660000511
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 1417,
+        "MNTN_CODE" : "418300101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "갈기산",
+        "PAST_SPOT_" : "21301201000014",
+        "MNTN_ID" : "2130120100"
+      },
+      "geometry" : {
+        "x" : 267958.65299999993,
+        "y" : 553275.82660000026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 1418,
+        "MNTN_CODE" : "418300101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "(부부바위)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "갈기산",
+        "PAST_SPOT_" : "21301201000015",
+        "MNTN_ID" : "2130120100"
+      },
+      "geometry" : {
+        "x" : 269512.64389999956,
+        "y" : 553555.07330000214
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 1419,
+        "MNTN_CODE" : "418300101",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "갈기산",
+        "PAST_SPOT_" : "21301201000016",
+        "MNTN_ID" : "2130120100"
+      },
+      "geometry" : {
+        "x" : 269449.38350000419,
+        "y" : 553548.99459999986
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 1420,
+        "MNTN_CODE" : "418300101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "용화사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "갈기산",
+        "PAST_SPOT_" : "21301201000017",
+        "MNTN_ID" : "2130120100"
+      },
+      "geometry" : {
+        "x" : 267556.73269999959,
+        "y" : 552726.80570000596
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 1421,
+        "MNTN_CODE" : "418300101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "갈기산",
+        "PAST_SPOT_" : "21301201000018",
+        "MNTN_ID" : "2130120100"
+      },
+      "geometry" : {
+        "x" : 267510.9336000029,
+        "y" : 552594.92550000362
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 1422,
+        "MNTN_CODE" : "418300101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "갈기산",
+        "PAST_SPOT_" : "21301201000019",
+        "MNTN_ID" : "2130120100"
+      },
+      "geometry" : {
+        "x" : 269450.36826534662,
+        "y" : 553531.13420538232
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 1423,
+        "MNTN_CODE" : "418300101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "갈기산",
+        "PAST_SPOT_" : "21301201000020",
+        "MNTN_ID" : "2130120100"
+      },
+      "geometry" : {
+        "x" : 270575.34750000108,
+        "y" : 552447.5672999993
+      }
+    }
+  ]
+}

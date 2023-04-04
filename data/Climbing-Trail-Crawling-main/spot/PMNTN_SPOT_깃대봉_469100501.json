@@ -1,0 +1,837 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 15222,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010001",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 34340.843331106007,
+        "y" : 233609.27839164622
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 15223,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010002",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 34398.541066613048,
+        "y" : 233653.68652574904
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 15224,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010003",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 34892.891371647827,
+        "y" : 233569.7555862274
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 15225,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "등대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010004",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 35446.780299606733,
+        "y" : 236554.35431377217
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 15226,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010005",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 34357.037161746062,
+        "y" : 233636.62710205279
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 15227,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "인화물질 보관함",
+        "ETC_MATTER" : "인화물질 보관함",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010006",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 34382.496473460458,
+        "y" : 233636.16993419081
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 15228,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판 또는 지도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010007",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 34408.509103044868,
+        "y" : 233666.53374406137
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 15229,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "산불진화장비",
+        "ETC_MATTER" : "산불진화장비",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010008",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 34434.520658176392,
+        "y" : 233696.89763847552
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 15230,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판 또는 지도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010009",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 34513.110017126426,
+        "y" : 233818.8095916044
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 15231,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "구조목",
+        "ETC_MATTER" : "구조목",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010010",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 34591.143715669401,
+        "y" : 233909.90116730146
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 15232,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판 또는 지도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010011",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 34617.707681148313,
+        "y" : 233971.08642806858
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 15233,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : "목재벤치",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010012",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 34797.570614135824,
+        "y" : 234060.3541524224
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 15234,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "목재계단",
+        "ETC_MATTER" : "목재계단",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010013",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 34798.674793140031,
+        "y" : 234121.99495602027
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 15235,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "목재계단",
+        "ETC_MATTER" : "목재계단",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010014",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 34799.226897417568,
+        "y" : 234152.81585863978
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 15236,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "구급함",
+        "ETC_MATTER" : "구급함",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010015",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 34774.321248689666,
+        "y" : 234184.0928350836
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 15237,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "구조목",
+        "ETC_MATTER" : "구조목",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010016",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 34800.883233583532,
+        "y" : 234245.27857410535
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 15238,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판 또는 지도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010017",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 34827.444872356951,
+        "y" : 234306.46328425594
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 15239,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판 또는 지도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010018",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 34956.385943841189,
+        "y" : 234396.64591654576
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 15240,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010019",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 34982.946186944842,
+        "y" : 234457.83223047853
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 15241,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "구조목",
+        "ETC_MATTER" : "구조목",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010020",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 35037.167560035363,
+        "y" : 234641.84559817053
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 15242,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010021",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 35062.624025721103,
+        "y" : 234641.39020401798
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 15243,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "안전난간",
+        "ETC_MATTER" : "안전난간",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010022",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 35063.175324819982,
+        "y" : 234672.2100139074
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 15244,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판 또는 지도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010023",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 35141.747845113277,
+        "y" : 234794.12798727676
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 15245,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "목재계단",
+        "ETC_MATTER" : "목재계단",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010024",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 35141.747845113277,
+        "y" : 234794.12798727676
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 15246,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "구조목",
+        "ETC_MATTER" : "구조목",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010025",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 35193.210887544788,
+        "y" : 234824.0376218576
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 15247,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "안전나간",
+        "ETC_MATTER" : "안전나간",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010026",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 35270.679141398519,
+        "y" : 234884.31470775977
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 15248,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상,구조목",
+        "ETC_MATTER" : "정상석",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010027",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 35369.419876113534,
+        "y" : 234951.10687779635
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 15249,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "구조목",
+        "ETC_MATTER" : "구조목",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010028",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 35373.601954285055,
+        "y" : 234944.1367475763
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 15250,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "구조목",
+        "ETC_MATTER" : "구조목",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010029",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 35555.088750404306,
+        "y" : 235125.88111818023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 15251,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010030",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 35532.382931233384,
+        "y" : 235280.43860691413
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 15252,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010031",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 35609.845200512558,
+        "y" : 235340.7183563821
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 15253,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010032",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 35609.845200512558,
+        "y" : 235340.7183563821
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 15254,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판 또는 지도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010033",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 35559.486919930205,
+        "y" : 235372.44612832181
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 15255,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "구조목",
+        "ETC_MATTER" : "구조목",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010034",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 35510.77798857633,
+        "y" : 235496.63704225048
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 15256,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010035",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 35486.974053962156,
+        "y" : 235589.55404168181
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 15257,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "목재계단",
+        "ETC_MATTER" : "목재계단",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010036",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 35488.074190578423,
+        "y" : 235651.19478583522
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 15258,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "구조목",
+        "ETC_MATTER" : "구조목",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010037",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 35488.624274493195,
+        "y" : 235682.01570862345
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 15259,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판 또는 지도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010038",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 35391.214481160045,
+        "y" : 235930.39880079776
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 15260,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "산불진화장비",
+        "ETC_MATTER" : "산불진화장비",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010039",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 35416.66735150665,
+        "y" : 235929.94425132312
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 15261,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010040",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 35391.214481160045,
+        "y" : 235930.39880079776
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 15262,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010041",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 35367.414161710069,
+        "y" : 236023.31623580307
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 15263,
+        "MNTN_CODE" : "469100501",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "목재계단",
+        "ETC_MATTER" : "목재계단",
+        "MNTN_NM" : "깃대봉",
+        "PAST_SPOT_" : "4691005010042",
+        "MNTN_ID" : "469100501"
+      },
+      "geometry" : {
+        "x" : 35367.414161710069,
+        "y" : 236023.31623580307
+      }
+    }
+  ]
+}

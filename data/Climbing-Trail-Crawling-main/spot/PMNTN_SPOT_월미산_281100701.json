@@ -1,0 +1,585 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 72718,
+        "MNTN_CODE" : "281100701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월미산",
+        "PAST_SPOT_" : "2811007010001",
+        "MNTN_ID" : "281100701"
+      },
+      "geometry" : {
+        "x" : 164865.85470000003,
+        "y" : 541850.26740000211
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 72719,
+        "MNTN_CODE" : "281100701",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "정자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월미산",
+        "PAST_SPOT_" : "2811007010002",
+        "MNTN_ID" : "281100701"
+      },
+      "geometry" : {
+        "x" : 164969.22430000082,
+        "y" : 541693.07630000263
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 72720,
+        "MNTN_CODE" : "281100701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "전통공원",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월미산",
+        "PAST_SPOT_" : "2811007010003",
+        "MNTN_ID" : "281100701"
+      },
+      "geometry" : {
+        "x" : 165170.58710000105,
+        "y" : 541565.49719999917
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 72721,
+        "MNTN_CODE" : "281100701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월미산",
+        "PAST_SPOT_" : "2811007010004",
+        "MNTN_ID" : "281100701"
+      },
+      "geometry" : {
+        "x" : 165090.20220000017,
+        "y" : 541467.37069999985
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 72722,
+        "MNTN_CODE" : "281100701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월미산",
+        "PAST_SPOT_" : "2811007010005",
+        "MNTN_ID" : "281100701"
+      },
+      "geometry" : {
+        "x" : 164952.51970000099,
+        "y" : 541374.13730000146
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 72723,
+        "MNTN_CODE" : "281100701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돈대(포대)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월미산",
+        "PAST_SPOT_" : "2811007010006",
+        "MNTN_ID" : "281100701"
+      },
+      "geometry" : {
+        "x" : 165031.94890000112,
+        "y" : 541321.66950000077
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 72724,
+        "MNTN_CODE" : "281100701",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월미산",
+        "PAST_SPOT_" : "2811007010007",
+        "MNTN_ID" : "281100701"
+      },
+      "geometry" : {
+        "x" : 164900.00800000038,
+        "y" : 541474.37490000017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 72725,
+        "MNTN_CODE" : "281100701",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월미산",
+        "PAST_SPOT_" : "2811007010008",
+        "MNTN_ID" : "281100701"
+      },
+      "geometry" : {
+        "x" : 164838.46750000212,
+        "y" : 541530.88970000111
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 72726,
+        "MNTN_CODE" : "281100701",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월미산",
+        "PAST_SPOT_" : "2811007010009",
+        "MNTN_ID" : "281100701"
+      },
+      "geometry" : {
+        "x" : 165063.9338000007,
+        "y" : 541266.22900000215
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 72727,
+        "MNTN_CODE" : "281100701",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "전망대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월미산",
+        "PAST_SPOT_" : "2811007010010",
+        "MNTN_ID" : "281100701"
+      },
+      "geometry" : {
+        "x" : 165092.91810000036,
+        "y" : 541216.5876000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 72728,
+        "MNTN_CODE" : "281100701",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월미산",
+        "PAST_SPOT_" : "2811007010011",
+        "MNTN_ID" : "281100701"
+      },
+      "geometry" : {
+        "x" : 164637.17410000134,
+        "y" : 541448.54490000196
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 72729,
+        "MNTN_CODE" : "281100701",
+        "MANAGE_SP1" : "16",
+        "MANAGE_SP2" : "주요나무",
+        "DETAIL_SPO" : "나무",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월미산",
+        "PAST_SPOT_" : "2811007010012",
+        "MNTN_ID" : "281100701"
+      },
+      "geometry" : {
+        "x" : 164852.6902999999,
+        "y" : 541747.41310000047
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 72730,
+        "MNTN_CODE" : "281100701",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월미산",
+        "PAST_SPOT_" : "2811007010013",
+        "MNTN_ID" : "281100701"
+      },
+      "geometry" : {
+        "x" : 165158.17800000124,
+        "y" : 541417.26850000024
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 72731,
+        "MNTN_CODE" : "281100701",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "정자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월미산",
+        "PAST_SPOT_" : "2811007010014",
+        "MNTN_ID" : "281100701"
+      },
+      "geometry" : {
+        "x" : 165084.83640000131,
+        "y" : 541061.01019999944
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 72732,
+        "MNTN_CODE" : "281100701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월미산",
+        "PAST_SPOT_" : "2811007010015",
+        "MNTN_ID" : "281100701"
+      },
+      "geometry" : {
+        "x" : 164376.17380000092,
+        "y" : 541356.00350000151
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 72733,
+        "MNTN_CODE" : "281100701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월미산",
+        "PAST_SPOT_" : "2811007010016",
+        "MNTN_ID" : "281100701"
+      },
+      "geometry" : {
+        "x" : 164450.46290000062,
+        "y" : 541448.19540000148
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 72734,
+        "MNTN_CODE" : "281100701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월미산",
+        "PAST_SPOT_" : "2811007010017",
+        "MNTN_ID" : "281100701"
+      },
+      "geometry" : {
+        "x" : 164767.15020000096,
+        "y" : 541828.47310000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 72735,
+        "MNTN_CODE" : "281100701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월미산",
+        "PAST_SPOT_" : "2811007010018",
+        "MNTN_ID" : "281100701"
+      },
+      "geometry" : {
+        "x" : 164837.4682,
+        "y" : 541531.29400000162
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 72736,
+        "MNTN_CODE" : "281100701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월미산",
+        "PAST_SPOT_" : "2811007010019",
+        "MNTN_ID" : "281100701"
+      },
+      "geometry" : {
+        "x" : 164904.24679999985,
+        "y" : 541767.54160000198
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 72737,
+        "MNTN_CODE" : "281100701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월미산",
+        "PAST_SPOT_" : "2811007010020",
+        "MNTN_ID" : "281100701"
+      },
+      "geometry" : {
+        "x" : 164952.23250000086,
+        "y" : 541372.82670000382
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 72738,
+        "MNTN_CODE" : "281100701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월미산",
+        "PAST_SPOT_" : "2811007010021",
+        "MNTN_ID" : "281100701"
+      },
+      "geometry" : {
+        "x" : 165035.77750000078,
+        "y" : 541324.03500000015
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 72739,
+        "MNTN_CODE" : "281100701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월미산",
+        "PAST_SPOT_" : "2811007010022",
+        "MNTN_ID" : "281100701"
+      },
+      "geometry" : {
+        "x" : 165037.47640000097,
+        "y" : 541568.08280000277
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 72740,
+        "MNTN_CODE" : "281100701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월미산",
+        "PAST_SPOT_" : "2811007010023",
+        "MNTN_ID" : "281100701"
+      },
+      "geometry" : {
+        "x" : 165093.11440000124,
+        "y" : 541472.2424999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 72741,
+        "MNTN_CODE" : "281100701",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월미산",
+        "PAST_SPOT_" : "2811007010024",
+        "MNTN_ID" : "281100701"
+      },
+      "geometry" : {
+        "x" : 165094.90789999999,
+        "y" : 541593.24990000203
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 72742,
+        "MNTN_CODE" : "281100701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월미산",
+        "PAST_SPOT_" : "2811007010025",
+        "MNTN_ID" : "281100701"
+      },
+      "geometry" : {
+        "x" : 165097.23450000025,
+        "y" : 541211.63859999925
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 72743,
+        "MNTN_CODE" : "281100701",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월미산",
+        "PAST_SPOT_" : "2811007010026",
+        "MNTN_ID" : "281100701"
+      },
+      "geometry" : {
+        "x" : 165220.88129999954,
+        "y" : 541530.92280000262
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 98794,
+        "MNTN_CODE" : "281100701",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월미산",
+        "PAST_SPOT_" : "2811007010027",
+        "MNTN_ID" : "281100701"
+      },
+      "geometry" : {
+        "x" : 164901.1462000001,
+        "y" : 541769.13590000023
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 98795,
+        "MNTN_CODE" : "281100701",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "정자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "월미산",
+        "PAST_SPOT_" : "2811007010028",
+        "MNTN_ID" : "281100701"
+      },
+      "geometry" : {
+        "x" : 164457.32279999967,
+        "y" : 541445.02169999934
+      }
+    }
+  ]
+}

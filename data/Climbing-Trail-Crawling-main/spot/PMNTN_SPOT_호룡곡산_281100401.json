@@ -1,0 +1,585 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 92643,
+        "MNTN_CODE" : "281100401",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호룡곡산",
+        "PAST_SPOT_" : "14105404000001",
+        "MNTN_ID" : "1410540400"
+      },
+      "geometry" : {
+        "x" : 147923.45559999999,
+        "y" : 531832.30570000224
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 92644,
+        "MNTN_CODE" : "281100401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호룡곡산",
+        "PAST_SPOT_" : "14105404000002",
+        "MNTN_ID" : "1410540400"
+      },
+      "geometry" : {
+        "x" : 147730.19990000129,
+        "y" : 531570.39830000326
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 92645,
+        "MNTN_CODE" : "281100401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호룡곡산",
+        "PAST_SPOT_" : "14105404000003",
+        "MNTN_ID" : "1410540400"
+      },
+      "geometry" : {
+        "x" : 147632.1221000012,
+        "y" : 531496.30520000122
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 92646,
+        "MNTN_CODE" : "281100401",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호룡곡산",
+        "PAST_SPOT_" : "14105404000004",
+        "MNTN_ID" : "1410540400"
+      },
+      "geometry" : {
+        "x" : 147618.18670000043,
+        "y" : 531382.97049999982
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 92647,
+        "MNTN_CODE" : "281100401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계단및난간",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호룡곡산",
+        "PAST_SPOT_" : "14105404000005",
+        "MNTN_ID" : "1410540400"
+      },
+      "geometry" : {
+        "x" : 147647.83739999961,
+        "y" : 531313.32589999959
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 92648,
+        "MNTN_CODE" : "281100401",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호룡곡산",
+        "PAST_SPOT_" : "14105404000006",
+        "MNTN_ID" : "1410540400"
+      },
+      "geometry" : {
+        "x" : 147694.46080000047,
+        "y" : 531181.79719999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 92649,
+        "MNTN_CODE" : "281100401",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호룡곡산",
+        "PAST_SPOT_" : "14105404000007",
+        "MNTN_ID" : "1410540400"
+      },
+      "geometry" : {
+        "x" : 147736.96210000291,
+        "y" : 530987.28480000235
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 92650,
+        "MNTN_CODE" : "281100401",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호룡곡산",
+        "PAST_SPOT_" : "14105404000008",
+        "MNTN_ID" : "1410540400"
+      },
+      "geometry" : {
+        "x" : 147956.64340000041,
+        "y" : 530838.93659999967
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 92651,
+        "MNTN_CODE" : "281100401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호룡곡산",
+        "PAST_SPOT_" : "14105404000009",
+        "MNTN_ID" : "1410540400"
+      },
+      "geometry" : {
+        "x" : 148254.50599999912,
+        "y" : 530919.52800000459
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 92652,
+        "MNTN_CODE" : "281100401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "돌계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호룡곡산",
+        "PAST_SPOT_" : "14105404000010",
+        "MNTN_ID" : "1410540400"
+      },
+      "geometry" : {
+        "x" : 148331.25760000199,
+        "y" : 531048.25709999911
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 92653,
+        "MNTN_CODE" : "281100401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "부처바위",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호룡곡산",
+        "PAST_SPOT_" : "14105404000011",
+        "MNTN_ID" : "1410540400"
+      },
+      "geometry" : {
+        "x" : 148572.8002000032,
+        "y" : 530971.90090000257
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 92654,
+        "MNTN_CODE" : "281100401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호룡곡산",
+        "PAST_SPOT_" : "14105404000012",
+        "MNTN_ID" : "1410540400"
+      },
+      "geometry" : {
+        "x" : 148750.30040000193,
+        "y" : 531164.1660999991
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 92655,
+        "MNTN_CODE" : "281100401",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호룡곡산",
+        "PAST_SPOT_" : "14105404000013",
+        "MNTN_ID" : "1410540400"
+      },
+      "geometry" : {
+        "x" : 148638.65710000228,
+        "y" : 531264.034500001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 92656,
+        "MNTN_CODE" : "281100401",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호룡곡산",
+        "PAST_SPOT_" : "14105404000014",
+        "MNTN_ID" : "1410540400"
+      },
+      "geometry" : {
+        "x" : 148626.29040000029,
+        "y" : 531291.04830000177
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 92657,
+        "MNTN_CODE" : "281100401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "유래석",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호룡곡산",
+        "PAST_SPOT_" : "14105404000015",
+        "MNTN_ID" : "1410540400"
+      },
+      "geometry" : {
+        "x" : 148419.21930000186,
+        "y" : 531572.11310000345
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 92658,
+        "MNTN_CODE" : "281100401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호룡곡산",
+        "PAST_SPOT_" : "14105404000016",
+        "MNTN_ID" : "1410540400"
+      },
+      "geometry" : {
+        "x" : 148189.98530000076,
+        "y" : 531573.76710000075
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 92659,
+        "MNTN_CODE" : "281100401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호룡곡산",
+        "PAST_SPOT_" : "14105404000017",
+        "MNTN_ID" : "1410540400"
+      },
+      "geometry" : {
+        "x" : 149732.94629999995,
+        "y" : 530701.5362000037
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 92660,
+        "MNTN_CODE" : "281100401",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호룡곡산",
+        "PAST_SPOT_" : "14105404000018",
+        "MNTN_ID" : "1410540400"
+      },
+      "geometry" : {
+        "x" : 149277.28079999983,
+        "y" : 530564.50129999965
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 92661,
+        "MNTN_CODE" : "281100401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호룡곡산",
+        "PAST_SPOT_" : "14105404000019",
+        "MNTN_ID" : "1410540400"
+      },
+      "geometry" : {
+        "x" : 148901.42140000034,
+        "y" : 530744.31409999914
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 92662,
+        "MNTN_CODE" : "281100401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호룡곡산",
+        "PAST_SPOT_" : "14105404000020",
+        "MNTN_ID" : "1410540400"
+      },
+      "geometry" : {
+        "x" : 148707.87079999875,
+        "y" : 530992.30179999955
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 92663,
+        "MNTN_CODE" : "281100401",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호룡곡산",
+        "PAST_SPOT_" : "14105404000021",
+        "MNTN_ID" : "1410540400"
+      },
+      "geometry" : {
+        "x" : 148795.29869999923,
+        "y" : 531177.63040000014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 92664,
+        "MNTN_CODE" : "281100401",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무계단",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호룡곡산",
+        "PAST_SPOT_" : "14105404000022",
+        "MNTN_ID" : "1410540400"
+      },
+      "geometry" : {
+        "x" : 148762.52120000217,
+        "y" : 531963.89380000159
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 92665,
+        "MNTN_CODE" : "281100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호룡곡산",
+        "PAST_SPOT_" : "14105404000023",
+        "MNTN_ID" : "1410540400"
+      },
+      "geometry" : {
+        "x" : 147922.96549999993,
+        "y" : 531900.84660000168
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 92666,
+        "MNTN_CODE" : "281100401",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호룡곡산",
+        "PAST_SPOT_" : "14105404000024",
+        "MNTN_ID" : "1410540400"
+      },
+      "geometry" : {
+        "x" : 147975.50519999862,
+        "y" : 531738.72839999944
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 92667,
+        "MNTN_CODE" : "281100401",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호룡곡산",
+        "PAST_SPOT_" : "14105404000025",
+        "MNTN_ID" : "1410540400"
+      },
+      "geometry" : {
+        "x" : 148695.6949000014,
+        "y" : 530972.88640000299
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 92668,
+        "MNTN_CODE" : "281100401",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상부",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호룡곡산",
+        "PAST_SPOT_" : "14105404000026",
+        "MNTN_ID" : "1410540400"
+      },
+      "geometry" : {
+        "x" : 148778.29220000003,
+        "y" : 531112.86030000448
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 92669,
+        "MNTN_CODE" : "281100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호룡곡산",
+        "PAST_SPOT_" : "14105404000027",
+        "MNTN_ID" : "1410540400"
+      },
+      "geometry" : {
+        "x" : 149769.67220000178,
+        "y" : 530741.63750000112
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 92670,
+        "MNTN_CODE" : "281100401",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "호룡곡산",
+        "PAST_SPOT_" : "14105404000028",
+        "MNTN_ID" : "1410540400"
+      },
+      "geometry" : {
+        "x" : 148783.07471337169,
+        "y" : 532002.59203650057
+      }
+    }
+  ]
+}

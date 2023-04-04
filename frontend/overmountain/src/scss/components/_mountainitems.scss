@@ -1,0 +1,84 @@
+.mountain-suggestion {
+  padding: 0px 20px 10px 20px;
+  text-align: left;
+  margin-bottom: 20px;
+  // background-color: ;
+
+  width: 100%;
+
+  .suggestion-text {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    font-size: $font-h3;
+    font-weight: 700;
+    // margin-left: 0.8vw;
+    .user-challenge {
+      text-decoration: none;
+    }
+  }
+
+
+  .grid-wrapper{
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .grid-wrapper a{
+    margin: 1vw;
+  }
+
+  figure {
+    position: relative;
+    display: inline-block;
+    align-self: center;
+    // padding-left:10px;
+    // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    img {
+      border-radius: 10px;
+      width: 80px;
+      height: 80px;
+      filter: brightness(60%);
+      object-fit: cover;
+
+      @media only screen and (min-width: 321px) {
+        width: 120px;
+        height: 130px;
+      }
+    }
+
+    div{
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      bottom: 10px;
+      padding-left: 10px;
+    }
+
+    figcaption {
+      width: 80px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      // background-color: white;s
+      color: white;
+      text-align: left;
+      
+
+      @media only screen and (min-width: 321px) {
+        width: 90px;
+      }
+    }
+
+    .figcaption-title{
+      font-weight: 500;
+    }
+
+    .figcaption-discription{
+      font-weight: 200;
+      font-size: $font-h5;
+    }
+  }
+}

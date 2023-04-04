@@ -1,0 +1,477 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 1334,
+        "MNTN_CODE" : "427700301",
+        "MANAGE_SP1" : "20",
+        "MANAGE_SP2" : "동굴",
+        "DETAIL_SPO" : "화암동굴",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각희산",
+        "PAST_SPOT_" : "22110302000001",
+        "MNTN_ID" : "2211030200"
+      },
+      "geometry" : {
+        "x" : 358968.99910001084,
+        "y" : 529266.13470000029
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 1335,
+        "MNTN_CODE" : "427700301",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각희산",
+        "PAST_SPOT_" : "22110302000002",
+        "MNTN_ID" : "2211030200"
+      },
+      "geometry" : {
+        "x" : 359002.42790001165,
+        "y" : 529251.66820000112
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 1336,
+        "MNTN_CODE" : "427700301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각희산",
+        "PAST_SPOT_" : "22110302000003",
+        "MNTN_ID" : "2211030200"
+      },
+      "geometry" : {
+        "x" : 358952.31470001396,
+        "y" : 529495.89180000313
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 1337,
+        "MNTN_CODE" : "427700301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "전망대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각희산",
+        "PAST_SPOT_" : "22110302000004",
+        "MNTN_ID" : "2211030200"
+      },
+      "geometry" : {
+        "x" : 358955.78150001448,
+        "y" : 529514.05700000376
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 1338,
+        "MNTN_CODE" : "427700301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각희산",
+        "PAST_SPOT_" : "22110302000005",
+        "MNTN_ID" : "2211030200"
+      },
+      "geometry" : {
+        "x" : 359702.95130001381,
+        "y" : 529403.46859999932
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 1339,
+        "MNTN_CODE" : "427700301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "난간",
+        "ETC_MATTER" : "위험지역",
+        "MNTN_NM" : "각희산",
+        "PAST_SPOT_" : "22110302000006",
+        "MNTN_ID" : "2211030200"
+      },
+      "geometry" : {
+        "x" : 359949.99510001298,
+        "y" : 529742.86010000668
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 1340,
+        "MNTN_CODE" : "427700301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각희산",
+        "PAST_SPOT_" : "22110302000007",
+        "MNTN_ID" : "2211030200"
+      },
+      "geometry" : {
+        "x" : 360022.08260001522,
+        "y" : 530061.702100005
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 1341,
+        "MNTN_CODE" : "427700301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "화암문조망도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각희산",
+        "PAST_SPOT_" : "22110302000008",
+        "MNTN_ID" : "2211030200"
+      },
+      "geometry" : {
+        "x" : 359989.77840001229,
+        "y" : 530124.04440000281
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 1342,
+        "MNTN_CODE" : "427700301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각희산",
+        "PAST_SPOT_" : "22110302000009",
+        "MNTN_ID" : "2211030200"
+      },
+      "geometry" : {
+        "x" : 361038.31490001548,
+        "y" : 530970.41020000353
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 1343,
+        "MNTN_CODE" : "427700301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각희산",
+        "PAST_SPOT_" : "22110302000010",
+        "MNTN_ID" : "2211030200"
+      },
+      "geometry" : {
+        "x" : 360347.59280001465,
+        "y" : 530365.74260000139
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 1344,
+        "MNTN_CODE" : "427700301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각희산",
+        "PAST_SPOT_" : "22110302000011",
+        "MNTN_ID" : "2211030200"
+      },
+      "geometry" : {
+        "x" : 360417.80650001578,
+        "y" : 530004.31839999929
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 1345,
+        "MNTN_CODE" : "427700301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각희산",
+        "PAST_SPOT_" : "22110302000012",
+        "MNTN_ID" : "2211030200"
+      },
+      "geometry" : {
+        "x" : 360546.0121000139,
+        "y" : 529919.49860000052
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 1346,
+        "MNTN_CODE" : "427700301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각희산",
+        "PAST_SPOT_" : "22110302000013",
+        "MNTN_ID" : "2211030200"
+      },
+      "geometry" : {
+        "x" : 360459.30680001713,
+        "y" : 529416.15470000356
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 1347,
+        "MNTN_CODE" : "427700301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각희산",
+        "PAST_SPOT_" : "22110302000014",
+        "MNTN_ID" : "2211030200"
+      },
+      "geometry" : {
+        "x" : 358658.23260001093,
+        "y" : 529480.15340000205
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 1348,
+        "MNTN_CODE" : "427700301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각희산",
+        "PAST_SPOT_" : "22110302000015",
+        "MNTN_ID" : "2211030200"
+      },
+      "geometry" : {
+        "x" : 358763.9451000141,
+        "y" : 529937.08570000157
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 1349,
+        "MNTN_CODE" : "427700301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "노선내분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각희산",
+        "PAST_SPOT_" : "22110302000016",
+        "MNTN_ID" : "2211030200"
+      },
+      "geometry" : {
+        "x" : 359187.05260001402,
+        "y" : 529504.49670000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 1350,
+        "MNTN_CODE" : "427700301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각희산",
+        "PAST_SPOT_" : "22110302000017",
+        "MNTN_ID" : "2211030200"
+      },
+      "geometry" : {
+        "x" : 359327.93090001121,
+        "y" : 531015.50680000149
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 1351,
+        "MNTN_CODE" : "427700301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "이정표 있음",
+        "MNTN_NM" : "각희산",
+        "PAST_SPOT_" : "22110302000018",
+        "MNTN_ID" : "2211030200"
+      },
+      "geometry" : {
+        "x" : 360053.38260001503,
+        "y" : 530532.62160000764
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 1352,
+        "MNTN_CODE" : "427700301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : "이정표 있음",
+        "MNTN_NM" : "각희산",
+        "PAST_SPOT_" : "22110302000019",
+        "MNTN_ID" : "2211030200"
+      },
+      "geometry" : {
+        "x" : 360165.31520001031,
+        "y" : 530615.05680000037
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 1353,
+        "MNTN_CODE" : "427700301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각희산",
+        "PAST_SPOT_" : "22110302000020",
+        "MNTN_ID" : "2211030200"
+      },
+      "geometry" : {
+        "x" : 360171.32910001278,
+        "y" : 528509.86089999974
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 1354,
+        "MNTN_CODE" : "427700301",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : "조망도삼각점있음",
+        "MNTN_NM" : "각희산",
+        "PAST_SPOT_" : "22110302000021",
+        "MNTN_ID" : "2211030200"
+      },
+      "geometry" : {
+        "x" : 360688.62920001335,
+        "y" : 530603.13770000078
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 1355,
+        "MNTN_CODE" : "427700301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "각희산",
+        "PAST_SPOT_" : "22110302000022",
+        "MNTN_ID" : "2211030200"
+      },
+      "geometry" : {
+        "x" : 361964.83770001307,
+        "y" : 530358.13100000098
+      }
+    }
+  ]
+}
