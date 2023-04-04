@@ -1,5 +1,6 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { BiSearch } from 'react-icons/bi';
+import mapMarker from '@assets/images/map-marker.png';
 
 function Searchbar(props: {
   searchMountainText: string;
@@ -7,7 +8,16 @@ function Searchbar(props: {
   searchList: Array<ElasticMountain>;
   searchResult: any;
 }) {
-  // input 값 변경감지하여 mainpage에 반영하는 함수
+  const [searchPerformed, setSearchPerformed] = useState(false);
+
+  useEffect(() => {
+    if (props.searchList.length > 0) {
+      setSearchPerformed(true);
+    } else {
+      setSearchPerformed(false);
+    }
+  }, [props.searchList]);
+
   const getValue = (e: any) => {
     props.setSearchMountain(e.target.value);
   };
@@ -17,12 +27,12 @@ function Searchbar(props: {
     props.searchResult(mountain);
     props.setSearchMountain('');
   };
+
+  const searchContainerClassName = searchPerformed ? 'search-container squared' : 'search-container';
+
   return (
     <div className="search-bar">
-      {/* <div className = "search-title">
-        <h1></h1>
-      </div> */}
-      <div className="search-container">
+      <div className={searchContainerClassName}>
         <input
           type="search"
           placeholder="등산하고 싶은 산을 찾아보세요!"
@@ -30,24 +40,24 @@ function Searchbar(props: {
           onChange={getValue}
         ></input>
         <BiSearch size="24" />
-      </div>
-
-      <div className="search-result-container">
-        {props.searchList.map((mountain) => (
-          <div
-            key={mountain.sequence}
-            className="result-box"
-            role="presentation"
-            onClick={() => markerMapHandler(mountain)}
-            onKeyDown={() => markerMapHandler(mountain)}
-          >
-            <div className="mountain-name">{mountain.name}</div>
-            <div className="mountain-address">
-              {mountain.si} {mountain.gu} {mountain.dong}
+        <div className="search-result-container">
+          {props.searchList.map((mountain) => (
+            <div
+              key={mountain.sequence}
+              className="result-box"
+              role="presentation"
+              onClick={() => markerMapHandler(mountain)}
+              onKeyDown={() => markerMapHandler(mountain)}
+            >
+              <div className="mountain-name">{mountain.name}</div>
+              <div className="mountain-address">
+                {/* <img src={mapMarker} className="mountain-address-marker" alt=""></img> */}
+                {mountain.si} {mountain.gu} {mountain.dong}
+              </div>
+              <hr style={{ color: 'black' }} />
             </div>
-            <hr style={{ color: 'black' }} />
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );

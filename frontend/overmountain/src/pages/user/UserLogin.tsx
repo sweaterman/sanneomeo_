@@ -2,6 +2,9 @@ import React from 'react';
 import googleLogo from '@assets/images/google-logo.png';
 import naverLogo from '@assets/images/naver-logo.png';
 import kakaoLogo from '@assets/images/kakao-logo.png';
+import Lottie from 'lottie-react';
+import squirrelAnimation from '@assets/lottie/squirrel.json'
+
 
 import { baseURL } from '@features/port';
 
@@ -23,7 +26,13 @@ function UserLogin() {
 
   return (
     <div className="login-box">
-      <div className="login-welcome-text">Welcome!</div>
+      <div className="login-welcome-text">
+        <Lottie
+          style={{ height: 320 }}
+          animationData={squirrelAnimation} 
+          loop={false}
+        />
+      </div>
       <br />
       <button type="button" onClick={loginToGoogle}>
         <div className="login-button google-login">

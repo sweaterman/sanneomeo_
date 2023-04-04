@@ -4,12 +4,51 @@
   align-items: center;
 
   .trail-list {
-    background-color: aquamarine;
-    width: 80%;
+    // background-color: aquamarine;
+    width: 100%;
+    padding: 10px;
 
     .single-trail {
-      margin-bottom: 10px;
-      background-color: chartreuse;
+      display: flex;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      font-size: $font-h5;
+      box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 6px 0px,
+        rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+      padding: 10px 15px 5px 15px;
+      justify-content: space-between;
+      align-items: center;
+
+      .single-info {
+        display: flex;
+        flex-direction: column;
+
+        .info-name {
+          font-size: $font-h4;
+          font-weight: 600;
+        }
+
+        .info-km-time {
+          display: flex;
+          div {
+            margin-right: 5px;
+          }
+
+          .info-time {
+            color: rgb(234, 85, 85);
+            font-weight: 500;
+          }
+        }
+
+        .info-difficulty {
+          img {
+            width: 35px;
+          }
+        }
+      }
+
+      .single-islike {
+      }
     }
 
     .difficulty {
