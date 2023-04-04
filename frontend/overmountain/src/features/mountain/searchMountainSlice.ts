@@ -13,7 +13,7 @@ export const getMountainSearch = createAsyncThunk(
 
   // 액션이 실행되었을 때 처리되어야 하는 작업
   async (searchMountainKey: string) => {
-    const url = `${baseURL}main/search?key=${searchMountainKey}`; // 검색주소 key
+    const url = `${baseURL}mountain/search?key=${searchMountainKey}`; // 검색주소 key
     const response = await axios({
       method: 'GET',
       url: url,

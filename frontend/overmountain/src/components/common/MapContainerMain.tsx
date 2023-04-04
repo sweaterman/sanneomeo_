@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Map, MapMarker, MapTypeId } from 'react-kakao-maps-sdk';
 import { useNavigate } from 'react-router-dom';
+import mapMarker from '@assets/images/map-marker.png';
+import curMarker from '@assets/images/target.png';
 
 function MapContainerMain(searchPlace: any) {
   // 검색결과 담기
@@ -101,7 +103,8 @@ function MapContainerMain(searchPlace: any) {
                 alt="close"
                 width="14"
                 height="13"
-                src="https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/2x/bt_close.gif"
+                src={mapMarker}
+                // src="https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/2x/bt_close.gif"
                 style={{
                   position: 'absolute',
                   right: '5px',
@@ -125,25 +128,30 @@ function MapContainerMain(searchPlace: any) {
         </MapMarker>
         {/* 지도에 지형정보를 표시하도록 지도타입을 추가합니다 */}
         <MapTypeId type={kakao.maps.MapTypeId.TERRAIN} />
-        <button type="button" onClick={toMapCenter}>
-          현재위치로 이동
-        </button>
-        <button
-          type="button"
-          onClick={() =>
-            setState({
-              center: {
-                lat: state.center.lat,
-                lng: state.center.lng,
-              },
-              errMsg: null,
-              isLoading: false,
-              isPanto: false,
-            })
-          }
-        >
-          ehdeh 이동
-        </button>
+        <div className = "map-button-container">
+          <button className= "map-button" type="button" onClick={toMapCenter}>
+            <img src={curMarker} alt="current location"/>
+            {/* 현재 위치 */}
+          </button>
+          <h1>|</h1>
+          <button
+            type="button"
+            onClick={() =>
+              setState({
+                center: {
+                  lat: state.center.lat,
+                  lng: state.center.lng,
+                },
+                errMsg: null,
+                isLoading: false,
+                isPanto: false,
+              })
+            }
+          >
+            {/* ehdeh 이동 */}
+            <img src={curMarker} alt="current location"/>
+          </button>
+        </div>
       </Map>
     </div>
   );
