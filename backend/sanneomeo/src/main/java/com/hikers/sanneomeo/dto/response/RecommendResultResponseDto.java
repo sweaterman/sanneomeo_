@@ -1,15 +1,11 @@
 package com.hikers.sanneomeo.dto.response;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
 import java.util.List;
 
-@Getter
-@Setter
-@AllArgsConstructor
+@Data
 public class RecommendResultResponseDto {
-    private GetRecommendCourseResponseDto target;
-    private List<GetRecommendCourseResponseDto> result;
+    private RecommendCourseDto target;
+    private List<RecommendCourseDto> result;
 }

@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 import java.util.Objects;
 
 @Data
-public class GetRecommendCourseResponseDto {
+public class RecommendCourseDto {
 
     private Long sequence;
     private String name;
@@ -16,7 +16,7 @@ public class GetRecommendCourseResponseDto {
     private BigDecimal length;
     private Boolean isLike;
 
-    public GetRecommendCourseResponseDto(Long sequence, String name, String mountainSeq, String difficulty, Integer time, BigDecimal length, Boolean isLike) {
+    public RecommendCourseDto(Long sequence, String name, String mountainSeq, String difficulty, Integer time, BigDecimal length, Boolean isLike) {
         this.sequence = sequence;
         this.name = name;
         this.mountainSeq = mountainSeq;
@@ -26,7 +26,7 @@ public class GetRecommendCourseResponseDto {
         this.isLike = Objects.requireNonNullElse(isLike, false);
     }
 
-    public GetRecommendCourseResponseDto(Long sequence, String name, String mountainSeq, String difficulty, Integer time, BigDecimal length) {
+    public RecommendCourseDto(Long sequence, String name, String mountainSeq, String difficulty, Integer time, BigDecimal length) {
         this.sequence = sequence;
         this.name = name;
         this.mountainSeq = mountainSeq;

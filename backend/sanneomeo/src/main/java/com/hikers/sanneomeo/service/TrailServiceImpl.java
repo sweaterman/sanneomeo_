@@ -16,10 +16,8 @@ import lombok.RequiredArgsConstructor;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
-import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
 
 import javax.transaction.Transactional;
 import java.io.IOException;
@@ -85,7 +83,7 @@ public class TrailServiceImpl implements TrailService {
     }
 
     @Override
-    public String getTargetCourseSeqFlask(int level, String region, int purpose, int time) {
+    public Optional<RecommendCourseDto> getTargetCourseFlask(int level, String region, int purpose, int time) {
         // 로그인상태인지 확인
         Long userSeq = 0L;
         if (SecurityContextHolder.getContext().getAuthentication().getPrincipal() != "anonymousUser") {
@@ -99,8 +97,9 @@ public class TrailServiceImpl implements TrailService {
             if (!response.isSuccessful()) {
                 throw new IOException("Unexpected code " + response);
             }
+            Long targetCourseSeq = Long.parseLong(response.body().string());
 
-            return response.body().string();
+            return courseRepository.findCourseByCourseSequence(targetCourseSeq);
         } catch (IOException e) {
             e.printStackTrace();
             return null;
@@ -108,7 +107,7 @@ public class TrailServiceImpl implements TrailService {
     }
 
     @Override
-    public List<GetRecommendCourseResponseDto> getRecommendCoursesFlask(String targetCourseSeq) {
+    public List<RecommendCourseDto> getRecommendCoursesFlask(Long targetCourseSeq) {
         String flaskUrl = ymlConfig.getFlaskEndPoint() + "/recommendCourse/" + targetCourseSeq;
         OkHttpClient client = new OkHttpClient();
         Request request = new Request.Builder()
@@ -124,18 +123,18 @@ public class TrailServiceImpl implements TrailService {
             ObjectMapper objectMapper = new ObjectMapper();
             try {
                 JsonNode responseNode = objectMapper.readTree(responseBody);
-                List<GetRecommendCourseResponseDto> result = new ArrayList<>();
+                List<RecommendCourseDto> result = new ArrayList<>();
                 JsonNode recommendedResultNode = responseNode.get("recommended_result");
                 if (recommendedResultNode != null && recommendedResultNode.isArray()) {
                     if (SecurityContextHolder.getContext().getAuthentication().getPrincipal() != "anonymousUser") {
                         Long authUserSeq = Long.parseLong(SecurityContextHolder.getContext().getAuthentication().getPrincipal().toString());
                         for (JsonNode trailNode : recommendedResultNode) {
-                            Optional<GetRecommendCourseResponseDto> courseDto = courseRepository.findCourseByCourseSequenceAndUserSeq(trailNode.asLong(), authUserSeq);
+                            Optional<RecommendCourseDto> courseDto = courseRepository.findCourseByCourseSequenceAndUserSeq(trailNode.asLong(), authUserSeq);
                             courseDto.ifPresent(result::add);
                         }
                     } else {
                         for (JsonNode trailNode : recommendedResultNode) {
-                            Optional<GetRecommendCourseResponseDto> courseDto = courseRepository.findCourseByCourseSequence(trailNode.asLong());
+                            Optional<RecommendCourseDto> courseDto = courseRepository.findCourseByCourseSequence(trailNode.asLong());
                             courseDto.ifPresent(result::add);
                         }
                     }
