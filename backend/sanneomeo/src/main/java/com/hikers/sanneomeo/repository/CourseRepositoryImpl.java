@@ -6,8 +6,7 @@ import static com.querydsl.core.types.dsl.MathExpressions.cos;
 import static com.querydsl.core.types.dsl.MathExpressions.radians;
 import static com.querydsl.core.types.dsl.MathExpressions.sin;
 
-import com.hikers.sanneomeo.dto.response.GetRecommendCourseResponseDto;
-import com.hikers.sanneomeo.dto.response.GetTrailLikeResponseDto;
+import com.hikers.sanneomeo.dto.response.RecommendCourseDto;
 import com.hikers.sanneomeo.dto.response.NearTrailResponseDto;
 import com.hikers.sanneomeo.dto.response.TrailListResponseDto;
 import com.querydsl.core.types.Path;
@@ -16,7 +15,6 @@ import com.querydsl.core.types.dsl.CaseBuilder;
 import com.querydsl.core.types.dsl.ComparableExpressionBase;
 import com.querydsl.core.types.dsl.Expressions;
 import com.querydsl.core.types.dsl.NumberExpression;
-import com.querydsl.jpa.JPAExpressions;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import java.math.BigDecimal;
 import java.util.List;
@@ -89,10 +87,10 @@ public class CourseRepositoryImpl implements CourseRepositoryCustom {
   }
 
     @Override
-    public Optional<GetRecommendCourseResponseDto> findCourseByCourseSequenceAndUserSeq(Long courseSeq, Long userSeq) {
+    public Optional<RecommendCourseDto> findCourseByCourseSequenceAndUserSeq(Long courseSeq, Long userSeq) {
         return Optional.ofNullable(queryFactory
-                .select(Projections.fields(GetRecommendCourseResponseDto.class,
-                        course.courseSeq.as("sequence"), course.name, course.mountainSeq,
+                .select(Projections.constructor(RecommendCourseDto.class,
+                        course.courseSeq, course.name, course.mountainSeq,
                         new CaseBuilder()
                                 .when(course.difficultyMean.goe(BigDecimal.valueOf(1.3))).then("어려움")
                                 .when(course.difficultyMean.lt(BigDecimal.valueOf(1.3)).and(course.difficultyMean.gt(BigDecimal.valueOf(1.0)))).then("중간")
@@ -107,15 +105,15 @@ public class CourseRepositoryImpl implements CourseRepositoryCustom {
     }
 
     @Override
-    public Optional<GetRecommendCourseResponseDto> findCourseByCourseSequence(Long courseSeq) {
+    public Optional<RecommendCourseDto> findCourseByCourseSequence(Long courseSeq) {
         return Optional.ofNullable(queryFactory
-                .select(Projections.fields(GetRecommendCourseResponseDto.class,
-                        course.courseSeq.as("sequence"), course.name, course.mountainSeq,
+                .select(Projections.constructor(RecommendCourseDto.class,
+                        course.courseSeq, course.name, course.mountainSeq,
                         new CaseBuilder()
                                 .when(course.difficultyMean.goe(BigDecimal.valueOf(1.3))).then("어려움")
                                 .when(course.difficultyMean.lt(BigDecimal.valueOf(1.3)).and(course.difficultyMean.gt(BigDecimal.valueOf(1.0)))).then("중간")
-                                .otherwise("쉬움")
-                                .as("difficulty"),
+                                .otherwise("쉬움"),
+
                         course.time, course.length))
                 .from(course)
                 .where(course.courseSeq.eq(courseSeq))
