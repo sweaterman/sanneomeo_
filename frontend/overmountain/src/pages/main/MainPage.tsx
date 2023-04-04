@@ -25,8 +25,21 @@ import {
 } from '@features/user/userChallengeSlice';
 
 function MainPage() {
+  // searchbar에 입력한 텍스트
   const [searchMountainText, setSearchMountainText] = useState('');
-  // const [searchResultList, setSearchResultList] = useState([]);
+  // 검색목록에서 클릭한 mountain 정보
+  const [searchResult, setSearchResult] = useState<ElasticMountain>({
+    name: '',
+    si: '',
+    gu: '',
+    dong: '',
+    sequence: '',
+    latitude: 0,
+    longitude: 0,
+    altitude: 0,
+    difficulty: '',
+  });
+
   const [latitude, setLatitude] = useState(0);
   const [longitude, setLongitude] = useState(0);
 
@@ -41,8 +54,12 @@ function MainPage() {
 
   // 검색바 실시간 반영
   useEffect(() => {
-    console.log(searchMountainText);
-    searchDispatch(getMountainSearch(searchMountainText));
+    const debounce = setTimeout(() => {
+      searchDispatch(getMountainSearch(searchMountainText));
+    }, 200);
+    return () => {
+      clearTimeout(debounce);
+    };
   }, [searchMountainText]);
 
   // 검색목록 클릭시 실행할 useEffect
@@ -98,10 +115,12 @@ function MainPage() {
       {/* <MainBanner/> */}
 
       <Searchbar
+        searchMountainText={searchMountainText}
         setSearchMountain={setSearchMountainText}
         searchList={searchData.result}
+        searchResult={setSearchResult}
       />
-      <MapContainerMain />
+      <MapContainerMain searchResult={searchResult} />
       <div className="flex">{/* <MascottMain /> */}</div>
 
       {/* <hr/> */}
@@ -139,7 +158,6 @@ function MainPage() {
       </div> */}
 
       {/* 지금등산중이라면? */}
-
     </div>
   );
 }

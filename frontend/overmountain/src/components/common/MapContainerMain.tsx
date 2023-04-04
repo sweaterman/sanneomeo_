@@ -4,16 +4,16 @@ import { useNavigate } from 'react-router-dom';
 import mapMarker from '@assets/images/map-marker.png';
 import curMarker from '@assets/images/target.png';
 
-function MapContainerMain(searchPlace: any) {
+function MapContainerMain(props: { searchResult: ElasticMountain }) {
   // 검색결과 담기
-  const [Place, setPlace] = useState('');
+  const result = props.searchResult;
 
   // 인포윈도우 관리
   const [isOpen, setIsOpen] = useState(false);
   const [state, setState] = useState({
     center: {
-      lat: 33.450701,
-      lng: 126.570667,
+      lat: result.latitude,
+      lng: result.longitude,
     },
     errMsg: null,
     isLoading: true,
@@ -21,6 +21,18 @@ function MapContainerMain(searchPlace: any) {
   });
 
   const navigate = useNavigate();
+
+  useEffect(() => {
+    setState((prev) => ({
+      ...prev,
+      center: {
+        lat: result.latitude, // 위도
+        lng: result.longitude, // 경도
+      },
+      isLoading: false,
+      isPanto: true,
+    }));
+  }, [result]);
 
   useEffect(() => {
     if (navigator.geolocation) {
@@ -54,7 +66,7 @@ function MapContainerMain(searchPlace: any) {
     }
 
     const ps = new kakao.maps.services.Places();
-    ps.keywordSearch(searchPlace, placeSearchCB);
+    ps.keywordSearch(props.searchResult.name, placeSearchCB);
 
     function placeSearchCB(data: any, status: any) {
       if (status === kakao.maps.services.Status.OK) {
@@ -62,8 +74,9 @@ function MapContainerMain(searchPlace: any) {
       }
     }
   }, []);
+
   const toMountainDetail = () => {
-    navigate('/mountain/detail');
+    navigate(`/mountain/detail/${result.sequence}`);
   };
 
   const toMapCenter = () => {
@@ -88,7 +101,7 @@ function MapContainerMain(searchPlace: any) {
         center={state.center}
         isPanto={state.isPanto}
         style={{ width: '320px', height: '360px', zIndex: '1' }}
-        level={6}
+        level={7}
       >
         <MapMarker
           position={state.center}
@@ -121,16 +134,16 @@ function MapContainerMain(searchPlace: any) {
                 onClick={toMountainDetail}
                 onKeyDown={toMountainDetail}
               >
-                도봉산
+                {result.name} {Math.floor(result.altitude)}m
               </div>
             </div>
           )}
         </MapMarker>
         {/* 지도에 지형정보를 표시하도록 지도타입을 추가합니다 */}
         <MapTypeId type={kakao.maps.MapTypeId.TERRAIN} />
-        <div className = "map-button-container">
-          <button className= "map-button" type="button" onClick={toMapCenter}>
-            <img src={curMarker} alt="current location"/>
+        <div className="map-button-container">
+          <button className="map-button" type="button" onClick={toMapCenter}>
+            <img src={curMarker} alt="current location" />
             {/* 현재 위치 */}
           </button>
           <h1>|</h1>
@@ -149,7 +162,7 @@ function MapContainerMain(searchPlace: any) {
             }
           >
             {/* ehdeh 이동 */}
-            <img src={curMarker} alt="current location"/>
+            <img src={curMarker} alt="current location" />
           </button>
         </div>
       </Map>

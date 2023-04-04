@@ -1,14 +1,14 @@
-.search-bar{
+.search-bar {
   width: 80%;
 
-  .search-title{
+  .search-title {
     margin-top: 20px;
   }
 
   .search-container {
     margin: 20px 0px 20px 0px;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     background-color: rgb(224, 224, 224);
     height: 40px;
     font-size: 20px;
@@ -19,24 +19,42 @@
     padding-left: 20px;
     padding-right: 20px;
     align-items: center;
-  
+
     input {
       background-color: rgba(209, 209, 209, 0);
       font-size: $font-h5;
       width: 80%;
-      &:focus{
+      &:focus {
         outline: none;
       }
     }
 
-  
-
     svg {
       fill: grey;
     }
-    
-
-
   }
-  
+
+  .search-result-container {
+    position: absolute;
+    z-index: 1;
+    width: 60%;
+    height: auto;
+    max-height: 330px;
+    background-color: rgba(224, 224, 224, 0.9);
+    margin-left: 5%;
+    text-align: left;
+    overflow: hidden;
+    .result-box {
+      margin-top: 5%;
+      .mountain-name {
+        margin-left: 5%;
+      }
+      .mountain-address {
+        margin-left: 5%;
+      }
+      hr {
+        color: black;
+      }
+    }
+  }
 }
