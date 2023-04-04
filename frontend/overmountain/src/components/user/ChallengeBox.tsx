@@ -6,9 +6,11 @@ function ChallengeBox(props: { challengeList: Mountain[] }) {
 
   return (
     <div className="challengebox">
-      <div className="filter-text">필터링</div>
-      <div className="filter-button">
-        <button type="button">정렬</button>
+      <div className="filter-container">
+        <div className="filter-text">필터링</div>
+        <div className="filter-button">
+          <button type="button">정렬</button>
+        </div>
       </div>
       <div className="itembox">
         {challengeList &&

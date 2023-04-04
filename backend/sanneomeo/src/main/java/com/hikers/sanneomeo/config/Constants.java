@@ -7,7 +7,7 @@ public class Constants {
   public static final String[] CORS_HEADER_URIS = {"Authorization", "Refresh", "content-type"};
   public static final String SECURITY_LOGIN_PROCESSING_URI = "/user/login/callback/*";
   public static final String BASE_URI = "/user/login";
-  public static final String SECURITY_AFTER_LOGIN = "http://localhost:3000/user/login/callback";
+  public static final String SECURITY_AFTER_LOGIN = "https://sanneomeo.site/user/login/callback";
 
 
 

@@ -11,38 +11,27 @@ function UserChallenge() {
   const userChallengeData = useAppSelector(userChallenge);
   const userChallengeDispatch = useAppDispatch();
 
-  // 따라다니는 메뉴바 관련 코드
-  const [menuVisible, setMenuVisible] = useState(false);
-  const handleScroll = () => {
-    const trailItems = document.querySelector('.trail-items');
-    const menu = document.querySelector('.menu');
-    if (trailItems && menu) {
-      const trailItemsBottom = trailItems.getBoundingClientRect().bottom;
-      const scrollTop =
-        window.pageYOffset || document.documentElement.scrollTop;
-      setMenuVisible(scrollTop > trailItemsBottom);
-    }
-  };
-
-  useEffect(() => {
-    userChallengeDispatch(getChallengeList());
-    console.log('result', userChallengeData.result.challengeList[0]);
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
   return (
-    <>
-      <div className="user-conquer">
-        <div className="conquer-text">정복한 산</div>
-        <div className="conquer-number">
-          {userChallengeData.result.conquerNo}
+    <div className="user-challenge"> 
+      <div className="user-challenage-header">
+        <h1>100대 명산</h1>
+        <span>블랙야크의 &apos;명산100&apos;은 우리나라의<br/>대표적인 산 100개를 오르는 프로젝트 입니다.<br/>
+        <a href="https://bac.blackyak.com/BAC/Program/Mountain100/">자세히 알아보기 &gt;</a>
+        </span>
+      </div>
+      <div className="user-conquer-container">
+        <div className="user-conquer">
+          <div className="conquer-text">정복한 산</div>
+          <div className="conquer-number">
+            {userChallengeData.result.conquerNo}
+          </div>
+        </div>
+        <div className="conquer-warnning">
+          로그인하시고 등반 정보를 관리해보세요!
         </div>
       </div>
       <ChallengeBox challengeList={userChallengeData.result.challengeList} />
-    </>
+    </div>
   );
 }
 

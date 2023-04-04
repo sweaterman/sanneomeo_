@@ -75,7 +75,9 @@ public class CourseRepositoryImpl implements CourseRepositoryCustom {
                   .when(course.difficultyMean.goe(new BigDecimal("1.3"))).then("어려움")
                   .when(course.difficultyMean.gt(new BigDecimal("1.0"))).then("중간")
                   .otherwise("쉬움")
-              , keep.courseSeq.count()
+              ,
+              new CaseBuilder()
+                  .when(keep.isKeep.eq(true)).then(keep.courseSeq).otherwise(Expressions.nullExpression()).count()
               ,course.time)
           )
         .from(course)

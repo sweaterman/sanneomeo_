@@ -17,9 +17,9 @@ const initialTrailState: TrailLike = {
 // API 명세서 15번. 찜 등록
 export const updateTrailKeep = createAsyncThunk(
   'trailKeepSlice/updateTrailKeep',
-  async () => {
+  async (trailSeq: number) => {
     const request = {
-      // trailSeq,
+      courseSeq: trailSeq,
     };
     const url = `${baseURL}trail/keep`;
     const response = await axios({
@@ -39,8 +39,7 @@ export const trailKeepSlice = createSlice({
   extraReducers: (builder) => {
     // API 명세서 15번. 찜 등록
     builder.addCase(updateTrailKeep.fulfilled, (state, action) => {
-      state = action.payload;
-      console.log('15 성공!', state);
+      console.log('15 성공!');
     });
     builder.addCase(updateTrailKeep.rejected, (state, action) => {
       console.log('15 실패!', action.error);

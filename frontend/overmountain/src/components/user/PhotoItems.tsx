@@ -4,7 +4,7 @@ function PhotoItems() {
   return (
     <>
       <div className="photolist">
-        <img alt="list" />
+        <img alt="photolist" />
       </div>
     </>
   );

@@ -54,7 +54,6 @@ public class TrailController {
         // level : 1/2/3, region : si(8도), purpose : 1/2, time : 1/2/3/4/5
         try {
             String targetCourseSeq = trailService.getTargetCourseSeqFlask(level, region, purpose, time);
-            System.out.println(targetCourseSeq);
             List<GetRecommendCourseResponseDto> result = trailService.getRecommendCoursesFlask(targetCourseSeq);
             return new BaseResponseDto<>(result); // 처리 결과에 맞게 반환값 설정
         } catch (Exception e) {

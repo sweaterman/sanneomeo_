@@ -26,14 +26,14 @@ function UserWishList() {
       <MascottMain balloonText={mascottMessage} />
       <div className="trailbox">
         <div>
-          {trailLikeArray &&
+          {/* {trailLikeArray &&
             trailLikeArray.map((trail) => (
               <TrailItems
                 key={trail.trailSeq}
                 mountainSeq={trail.mountainSeq}
-                trailkey={trail.trailSeq}
+                trailKey={trail.trailSeq}
               />
-            ))}
+            ))} */}
         </div>
       </div>
     </>

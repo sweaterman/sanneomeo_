@@ -1,15 +1,42 @@
-.searchbar {
-  margin-top: 30px;
-  margin-bottom: 20px;
-  input {
-    background-color: rgb(209, 209, 209);
-    width: 200px;
-    height: 50px;
-    font-size: 30px;
+.search-bar{
+  width: 80%;
+
+  .search-title{
+    margin-top: 20px;
+  }
+
+  .search-container {
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(224, 224, 224);
+    height: 40px;
+    font-size: 20px;
     color: black;
     border: 0;
     border-radius: 20px;
     outline: none;
     padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+  
+    input {
+      background-color: rgba(209, 209, 209, 0);
+      font-size: $font-h5;
+      width: 80%;
+      &:focus{
+        outline: none;
+      }
+    }
+
+  
+
+    svg {
+      fill: grey;
+    }
+    
+
+
   }
+  
 }

@@ -12,11 +12,11 @@ import lombok.*;
 public class GetTrailLikeResponseDto {
 //  등산로idx, 산idx, 난이도, 소요시간, 찜여부, 길이, 이름, 추천여부?
 
-  private Long trailSeq;
+  private Long sequence;
   private String name;
   private String mountainSeq;
   private String difficulty;
   private Integer time;
   private BigDecimal length;
-  private boolean isKeep;
+  private boolean isLike;
 }

@@ -3,6 +3,11 @@ import {
   getPositionTrail,
   positionTrail,
 } from '@features/trail/positionTrailSlice';
+import {
+  getMountainSearch,
+  searchMountain,
+} from '@features/mountain/searchMountainSlice';
+import { getMountainPlace, mountain } from '@features/mountain/mountainSlice';
 import { useAppSelector, useAppDispatch } from '@app/hooks';
 import Searchbar from '@components/main/Searchbar';
 import MountainItem from '@components/main/MountainItems';
@@ -20,11 +25,30 @@ import {
 } from '@features/user/userChallengeSlice';
 
 function MainPage() {
+  const [searchMountainText, setSearchMountainText] = useState('');
+  // const [searchResultList, setSearchResultList] = useState([]);
+  const [latitude, setLatitude] = useState(0);
+  const [longitude, setLongitude] = useState(0);
+
   const positionData = useAppSelector(positionTrail);
   const positionDispatch = useAppDispatch();
 
-  const [latitude, setLatitude] = useState(0);
-  const [longitude, setLongitude] = useState(0);
+  const searchData = useAppSelector(searchMountain);
+  const searchDispatch = useAppDispatch();
+
+  const searchClickData = useAppSelector(mountain);
+  const searchClickDispatch = useAppDispatch();
+
+  // 검색바 실시간 반영
+  useEffect(() => {
+    console.log(searchMountainText);
+    searchDispatch(getMountainSearch(searchMountainText));
+  }, [searchMountainText]);
+
+  // 검색목록 클릭시 실행할 useEffect
+  useEffect(() => {
+    console.log('검색목록클릭했다');
+  }, []);
 
   // 내 위치 조사해서 가장 가까운 등산로 받아오는 코드
   const positionClick = () => {
@@ -71,30 +95,20 @@ function MainPage() {
 
   return (
     <div className="mainpage">
-      <Searchbar />
+      {/* <MainBanner/> */}
+
+      <Searchbar
+        setSearchMountain={setSearchMountainText}
+        searchList={searchData.result}
+      />
       <MapContainerMain />
       <div className="flex">{/* <MascottMain /> */}</div>
 
-      {/* 계절 명산 */}
-      <MountainItem
-        title={`${koreanTitle} 명산`}
-        data={seasonMountainData.result.seasonList}
-      />
-
-      {/* 100대 명산 자세히 보기 버튼 */}
-      <NavLink to="/user/challenge" className="user-challenge">
-        100대명산으로 이동하는 태그
-      </NavLink>
-
-      {/* 100대 명산 리스트 */}
-      <MountainItem
-        title={`100대 명산`}
-        data={userChallengeData.result.challengeList}
-      />
+      {/* <hr/> */}
 
       {/* 내 위치 기반 등산로 return API 테스트 */}
       {/* 아래부분 Routing 수정 해서 trailSeq 넘기기 */}
-      <div>
+      {/* <div>
         <button type="button" onClick={positionClick}>
           TEST
         </button>
@@ -103,7 +117,29 @@ function MainPage() {
           position - latitude : {latitude}
           등산로 : {positionData.result.trailSeq}
         </div>
-      </div>
+      </div> */}
+
+      {/* 계절 명산 */}
+      <MountainItem
+        title={`${koreanTitle} 명산으로 떠나봐요!`}
+        data={seasonMountainData.result.seasonList}
+        is100={false}
+      />
+
+      {/* 100대 명산 리스트 */}
+      <MountainItem
+        title={`100대 명산 챌린지`}
+        data={userChallengeData.result.challengeList}
+        is100={true}
+      />
+
+      {/* 100대 명산 자세히 보기 버튼 */}
+      {/* <div className="user-challenge">
+        <NavLink to="/user/challenge">자세히보기</NavLink>
+      </div> */}
+
+      {/* 지금등산중이라면? */}
+
     </div>
   );
 }
