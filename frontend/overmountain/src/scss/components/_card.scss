@@ -1,5 +1,40 @@
 .mountain-card {
-  background-color: $over-green;
+  padding: 20px;
+
+  .card-title{
+    font-size: $font-h3;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .card-body{
+    border: 1px solid #99d73bc0;
+    border-radius: 5px;
+    padding: 0px 15px 15px 15px;
+
+    .body-title{
+      font-size: $font-h4;
+      font-weight: 600;
+      margin-top: 15px;
+    }
+
+    .body-discription{
+      font-size: $font-h5;
+    }
+  
+  }
+
+
+  // background-color: $light-green;
+  // padding: 10px 0px;
+
+  .card-discription{
+    color: rgb(0, 0, 0);
+
+    
+  }
+
+
   .one-discription {
     margin: 10px 0;
     color: white;
@@ -8,3 +43,6 @@
     font-size: $font-h5;
   }
 }
+
+
+

@@ -31,6 +31,7 @@ function UserChallenge() {
           </a>
         </span>
       </div>
+      <hr/>
       <div className="user-conquer-container">
         <div className="user-conquer">
           <div className="conquer-text">정복한 산</div>
