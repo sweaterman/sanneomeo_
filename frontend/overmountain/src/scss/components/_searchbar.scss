@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-around;
     position: relative;
-    background-color: rgb(237, 237, 237);
+    background-color: rgb(231, 231, 231);
     height: 40px;
     font-size: 20px;
     color: black;
@@ -20,13 +20,18 @@
     padding-left: 20px;
     padding-right: 20px;
     align-items: center;
-    z-index: 2;
 
+    &.squared{
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+   
     input {
       background-color: rgba(209, 209, 209, 0);
       font-size: $font-h5;
       width: 80%;
-      z-index: 2;
       &:focus {
         outline: none;
       }
@@ -42,18 +47,27 @@
       top: 40px;
       z-index: 1;
       width: 100%;
+      font-size: $font-h5;
       height: auto;
-      max-height: 330px;
-      background-color: rgb(237, 237, 237);
+      max-height: 340px;
+      background-color: rgb(244, 244, 244);
       text-align: left;
       overflow: hidden;
       .result-box {
         margin-top: 5%;
         .mountain-name {
           margin-left: 5%;
+          font-weight: 700;
         }
         .mountain-address {
           margin-left: 5%;
+          display: flex;
+
+          .mountain-address-marker{
+            width:20px;
+            // margin-right:/px;
+            margin-left: -3px;
+          }
         }
         hr {
           color: black;
