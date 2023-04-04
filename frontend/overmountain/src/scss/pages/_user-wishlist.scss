@@ -1,0 +1,32 @@
+.user-wishlist{
+    margin:10px;
+
+    .wish-header{
+        border-radius: 20px;
+        width: 100%;
+        // height: 100px;
+        position: relative;
+        // background-color: $light-green;
+        padding: 10px 0px;
+
+        .wish-title{
+            // position: absolute;
+            text-align: center;
+            width: 100%;
+      
+            h1{
+              font-size: $font_h2;
+              color: rgb(86, 86, 86);
+              font-weight: 700;
+              margin: 5px 0px;
+            }
+      
+            span{
+              font-size: $font_h4;
+              color: rgb(47, 47, 47);
+              font-weight: 500;
+            }
+          }
+
+    }
+}
