@@ -9,4 +9,7 @@ public interface CourseService {
   NearTrailResponseDto getNearTrailByDistance(String sequence,
       BigDecimal latitude, BigDecimal longitude);
   List<TrailListResponseDto> getTrailsBySequence(String sequence);
+
+  List<TrailListResponseDto> getTrailsBySequence(String sequence, Long userSeq);
 }
+
