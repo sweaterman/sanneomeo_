@@ -42,7 +42,7 @@ private final KeepRepository keepRepository;
         .forEach(trailListResponseDto -> {
           try{
             Keep userKeep = keepRepository.findFirstByUserSeqAndCourseSeq(userSeq, trailListResponseDto.getSequence()).get();
-            trailListResponseDto.setIsLike(true);
+            trailListResponseDto.setIsLike(userKeep.isKeep());
           } catch(NoSuchElementException nee){
           }
         });

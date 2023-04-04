@@ -76,6 +76,11 @@ dependencies {
 	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-elasticsearch', version: '2.6.2'
 
 
+	// https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp
+	implementation 'com.squareup.okhttp3:okhttp:3.14.9'
+
+
+
 }
 
 tasks.named('test') {
