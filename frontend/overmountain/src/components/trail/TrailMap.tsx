@@ -5,6 +5,7 @@ import { Chart as ChartJS, registerables } from 'chart.js';
 import { Line } from 'react-chartjs-2';
 import { selectedTrailKey } from '@features/trail/selectedTrailSlice';
 import { rountingTrailKey } from '@features/trail/routingTrailSlice';
+import MapContainerDetail from '@components/common/MapContainerDetail';
 
 ChartJS.register(...registerables);
 
@@ -89,7 +90,9 @@ function TrailTemp() {
   return (
     <>
       {/* 지도가 들어갈 부분 */}
-      <div></div>
+      <div>
+        <MapContainerDetail trailPath={trailData} />
+      </div>
 
       {/* 고도가 들어갈 부분 */}
       <div>
