@@ -29,6 +29,7 @@ import java.util.List;
 import java.util.Map;
 
 import java.util.stream.Collectors;
+import lombok.extern.slf4j.Slf4j;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
@@ -37,7 +38,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.*;
 
-
+@Slf4j
 @RestController
 @RequestMapping("/mountain")
 public class MountainController {
@@ -169,7 +170,7 @@ public class MountainController {
 
             OkHttpClient client = new OkHttpClient();
             Request request = new Request.Builder().url(
-                ymlConfig.getFlaskEndPoint() + "/mountainRecommendCourse?userseq=" + principal.toString() + "&userseq="
+                ymlConfig.getFlaskEndPoint() + "/mountainRecommendCourse?userseq=" + principal.toString() + "&mountainIdx="
                     + sequence).build();
             Response response = client.newCall(request).execute();
             JSONObject message = new JSONObject(response.body().string());
