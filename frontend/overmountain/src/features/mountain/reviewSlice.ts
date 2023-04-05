@@ -73,7 +73,7 @@ export const reviewSlice = createSlice({
     });
 
     // API 명세서 24. 후기 작성 POST
-    builder.addCase(writeReview.fulfilled, (state, action) => {
+    builder.addCase(writeReview.fulfilled, () => {
       console.log('24 성공!');
     });
     builder.addCase(writeReview.rejected, (state, action) => {
@@ -81,12 +81,11 @@ export const reviewSlice = createSlice({
     });
 
     // API 명세서 25. 후기 삭제 DELETE
-    builder.addCase(deleteReview.fulfilled, (state, action) => {
+    builder.addCase(deleteReview.fulfilled, () => {
       console.log('25 성공!');
     });
     builder.addCase(deleteReview.rejected, (state, action) => {
       console.log('25 실패!', action.error);
-      alert('유효하지 않은 사용자입니다.');
     });
   },
 });

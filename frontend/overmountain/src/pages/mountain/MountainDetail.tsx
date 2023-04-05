@@ -4,10 +4,11 @@ import { useAppSelector, useAppDispatch } from '@app/hooks';
 import Card from '@components/common/Card';
 import TrailItems from '@components/trail/TrailItems';
 import TrailMap from '@components/trail/TrailMap';
-import { useParams } from 'react-router-dom';
+import { useParams, NavLink } from 'react-router-dom';
 import { setSelectedTrailKey } from '@features/trail/selectedTrailSlice';
 import { rountingTrailKey } from '@features/trail/routingTrailSlice';
 import ReviewItems from '@components/mountain/ReviewItems';
+import caramgi from '@assets/images/ramgi_camera.png';
 
 function MountainDetail() {
   // 처음 페이지에 들어갔을 때, 스크롤 위치는 최상단
@@ -36,8 +37,13 @@ function MountainDetail() {
   }, [mountainData]);
 
   return (
-    <>
-      <TrailMap />
+    <div className="mountainDetail-root">
+      {/* 스팟 페이지로 라우팅 */}
+      <NavLink to={`/mountain/trail/${defaultRecomKey.rountingTrailKey}`}>
+        <div className="trail-routing">선택한 등산로 지도로 상세보기! &gt;</div>
+      </NavLink>
+
+      {/* <TrailMap /> */}
 
       {/* 등산로리스트 */}
       <TrailItems mountainSeq={mountainSeq} />
@@ -46,11 +52,13 @@ function MountainDetail() {
       <Card data={mountainData} />
 
       {/* 카람쥐 */}
-      <h3>카람쥐</h3>
+      <div className="caramgi">
+        <img src={caramgi} alt="카람쥐" />
+      </div>
 
       {/* 후기 리스트 및 후기 작성 컴포넌트 */}
       <ReviewItems mountainSeq={mountainSeq} />
-    </>
+    </div>
   );
 }
 
