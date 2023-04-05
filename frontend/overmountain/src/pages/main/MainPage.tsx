@@ -140,7 +140,7 @@ function MainPage() {
         </NavLink>
       </div> */}
 
-      <WeatherItem lat={37.5} lon={127.0} />
+      {/* <WeatherItem lat={37.5} lon={127.0} /> */}
 
       <Searchbar
         searchMountainText={searchMountainText}

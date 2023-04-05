@@ -26,12 +26,12 @@ function Navbar() {
     }
   };
 
-  useEffect(() => {
-    console.log('isLogin', isLogin);
-    if (isLogin) {
-      window.location.reload();
-    }
-  }, [isLogin]);
+  // useEffect(() => {
+  //   console.log('isLogin', isLogin);
+  //   if (isLogin) {
+  //     window.location.reload();
+  //   }
+  // }, [isLogin]);
 
   const onLogout = () => {
     localStorage.clear();

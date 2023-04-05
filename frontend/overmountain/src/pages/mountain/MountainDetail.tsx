@@ -58,9 +58,9 @@ function MountainDetail() {
       <Card data={mountainData} />
 
       {/* 카람쥐 */}
-      <div className="caramgi">
+      {/* <div className="caramgi">
         <img src={caramgi} alt="카람쥐" />
-      </div>
+      </div> */}
 
       {/* 후기 리스트 및 후기 작성 컴포넌트 */}
       <ReviewItems mountainSeq={mountainSeq} />
