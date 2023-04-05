@@ -19,7 +19,7 @@ function Weather(props: { lat: number; lon: number }) {
   const fetchWeatherData = async () => {
     try {
       const response = await fetch(
-        `http://sanneomeo.site/api/main/weather/location?lat=${lat}&lon=${lon}`,
+        `https://sanneomeo.site/api/main/weather/location?lat=${lat}&lon=${lon}`,
       );
       const data = await response.json();
       setWeatherData(data.result); // API 결과를 state에 저장
