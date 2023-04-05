@@ -11,7 +11,7 @@ import mountain_unselected from '@assets/images/mountain_unselected.png';
 import like_selected from '@assets/images/like_selected.png';
 import like_unselected from '@assets/images/like_unselected.png';
 import { updateTrailKeep } from '@features/trail/trailKeepSlice';
-import { toast, ToastContainer } from 'react-toastify';
+import { toast } from 'react-toastify';
 
 function UserWishList() {
   // 처음에 찜리스트 받아오기
@@ -54,12 +54,6 @@ function UserWishList() {
       </div>
 
       <div className="recomLikeTrail-component">
-        <ToastContainer
-          position="top-center"
-          autoClose={1000}
-          hideProgressBar
-        />
-
         {/* 등산로들 */}
         <div className="trail-list">
           {userLikeData.result &&
