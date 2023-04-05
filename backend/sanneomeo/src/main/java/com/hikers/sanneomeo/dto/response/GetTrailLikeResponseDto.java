@@ -18,5 +18,5 @@ public class GetTrailLikeResponseDto {
   private String difficulty;
   private Integer time;
   private BigDecimal length;
-  private boolean isLike;
+  private Boolean isLike;
 }
