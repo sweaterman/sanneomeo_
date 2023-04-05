@@ -1,58 +1,47 @@
 import React, { useState } from 'react';
-
 import { useNavigate } from 'react-router-dom';
+import { toogleNavBar, navbarState } from '@features/commonSlice/navSlice';
+import { useAppDispatch, useAppSelector } from '@app/hooks';
 
-function Navbar({ isOpen, onClose }: any) {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function Navbar() {
+  // 로그인 여부 확인
   const [isLogin, setIsLogin] = useState(() => {
     const token = localStorage.getItem('token');
     return !!token;
   });
   const navigate = useNavigate();
 
-  // 해당 페이지로 이동선언하는 함수
-  const navigateToMain = () => {
-    console.log('go to main!');
-    navigate('/');
-  };
-  const navigateToRecommend = () => {
-    console.log('go to recommend!');
-    navigate('/recommend/question');
-  };
-  const navigateToMypage = () => {
-    console.log('go to mypage!');
-    navigate('/user/mypage');
-  };
-  const navigateToWishlist = () => {
-    console.log('go to wishlist!');
-    navigate('/user/wishlist');
-  };
-  const navigateToLogin = () => {
-    console.log('go to login!');
-    navigate('/user/login');
-  };
-  const navigateToChallenge = () => {
-    console.log('go to 100 Challenge!');
-    navigate('/user/challenge');
+  // NavState 가져오기
+  const navState = useAppSelector(navbarState);
+  const dispatch = useAppDispatch();
+
+  // 페이지 이동 함수
+  const navigateToWhat = (linkParam: string | null) => {
+    dispatch(toogleNavBar(false));
+    if (linkParam === null) {
+      navigate('/');
+    } else {
+      navigate(`/${linkParam}`);
+    }
   };
 
   const onLogout = () => {
     localStorage.clear();
     setIsLogin(false);
-    // 메인으로 이동(새로고침)
     navigate('/');
+    dispatch(toogleNavBar(false));
   };
 
   return (
-    <nav className={`navbar ${isOpen ? 'open' : 'hidden'}`}>
+    <nav>
       <div className="nav-content">
         <div className="header-font-group">
           <div
             className="header-font-tag"
-            // 정적인 div에서 동적인 onClick 기능 사용하기 위해 role 지정(eslint)
             role="presentation"
-            // 표준 HTML 규칙 준수를 위한 onClick + onKeyDown 설정
-            onClick={navigateToMain}
-            onKeyDown={navigateToMain}
+            onClick={() => navigateToWhat(null)}
+            onKeyDown={() => navigateToWhat(null)}
           >
             산너머&nbsp;
           </div>
@@ -60,8 +49,8 @@ function Navbar({ isOpen, onClose }: any) {
           <div
             className="header-font-tag"
             role="presentation"
-            onClick={navigateToRecommend}
-            onKeyDown={navigateToRecommend}
+            onClick={() => navigateToWhat('recommend/question')}
+            onKeyDown={() => navigateToWhat('recommend/question')}
           >
             람쥐추천&nbsp;
           </div>
@@ -79,16 +68,16 @@ function Navbar({ isOpen, onClose }: any) {
               <div
                 className="header-font-tag"
                 role="presentation"
-                onClick={navigateToMypage}
-                onKeyDown={navigateToMypage}
+                onClick={() => navigateToWhat('user/mypage')}
+                onKeyDown={() => navigateToWhat('user/mypage')}
               >
                 나의기록&nbsp;
               </div>
               <div
                 className="header-font-tag"
                 role="presentation"
-                onClick={navigateToWishlist}
-                onKeyDown={navigateToWishlist}
+                onClick={() => navigateToWhat('user/wishlist')}
+                onKeyDown={() => navigateToWhat('user/wishlist')}
               >
                 찜리스트&nbsp;
               </div>
@@ -97,8 +86,8 @@ function Navbar({ isOpen, onClose }: any) {
             <div
               className="header-font-tag"
               role="presentation"
-              onClick={navigateToLogin}
-              onKeyDown={navigateToLogin}
+              onClick={() => navigateToWhat('user/login')}
+              onKeyDown={() => navigateToWhat('user/login')}
             >
               들어가기&nbsp;
             </div>
@@ -106,16 +95,20 @@ function Navbar({ isOpen, onClose }: any) {
           <div
             className="header-font-tag"
             role="presentation"
-            onClick={navigateToChallenge}
-            onKeyDown={navigateToChallenge}
+            onClick={() => navigateToWhat('user/challenge')}
+            onKeyDown={() => navigateToWhat('user/challenge')}
           >
             100대 명산 완등&nbsp;
           </div>
         </div>
       </div>
       {/* overlay element to close navbar */}
-      {isOpen && (
-        <div className="navbar-overlay" onClick={onClose} role="presentation" />
+      {navState.toogle && (
+        <div
+          className="navbar-overlay"
+          onClick={() => dispatch(toogleNavBar(false))}
+          role="presentation"
+        />
       )}
     </nav>
   );

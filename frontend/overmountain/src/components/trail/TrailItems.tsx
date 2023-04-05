@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import React, { useEffect } from 'react';
 import mountain_selected from '@assets/images/mountain_selected.png';
 import mountain_unselected from '@assets/images/mountain_unselected.png';
@@ -12,7 +13,9 @@ import {
   setSelectedTrailKey,
   selectedTrailKey,
 } from '@features/trail/selectedTrailSlice';
-import { trailKeep, updateTrailKeep } from '@features/trail/trailKeepSlice';
+import { updateTrailKeep } from '@features/trail/trailKeepSlice';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function TrailItems(props: { mountainSeq: string }) {
   const { mountainSeq } = props;
@@ -31,18 +34,18 @@ function TrailItems(props: { mountainSeq: string }) {
   // 등산로 찜하기
   const keepDispatch = useAppDispatch();
   const keepChange = (checkVal: boolean, trailSeq: number) => {
-    console.log('찜번호:', trailSeq);
-    keepDispatch(updateTrailKeep(trailSeq)).then(() => {
-      // 찜 X -> 찜 O
-      if (checkVal) {
-        alert('찜 목록에 추가되었습니다.');
-      }
-      // 찜 O -> 찜 X
-      else {
-        alert('찜 목록에서 삭제되었습니다.');
-      }
-      trailListDispatch(getMountainTrailList(mountainSeq));
-    });
+    if (localStorage.getItem('token') !== null) {
+      keepDispatch(updateTrailKeep(trailSeq)).then(() => {
+        if (checkVal) {
+          toast.success('찜 목록에 추가되었습니다.');
+        } else {
+          toast.success('찜 목록에서 삭제되었습니다.');
+        }
+        trailListDispatch(getMountainTrailList(mountainSeq));
+      });
+    } else {
+      toast.error('로그인 먼저 해주세요!');
+    }
   };
 
   return (
@@ -135,7 +138,13 @@ function TrailItems(props: { mountainSeq: string }) {
           ))}
       </div>
 
-      <div className="col-span-1"></div>
+      <div className="col-span-1">
+        <ToastContainer
+          position="top-center"
+          autoClose={1000}
+          hideProgressBar
+        />
+      </div>
     </div>
   );
 }

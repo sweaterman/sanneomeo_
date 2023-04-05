@@ -1,26 +1,12 @@
-.mountainDetail-menu {
-  display: flex;
-  justify-content: space-around;
-  background-color: white;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  height: 40px;
-  align-items: center;
-
-  .unchoice {
-    background: #aa5656;
-    border-radius: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
+.mountainDetail-root {
+  .trail-routing {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: $font-h5;
+    color: $over-lightgray;
   }
-}
-
-.unfix {
-  position: static;
-}
-
-.menufix {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+  .carmagi {
+    display: flex;
+    justify-content: end;
+  }
 }
