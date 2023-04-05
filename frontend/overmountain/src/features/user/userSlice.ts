@@ -36,7 +36,7 @@ export const putUserInfo = createAsyncThunk(
     userTime,
   }: {
     userLevel: number;
-    userRegion: number;
+    userRegion: string;
     userPurpose: number;
     userTime: number;
   }) => {

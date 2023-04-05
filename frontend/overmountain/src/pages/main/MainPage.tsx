@@ -66,28 +66,30 @@ function MainPage() {
   }, []);
 
   // 내 위치 조사해서 가장 가까운 등산로 받아오는 코드
-  const [latitude, setLatitude] = useState(0);
-  const [longitude, setLongitude] = useState(0);
   const positionData = useAppSelector(positionTrail);
   const positionDispatch = useAppDispatch();
-  const positionClick = () => {
+  useEffect(() => {
+    geo();
+  }, []);
+
+  const geo = async () => {
     if (navigator.geolocation) {
-      // eslint-disable-next-line func-names
-      navigator.geolocation.getCurrentPosition(function (position) {
-        setLatitude(position.coords.latitude);
-        setLongitude(position.coords.longitude);
-        console.log(latitude, longitude, '바꿨다!');
-        positionDispatch(getPositionTrail({ latitude, longitude }))
-          .then(() => {
-            navigate(`/mountain/trail/${positionData.result.trailSeq}`);
-          })
-          .catch(() => {
-            toast.error('현재위치를 받아올 수 없습니다.');
-          });
+      const position: any = await new Promise((resolve, reject) => {
+        navigator.geolocation.getCurrentPosition(resolve, reject);
       });
+      positionDispatch(
+        getPositionTrail({
+          latitude: position.coords.latitude,
+          longitude: position.coords.longitude,
+        }),
+      );
     } else {
       toast.error('현재위치를 받아올 수 없습니다.');
     }
+  };
+
+  const positionClick = () => {
+    navigate(`/mountain/trail/${positionData.result.trailSeq}`);
   };
 
   // 계절 산 리스트 받아오기

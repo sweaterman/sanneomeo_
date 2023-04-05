@@ -6,8 +6,12 @@
   .filter-container {
     display: flex;
     width: 100%;
-    padding-bottom:5px;
-    justify-content: flex-end;
+    padding-bottom: 5px;
+    justify-content: space-between;
+
+    .filter-item {
+      display: flex;
+    }
 
     .filter-text {
       font-size: $font-h5;
@@ -18,7 +22,7 @@
       border-radius: 10px;
     }
 
-    .filter-total{
+    .filter-total {
       color: black;
     }
   }

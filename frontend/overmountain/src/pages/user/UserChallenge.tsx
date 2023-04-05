@@ -26,12 +26,9 @@ function UserChallenge() {
           <br />
           대표적인 산 100개를 오르는 프로젝트 입니다.
           <br />
-          <a href="https://bac.blackyak.com/BAC/Program/Mountain100/">
-            자세히 알아보기 &gt;
-          </a>
         </span>
       </div>
-      <hr/>
+      <hr />
       <div className="user-conquer-container">
         <div className="user-conquer">
           <div className="conquer-text">정복한 산</div>
@@ -49,7 +46,7 @@ function UserChallenge() {
           </div>
         )}
       </div>
-      <ChallengeBox challengeList={userChallengeData.result.challengeList} />
+      <ChallengeBox />
     </div>
   );
 }
