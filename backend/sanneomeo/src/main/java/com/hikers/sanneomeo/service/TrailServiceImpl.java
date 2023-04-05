@@ -83,7 +83,7 @@ public class TrailServiceImpl implements TrailService {
     }
 
     @Override
-    public Optional<RecommendCourseDto> getTargetCourseFlask(int level, String region, int purpose, int time) {
+    public Optional<RecommendCourseDto> getTargetCourseFlask(int level, int region, int purpose, int time) {
         // 로그인상태인지 확인
         Long userSeq = 0L;
         if (SecurityContextHolder.getContext().getAuthentication().getPrincipal() != "anonymousUser") {
@@ -91,6 +91,7 @@ public class TrailServiceImpl implements TrailService {
         }
         String flaskUrl = ymlConfig.getFlaskEndPoint() + "/targetCourse" +
                 "?userseq=" + userSeq + "&level=" + level + "&region=" + region + "&purpose=" + purpose + "&time=" + time;
+        System.out.println(flaskUrl);
         OkHttpClient client = new OkHttpClient();
         Request request = new Request.Builder().url(flaskUrl).build();
         try(Response response = client.newCall(request).execute()) {
