@@ -72,6 +72,11 @@ public class UserController {
       Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
       if(principal.toString().equals("anonymousUser")){
         GetUserSurveyResponseDto getUserSurveyResponseDto = new GetUserSurveyResponseDto();
+        getUserSurveyResponseDto.setLevel(0);
+        getUserSurveyResponseDto.setTime(0);
+        getUserSurveyResponseDto.setPurpose(0);
+        getUserSurveyResponseDto.setRegion(0);
+        getUserSurveyResponseDto.setModifiedAt("");
         getUserSurveyResponseDto.setLogin(false);
         return new BaseResponseDto<>(getUserSurveyResponseDto);
       }
