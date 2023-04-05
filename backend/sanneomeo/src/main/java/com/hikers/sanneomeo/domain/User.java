@@ -87,10 +87,10 @@ public class User {
     private Timestamp updatedAt;
 
     public void updateUserServey(UpdateUserSurveyRequestDto updateUserSurveyRequestDto){
-        this.difficulty = updateUserSurveyRequestDto.getLevel()==null? this.difficulty : updateUserSurveyRequestDto.getLevel();
-        this.preferClimbDuration = updateUserSurveyRequestDto.getTime()==null? this.preferClimbDuration : updateUserSurveyRequestDto.getTime();
-        this.preferRegion = updateUserSurveyRequestDto.getRegion()==null? this.preferRegion : updateUserSurveyRequestDto.getRegion();
-        this.purpose = updateUserSurveyRequestDto.getPurpose()==null? this.purpose : updateUserSurveyRequestDto.getPurpose();
+        this.difficulty = updateUserSurveyRequestDto.getLevel();
+        this.preferClimbDuration = updateUserSurveyRequestDto.getTime();
+        this.preferRegion = updateUserSurveyRequestDto.getRegion();
+        this.purpose = updateUserSurveyRequestDto.getPurpose();
     }
 
 }
