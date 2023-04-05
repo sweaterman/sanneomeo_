@@ -181,7 +181,7 @@ def recommend_course(course_seq):
     df.columns = ['course_seq', 'mountain_seq', 'name', 'introduction', 'length', 'time', 'difficulty_mean',
                   'review_cnt', 'review_mean', 'slope_mean', 'altitude', 'recommend', 'best_trail']
 
-    features = ['length', 'time', 'altitude']
+    features = ['length', 'time', 'difficulty_mean', 'slope_mean','altitude']
 
     # 정규화
     scaler = MinMaxScaler()
