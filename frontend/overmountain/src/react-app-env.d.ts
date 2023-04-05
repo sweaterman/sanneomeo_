@@ -108,28 +108,17 @@ interface PositionTrail {
     distance: number;
   };
 }
+
 // 유저 정보
 interface User {
-  userSeq: number; // 유저시퀀스
-  nickname: string; // 닉네임
-  gender: string; // 성별
-  age: number; // 나이대
-  si: string; // 시
-  gu: string; // 구
-  dong: string; // 동
-  latitude: number; // 위도
-  longitude: number; // 경도
-  level: number; // 설문레벨
-  difficulty: number | null; // 난이도: 하1/중2/상3
-  region: number | null; // 지역선호도: 집근처1/전국2
-  purpose: number | null; // 목적: 힐링1/도전2
-  time: number; // 선호등반시간: 3시간이내1/3-5 2/5-7 3/7-10 4/10이상 5
-  social: string; // 소셜정보
-  socialId: string; // 소셜고유아이디
-  totalDuration: string | null; // 총등산시간
-  totalDistance: string | null; // 총등산거리
-  totalNumber: number | null; // 총등산횟수
-  profileImage: string | null; // 프로필이미지
+  result: {
+    level: number;
+    region: number;
+    purpose: number;
+    time: number;
+    modifiedAt: number;
+    login: boolean;
+  };
 }
 
 // 100대 명산 챌린지 리스트
@@ -161,4 +150,12 @@ interface Review {
 // 리뷰 리스트
 interface ReviewList {
   reviewList: Array<Review>;
+}
+
+// 추천받은 등산로 리스트
+interface RecomTrailList {
+  result: {
+    target: Trail;
+    result: Trail[];
+  };
 }

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { getTrailSpotList, spotList } from '@features/trail/spotSlice';
 import { useAppSelector, useAppDispatch } from '@app/hooks';
@@ -10,20 +10,22 @@ function MountainTrail() {
   const navigate = useNavigate();
 
   const { trailSeq } = useParams<{ trailSeq: string }>();
-
+  const [parsedTrailSeq, setParsedTrailSeq] = useState(0);
+  // console.log(typeof parsedTrailSeq);
   // 등산로 패스 받아오기
+
+  const backHandler = () => {
+    navigate(-1);
+  };
   const trailListData = useAppSelector(trailDetail);
   const trailListDispatch = useAppDispatch();
 
   // 등산로 스팟 리스트 받아오기
   const spotListData = useAppSelector(spotList);
   const spotListDispatch = useAppDispatch();
-
-  const backHandler = () => {
-    navigate(-1);
-  };
   useEffect(() => {
-    const parsedTrailSeq = parseInt(trailSeq ?? '0', 10);
+    setParsedTrailSeq(parseInt(trailSeq ?? '0', 10));
+
     console.log('parsedtrailseq', parsedTrailSeq);
     // 등산로 trails 가져오기
     trailListDispatch(getTrailDetail(parsedTrailSeq));
@@ -35,10 +37,12 @@ function MountainTrail() {
     <>
       <h1>지도 페이지</h1>
       <RiArrowGoBackFill onClick={backHandler} />
-      <MapTrailDetail
-        trailListData={trailListData}
-        spotListData={spotListData}
-      />
+      <div className="kakao-map-trail">
+        <MapTrailDetail
+          trailListData={trailListData}
+          spotListData={spotListData}
+        />
+      </div>
     </>
   );
 }

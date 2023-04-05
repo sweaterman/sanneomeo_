@@ -8,7 +8,6 @@ import {
   getMountainSearch,
   searchMountain,
 } from '@features/mountain/searchMountainSlice';
-import { mountain } from '@features/mountain/mountainSlice';
 import { useAppSelector, useAppDispatch } from '@app/hooks';
 import Searchbar from '@components/main/Searchbar';
 import MountainItem from '@components/main/MountainItems';
@@ -23,8 +22,10 @@ import {
 } from '@features/user/userChallengeSlice';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import churamgi from '@assets/images/ramgi_flag.png';
+// import churamgi from '@assets/images/ramgi_flag.png';
 import { useNavigate, NavLink } from 'react-router-dom';
+import WeatherItem from '@components/common/Weather';
+import SpotButton from '@components/common/SpotButton';
 
 function MainPage() {
   const navigate = useNavigate();
@@ -47,9 +48,6 @@ function MainPage() {
   const searchData = useAppSelector(searchMountain);
   const searchDispatch = useAppDispatch();
 
-  const searchClickData = useAppSelector(mountain);
-  const searchClickDispatch = useAppDispatch();
-
   // 검색바 실시간 반영
   useEffect(() => {
     const debounce = setTimeout(() => {
@@ -66,28 +64,30 @@ function MainPage() {
   }, []);
 
   // 내 위치 조사해서 가장 가까운 등산로 받아오는 코드
-  const [latitude, setLatitude] = useState(0);
-  const [longitude, setLongitude] = useState(0);
   const positionData = useAppSelector(positionTrail);
   const positionDispatch = useAppDispatch();
-  const positionClick = () => {
+  useEffect(() => {
+    geo();
+  }, []);
+
+  const geo = async () => {
     if (navigator.geolocation) {
-      // eslint-disable-next-line func-names
-      navigator.geolocation.getCurrentPosition(function (position) {
-        setLatitude(position.coords.latitude);
-        setLongitude(position.coords.longitude);
-        console.log(latitude, longitude, '바꿨다!');
-        positionDispatch(getPositionTrail({ latitude, longitude }))
-          .then(() => {
-            navigate(`/mountain/trail/${positionData.result.trailSeq}`);
-          })
-          .catch(() => {
-            toast.error('현재위치를 받아올 수 없습니다.');
-          });
+      const position: any = await new Promise((resolve, reject) => {
+        navigator.geolocation.getCurrentPosition(resolve, reject);
       });
+      positionDispatch(
+        getPositionTrail({
+          latitude: position.coords.latitude,
+          longitude: position.coords.longitude,
+        }),
+      );
     } else {
       toast.error('현재위치를 받아올 수 없습니다.');
     }
+  };
+
+  const positionClick = () => {
+    navigate(`/mountain/trail/${positionData.result.trailSeq}`);
   };
 
   // 계절 산 리스트 받아오기
@@ -120,7 +120,7 @@ function MainPage() {
     <div className="mainpage">
       <ToastContainer position="top-center" autoClose={1000} hideProgressBar />
 
-      <div className="main-header grid grid-cols-8">
+      {/* <div className="main-header grid grid-cols-8">
         <div
           className="left col-span-4"
           onClick={positionClick}
@@ -138,7 +138,9 @@ function MainPage() {
           <div className="sub">나에게 맞는 등산로 추천받기 &gt;</div>
           <img src={churamgi} alt="추람쥐" />
         </NavLink>
-      </div>
+      </div> */}
+
+      <WeatherItem lat={37.5} lon={127.0} />
 
       <Searchbar
         searchMountainText={searchMountainText}
@@ -161,6 +163,9 @@ function MainPage() {
         data={userChallengeData.result.challengeList}
         is100
       />
+
+      {/* spot 바로가기 */}
+      <SpotButton positionClick={positionClick} />
     </div>
   );
 }

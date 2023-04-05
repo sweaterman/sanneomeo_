@@ -16,6 +16,7 @@ const initialPositionTrailState: PositionTrail = {
 export const getPositionTrail = createAsyncThunk(
   'positionTrailSlice/getPositionTrail',
   async ({ latitude, longitude }: { latitude: number; longitude: number }) => {
+    console.log('위경도', latitude, longitude);
     const url = `${baseURL}spot/main?latitude=${latitude}&longitude=${longitude}`;
     const response = await axios({ method: 'GET', url: url });
     return response.data.result;
