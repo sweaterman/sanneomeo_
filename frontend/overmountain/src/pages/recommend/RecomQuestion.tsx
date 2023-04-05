@@ -1,10 +1,10 @@
-import MascottMain from '@components/main/MascottMain';
 import React, { useState, useEffect } from 'react';
 import lowLevel from '@assets/images/question_low.png';
 import midLevel from '@assets/images/question_mid.png';
 import highLevel from '@assets/images/question_high.png';
 import Lottie from 'lottie-react';
-import squirrelAnimation from '@assets/lottie/squirrel.json'
+import squirrelAnimation from '@assets/lottie/squirrel.json';
+import { getRecomTrail } from '@features/commonSlice/recomSlice';
 
 import { ReactComponent as Seoul } from '@assets/images/Seoul.svg';
 import { ReactComponent as Chungcheongbuk_do } from '@assets/images/Chungcheongbuk_do.svg';
@@ -18,8 +18,6 @@ import { ReactComponent as Jeju_do } from '@assets/images/Jeju_do.svg';
 import { ReactComponent as Jeollabuk_do } from '@assets/images/Jeollabuk_do.svg';
 import { ReactComponent as Jeollanam_do } from '@assets/images/Jeollanam_do.svg';
 
-import narrow from '@assets/images/question_narrow.png';
-import broad from '@assets/images/question_broad.png';
 import healing from '@assets/images/question_healing.png';
 import challenge from '@assets/images/question_challenge.png';
 import under3 from '@assets/images/under3.png';
@@ -39,7 +37,7 @@ function RecomQuestion() {
 
   // 유저 설문상태
   const [userLevel, setUserLevel] = useState(0);
-  const [userRegion, setUserRegion] = useState(0);
+  const [userRegion, setUserRegion] = useState('');
   const [userPurpose, setUserPurpose] = useState(0);
   const [userTime, setUserTime] = useState(0);
 
@@ -57,7 +55,7 @@ function RecomQuestion() {
     setUserLevel(3);
     console.log('high', userLevel);
   };
-  const setRegionHandler = (region: number) => {
+  const setRegionHandler = (region: string) => {
     setUserRegion(region);
     console.log('narrow', userRegion);
   };
@@ -74,15 +72,31 @@ function RecomQuestion() {
     setUserTime(time);
   };
 
+  // 추천 진행하기
+  const recomDispatch = useAppDispatch();
+
   const submitHandler = (event: any) => {
     event?.preventDefault();
-    questionDispatch(
-      putUserInfo({ userLevel, userRegion, userPurpose, userTime }),
+
+    // 추천을 보낸다.
+    recomDispatch(
+      getRecomTrail({
+        level: userLevel,
+        region: userRegion,
+        purpose: userPurpose,
+        time: userTime,
+      }),
     );
+
+    // 로그인이 되어있으면 정보 수정
+    if (localStorage.getItem('token')) {
+      questionDispatch(
+        putUserInfo({ userLevel, userRegion, userPurpose, userTime }),
+      );
+    }
     navigate('/recommend/result');
   };
-  // 람쥐설문문구
-  const mascottMessage = '람쥐가 추천해줄겡  자유롭게 선택해봐';
+
   return (
     // 선택된 이미지로 submit 구현하기
     <div className="recom-question">
@@ -90,13 +104,14 @@ function RecomQuestion() {
         <div className="recom-title">
           <h1>람쥐의 추천!</h1>
           <span>
-          어떤 등산 스타일을 가지고 계신가요?<br/>
-          람쥐가 산을 추천해줄거에요!
+            어떤 등산 스타일을 가지고 계신가요?
+            <br />
+            람쥐가 산을 추천해줄거에요!
           </span>
         </div>
         <Lottie
           style={{ height: 320 }}
-          animationData={squirrelAnimation} 
+          animationData={squirrelAnimation}
           loop={false}
         />
       </div>
@@ -158,59 +173,73 @@ function RecomQuestion() {
           </div>
 
           <div
-            className={userRegion === 1 ? 'select-area active' : 'select-area'}
+            className={
+              userRegion === '서울' ? 'select-area active' : 'select-area'
+            }
             role="presentation"
-            onClick={() => setRegionHandler(1)}
-            onKeyDown={() => setRegionHandler(1)}
+            onClick={() => setRegionHandler('서울')}
+            onKeyDown={() => setRegionHandler('서울')}
           >
             <div>서울</div>
           </div>
           <div
-            className={userRegion === 2 ? 'select-area active' : 'select-area'}
+            className={
+              userRegion === '경기' ? 'select-area active' : 'select-area'
+            }
             role="presentation"
-            onClick={() => setRegionHandler(2)}
-            onKeyDown={() => setRegionHandler(2)}
+            onClick={() => setRegionHandler('경기')}
+            onKeyDown={() => setRegionHandler('경기')}
           >
             <div>경기</div>
           </div>
           <div
-            className={userRegion === 3 ? 'select-area active' : 'select-area'}
+            className={
+              userRegion === '강원' ? 'select-area active' : 'select-area'
+            }
             role="presentation"
-            onClick={() => setRegionHandler(3)}
-            onKeyDown={() => setRegionHandler(3)}
+            onClick={() => setRegionHandler('강원')}
+            onKeyDown={() => setRegionHandler('강원')}
           >
             <div>강원</div>
           </div>
           <br />
           <div
-            className={userRegion === 4 ? 'select-area active' : 'select-area'}
+            className={
+              userRegion === '충청' ? 'select-area active' : 'select-area'
+            }
             role="presentation"
-            onClick={() => setRegionHandler(4)}
-            onKeyDown={() => setRegionHandler(4)}
+            onClick={() => setRegionHandler('충청')}
+            onKeyDown={() => setRegionHandler('충청')}
           >
             <div>충청</div>
           </div>
           <div
-            className={userRegion === 5 ? 'select-area active' : 'select-area'}
+            className={
+              userRegion === '전라' ? 'select-area active' : 'select-area'
+            }
             role="presentation"
-            onClick={() => setRegionHandler(5)}
-            onKeyDown={() => setRegionHandler(5)}
+            onClick={() => setRegionHandler('전라')}
+            onKeyDown={() => setRegionHandler('전라')}
           >
             <div>전라</div>
           </div>
           <div
-            className={userRegion === 6 ? 'select-area active' : 'select-area'}
+            className={
+              userRegion === '경상' ? 'select-area active' : 'select-area'
+            }
             role="presentation"
-            onClick={() => setRegionHandler(6)}
-            onKeyDown={() => setRegionHandler(6)}
+            onClick={() => setRegionHandler('경상')}
+            onKeyDown={() => setRegionHandler('경상')}
           >
             <div>경상</div>
           </div>
           <div
-            className={userRegion === 7 ? 'select-area active' : 'select-area'}
+            className={
+              userRegion === '제주' ? 'select-area active' : 'select-area'
+            }
             role="presentation"
-            onClick={() => setRegionHandler(7)}
-            onKeyDown={() => setRegionHandler(7)}
+            onClick={() => setRegionHandler('제주')}
+            onKeyDown={() => setRegionHandler('제주')}
           >
             <div>제주</div>
           </div>
@@ -316,13 +345,9 @@ function RecomQuestion() {
             많은 항목에 응답할수록 좋은 추천 결과를 받을 수 있어요!
           </div>
           <button className="submit-button" type="submit">
-          
-          추천 받으러 가기
-          
-            
+            추천 받으러 가기
           </button>
-          </div>
-        
+        </div>
       </form>
     </div>
   );

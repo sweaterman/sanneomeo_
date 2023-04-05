@@ -51,7 +51,7 @@ function TrailItems(props: { mountainSeq: string }) {
   return (
     <div className="trailItems-root grid grid-cols-8">
       {/* TrailItems (등산로리스트) 컴포넌트 (내부 스크롤 적용해야함) */}
-      <div className="col-span-1"></div>
+      <div className="col-span-1" />
 
       {/* 하나의 Trail 컴포넌트 */}
       <div className="col-span-6">
