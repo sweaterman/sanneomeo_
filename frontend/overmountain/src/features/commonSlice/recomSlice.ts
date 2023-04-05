@@ -25,7 +25,7 @@ export const getRecomTrail = createAsyncThunk(
   'recomSlice/getRecomTrail',
   async (sendData: {
     level: number;
-    region: string;
+    region: number;
     purpose: number;
     time: number;
   }) => {

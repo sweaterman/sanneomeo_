@@ -1,7 +1,7 @@
 .recom-question {
   margin: 10px;
 
-  .recom-banner{
+  .recom-banner {
     border-radius: 20px;
     width: 100%;
     height: 300px;
@@ -9,19 +9,19 @@
     background-color: $light-green;
     padding: 10px 0px;
 
-    .recom-title{
+    .recom-title {
       position: absolute;
       text-align: center;
       width: 100%;
 
-      h1{
+      h1 {
         font-size: $font_h2;
         color: white;
         font-weight: 700;
         margin: 5px 0px;
       }
 
-      span{
+      span {
         font-size: $font_h4;
         color: rgb(47, 47, 47);
         font-weight: 500;
@@ -29,15 +29,15 @@
     }
   }
 
-  form{
+  form {
     margin-top: 20px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    hr{
-      width:100%;
+    hr {
+      width: 100%;
     }
 
     .level-text {
@@ -61,14 +61,14 @@
       font-weight: 500;
     }
 
-    .question-text{
+    .question-text {
       color: $heavy-green;
       font-size: $font_h4;
       font-weight: 600;
       margin: 5px;
     }
 
-    .time-specific-text{
+    .time-specific-text {
       font-size: $font-h4;
     }
   }
@@ -85,33 +85,11 @@ hr {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  .korea-map {
-    display: none;
-    color: black;
-    position: relative;
-    .seoul {
-      position: absolute;
-      top: 10%;
-      left: 20%;
-      z-index: 9;
-      color: black;
-    }
-    .gyeonggi {
-      position: absolute;
-      top: 5%;
-      left: 20%;
-    }
-    .incheon {
-      position: absolute;
-      top: 5%;
-      left: -10%;
-    }
-  }
   .select-area {
     display: flex;
     justify-content: center;
     margin: 14px;
-    background-color: $midi-yellow;;
+    background-color: $midi-yellow;
     border-radius: 30px;
     width: 80px;
     filter: grayscale(1);
@@ -162,16 +140,15 @@ hr {
   }
 }
 
-.question-finish{
-
-  width:100%;
+.question-finish {
+  width: 100%;
   margin-bottom: 20px;
 
-  .finish-text{
+  .finish-text {
     font-size: $font-h5;
     margin: 10px;
     font-weight: 500;
-    color:rgb(122, 122, 122);
+    color: rgb(122, 122, 122);
   }
 
   .submit-button {
@@ -183,9 +160,5 @@ hr {
     font-weight: 500;
     height: 50px;
     border-radius: 10px;
-  
   }
-
-
 }
-
