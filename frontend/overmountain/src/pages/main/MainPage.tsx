@@ -25,6 +25,7 @@ import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import churamgi from '@assets/images/ramgi_flag.png';
 import { useNavigate, NavLink } from 'react-router-dom';
+import WeatherItem from '@components/common/Weather';
 import SpotButton from '@components/common/SpotButton';
 
 function MainPage() {
@@ -140,6 +141,8 @@ function MainPage() {
           <img src={churamgi} alt="추람쥐" />
         </NavLink>
       </div> */}
+
+      <WeatherItem lat={37.5} lon={127.0} />
 
       <Searchbar
         searchMountainText={searchMountainText}

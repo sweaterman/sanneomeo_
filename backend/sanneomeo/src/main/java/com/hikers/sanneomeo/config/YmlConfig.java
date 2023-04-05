@@ -22,5 +22,7 @@ public class YmlConfig {
   private String weatherServiceKey;
   private String weatherEndPoint;
   private String flaskEndPoint;
+  //엘라스틱
+  private String elasticSearchHost;
 
 }

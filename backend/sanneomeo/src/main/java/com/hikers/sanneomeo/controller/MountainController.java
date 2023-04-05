@@ -2,18 +2,20 @@ package com.hikers.sanneomeo.controller;
 
 import static com.hikers.sanneomeo.exception.BaseResponseStatus.UNAUTHORIZED_USER;
 
-import com.google.gson.JsonObject;
 import com.hikers.sanneomeo.config.YmlConfig;
+import com.hikers.sanneomeo.domain.MountainDocument;
 import com.hikers.sanneomeo.dto.request.UploadImagesRequestDto;
 import com.hikers.sanneomeo.dto.request.WriteReviewRequestDto;
 import com.hikers.sanneomeo.dto.response.BaseResponseDto;
 import com.hikers.sanneomeo.dto.response.GetUserSurveyResponseDto;
 import com.hikers.sanneomeo.dto.response.MountainDetailResponseDto;
+import com.hikers.sanneomeo.dto.response.MountainSearchResponseDto;
 import com.hikers.sanneomeo.dto.response.PhotoResponseDto;
 import com.hikers.sanneomeo.dto.response.TrailListResponseDto;
 import com.hikers.sanneomeo.dto.response.ReviewResponseDto;
 import com.hikers.sanneomeo.exception.BaseException;
 import com.hikers.sanneomeo.exception.BaseResponseStatus;
+import com.hikers.sanneomeo.repository.TrailPathRepository;
 import com.hikers.sanneomeo.service.CourseService;
 import com.hikers.sanneomeo.service.MountainService;
 import com.hikers.sanneomeo.service.PhotoService;
@@ -36,7 +38,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.*;
 
-
 @Slf4j
 @RestController
 @RequestMapping("/mountain")
@@ -56,6 +57,8 @@ public class MountainController {
 
     @Autowired
     private YmlConfig ymlConfig;
+    @Autowired
+    private TrailPathRepository trailPathRepository;
 
 
     @PostMapping("/{mountainSeq}/photo")
@@ -89,12 +92,8 @@ public class MountainController {
     public BaseResponseDto<?> writeReview(@RequestBody WriteReviewRequestDto writeReviewRequestDto){
         try{
 
-            //요청 내부의 userSeq와 인증된 userSeq가 다를 경우
             Long authUserSeq = Long.parseLong(SecurityContextHolder.getContext().getAuthentication().getPrincipal().toString());
-            if (authUserSeq != writeReviewRequestDto.getUserSeq()) {
-                throw new BaseException(UNAUTHORIZED_USER);
-            }
-
+            writeReviewRequestDto.setUserSeq(authUserSeq);
             boolean result = mountainService.writeReview(writeReviewRequestDto);
             return new BaseResponseDto<>(result);
         }catch (Exception e){
@@ -124,7 +123,10 @@ public class MountainController {
     @GetMapping("/review/{mountainIdx}")
     public BaseResponseDto<?> reviewList(@PathVariable String mountainIdx){
         try{
-            Long authUserSeq = Long.parseLong(SecurityContextHolder.getContext().getAuthentication().getPrincipal().toString());
+            Long authUserSeq = 0L;
+            if (SecurityContextHolder.getContext().getAuthentication().getPrincipal() != "anonymousUser") {
+                authUserSeq = Long.parseLong(SecurityContextHolder.getContext().getAuthentication().getPrincipal().toString());
+            }
             Map<String, Object> reviewMap = new HashMap<>();
 
             List<ReviewResponseDto> reviews = mountainService.reviewList(mountainIdx, authUserSeq);
@@ -158,23 +160,30 @@ public class MountainController {
     @GetMapping("/trail/{mountainIdx}")
     public BaseResponseDto<?> getTrailsByMountainSequence(@PathVariable("mountainIdx") String sequence){
         try {
-            Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-            List<TrailListResponseDto> trails = courseService.getTrailsBySequence(sequence);
-
+            Object principal = SecurityContextHolder.getContext().getAuthentication()
+                .getPrincipal();
             if (principal.toString().equals("anonymousUser")) {
-                return new BaseResponseDto<>(trails);
-            } else {
-                OkHttpClient client = new OkHttpClient();
-                Request request = new Request.Builder() .url(ymlConfig.getFlaskEndPoint()+"/recommendCourse/"+principal.toString()+"/"+sequence) .build();
-                Response response = client.newCall(request).execute();
-                JSONObject message = new JSONObject(response.body().string());
-                List<Object> courses = message.getJSONArray("recommend").toList();
-                return new BaseResponseDto<>(trails.stream().map( trail -> recommendCheck(trail,courses)).collect(Collectors.toList()));
+                GetUserSurveyResponseDto getUserSurveyResponseDto = new GetUserSurveyResponseDto();
+                getUserSurveyResponseDto.setLogin(false);
+                return new BaseResponseDto<>(courseService.getTrailsBySequence(sequence));
             }
+
+            OkHttpClient client = new OkHttpClient();
+            Request request = new Request.Builder().url(
+                ymlConfig.getFlaskEndPoint() + "/mountainRecommendCourse?userseq=" + principal.toString() + "&mountainIdx="
+                    + sequence).build();
+            Response response = client.newCall(request).execute();
+            JSONObject message = new JSONObject(response.body().string());
+            List<Object> courses = message.getJSONArray("course_seq_list").toList();
+
+            Long userSeq = Long.parseLong(principal.toString());
+            return new BaseResponseDto<>(courseService.getTrailsBySequence(sequence, userSeq)
+                .stream().map(trail -> recommendCheck(trail,courses)).collect(Collectors.toList()));
         }
         catch (Exception e){
-                throw new BaseException(BaseResponseStatus.FAIL);
+            throw new BaseException(BaseResponseStatus.FAIL);
         }
+
     }
     @GetMapping("/photo/{mountainIdx}")
     public BaseResponseDto<?> getTrailsByMountainSequence(@PathVariable("mountainIdx") Long sequence){
@@ -183,6 +192,12 @@ public class MountainController {
     @GetMapping("/info/{mountainIdx}")
     public BaseResponseDto<?> getMountainInfo(@PathVariable("mountainIdx") String sequence){
         return  new BaseResponseDto<>(mountainService.getMountainInfoBysequence(sequence));
+
+    }
+
+    @GetMapping("/search")
+    public BaseResponseDto<List<MountainDocument>> searchMountain(@RequestParam("key") String key){
+        return new BaseResponseDto<>(mountainService.search(key));
 
     }
 
@@ -195,8 +210,6 @@ public class MountainController {
         }
         return trail;
     }
-
-
 
 
 }

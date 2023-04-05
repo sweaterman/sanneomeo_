@@ -77,6 +77,9 @@ public class MountainRepositoryImpl implements MountainRepositoryCustom {
                     , Expressions.as(distanceExpression, distancePath))
             )
             .from(mountain)
+            .rightJoin(course)
+            .on(mountain.mountainSeq.eq(course.mountainSeq))
+            .groupBy(mountain.mountainSeq)
             .orderBy(((ComparableExpressionBase<Double>) distancePath).asc())
             .fetchFirst()
     );

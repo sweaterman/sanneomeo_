@@ -21,6 +21,7 @@ public class TrailListResponseDto {
 
   private Integer time;
   private Boolean recommend;
+  private Boolean isLike;
 
   public TrailListResponseDto(Long sequence,String name, BigDecimal length, String difficulty,Long keepCount,Integer time) {
     this.sequence = sequence;
@@ -30,6 +31,7 @@ public class TrailListResponseDto {
     this.keepCount =keepCount;
     this.time = time;
     this.recommend = false;
+    this.isLike = false;
   }
 
 }
