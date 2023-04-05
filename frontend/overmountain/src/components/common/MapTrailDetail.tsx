@@ -5,38 +5,17 @@ import practiceimg from '@assets/images/stretching.png';
 import waterimg from '@assets/images/waterdrop.png';
 import carparkimg from '@assets/images/parking.png';
 import dotimg from '@assets/images/dot.png';
-import { Map, MapMarker, MapTypeId, Polyline } from 'react-kakao-maps-sdk';
-
-// 기타
-// 조망점
-// 화장실 o
-// 주요나무
-// 시종점
-// 분기점 x
-// 정상
-// 기타건물
-// 시설물(운동기구 등)
-// 가로등
-// 이정표
-// 안내판또는지도
-// 헬기장
-// "유적(문화, 역사)"
-// 음수대 o
-// 주차장 o
-// 벤치
-// 정자
-// 훼손지
-// 위험지역
-// 대피소
-// 동굴
-// 야영장
-// 정상부
-// "유적(문화,역사)"
-// 시설물(운동기구등)
-// 안내판
-// 노선내분기
-// 시작점
-// 시설물
+import flaglight from '@assets/images/flag_light.png';
+import redflag from '@assets/images/redflag.png';
+import curMarker from '@assets/images/target.png';
+import ramgiHere from '@assets/images/ramgi_here.png';
+import {
+  Map,
+  MapMarker,
+  MapTypeId,
+  Polyline,
+  CustomOverlayMap,
+} from 'react-kakao-maps-sdk';
 
 function MapTrailDetail(props: {
   trailListData: TrailPath;
@@ -47,6 +26,14 @@ function MapTrailDetail(props: {
     lat: trail.latitude,
     lng: trail.longitude,
   }));
+  const [state, setState] = useState({
+    center: {
+      lat: paths.length ? paths[0].lat : 37.5009759,
+      lng: paths.length ? paths[0].lng : 127.0373502,
+    },
+    isPanto: false,
+    isLoading: true,
+  });
 
   // 해당 산의 전체 스팟들
   const positions = props.spotListData.result.map((position) => ({
@@ -91,16 +78,29 @@ function MapTrailDetail(props: {
     lat: position.latitude,
     lng: position.longitude,
   }));
-  console.log(startSpots);
+  console.log('loading', state.isLoading);
+  console.log('center', state.center);
+  console.log('path[0]', paths[0].lat, paths[0].lng);
 
   const imageSize = { width: 24, height: 24 };
 
   const [selectedCategory, setSelectedCategory] = useState('toilet');
 
   const selectCategoryHandler = (e: any) => {
-    console.log('selectCategoryHandler', e.target.value);
-    setSelectedCategory(e.target.value);
+    console.log('selectCategoryHandler', e);
+    setSelectedCategory(e);
   };
+  useEffect(() => {
+    setState((prev) => ({
+      ...prev,
+      center: {
+        lat: paths.length ? paths[0].lat : 37.5009759,
+        lng: paths.length ? paths[0].lng : 127.0373502,
+      },
+      isLoading: true,
+    }));
+  }, []);
+
   useEffect(() => {
     const toiletMenu = document.getElementById('toiletMenu');
     const practiceMenu = document.getElementById('practiceMenu');
@@ -116,7 +116,6 @@ function MapTrailDetail(props: {
         waterMenu.className = '';
         carparkMenu.className = '';
         startMenu.className = '';
-        console.log('classname', toiletMenu);
       } else if (selectedCategory === 'practice') {
         toiletMenu.className = '';
         practiceMenu.className = 'menu_selected';
@@ -148,25 +147,84 @@ function MapTrailDetail(props: {
       }
     }
   }, [selectedCategory]);
+
+  const toMapCenter = () => {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition((position) => {
+        setState((prev) => ({
+          ...prev,
+          center: {
+            lat: position.coords.latitude,
+            lng: position.coords.longitude,
+          },
+          isLoading: false,
+          isPanto: true,
+        }));
+      });
+    }
+  };
   return (
     <>
       {/* <CategoryMarkerStyle /> */}
       <div id="mapwrap" className="map-wrap">
         <Map // 지도를 표시할 Container
           id={`map`}
-          center={{
-            // 지도의 중심좌표
-            lat: paths.length ? paths[0].lat : 37.5009759,
-            lng: paths.length ? paths[0].lng : 127.0373502,
-          }}
+          center={state.center}
+          isPanto={state.isPanto}
           style={{
             // 지도의 크기
             width: '100%',
             height: '450px',
             zIndex: '0',
           }}
-          level={5} // 지도의 확대 레벨
+          level={7} // 지도의 확대 레벨
+          // 지도 드래그시 이벤트
+          onDragStart={(map) =>
+            setState((prev) => ({
+              ...prev,
+              isLoading: true,
+            }))
+          }
+          // 중심이동시 해당위치로 좌표갱신
+          onCenterChanged={(map) =>
+            setState((prev) => ({
+              ...prev,
+              center: {
+                lat: map.getCenter().getLat(),
+                lng: map.getCenter().getLng(),
+              },
+            }))
+          }
         >
+          {/* 현재 등산로의 종점(정상) 빨간깃발 */}
+          <MapMarker
+            position={{
+              lat: paths.length > 0 ? paths[paths.length - 1].lat : 1,
+              lng: paths.length > 0 ? paths[paths.length - 1].lng : 1,
+            }}
+            image={{
+              src: redflag,
+              size: imageSize,
+              options: {
+                offset: {
+                  x: 2,
+                  y: 25,
+                },
+              },
+            }}
+          />
+          {/* 현재위치 마커표시 */}
+          {!state.isLoading && (
+            <CustomOverlayMap // 커스텀 오버레이를 표시할 Container
+              // 커스텀 오버레이가 표시될 위치입니다
+              position={state.center}
+            >
+              {/* 커스텀 오버레이에 표시할 내용입니다 */}
+              <div className="ramgi-here">
+                <img src={ramgiHere} alt="ramgiHere" />
+              </div>
+            </CustomOverlayMap>
+          )}
           {selectedCategory === 'all' &&
             positions.map((position) => (
               <MapMarker
@@ -175,6 +233,12 @@ function MapTrailDetail(props: {
                 image={{
                   src: dotimg,
                   size: imageSize,
+                  options: {
+                    offset: {
+                      x: 10,
+                      y: 13,
+                    },
+                  },
                 }}
               />
             ))}
@@ -228,14 +292,25 @@ function MapTrailDetail(props: {
                 key={`start-${position.lat},${position.lng}`}
                 position={position}
                 image={{
-                  src: carparkimg,
+                  src: flaglight,
                   size: imageSize,
+                  options: {
+                    offset: {
+                      x: 2,
+                      y: 25,
+                    },
+                  },
                 }}
               />
             ))}
           {/* 지도에 지형정보를 표시하도록 지도타입을 추가합니다 */}
           <MapTypeId type={kakao.maps.MapTypeId.TERRAIN} />
-
+          {/* 버튼 클릭시 현재위치로 이동 */}
+          <div className="map-button-container">
+            <button className="map-button" type="button" onClick={toMapCenter}>
+              <img src={curMarker} alt="current location" />
+            </button>
+          </div>
           {/* 지도 위에 선그리기 */}
           <Polyline
             path={[paths]}
@@ -247,29 +322,60 @@ function MapTrailDetail(props: {
         </Map>
         {/* 지도 위에 표시될 마커 카테고리 */}
         <div className="category">
-          <select
-            className="dropdown-category"
-            onChange={(e) => selectCategoryHandler(e)}
+          <div
+            id="allMenu"
+            className="all-button"
+            role="presentation"
+            onClick={(e) => selectCategoryHandler('all')}
+            onKeyDown={(e) => selectCategoryHandler('all')}
           >
-            <option value="all" id="allMenu">
-              전체
-            </option>
-            <option value="toilet" id="toiletMenu">
-              화장실
-            </option>
-            <option value="practice" id="practiceMenu">
-              운동
-            </option>
-            <option value="water" id="waterMenu">
-              음수대
-            </option>
-            <option value="carpark" id="carparkMenu">
-              주차장
-            </option>
-            <option value="start" id="startMenu">
-              시종점
-            </option>
-          </select>
+            전체
+          </div>
+          <div
+            id="toiletMenu"
+            className="toilet-button"
+            role="presentation"
+            onClick={(e) => selectCategoryHandler('toilet')}
+            onKeyDown={(e) => selectCategoryHandler('toilet')}
+          >
+            화장실
+          </div>
+          <div
+            id="practiceMenu"
+            className="practice-button"
+            role="presentation"
+            onClick={(e) => selectCategoryHandler('practice')}
+            onKeyDown={(e) => selectCategoryHandler('practice')}
+          >
+            운동
+          </div>
+          <div
+            id="waterMenu"
+            className="water-button"
+            role="presentation"
+            onClick={(e) => selectCategoryHandler('water')}
+            onKeyDown={(e) => selectCategoryHandler('water')}
+          >
+            음수대
+          </div>
+          <div
+            id="carparkMenu"
+            className="carpark-button"
+            role="presentation"
+            onClick={(e) => selectCategoryHandler('carpark')}
+            onKeyDown={(e) => selectCategoryHandler('carpark')}
+          >
+            주차장
+          </div>
+          <div
+            id="startMenu"
+            className="start-button"
+            role="presentation"
+            onClick={(e) => selectCategoryHandler('start')}
+            onKeyDown={(e) => selectCategoryHandler('start')}
+          >
+            시종점
+          </div>
         </div>
       </div>
     </>

@@ -13,6 +13,7 @@ function MountainTrail() {
 
   // 등산로 패스 받아오기
   const trailListData = useAppSelector(trailDetail);
+  console.log('traillist', trailListData);
   const trailListDispatch = useAppDispatch();
 
   // 등산로 스팟 리스트 받아오기
@@ -35,10 +36,12 @@ function MountainTrail() {
     <>
       <h1>지도 페이지</h1>
       <RiArrowGoBackFill onClick={backHandler} />
-      <MapTrailDetail
-        trailListData={trailListData}
-        spotListData={spotListData}
-      />
+      <div className="kakao-map-trail">
+        <MapTrailDetail
+          trailListData={trailListData}
+          spotListData={spotListData}
+        />
+      </div>
     </>
   );
 }
