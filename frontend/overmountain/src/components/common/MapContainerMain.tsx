@@ -9,7 +9,6 @@ import { useNavigate } from 'react-router-dom';
 import mapMarker from '@assets/images/map-marker.png';
 import curMarker from '@assets/images/target.png';
 import closeMarker from '@assets/images/close.png';
-import CustomInfoWindow from '@components/common/CustomInfoWindow';
 
 function MapContainerMain(props: { searchResult: ElasticMountain }) {
   // 검색결과 담기
@@ -71,15 +70,6 @@ function MapContainerMain(props: { searchResult: ElasticMountain }) {
         isLoading: false,
       }));
     }
-
-    const ps = new kakao.maps.services.Places();
-    ps.keywordSearch(props.searchResult.name, placeSearchCB);
-
-    function placeSearchCB(data: any, status: any) {
-      if (status === kakao.maps.services.Status.OK) {
-        let bounds = new kakao.maps.LatLngBounds();
-      }
-    }
   }, []);
 
   const toMountainDetail = () => {
@@ -89,23 +79,23 @@ function MapContainerMain(props: { searchResult: ElasticMountain }) {
   const altitudeString = `${Math.floor(result.altitude)}m`;
 
   const toMapCenter = () => {
-    setState({
-      ...state,
-      center: {
-        lat: state.center.lat,
-        lng: state.center.lng,
-      },
-      errMsg: null,
-      isLoading: false,
-      isPanto: true,
-    });
-    console.log(state);
-    console.log(state.center.lat);
-    console.log(state.center.lng);
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition((position) => {
+        setState((prev) => ({
+          ...prev,
+          center: {
+            lat: position.coords.latitude,
+            lng: position.coords.longitude,
+          },
+          isLoading: false,
+          isPanto: true,
+        }));
+      });
+    }
   };
 
   const customMaker = {
-    src: 'http://localhost:3000/static/media/map-marker.14883744c8f9f34fd842.png',
+    src: { mapMarker },
     size: {
       width: 27,
       height: 40,
@@ -119,13 +109,36 @@ function MapContainerMain(props: { searchResult: ElasticMountain }) {
         isPanto={state.isPanto}
         style={{ width: '100%', height: '360px', zIndex: '1' }}
         level={7}
+        // 지도 드래그시 이벤트
+        onDragStart={(map) => {
+          setState((prev) => ({
+            ...prev,
+            isLoading: true,
+          }));
+          setIsOpen(false);
+        }}
+        // 중심이동시 해당위치로 좌표갱신
+        onCenterChanged={(map) =>
+          setState((prev) => ({
+            ...prev,
+            center: {
+              lat: map.getCenter().getLat(),
+              lng: map.getCenter().getLng(),
+            },
+          }))
+        }
       >
-        <MapMarker
-          image={customMaker}
-          position={state.center}
-          clickable
-          onClick={() => setIsOpen(true)}
-        />
+        {state && (
+          <MapMarker
+            image={{
+              src: mapMarker,
+              size: customMaker.size,
+            }}
+            position={state.center}
+            clickable
+            onClick={() => setIsOpen(true)}
+          />
+        )}
 
         {/* MapMarker의 자식을 넣어줌으로 해당 자식이 InfoWindow로 만들어지게 합니다 */}
         {/* 인포윈도우에 표출될 내용으로 HTML 문자열이나 React Component가 가능합니다 */}
@@ -170,64 +183,12 @@ function MapContainerMain(props: { searchResult: ElasticMountain }) {
           </CustomOverlayMap>
         )}
 
-        {/* {isOpen && (
-            <div
-              style={{
-                minWidth: '150px',
-                minHeight: '50px',
-              }}
-            >
-              <img
-                alt="close"
-                width="10"
-                height="10"
-                src={closeMarker}
-                style={{
-                  position: 'absolute',
-                  right: '10px',
-                  top: '10px',
-                  cursor: 'pointer',
-                }}
-                role="presentation"
-                onClick={() => setIsOpen(false)}
-                onKeyDown={() => setIsOpen(false)}
-              />
-              <div
-                style={{ padding: '10px', fontSize: '0.8rem' }}
-                role="presentation"
-                onClick={toMountainDetail}
-                onKeyDown={toMountainDetail}
-              >
-                {result.name == null ? `잘못된 위치에요!` : result.name}{' '}
-                {result.name == null ? `` : Math.floor(result.altitude)}m
-              </div>
-            </div>
-          )} */}
-        {/* </MapMarker> */}
         {/* 지도에 지형정보를 표시하도록 지도타입을 추가합니다 */}
         <MapTypeId type={kakao.maps.MapTypeId.TERRAIN} />
         <div className="map-button-container">
           <button className="map-button" type="button" onClick={toMapCenter}>
             <img src={curMarker} alt="current location" />
             {/* 현재 위치 */}
-          </button>
-          <h1>|</h1>
-          <button
-            type="button"
-            onClick={() =>
-              setState({
-                center: {
-                  lat: state.center.lat,
-                  lng: state.center.lng,
-                },
-                errMsg: null,
-                isLoading: false,
-                isPanto: false,
-              })
-            }
-          >
-            {/* ehdeh 이동 */}
-            <img src={curMarker} alt="current location" />
           </button>
         </div>
       </Map>

@@ -1,4 +1,3 @@
-import path from 'path';
 import React, { useEffect, useState } from 'react';
 import toiletimg from '@assets/images/wc.png';
 import practiceimg from '@assets/images/stretching.png';
@@ -80,7 +79,7 @@ function MapTrailDetail(props: {
   }));
   console.log('loading', state.isLoading);
   console.log('center', state.center);
-  console.log('path[0]', paths[0].lat, paths[0].lng);
+  // console.log('path[0]', paths[0].lat, paths[0].lng);
 
   const imageSize = { width: 24, height: 24 };
 

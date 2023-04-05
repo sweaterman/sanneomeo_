@@ -8,7 +8,6 @@ import {
   getMountainSearch,
   searchMountain,
 } from '@features/mountain/searchMountainSlice';
-import { mountain } from '@features/mountain/mountainSlice';
 import { useAppSelector, useAppDispatch } from '@app/hooks';
 import Searchbar from '@components/main/Searchbar';
 import MountainItem from '@components/main/MountainItems';
@@ -23,7 +22,7 @@ import {
 } from '@features/user/userChallengeSlice';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import churamgi from '@assets/images/ramgi_flag.png';
+// import churamgi from '@assets/images/ramgi_flag.png';
 import { useNavigate, NavLink } from 'react-router-dom';
 import WeatherItem from '@components/common/Weather';
 import SpotButton from '@components/common/SpotButton';
@@ -48,9 +47,6 @@ function MainPage() {
 
   const searchData = useAppSelector(searchMountain);
   const searchDispatch = useAppDispatch();
-
-  const searchClickData = useAppSelector(mountain);
-  const searchClickDispatch = useAppDispatch();
 
   // 검색바 실시간 반영
   useEffect(() => {
@@ -169,7 +165,7 @@ function MainPage() {
       />
 
       {/* spot 바로가기 */}
-      <SpotButton />
+      <SpotButton positionClick={positionClick} />
     </div>
   );
 }
