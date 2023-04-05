@@ -3,6 +3,7 @@ import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
 // import logger from 'redux-logger';
 import counterReducer from '@features/counter/counterSlice';
 import mountainReducer from '@features/mountain/mountainSlice';
+import searchMountainReducer from '@features/mountain/searchMountainSlice';
 import trailsReducer from '@features/trail/trailSlice';
 import usersReducer from '@features/user/userSlice';
 import seasonMountainReducer from '@features/mountain/seasonMountainSlice';
@@ -14,12 +15,14 @@ import userTrailLikeSlice from '@features/user/userTrailLikeSlice';
 import trailKeepSlice from '@features/trail/trailKeepSlice';
 import selectedTrailSlice from '@features/trail/selectedTrailSlice';
 import routingTrailSlice from '@features/trail/routingTrailSlice';
+import reviewSlice from '@features/mountain/reviewSlice';
 
 export const store = configureStore({
   reducer: {
     // slice 삽입. slice의 name을 key값으로 사용
     counter: counterReducer,
     mountains: mountainReducer,
+    searchMountains: searchMountainReducer,
     seasonMountains: seasonMountainReducer,
     trails: trailsReducer,
     trailLists: trailListReducer,
@@ -31,6 +34,7 @@ export const store = configureStore({
     userTrailLike: userTrailLikeSlice,
     selectedKey: selectedTrailSlice,
     rountingKey: routingTrailSlice,
+    reviews: reviewSlice,
   },
   // saga 쓰면 여기에 추가
   // middleware: new MiddlewareArray().concat(additionalMiddleware, logger),

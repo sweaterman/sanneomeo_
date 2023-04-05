@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import Navbar from '@components/common/Navbar';
 import { useNavigate, useLocation } from 'react-router-dom';
+import TempLogo from '@assets/images/temp_logo.png'
+
 
 function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -32,16 +34,16 @@ function Header() {
   ];
 
   return (
-    <div className="relative">
-      <div className="img-background">
-        <div className="header-nav">
+    <div className="common-header">
+      <div className="header-nav">
           <div
             className="nav-logo"
             role="presentation"
             onClick={navigateToMain}
             onKeyDown={navigateToMain}
           >
-            <img src="#" alt="sanneomeo" />
+            <img src={TempLogo} alt="sanneomeo" />
+            <h1>산너머</h1>
           </div>
           <div className={`navbar-wrapper ${isNavOpen ? 'open' : 'hidden'}`}>
             <Navbar isOpen={isNavOpen} onClose={toggleNavHandler} />
@@ -51,13 +53,23 @@ function Header() {
             className="cursor-pointer"
             color="white"
             size="30px"
-            style={{ zIndex: 99 }}
+            style={{ zIndex: 9999 }}
           />
         </div>
 
+      {/* <div className="img-background">
+        <div className="main-banner">
+          <Lottie
+          animationData={mountainAnimation}
+          >
+
+          </Lottie>
+
+        </div> */}
+
         {/* page-title 향후 페이지명 동적바인딩  */}
-        <div className="page-title">산너머</div>
-      </div>
+        {/* <div className="page-title">산너머</div> */}
+      {/* </div> */}
     </div>
   );
 }

@@ -31,6 +31,14 @@ def target_course():
     time = request.args.get('time')
     userseq = request.args.get('userseq')
 
+    print("1" + difficulty)
+    print("2" + location)
+    print("3" + purpose)
+    print("4" + time)
+    print("5" + userseq)
+
+
+
 
     # 데이터프레임 생성 및 필터링
     df = pd.DataFrame(result)
@@ -167,6 +175,7 @@ def recommend_course(course_seq):
     finally:
         mydb.close();
 
+    print(course_seq)
 
     df = pd.DataFrame(result)
     df.columns = ['course_seq', 'mountain_seq', 'name', 'introduction', 'length', 'time', 'difficulty_mean',
@@ -192,6 +201,7 @@ def recommend_course(course_seq):
     recommended_trails = [trail[0] for trail in ranked_trails if trail[0] != target_trail['course_seq']][:10]
 
     recommended_result = {"recommended_result" : recommended_trails}
+    print(recommended_result)
 
     return recommended_result
 
@@ -346,4 +356,4 @@ def mountain_recommend_course():
         return {'course_seq_list': []}
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0')

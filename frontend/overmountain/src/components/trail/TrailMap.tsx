@@ -3,10 +3,7 @@ import { getTrailDetail, trailDetail } from '@features/trail/trailSlice';
 import { useAppSelector, useAppDispatch } from '@app/hooks';
 import { Chart as ChartJS, registerables } from 'chart.js';
 import { Line } from 'react-chartjs-2';
-import {
-  selectedTrailKey,
-  setSelectedTrailKey,
-} from '@features/trail/selectedTrailSlice';
+import { selectedTrailKey } from '@features/trail/selectedTrailSlice';
 import { rountingTrailKey } from '@features/trail/routingTrailSlice';
 
 ChartJS.register(...registerables);
@@ -57,9 +54,8 @@ function TrailTemp() {
   };
   const options = {
     maintainAspectRatio: false,
-    width: 320,
     height: 100,
-    responsive: false,
+    responsive: true,
     interaction: {
       mode: 'index' as const,
       intersect: false,
@@ -78,7 +74,7 @@ function TrailTemp() {
           display: false,
         },
         ticks: {
-          display: false,
+          display: true,
         },
       },
     },
