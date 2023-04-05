@@ -26,6 +26,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import churamgi from '@assets/images/ramgi_flag.png';
 import { useNavigate, NavLink } from 'react-router-dom';
 import WeatherItem from '@components/common/Weather';
+import SpotButton from '@components/common/SpotButton';
 
 function MainPage() {
   const navigate = useNavigate();
@@ -121,7 +122,7 @@ function MainPage() {
     <div className="mainpage">
       <ToastContainer position="top-center" autoClose={1000} hideProgressBar />
 
-      <div className="main-header grid grid-cols-8">
+      {/* <div className="main-header grid grid-cols-8">
         <div
           className="left col-span-4"
           onClick={positionClick}
@@ -139,7 +140,7 @@ function MainPage() {
           <div className="sub">나에게 맞는 등산로 추천받기 &gt;</div>
           <img src={churamgi} alt="추람쥐" />
         </NavLink>
-      </div>
+      </div> */}
 
       <WeatherItem lat={37.5} lon={127.0} />
 
@@ -164,6 +165,9 @@ function MainPage() {
         data={userChallengeData.result.challengeList}
         is100
       />
+
+      {/* spot 바로가기 */}
+      <SpotButton />
     </div>
   );
 }
