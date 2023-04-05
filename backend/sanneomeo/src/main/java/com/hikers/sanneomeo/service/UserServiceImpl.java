@@ -1,5 +1,6 @@
 package com.hikers.sanneomeo.service;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.hikers.sanneomeo.domain.RecordPhoto;
 import com.hikers.sanneomeo.domain.User;
 import com.hikers.sanneomeo.dto.request.UpdateUserSurveyRequestDto;
@@ -179,15 +180,17 @@ public class UserServiceImpl implements UserService {
     public GetUserSurveyResponseDto getUserSurveyResponseDto(Long userSeq){
         User user = userRepository.findById(userSeq).orElseThrow(()->new BaseException(BaseResponseStatus.FAIL));
 
+
         GetUserSurveyResponseDto getUserSurveyResponseDto = new GetUserSurveyResponseDto();
         getUserSurveyResponseDto.setLogin(true);
-        getUserSurveyResponseDto.setTime(user.getPreferClimbDuration());
-        getUserSurveyResponseDto.setPurpose(user.getPurpose());
-        getUserSurveyResponseDto.setRegion(user.getPreferRegion());
-        getUserSurveyResponseDto.setLevel(user.getLevel());
-        getUserSurveyResponseDto.setModifiedAt(user.getUpdatedAt());
+        getUserSurveyResponseDto.setTime(user.getPreferClimbDuration()==null?0:user.getPreferClimbDuration());
+        getUserSurveyResponseDto.setPurpose(user.getPurpose()==null?0:user.getPurpose());
+        getUserSurveyResponseDto.setRegion(user.getPreferRegion()==null?0:user.getPreferRegion());
+        getUserSurveyResponseDto.setLevel(user.getDifficulty()==null?0:user.getDifficulty());
+
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        getUserSurveyResponseDto.setModifiedAt(sdf.format(user.getUpdatedAt()));
 
         return getUserSurveyResponseDto;
-
     }
 }
