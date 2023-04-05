@@ -135,16 +135,16 @@ def target_course():
         recommended_courses = similar_users_ratings.sort_values(ascending=False).head(10).index.tolist()
 
         ## 추천된 코스를 기반으로 데이터프레임 필터링
-        df = df[df['course_seq'].isin(recommended_courses)]
+        df_collab = df[df['course_seq'].isin(recommended_courses)]
 
-
+        if not df_collab.empty:
+            df = df_collab
 
     # 목적 필터링
     df['time'] = df['time'].apply(decimal.Decimal)
-
     df['sum'] = df['difficulty_mean'] + df['time']
 
-    if purpose == '1':  # 힐링
+    if purpose == '1' :  # 힐링
         result_course_seq = df.loc[df['sum'].astype(int).idxmin()]
 
     elif purpose == '2':  # 도전
