@@ -16,14 +16,15 @@ import over10 from '@assets/images/over10.png';
 import { useAppDispatch, useAppSelector } from '@app/hooks';
 import { putUserInfo, user, getUserInfo } from '@features/user/userSlice';
 import { useNavigate } from 'react-router-dom';
-import { toast, ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { toast } from 'react-toastify';
 
 function RecomQuestion() {
-  const navigate = useNavigate();
+  // 처음 페이지에 들어갔을 때, 스크롤 위치는 최상단
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
-  // toast를 위한 변수
-  let checkToast = false;
+  const navigate = useNavigate();
 
   // 처음에 유저 데이터 가져오기. (있으면)
   const questionData = useAppSelector(user);
@@ -44,11 +45,6 @@ function RecomQuestion() {
       setUserRegion(questionData.result.region);
       setUserPurpose(questionData.result.purpose);
       setUserTime(questionData.result.time);
-      if (!checkToast) {
-        checkToast = true;
-        const str = `${questionData.result.modifiedAt}에 설문한 정보를 가져왔습니다!`;
-        toast.success(str);
-      }
     }
   }, [questionData]);
 
@@ -80,6 +76,15 @@ function RecomQuestion() {
           putUserInfo({ userLevel, userRegion, userPurpose, userTime }),
         );
       }
+      localStorage.setItem(
+        'survey',
+        JSON.stringify({
+          level: userLevel,
+          region: userRegion,
+          purpose: userPurpose,
+          time: userTime,
+        }),
+      );
       navigate('/recommend/result');
     } else {
       toast.error('모든 항목을 선택해주세요!');
@@ -89,12 +94,6 @@ function RecomQuestion() {
   return (
     // 선택된 이미지로 submit 구현하기
     <div className="recom-question">
-      <ToastContainer
-        position="top-center"
-        autoClose={1000}
-        hideProgressBar
-        limit={1}
-      />
       <div className="recom-banner">
         <div className="recom-title">
           <h1>람쥐의 추천!</h1>

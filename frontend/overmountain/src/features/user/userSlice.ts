@@ -2,6 +2,7 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import { RootState, store } from '@app/store';
 import axios from 'axios';
 import { baseURL } from '@features/port';
+import { toast } from 'react-toastify';
 
 const initialUserState: User = {
   result: {
@@ -81,6 +82,10 @@ export const userSlice = createSlice({
     builder.addCase(getUserInfo.fulfilled, (state, action) => {
       state.result = action.payload;
       console.log('7 성공!', state.result);
+      if (state.result.login && state.result.purpose !== 0) {
+        const str = `${state.result.modifiedAt}에 설문한 정보를 가져왔습니다!`;
+        toast.success(str);
+      }
     });
     builder.addCase(getUserInfo.rejected, (state, action) => {
       console.log('7 실패!', action.error);

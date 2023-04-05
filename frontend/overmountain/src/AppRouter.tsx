@@ -12,11 +12,14 @@ import UserMypage from '@pages/user/UserMypage';
 import UserWishList from '@pages/user/UserWishlist';
 import MountainTrail from '@pages/mountain/MountainTrail';
 import UserLoginTokenSave from '@pages/user/UserLoginTokenSave';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function AppRouter() {
   return (
     <BrowserRouter>
       <Header />
+      <ToastContainer position="top-center" autoClose={1000} hideProgressBar />
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route
