@@ -34,16 +34,31 @@ function MountainTrail() {
   }, [trailSeq]);
 
   return (
-    <>
-      <h1>지도 페이지</h1>
-      <RiArrowGoBackFill onClick={backHandler} />
+    <div className="mountain-trail">
+      <div className="spot-alert">
+        <div className="alert-background">
+          <h5 className="alert-text">다른 산에 있다면 검색을 통해 해당 산의 지점을 볼 수 있어요!</h5>
+          <div className="alert-back" 
+          role="presentation"
+          onClick={backHandler}>
+            <h5 className="alert-back-text"> 검색하기</h5>
+            <RiArrowGoBackFill onClick={backHandler} />
+          </div>  
+        </div>
+        
+      </div>
+      <div className="spot-header">
+        <h1>대모산</h1>
+        <h3>제2등산로</h3>
+      </div>
+
       <div className="kakao-map-trail">
         <MapTrailDetail
           trailListData={trailListData}
           spotListData={spotListData}
         />
       </div>
-    </>
+    </div>
   );
 }
 
