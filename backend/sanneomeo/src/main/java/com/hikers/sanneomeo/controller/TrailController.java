@@ -49,7 +49,7 @@ public class TrailController {
     }
 
     @GetMapping("/recommend/survey")
-    public BaseResponseDto<RecommendResultResponseDto> getRecommendTrails(@RequestParam(value = "level", required = false) int level,
+    public BaseResponseDto<?> getRecommendTrails(@RequestParam(value = "level", required = false) int level,
                                                                         @RequestParam(value = "region", required = false) int region,
                                                                         @RequestParam(value = "purpose", required = false) int purpose,
                                                                         @RequestParam(value = "time", required = false) int time) {
@@ -59,6 +59,10 @@ public class TrailController {
         try {
             RecommendResultResponseDto result = new RecommendResultResponseDto();
             Optional<RecommendCourseDto> target = trailService.getTargetCourseFlask(level, region, purpose, time);
+            System.out.println(target.toString());
+            if(target.isEmpty()) {
+                return new BaseResponseDto<>(target);
+            }
             target.ifPresent(result::setTarget);
             List<RecommendCourseDto> recommends = trailService.getRecommendCoursesFlask(result.getTarget().getSequence());
             result.setResult(recommends);
