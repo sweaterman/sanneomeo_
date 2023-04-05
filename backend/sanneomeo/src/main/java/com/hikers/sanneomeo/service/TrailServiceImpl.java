@@ -90,9 +90,8 @@ public class TrailServiceImpl implements TrailService {
         if (SecurityContextHolder.getContext().getAuthentication().getPrincipal() != "anonymousUser") {
             userSeq = Long.parseLong(SecurityContextHolder.getContext().getAuthentication().getPrincipal().toString());
         }
-//        String flaskUrl = ymlConfig.getFlaskEndPoint() + "/targetCourse" +
-//                "?userseq=" + userSeq + "&level=" + level + "&region=" + region + "&purpose=" + purpose + "&time=" + time;
-        String flaskUrl = "http://localhost:5000/targetCourse?userseq=0&level=1&region=3&purpose=1&time=1";
+        String flaskUrl = ymlConfig.getFlaskEndPoint() + "/targetCourse" +
+                "?userseq=" + userSeq + "&level=" + level + "&region=" + region + "&purpose=" + purpose + "&time=" + time;
         System.out.println(flaskUrl);
         OkHttpClient client = new OkHttpClient();
         Request request = new Request.Builder().url(flaskUrl).build();
