@@ -105,7 +105,7 @@ function MapContainerMain(props: { searchResult: ElasticMountain }) {
   };
 
   const customMaker = {
-    src: 'http://localhost:3000/static/media/map-marker.14883744c8f9f34fd842.png',
+    src: `${process.env.PUBLIC_URL}/images/map-marker.png`,
     size: {
       width: 27,
       height: 40,
