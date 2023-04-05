@@ -9,81 +9,80 @@
     <div style="text-align: left;"> 
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 개발환경</h2>  
     <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> 
-✔ OS : Window 10
 
-✔ IDE :
-&nbsp;&nbsp;&nbsp;&nbsp;◾ IntelliJ
-&nbsp;&nbsp;&nbsp;&nbsp;◾ VSCode
-&nbsp;&nbsp;&nbsp;&nbsp;◾ HeidiSQL
-&nbsp;&nbsp;&nbsp;&nbsp;◾ VIM
-
-✔ Database :
-&nbsp;&nbsp;&nbsp;&nbsp;◾  DBMS: Mariadb 10.3.38
-&nbsp;&nbsp;&nbsp;&nbsp;◾  SearchEngine: ElasticSearch 8.6.2
-
-✔ Server: AWS EC2
-
-✔ OS: Ubuntu 20.04 LTS (Focal Fossa)
-
-✔ File Server: AWS S3
-
-✔ CI/CD: Jenkins, Docker, Nginx</div> 
+    ✔ OS : Window 10
+    ✔ IDE :
+        ◾ IntelliJ
+        ◾ VSCode
+        ◾ HeidiSQL
+        ◾ VIM
+    ✔ Database :
+        ◾  DBMS: Mariadb 10.3.38
+        ◾  SearchEngine: ElasticSearch 8.6.2
+    ✔ Server: AWS EC2
+    ✔ OS: Ubuntu 20.04 LTS (Focal Fossa)
+    ✔ File Server: AWS S3
+    ✔ CI/CD: Jenkins, Docker, Nginx
+</div> 
     </div>
     <div style="text-align: left;"> 
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">상세기술</h2>  
-    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;">✔ Front-End
-&nbsp;&nbsp;&nbsp;&nbsp;◾ axios : 1.3.4
-&nbsp;&nbsp;&nbsp;&nbsp;◾ chart.js : 4.2.1
-&nbsp;&nbsp;&nbsp;&nbsp;◾ css-loader : 6.7.3
-&nbsp;&nbsp;&nbsp;&nbsp;◾ eslint : 8.36.0
-&nbsp;&nbsp;&nbsp;&nbsp;◾ eslint-config-airbnb : 19.0.4
-&nbsp;&nbsp;&nbsp;&nbsp;◾ eslint-config-airbnb-typescript : 17.0.0
-&nbsp;&nbsp;&nbsp;&nbsp;◾ eslint-config-prettier : 8.7.0
-&nbsp;&nbsp;&nbsp;&nbsp;◾ eslint-plugin-prettier : 4.2.1
-&nbsp;&nbsp;&nbsp;&nbsp;◾ lint : 0.8.19
-&nbsp;&nbsp;&nbsp;&nbsp;◾ lottie-react : 2.4.0
-&nbsp;&nbsp;&nbsp;&nbsp;◾ node-sass : 8.0.0
-&nbsp;&nbsp;&nbsp;&nbsp;◾ prettier : 2.8.5
-&nbsp;&nbsp;&nbsp;&nbsp;◾ react : 18.2.0
-&nbsp;&nbsp;&nbsp;&nbsp;◾ react-chartjs-2 : 5.2.0
-&nbsp;&nbsp;&nbsp;&nbsp;◾ react-dom : 18.2.0
-&nbsp;&nbsp;&nbsp;&nbsp;◾ react-icons : 4.8.0
-&nbsp;&nbsp;&nbsp;&nbsp;◾ react-kakao-maps-sdk : 1.1.7
-&nbsp;&nbsp;&nbsp;&nbsp;◾ react-redux : 8.0.5
-&nbsp;&nbsp;&nbsp;&nbsp;◾ react-router-dom : 6.9.0
-&nbsp;&nbsp;&nbsp;&nbsp;◾ react-scripts : 5.0.1
-&nbsp;&nbsp;&nbsp;&nbsp;◾ react-slick : 0.29.0
-&nbsp;&nbsp;&nbsp;&nbsp;◾ redux : 4.2.1
-&nbsp;&nbsp;&nbsp;&nbsp;◾ redux-saga : 1.2.3
-&nbsp;&nbsp;&nbsp;&nbsp;◾ sass-loader : 13.2.0
-&nbsp;&nbsp;&nbsp;&nbsp;◾ slick-carousel : 1.8.1
-&nbsp;&nbsp;&nbsp;&nbsp;◾ style-loader : 3.3.1
-&nbsp;&nbsp;&nbsp;&nbsp;◾ swiper : 9.2.0
-&nbsp;&nbsp;&nbsp;&nbsp;◾ tailwindcss : 3.2.7
-&nbsp;&nbsp;&nbsp;&nbsp;◾ typescript : 4.9.5
-&nbsp;&nbsp;&nbsp;&nbsp;◾ v6 : 0.0.0
-&nbsp;&nbsp;&nbsp;&nbsp;◾ web-vitals : 2.1.0 
+    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;">
+✔ Front-End
+    
+    ◾ axios : 1.3.4
+    ◾ chart.js : 4.2.1
+    ◾ css-loader : 6.7.3
+    ◾ eslint : 8.36.0
+    ◾ eslint-config-airbnb : 19.0.4
+    ◾ eslint-config-airbnb-typescript : 17.0.0
+    ◾ eslint-config-prettier : 8.7.0
+    ◾ eslint-plugin-prettier : 4.2.1
+    ◾ lint : 0.8.19
+    ◾ lottie-react : 2.4.0
+    ◾ node-sass : 8.0.0
+    ◾ prettier : 2.8.5
+    ◾ react : 18.2.0
+    ◾ react-chartjs-2 : 5.2.0
+    ◾ react-dom : 18.2.0
+    ◾ react-icons : 4.8.0
+    ◾ react-kakao-maps-sdk : 1.1.7
+    ◾ react-redux : 8.0.5
+    ◾ react-router-dom : 6.9.0
+    ◾ react-scripts : 5.0.1
+    ◾ react-slick : 0.29.0
+    ◾ redux : 4.2.1
+    ◾ redux-saga : 1.2.3
+    ◾ sass-loader : 13.2.0
+    ◾ slick-carousel : 1.8.1
+    ◾ style-loader : 3.3.1
+    ◾ swiper : 9.2.0
+    ◾ tailwindcss : 3.2.7
+    ◾ typescript : 4.9.5
+    ◾ v6 : 0.0.0
+    ◾ web-vitals : 2.1.0 
 
 ✔ Back-End
-&nbsp;&nbsp;&nbsp;&nbsp;◾ spring-boot-starter-web
-&nbsp;&nbsp;&nbsp;&nbsp;◾ spring-boot-starter-security
-&nbsp;&nbsp;&nbsp;&nbsp;◾ spring-boot-starter-oauth2-client
-&nbsp;&nbsp;&nbsp;&nbsp;◾ spring-boot-starter-data-jpa
-&nbsp;&nbsp;&nbsp;&nbsp;◾ mariadb-java-client
-&nbsp;&nbsp;&nbsp;&nbsp;◾ lombok
-&nbsp;&nbsp;&nbsp;&nbsp;◾ springfox-swagger-ui:3.0.0
-&nbsp;&nbsp;&nbsp;&nbsp;◾ querydsl-jpa
-&nbsp;&nbsp;&nbsp;&nbsp;◾ querydsl-apt
-&nbsp;&nbsp;&nbsp;&nbsp;◾ json:20220320
-&nbsp;&nbsp;&nbsp;&nbsp;◾ jjwt:0.9.1
-&nbsp;&nbsp;&nbsp;&nbsp;◾ jaxb-runtime:2.3.2
-&nbsp;&nbsp;&nbsp;&nbsp;◾ spring-cloud-starter-aws:2.0.1.RELEASE
-&nbsp;&nbsp;&nbsp;&nbsp;◾ bom:2.15.0
-&nbsp;&nbsp;&nbsp;&nbsp;◾ s3
-&nbsp;&nbsp;&nbsp;&nbsp;◾ gson:2.8.6
-&nbsp;&nbsp;&nbsp;&nbsp;◾ spring-boot-starter-data-elasticsearch:2.6.2
-&nbsp;&nbsp;&nbsp;&nbsp;◾ okhttp:3.14.9</div> 
-    </div>
+
+    ◾ spring-boot-starter-web
+    ◾ spring-boot-starter-security
+    ◾ spring-boot-starter-oauth2-client
+    ◾ spring-boot-starter-data-jpa
+    ◾ mariadb-java-client
+    ◾ lombok
+    ◾ springfox-swagger-ui:3.0.0
+    ◾ querydsl-jpa
+    ◾ querydsl-apt
+    ◾ json:20220320
+    ◾ jjwt:0.9.1
+    ◾ jaxb-runtime:2.3.2
+    ◾ spring-cloud-starter-aws:2.0.1.RELEASE
+    ◾ bom:2.15.0
+    ◾ s3
+    ◾ gson:2.8.6
+    ◾ spring-boot-starter-data-elasticsearch:2.6.2
+    ◾ okhttp:3.14.9</div> 
+</div>
 <div style="text-align: left;"> 
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">아키텍처 설계도</h2>  
     <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> <img src="./img/Service_Architecture.png" style="width:80%"></div> 
