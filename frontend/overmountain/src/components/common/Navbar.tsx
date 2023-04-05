@@ -26,19 +26,58 @@ function Navbar() {
     }
   };
 
-  useEffect(() => {
-    console.log('isLogin', isLogin);
-    if (isLogin) {
-      window.location.reload();
-    }
-  }, [isLogin]);
-
   const onLogout = () => {
     localStorage.clear();
     setIsLogin(false);
     navigate('/');
     dispatch(toogleNavBar(false));
   };
+
+  // // Render the navbar conditionally based on the isLogin state
+  // const renderNavbar = () => {
+  //   if (isLogin) {
+  //     return (
+  //       <div>
+  //         <div
+  //           className="header-font-tag"
+  //           role="presentation"
+  //           onClick={onLogout}
+  //           onKeyDown={onLogout}
+  //         >
+  //           로그아웃&nbsp;
+  //         </div>
+  //         <div
+  //           className="header-font-tag"
+  //           role="presentation"
+  //           onClick={() => navigateToWhat('user/mypage')}
+  //           onKeyDown={() => navigateToWhat('user/mypage')}
+  //         >
+  //           나의기록&nbsp;
+  //         </div>
+  //         <div
+  //           className="header-font-tag"
+  //           role="presentation"
+  //           onClick={() => navigateToWhat('user/wishlist')}
+  //           onKeyDown={() => navigateToWhat('user/wishlist')}
+  //         >
+  //           찜리스트&nbsp;
+  //         </div>
+  //       </div>
+  //     );
+  //   } else {
+  //     return (
+  //       <div
+  //         className="header-font-tag"
+  //         role="presentation"
+  //         onClick={() => navigateToWhat('user/login')}
+  //         onKeyDown={() => navigateToWhat('user/login')}
+  //       >
+  //         로그인&nbsp;
+  //       </div>
+  //     );
+  //   }
+  // };
+
   return (
     <nav>
       <div className="nav-content">
@@ -60,6 +99,7 @@ function Navbar() {
           >
             람쥐추천&nbsp;
           </div>
+          {/* {renderNavbar()} */}
           {/* 로그인여부 확인하는 삼항연산자 */}
 
           {isLogin ? (
