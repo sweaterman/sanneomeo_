@@ -24,6 +24,7 @@ import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import java.util.Optional;
 
 
@@ -89,8 +90,9 @@ public class TrailServiceImpl implements TrailService {
         if (SecurityContextHolder.getContext().getAuthentication().getPrincipal() != "anonymousUser") {
             userSeq = Long.parseLong(SecurityContextHolder.getContext().getAuthentication().getPrincipal().toString());
         }
-        String flaskUrl = ymlConfig.getFlaskEndPoint() + "/targetCourse" +
-                "?userseq=" + userSeq + "&level=" + level + "&region=" + region + "&purpose=" + purpose + "&time=" + time;
+//        String flaskUrl = ymlConfig.getFlaskEndPoint() + "/targetCourse" +
+//                "?userseq=" + userSeq + "&level=" + level + "&region=" + region + "&purpose=" + purpose + "&time=" + time;
+        String flaskUrl = "http://localhost:5000/targetCourse?userseq=0&level=1&region=3&purpose=1&time=1";
         System.out.println(flaskUrl);
         OkHttpClient client = new OkHttpClient();
         Request request = new Request.Builder().url(flaskUrl).build();
@@ -98,8 +100,13 @@ public class TrailServiceImpl implements TrailService {
             if (!response.isSuccessful()) {
                 throw new IOException("Unexpected code " + response);
             }
-            Long targetCourseSeq = Long.parseLong(response.body().string());
+            String res = response.body().string();
+            //target이 없는 경우
+            if(res.isEmpty()) {
+                return Optional.empty();
+            }
 
+            Long targetCourseSeq = Long.parseLong(res);
             return courseRepository.findCourseByCourseSequence(targetCourseSeq);
         } catch (IOException e) {
             e.printStackTrace();
