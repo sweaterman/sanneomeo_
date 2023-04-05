@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { toogleNavBar, navbarState } from '@features/commonSlice/navSlice';
 import { useAppDispatch, useAppSelector } from '@app/hooks';
@@ -26,13 +26,19 @@ function Navbar() {
     }
   };
 
+  useEffect(() => {
+    console.log('isLogin', isLogin);
+    if (isLogin) {
+      window.location.reload();
+    }
+  }, [isLogin]);
+
   const onLogout = () => {
     localStorage.clear();
     setIsLogin(false);
     navigate('/');
     dispatch(toogleNavBar(false));
   };
-
   return (
     <nav>
       <div className="nav-content">
@@ -55,6 +61,7 @@ function Navbar() {
             람쥐추천&nbsp;
           </div>
           {/* 로그인여부 확인하는 삼항연산자 */}
+
           {isLogin ? (
             <div>
               <div
@@ -63,7 +70,7 @@ function Navbar() {
                 onClick={onLogout}
                 onKeyDown={onLogout}
               >
-                나가기&nbsp;
+                로그아웃&nbsp;
               </div>
               <div
                 className="header-font-tag"
@@ -89,7 +96,7 @@ function Navbar() {
               onClick={() => navigateToWhat('user/login')}
               onKeyDown={() => navigateToWhat('user/login')}
             >
-              들어가기&nbsp;
+              로그인&nbsp;
             </div>
           )}
           <div

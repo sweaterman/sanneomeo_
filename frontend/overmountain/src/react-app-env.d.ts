@@ -162,3 +162,11 @@ interface Review {
 interface ReviewList {
   reviewList: Array<Review>;
 }
+
+// 추천받은 등산로 리스트
+interface RecomTrailList {
+  result: {
+    target: Trail;
+    result: Trail[];
+  };
+}

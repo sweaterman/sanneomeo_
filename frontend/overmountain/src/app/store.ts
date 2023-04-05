@@ -16,6 +16,7 @@ import selectedTrailSlice from '@features/trail/selectedTrailSlice';
 import routingTrailSlice from '@features/trail/routingTrailSlice';
 import reviewSlice from '@features/mountain/reviewSlice';
 import navSlice from '@features/commonSlice/navSlice';
+import recomSlice from '@features/commonSlice/recomSlice';
 
 export const store = configureStore({
   reducer: {
@@ -35,6 +36,7 @@ export const store = configureStore({
     rountingKey: routingTrailSlice,
     reviews: reviewSlice,
     navBars: navSlice,
+    recomms: recomSlice,
   },
   // saga 쓰면 여기에 추가
   // middleware: new MiddlewareArray().concat(additionalMiddleware, logger),
