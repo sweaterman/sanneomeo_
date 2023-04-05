@@ -46,7 +46,18 @@ def target_course():
     print(df)
 
     # 지역 필터링
-    df = df[df['si'].str.contains(location)]
+    location_dict = {
+        "1": "서울특별시",
+        "2": "인천광역시|경기도",
+        "3": "강원도",
+        "4": "충청남도|충청북도|대전광역시|세종특별자치시",
+        "5": "전라남도|전라북도|광주광역시",
+        "6": "경상남도|경상북도|울산광역시|부산광역시|대구광역시",
+        "7": "제주특별자치도"
+    }
+
+    region=location_dict.get(location)
+    df = df[df['si'].str.contains(region)]
 
     print("지역 필터링")
     print(df)
