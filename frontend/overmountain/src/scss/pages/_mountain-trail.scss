@@ -1,16 +1,72 @@
 .map-wrap {
+  position: relative;
+  .ramgi-here {
+    width: 24px;
+    animation: blink-effect 1s step-end infinite;
+  }
+  .map-button-container {
+    // stroke: #ff1818;
+    position: absolute;
+    bottom: 80px;
+    right: 10px;
+    z-index: 0;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(247, 247, 247);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+      rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    display: flex;
+
+    h1 {
+      color: rgb(214, 214, 214);
+      margin: 0px 3px;
+    }
+
+    button img {
+      width: 20px;
+    }
+  }
 }
 
 .category {
   position: relative;
-  display: inline-block;
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    min-width: 150px;
-    z-index: 1;
-    div {
-      display: block;
-    }
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+  .all-button {
+    background-color: $over-beige;
+    width: 50px;
+    border-radius: 30%;
+    text-align: center;
+  }
+  .toilet-button {
+    background-color: $over-beige;
+    width: 50px;
+    border-radius: 30%;
+    text-align: center;
+  }
+  .practice-button {
+    background-color: $over-beige;
+    width: 50px;
+    border-radius: 30%;
+    text-align: center;
+  }
+  .water-button {
+    background-color: $over-beige;
+    width: 50px;
+    border-radius: 30%;
+    text-align: center;
+  }
+  .carpark-button {
+    background-color: $over-beige;
+    width: 50px;
+    border-radius: 30%;
+    text-align: center;
+  }
+  .start-button {
+    background-color: $over-beige;
+    width: 50px;
+    border-radius: 30%;
+    text-align: center;
   }
 }
