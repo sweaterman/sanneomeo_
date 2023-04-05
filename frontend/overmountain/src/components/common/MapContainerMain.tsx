@@ -1,8 +1,15 @@
 import React, { useEffect, useState } from 'react';
-import { Map, MapMarker, MapTypeId } from 'react-kakao-maps-sdk';
+import {
+  Map,
+  MapMarker,
+  MapTypeId,
+  CustomOverlayMap,
+} from 'react-kakao-maps-sdk';
 import { useNavigate } from 'react-router-dom';
 import mapMarker from '@assets/images/map-marker.png';
 import curMarker from '@assets/images/target.png';
+import closeMarker from '@assets/images/close.png';
+import CustomInfoWindow from '@components/common/CustomInfoWindow';
 
 function MapContainerMain(props: { searchResult: ElasticMountain }) {
   // 검색결과 담기
@@ -79,6 +86,8 @@ function MapContainerMain(props: { searchResult: ElasticMountain }) {
     navigate(`/mountain/detail/${result.sequence}`);
   };
 
+  const altitudeString = `${Math.floor(result.altitude)}m`;
+
   const toMapCenter = () => {
     setState({
       ...state,
@@ -95,6 +104,14 @@ function MapContainerMain(props: { searchResult: ElasticMountain }) {
     console.log(state.center.lng);
   };
 
+  const customMaker = {
+    src: 'http://localhost:3000/static/media/map-marker.14883744c8f9f34fd842.png',
+    size: {
+      width: 27,
+      height: 40,
+    },
+  };
+
   return (
     <div className="kakao-map">
       <Map
@@ -104,24 +121,71 @@ function MapContainerMain(props: { searchResult: ElasticMountain }) {
         level={7}
       >
         <MapMarker
+          image={customMaker}
           position={state.center}
           clickable
           onClick={() => setIsOpen(true)}
-        >
-          {/* MapMarker의 자식을 넣어줌으로 해당 자식이 InfoWindow로 만들어지게 합니다 */}
-          {/* 인포윈도우에 표출될 내용으로 HTML 문자열이나 React Component가 가능합니다 */}
-          {isOpen && (
-            <div style={{ minWidth: '150px' }}>
+        />
+
+        {/* MapMarker의 자식을 넣어줌으로 해당 자식이 InfoWindow로 만들어지게 합니다 */}
+        {/* 인포윈도우에 표출될 내용으로 HTML 문자열이나 React Component가 가능합니다 */}
+        {isOpen && (
+          <CustomOverlayMap position={state.center}>
+            <div className="custom-info-window">
               <img
                 alt="close"
-                width="14"
-                height="13"
-                src={mapMarker}
-                // src="https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/2x/bt_close.gif"
+                src={closeMarker}
+                className="delete-button"
+                role="presentation"
+                onClick={() => setIsOpen(false)}
+                onKeyDown={() => setIsOpen(false)}
+              />
+              <div className="info-container">
+                <div className="info-title">
+                  <div className="info-name">
+                    {result.name === '' ? `잘못된 위치에요!` : result.name}{' '}
+                  </div>
+                  <div className="info-address">
+                    {result.si} {result.gu} {result.dong}
+                  </div>
+                </div>
+                <div className="info-body">
+                  <div className="info-altitude">
+                    {result.name === '' ? `` : altitudeString}
+                  </div>
+                  {result.name !== '' && (
+                    <div
+                      className="info-route"
+                      role="presentation"
+                      onClick={toMountainDetail}
+                      onKeyDown={toMountainDetail}
+                    >
+                      상세보기&gt;
+                    </div>
+                  )}
+                </div>
+              </div>
+              <div className="info-triangle"></div>
+            </div>
+          </CustomOverlayMap>
+        )}
+
+        {/* {isOpen && (
+            <div
+              style={{
+                minWidth: '150px',
+                minHeight: '50px',
+              }}
+            >
+              <img
+                alt="close"
+                width="10"
+                height="10"
+                src={closeMarker}
                 style={{
                   position: 'absolute',
-                  right: '5px',
-                  top: '5px',
+                  right: '10px',
+                  top: '10px',
                   cursor: 'pointer',
                 }}
                 role="presentation"
@@ -129,16 +193,17 @@ function MapContainerMain(props: { searchResult: ElasticMountain }) {
                 onKeyDown={() => setIsOpen(false)}
               />
               <div
-                style={{ padding: '5px', color: '#000' }}
+                style={{ padding: '10px', fontSize: '0.8rem' }}
                 role="presentation"
                 onClick={toMountainDetail}
                 onKeyDown={toMountainDetail}
               >
-                {result.name} {Math.floor(result.altitude)}m
+                {result.name == null ? `잘못된 위치에요!` : result.name}{' '}
+                {result.name == null ? `` : Math.floor(result.altitude)}m
               </div>
             </div>
-          )}
-        </MapMarker>
+          )} */}
+        {/* </MapMarker> */}
         {/* 지도에 지형정보를 표시하도록 지도타입을 추가합니다 */}
         <MapTypeId type={kakao.maps.MapTypeId.TERRAIN} />
         <div className="map-button-container">
