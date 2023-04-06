@@ -90,10 +90,8 @@ public class TrailServiceImpl implements TrailService {
         if (SecurityContextHolder.getContext().getAuthentication().getPrincipal() != "anonymousUser") {
             userSeq = Long.parseLong(SecurityContextHolder.getContext().getAuthentication().getPrincipal().toString());
         }
-//        String flaskUrl = ymlConfig.getFlaskEndPoint() + "/targetCourse" +
-//                "?userseq=" + userSeq + "&level=" + level + "&region=" + region + "&purpose=" + purpose + "&time=" + time;
-        String flaskUrl = "http://localhost:5000/targetCourse?userseq=0&level=1&region=3&purpose=1&time=1";
-        System.out.println(flaskUrl);
+        String flaskUrl = ymlConfig.getFlaskEndPoint() + "/targetCourse" +
+                "?userseq=" + userSeq + "&level=" + level + "&region=" + region + "&purpose=" + purpose + "&time=" + time;
         OkHttpClient client = new OkHttpClient();
         Request request = new Request.Builder().url(flaskUrl).build();
         try(Response response = client.newCall(request).execute()) {
@@ -101,13 +99,16 @@ public class TrailServiceImpl implements TrailService {
                 throw new IOException("Unexpected code " + response);
             }
             String res = response.body().string();
-            //target이 없는 경우
+            // target이 없는 경우
             if(res.isEmpty()) {
                 return Optional.empty();
             }
 
             Long targetCourseSeq = Long.parseLong(res);
-            return courseRepository.findCourseByCourseSequence(targetCourseSeq);
+
+            // 찜여부 같이 보냄
+            if(userSeq == 0L) return courseRepository.findCourseByCourseSequence(targetCourseSeq);
+            return courseRepository.findCourseByCourseSequenceAndUserSeq(targetCourseSeq, userSeq);
         } catch (IOException e) {
             e.printStackTrace();
             return null;
