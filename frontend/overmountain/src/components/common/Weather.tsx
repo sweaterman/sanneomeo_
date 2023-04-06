@@ -35,21 +35,30 @@ function Weather(props: { lat: number; lon: number }) {
   }, [lat, lon]);
 
   return (
-    <div>
-      {weatherData.length > 0 ? (
-        weatherData.map((weather, index) => (
-          // eslint-disable-next-line react/no-array-index-key
-          <div key={index}>
-            <div>요일: {weather.dayOfWeek}</div>
-            <div>일자: {weather.dayOfMonth}</div>
-            <div>최저온도: {weather.min}</div>
-            <div>최고온도: {weather.max}</div>
-            <div>날씨: {weather.description}</div>
-          </div>
-        ))
-      ) : (
-        <div>날씨 정보를 불러오는 중입니다...</div>
-      )}
+    <div className="weather-parent">
+      <div className="weather-component">
+        {weatherData.length > 0 ? (
+          weatherData.map((weather, index) => (
+            // eslint-disable-next-line react/no-array-index-key
+            <div className="singleDay" key={index}>
+              <div className="weather-img">
+                <img
+                  src={`https://openweathermap.org/img/wn/${weather.description}.png`}
+                  alt="날씨 아이콘"
+                />
+              </div>
+              <div className="day">{weather.dayOfWeek}</div>
+              <div className="temperature">
+                <div className="down">{weather.min.toFixed(1)}</div>
+                <div className="divide">/</div>
+                <div className="up">{weather.max.toFixed(1)}</div>
+              </div>
+            </div>
+          ))
+        ) : (
+          <div>날씨 정보를 불러오는 중입니다...</div>
+        )}
+      </div>
     </div>
   );
 }

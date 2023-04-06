@@ -1,4 +1,47 @@
 .mountainDetail-root {
+  .sub-header {
+    position: fixed;
+    top: 80px;
+    width: 100%;
+    max-width: 425px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+
+    .btns {
+      button {
+        padding: 0px 10px;
+        margin-right: 10px;
+        border: 1px solid #000000c0;
+        border-radius: 5px;
+      }
+    }
+    hr {
+      width: 100%;
+      margin: 0px;
+    }
+  }
+
+  .mountainDetail-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: $font-h2;
+    font-weight: 700;
+    margin: 100px 20px 20px 20px;
+    background-color: rgb(233, 233, 233);
+
+    .header-container {
+      // background-color: rgb(228, 228, 228);
+      border-radius: 30px;
+      // border: 1px solid rgb(206, 206, 206);
+      // width: 150px;
+      display: flex;
+      justify-content: center;
+      padding: 5px;
+    }
+  }
+
   .trail-routing {
     display: flex;
     flex-direction: row-reverse;

@@ -1,4 +1,4 @@
-import React, { useEffect, createRef, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { getMountainDetail, mountain } from '@features/mountain/mountainSlice';
 import { useAppSelector, useAppDispatch } from '@app/hooks';
 import Card from '@components/common/Card';
@@ -44,52 +44,99 @@ function MountainDetail() {
     }
   }, [mountainData]);
 
+  // 서브헤더 부분
   const trailMapRef = useRef(null);
+  const trailRef = useRef(null);
+  const infoRef = useRef(null);
+  const ReviewRef = useRef(null);
 
-  const scrollToTrailMap = () => {
-    if (trailMapRef.current) {
-      (trailMapRef.current as HTMLElement).scrollIntoView({
-        behavior: 'smooth',
-      });
+  const scrollToWhat = (text: string) => {
+    if (text === 'Map') {
+      if (trailMapRef.current) {
+        (trailMapRef.current as HTMLElement).scrollIntoView({
+          behavior: 'smooth',
+        });
+      }
+    } else if (text === 'Trail') {
+      if (trailRef.current) {
+        (trailRef.current as HTMLElement).scrollIntoView({
+          behavior: 'smooth',
+        });
+      }
+    } else if (text === 'Info') {
+      if (infoRef.current) {
+        (infoRef.current as HTMLElement).scrollIntoView({
+          behavior: 'smooth',
+        });
+      }
+    } else if (text === 'Review') {
+      if (ReviewRef.current) {
+        (ReviewRef.current as HTMLElement).scrollIntoView({
+          behavior: 'smooth',
+        });
+      }
     }
-    // const trailMapSection = document.getElementById('trail-map');
-    // if (trailMapSection) {
-    //   trailMapSection.scrollIntoView({ behavior: 'smooth' });
-    // }
   };
 
   return (
     <div className="mountainDetail-root">
-      <button type="button" onClick={scrollToTrailMap}>
-        Map
-      </button>
+      {/* 상단 subheader */}
+      <div className="sub-header">
+        <div className="btns">
+          <button type="button" onClick={() => scrollToWhat('Map')}>
+            지도
+          </button>
+          <button type="button" onClick={() => scrollToWhat('Trail')}>
+            등산로
+          </button>
+          <button type="button" onClick={() => scrollToWhat('Info')}>
+            정보
+          </button>
+          <button type="button" onClick={() => scrollToWhat('Review')}>
+            후기
+          </button>
+        </div>
+        <hr />
+      </div>
+
+      {/* 산 이름 */}
+      <div className="mountainDetail-header">
+        <div className="header-container">
+          <h1>{mountainData.mountain.name}</h1>
+        </div>
+      </div>
+
       {/* 스팟 페이지로 라우팅 */}
       <NavLink to={`/mountain/trail/${selectedKey.selectedTrailKey}`}>
         <div className="trail-routing">선택한 등산로 지도로 상세보기! &gt;</div>
       </NavLink>
+
+      {/* 지도 */}
       <div ref={trailMapRef}>
         <TrailMap />
       </div>
+
       {/* 등산로리스트 */}
-      {selectedKey.selectedTrailKey === -1 ? (
-        <div className="empty-trail">
-          <div className="empty-content"> 앗! 등록된 등산로가 없나봐요!</div>
-          <img src={caramgi} alt="카람쥐" />
-        </div>
-      ) : (
-        <TrailItems mountainSeq={mountainSeq} />
-      )}
+      <div ref={trailRef}>
+        {selectedKey.selectedTrailKey === -1 ? (
+          <div className="empty-trail">
+            <div className="empty-content"> 앗! 등록된 등산로가 없나봐요!</div>
+            <img src={caramgi} alt="카람쥐" />
+          </div>
+        ) : (
+          <TrailItems mountainSeq={mountainSeq} />
+        )}
+      </div>
 
       {/* 산 상세정보 */}
-      <Card data={mountainData} />
-
-      {/* 카람쥐 */}
-      {/* <div className="caramgi">
-        <img src={caramgi} alt="카람쥐" />
-      </div> */}
+      <div ref={infoRef}>
+        <Card data={mountainData} />
+      </div>
 
       {/* 후기 리스트 및 후기 작성 컴포넌트 */}
-      <ReviewItems mountainSeq={mountainSeq} />
+      <div ref={ReviewRef}>
+        <ReviewItems mountainSeq={mountainSeq} />
+      </div>
     </div>
   );
 }
