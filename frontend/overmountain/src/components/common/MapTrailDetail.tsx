@@ -35,7 +35,10 @@ function MapTrailDetail(props: {
   });
 
   // 해당 산의 전체 스팟들
-  const positions = props.spotListData.result.spotList.map((position) => ({
+  const positions = props.spotListData.result.spotList.filter(
+    (spots) => spots.name !== '분기점',
+  );
+  const allSpots = positions.map((position) => ({
     lat: position.latitude,
     lng: position.longitude,
   }));
@@ -98,7 +101,7 @@ function MapTrailDetail(props: {
       },
       isLoading: true,
     }));
-  }, []);
+  }, [props.trailListData]);
 
   useEffect(() => {
     const allMenu = document.getElementById('allMenu');
@@ -197,7 +200,7 @@ function MapTrailDetail(props: {
             height: '450px',
             zIndex: '0',
           }}
-          level={6} // 지도의 확대 레벨
+          level={7} // 지도의 확대 레벨
           // 지도 드래그시 이벤트
           onDragStart={(map) =>
             setState((prev) => ({
@@ -246,7 +249,7 @@ function MapTrailDetail(props: {
             </CustomOverlayMap>
           )}
           {selectedCategory === 'all' &&
-            positions.map((position) => (
+            allSpots.map((position) => (
               <MapMarker
                 key={`${position.lat},${position.lng}`}
                 position={position}
