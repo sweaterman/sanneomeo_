@@ -32,10 +32,10 @@ export const userChallengeSlice = createSlice({
     // API 명세서 9번. 100대 명산 챌린지 리스트
     builder.addCase(getChallengeList.fulfilled, (state, action) => {
       state.result = action.payload;
-      console.log('9 성공!', state.result);
+      // console.log('9 성공!', state.result);
     });
     builder.addCase(getChallengeList.rejected, (state, action) => {
-      console.log('9 실패!', action.error);
+      console.log('100대명산 실패!', action.error);
     });
   },
 });

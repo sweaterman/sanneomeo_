@@ -23,10 +23,6 @@ function MountainItems(props: {
     divdeData.push(chunk);
   }
 
-  if (is100) {
-    console.log(is100);
-  }
-
   return (
     <div className="mountain-suggestion">
       <div className="suggestion-text">
@@ -41,12 +37,14 @@ function MountainItems(props: {
         className="mySwiper"
       >
         {divdeData &&
-          divdeData.map((onePage) => (
-            <SwiperSlide>
+          divdeData.map((onePage, index) => (
+            // eslint-disable-next-line react/no-array-index-key
+            <SwiperSlide key={index}>
               <div className="grid grid-rows-2 grid-flow-col grid-wrapper">
                 {onePage.map((oneMountain) => (
                   <NavLink
                     to={`/mountain/detail/${oneMountain.mountain.mountainSeq}`}
+                    key={oneMountain.mountain.mountainSeq}
                   >
                     <figure>
                       <img src={oneMountain.mountain.photo} alt="산이미지" />

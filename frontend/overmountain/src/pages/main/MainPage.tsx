@@ -22,9 +22,7 @@ import {
 } from '@features/user/userChallengeSlice';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-// import churamgi from '@assets/images/ramgi_flag.png';
-import { useNavigate, NavLink } from 'react-router-dom';
-import WeatherItem from '@components/common/Weather';
+import { useNavigate } from 'react-router-dom';
 import SpotButton from '@components/common/SpotButton';
 
 function MainPage() {
@@ -58,20 +56,11 @@ function MainPage() {
     };
   }, [searchMountainText]);
 
-  // 검색목록 클릭시 실행할 useEffect
-  useEffect(() => {
-    console.log('검색목록클릭했다');
-  }, []);
-
   // 내 위치 조사해서 가장 가까운 등산로 받아오는 코드
-  const positionData = useAppSelector(positionTrail);
   const positionDispatch = useAppDispatch();
-  useEffect(() => {
-    geo();
-  }, []);
-
   const geo = async () => {
     if (navigator.geolocation) {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       const position: any = await new Promise((resolve, reject) => {
         navigator.geolocation.getCurrentPosition(resolve, reject);
       });
@@ -85,6 +74,10 @@ function MainPage() {
       toast.error('현재위치를 받아올 수 없습니다.');
     }
   };
+  const positionData = useAppSelector(positionTrail);
+  useEffect(() => {
+    geo();
+  }, []);
 
   const positionClick = () => {
     navigate(`/mountain/trail/${positionData.result.trailSeq}`);
@@ -119,28 +112,6 @@ function MainPage() {
   return (
     <div className="mainpage">
       <ToastContainer position="top-center" autoClose={1000} hideProgressBar />
-
-      {/* <div className="main-header grid grid-cols-8">
-        <div
-          className="left col-span-4"
-          onClick={positionClick}
-          onKeyDown={positionClick}
-          role="presentation"
-        >
-          <div className="head">지금 등산 중이라면?</div>
-          <div className="sub">현재 등산로 근처 지점 확인하기 &gt;</div>
-          <img src={churamgi} alt="추람쥐" />
-        </div>
-
-        <NavLink className="right col-span-4" to="/recommend/question">
-          <div className="head">어디로 가야할 지</div>
-          <div className="head">모르겠다면?</div>
-          <div className="sub">나에게 맞는 등산로 추천받기 &gt;</div>
-          <img src={churamgi} alt="추람쥐" />
-        </NavLink>
-      </div> */}
-
-      {/* <WeatherItem lat={37.5} lon={127.0} /> */}
 
       <Searchbar
         searchMountainText={searchMountainText}

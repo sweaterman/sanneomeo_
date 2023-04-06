@@ -3,8 +3,7 @@ import googleLogo from '@assets/images/google-logo.png';
 import naverLogo from '@assets/images/naver-logo.png';
 import kakaoLogo from '@assets/images/kakao-logo.png';
 import Lottie from 'lottie-react';
-import squirrelAnimation from '@assets/lottie/squirrel.json'
-
+import squirrelAnimation from '@assets/lottie/squirrel.json';
 
 import { baseURL } from '@features/port';
 
@@ -12,15 +11,12 @@ function UserLogin() {
   const URL = `${baseURL}user/login/`;
 
   const loginToGoogle = () => {
-    console.log('google');
     window.location.href = `${URL}google`;
   };
   const loginToNaver = () => {
-    console.log('naver');
     window.location.href = `${URL}naver`;
   };
   const loginToKakao = () => {
-    console.log('kakao');
     window.location.href = `${URL}kakao`;
   };
 
@@ -29,7 +25,7 @@ function UserLogin() {
       <div className="login-welcome-text">
         <Lottie
           style={{ height: 320 }}
-          animationData={squirrelAnimation} 
+          animationData={squirrelAnimation}
           loop={false}
         />
       </div>
