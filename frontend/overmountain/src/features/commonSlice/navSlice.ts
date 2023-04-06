@@ -17,7 +17,7 @@ const navSlice = createSlice({
   reducers: {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     toogleNavBar: (state, action) => {
-      console.log(state.toogle, '이것은 toogle값.');
+      // console.log(state.toogle, '이것은 toogle값.');
       state.toogle = action.payload;
     },
   },

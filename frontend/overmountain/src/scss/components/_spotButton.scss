@@ -1,20 +1,27 @@
-.spot-button {
-  background-color: $heavy-green;
+.spot-parent {
   position: fixed;
-  border: 2px solid white;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  max-width: 100%;
+  width: 425px;
+  height: 100px;
   bottom: 15px;
-  right: 15px;
-  width: 70px;
-  height: 70px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
+  flex-direction: row-reverse;
+  padding-right: 20px;
 
-  img {
-    width: 40px;
-    height: 40px;
+  .spot-button {
+    background-color: $heavy-green;
+    border: 2px solid white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    img {
+      width: 40px;
+      height: 40px;
+    }
   }
 }

@@ -33,50 +33,6 @@ function Navbar() {
     dispatch(toogleNavBar(false));
   };
 
-  // // Render the navbar conditionally based on the isLogin state
-  const renderNavbar = () => {
-    if (isLogin) {
-      return (
-        <div>
-          <div
-            className="header-font-tag"
-            role="presentation"
-            onClick={onLogout}
-            onKeyDown={onLogout}
-          >
-            로그아웃&nbsp;
-          </div>
-          <div
-            className="header-font-tag"
-            role="presentation"
-            onClick={() => navigateToWhat('user/mypage')}
-            onKeyDown={() => navigateToWhat('user/mypage')}
-          >
-            나의기록&nbsp;
-          </div>
-          <div
-            className="header-font-tag"
-            role="presentation"
-            onClick={() => navigateToWhat('user/wishlist')}
-            onKeyDown={() => navigateToWhat('user/wishlist')}
-          >
-            찜리스트&nbsp;
-          </div>
-        </div>
-      );
-    }
-    return (
-      <div
-        className="header-font-tag"
-        role="presentation"
-        onClick={() => navigateToWhat('user/login')}
-        onKeyDown={() => navigateToWhat('user/login')}
-      >
-        로그인&nbsp;
-      </div>
-    );
-  };
-
   return (
     <nav>
       <div className="nav-content">
@@ -111,14 +67,14 @@ function Navbar() {
               >
                 로그아웃&nbsp;
               </div>
-              <div
+              {/* <div
                 className="header-font-tag"
                 role="presentation"
                 onClick={() => navigateToWhat('user/mypage')}
                 onKeyDown={() => navigateToWhat('user/mypage')}
               >
                 나의기록&nbsp;
-              </div>
+              </div> */}
               <div
                 className="header-font-tag"
                 role="presentation"

@@ -35,7 +35,6 @@ function TrailTemp() {
   useEffect(() => {
     const altitudes = trailData.result.map((row) => row.altitude);
     setAltitudeData(altitudes);
-    console.log('바뀐조작고도:', altitudes);
   }, [trailData]);
 
   // 차트 데이터 생성
@@ -96,7 +95,7 @@ function TrailTemp() {
 
       {/* 고도가 들어갈 부분 */}
       <div>
-        <Line data={chartData} options={options}></Line>
+        <Line data={chartData} options={options} />
       </div>
     </>
   );
