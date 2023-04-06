@@ -76,15 +76,6 @@ function RecomQuestion() {
           putUserInfo({ userLevel, userRegion, userPurpose, userTime }),
         );
       }
-      localStorage.setItem(
-        'survey',
-        JSON.stringify({
-          level: userLevel,
-          region: userRegion,
-          purpose: userPurpose,
-          time: userTime,
-        }),
-      );
       navigate('/recommend/result');
     } else {
       toast.error('모든 항목을 선택해주세요!');

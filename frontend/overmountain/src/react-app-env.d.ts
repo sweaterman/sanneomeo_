@@ -157,5 +157,6 @@ interface RecomTrailList {
   result: {
     target: Trail;
     result: Trail[];
+    loading: boolean;
   };
 }
