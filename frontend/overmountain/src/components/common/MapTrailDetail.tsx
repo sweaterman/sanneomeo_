@@ -80,24 +80,20 @@ function MapTrailDetail(props: {
     lat: position.latitude,
     lng: position.longitude,
   }));
-  // console.log('loading', state.isLoading);
-  console.log('center', state.center);
-  // console.log('path[0]', paths[0].lat, paths[0].lng);
 
   const imageSize = { width: 24, height: 24 };
 
   const [selectedCategory, setSelectedCategory] = useState('all');
 
   const selectCategoryHandler = (e: any) => {
-    console.log('selectCategoryHandler', e);
     setSelectedCategory(e);
   };
   useEffect(() => {
     setState((prev) => ({
       ...prev,
       center: {
-        lat: paths.length ? paths[0].lat : 37.5009759,
-        lng: paths.length ? paths[0].lng : 127.0373502,
+        lat: paths.length ? paths[paths.length - 1].lat : 37.5009759,
+        lng: paths.length ? paths[paths.length - 1].lng : 127.0373502,
       },
       isLoading: true,
     }));
@@ -188,7 +184,6 @@ function MapTrailDetail(props: {
   };
   return (
     <div className="map-trail-detail">
-      {/* <CategoryMarkerStyle /> */}
       <div id="mapwrap" className="map-wrap">
         <Map // 지도를 표시할 Container
           id={`map`}
