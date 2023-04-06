@@ -59,7 +59,7 @@ public class TrailController {
             RecommendResultResponseDto result = new RecommendResultResponseDto();
             Optional<RecommendCourseDto> target = trailService.getTargetCourseFlask(level, region, purpose, time);
             if(target.isEmpty()) {
-                return new BaseResponseDto<>(target);
+                return new BaseResponseDto<>(BaseResponseStatus.SUCCESS.getStatus());
             }
             target.ifPresent(result::setTarget);
             List<RecommendCourseDto> recommends = trailService.getRecommendCoursesFlask(result.getTarget().getSequence());
