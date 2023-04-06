@@ -77,7 +77,9 @@ function TrailItems(props: { mountainSeq: string }) {
               >
                 <div className="trail-name">
                   {trail.name.trim().substring(trail.name.indexOf(' ') + 1)}
+                  <div> {trail.recommend ? <div>추천!</div> : null}</div>
                 </div>
+
                 <div className="trail-etc">{trail.time}분</div>
                 <div className="trail-etc">{trail.length}km</div>
               </div>
