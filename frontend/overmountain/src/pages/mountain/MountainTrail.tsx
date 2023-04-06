@@ -11,6 +11,8 @@ function MountainTrail() {
 
   const { trailSeq } = useParams<{ trailSeq: string }>();
   const [parsedTrailSeq, setParsedTrailSeq] = useState(0);
+  const [mountainSeq, setMountainSeq] = useState('');
+  trailSeq?.substring(0, 9);
   // console.log(typeof parsedTrailSeq);
   // 등산로 패스 받아오기
 
@@ -24,28 +26,27 @@ function MountainTrail() {
   const spotListData = useAppSelector(spotList);
   const spotListDispatch = useAppDispatch();
   useEffect(() => {
+    // setMountainSeq(trailSeq?.substring(0, 9));
     setParsedTrailSeq(parseInt(trailSeq ?? '0', 10));
-
     console.log('parsedtrailseq', parsedTrailSeq);
     // 등산로 trails 가져오기
     trailListDispatch(getTrailDetail(parsedTrailSeq));
     // 등산로 스팟가져오기
     spotListDispatch(getTrailSpotList(parsedTrailSeq));
-  }, [trailSeq]);
+  }, [parsedTrailSeq]);
 
   return (
     <div className="mountain-trail">
       <div className="spot-alert">
         <div className="alert-background">
-          <h5 className="alert-text">다른 산에 있다면 검색을 통해 해당 산의 지점을 볼 수 있어요!</h5>
-          <div className="alert-back" 
-          role="presentation"
-          onClick={backHandler}>
+          <h5 className="alert-text">
+            다른 산에 있다면 검색을 통해 해당 산의 지점을 볼 수 있어요!
+          </h5>
+          <div className="alert-back" role="presentation" onClick={backHandler}>
             <h5 className="alert-back-text"> 검색하기</h5>
             <RiArrowGoBackFill onClick={backHandler} />
-          </div>  
+          </div>
         </div>
-        
       </div>
       <div className="spot-header">
         <h1>대모산</h1>
