@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, createRef, useRef } from 'react';
 import { getMountainDetail, mountain } from '@features/mountain/mountainSlice';
 import { useAppSelector, useAppDispatch } from '@app/hooks';
 import Card from '@components/common/Card';
@@ -44,15 +44,32 @@ function MountainDetail() {
     }
   }, [mountainData]);
 
+  const trailMapRef = useRef(null);
+
+  const scrollToTrailMap = () => {
+    if (trailMapRef.current) {
+      (trailMapRef.current as HTMLElement).scrollIntoView({
+        behavior: 'smooth',
+      });
+    }
+    // const trailMapSection = document.getElementById('trail-map');
+    // if (trailMapSection) {
+    //   trailMapSection.scrollIntoView({ behavior: 'smooth' });
+    // }
+  };
+
   return (
     <div className="mountainDetail-root">
+      <button type="button" onClick={scrollToTrailMap}>
+        Map
+      </button>
       {/* 스팟 페이지로 라우팅 */}
       <NavLink to={`/mountain/trail/${selectedKey.selectedTrailKey}`}>
         <div className="trail-routing">선택한 등산로 지도로 상세보기! &gt;</div>
       </NavLink>
-
-      <TrailMap />
-
+      <div ref={trailMapRef}>
+        <TrailMap />
+      </div>
       {/* 등산로리스트 */}
       {selectedKey.selectedTrailKey === -1 ? (
         <div className="empty-trail">
