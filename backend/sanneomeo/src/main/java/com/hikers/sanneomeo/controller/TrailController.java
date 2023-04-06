@@ -55,11 +55,9 @@ public class TrailController {
                                                                         @RequestParam(value = "time", required = false) int time) {
         // level : 1/2/3, region : 1~8, purpose : 1/2, time : 1/2/3/4/5
 
-        System.out.println("컨트롤러");
         try {
             RecommendResultResponseDto result = new RecommendResultResponseDto();
             Optional<RecommendCourseDto> target = trailService.getTargetCourseFlask(level, region, purpose, time);
-            System.out.println(target.toString());
             if(target.isEmpty()) {
                 return new BaseResponseDto<>(target);
             }
