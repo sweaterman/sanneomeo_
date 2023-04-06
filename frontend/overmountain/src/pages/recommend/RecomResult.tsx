@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { recomm } from '@features/commonSlice/recomSlice';
 import { useAppDispatch, useAppSelector } from '@app/hooks';
-import { useNavigate } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import { setRountingTrailKey } from '@features/trail/routingTrailSlice';
 import mountain_selected from '@assets/images/mountain_selected.png';
 import mountain_unselected from '@assets/images/mountain_unselected.png';
@@ -9,6 +9,9 @@ import like_selected from '@assets/images/like_selected.png';
 import like_unselected from '@assets/images/like_unselected.png';
 import { updateTrailKeep } from '@features/trail/trailKeepSlice';
 import { toast } from 'react-toastify';
+import Lottie from 'lottie-react';
+import Running from '@assets/lottie/Running.json';
+import hiking from '@assets/lottie/hiking.json';
 
 function RecomResult() {
   // 처음 페이지에 들어갔을 때, 스크롤 위치는 최상단
@@ -62,45 +65,119 @@ function RecomResult() {
     <div className="recom-result">
       {/* 데이터가 로딩 중 일때  */}
       {recommData.result.loading ? (
-        <div>데이터 로딩 중</div>
+        <div className="loading">
+          <div className="lottie-ani">
+            <Lottie style={{ height: 320 }} animationData={Running} loop />
+          </div>
+          <div className="lottie-text">
+            등산로 추천 결과를 가져오고 있습니다
+          </div>
+        </div>
       ) : (
         <div>
-          {recommData.result ? (
+          {recommData.result.result.length !== 0 ? (
             <div>
               {/* 타겟 등산로 */}
-              <div>추천하는 대표 등산로입니다!</div>
               <div className="target-trail">
-                {recommData.result.target.name}
-                <div>
-                  {likeList[0] ? (
-                    <img
+                <div className="text-head">
+                  <div>추천하는 대표 등산로</div>
+                  <hr />
+                </div>
+
+                <div className="content">
+                  <div className="left">
+                    <div
+                      className="name"
                       onClick={() =>
-                        keepChange(false, recommData.result.target.sequence, 0)
+                        moveToDetail(
+                          recommData.result.target.sequence,
+                          recommData.result.target.mountainSeq,
+                        )
                       }
                       onKeyDown={() =>
-                        keepChange(false, recommData.result.target.sequence, 0)
+                        moveToDetail(
+                          recommData.result.target.sequence,
+                          recommData.result.target.mountainSeq,
+                        )
                       }
                       role="presentation"
-                      src={like_selected}
-                      alt="like"
-                    />
-                  ) : (
-                    <img
-                      onClick={() =>
-                        keepChange(true, recommData.result.target.sequence, 0)
-                      }
-                      onKeyDown={() =>
-                        keepChange(true, recommData.result.target.sequence, 0)
-                      }
-                      role="presentation"
-                      src={like_unselected}
-                      alt="unlike"
-                    />
-                  )}
+                    >
+                      {' '}
+                      {recommData.result.target.name}
+                    </div>
+                    <div className="number">
+                      <div className="km">
+                        {recommData.result.target.length}km
+                      </div>
+                      <div className="time">
+                        {recommData.result.target.time}분 예상
+                      </div>
+                    </div>
+
+                    {recommData.result.target.difficulty === '어려움' ? (
+                      <div className="difficulty">
+                        <img src={mountain_selected} alt="difficulty" />
+                        <img src={mountain_selected} alt="difficulty" />
+                        <img src={mountain_selected} alt="difficulty" />
+                      </div>
+                    ) : null}
+                    {recommData.result.target.difficulty === '중간' ? (
+                      <div className="difficulty">
+                        <img src={mountain_selected} alt="difficulty" />
+                        <img src={mountain_selected} alt="difficulty" />
+                        <img src={mountain_unselected} alt="difficulty" />
+                      </div>
+                    ) : null}
+                    {recommData.result.target.difficulty === '쉬움' ? (
+                      <div className="difficulty">
+                        <img src={mountain_selected} alt="difficulty" />
+                        <img src={mountain_unselected} alt="difficulty" />
+                        <img src={mountain_unselected} alt="difficulty" />
+                      </div>
+                    ) : null}
+                  </div>
+
+                  <div className="right">
+                    {likeList[0] ? (
+                      <img
+                        onClick={() =>
+                          keepChange(
+                            false,
+                            recommData.result.target.sequence,
+                            0,
+                          )
+                        }
+                        onKeyDown={() =>
+                          keepChange(
+                            false,
+                            recommData.result.target.sequence,
+                            0,
+                          )
+                        }
+                        role="presentation"
+                        src={like_selected}
+                        alt="like"
+                      />
+                    ) : (
+                      <img
+                        onClick={() =>
+                          keepChange(true, recommData.result.target.sequence, 0)
+                        }
+                        onKeyDown={() =>
+                          keepChange(true, recommData.result.target.sequence, 0)
+                        }
+                        role="presentation"
+                        src={like_unselected}
+                        alt="unlike"
+                      />
+                    )}
+                  </div>
                 </div>
               </div>
 
-              <div>위의 등산로를 기준으로 유사한 등산로를 뽑아봤어요.</div>
+              <div className="mid-text">
+                위의 등산로를 기준으로 유사한 등산로를 뽑아봤어요.
+              </div>
               <div className="recomLikeTrail-component">
                 {/* 등산로 리스트 */}
                 <div className="trail-list">
@@ -226,7 +303,15 @@ function RecomResult() {
             </div>
           ) : (
             // 데이터가 없으면?
-            <div>추천 데이터가 존재하지 않습니다.</div>
+            <div className="no-recomm">
+              <div className="sorry">죄송합니다!</div>
+              <Lottie style={{ height: 300 }} animationData={hiking} loop />
+              <div className="text">맞는 추천 데이터를 준비하지 못했어요.</div>
+              <div className="text">다른 옵션을 선택해보는 건 어떨까요?</div>
+              <NavLink to="/recommend/question">
+                <div className="btn">설문으로 돌아가기</div>
+              </NavLink>
+            </div>
           )}
         </div>
       )}

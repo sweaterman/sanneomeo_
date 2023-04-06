@@ -82,7 +82,9 @@ export const userSlice = createSlice({
       state.result = action.payload;
       // console.log('7 성공!', state.result);
       if (state.result.login && state.result.purpose !== 0) {
-        const str = `${state.result.modifiedAt}에 설문한 정보를 가져왔습니다!`;
+        const str = `${state.result.modifiedAt
+          .toString()
+          .slice(0, 10)}에 설문한 정보를 가져왔습니다!`;
         toast.success(str);
       }
     });
