@@ -10,7 +10,7 @@ function UserLoginTokenSave() {
   localStorage.setItem('token', token || '');
 
   // 로그인상태 가져오기
-  const isLoginState = useAppSelector(loginState);
+  useAppSelector(loginState);
   const dispatch = useAppDispatch();
 
   const navigate = useNavigate();

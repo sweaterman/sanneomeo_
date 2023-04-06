@@ -19,7 +19,8 @@ function Navbar() {
 
   // 로그인상태 가져오기
   const isLoginState = useAppSelector(loginState);
-  dispatch(
+  const loginDispatch = useAppDispatch();
+  loginDispatch(
     isLoginCheck(() => {
       const token = localStorage.getItem('token');
       return !!token;
@@ -38,7 +39,7 @@ function Navbar() {
 
   const onLogout = () => {
     localStorage.clear();
-    dispatch(isLoginCheck(false));
+    loginDispatch(isLoginCheck(false));
     navigate('/');
     dispatch(toogleNavBar(false));
   };
