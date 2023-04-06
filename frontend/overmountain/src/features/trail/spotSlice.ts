@@ -4,7 +4,11 @@ import { baseURL } from '@features/port';
 import { RootState } from '@app/store';
 
 const initialSpotListState: SpotList = {
-  result: [],
+  result: {
+    mountainName: '',
+    trailName: '',
+    spotList: [],
+  },
 };
 
 // API 명세서 28번. 산->지도 스팟 상세정보

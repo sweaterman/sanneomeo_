@@ -1,35 +1,37 @@
 @keyframes blink-effect {
-  2% {
+  2%,
+  99% {
     opacity: 0.99;
   }
-  5% {
+  5%,
+  95% {
     opacity: 0.9;
   }
-  10% {
+  10%,
+  90% {
     opacity: 0.8;
   }
-  20% {
+  20%,
+  80% {
     opacity: 0.7;
   }
-  40% {
+  40%,
+  60% {
     opacity: 0.4;
   }
   50% {
     opacity: 0.3;
   }
-  60% {
-    opacity: 0.4;
+}
+@keyframes waviy {
+  0% {
+    transform: translateY(10px);
   }
-  80% {
-    opacity: 0.7;
+  40%,
+  100% {
+    transform: translateY(0);
   }
-  90% {
-    opacity: 0.8;
-  }
-  95% {
-    opacity: 0.9;
-  }
-  99% {
-    opacity: 0.99;
+  20% {
+    transform: translateY(-20px);
   }
 }

@@ -31,16 +31,18 @@ function MountainDetail() {
 
   // 처음에 페이지에 들어왔을 때, 대표 등산로/추천 등산로 선택된 상태
   const defaultRecomKey = useAppSelector(rountingTrailKey);
+  // 등산로 선택했을 때 지도 스팟 넘어가는 부분 키
+  let selectedKey = useAppSelector(selectedTrailKey);
+
   useEffect(() => {
     if (defaultRecomKey.rountingTrailKey !== 0) {
       selectedDispatch(setSelectedTrailKey(defaultRecomKey.rountingTrailKey));
-    } else {
+    } else if (mountainData.mountain.trailSeq !== null) {
       selectedDispatch(setSelectedTrailKey(mountainData.mountain.trailSeq));
+    } else {
+      selectedDispatch(setSelectedTrailKey(-1));
     }
   }, [mountainData]);
-
-  // 등산로 선택했을 때 지도 스팟 넘어가는 부분 키
-  const selectedKey = useAppSelector(selectedTrailKey);
 
   return (
     <div className="mountainDetail-root">
@@ -49,10 +51,17 @@ function MountainDetail() {
         <div className="trail-routing">선택한 등산로 지도로 상세보기! &gt;</div>
       </NavLink>
 
-      {/* <TrailMap /> */}
+      <TrailMap />
 
       {/* 등산로리스트 */}
-      <TrailItems mountainSeq={mountainSeq} />
+      {selectedKey.selectedTrailKey === -1 ? (
+        <div className="empty-trail">
+          <div className="empty-content"> 앗! 등록된 등산로가 없나봐요!</div>
+          <img src={caramgi} alt="카람쥐" />
+        </div>
+      ) : (
+        <TrailItems mountainSeq={mountainSeq} />
+      )}
 
       {/* 산 상세정보 */}
       <Card data={mountainData} />
