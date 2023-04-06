@@ -12,6 +12,7 @@ import {
 import { rountingTrailKey } from '@features/trail/routingTrailSlice';
 import ReviewItems from '@components/mountain/ReviewItems';
 import caramgi from '@assets/images/ramgi_camera.png';
+import Weather from '@components/common/Weather';
 
 function MountainDetail() {
   // 처음 페이지에 들어갔을 때, 스크롤 위치는 최상단
@@ -130,6 +131,10 @@ function MountainDetail() {
 
       {/* 산 상세정보 */}
       <div ref={infoRef}>
+        <Weather
+          lat={mountainData.mountain.latitude}
+          lon={mountainData.mountain.longitude}
+        />
         <Card data={mountainData} />
       </div>
 
