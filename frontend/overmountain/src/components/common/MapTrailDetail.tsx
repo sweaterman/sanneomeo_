@@ -57,7 +57,7 @@ function MapTrailDetail(props: {
     lng: position.longitude,
   }));
   const waterPositions = props.spotListData.result.filter(
-    (spots) => spots.name === '음수대' || spots.introduction.includes('약수터'),
+    (spots) => spots.name === '음수대' || spots.introduction.includes('약수'),
   );
   const waterSpots = waterPositions.map((position) => ({
     lat: position.latitude,
@@ -71,19 +71,19 @@ function MapTrailDetail(props: {
     lng: position.longitude,
   }));
   const startPositions = props.spotListData.result.filter(
-    (spots) => spots.name === '시종점' || spots.introduction.includes('시종'),
+    (spots) => spots.name === '시종점' || spots.introduction.includes('이정'),
   );
   const startSpots = startPositions.map((position) => ({
     lat: position.latitude,
     lng: position.longitude,
   }));
-  console.log('loading', state.isLoading);
+  // console.log('loading', state.isLoading);
   console.log('center', state.center);
   // console.log('path[0]', paths[0].lat, paths[0].lng);
 
   const imageSize = { width: 24, height: 24 };
 
-  const [selectedCategory, setSelectedCategory] = useState('toilet');
+  const [selectedCategory, setSelectedCategory] = useState('all');
 
   const selectCategoryHandler = (e: any) => {
     console.log('selectCategoryHandler', e);
@@ -101,34 +101,48 @@ function MapTrailDetail(props: {
   }, []);
 
   useEffect(() => {
-    const allMenu= document.getElementById('allMenu');
+    const allMenu = document.getElementById('allMenu');
     const toiletMenu = document.getElementById('toiletMenu');
     const practiceMenu = document.getElementById('practiceMenu');
     const waterMenu = document.getElementById('waterMenu');
     const carparkMenu = document.getElementById('carparkMenu');
     const startMenu = document.getElementById('startMenu');
-    
-    if (allMenu && toiletMenu && practiceMenu && waterMenu && carparkMenu && startMenu) {
-      if (selectedCategory === 'toilet') {
+
+    if (
+      allMenu &&
+      toiletMenu &&
+      practiceMenu &&
+      waterMenu &&
+      carparkMenu &&
+      startMenu
+    ) {
+      if (selectedCategory === 'all') {
+        allMenu.className = 'menu-selected';
+        toiletMenu.className = 'menu-unselected';
+        practiceMenu.className = 'menu-unselected';
+        waterMenu.className = 'menu-unselected';
+        carparkMenu.className = 'menu-unselected';
+        startMenu.className = 'menu-unselected';
+      } else if (selectedCategory === 'toilet') {
         // 화장실 카테고리를 선택된 스타일로 변경하고
         toiletMenu.className = 'menu-selected';
-        // 편의점과 주차장 카테고리는 선택되지 않은 스타일로 바꿉니다
-        allMenu.className='menu-unselected';
+        // 나머지 카테고리는 선택되지 않은 스타일로 바꿉니다
+        allMenu.className = 'menu-unselected';
         practiceMenu.className = 'menu-unselected';
         waterMenu.className = 'menu-unselected';
         carparkMenu.className = 'menu-unselected';
         startMenu.className = 'menu-unselected';
       } else if (selectedCategory === 'practice') {
-        allMenu.className='menu-unselected';
-        toiletMenu.className ='menu-unselected';
+        allMenu.className = 'menu-unselected';
+        toiletMenu.className = 'menu-unselected';
         practiceMenu.className = 'menu-selected';
         waterMenu.className = 'menu-unselected';
         carparkMenu.className = 'menu-unselected';
-        startMenu.className ='menu-unselected';
+        startMenu.className = 'menu-unselected';
       } else if (selectedCategory === 'water') {
         // 편의점 카테고리가 클릭됐을 때
         // 편의점 카테고리를 선택된 스타일로 변경하고
-        allMenu.className='menu-unselected';
+        allMenu.className = 'menu-unselected';
         toiletMenu.className = 'menu-unselected';
         practiceMenu.className = 'menu-unselected';
         waterMenu.className = 'menu-selected';
@@ -137,17 +151,17 @@ function MapTrailDetail(props: {
       } else if (selectedCategory === 'carpark') {
         // 주차장 카테고리가 클릭됐을 때
         // 주차장 카테고리를 선택된 스타일로 변경하고
-        allMenu.className='menu-unselected';
+        allMenu.className = 'menu-unselected';
         toiletMenu.className = 'menu-unselected';
-        practiceMenu.className ='menu-unselected';
-        waterMenu.className ='menu-unselected';
+        practiceMenu.className = 'menu-unselected';
+        waterMenu.className = 'menu-unselected';
         carparkMenu.className = 'menu-selected';
         startMenu.className = 'menu-unselected';
       } else if (selectedCategory === 'start') {
-        allMenu.className='menu-unselected';
-        toiletMenu.className ='menu-unselected';
+        allMenu.className = 'menu-unselected';
+        toiletMenu.className = 'menu-unselected';
         practiceMenu.className = 'menu-unselected';
-        waterMenu.className ='menu-unselected';
+        waterMenu.className = 'menu-unselected';
         carparkMenu.className = 'menu-unselected';
         startMenu.className = 'menu-selected';
       }
@@ -302,8 +316,8 @@ function MapTrailDetail(props: {
                   size: imageSize,
                   options: {
                     offset: {
-                      x: 2,
-                      y: 25,
+                      x: 12,
+                      y: 20,
                     },
                   },
                 }}
@@ -332,8 +346,8 @@ function MapTrailDetail(props: {
             id="allMenu"
             className="button-selected"
             role="presentation"
-            onClick={(e) => selectCategoryHandler('all')}
-            onKeyDown={(e) => selectCategoryHandler('all')}
+            onClick={() => selectCategoryHandler('all')}
+            onKeyDown={() => selectCategoryHandler('all')}
           >
             전체
           </div>
@@ -341,8 +355,8 @@ function MapTrailDetail(props: {
             id="toiletMenu"
             className="button-unselected"
             role="presentation"
-            onClick={(e) => selectCategoryHandler('toilet')}
-            onKeyDown={(e) => selectCategoryHandler('toilet')}
+            onClick={() => selectCategoryHandler('toilet')}
+            onKeyDown={() => selectCategoryHandler('toilet')}
           >
             화장실
           </div>
@@ -350,8 +364,8 @@ function MapTrailDetail(props: {
             id="practiceMenu"
             className="button-unselected"
             role="presentation"
-            onClick={(e) => selectCategoryHandler('practice')}
-            onKeyDown={(e) => selectCategoryHandler('practice')}
+            onClick={() => selectCategoryHandler('practice')}
+            onKeyDown={() => selectCategoryHandler('practice')}
           >
             운동
           </div>
@@ -359,8 +373,8 @@ function MapTrailDetail(props: {
             id="waterMenu"
             className="button-unselected"
             role="presentation"
-            onClick={(e) => selectCategoryHandler('water')}
-            onKeyDown={(e) => selectCategoryHandler('water')}
+            onClick={() => selectCategoryHandler('water')}
+            onKeyDown={() => selectCategoryHandler('water')}
           >
             음수대
           </div>
@@ -368,8 +382,8 @@ function MapTrailDetail(props: {
             id="carparkMenu"
             className="button-unselected"
             role="presentation"
-            onClick={(e) => selectCategoryHandler('carpark')}
-            onKeyDown={(e) => selectCategoryHandler('carpark')}
+            onClick={() => selectCategoryHandler('carpark')}
+            onKeyDown={() => selectCategoryHandler('carpark')}
           >
             주차장
           </div>
@@ -377,8 +391,8 @@ function MapTrailDetail(props: {
             id="startMenu"
             className="button-unselected"
             role="presentation"
-            onClick={(e) => selectCategoryHandler('start')}
-            onKeyDown={(e) => selectCategoryHandler('start')}
+            onClick={() => selectCategoryHandler('start')}
+            onKeyDown={() => selectCategoryHandler('start')}
           >
             시종점
           </div>
