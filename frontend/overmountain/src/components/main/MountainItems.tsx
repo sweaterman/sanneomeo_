@@ -12,6 +12,7 @@ function MountainItems(props: {
   title: string;
   data: Mountain[];
   is100: boolean;
+  scrollPosition: number;
 }) {
   const { data, title, is100 } = props;
 
@@ -25,7 +26,13 @@ function MountainItems(props: {
 
   return (
     <div className="mountain-suggestion">
-      <div className="suggestion-text">
+      <div
+        className={
+          props.scrollPosition > 100
+            ? 'suggestion-text'
+            : 'suggestion-text after'
+        }
+      >
         {title}
         {is100 && <MountainItemsButton />}
       </div>

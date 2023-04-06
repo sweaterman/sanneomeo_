@@ -110,7 +110,7 @@ function MapContainerMain(props: { searchResult: ElasticMountain }) {
         style={{ width: '100%', height: '360px', zIndex: '1' }}
         level={7}
         // 지도 드래그시 이벤트
-        onDragStart={(map) => {
+        onDragStart={() => {
           setState((prev) => ({
             ...prev,
             isLoading: true,

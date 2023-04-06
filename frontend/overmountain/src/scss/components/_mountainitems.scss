@@ -9,23 +9,31 @@
   .suggestion-text {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 10px 0px;
     font-size: $font-h3;
     font-weight: 700;
     // margin-left: 0.8vw;
+    @media all and (max-width: 320px) {
+      .mountain-items-button {
+        margin-left: 60%;
+      }
+    }
+    &.after {
+      animation: 2s anim-lineLeft ease-out 1;
+    }
     .user-challenge {
       text-decoration: none;
     }
   }
 
-
-  .grid-wrapper{
+  .grid-wrapper {
     padding-bottom: 20px;
     align-items: center;
     justify-content: center;
   }
 
-  .grid-wrapper a{
+  .grid-wrapper a {
     margin: 1vw;
   }
 
@@ -49,7 +57,7 @@
       }
     }
 
-    div{
+    div {
       display: flex;
       flex-direction: column;
       position: absolute;
@@ -65,18 +73,17 @@
       // background-color: white;s
       color: white;
       text-align: left;
-      
 
       @media only screen and (min-width: 321px) {
         width: 90px;
       }
     }
 
-    .figcaption-title{
+    .figcaption-title {
       font-weight: 500;
     }
 
-    .figcaption-discription{
+    .figcaption-discription {
       font-weight: 200;
       font-size: $font-h5;
     }
