@@ -82,7 +82,7 @@ function MountainDetail() {
   return (
     <div className="mountainDetail-root">
       {/* 상단 subheader */}
-      <div className="sub-header">
+      <div className={`sub-header`}>
         <div className="btns">
           <button type="button" onClick={() => scrollToWhat('Map')}>
             지도

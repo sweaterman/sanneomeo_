@@ -36,6 +36,8 @@ function Weather(props: { lat: number; lon: number }) {
 
   return (
     <div className="weather-parent">
+      <div className="card-title">어떤 산인가요?</div>
+
       <div className="weather-component">
         {weatherData.length > 0 ? (
           weatherData.map((weather, index) => (

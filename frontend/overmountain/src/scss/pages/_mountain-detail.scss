@@ -1,12 +1,15 @@
 .mountainDetail-root {
   .sub-header {
-    position: fixed;
-    top: 80px;
     width: 100%;
     max-width: 425px;
     display: flex;
     background-color: white;
     flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 
     .btns {
       button {
@@ -18,7 +21,7 @@
     }
     hr {
       width: 100%;
-      margin: 0px;
+      margin: 10px 0px 0px 0px;
     }
   }
 
@@ -28,7 +31,7 @@
     justify-content: center;
     font-size: $font-h2;
     font-weight: 700;
-    margin: 100px 20px 20px 20px;
+    margin: 20px;
     background-color: rgb(233, 233, 233);
 
     .header-container {
