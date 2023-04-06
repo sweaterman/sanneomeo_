@@ -197,7 +197,7 @@ function MapTrailDetail(props: {
           }}
           level={7} // 지도의 확대 레벨
           // 지도 드래그시 이벤트
-          onDragStart={(map) =>
+          onDragStart={() =>
             setState((prev) => ({
               ...prev,
               isLoading: true,

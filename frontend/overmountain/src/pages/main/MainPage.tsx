@@ -46,6 +46,18 @@ function MainPage() {
   const searchData = useAppSelector(searchMountain);
   const searchDispatch = useAppDispatch();
 
+  // 스크롤 이벤트
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  const updateScroll = () => {
+    setScrollPosition(window.scrollY || document.documentElement.scrollTop);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', updateScroll);
+    console.log(scrollPosition);
+  }, []);
+
   // 검색바 실시간 반영
   useEffect(() => {
     const debounce = setTimeout(() => {
@@ -126,6 +138,7 @@ function MainPage() {
         title={`${koreanTitle} 명산으로 떠나봐요!`}
         data={seasonMountainData.result.seasonList}
         is100={false}
+        scrollPosition={scrollPosition}
       />
 
       {/* 100대 명산 리스트 */}
@@ -133,6 +146,7 @@ function MainPage() {
         title="100대 명산 챌린지"
         data={userChallengeData.result.challengeList}
         is100
+        scrollPosition={scrollPosition}
       />
 
       {/* spot 바로가기 */}
