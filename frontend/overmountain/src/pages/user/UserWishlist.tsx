@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   getUserTrailLike,
   userTrailLike,
@@ -14,12 +14,19 @@ import { updateTrailKeep } from '@features/trail/trailKeepSlice';
 import { toast } from 'react-toastify';
 
 function UserWishList() {
+  // 처음 페이지에 들어갔을 때, 스크롤 위치는 최상단
+  window.scrollTo(0, 0);
+
   // 처음에 찜리스트 받아오기
   const userLikeData = useAppSelector(userTrailLike);
+  const [likeList, setLikeList] = useState<boolean[]>([]);
   const userLikeDispatch = useAppDispatch();
   useEffect(() => {
     userLikeDispatch(getUserTrailLike());
   }, []);
+  useEffect(() => {
+    setLikeList(userLikeData.result.map((item) => item.isLike));
+  }, [userLikeData.result]);
 
   // 등산로 페이지 이동 시, 클릭한 등산로 기본으로 선택되게
   const navigate = useNavigate();
@@ -29,16 +36,17 @@ function UserWishList() {
     navigate(`/mountain/detail/${mountainSeq}`);
   };
 
-  // 등산로 찜하기
   const keepDispatch = useAppDispatch();
-  const keepChange = (checkVal: boolean, trailSeq: number) => {
+  const keepChange = (checkVal: boolean, trailSeq: number, index: number) => {
     keepDispatch(updateTrailKeep(trailSeq)).then(() => {
       if (checkVal) {
         toast.success('찜 목록에 추가되었습니다.');
       } else {
         toast.success('찜 목록에서 삭제되었습니다.');
       }
-      userLikeDispatch(getUserTrailLike());
+      let newLike = likeList.slice();
+      newLike[index] = !newLike[index];
+      setLikeList(newLike);
     });
   };
 
@@ -47,9 +55,6 @@ function UserWishList() {
       <div className="wish-header">
         <div className="wish-title">
           <h1>내가 찜한 등산로</h1>
-          {/* <span>
-          찜해놓은 등산로를 확인해봐요!
-          </span> */}
         </div>
       </div>
 
@@ -57,10 +62,10 @@ function UserWishList() {
         {/* 등산로들 */}
         <div className="trail-list">
           {userLikeData.result &&
-            userLikeData.result.map((singleTrail) => (
+            userLikeData.result.map((singleTrail, index) => (
               // 하나의 등산로
               // eslint-disable-next-line react/jsx-key
-              <div className="single-trail">
+              <div className="single-trail" key={singleTrail.sequence}>
                 <div className="single-info">
                   <div className="info-name">
                     {/* 이름 */}
@@ -116,18 +121,26 @@ function UserWishList() {
 
                 {/* 찜 여부 */}
                 <div className="single-islike">
-                  {singleTrail.isLike ? (
+                  {likeList[index] ? (
                     <img
-                      onClick={() => keepChange(false, singleTrail.sequence)}
-                      onKeyDown={() => keepChange(false, singleTrail.sequence)}
+                      onClick={() =>
+                        keepChange(false, singleTrail.sequence, index)
+                      }
+                      onKeyDown={() =>
+                        keepChange(false, singleTrail.sequence, index)
+                      }
                       role="presentation"
                       src={like_selected}
                       alt="like"
                     />
                   ) : (
                     <img
-                      onClick={() => keepChange(true, singleTrail.sequence)}
-                      onKeyDown={() => keepChange(true, singleTrail.sequence)}
+                      onClick={() =>
+                        keepChange(true, singleTrail.sequence, index)
+                      }
+                      onKeyDown={() =>
+                        keepChange(true, singleTrail.sequence, index)
+                      }
                       role="presentation"
                       src={like_unselected}
                       alt="unlike"

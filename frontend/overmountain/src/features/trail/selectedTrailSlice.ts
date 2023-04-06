@@ -18,7 +18,7 @@ const selectedTrailSlice = createSlice({
   reducers: {
     setSelectedTrailKey: (state, action) => {
       state.selectedTrailKey = action.payload;
-      console.log(state.selectedTrailKey);
+      // console.log(state.selectedTrailKey);
     },
   },
 });

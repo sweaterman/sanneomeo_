@@ -27,23 +27,27 @@ function ReviewItems(props: { mountainSeq: string }) {
   const [content, setContent] = useState('');
   const [rate, setRate] = useState('0');
   const writeMyReview = () => {
-    if (content === '') {
-      toast.error('내용을 작성 해주세요!');
-    } else if (rate === '0' || rate === 'none') {
-      toast.error('평점을 선택 해주세요!');
+    if (localStorage.getItem('token') !== null) {
+      if (content === '') {
+        toast.error('내용을 작성 해주세요!');
+      } else if (rate === '0' || rate === 'none') {
+        toast.error('평점을 선택 해주세요!');
+      } else {
+        const sendReview = {
+          mountainSeq: mountainSeq,
+          userSeq: 0,
+          content: content,
+          rate: Number(rate),
+        };
+        writeReviewDispatch(writeReview(sendReview)).then(() => {
+          setContent('');
+          setRate('0');
+          getReviewDispatch(getReviewList(mountainSeq));
+          toast.success('후기가 등록되었습니다.');
+        });
+      }
     } else {
-      const sendReview = {
-        mountainSeq: mountainSeq,
-        userSeq: 0,
-        content: content,
-        rate: Number(rate),
-      };
-      writeReviewDispatch(writeReview(sendReview)).then(() => {
-        setContent('');
-        setRate('0');
-        getReviewDispatch(getReviewList(mountainSeq));
-        toast.success('후기가 등록되었습니다.');
-      });
+      toast.error('로그인 먼저 해주세요!');
     }
   };
 

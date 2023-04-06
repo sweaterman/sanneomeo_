@@ -39,9 +39,7 @@ export const trailKeepSlice = createSlice({
   reducers: {},
   extraReducers: (builder) => {
     // API 명세서 15번. 찜 등록
-    builder.addCase(updateTrailKeep.fulfilled, () => {
-      console.log('15 성공!');
-    });
+    builder.addCase(updateTrailKeep.fulfilled, () => {});
     builder.addCase(updateTrailKeep.rejected, (_, action) => {
       console.log('15 실패!', action.error);
     });

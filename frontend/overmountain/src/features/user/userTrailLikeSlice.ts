@@ -29,10 +29,10 @@ export const userTrailLikeSlice = createSlice({
     // API 명세서 8번. 찜한 등산로 리스트
     builder.addCase(getUserTrailLike.fulfilled, (state, action) => {
       state.result = action.payload;
-      console.log('8 성공!', state.result);
+      // console.log('8 성공!', state.result);
     });
     builder.addCase(getUserTrailLike.rejected, (state, action) => {
-      console.log('8 실패!', action.error);
+      console.log('찜한 리스트 실패!', action.error);
     });
   },
 });

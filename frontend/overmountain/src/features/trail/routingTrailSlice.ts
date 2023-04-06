@@ -18,7 +18,7 @@ const rountingTrailSlice = createSlice({
   reducers: {
     setRountingTrailKey: (state, action) => {
       state.rountingTrailKey = action.payload;
-      console.log('라우팅 키 변경', state.rountingTrailKey);
+      // console.log('라우팅 키 변경', state.rountingTrailKey);
     },
   },
 });

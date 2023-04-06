@@ -36,15 +36,12 @@ export const searchMountainSlice = createSlice({
   reducers: {},
   extraReducers: (builder) => {
     // API 명세서 13번. 산,주소검색
-    // builder.addCase(getMountainDetail.pending, (state, action) => {
-    //   // state.status = 'Loading';
-    // });
     builder.addCase(getMountainSearch.fulfilled, (state, action) => {
       state.result = action.payload;
-      console.log('13 성공!', state.result);
+      // console.log('13 성공!', state.result);
     });
     builder.addCase(getMountainSearch.rejected, (state, action) => {
-      console.log('13 실패!', action.error);
+      console.log('산,주소 검색 실패!', action.error);
     });
   },
 });

@@ -28,10 +28,10 @@ export const seasonMountainSlice = createSlice({
     // API 명세서 10. 계절 산 추천 리스트
     builder.addCase(getSeasonMountains.fulfilled, (state, action) => {
       state.result = action.payload;
-      console.log('10 성공!', state.result);
+      // console.log('10 성공!', state.result);
     });
     builder.addCase(getSeasonMountains.rejected, (state, action) => {
-      console.log('10 실패!', action.error);
+      console.log('계절 산 실패!', action.error);
     });
   },
 });

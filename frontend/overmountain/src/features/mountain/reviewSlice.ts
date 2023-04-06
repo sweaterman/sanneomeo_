@@ -66,26 +66,26 @@ export const reviewSlice = createSlice({
     // API 명세서 23번. 후기 리스트 GET
     builder.addCase(getReviewList.fulfilled, (state, action) => {
       state.reviewList = action.payload;
-      console.log('23 성공!', state.reviewList);
+      // console.log('23 성공!', state.reviewList);
     });
     builder.addCase(getReviewList.rejected, (state, action) => {
-      console.log('23 실패!', action.error);
+      console.log('후기 리스트 실패!', action.error);
     });
 
     // API 명세서 24. 후기 작성 POST
     builder.addCase(writeReview.fulfilled, () => {
-      console.log('24 성공!');
+      // console.log('24 성공!');
     });
     builder.addCase(writeReview.rejected, (state, action) => {
-      console.log('24 실패!', action.error);
+      console.log('후기 작성 실패!', action.error);
     });
 
     // API 명세서 25. 후기 삭제 DELETE
     builder.addCase(deleteReview.fulfilled, () => {
-      console.log('25 성공!');
+      // console.log('25 성공!');
     });
     builder.addCase(deleteReview.rejected, (state, action) => {
-      console.log('25 실패!', action.error);
+      console.log('후기 삭제 실패!', action.error);
     });
   },
 });

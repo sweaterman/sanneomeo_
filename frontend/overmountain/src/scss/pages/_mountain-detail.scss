@@ -5,6 +5,23 @@
     font-size: $font-h5;
     color: $over-lightgray;
   }
+  .empty-trail {
+    background-color: $over-beige;
+    height: 300px;
+    overflow: hidden;
+    color: gray;
+    text-align: center;
+    .empty-content {
+      margin-top: 5%;
+      animation: waviy 2s 1;
+    }
+    img {
+      width: 200px;
+      margin-top: 5%;
+      margin-left: 20%;
+      object-fit: contain;
+    }
+  }
   .carmagi {
     display: flex;
     justify-content: end;

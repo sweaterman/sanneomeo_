@@ -11,24 +11,21 @@ function MountainTrail() {
 
   const { trailSeq } = useParams<{ trailSeq: string }>();
   const [parsedTrailSeq, setParsedTrailSeq] = useState(0);
-  const [mountainSeq, setMountainSeq] = useState('');
-  trailSeq?.substring(0, 9);
-  // console.log(typeof parsedTrailSeq);
-  // 등산로 패스 받아오기
 
   const backHandler = () => {
-    navigate(-1);
+    navigate('/');
   };
+
   const trailListData = useAppSelector(trailDetail);
   const trailListDispatch = useAppDispatch();
 
   // 등산로 스팟 리스트 받아오기
   const spotListData = useAppSelector(spotList);
   const spotListDispatch = useAppDispatch();
+
   useEffect(() => {
     // setMountainSeq(trailSeq?.substring(0, 9));
     setParsedTrailSeq(parseInt(trailSeq ?? '0', 10));
-    console.log('parsedtrailseq', parsedTrailSeq);
     // 등산로 trails 가져오기
     trailListDispatch(getTrailDetail(parsedTrailSeq));
     // 등산로 스팟가져오기
@@ -49,8 +46,8 @@ function MountainTrail() {
         </div>
       </div>
       <div className="spot-header">
-        <h1>대모산</h1>
-        <h3>제2등산로</h3>
+        <h1>{spotListData.result.mountainName}</h1>
+        <h3>{spotListData.result.trailName}</h3>
       </div>
 
       <div className="kakao-map-trail">

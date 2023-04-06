@@ -96,7 +96,11 @@ interface MiniSpot {
 
 // 스팟 리스트
 interface SpotList {
-  result: Array<MiniSpot>;
+  result: {
+    mountainName: string;
+    trailName: string;
+    spotList: Array<MiniSpot>;
+  };
 }
 
 // 내 위치와 가까운 등산로 반환할 때 쓰는 타입
@@ -157,5 +161,6 @@ interface RecomTrailList {
   result: {
     target: Trail;
     result: Trail[];
+    loading: boolean;
   };
 }

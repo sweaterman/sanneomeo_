@@ -39,7 +39,6 @@ export const putUserInfo = createAsyncThunk(
       purpose: userPurpose,
       time: userTime,
     };
-    console.log('유저 보내는정보:', request);
     const url = `${baseURL}user/info`;
     const response = await axios({
       method: 'PUT',
@@ -71,24 +70,24 @@ export const userSlice = createSlice({
   reducers: {},
   extraReducers: (builder) => {
     // API 명세서 8번. 회원정보 수정(선택 정보) - 설문내용
-    builder.addCase(putUserInfo.fulfilled, (state, action) => {
-      console.log('8 성공!', state.result);
+    builder.addCase(putUserInfo.fulfilled, () => {
+      // console.log('8 성공!', state.result);
     });
     builder.addCase(putUserInfo.rejected, (state, action) => {
-      console.log('8 실패!', action.error);
+      console.log('회원정보 수정 실패!', action.error);
     });
 
     // API 명세서 7번. 회원정보 가져오기
     builder.addCase(getUserInfo.fulfilled, (state, action) => {
       state.result = action.payload;
-      console.log('7 성공!', state.result);
+      // console.log('7 성공!', state.result);
       if (state.result.login && state.result.purpose !== 0) {
         const str = `${state.result.modifiedAt}에 설문한 정보를 가져왔습니다!`;
         toast.success(str);
       }
     });
     builder.addCase(getUserInfo.rejected, (state, action) => {
-      console.log('7 실패!', action.error);
+      console.log('회원정보 가져오기 실패!', action.error);
     });
   },
 });

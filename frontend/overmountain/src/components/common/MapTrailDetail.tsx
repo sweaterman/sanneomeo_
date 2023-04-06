@@ -35,20 +35,23 @@ function MapTrailDetail(props: {
   });
 
   // 해당 산의 전체 스팟들
-  const positions = props.spotListData.result.map((position) => ({
+  const positions = props.spotListData.result.spotList.filter(
+    (spots) => spots.name !== '분기점',
+  );
+  const allSpots = positions.map((position) => ({
     lat: position.latitude,
     lng: position.longitude,
   }));
 
   // 카테고리별 스팟들 좌표
-  const toiletPositions = props.spotListData.result.filter(
+  const toiletPositions = props.spotListData.result.spotList.filter(
     (spots) => spots.name === '화장실' || spots.introduction.includes('휴게'),
   );
   const toiletSpots = toiletPositions.map((position) => ({
     lat: position.latitude,
     lng: position.longitude,
   }));
-  const practicePositions = props.spotListData.result.filter(
+  const practicePositions = props.spotListData.result.spotList.filter(
     (spots) =>
       spots.name.includes('운동') || spots.introduction.includes('운동'),
   );
@@ -56,49 +59,45 @@ function MapTrailDetail(props: {
     lat: position.latitude,
     lng: position.longitude,
   }));
-  const waterPositions = props.spotListData.result.filter(
+  const waterPositions = props.spotListData.result.spotList.filter(
     (spots) => spots.name === '음수대' || spots.introduction.includes('약수'),
   );
   const waterSpots = waterPositions.map((position) => ({
     lat: position.latitude,
     lng: position.longitude,
   }));
-  const carPositions = props.spotListData.result.filter(
+  const carPositions = props.spotListData.result.spotList.filter(
     (spots) => spots.name === '주차장' || spots.introduction.includes('주차'),
   );
   const carparkSpots = carPositions.map((position) => ({
     lat: position.latitude,
     lng: position.longitude,
   }));
-  const startPositions = props.spotListData.result.filter(
+  const startPositions = props.spotListData.result.spotList.filter(
     (spots) => spots.name === '시종점' || spots.introduction.includes('이정'),
   );
   const startSpots = startPositions.map((position) => ({
     lat: position.latitude,
     lng: position.longitude,
   }));
-  // console.log('loading', state.isLoading);
-  console.log('center', state.center);
-  // console.log('path[0]', paths[0].lat, paths[0].lng);
 
   const imageSize = { width: 24, height: 24 };
 
   const [selectedCategory, setSelectedCategory] = useState('all');
 
   const selectCategoryHandler = (e: any) => {
-    console.log('selectCategoryHandler', e);
     setSelectedCategory(e);
   };
   useEffect(() => {
     setState((prev) => ({
       ...prev,
       center: {
-        lat: paths.length ? paths[0].lat : 37.5009759,
-        lng: paths.length ? paths[0].lng : 127.0373502,
+        lat: paths.length ? paths[paths.length - 1].lat : 37.5009759,
+        lng: paths.length ? paths[paths.length - 1].lng : 127.0373502,
       },
       isLoading: true,
     }));
-  }, []);
+  }, [props.trailListData]);
 
   useEffect(() => {
     const allMenu = document.getElementById('allMenu');
@@ -185,7 +184,6 @@ function MapTrailDetail(props: {
   };
   return (
     <div className="map-trail-detail">
-      {/* <CategoryMarkerStyle /> */}
       <div id="mapwrap" className="map-wrap">
         <Map // 지도를 표시할 Container
           id={`map`}
@@ -197,7 +195,7 @@ function MapTrailDetail(props: {
             height: '450px',
             zIndex: '0',
           }}
-          level={6} // 지도의 확대 레벨
+          level={7} // 지도의 확대 레벨
           // 지도 드래그시 이벤트
           onDragStart={(map) =>
             setState((prev) => ({
@@ -246,7 +244,7 @@ function MapTrailDetail(props: {
             </CustomOverlayMap>
           )}
           {selectedCategory === 'all' &&
-            positions.map((position) => (
+            allSpots.map((position) => (
               <MapMarker
                 key={`${position.lat},${position.lng}`}
                 position={position}
