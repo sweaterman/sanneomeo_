@@ -13,7 +13,7 @@ function MountainTrail() {
   const [parsedTrailSeq, setParsedTrailSeq] = useState(0);
 
   const backHandler = () => {
-    navigate(-1);
+    navigate('/');
   };
 
   const trailListData = useAppSelector(trailDetail);
@@ -26,7 +26,6 @@ function MountainTrail() {
   useEffect(() => {
     // setMountainSeq(trailSeq?.substring(0, 9));
     setParsedTrailSeq(parseInt(trailSeq ?? '0', 10));
-    console.log('parsedtrailseq', parsedTrailSeq);
     // 등산로 trails 가져오기
     trailListDispatch(getTrailDetail(parsedTrailSeq));
     // 등산로 스팟가져오기

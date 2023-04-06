@@ -1,7 +1,8 @@
-.map-trail-detail{
+.map-trail-detail {
+  padding: 5%;
   .map-wrap {
     position: relative;
-  
+
     .ramgi-here {
       width: 24px;
       animation: blink-effect 1s step-end infinite;
@@ -18,18 +19,18 @@
       box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
         rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
       display: flex;
-  
+
       h1 {
         color: rgb(214, 214, 214);
         margin: 0px 3px;
       }
-  
+
       button img {
         width: 20px;
       }
     }
   }
-  
+
   .category {
     position: relative;
     display: flex;
@@ -37,44 +38,8 @@
     margin-top: 5%;
     font-size: $font-h5;
     align-items: center;
-    // .all-button {
-    //   background-color: rgb(190, 190, 190);
-    //   width: 50px;
-    //   border-radius: 20px;
-    //   text-align: center;
-    // }
-    // .toilet-button {
-    //   background-color: rgb(190, 190, 190);
-    //   width: 50px;
-    //   border-radius: 20px;
-    //   text-align: center;
-    // }
-    // .practice-button {
-    //   background-color: rgb(190, 190, 190);
-    //   width: 50px;
-    //   border-radius: 20px;
-    //   text-align: center;
-    // }
-    // .water-button {
-    //   background-color: rgb(190, 190, 190);
-    //   width: 50px;
-    //   border-radius: 20px;
-    //   text-align: center;
-    // }
-    // .carpark-button {
-    //   background-color: rgb(190, 190, 190);
-    //   width: 50px;
-    //   border-radius: 20px;
-    //   text-align: center;
-    // }
-    // .start-button {
-    //   background-color: rgb(190, 190, 190);
-    //   width: 50px;
-    //   border-radius: 20px;
-    //   text-align: center;
-    // }
 
-    .menu-unselected{
+    .menu-unselected {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -85,7 +50,7 @@
       border-radius: 20px;
     }
 
-    .menu-selected{
+    .menu-selected {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -96,5 +61,4 @@
       border-radius: 20px;
     }
   }
-  
 }

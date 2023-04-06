@@ -22,8 +22,8 @@ function MapContainerDetail(props: { trailPath: TrailPath }) {
     setState((prev) => ({
       ...prev,
       center: {
-        lat: paths.length > 0 ? paths[10].lat : 37.5009759,
-        lng: paths.length > 0 ? paths[10].lng : 127.0373502,
+        lat: paths.length > 0 ? paths[paths.length - 1].lat : 37.5009759,
+        lng: paths.length > 0 ? paths[paths.length - 1].lng : 127.0373502,
       },
       isLoading: true,
       isPanto: true,
