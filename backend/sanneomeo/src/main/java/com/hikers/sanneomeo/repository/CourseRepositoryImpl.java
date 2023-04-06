@@ -6,6 +6,8 @@ import static com.querydsl.core.types.dsl.MathExpressions.cos;
 import static com.querydsl.core.types.dsl.MathExpressions.radians;
 import static com.querydsl.core.types.dsl.MathExpressions.sin;
 
+import com.hikers.sanneomeo.dto.response.MountainDetailResponseDto;
+import com.hikers.sanneomeo.dto.response.MountainSpotResponseDto;
 import com.hikers.sanneomeo.dto.response.RecommendCourseDto;
 import com.hikers.sanneomeo.dto.response.NearTrailResponseDto;
 import com.hikers.sanneomeo.dto.response.TrailListResponseDto;
@@ -119,4 +121,19 @@ public class CourseRepositoryImpl implements CourseRepositoryCustom {
                 .where(course.courseSeq.eq(courseSeq))
                 .fetchOne());
     }
+
+  @Override
+  public Optional<MountainSpotResponseDto> findMountainAndCourseNameBySequence(Long courseSeq) {
+    return Optional.ofNullable(
+        queryFactory
+            .select(
+                Projections.constructor(MountainSpotResponseDto.class,mountain.name,course.name)
+            )
+            .from(course)
+            .leftJoin(mountain)
+            .on(course.mountainSeq.eq(mountain.mountainSeq))
+            .where(course.courseSeq.eq(courseSeq))
+            .fetchFirst()
+    );
+  }
 }

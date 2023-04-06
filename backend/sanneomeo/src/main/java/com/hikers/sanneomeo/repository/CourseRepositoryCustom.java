@@ -1,5 +1,6 @@
 package com.hikers.sanneomeo.repository;
 
+import com.hikers.sanneomeo.dto.response.MountainSpotResponseDto;
 import com.hikers.sanneomeo.dto.response.RecommendCourseDto;
 import com.hikers.sanneomeo.dto.response.NearTrailResponseDto;
 import com.hikers.sanneomeo.dto.response.TrailListResponseDto;
@@ -15,4 +16,5 @@ public interface CourseRepositoryCustom {
   Optional<RecommendCourseDto> findCourseByCourseSequenceAndUserSeq(Long courseSeq, Long userSeq);
   Optional<RecommendCourseDto> findCourseByCourseSequence(Long courseSeq);
 
+  Optional<MountainSpotResponseDto> findMountainAndCourseNameBySequence(Long courseSeq);
 }
