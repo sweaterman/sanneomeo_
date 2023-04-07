@@ -42,6 +42,7 @@ function MapContainerDetail(props: { trailPath: TrailPath }) {
             // 지도의 크기
             width: '100%',
             height: '450px',
+            zIndex: '0',
           }}
           level={7} // 지도의 확대 레벨
         >
