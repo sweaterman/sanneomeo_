@@ -37,7 +37,7 @@ export const store = configureStore({
     rountingKey: routingTrailSlice,
     reviews: reviewSlice,
     navBars: navSlice,
-    isLogin: loginSlice,
+    loginCheck: loginSlice,
     recomms: recomSlice,
   },
   // saga 쓰면 여기에 추가

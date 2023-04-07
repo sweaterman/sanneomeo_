@@ -9,16 +9,9 @@ function UserLoginTokenSave() {
   // id 값을 로컬 스토리지에 저장
   localStorage.setItem('token', token || '');
 
-  // 로그인상태 가져오기
-  const isLoginState = useAppSelector(loginState);
-  const dispatch = useAppDispatch();
-
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (localStorage.getItem('token') !== null) {
-      dispatch(isLoginCheck(true));
-    }
     navigate(`/`);
   }, [navigate]);
 

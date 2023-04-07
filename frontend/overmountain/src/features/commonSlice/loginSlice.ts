@@ -17,12 +17,11 @@ const loginSlice = createSlice({
   reducers: {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     isLoginCheck: (state, action) => {
-      // console.log(state.toogle, '이것은 toogle값.');
       state.isLogin = action.payload;
     },
   },
 });
 
 export const { isLoginCheck } = loginSlice.actions;
-export const loginState = (state: RootState) => state.isLogin;
+export const loginState = (state: RootState) => state.loginCheck;
 export default loginSlice.reducer;
