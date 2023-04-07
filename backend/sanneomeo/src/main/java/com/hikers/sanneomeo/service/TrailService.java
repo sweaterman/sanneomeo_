@@ -20,7 +20,7 @@ public interface TrailService {
   NearTrailResponseDto getNearTrailByDistance(String sequence,
       BigDecimal latitude, BigDecimal longitude);
 
-  Optional<RecommendCourseDto> getTargetCourseFlask(int level, String region, int purpose, int time);
+  Optional<RecommendCourseDto> getTargetCourseFlask(int level, int region, int purpose, int time);
 
   List<RecommendCourseDto> getRecommendCoursesFlask(Long targetCourseSeq);
 

@@ -29,7 +29,7 @@ export const trailListSlice = createSlice({
     // API 명세서 16번. 산에 해당하는 등산로 리스트
     builder.addCase(getMountainTrailList.fulfilled, (state, action) => {
       state.result = action.payload;
-      // console.log('16 성공!', state.result);
+      console.log('16 성공!', state.result);
     });
     builder.addCase(getMountainTrailList.rejected, (state, action) => {
       console.log('등산로 목록 실패!', action.error);

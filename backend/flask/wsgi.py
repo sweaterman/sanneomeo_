@@ -23,22 +23,12 @@ def target_course():
             result = curs.fetchall()
     finally:
         mydb.close();
-        
 
     difficulty = request.args.get('level')
     location = request.args.get('region')
     purpose = request.args.get('purpose')
     time = request.args.get('time')
     userseq = request.args.get('userseq')
-
-    print("1" + difficulty)
-    print("2" + location)
-    print("3" + purpose)
-    print("4" + time)
-    print("5" + userseq)
-
-
-
 
     # 데이터프레임 생성 및 필터링
     df = pd.DataFrame(result)
@@ -53,12 +43,6 @@ def target_course():
         df = df[(df['difficulty_mean'] >= 1.3)]
         
     print("난이도 필터링")
-    print(df)
-
-    # 지역 필터링
-    df = df[df['si'].str.contains(location)]
-
-    print("지역 필터링")
     print(df)
 
     # 시간 필터링
@@ -79,67 +63,91 @@ def target_course():
     #협업 필터링
     if userseq != '0':
 
-        # 리뷰 리스트 기반 협업 필터링
+        ## 리뷰 데이터
         try:
-            # MySQL 데이터베이스 연결 설정
             mydb = DBInfo.mydb()
             with mydb.cursor() as curs:
-                sql = f'SELECT c.course_seq, r.rate FROM tbl_course c JOIN tbl_mountain m ON c.mountain_seq = m.mountain_seq JOIN tbl_review r ON m.mountain_seq = r.mountain_seq WHERE r.user_seq = {userseq}'
+                # review_table에는 mountain_seq만 있어서 join 사용해 mountain_seq에 포함되어있는 course_seq 전부 가져오고 mountain_seq rate 사용
+                sql = "SELECT r.user_seq, c.course_seq, r.rate FROM tbl_course c JOIN tbl_mountain m ON c.mountain_seq = m.mountain_seq JOIN tbl_review r ON m.mountain_seq = r.mountain_seq"
                 curs.execute(sql)
                 review_result = curs.fetchall()
                 if len(review_result) > 0:
-                    # keep_result가 비어있지 않은 경우에만 데이터프레임을 생성
-                    review_df = pd.DataFrame(review_result, columns=['course_seq', 'rate'])
+                    # review_result가 비어있지 않은 경우에만 데이터프레임을 생성
+                    review_df = pd.DataFrame(review_result, columns=['user_seq', 'course_seq', 'rate'])
                 else:
-                    # keep_result가 비어있는 경우 빈 데이터프레임을 생성
+                    # review_result가 비어있는 경우 빈 데이터프레임을 생성
                     review_df = pd.DataFrame()
         finally:
             mydb.close();
 
-
-        # 찜 리스트 기반 협업 필터링
+        ## 찜 데이터
         try:
             # MySQL 데이터베이스 연결 설정
             mydb = DBInfo.mydb()
             with mydb.cursor() as curs:
-                sql = f'SELECT course_seq FROM tbl_keep WHERE user_seq = {userseq} AND is_keep = 1'
+                sql = "SELECT user_seq, course_seq FROM tbl_keep WHERE is_keep = 1"
                 curs.execute(sql)
                 keep_result = curs.fetchall()
                 if len(keep_result) > 0:
                     # keep_result가 비어있지 않은 경우에만 데이터프레임을 생성
-                    keep_df = pd.DataFrame(keep_result, columns=['course_seq'])
+                    keep_df = pd.DataFrame(keep_result, columns=['user_seq', 'course_seq'])
                 else:
                     # keep_result가 비어있는 경우 빈 데이터프레임을 생성
                     keep_df = pd.DataFrame()
         finally:
             mydb.close();
 
-        if len(review_df) != 0 and len(keep_df) != 0:
-            # 리뷰 리스트와 찜 리스트를 합친 데이터프레임 생성
-            collab_df = pd.concat([review_df, keep_df], ignore_index=True)
+        ## 리뷰와 찜 데이터 합치기
+        keep_df['rate'] = 5  # 찜한 course에 5점 부여
+        collab_df = pd.concat([review_df, keep_df], ignore_index=True)
 
-            # 협업 필터링을 위한 pivot table 생성
-            pivot_table = collab_df.pivot_table(index=['course_seq'], aggfunc='mean')
-            pivot_table.columns = ['collaborative_rate']
+        ## 사용자별 평점 행렬 만들기
+        user_rate_matrix = collab_df.pivot_table(index=['user_seq'], columns=['course_seq'], values='rate')
 
-            # 데이터프레임에 협업 필터링 결과를 추가
-            df = df.join(pivot_table, on='course_seq', how='left')
+        ## 사용자 간 유사도 계산
+        user_similarity = cosine_similarity(user_rate_matrix.fillna(0))
+        user_similarity_df = pd.DataFrame(user_similarity, index=user_rate_matrix.index, columns=user_rate_matrix.index)
 
-            # 협업 필터링 결과에 따라 추천 결과 필터링
-            if 'collaborative_rate' in df.columns:
-                df = df[(df['collaborative_rate'] > 4.0) | (df['collaborative_rate'].isna())]
+        ## 로그인한 사용자와 유사한 사용자 찾기
+        top_similar_users = user_similarity_df[userseq].sort_values(ascending=False).head(6).index.tolist()
+        top_similar_users = [x for x in top_similar_users if isinstance(x, str)]  # 리스트에서 문자열만 추출
+        top_similar_users.remove(userseq)  # 로그인한 사용자 제거
 
-        print("협업필터링 결과")
-        print(df)
+        ## 유사한 사용자의 평점을 바탕으로 로그인한 사용자에게 추천하기
+        similar_users_ratings = user_rate_matrix.loc[top_similar_users].mean()
+        recommended_courses = similar_users_ratings.sort_values(ascending=False).head(10).index.tolist()
 
+        ## 추천된 코스를 기반으로 데이터프레임 필터링
+        df_collab = df[df['course_seq'].isin(recommended_courses)]
 
+        if not df_collab.empty:
+            df = df_collab
+
+    # 지역 필터링
+    location_dict = {
+        "1": "서울특별시",
+        "2": "인천광역시|경기도",
+        "3": "강원도",
+        "4": "충청남도|충청북도|대전광역시|세종특별자치시",
+        "5": "전라남도|전라북도|광주광역시",
+        "6": "경상남도|경상북도|울산광역시|부산광역시|대구광역시",
+        "7": "제주특별자치도"
+    }
+
+    region = location_dict.get(location)
+    df = df[df['si'].str.contains(region)]
+
+    print("지역 필터링")
+    print(df)
+
+    if df.empty: return ""
 
     # 목적 필터링
     df['time'] = df['time'].apply(decimal.Decimal)
-
     df['sum'] = df['difficulty_mean'] + df['time']
 
-    if purpose == '1':  # 힐링
+
+    if purpose == '1' :  # 힐링
         result_course_seq = df.loc[df['sum'].astype(int).idxmin()]
 
     elif purpose == '2':  # 도전
@@ -148,17 +156,6 @@ def target_course():
     print("목적 필터링")
     print(df)
 
-    # if purpose == '1':  # 힐링
-    #     # 'sum' 열을 기준으로 오름차순 정렬
-    #     df_sorted = df.sort_values(by='sum')
-    #     # 'sum' 열 값이 작은 2개의 행 선택
-    #     df = df_sorted.head(1)
-    #
-    # elif purpose == '2':  # 도전
-    #     # 'sum' 열을 기준으로 내림차순 정렬
-    #     df_sorted = df.sort_values(by='sum', ascending=False)
-    #     # 'sum' 열 값이 큰 2개의 행 선택
-    #     df = df_sorted.head(1)
 
     return str(result_course_seq['course_seq'])
 
@@ -213,6 +210,7 @@ def mountain_recommend_course():
     userseq = request.args.get('userseq')
 
     if userseq != '0':
+        # 설문조사 결과 쿼리
         try:
             # MySQL 데이터베이스 연결 설정
             mydb = DBInfo.mydb()
@@ -247,6 +245,9 @@ def mountain_recommend_course():
 
         df = pd.DataFrame(result)
         df.columns = ['course_seq', 'difficulty_mean', 'time']
+        print("df")
+        print(df)
+
 
         # 난이도 필터링
         if difficulty == 1:  # 쉬움
@@ -275,62 +276,64 @@ def mountain_recommend_course():
         print(df)
 
         # 협업 필터링
-        # 리뷰 리스트 기반 협업 필터링
+
+        ## 리뷰 데이터
         try:
-            # MySQL 데이터베이스 연결 설정
             mydb = DBInfo.mydb()
             with mydb.cursor() as curs:
-                sql = f'SELECT c.course_seq, r.rate FROM tbl_course c JOIN tbl_mountain m ON c.mountain_seq = m.mountain_seq JOIN tbl_review r ON m.mountain_seq = r.mountain_seq WHERE r.user_seq = {userseq}'
+                # review_table에는 mountain_seq만 있어서 join 사용해 mountain_seq에 포함되어있는 course_seq 전부 가져오고 mountain_seq rate 사용
+                sql = "SELECT r.user_seq, c.course_seq, r.rate FROM tbl_course c JOIN tbl_mountain m ON c.mountain_seq = m.mountain_seq JOIN tbl_review r ON m.mountain_seq = r.mountain_seq"
                 curs.execute(sql)
                 review_result = curs.fetchall()
                 if len(review_result) > 0:
-                    # keep_result가 비어있지 않은 경우에만 데이터프레임을 생성
-                    review_df = pd.DataFrame(review_result, columns=['course_seq', 'rate'])
+                    # review_result가 비어있지 않은 경우에만 데이터프레임을 생성
+                    review_df = pd.DataFrame(review_result, columns=['user_seq', 'course_seq', 'rate'])
                 else:
-                    # keep_result가 비어있는 경우 빈 데이터프레임을 생성
+                    # review_result가 비어있는 경우 빈 데이터프레임을 생성
                     review_df = pd.DataFrame()
         finally:
             mydb.close();
 
-
-        # 찜 리스트 기반 협업 필터링
+        ## 찜 데이터
         try:
             # MySQL 데이터베이스 연결 설정
             mydb = DBInfo.mydb()
             with mydb.cursor() as curs:
-                sql = f'SELECT course_seq FROM tbl_keep WHERE user_seq = {userseq} AND is_keep = 1'
+                sql = "SELECT user_seq, course_seq FROM tbl_keep WHERE is_keep = 1"
                 curs.execute(sql)
                 keep_result = curs.fetchall()
                 if len(keep_result) > 0:
                     # keep_result가 비어있지 않은 경우에만 데이터프레임을 생성
-                    keep_df = pd.DataFrame(keep_result, columns=['course_seq'])
+                    keep_df = pd.DataFrame(keep_result, columns=['user_seq','course_seq'])
                 else:
                     # keep_result가 비어있는 경우 빈 데이터프레임을 생성
                     keep_df = pd.DataFrame()
         finally:
             mydb.close();
 
+        ## 리뷰와 찜 데이터 합치기
+        keep_df['rate'] = 5  # 찜한 course에 5점 부여
+        collab_df = pd.concat([review_df, keep_df], ignore_index=True)
 
-        if len(review_df) != 0 and len(keep_df) != 0 :
-            # 리뷰 리스트와 찜 리스트를 합친 데이터프레임 생성
-            collab_df = pd.concat([review_df, keep_df], ignore_index=True)
+        ## 사용자별 평점 행렬 만들기
+        user_rate_matrix = collab_df.pivot_table(index=['user_seq'], columns=['course_seq'], values='rate')
 
-            # 협업 필터링을 위한 pivot table 생성
-            pivot_table = collab_df.pivot_table(index=['course_seq'], aggfunc='mean')
-            pivot_table.columns = ['collaborative_rate']
+        ## 사용자 간 유사도 계산
+        user_similarity = cosine_similarity(user_rate_matrix.fillna(0))
+        user_similarity_df = pd.DataFrame(user_similarity, index=user_rate_matrix.index, columns=user_rate_matrix.index)
 
-            # 데이터프레임에 협업 필터링 결과를 추가
-            df = df.join(pivot_table, on='course_seq', how='left')
-            print(df)
+        ## 로그인한 사용자와 유사한 사용자 찾기
+        top_similar_users = user_similarity_df[userseq].sort_values(ascending=False).head(6).index.tolist()
+        top_similar_users = [x for x in top_similar_users if isinstance(x, str)] # 리스트에서 문자열만 추출
+        top_similar_users.remove(userseq)  # 로그인한 사용자 제거
 
-            # 협업 필터링 결과에 따라 추천 결과 필터링
-            if 'collaborative_rate' in df.columns:
-                df = df[((df['collaborative_rate'].isna()) | (df['collaborative_rate'].fillna(0.0) == 0.0)) | (df['collaborative_rate'] >= 4.0)]
+        ## 유사한 사용자의 평점을 바탕으로 로그인한 사용자에게 추천하기
+        similar_users_ratings = user_rate_matrix.loc[top_similar_users].mean()
+        recommended_courses = similar_users_ratings.sort_values(ascending=False).head(10).index.tolist()
 
+        ## 추천된 코스를 기반으로 데이터프레임 필터링
+        df = df[df['course_seq'].isin(recommended_courses)]
 
-
-            print("협업필터링 결과")
-            print(df)
 
         # 목적 필터링
         df['sum'] = df['difficulty_mean'] + df['time']

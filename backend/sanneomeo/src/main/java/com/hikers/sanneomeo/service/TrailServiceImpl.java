@@ -24,6 +24,7 @@ import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import java.util.Optional;
 
 
@@ -83,7 +84,7 @@ public class TrailServiceImpl implements TrailService {
     }
 
     @Override
-    public Optional<RecommendCourseDto> getTargetCourseFlask(int level, String region, int purpose, int time) {
+    public Optional<RecommendCourseDto> getTargetCourseFlask(int level, int region, int purpose, int time) {
         // 로그인상태인지 확인
         Long userSeq = 0L;
         if (SecurityContextHolder.getContext().getAuthentication().getPrincipal() != "anonymousUser") {
@@ -97,9 +98,17 @@ public class TrailServiceImpl implements TrailService {
             if (!response.isSuccessful()) {
                 throw new IOException("Unexpected code " + response);
             }
-            Long targetCourseSeq = Long.parseLong(response.body().string());
+            String res = response.body().string();
+            // target이 없는 경우
+            if(res.isEmpty()) {
+                return Optional.empty();
+            }
 
-            return courseRepository.findCourseByCourseSequence(targetCourseSeq);
+            Long targetCourseSeq = Long.parseLong(res);
+
+            // 찜여부 같이 보냄
+            if(userSeq == 0L) return courseRepository.findCourseByCourseSequence(targetCourseSeq);
+            return courseRepository.findCourseByCourseSequenceAndUserSeq(targetCourseSeq, userSeq);
         } catch (IOException e) {
             e.printStackTrace();
             return null;
