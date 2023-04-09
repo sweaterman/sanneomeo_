@@ -22,8 +22,6 @@ function Navbar() {
   const dispatch = useAppDispatch();
 
   useEffect(() => {
-    console.log('isloginstate', isLoginState.isLogin);
-    console.log('islogin', isLogin);
     dispatch(isLoginCheck(isLogin));
   }, []);
 
