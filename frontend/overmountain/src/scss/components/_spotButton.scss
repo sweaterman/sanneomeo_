@@ -32,11 +32,16 @@
   width: 425px;
   height: 100px;
   bottom: 15px;
-  right: 20px;
+  right: 70%;
   display: flex;
   flex-direction: row-reverse;
   padding-right: 20px;
-
+  @media all and (min-width: 430px) {
+    right: 60%;
+  }
+  @media all and (min-width: 900px) {
+    right: 55%;
+  }
   .spot-button {
     background-color: $heavy-green;
     border: 2px solid white;

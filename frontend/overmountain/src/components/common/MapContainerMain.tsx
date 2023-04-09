@@ -18,29 +18,55 @@ function MapContainerMain(props: { searchResult: ElasticMountain }) {
   const [isOpen, setIsOpen] = useState(false);
   const [state, setState] = useState({
     center: {
-      lat: result.latitude,
-      lng: result.longitude,
+      lat: result.latitude > 0 ? result.latitude : 37.5009759,
+      lng: result.latitude > 0 ? result.longitude : 127.0373502,
     },
     errMsg: null,
     isLoading: true,
     isPanto: false,
   });
+  const [currentPositionLat, setCurrentPositionLat] = useState(
+    state.center.lat,
+  );
+  const [currentPositionLng, setCurrentPositionLng] = useState(
+    state.center.lng,
+  );
 
   const navigate = useNavigate();
 
+  const toMapCenter = () => {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition((position) => {
+        setCurrentPositionLat(position.coords.latitude);
+        setCurrentPositionLng(position.coords.longitude);
+        setState((prev) => ({
+          ...prev,
+          center: {
+            lat: currentPositionLat,
+            lng: currentPositionLng,
+          },
+          isLoading: false,
+          isPanto: true,
+        }));
+      });
+    }
+  };
+
   useEffect(() => {
+    console.log('1', state);
     setState((prev) => ({
       ...prev,
       center: {
         lat: result.latitude, // 위도
         lng: result.longitude, // 경도
       },
-      isLoading: false,
+      isLoading: true,
       isPanto: true,
     }));
   }, [result]);
 
   useEffect(() => {
+    console.log('2', state);
     if (navigator.geolocation) {
       // GeoLocation을 이용해서 접속 위치를 얻어옵니다
       navigator.geolocation.getCurrentPosition(
@@ -51,7 +77,7 @@ function MapContainerMain(props: { searchResult: ElasticMountain }) {
               lat: position.coords.latitude, // 위도
               lng: position.coords.longitude, // 경도
             },
-            isLoading: false,
+            isLoading: true,
           }));
         },
         (err) => {
@@ -62,6 +88,7 @@ function MapContainerMain(props: { searchResult: ElasticMountain }) {
           }));
         },
       );
+      console.log('3', state);
     } else {
       // HTML5의 GeoLocation을 사용할 수 없을때 마커 표시 위치와 인포윈도우 내용을 설정합니다
       setState((prev: any) => ({
@@ -70,6 +97,8 @@ function MapContainerMain(props: { searchResult: ElasticMountain }) {
         isLoading: false,
       }));
     }
+    toMapCenter();
+    toMapCenter();
   }, []);
 
   const toMountainDetail = () => {
@@ -77,22 +106,6 @@ function MapContainerMain(props: { searchResult: ElasticMountain }) {
   };
 
   const altitudeString = `${Math.floor(result.altitude)}m`;
-
-  const toMapCenter = () => {
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition((position) => {
-        setState((prev) => ({
-          ...prev,
-          center: {
-            lat: position.coords.latitude,
-            lng: position.coords.longitude,
-          },
-          isLoading: false,
-          isPanto: true,
-        }));
-      });
-    }
-  };
 
   const customMaker = {
     src: { mapMarker },
@@ -128,13 +141,16 @@ function MapContainerMain(props: { searchResult: ElasticMountain }) {
           }))
         }
       >
-        {state && (
+        {result && (
           <MapMarker
             image={{
               src: mapMarker,
               size: customMaker.size,
             }}
-            position={state.center}
+            position={{
+              lat: result.latitude,
+              lng: result.longitude,
+            }}
             clickable
             onClick={() => setIsOpen(true)}
           />
@@ -143,7 +159,12 @@ function MapContainerMain(props: { searchResult: ElasticMountain }) {
         {/* MapMarker의 자식을 넣어줌으로 해당 자식이 InfoWindow로 만들어지게 합니다 */}
         {/* 인포윈도우에 표출될 내용으로 HTML 문자열이나 React Component가 가능합니다 */}
         {isOpen && (
-          <CustomOverlayMap position={state.center}>
+          <CustomOverlayMap
+            position={{
+              lat: result ? result.latitude : currentPositionLat,
+              lng: result ? result.longitude : currentPositionLng,
+            }}
+          >
             <div className="custom-info-window">
               <img
                 alt="close"
