@@ -60,6 +60,12 @@ function ReviewItems(props: { mountainSeq: string }) {
     });
   };
 
+  // 후기 정렬하기 (생성, 삭제 시 후기 정렬다시 최신순 - 기본값)
+  const [tempReviews, setTempReviews] = useState(reviewData);
+  const sortReview = (val: number) => {
+    // 진행 중
+  };
+
   return (
     <div className="mountain-reviewItems">
       <ToastContainer position="top-center" autoClose={1000} hideProgressBar />
@@ -69,9 +75,15 @@ function ReviewItems(props: { mountainSeq: string }) {
       <div className="review-body">
         <div className="review-list">
           <div className="review-filter">
-            <div>· 최신순</div>
-            <div>· 별점 높은 순</div>
-            <div>· 별점 낮은 순</div>
+            <button onClick={() => sortReview(0)} type="button">
+              · 최신순
+            </button>
+            <button onClick={() => sortReview(1)} type="button">
+              · 별점 높은 순
+            </button>
+            <button onClick={() => sortReview(2)} type="button">
+              · 별점 낮은 순
+            </button>
           </div>
 
           <hr className="review-hr" />
