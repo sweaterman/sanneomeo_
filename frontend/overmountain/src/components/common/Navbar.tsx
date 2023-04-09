@@ -6,26 +6,26 @@ import { isLoginCheck, loginState } from '@features/commonSlice/loginSlice';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function Navbar() {
-  // 로그인 여부 확인
-  // const [isLogin, setIsLogin] = useState(() => {
-  //   const token = localStorage.getItem('token');
-  //   return !!token;
-  // });
   const navigate = useNavigate();
+
+  // 로그인 여부 확인
+  const [isLogin, setIsLogin] = useState(() => {
+    const token = localStorage.getItem('token');
+    return !!token;
+  });
+
+  // 로그인상태 가져오기
+  const isLoginState = useAppSelector(loginState);
 
   // NavState 가져오기
   const navState = useAppSelector(navbarState);
   const dispatch = useAppDispatch();
 
-  // 로그인상태 가져오기
-  const isLoginState = useAppSelector(loginState);
-  const loginDispatch = useAppDispatch();
-  loginDispatch(
-    isLoginCheck(() => {
-      const token = localStorage.getItem('token');
-      return !!token;
-    }),
-  );
+  useEffect(() => {
+    console.log('isloginstate', isLoginState.isLogin);
+    console.log('islogin', isLogin);
+    dispatch(isLoginCheck(isLogin));
+  }, []);
 
   // 페이지 이동 함수
   const navigateToWhat = (linkParam: string | null) => {
@@ -39,7 +39,8 @@ function Navbar() {
 
   const onLogout = () => {
     localStorage.clear();
-    loginDispatch(isLoginCheck(false));
+    dispatch(isLoginCheck(false));
+    setIsLogin(false);
     navigate('/');
     dispatch(toogleNavBar(false));
   };
@@ -68,7 +69,7 @@ function Navbar() {
           {/* {renderNavbar()} */}
           {/* 로그인여부 확인하는 삼항연산자 */}
 
-          {isLoginState ? (
+          {isLoginState.isLogin ? (
             <div>
               <div
                 className="header-font-tag"

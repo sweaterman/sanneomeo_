@@ -20,7 +20,7 @@ public class GetUserSurveyResponseDto {
     private Integer region;
     private Integer purpose;
     private Integer time;
-    @JsonFormat(pattern = "yyyy-MM-dd hh:mm:ss")
-    private Timestamp modifiedAt;
+
+    private String modifiedAt;
 
 }

@@ -41,7 +41,10 @@
   z-index: 0;
   margin-bottom: 20px;
   position: relative;
-
+  @media all and (max-width: 320px) {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
   .map-button-container {
     // stroke: #ff1818;
     position: absolute;
@@ -54,7 +57,9 @@
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
       rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     display: flex;
-
+    @media all and (max-width: 320px) {
+      right: 20px;
+    }
     h1 {
       color: rgb(214, 214, 214);
       margin: 0px 3px;

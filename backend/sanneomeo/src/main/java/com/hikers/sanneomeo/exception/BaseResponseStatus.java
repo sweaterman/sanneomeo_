@@ -36,6 +36,8 @@ public enum BaseResponseStatus {
 
   //리뷰 에러
   REVIEW_DELETE_ERROR(HttpStatus.INTERNAL_SERVER_ERROR,4017, "리뷰 삭제에 실패했습니다.");
+  
+
 
 //
 //  REQUEST_ERROR(HttpStatus.INTERNAL_SERVER_ERROR, "요청에 실패하였습니다."),

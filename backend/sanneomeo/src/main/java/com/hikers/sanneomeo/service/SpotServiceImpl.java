@@ -2,10 +2,12 @@ package com.hikers.sanneomeo.service;
 
 
 import com.hikers.sanneomeo.dto.response.LocationResponseDto;
+import com.hikers.sanneomeo.dto.response.MountainSpotResponseDto;
 import com.hikers.sanneomeo.dto.response.PathResponseDto;
 import com.hikers.sanneomeo.dto.response.SpotResponseDto;
 import com.hikers.sanneomeo.exception.BaseException;
 import com.hikers.sanneomeo.exception.BaseResponseStatus;
+import com.hikers.sanneomeo.repository.CourseRepository;
 import com.hikers.sanneomeo.repository.MountainSpotRepository;
 import com.hikers.sanneomeo.repository.TrailPathRepository;
 import java.math.BigDecimal;
@@ -24,17 +26,23 @@ public class SpotServiceImpl implements SpotService {
 
   private final MountainSpotRepository mountainSpotRepository;
   private final TrailPathRepository trailPathRepository;
+  private final CourseRepository courseRepository;
 
   @Override
-  public List<SpotResponseDto> getSpotsByMountainSequence(Long sequence) {
-    return mountainSpotRepository.findSpotsByMountainSequence(sequence);
+  public MountainSpotResponseDto getSpotsByMountainSequence(Long sequence) {
+    MountainSpotResponseDto result = courseRepository.findMountainAndCourseNameBySequence(sequence)
+        .orElseThrow(() -> new BaseException(BaseResponseStatus.FAIL,"해당 코스는 없습니다."));
+    result.setSpotList(mountainSpotRepository.findSpotsByMountainSequence(sequence));
+    return result;
   }
 
   @Override
-  public List<SpotResponseDto> getSpotsByMountainSequenceAndCoordinate(Long sequence,
+  public MountainSpotResponseDto getSpotsByMountainSequenceAndCoordinate(Long sequence,
       BigDecimal latitude, BigDecimal longitude) {
-    return mountainSpotRepository.findSpotsByMountainSequenceAndCoordinate(sequence, latitude,
-        longitude);
+    MountainSpotResponseDto result = courseRepository.findMountainAndCourseNameBySequence(sequence)
+        .orElseThrow(() -> new BaseException(BaseResponseStatus.FAIL,"해당 코스는 없습니다."));
+    result.setSpotList(mountainSpotRepository.findSpotsByMountainSequenceAndCoordinate(sequence, latitude, longitude));
+    return result;
   }
 
   @Override

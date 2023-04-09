@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>이미지 지도에 마커 표시하기</title>
+    <style>
+        .area {
+            position: absolute;
+            background: #fff;
+            border: 1px solid #888;
+            border-radius: 3px;
+            font-size: 12px;
+            top: -5px;
+            left: 15px;
+            padding: 10px;
+        }
+        .info {
+
+            font-size: 12px;
+            padding: 5px;
+        }
+
+        .info .title {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 이미지 지도를 표시할 div 입니다 -->
+    <div>
+        <button id="view">좌표 보여주기</button>
+        <button id="start">sql문 기록 시작</button>
+        <button id="end">sql문 기록 끝</button>
+        <button id="close">인포윈도우 지우기</button>
+    </div>
+    <div>
+        <label for="mountainCode">산코드</label><input id="mountainCode" type="text">
+        <label for="mountainName">산이름</label><input id="mountainName" type="text">
+        <button id="update">Select문 실행</button>
+    </div>
+    <div>
+        <span>코스 시퀀스</span>
+        <button id="minus">-</button>
+        <input id="mountainCourse" type="text" readonly>
+        <button id="plus">+</button>
+    </div>
+    <div>
+
+    </div>
+    <div id="map" style="width:100%;height:700px;"></div>
+
+    <script type="text/javascript"
+        src="//dapi.kakao.com/v2/maps/sdk.js?appkey=5e0611bca47cd2e27cdfec522bab2371"></script>
+    <script>
+        let viewEnable = true;
+        let sqlButtonFlag = false;
+
+        let command = "";
+        let sequence = 1;
+
+
+        let markerWindows=[];
+        let selectedPath=[];
+
+        let polygonPathList = {};
+
+        // for (var i = 0, len = pos.length; i < len; i++) {
+        //     let tmp = pos[i].split(",");
+
+        //     let marker = new kakao.maps.LatLng(tmp[0], tmp[1]);
+
+        //     var pathListBySeq = polygonPathList[tmp[2]];
+
+        //     if (pathListBySeq == null) {
+        //         polygonPathList[tmp[2]] = [];
+        //         pathListBySeq = polygonPathList[tmp[2]];
+        //     }
+
+        //     pathListBySeq.push(marker);
+        // }
+
+        var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+            mapOption = {
+                center: new kakao.maps.LatLng(37.4243652436, 126.8709189267), // 지도의 중심좌표
+                level: 3 // 지도의 확대 레벨
+            };
+
+        var map = new kakao.maps.Map(mapContainer, mapOption),
+            customOverlay = new kakao.maps.CustomOverlay({}),
+            infowindow = new kakao.maps.InfoWindow({ removable: true });
+
+        // 지도에 데이터를 표시
+        // for (key in polygonPathList) {
+        //     displayArea(key, polygonPathList[key]);
+        // }
+
+        // 각 trail마다 선을 표시하고 이벤트를 건다.
+        function displayArea(key, pathList) {
+
+            // trail polyline 생성 
+            var polyline = new kakao.maps.Polyline({
+                map: map,
+                path: pathList, // 선을 구성하는 좌표배열 입니다
+                strokeWeight: 8, // 선의 두께 입니다
+                strokeColor: '#FAAC58', // 선의 색깔입니다
+                strokeOpacity: 0.7, // 선의 불투명도 입니다 1에서 0 사이의 값이며 0에 가까울수록 투명합니다
+                strokeStyle: 'solid' // 선의 스타일입니다
+            });
+            polyline.seq=key;
+
+            // polyline에 이벤트 생성
+            // mouseover -> 형광색
+            kakao.maps.event.addListener(polyline, 'mouseover', function (mouseEvent) {
+                
+                //이미 선택된 등산로면 return
+                for(let index=0; index<selectedPath.length; index++){
+    
+                    if(selectedPath[index].seq==polyline.seq) return;
+                }
+                
+                
+                polyline.setOptions({ strokeColor: '#00FF40' });
+
+                customOverlay.setContent('<div class="area">' + key + '</div>');
+
+                customOverlay.setPosition(mouseEvent.latLng);
+                customOverlay.setMap(map);
+            });
+
+            // mousemove 이벤트 -> seq 담은 사각형이 따라다니게
+            kakao.maps.event.addListener(polyline, 'mousemove', function (mouseEvent) {
+                //이미 선택된 등산로면 return
+                for(let index=0; index<selectedPath.length; index++){
+                    if(selectedPath[index].seq==polyline.seq) {
+                        customOverlay.setMap(null);
+                    }
+
+                }
+                customOverlay.setPosition(mouseEvent.latLng);
+            });
+
+            // mouseout 이벤트 -> 원래 색깔로
+            kakao.maps.event.addListener(polyline, 'mouseout', function () {
+                //이미 선택된 등산로면 return
+                for(let index=0; index<selectedPath.length; index++){
+                    if(selectedPath[index].seq==polyline.seq) return;
+                }
+                
+                polyline.setOptions({ strokeColor: '#FAAC58' });
+                customOverlay.setMap(null);
+            });
+
+            // click 이벤트 -> seq 인포윈도우로 띄워주고 쿼리 생성(시작하기 눌린상태면)
+            kakao.maps.event.addListener(polyline, 'click', function (mouseEvent) {
+                polyline.setOptions({ strokeColor: '#000000' });
+                
+                selectedPath.push(polyline);
+
+
+                let content = '<div class="info" style="width: 100px;">' +
+                    '   <div class="title">' + key + '</div>' +
+                    '</div>';
+                let infowindow = new kakao.maps.InfoWindow({
+                    content: content,
+                    removable: true
+                });
+
+                infowindow.setPosition(mouseEvent.latLng);
+                infowindow.setMap(map);
+
+                markerWindows.push(infowindow);
+
+                if (sqlButtonFlag) {
+                    let mountainCourse = document.getElementById('mountainCourse').value;
+                    command = command + `INSERT INTO tbl_course_trails(course_seq,trail_seq,sequence) VALUES (${mountainCourse},${key},${sequence});\n`;
+                    sequence = sequence + 1;
+                }
+            });
+        }
+
+
+        document.getElementById('view').addEventListener("click", (event) => {
+            console.log(viewEnable);
+            if (viewEnable) {
+                for (const index in markers) {
+                    markers[index].setVisible(false);
+                }
+                viewEnable = false;
+            } else {
+                for (const index in markers) {
+                    markers[index].setVisible(true);
+                }
+                viewEnable = true;
+            }
+        });
+
+
+        document.getElementById('start').addEventListener("click", (event) => {
+            console.log(sqlButtonFlag);
+            if (!sqlButtonFlag) {
+                let mountainName = document.getElementById("mountainName").value;
+                let mountainCode = document.getElementById('mountainCode').value;
+                let mountainCourse=document.getElementById('mountainCourse').value;
+                let course = Number(mountainCourse)%100;
+                if(course/10 < 1){
+                    course = course%10;
+                }
+                
+                command = `INSERT INTO tbl_course (course_seq,mountain_seq,name,introduction) VALUES (${mountainCourse},"${mountainCode}","${mountainName} 제${course}코스","");\n`;
+                viewEnable = true;
+                sequence = 1;
+                sqlButtonFlag = true;
+            }
+        });
+
+        document.getElementById('end').addEventListener("click", (event) => {
+            console.log(sqlButtonFlag);
+            if (sqlButtonFlag) {
+                let mountainCourse=document.getElementById('mountainCourse').value;
+                mountainCourse = Number(mountainCourse);
+                mountainCourse = mountainCourse + 1;
+                document.getElementById('mountainCourse').value=mountainCourse;
+                viewEnable = false;
+                sqlButtonFlag = false;
+                console.log(command);
+            }
+        });
+
+        //마커윈도우 다 지우기 + polyline 색깔 다 원래대로 바꾸기
+        document.getElementById('close').addEventListener("click", (event) => {
+            
+            for(var i=0; i<markerWindows.length; i++){
+                markerWindows[i].close();
+            }
+            for(var i=0; i<selectedPath.length; i++){
+                selectedPath[i].setOptions({ strokeColor: '#FAAC58' });
+            }
+            selectedPath.splice(0);
+        });
+
+        document.getElementById('update').addEventListener("click", (event) => {
+            viewEnable = true;
+            sqlButtonFlag = false;
+
+            let mountainCode = document.getElementById('mountainCode').value;
+            document.getElementById('mountainCourse').value = mountainCode * 100 + 1;
+            command = "";
+            sequence = 1;
+
+            markerWindows=[];
+            selectedPath=[];
+
+            polygonPathList = {};
+
+            infowindow.setMap(null);
+            customOverlay.setMap(null);
+
+            axios.get(`http://localhost:3000/trail/${mountainCode}`)
+            .then(function (result) {                                       //바꿀 부분 
+                
+                let datas = result.data;
+                let marker =  new kakao.maps.LatLng(37.4243652436, 126.8709189267);
+                for (var i = 0, len = datas.length; i < len; i++) {
+                    let data = datas[i];
+                    let seq = Number(data.trail_seq);
+                    let latitude = Number(data.latitude);
+                    let longitude = Number(data.longitude);
+                    console.log(data.latitude);
+                    marker = new kakao.maps.LatLng(latitude, longitude);
+                    var pathListBySeq = polygonPathList[seq];
+
+                    if (pathListBySeq == null) {
+                        polygonPathList[seq] = [];
+                        pathListBySeq = polygonPathList[seq];
+                    }
+
+                    pathListBySeq.push(marker);
+                }
+                for (key in polygonPathList) {
+                    displayArea(key, polygonPathList[key]);
+                }
+                map.setCenter(marker);
+            })
+            .catch(function (error) {
+                console.log("에러 발생 : ", error);
+            });
+        });
+
+        document.getElementById('minus').addEventListener("click", (event) => {
+            let tmp = Number(document.getElementById('mountainCourse').value)-1;
+            document.getElementById('mountainCourse').value = tmp;
+        });
+
+        document.getElementById('plus').addEventListener("click", (event) => {
+            let tmp = Number(document.getElementById('mountainCourse').value)+1;
+            document.getElementById('mountainCourse').value = tmp;
+        });
+    </script>
+
+</body>
+
+</html>
