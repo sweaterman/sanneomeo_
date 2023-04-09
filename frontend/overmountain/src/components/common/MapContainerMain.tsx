@@ -53,7 +53,6 @@ function MapContainerMain(props: { searchResult: ElasticMountain }) {
   };
 
   useEffect(() => {
-    console.log('1', state);
     setState((prev) => ({
       ...prev,
       center: {
@@ -66,7 +65,6 @@ function MapContainerMain(props: { searchResult: ElasticMountain }) {
   }, [result]);
 
   useEffect(() => {
-    console.log('2', state);
     if (navigator.geolocation) {
       // GeoLocation을 이용해서 접속 위치를 얻어옵니다
       navigator.geolocation.getCurrentPosition(
@@ -88,7 +86,6 @@ function MapContainerMain(props: { searchResult: ElasticMountain }) {
           }));
         },
       );
-      console.log('3', state);
     } else {
       // HTML5의 GeoLocation을 사용할 수 없을때 마커 표시 위치와 인포윈도우 내용을 설정합니다
       setState((prev: any) => ({
