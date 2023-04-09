@@ -7,7 +7,7 @@ import dotimg from '@assets/images/dot.png';
 import flaglight from '@assets/images/flag_light.png';
 import redflag from '@assets/images/redflag.png';
 import curMarker from '@assets/images/target.png';
-import ramgiHere from '@assets/images/ramgi_here.png';
+import ramgiHere from '@assets/images/ramgi_camera.png';
 import {
   Map,
   MapMarker,
@@ -33,10 +33,26 @@ function MapTrailDetail(props: {
     isPanto: false,
     isLoading: true,
   });
+  const [currentPositionLat, setCurrentPositionLat] = useState(
+    state.center.lat,
+  );
+  const [currentPositionLng, setCurrentPositionLng] = useState(
+    state.center.lng,
+  );
 
   // 해당 산의 전체 스팟들
   const positions = props.spotListData.result.spotList.filter(
-    (spots) => spots.name !== '분기점',
+    (spots) =>
+      spots.name.includes('화장실') ||
+      spots.name.includes('운동') ||
+      spots.name.includes('음수') ||
+      spots.name.includes('주차') ||
+      spots.name.includes('시종') ||
+      spots.introduction.includes('휴게') ||
+      spots.introduction.includes('운동') ||
+      spots.introduction.includes('약수') ||
+      spots.introduction.includes('주차') ||
+      spots.introduction.includes('이정'),
   );
   const allSpots = positions.map((position) => ({
     lat: position.latitude,
@@ -170,11 +186,13 @@ function MapTrailDetail(props: {
   const toMapCenter = () => {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition((position) => {
+        setCurrentPositionLat(position.coords.latitude);
+        setCurrentPositionLng(position.coords.longitude);
         setState((prev) => ({
           ...prev,
           center: {
-            lat: position.coords.latitude,
-            lng: position.coords.longitude,
+            lat: currentPositionLat,
+            lng: currentPositionLng,
           },
           isLoading: false,
           isPanto: true,
@@ -182,8 +200,77 @@ function MapTrailDetail(props: {
       });
     }
   };
+
+  const toFlagCenter = () => {
+    setState((prev) => ({
+      ...prev,
+      center: {
+        lat: paths.length ? paths[paths.length - 1].lat : 37.5009759,
+        lng: paths.length ? paths[paths.length - 1].lng : 127.0373502,
+      },
+      isLoading: true,
+      isPanto: true,
+    }));
+  };
   return (
     <div className="map-trail-detail">
+      {/* 지도 위에 표시될 마커 카테고리 */}
+      <div className="category">
+        <div
+          id="allMenu"
+          className="button-selected"
+          role="presentation"
+          onClick={() => selectCategoryHandler('all')}
+          onKeyDown={() => selectCategoryHandler('all')}
+        >
+          전체
+        </div>
+        <div
+          id="toiletMenu"
+          className="button-unselected"
+          role="presentation"
+          onClick={() => selectCategoryHandler('toilet')}
+          onKeyDown={() => selectCategoryHandler('toilet')}
+        >
+          화장실
+        </div>
+        <div
+          id="practiceMenu"
+          className="button-unselected"
+          role="presentation"
+          onClick={() => selectCategoryHandler('practice')}
+          onKeyDown={() => selectCategoryHandler('practice')}
+        >
+          운동
+        </div>
+        <div
+          id="waterMenu"
+          className="button-unselected"
+          role="presentation"
+          onClick={() => selectCategoryHandler('water')}
+          onKeyDown={() => selectCategoryHandler('water')}
+        >
+          음수대
+        </div>
+        <div
+          id="carparkMenu"
+          className="button-unselected"
+          role="presentation"
+          onClick={() => selectCategoryHandler('carpark')}
+          onKeyDown={() => selectCategoryHandler('carpark')}
+        >
+          주차장
+        </div>
+        <div
+          id="startMenu"
+          className="button-unselected"
+          role="presentation"
+          onClick={() => selectCategoryHandler('start')}
+          onKeyDown={() => selectCategoryHandler('start')}
+        >
+          시종점
+        </div>
+      </div>
       <div id="mapwrap" className="map-wrap">
         <Map // 지도를 표시할 Container
           id={`map`}
@@ -197,12 +284,12 @@ function MapTrailDetail(props: {
           }}
           level={7} // 지도의 확대 레벨
           // 지도 드래그시 이벤트
-          onDragStart={() =>
-            setState((prev) => ({
-              ...prev,
-              isLoading: true,
-            }))
-          }
+          // onDragStart={() =>
+          //   setState((prev) => ({
+          //     ...prev,
+          //     isLoading: true,
+          //   }))
+          // }
           // 중심이동시 해당위치로 좌표갱신
           onCenterChanged={(map) =>
             setState((prev) => ({
@@ -235,7 +322,10 @@ function MapTrailDetail(props: {
           {!state.isLoading && (
             <CustomOverlayMap // 커스텀 오버레이를 표시할 Container
               // 커스텀 오버레이가 표시될 위치입니다
-              position={state.center}
+              position={{
+                lat: currentPositionLat,
+                lng: currentPositionLng,
+              }}
             >
               {/* 커스텀 오버레이에 표시할 내용입니다 */}
               <div className="ramgi-here">
@@ -329,6 +419,16 @@ function MapTrailDetail(props: {
               <img src={curMarker} alt="current location" />
             </button>
           </div>
+
+          <div className="flag-button-container">
+            <button
+              className="flag-button"
+              type="button"
+              onClick={toFlagCenter}
+            >
+              <img src={redflag} alt="flag location" />
+            </button>
+          </div>
           {/* 지도 위에 선그리기 */}
           <Polyline
             path={[paths]}
@@ -339,62 +439,6 @@ function MapTrailDetail(props: {
           />
         </Map>
         {/* 지도 위에 표시될 마커 카테고리 */}
-        <div className="category">
-          <div
-            id="allMenu"
-            className="button-selected"
-            role="presentation"
-            onClick={() => selectCategoryHandler('all')}
-            onKeyDown={() => selectCategoryHandler('all')}
-          >
-            전체
-          </div>
-          <div
-            id="toiletMenu"
-            className="button-unselected"
-            role="presentation"
-            onClick={() => selectCategoryHandler('toilet')}
-            onKeyDown={() => selectCategoryHandler('toilet')}
-          >
-            화장실
-          </div>
-          <div
-            id="practiceMenu"
-            className="button-unselected"
-            role="presentation"
-            onClick={() => selectCategoryHandler('practice')}
-            onKeyDown={() => selectCategoryHandler('practice')}
-          >
-            운동
-          </div>
-          <div
-            id="waterMenu"
-            className="button-unselected"
-            role="presentation"
-            onClick={() => selectCategoryHandler('water')}
-            onKeyDown={() => selectCategoryHandler('water')}
-          >
-            음수대
-          </div>
-          <div
-            id="carparkMenu"
-            className="button-unselected"
-            role="presentation"
-            onClick={() => selectCategoryHandler('carpark')}
-            onKeyDown={() => selectCategoryHandler('carpark')}
-          >
-            주차장
-          </div>
-          <div
-            id="startMenu"
-            className="button-unselected"
-            role="presentation"
-            onClick={() => selectCategoryHandler('start')}
-            onKeyDown={() => selectCategoryHandler('start')}
-          >
-            시종점
-          </div>
-        </div>
       </div>
     </div>
   );

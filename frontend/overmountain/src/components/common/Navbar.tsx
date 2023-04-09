@@ -2,19 +2,28 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { toogleNavBar, navbarState } from '@features/commonSlice/navSlice';
 import { useAppDispatch, useAppSelector } from '@app/hooks';
+import { isLoginCheck, loginState } from '@features/commonSlice/loginSlice';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function Navbar() {
+  const navigate = useNavigate();
+
   // 로그인 여부 확인
   const [isLogin, setIsLogin] = useState(() => {
     const token = localStorage.getItem('token');
     return !!token;
   });
-  const navigate = useNavigate();
+
+  // 로그인상태 가져오기
+  const isLoginState = useAppSelector(loginState);
 
   // NavState 가져오기
   const navState = useAppSelector(navbarState);
   const dispatch = useAppDispatch();
+
+  useEffect(() => {
+    dispatch(isLoginCheck(isLogin));
+  }, []);
 
   // 페이지 이동 함수
   const navigateToWhat = (linkParam: string | null) => {
@@ -28,6 +37,7 @@ function Navbar() {
 
   const onLogout = () => {
     localStorage.clear();
+    dispatch(isLoginCheck(false));
     setIsLogin(false);
     navigate('/');
     dispatch(toogleNavBar(false));
@@ -57,7 +67,7 @@ function Navbar() {
           {/* {renderNavbar()} */}
           {/* 로그인여부 확인하는 삼항연산자 */}
 
-          {isLogin ? (
+          {isLoginState.isLogin ? (
             <div>
               <div
                 className="header-font-tag"
