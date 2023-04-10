@@ -32,6 +32,10 @@ function MountainTrail() {
     spotListDispatch(getTrailSpotList(parsedTrailSeq));
   }, [parsedTrailSeq]);
 
+  const toMountainDetailHandler = () => {
+    navigate(`/mountain/detail/${spotListData.result.spotList[0].mountainSeq}`);
+  };
+
   return (
     <div className="mountain-trail">
       <div className="spot-alert">
@@ -45,7 +49,12 @@ function MountainTrail() {
           </div>
         </div>
       </div>
-      <div className="spot-header">
+      <div
+        className="spot-header"
+        role="presentation"
+        onClick={toMountainDetailHandler}
+        onKeyDown={toMountainDetailHandler}
+      >
         <h1>{spotListData.result.mountainName}</h1>
         <h3>{spotListData.result.trailName}</h3>
       </div>

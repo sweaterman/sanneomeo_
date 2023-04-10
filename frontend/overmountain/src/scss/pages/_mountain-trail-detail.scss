@@ -1,5 +1,6 @@
 .map-trail-detail {
   padding: 5%;
+  margin-bottom: 100px;
   .map-wrap {
     position: relative;
 
@@ -10,8 +11,30 @@
     .map-button-container {
       // stroke: #ff1818;
       position: absolute;
-      bottom: 80px;
+      bottom: 20px;
       right: 10px;
+      z-index: 0;
+      padding: 5px;
+      border-radius: 10px;
+      background-color: rgb(247, 247, 247);
+      box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+        rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+      display: flex;
+
+      h1 {
+        color: rgb(214, 214, 214);
+        margin: 0px 3px;
+      }
+
+      button img {
+        width: 20px;
+      }
+    }
+    .flag-button-container {
+      // stroke: #ff1818;
+      position: absolute;
+      bottom: 20px;
+      right: 50px;
       z-index: 0;
       padding: 5px;
       border-radius: 10px;
@@ -35,7 +58,7 @@
     position: relative;
     display: flex;
     justify-content: space-around;
-    margin-top: 5%;
+    margin-bottom: 5%;
     font-size: $font-h5;
     align-items: center;
 
