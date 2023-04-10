@@ -4,7 +4,7 @@ import { useAppSelector, useAppDispatch } from '@app/hooks';
 import Card from '@components/common/Card';
 import TrailItems from '@components/trail/TrailItems';
 import TrailMap from '@components/trail/TrailMap';
-import { useParams, NavLink } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import {
   selectedTrailKey,
   setSelectedTrailKey,
@@ -13,6 +13,7 @@ import { rountingTrailKey } from '@features/trail/routingTrailSlice';
 import ReviewItems from '@components/mountain/ReviewItems';
 import caramgi from '@assets/images/ramgi_camera.png';
 import Weather from '@components/common/Weather';
+import { toast } from 'react-toastify';
 
 function MountainDetail() {
   // 처음 페이지에 들어갔을 때, 스크롤 위치는 최상단
@@ -51,6 +52,17 @@ function MountainDetail() {
   const infoRef = useRef(null);
   const ReviewRef = useRef(null);
 
+  // 스팟 페이지 라우팅 예외 처리
+  const navigate = useNavigate();
+  const moveToSpot = () => {
+    if (selectedKey.selectedTrailKey === -1) {
+      toast.error('선택된 등산로가 없습니다.');
+    } else {
+      // 페이지이동
+      navigate(`/mountain/trail/${selectedKey.selectedTrailKey}`);
+    }
+  };
+
   const scrollToWhat = (text: string) => {
     if (text === 'Map') {
       if (trailMapRef.current) {
@@ -82,7 +94,7 @@ function MountainDetail() {
   return (
     <div className="mountainDetail-root">
       {/* 상단 subheader */}
-      <div className={`sub-header`}>
+      <div className="sub-header">
         <div className="btns">
           <button type="button" onClick={() => scrollToWhat('Map')}>
             지도
@@ -108,9 +120,11 @@ function MountainDetail() {
       </div>
 
       {/* 스팟 페이지로 라우팅 */}
-      <NavLink to={`/mountain/trail/${selectedKey.selectedTrailKey}`}>
-        <div className="trail-routing">선택한 등산로 지도로 상세보기! &gt;</div>
-      </NavLink>
+      <div className="trail-routing">
+        <button type="button" onClick={moveToSpot}>
+          현재 등산로 상세보기 &gt;
+        </button>
+      </div>
 
       {/* 지도 */}
       <div ref={trailMapRef}>
