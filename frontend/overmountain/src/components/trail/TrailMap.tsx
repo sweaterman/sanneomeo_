@@ -89,7 +89,7 @@ function TrailTemp() {
   return (
     <>
       {/* 지도가 들어갈 부분 */}
-      <div>
+      <div className="map-container-detail">
         <MapContainerDetail trailPath={trailData} />
       </div>
 

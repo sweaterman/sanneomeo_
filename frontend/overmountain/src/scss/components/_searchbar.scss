@@ -21,13 +21,13 @@
     padding-right: 20px;
     align-items: center;
 
-    &.squared{
+    &.squared {
       border-top-left-radius: 10px;
       border-top-right-radius: 10px;
       border-bottom-right-radius: 0;
       border-bottom-left-radius: 0;
     }
-   
+
     input {
       background-color: rgba(209, 209, 209, 0);
       font-size: $font-h5;
@@ -39,7 +39,7 @@
 
     svg {
       fill: grey;
-      z-index: 2;
+      z-index: 0;
     }
 
     .search-result-container {
@@ -63,8 +63,8 @@
           margin-left: 5%;
           display: flex;
 
-          .mountain-address-marker{
-            width:20px;
+          .mountain-address-marker {
+            width: 20px;
             // margin-right:/px;
             margin-left: -3px;
           }

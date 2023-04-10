@@ -16,6 +16,7 @@ import selectedTrailSlice from '@features/trail/selectedTrailSlice';
 import routingTrailSlice from '@features/trail/routingTrailSlice';
 import reviewSlice from '@features/mountain/reviewSlice';
 import navSlice from '@features/commonSlice/navSlice';
+import loginSlice from '@features/commonSlice/loginSlice';
 import recomSlice from '@features/commonSlice/recomSlice';
 
 export const store = configureStore({
@@ -36,6 +37,7 @@ export const store = configureStore({
     rountingKey: routingTrailSlice,
     reviews: reviewSlice,
     navBars: navSlice,
+    loginCheck: loginSlice,
     recomms: recomSlice,
   },
   // saga 쓰면 여기에 추가
