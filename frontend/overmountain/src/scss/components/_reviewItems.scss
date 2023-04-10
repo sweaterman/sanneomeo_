@@ -21,6 +21,11 @@
         font-size: $font-h5;
         font-weight: 500;
         color: rgba(128, 128, 128, 0.66);
+
+        .black-button {
+          font-weight: 600 !important;
+          color: black !important;
+        }
       }
 
       .review-hr {
@@ -114,9 +119,11 @@
       font-size: $font-h5;
       font-weight: 600;
       color: rgb(94, 94, 94);
+      align-items: center;
 
       .write-rate {
-        select {
+        display: flex;
+        form {
           margin-left: 5px;
 
           &:focus {

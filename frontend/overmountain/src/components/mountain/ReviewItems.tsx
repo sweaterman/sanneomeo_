@@ -61,9 +61,34 @@ function ReviewItems(props: { mountainSeq: string }) {
   };
 
   // 후기 정렬하기 (생성, 삭제 시 후기 정렬다시 최신순 - 기본값)
-  const [tempReviews, setTempReviews] = useState(reviewData);
+  // 색깔 관리
+  const [colorState, setColor] = useState(0);
+  const [tempReviews, setTempReviews] = useState(reviewData.reviewList);
+  useEffect(() => {
+    // 데이터가 바뀌면 최신 순으로 다시 정렬
+    setTempReviews(reviewData.reviewList);
+  }, [reviewData]);
   const sortReview = (val: number) => {
-    // 진행 중
+    if (val === 0) {
+      // 최신 순
+      setTempReviews(reviewData.reviewList);
+      setColor(0);
+    } else if (val === 1) {
+      // 별점 높은 순
+      const sortedReviews = [...tempReviews].sort((a, b) => b.rate - a.rate);
+      setTempReviews(sortedReviews);
+      setColor(1);
+    } else {
+      // 별점 낮은 순
+      const sortedReviews = [...tempReviews].sort((a, b) => a.rate - b.rate);
+      setTempReviews(sortedReviews);
+      setColor(2);
+    }
+  };
+
+  // 별점 관리
+  const clickRadio = (e: any) => {
+    setRate(e.target.value);
   };
 
   return (
@@ -75,13 +100,25 @@ function ReviewItems(props: { mountainSeq: string }) {
       <div className="review-body">
         <div className="review-list">
           <div className="review-filter">
-            <button onClick={() => sortReview(0)} type="button">
+            <button
+              onClick={() => sortReview(0)}
+              type="button"
+              className={`${colorState === 0 && 'black-button'}`}
+            >
               · 최신순
             </button>
-            <button onClick={() => sortReview(1)} type="button">
+            <button
+              onClick={() => sortReview(1)}
+              type="button"
+              className={`${colorState === 1 && 'black-button'}`}
+            >
               · 별점 높은 순
             </button>
-            <button onClick={() => sortReview(2)} type="button">
+            <button
+              onClick={() => sortReview(2)}
+              type="button"
+              className={`${colorState === 2 && 'black-button'}`}
+            >
               · 별점 낮은 순
             </button>
           </div>
@@ -89,9 +126,8 @@ function ReviewItems(props: { mountainSeq: string }) {
           <hr className="review-hr" />
 
           {/* 후기 리스트 */}
-          {reviewData &&
-            reviewData.reviewList &&
-            reviewData.reviewList.map((oneReview) => (
+          {tempReviews &&
+            tempReviews.map((oneReview) => (
               // 한 개의 후기
               // eslint-disable-next-line react/jsx-key
               <div className="oneReview">
@@ -149,17 +185,83 @@ function ReviewItems(props: { mountainSeq: string }) {
       <div className="write-form">
         <div className="write-button">
           <div className="write-rate">
-            별점
-            <select onChange={(e) => setRate(e.target.value)} value={rate}>
-              <option value="none" selected>
-                선택
-              </option>
-              <option value="5">5점</option>
-              <option value="4">4점</option>
-              <option value="3">3점</option>
-              <option value="2">2점</option>
-              <option value="1">1점</option>
-            </select>
+            <div className="flex items-center">별점</div>
+            <form
+              className="flex flex-row-reverse justify-end pb-1"
+              style={{ fontSize: '20px' }}
+            >
+              <label htmlFor="score" />
+              <input
+                onChange={clickRadio}
+                type="radio"
+                className="peer hidden"
+                id="value5"
+                value="5"
+                name="score"
+              />
+              <label
+                htmlFor="value5"
+                className="cursor-pointer text-gray-200 peer-hover:text-yellow-300 peer-checked:text-yellow-300"
+              >
+                ★
+              </label>
+              <input
+                onChange={clickRadio}
+                type="radio"
+                className="peer hidden"
+                id="value4"
+                value="4"
+                name="score"
+              />
+              <label
+                htmlFor="value4"
+                className="cursor-pointer text-gray-200 peer-hover:text-yellow-300 peer-checked:text-yellow-300"
+              >
+                ★
+              </label>
+              <input
+                onChange={clickRadio}
+                type="radio"
+                className="peer hidden"
+                id="value3"
+                value="3"
+                name="score"
+              />
+              <label
+                htmlFor="value3"
+                className="cursor-pointer text-gray-200 peer-hover:text-yellow-300 peer-checked:text-yellow-300"
+              >
+                ★
+              </label>
+              <input
+                onChange={clickRadio}
+                type="radio"
+                className="peer hidden"
+                id="value2"
+                value="2"
+                name="score"
+              />
+              <label
+                htmlFor="value2"
+                className="cursor-pointer text-gray-200 peer-hover:text-yellow-300 peer-checked:text-yellow-300"
+              >
+                ★
+              </label>
+              <input
+                onChange={clickRadio}
+                type="radio"
+                className="peer hidden"
+                id="value1"
+                value="1"
+                name="score"
+              />
+              <label
+                htmlFor="value1"
+                className="cursor-pointer peer text-gray-200 peer-hover:text-yellow-300 peer-checked:text-yellow-300"
+              >
+                ★
+              </label>
+            </form>
           </div>
 
           <div
@@ -176,7 +278,7 @@ function ReviewItems(props: { mountainSeq: string }) {
         <form className="write-input">
           <textarea
             placeholder="후기를 등록해주세요!"
-            className="w-full h-100 resize-none overflow-y-auto rounded"
+            className="w-full h-100 resize-none p-2 overflow-y-auto rounded"
             value={content}
             onChange={(e) => setContent(e.target.value)}
             onKeyDown={(e) => setContent(e.currentTarget.value)}
