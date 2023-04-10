@@ -25,6 +25,8 @@ function MapTrailDetail(props: {
     lat: trail.latitude,
     lng: trail.longitude,
   }));
+  const [pathState, setPathState] = useState(paths);
+
   const [state, setState] = useState({
     center: {
       lat: paths.length ? paths[0].lat : 37.5009759,
@@ -113,6 +115,8 @@ function MapTrailDetail(props: {
       },
       isLoading: true,
     }));
+    setPathState(paths);
+    console.log(pathState);
   }, [props.trailListData]);
 
   useEffect(() => {
@@ -284,14 +288,7 @@ function MapTrailDetail(props: {
           }}
           level={7} // 지도의 확대 레벨
           // 지도 드래그시 이벤트
-          // onDragStart={() =>
-          //   setState((prev) => ({
-          //     ...prev,
-          //     isLoading: true,
-          //   }))
-          // }
-          // 중심이동시 해당위치로 좌표갱신
-          onCenterChanged={(map) =>
+          onDragEnd={(map) =>
             setState((prev) => ({
               ...prev,
               center: {
