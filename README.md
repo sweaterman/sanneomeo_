@@ -125,145 +125,18 @@
         |   |               |   SanneomeoApplication.java
         |   |               |
         |   |               +---config
-        |   |               |       Constants.java
-        |   |               |       ElasticSearchConfig.java
-        |   |               |       QueryDslConfig.java
-        |   |               |       SecurityConfig.java
-        |   |               |       SwaagerConfig.java
-        |   |               |       WebConfig.java
-        |   |               |       Workaround.java
-        |   |               |       YmlConfig.java
-        |   |               |
         |   |               +---controller
-        |   |               |       MainController.java
-        |   |               |       MountainController.java
-        |   |               |       SpotController.java
-        |   |               |       TrailController.java
-        |   |               |       UserController.java
-        |   |               |
         |   |               +---domain
-        |   |               |       Course.java
-        |   |               |       CourseTrails.java
-        |   |               |       Credentials.java
-        |   |               |       Keep.java
-        |   |               |       Mountain.java
-        |   |               |       MountainDocument.java
-        |   |               |       MountainSpot.java
-        |   |               |       RecordPhoto.java
-        |   |               |       Review.java
-        |   |               |       Trail.java
-        |   |               |       TrailPath.java
-        |   |               |       User.java
-        |   |               |
         |   |               +---dto
         |   |               |   +---request
-        |   |               |   |       KeepTrailRequestDto.java
-        |   |               |   |       NavigationRequestDto.java
-        |   |               |   |       UpdateUserSurveyRequestDto.java
-        |   |               |   |       UploadImagesRequestDto.java
-        |   |               |   |       WriteReviewRequestDto.java
-        |   |               |   |
         |   |               |   \---response
-        |   |               |           BaseResponseDto.java
-        |   |               |           ChallengeResponseDto.java
-        |   |               |           GetTrailLikeResponseDto.java
-        |   |               |           GetUserPhotosByDateResponseDto.java
-        |   |               |           GetUsersPhotoMyMountainResponseDto.java
-        |   |               |           GetUserSurveyResponseDto.java
-        |   |               |           LocationResponseDto.java
-        |   |               |           MountainDetailResponseDto.java
-        |   |               |           MountainPosResponseDto.java
-        |   |               |           MountainSearchResponseDto.java
-        |   |               |           MountainSimpleInfoResponseDto.java
-        |   |               |           NearMountainResponseDto.java
-        |   |               |           NearTrailResponseDto.java
-        |   |               |           PathResponseDto.java
-        |   |               |           PhotoResponseDto.java
-        |   |               |           RecommendCourseDto.java
-        |   |               |           RecommendResultResponseDto.java
-        |   |               |           ReviewResponseDto.java
-        |   |               |           SpotResponseDto.java
-        |   |               |           TrailDetailResponseDto.java
-        |   |               |           TrailListResponseDto.java
-        |   |               |           WeatherResponseDto.java
-        |   |               |
         |   |               +---exception
-        |   |               |       BaseException.java
-        |   |               |       BaseResponseStatus.java
-        |   |               |       BasicExceptionHandler.java
-        |   |               |       OAuth2LoginException.java
-        |   |               |
         |   |               +---repository
-        |   |               |       CourseRepository.java
-        |   |               |       CourseRepositoryCustom.java
-        |   |               |       CourseRepositoryImpl.java
-        |   |               |       KeepRepository.java
-        |   |               |       KeepRepositoryCustom.java
-        |   |               |       KeepRepositoryImpl.java
-        |   |               |       MountainDocumentRepository.java
-        |   |               |       MountainRepository.java
-        |   |               |       MountainRepositoryCustom.java
-        |   |               |       MountainRepositoryImpl.java
-        |   |               |       MountainSpotRepository.java
-        |   |               |       MountainSpotRepositoryCustom.java
-        |   |               |       MountainSpotRepositoryImpl.java
-        |   |               |       RecordPhotoRepository.java
-        |   |               |       RecordPhotoRepositoryCustom.java
-        |   |               |       RecordPhotoRepositoryImpl.java
-        |   |               |       ReviewRepository.java
-        |   |               |       ReviewRepositoryCustom.java
-        |   |               |       ReviewRepositoryImpl.java
-        |   |               |       TrailPathRepository.java
-        |   |               |       TrailPathRepositoryCustom.java
-        |   |               |       TrailPathRepositoryImpl.java
-        |   |               |       TrailRepository.java
-        |   |               |       TrailRepositoryCustom.java
-        |   |               |       TrailRepositoryImpl.java
-        |   |               |       UserRepository.java
-        |   |               |       UserRepositoryCustom.java
-        |   |               |       UserRepositoryImpl.java
-        |   |               |
         |   |               +---security
-        |   |               |   |   CustomAuthenticatedUser.java
-        |   |               |   |   CustomAuthenticationEntryPoint.java
-        |   |               |   |   security.java
-        |   |               |   |
         |   |               |   +---jwt
-        |   |               |   |       JwtTokenFilter.java
-        |   |               |   |       JwtTokenInfo.java
-        |   |               |   |       JwtTokenProvider.java
-        |   |               |   |       JwtTokenService.java
-        |   |               |   |
         |   |               |   \---oauth2
-        |   |               |           CustomOAuth2CookieAuthorizationRequestRepository.java
-        |   |               |           CustomOAuth2Provider.java
-        |   |               |           CustomOAuth2User.java
-        |   |               |           CustomOAuth2UserFailureHandler.java
-        |   |               |           CustomOAuth2UserService.java
-        |   |               |           CustomOAuth2UserSuccessHandler.java
-        |   |               |
         |   |               +---service
-        |   |               |       CourseService.java
-        |   |               |       CourseServiceImpl.java
-        |   |               |       MainService.java
-        |   |               |       MainServiceImpl.java
-        |   |               |       MountainService.java
-        |   |               |       MountainServiceImpl.java
-        |   |               |       PhotoService.java
-        |   |               |       PhotoServiceImpl.java
-        |   |               |       S3UploadService.java
-        |   |               |       SpotService.java
-        |   |               |       SpotServiceImpl.java
-        |   |               |       TrailService.java
-        |   |               |       TrailServiceImpl.java
-        |   |               |       UserService.java
-        |   |               |       UserServiceImpl.java
-        |   |               |
         |   |               \---utils
-        |   |                       CookieUtils.java
-        |   |                       JsonUtils.java
-        |   |                       JwtTokenUtils.java
-        |   |
         |   \---resources
         |           .keepgit
         |           DML_DATA.sql
@@ -291,13 +164,6 @@
     |   yarn.lock
     |
     +---public
-    |       favicon.ico
-    |       index.html
-    |       logo192.png
-    |       logo512.png
-    |       manifest.json
-    |       robots.txt
-    |
     \---src
         |   App.test.tsx
         |   App.tsx
@@ -309,214 +175,38 @@
         |   setupTests.ts
         |
         +---app
-        |       hooks.ts
-        |       store.ts
-        |
         +---assets
         |   +---fonts
-        |   |       fonts.scss
-        |   |       Pretendard-Black.woff2
-        |   |       Pretendard-Bold.woff2
-        |   |       Pretendard-ExtraBold.woff2
-        |   |       Pretendard-ExtraLight.woff2
-        |   |       Pretendard-Light.woff2
-        |   |       Pretendard-Medium.woff2
-        |   |       Pretendard-Regular.woff2
-        |   |       Pretendard-SemiBold.woff2
-        |   |       Pretendard-Thin.woff2
-        |   |
         |   +---images
-        |   |       Chungcheongbuk_do.svg
-        |   |       Chungcheongnam_do.svg
-        |   |       clearsky.png
-        |   |       cloudysky.png
-        |   |       dot.png
-        |   |       Gangwon_do.svg
-        |   |       google-logo.png
-        |   |       Gyeonggi_do.svg
-        |   |       Gyeongsangbuk_do.svg
-        |   |       Gyeongsangnam_do.svg
-        |   |       headermountain.jpeg
-        |   |       Incheon.svg
-        |   |       Jeju_do.svg
-        |   |       Jeollabuk_do.svg
-        |   |       Jeollanam_do.svg
-        |   |       kakao-logo.png
-        |   |       like_selected.png
-        |   |       like_unselected.png
-        |   |       littlecloudysky.png
-        |   |       littlerainysky.png
-        |   |       littlerainysnowysky.png
-        |   |       littlesnowysky.png
-        |   |       lottie_mountain.json
-        |   |       map-marker.png
-        |   |       mountain_selected.png
-        |   |       mountain_unselected.png
-        |   |       naver-logo.png
-        |   |       over10.png
-        |   |       parking.png
-        |   |       question_broad.png
-        |   |       question_challenge.png
-        |   |       question_healing.png
-        |   |       question_high.png
-        |   |       question_low.png
-        |   |       question_mid.png
-        |   |       question_narrow.png
-        |   |       rainysky.png
-        |   |       rainysnowysky.png
-        |   |       ramgi_camera.png
-        |   |       ramgi_flag.png
-        |   |       route.png
-        |   |       Seoul.svg
-        |   |       snowysky.png
-        |   |       star_empty.png
-        |   |       star_full.png
-        |   |       stretching.png
-        |   |       target.png
-        |   |       temp_logo.png
-        |   |       trash_can.png
-        |   |       under10.png
-        |   |       under3.png
-        |   |       under5.png
-        |   |       under7.png
-        |   |       waterdrop.png
-        |   |       wc.png
-        |   |
         |   \---lottie
-        |           logoAnimation.json
-        |           mainAnimation.json
-        |           squirrel.json
         |
         +---components
         |   +---common
-        |   |       Balloon.tsx
-        |   |       Card.tsx
-        |   |       Header.tsx
-        |   |       MapContainerDetail.tsx
-        |   |       MapContainerMain.tsx
-        |   |       MapTrailDetail.tsx
-        |   |       Navbar.tsx
-        |   |       RecomLikeTrail.tsx
-        |   |
         |   +---main
-        |   |       MascottMain.tsx
-        |   |       MountainItems.tsx
-        |   |       MountainItemsButton.tsx
-        |   |       Searchbar.tsx
-        |   |       WeatherForecast.tsx
-        |   |
         |   +---mountain
-        |   |       ReviewItems.tsx
-        |   |
         |   +---trail
-        |   |       TrailItems.tsx
-        |   |       TrailMap.tsx
-        |   |
         |   \---user
-        |           ChallengeBox.tsx
-        |           ChallengeItems.tsx
-        |           MypageBox.tsx
-        |           PhotoItems.tsx
-        |           PhotoModal.tsx
         |
         +---features
-        |   |   port.ts
-        |   |
         |   +---commonSlice
-        |   |       navSlice.ts
-        |   |
         |   +---mountain
-        |   |       mountainSlice.ts
-        |   |       reviewSlice.ts
-        |   |       searchMountainSlice.ts
-        |   |       seasonMountainSlice.ts
-        |   |
         |   +---trail
-        |   |       positionTrailSlice.ts
-        |   |       routingTrailSlice.ts
-        |   |       selectedTrailSlice.ts
-        |   |       spotSlice.ts
-        |   |       trailKeepSlice.ts
-        |   |       trailListSlice.ts
-        |   |       trailSlice.ts
-        |   |
         |   \---user
-        |           userChallengeSlice.ts
-        |           userSlice.ts
-        |           userTrailLikeSlice.ts
         |
         +---pages
         |   +---main
-        |   |       MainPage.tsx
-        |   |
         |   +---mountain
-        |   |       MountainDetail.tsx
-        |   |       MountainTrail.tsx
-        |   |       UploadPhoto.tsx
-        |   |
         |   +---recommend
-        |   |       RecomQuestion.tsx
-        |   |       RecomResult.tsx
-        |   |
         |   \---user
-        |           UserChallenge.tsx
-        |           UserLogin.tsx
-        |           UserLoginTokenSave.tsx
-        |           UserMypage.tsx
-        |           UserWishlist.tsx
-        |
         +---scss
         |   |   main.scss
-        |   |
         |   +---abstracts
-        |   |       _responsive.scss
-        |   |       _variables.scss
-        |   |
         |   +---base
-        |   |       _animation.scss
-        |   |       _base.scss
-        |   |
         |   +---components
-        |   |       _balloon.scss
-        |   |       _card.scss
-        |   |       _challengebox.scss
-        |   |       _challengeitems.scss
-        |   |       _dropdown.scss
-        |   |       _img.scss
-        |   |       _mountainitems.scss
-        |   |       _mountainitemsbutton.scss
-        |   |       _photomodal.scss
-        |   |       _recomLikeTrail.scss
-        |   |       _reviewItems.scss
-        |   |       _searchbar.scss
-        |   |       _toast.scss
-        |   |       _trailItems.scss
-        |   |       _weatherforecast.scss
-        |   |
         |   +---layout
-        |   |       _grid.scss
-        |   |       _headers.scss
-        |   |       _navbar.scss
-        |   |
         |   +---pages
-        |   |       _main-page.scss
-        |   |       _mountain-detail.scss
-        |   |       _mountain-trail.scss
-        |   |       _recom-question.scss
-        |   |       _recom-result.scss
-        |   |       _upload-photo.scss
-        |   |       _user-challenge.scss
-        |   |       _user-login.scss
-        |   |       _user-mypage.scss
-        |   |       _user-wishlist.scss
-        |   |
         |   +---themes
-        |   |       _dark-theme.scss
-        |   |       _theme.scss
-        |   |
         |   \---vendors
-        |           _bootstrap.scss
-        |
         \---utils
                 geoLocation.ts   
 </div> 
