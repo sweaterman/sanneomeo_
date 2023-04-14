@@ -1,6 +1,6 @@
 <div align=center>
 
-<img width="80%" src="./img/산너머.png">
+<img width="80%" src="./img/산너머.PNG">
 <br/>
 <br/>
 
@@ -68,7 +68,7 @@ SSAFY 8기 특화 프로젝트 우수상 🏆
 # 아키텍쳐
 
 <br/>
-<img width="50%" src="./img/Service_Architecture.png">
+<img width="50%" src="./img/Service_Architecture.PNG">
 
 <br/>
 <br/>
@@ -81,7 +81,7 @@ SSAFY 8기 특화 프로젝트 우수상 🏆
 `🚩 산너머만의 등산로 리스트 추출 프로그램 제작`
 
 <br/>
-<img width="50%" src="./img/프로그램.png">
+<img width="50%" src="./img/프로그램.PNG">
 
 산림청 API에서 받아온 끊어져 있는 등산 경로 데이터를 연결하기 위해
 <br/>
