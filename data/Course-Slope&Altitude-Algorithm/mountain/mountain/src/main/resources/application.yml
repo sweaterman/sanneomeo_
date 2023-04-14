@@ -1,0 +1,17 @@
+spring:
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+  datasource:
+    driverClassName: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://sanneomeo.site:3306/sanneomeo?serverTimezone=UTC&characterEncoding=utf84&useSSL=false&useUnicode=true
+    username: ssafy
+    password: hikers
