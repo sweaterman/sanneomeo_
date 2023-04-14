@@ -6,7 +6,6 @@
 
 # 서비스 소개
 
-<hr>
 <br/>
 ‘산너머’는 등산을 하고 싶은 사용자에게 맞춤형 등산로 정보를 제공하는 서비스입니다.
 <br/>
@@ -22,7 +21,6 @@
 
 # 프로젝트 소개
 
-<hr>
 <br/>
 SSAFY 8기 특화 프로젝트 우수상 🏆
 <br/>
@@ -39,9 +37,7 @@ SSAFY 8기 특화 프로젝트 우수상 🏆
 
 # 기술 스택
 
-<hr>
 
-<div width="70%">
 <img src="https://img.shields.io/badge/Amazon S3-569A31?style=for-the-badge&logo=Amazon S3&logoColor=white">
 <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=for-the-badge&logo=Amazon AWS&logoColor=white">
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white">
@@ -61,7 +57,6 @@ SSAFY 8기 특화 프로젝트 우수상 🏆
 <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=Sass&logoColor=white">
 <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-the-badge&logo=Spring Boot&logoColor=white">
 <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">
-</div>
 
 <br/>
 <br/>
@@ -69,7 +64,6 @@ SSAFY 8기 특화 프로젝트 우수상 🏆
 
 # 아키텍쳐
 
-<hr>
 <br/>
 <img width="50%" src="./img/Service_Architecture.png">
 
@@ -79,7 +73,6 @@ SSAFY 8기 특화 프로젝트 우수상 🏆
 
 # 프로젝트 특징
 
-<hr>
 <br/>
 
 `🚩 산너머만의 등산로 리스트 추출 프로그램 제작`
