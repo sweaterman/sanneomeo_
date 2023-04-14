@@ -21,4 +21,5 @@
 
 
 <b>등산로를 시작점부터 선택하여 하나의 코스를 만듭니다. 그것을 SQL문으로 뽑아서 저장하였습니다.<br/>
-<img src=".../img/GIF.gif" style="width:80%"><br/>
+<img src="@/img/GIF.gif" style="width:80%"><br/>
+![gif](./img/GIF.gif)
