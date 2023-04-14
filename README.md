@@ -87,7 +87,7 @@ SSAFY 8기 특화 프로젝트 우수상 🏆
 카카오 지도 api를 활용하여 **등산 경로를 시각화**하고<br/>
 클릭하여 연결하면 **sql문을 생성**하는 프로그램을 추가 구현하여 사용했습니다.
 
-[경로 추출 프로그램 자세히 보기](/data/Route-Data-Purification/README.md)
+[경로 추출 프로그램 자세히 보기](/data/Create-Course-Program/README.md)
 
 </div>
 
