@@ -1,3 +1,100 @@
+<div style="text-align: center;">
+
+<img src="./img/산너머.png" style="width:80%">
+<br/>
+<br/>
+<div style="font-size:24px; font-weight:600;">서비스 소개</div>
+<hr>
+<br/>
+‘산너머’는 등산을 하고 싶은 사용자에게 맞춤형 등산로 정보를 제공하는 서비스입니다.
+<br/>
+산너머와 함께, 건강한 등산 라이프를 즐겨봐요!
+<br/>
+<br/>
+
+['산너머' 소개영상 바로가기](https://google.com)
+
+<br/>
+<br/>
+<br/>
+<div style="font-size:24px; font-weight:600;">프로젝트 소개</div>
+<hr>
+<br/>
+SSAFY 8기 특화 프로젝트 우수상 🏆
+<br/>
+개발 기간: 2023/02/20 ~ 2023/04/07 (7주)
+<br/>
+<br/>
+김소정(PM, BE) 이연희(FE) 류제엽(FE) 
+<br/>
+오의석(BE, CI/CD) 윤수희(BE) 김지현(BE)
+
+<br/>
+<br/>
+<br/>
+<div style="font-size:24px; font-weight:600;">기술 스택</div>
+<hr>
+<img src="https://img.shields.io/badge/Amazon S3-569A31?style=for-the-badge&logo=Amazon S3&logoColor=white">
+<img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=for-the-badge&logo=Amazon AWS&logoColor=white">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white">
+<img src="https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=Elasticsearch&logoColor=white">
+<img src="https://img.shields.io/badge/Eslint-4B32C3?style=for-the-badge&logo=Eslint&logoColor=white">
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=Figma&logoColor=white">
+<img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white">
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white">
+<img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=Java&logoColor=white">
+<img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=Javascript&logoColor=white">
+<img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=white">
+<img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=MariaDB&logoColor=white">
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white">
+<img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white">
+<img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=Sass&logoColor=white">
+<img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-the-badge&logo=Spring Boot&logoColor=white">
+<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">
+
+<br/>
+<br/>
+<br/>
+<div style="font-size:24px; font-weight:600;">아키텍쳐</div>
+<hr>
+<br/>
+<img src="./img/Service_Architecture.png" style="width:80%">
+
+<br/>
+<br/>
+<br/>
+<div style="font-size:24px; font-weight:600;">프로젝트 특징</div>
+<hr>
+<br/>
+
+`🚩 산너머만의 등산로 리스트 추출 프로그램 제작`
+
+<br/>
+<img src="./img/프로그램.png" style="width:50%">
+
+산림청 API에서 받아온 끊어져 있는 등산 경로 데이터를 연결하기 위해
+<br/>
+카카오 지도 api를 활용하여 **등산 경로를 시각화**하고<br/>
+클릭하여 연결하면 **sql문을 생성**하는 프로그램을 추가 구현하여 사용했습니다.
+
+[경로 추출 프로그램 자세히 보기](/data/Route-Data-Purification/README.md)
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div align= "center">
     <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ffda4f,100:fffb06&height=240&text=산너머&animation=&fontColor=644507&fontSize=90" />
     </div>
