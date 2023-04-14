@@ -1,6 +1,6 @@
 <div align=center>
 
-<img width="80%" src="./img/산너머.png">
+<img width="80%" src="./img/overmountain.png">
 <br/>
 <br/>
 
@@ -36,7 +36,6 @@ SSAFY 8기 특화 프로젝트 우수상 🏆
 <br/>
 
 # 기술 스택
-
 
 <img src="https://img.shields.io/badge/Amazon S3-569A31?style=for-the-badge&logo=Amazon S3&logoColor=white">
 <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=for-the-badge&logo=Amazon AWS&logoColor=white">
@@ -81,7 +80,7 @@ SSAFY 8기 특화 프로젝트 우수상 🏆
 `🚩 산너머만의 등산로 리스트 추출 프로그램 제작`
 
 <br/>
-<img width="50%" src="./img/프로그램.png">
+<img width="50%" src="./img/rail_program.png">
 
 산림청 API에서 받아온 끊어져 있는 등산 경로 데이터를 연결하기 위해
 <br/>
@@ -90,20 +89,7 @@ SSAFY 8기 특화 프로젝트 우수상 🏆
 
 [경로 추출 프로그램 자세히 보기](/data/Route-Data-Purification/README.md)
 
-
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
 <div align= "center">
     <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ffda4f,100:fffb06&height=240&text=산너머&animation=&fontColor=644507&fontSize=90" />
@@ -115,7 +101,7 @@ SSAFY 8기 특화 프로젝트 우수상 🏆
     </div>
     <div style="text-align: left;"> 
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 개발환경</h2>  
-    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> 
+    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;">
 
     ✔ OS : Window 10
     ✔ IDE :
@@ -130,6 +116,7 @@ SSAFY 8기 특화 프로젝트 우수상 🏆
     ✔ OS: Ubuntu 20.04 LTS (Focal Fossa)
     ✔ File Server: AWS S3
     ✔ CI/CD: Jenkins, Docker, Nginx
+
 </div> 
     </div>
     <div style="text-align: left;"> 
@@ -167,7 +154,7 @@ SSAFY 8기 특화 프로젝트 우수상 🏆
     ◾ tailwindcss : 3.2.7
     ◾ typescript : 4.9.5
     ◾ v6 : 0.0.0
-    ◾ web-vitals : 2.1.0 
+    ◾ web-vitals : 2.1.0
 
 ✔ Back-End
 
@@ -188,7 +175,8 @@ SSAFY 8기 특화 프로젝트 우수상 🏆
     ◾ s3
     ◾ gson:2.8.6
     ◾ spring-boot-starter-data-elasticsearch:2.6.2
-    ◾ okhttp:3.14.9</div> 
+    ◾ okhttp:3.14.9</div>
+
 </div>
 <div style="text-align: left;"> 
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">아키텍처 설계도</h2>  
@@ -315,7 +303,8 @@ SSAFY 8기 특화 프로젝트 우수상 🏆
         |   +---themes
         |   \---vendors
         \---utils
-                geoLocation.ts   
+                geoLocation.ts
+
 </div> 
     </div>
     <div style="text-align: left;"> 
@@ -362,4 +351,3 @@ SSAFY 8기 특화 프로젝트 우수상 🏆
           <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">
           </div>
     </div>
-    
