@@ -159,7 +159,7 @@ public class MountainController {
 
     @GetMapping("/trail/{mountainIdx}")
     public BaseResponseDto<?> getTrailsByMountainSequence(@PathVariable("mountainIdx") String sequence){
-        try {
+
             Object principal = SecurityContextHolder.getContext().getAuthentication()
                 .getPrincipal();
             if (principal.toString().equals("anonymousUser")) {
@@ -167,22 +167,28 @@ public class MountainController {
                 getUserSurveyResponseDto.setLogin(false);
                 return new BaseResponseDto<>(courseService.getTrailsBySequence(sequence));
             }
+            Long userSeq = Long.parseLong(principal.toString());
+
             String userSeqSting = principal.toString();
             OkHttpClient client = new OkHttpClient();
             Request request = new Request.Builder().url(
                 ymlConfig.getFlaskEndPoint() + "/mountainRecommendCourse?userseq=" + userSeqSting + "&mountainIdx="
                     + sequence).build();
-            Response response = client.newCall(request).execute();
-            JSONObject message = new JSONObject(response.body().string());
-            List<Object> courses = message.getJSONArray("course_seq_list").toList();
+            try{
+                Response response = client.newCall(request).execute();
+                JSONObject message = new JSONObject(response.body().string());
+                List<Object> courses = message.getJSONArray("course_seq_list").toList();
 
-            Long userSeq = Long.parseLong(principal.toString());
-            return new BaseResponseDto<>(courseService.getTrailsBySequence(sequence, userSeq)
-                .stream().map(trail -> recommendCheck(trail,courses)).collect(Collectors.toList()));
-        }
-        catch (Exception e){
-            throw new BaseException(BaseResponseStatus.FAIL,e.toString());
-        }
+                return new BaseResponseDto<>(courseService.getTrailsBySequence(sequence, userSeq)
+                    .stream().map(trail -> recommendCheck(trail,courses)).collect(Collectors.toList()));
+
+            }
+            catch (Exception e){
+                return new BaseResponseDto<>(courseService.getTrailsBySequence(sequence, userSeq));
+            }
+
+
+
 
     }
     @GetMapping("/photo/{mountainIdx}")

@@ -29,6 +29,7 @@ def target_course():
     purpose = request.args.get('purpose')
     time = request.args.get('time')
     userseq = request.args.get('userseq')
+    print(userseq)
 
     # 데이터프레임 생성 및 필터링
     df = pd.DataFrame(result)
@@ -107,21 +108,24 @@ def target_course():
         ## 사용자 간 유사도 계산
         user_similarity = cosine_similarity(user_rate_matrix.fillna(0))
         user_similarity_df = pd.DataFrame(user_similarity, index=user_rate_matrix.index, columns=user_rate_matrix.index)
+        print(user_similarity_df)
 
-        ## 로그인한 사용자와 유사한 사용자 찾기
-        top_similar_users = user_similarity_df[userseq].sort_values(ascending=False).head(6).index.tolist()
-        top_similar_users = [x for x in top_similar_users if isinstance(x, str)]  # 리스트에서 문자열만 추출
-        top_similar_users.remove(userseq)  # 로그인한 사용자 제거
+        if userseq in user_rate_matrix.index:
 
-        ## 유사한 사용자의 평점을 바탕으로 로그인한 사용자에게 추천하기
-        similar_users_ratings = user_rate_matrix.loc[top_similar_users].mean()
-        recommended_courses = similar_users_ratings.sort_values(ascending=False).head(10).index.tolist()
+            ## 로그인한 사용자와 유사한 사용자 찾기
+            top_similar_users = user_similarity_df[userseq].sort_values(ascending=False).head(6).index.tolist()
+            top_similar_users = [x for x in top_similar_users if isinstance(x, str)]  # 리스트에서 문자열만 추출
+            top_similar_users.remove(userseq)  # 로그인한 사용자 제거
 
-        ## 추천된 코스를 기반으로 데이터프레임 필터링
-        df_collab = df[df['course_seq'].isin(recommended_courses)]
+            ## 유사한 사용자의 평점을 바탕으로 로그인한 사용자에게 추천하기
+            similar_users_ratings = user_rate_matrix.loc[top_similar_users].mean()
+            recommended_courses = similar_users_ratings.sort_values(ascending=False).head(10).index.tolist()
 
-        if not df_collab.empty:
-            df = df_collab
+            ## 추천된 코스를 기반으로 데이터프레임 필터링
+            df_collab = df[df['course_seq'].isin(recommended_courses)]
+
+            if not df_collab.empty:
+                df = df_collab
 
     # 지역 필터링
     location_dict = {
@@ -135,6 +139,8 @@ def target_course():
     }
 
     region = location_dict.get(location)
+    print(location)
+    print(region)
     df = df[df['si'].str.contains(region)]
 
     print("지역 필터링")

@@ -10,19 +10,19 @@
   text-align: center;
   align-items: center;
   bottom: 140px;
-  right: 35%;
+  right:8%;
   display: flex;
   animation: fadeout 5s 2s 1;
-  opacity: 0;
-  @media all and (min-width: 375px) and (max-width: 420px) {
-    right: 40%;
-  }
-  @media all and (min-width: 425px) {
-    right: 45%;
-  }
-  @media all and (min-width: 1024px) {
-    right: 46%;
-  }
+  opacity: 100;
+  // @media all and (min-width: 375px) and (max-width: 420px) {
+  //   right: 1%;
+  // }
+  // @media all and (min-width: 425px) {
+  //   right: %;
+  // }
+  // @media all and (min-width: 1024px) {
+  //   right: 46%;
+  // }
 }
 .spot-message:after {
   border-top: 10px solid $heavy-green;
@@ -32,7 +32,7 @@
   content: '';
   position: absolute;
   bottom: -9px;
-  right: 70%;
+  right: 10%;
 }
 .spot-parent {
   position: fixed;
@@ -40,16 +40,16 @@
   width: 425px;
   height: 100px;
   bottom: 15px;
-  right: 70%;
+  right: 5%;
   display: flex;
   flex-direction: row-reverse;
   padding-right: 20px;
-  @media all and (min-width: 430px) {
-    right: 60%;
-  }
-  @media all and (min-width: 900px) {
-    right: 55%;
-  }
+  // @media all and (min-width: 430px) {
+  //   right: 15%;
+  // }
+  // @media all and (min-width: 900px) {
+  //   right: 30%;
+  // }
   .spot-button {
     background-color: $heavy-green;
     border: 2px solid white;
