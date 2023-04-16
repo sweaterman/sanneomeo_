@@ -6,21 +6,20 @@ function Card(props: { data: Mountain }) {
 
   return (
     <div className="mountain-card">
-      <div className="grid grid-cols-12 gap-4">
-        <div className="col-span-1"></div>
-        <div className="col-span-10">
-          <div className="one-discription">
-            {data.mountain.si}
-            {data.mountain.dong}
-            {data.mountain.gu}
-          </div>
-          <div className="one-discription">{data.mountain.altitude}m</div>
-          <div className="one-discription discription">
-            {data.mountain.introduction}
-          </div>
+      <div className="card-body">
+        <div className="body-title">위치</div>
+        <div className="body-discription">
+          {data.mountain.si} {data.mountain.dong} {data.mountain.gu}
+        </div>
+        <div className="body-title">고도</div>
+        <div className="body-discription">{data.mountain.altitude}m</div>
+        <div className="body-title">설명</div>
+        <div className="body-discription">
+          {data.mountain.introduction == null
+            ? '설명이 존재하지 않아요'
+            : data.mountain.introduction}
         </div>
       </div>
-      <div className="col-span-1"></div>
     </div>
   );
 }

@@ -1,26 +1,82 @@
-.mountainDetail-menu {
-  display: flex;
-  justify-content: space-around;
-  background-color: white;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  height: 40px;
-  align-items: center;
+.mountainDetail-root {
+  .sub-header {
+    width: 100%;
+    max-width: 425px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    padding-top: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 
-  .unchoice {
-    background: #aa5656;
-    border-radius: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
+    .btns {
+      padding-left: 5px;
+      button {
+        padding: 0px 10px;
+        margin-right: 10px;
+        border: 1px solid #000000c0;
+        border-radius: 5px;
+      }
+    }
+    hr {
+      width: 100%;
+      margin: 10px 0px 0px 0px;
+    }
   }
-}
 
-.unfix {
-  position: static;
-}
+  .mountainDetail-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: $font-h2;
+    font-weight: 700;
+    margin: 20px;
+    background-color: rgb(233, 233, 233);
 
-.menufix {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+    .header-container {
+      // background-color: rgb(228, 228, 228);
+      border-radius: 30px;
+      // border: 1px solid rgb(206, 206, 206);
+      // width: 150px;
+      display: flex;
+      justify-content: center;
+      padding: 5px;
+    }
+  }
+
+  .trail-routing {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: $font-h5;
+    color: $over-lightgray;
+  }
+  .map-container-detail {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .empty-trail {
+    background-color: $over-beige;
+    height: 300px;
+    overflow: hidden;
+    color: gray;
+    text-align: center;
+    .empty-content {
+      margin-top: 5%;
+      animation: waviy 2s 1;
+    }
+    img {
+      width: 200px;
+      margin-top: 5%;
+      margin-left: 20%;
+      object-fit: contain;
+    }
+  }
+  .carmagi {
+    display: flex;
+    justify-content: end;
+  }
 }

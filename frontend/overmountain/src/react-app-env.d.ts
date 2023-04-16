@@ -27,7 +27,7 @@ interface Mountain {
 }
 
 // elastic 검색위한 산정보
-interface elasticMountain {
+interface ElasticMountain {
   name: string;
   si: string;
   gu: string;
@@ -39,12 +39,12 @@ interface elasticMountain {
   difficulty: string;
 }
 
-interface elasticList {
-  result: Array<elasticMountain>;
+interface ElasticList {
+  result: Array<ElasticMountain>;
 }
 
 // 등산로 하나의 작은 정보
-interface miniTrail {
+interface MiniTrail {
   latitude: number;
   longitude: number;
   altitude: number;
@@ -60,7 +60,7 @@ interface SeasonMountains {
 
 // 등산로 하나의 모든 위경도값
 interface TrailPath {
-  result: Array<miniTrail>;
+  result: Array<MiniTrail>;
 }
 
 // 한 개 등산로 상세 정보
@@ -73,6 +73,7 @@ interface Trail {
   recommend: boolean | null;
   isLike: boolean;
   time: number;
+  mountainSeq: string;
 }
 
 // 등산로 리스트
@@ -81,7 +82,7 @@ interface TrailList {
 }
 
 // 한 개 스팟의 상세 정보
-interface miniSpot {
+interface MiniSpot {
   spotSeq: number;
   mountainSeq: string;
   name: string;
@@ -95,7 +96,11 @@ interface miniSpot {
 
 // 스팟 리스트
 interface SpotList {
-  result: Array<miniSpot>;
+  result: {
+    mountainName: string;
+    trailName: string;
+    spotList: Array<MiniSpot>;
+  };
 }
 
 // 내 위치와 가까운 등산로 반환할 때 쓰는 타입
@@ -107,28 +112,17 @@ interface PositionTrail {
     distance: number;
   };
 }
+
 // 유저 정보
 interface User {
-  userSeq: number; // 유저시퀀스
-  nickname: string; // 닉네임
-  gender: string; // 성별
-  age: number; // 나이대
-  si: string; // 시
-  gu: string; // 구
-  dong: string; // 동
-  latitude: number; // 위도
-  longitude: number; // 경도
-  level: number; // 설문레벨
-  difficulty: number | null; // 난이도: 하1/중2/상3
-  region: number | null; // 지역선호도: 집근처1/전국2
-  purpose: number | null; // 목적: 힐링1/도전2
-  time: number; // 선호등반시간: 3시간이내1/3-5 2/5-7 3/7-10 4/10이상 5
-  social: string; // 소셜정보
-  socialId: string; // 소셜고유아이디
-  totalDuration: string | null; // 총등산시간
-  totalDistance: string | null; // 총등산거리
-  totalNumber: number | null; // 총등산횟수
-  profileImage: string | null; // 프로필이미지
+  result: {
+    level: number;
+    region: number;
+    purpose: number;
+    time: number;
+    modifiedAt: number;
+    login: boolean;
+  };
 }
 
 // 100대 명산 챌린지 리스트
@@ -139,21 +133,9 @@ interface ChallengeList {
   };
 }
 
-// 찜한 등산로
-interface TrailLike {
-  trailSeq: number;
-  name: string;
-  mountainSeq: string;
-  difficulty: string;
-  uptime: number;
-  downtime: number;
-  length: number;
-  keep: boolean;
-}
-
 // 찜한 등산로 리스트
 interface TrailLikeList {
-  result: Array<TrailLike>;
+  result: Array<Trail>;
 }
 
 // 한 개의 리뷰
@@ -172,4 +154,13 @@ interface Review {
 // 리뷰 리스트
 interface ReviewList {
   reviewList: Array<Review>;
+}
+
+// 추천받은 등산로 리스트
+interface RecomTrailList {
+  result: {
+    target: Trail;
+    result: Trail[];
+    loading: boolean;
+  };
 }

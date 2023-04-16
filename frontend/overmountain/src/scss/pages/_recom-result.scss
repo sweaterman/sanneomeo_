@@ -1,0 +1,160 @@
+.recom-result {
+  .loading {
+    @include flexing-center;
+    margin-top: 10px;
+
+    .lottie-text {
+      font-weight: 600;
+      font-size: $font-h4;
+      color: rgb(61, 61, 61);
+    }
+  }
+  .target-trail {
+    display: flex;
+    flex-direction: column;
+    background-color: $midi-yellow;
+    height: auto;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+
+    hr {
+      width: 100%;
+      margin: 0px 0px 20px 0px;
+      border-color: $heavy-yellow;
+    }
+    .text-head {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      font-weight: 600;
+      color: rgb(197, 78, 8);
+    }
+    .content {
+      display: flex;
+      justify-content: space-between;
+
+      .left {
+        margin-left: 10px;
+        .name {
+          font-size: $font-h3;
+          font-weight: 600;
+        }
+
+        .number {
+          display: flex;
+          div {
+            margin-right: 10px;
+          }
+          .time {
+            color: rgb(234, 85, 85);
+            font-weight: 500;
+          }
+        }
+
+        .difficulty {
+          display: flex;
+          img {
+            width: 50px;
+          }
+        }
+      }
+
+      .right {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  // 뽑아봤어요 글
+  .mid-text {
+    margin-top: 30px;
+    margin-left: 20px;
+    color: $over-lightgray;
+    font-size: $font-h5;
+  }
+
+  // 등산로 리스트들
+  .recomLikeTrail-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .trail-list {
+      // background-color: aquamarine;
+      width: 100%;
+      padding: 10px;
+
+      .single-trail {
+        display: flex;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        font-size: $font-h5;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 6px 0px,
+          rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        padding: 10px 15px 5px 15px;
+        justify-content: space-between;
+        align-items: center;
+
+        .single-info {
+          display: flex;
+          flex-direction: column;
+
+          .info-name {
+            font-size: $font-h4;
+            font-weight: 600;
+          }
+
+          .info-km-time {
+            display: flex;
+            div {
+              margin-right: 5px;
+            }
+
+            .info-time {
+              color: rgb(234, 85, 85);
+              font-weight: 500;
+            }
+          }
+
+          .info-difficulty {
+            img {
+              width: 35px;
+            }
+          }
+        }
+      }
+
+      .difficulty {
+        display: flex;
+      }
+    }
+  }
+
+  .no-recomm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+
+    .sorry {
+      font-size: $font-h3;
+      font-weight: 600;
+      color: rgb(216, 67, 67);
+    }
+    .text {
+      color: $over-lightgray;
+      font-size: $font-h5;
+    }
+
+    .btn {
+      margin-top: 30px;
+      border-radius: 10px;
+      background-color: $over-gray;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+}

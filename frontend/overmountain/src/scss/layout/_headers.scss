@@ -1,21 +1,7 @@
 .common-header {
-  position:relative;
+  position: relative;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 0px 0px;
-  // .img-background {
-  //   // display: grid;
-  //   // grid-template-columns: 1fr auto;
-  //   // grid-template-areas: 'title nav';
-  //   // background-image: url('../../assets/images/headermountain.jpeg');
-  //   // background-repeat: no-repeat;
-  //   // background-size: cover;
-  //   // width: 100%;
-  //   // height: 300px;
-  //   // position: relative;
-  //   width: 100%;
-  //   height: 300px;
-  // }
 
-  
   .page-title {
     grid-area: title;
     display: flex;
@@ -30,52 +16,55 @@
     font-weight: bold;
     padding: 2px;
   }
-  
+
   .header-nav {
     display: flex;
     justify-content: center;
     position: relative;
-    z-index: 1;
+    z-index: 9999;
     padding: 10px;
   }
   .navbar-wrapper {
+    max-width: 425px;
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 100%;
     height: 100%;
+
     background-color: rgba(0, 0, 0, 0.74);
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s ease-in-out;
     z-index: 9999;
     align-self: center;
-  
+
     &.open {
       opacity: 1;
       visibility: visible;
     }
   }
-  
-  .nav-logo{
+
+  .nav-logo {
     display: flex;
     align-items: center;
   }
 
-  .nav-logo img{
-    width:50px;
+  .nav-logo img {
+    width: 50px;
   }
 
-  .nav-logo h1{
+  .nav-logo h1 {
     font-size: $font_h3;
     font-weight: 900;
     color: $heavy_yellow;
   }
-  
-  .header-nav svg{
+
+  .header-nav svg {
     align-self: center;
     fill: rgba(160, 160, 160, 0.665);
-    height:30px;
+    height: 30px;
     // stroke: black;
     // right:0px;
     // position:relative;
@@ -83,4 +72,3 @@
     right: 15px;
   }
 }
-

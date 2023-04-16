@@ -1,0 +1,44 @@
+.weather-parent {
+  padding: 10px;
+
+  .card-title{
+    font-size: $font-h3;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .weather-component {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ff792bc0;
+    border-radius: 5px;
+
+    .singleDay {
+      @include flexing-center;
+      padding: 5px;
+
+      .day {
+        font-weight: 600;
+        font-size: $font-h5;
+      }
+
+      .temperature {
+        display: flex;
+
+        .down {
+          font-size: $font-h5;
+          color: rgb(75, 99, 233);
+          margin-right: 3px;
+        }
+        .divide {
+          font-size: $font-h5;
+        }
+        .up {
+          margin-left: 3px;
+          font-size: $font-h5;
+          color: rgb(209, 83, 83);
+        }
+      }
+    }
+  }
+}

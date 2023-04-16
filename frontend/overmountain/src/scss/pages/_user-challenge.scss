@@ -11,7 +11,7 @@
     // filter: brightness(50%);
     background-size: cover;
     width: 100%;
-    height: 300px;
+    height: 200px;
     position: relative;
     padding: 10px 0px;
     display: flex;
@@ -21,14 +21,14 @@
 
     h1{
       text-align: center;
-      font-size: $font_h2;
+      font-size: $font_h3;
       color: white;
       font-weight: 700;
     }
 
     span{
       margin-top:10px;
-      font-size: $font_h4;
+      font-size: $font_h5;
       justify-content: center;
       align-items: center;
       display: flex;
@@ -49,7 +49,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:30px 0px;
+    margin:20px 0px;
+    // border: 1px solid rgb(244, 244, 244);
+    padding-bottom: 10px;
 
     .user-conquer {
       // margin: 30px;
@@ -84,5 +86,5 @@
       color:rgba(128, 128, 128, 0.888);
     }
   }
-  
+
 }

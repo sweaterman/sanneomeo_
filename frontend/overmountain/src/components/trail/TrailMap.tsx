@@ -5,6 +5,7 @@ import { Chart as ChartJS, registerables } from 'chart.js';
 import { Line } from 'react-chartjs-2';
 import { selectedTrailKey } from '@features/trail/selectedTrailSlice';
 import { rountingTrailKey } from '@features/trail/routingTrailSlice';
+import MapContainerDetail from '@components/common/MapContainerDetail';
 
 ChartJS.register(...registerables);
 
@@ -34,7 +35,6 @@ function TrailTemp() {
   useEffect(() => {
     const altitudes = trailData.result.map((row) => row.altitude);
     setAltitudeData(altitudes);
-    console.log('바뀐조작고도:', altitudes);
   }, [trailData]);
 
   // 차트 데이터 생성
@@ -89,11 +89,13 @@ function TrailTemp() {
   return (
     <>
       {/* 지도가 들어갈 부분 */}
-      <div></div>
+      <div className="map-container-detail">
+        <MapContainerDetail trailPath={trailData} />
+      </div>
 
       {/* 고도가 들어갈 부분 */}
       <div>
-        <Line data={chartData} options={options}></Line>
+        <Line data={chartData} options={options} />
       </div>
     </>
   );
