@@ -124,7 +124,7 @@ SSAFY 8기 특화 프로젝트 우수상 🏆
 |        |        |
 | ------ | ------ |
 |    <img src="./img/main.png">     |    <img src="./img/like_list.png">     |
-|    <div align=center> `메인 화면` </div>    |    <div align=center> `타임라인` </div>    |
+|    <div align=center> `메인 화면` </div>    |    <div align=center> `찜리스트` </div>    |
 |    <img src="./img/mountain_detail1.png">    |    <img src="./img/mountain_detail2.png">    |
 |    <div align=center> `산 상세 페이지 1` </div>    |    <div align=center> `산 상세 페이지 2` </div>    |
 |    <img src="./img/recommend_question.png">    |    <img src="./img/recommend_result.png">    |
