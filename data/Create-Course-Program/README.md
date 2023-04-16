@@ -1,5 +1,5 @@
 # 코스 데이터 수집
-<div align=center>
+<div>
 <img width="60%" src="../../img/GIF.gif">
 <br><br><b>등산로를 시작점부터 선택하여 하나의 코스를 만듭니다. 그것을 SQL문으로 뽑아서 저장하였습니다.<br/>
 
