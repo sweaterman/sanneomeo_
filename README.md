@@ -13,7 +13,7 @@
 <br/>
 <br/>
 
-['산너머' 소개영상 바로가기](https://google.com)
+['산너머' 소개영상 바로가기](https://youtu.be/xhqs7YYi4vc)
 
 <br/>
 <br/>
