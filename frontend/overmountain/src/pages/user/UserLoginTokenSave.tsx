@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
+import { useAppDispatch, useAppSelector } from '@app/hooks';
+import { isLoginCheck, loginState } from '@features/commonSlice/loginSlice';
 
 function UserLoginTokenSave() {
   const location = useLocation();
@@ -8,6 +10,7 @@ function UserLoginTokenSave() {
   localStorage.setItem('token', token || '');
 
   const navigate = useNavigate();
+
   useEffect(() => {
     navigate(`/`);
   }, [navigate]);

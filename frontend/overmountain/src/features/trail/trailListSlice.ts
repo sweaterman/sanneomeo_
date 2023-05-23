@@ -32,7 +32,7 @@ export const trailListSlice = createSlice({
       console.log('16 성공!', state.result);
     });
     builder.addCase(getMountainTrailList.rejected, (state, action) => {
-      console.log('16 실패!', action.error);
+      console.log('등산로 목록 실패!', action.error);
     });
   },
 });

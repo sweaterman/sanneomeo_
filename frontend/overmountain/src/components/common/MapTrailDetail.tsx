@@ -1,199 +1,431 @@
-import path from 'path';
 import React, { useEffect, useState } from 'react';
-import { Map, MapMarker, MapTypeId, Polyline } from 'react-kakao-maps-sdk';
-
-// 기타
-// 조망점
-// 화장실 o
-// 주요나무
-// 시종점
-// 분기점 x
-// 정상
-// 기타건물
-// 시설물(운동기구 등)
-// 가로등
-// 이정표
-// 안내판또는지도
-// 헬기장
-// "유적(문화, 역사)"
-// 음수대 o
-// 주차장 o
-// 벤치
-// 정자
-// 훼손지
-// 위험지역
-// 대피소
-// 동굴
-// 야영장
-// 정상부
-// "유적(문화,역사)"
-// 시설물(운동기구등)
-// 안내판
-// 노선내분기
-// 시작점
-// 시설물
+import toiletimg from '@assets/images/wc.png';
+import practiceimg from '@assets/images/stretching.png';
+import waterimg from '@assets/images/waterdrop.png';
+import carparkimg from '@assets/images/parking.png';
+import dotimg from '@assets/images/dot.png';
+import flaglight from '@assets/images/flag_light.png';
+import redflag from '@assets/images/redflag.png';
+import curMarker from '@assets/images/target.png';
+import ramgiHere from '@assets/images/ramgi_camera.png';
+import {
+  Map,
+  MapMarker,
+  MapTypeId,
+  Polyline,
+  CustomOverlayMap,
+} from 'react-kakao-maps-sdk';
 
 function MapTrailDetail(props: {
   trailListData: TrailPath;
   spotListData: SpotList;
 }) {
-  const [isOpenDropdown, setIsOpenDropdown] = useState(false);
-
   // 해당 등산로 연결을 위한 trailspot 위경도만 추출
   const paths = props.trailListData.result.map((trail) => ({
     lat: trail.latitude,
     lng: trail.longitude,
   }));
+  const [pathState, setPathState] = useState(paths);
 
-  // 해당 산의 스팟들
-  const positions = props.spotListData.result.map((position) => ({
+  const [state, setState] = useState({
+    center: {
+      lat: paths.length ? paths[0].lat : 37.5009759,
+      lng: paths.length ? paths[0].lng : 127.0373502,
+    },
+    isPanto: false,
+    isLoading: true,
+  });
+  const [currentPositionLat, setCurrentPositionLat] = useState(
+    state.center.lat,
+  );
+  const [currentPositionLng, setCurrentPositionLng] = useState(
+    state.center.lng,
+  );
+
+  // 해당 산의 전체 스팟들
+  const positions = props.spotListData.result.spotList.filter(
+    (spots) =>
+      spots.name.includes('화장실') ||
+      spots.name.includes('운동') ||
+      spots.name.includes('음수') ||
+      spots.name.includes('주차') ||
+      spots.name.includes('시종') ||
+      spots.introduction.includes('휴게') ||
+      spots.introduction.includes('운동') ||
+      spots.introduction.includes('약수') ||
+      spots.introduction.includes('주차') ||
+      spots.introduction.includes('이정'),
+  );
+  const allSpots = positions.map((position) => ({
     lat: position.latitude,
     lng: position.longitude,
   }));
 
-  const toiletPositions = props.spotListData.result.filter(
+  // 카테고리별 스팟들 좌표
+  const toiletPositions = props.spotListData.result.spotList.filter(
     (spots) => spots.name === '화장실' || spots.introduction.includes('휴게'),
   );
   const toiletSpots = toiletPositions.map((position) => ({
     lat: position.latitude,
     lng: position.longitude,
   }));
-  const practicePositions = props.spotListData.result.filter(
+  const practicePositions = props.spotListData.result.spotList.filter(
     (spots) =>
       spots.name.includes('운동') || spots.introduction.includes('운동'),
   );
-  const practiceSpots = toiletPositions.map((position) => ({
+  const practiceSpots = practicePositions.map((position) => ({
     lat: position.latitude,
     lng: position.longitude,
   }));
-  const waterPositions = props.spotListData.result.filter(
-    (spots) => spots.name === '음수대' || spots.introduction.includes('약수터'),
+  const waterPositions = props.spotListData.result.spotList.filter(
+    (spots) => spots.name === '음수대' || spots.introduction.includes('약수'),
   );
   const waterSpots = waterPositions.map((position) => ({
     lat: position.latitude,
     lng: position.longitude,
   }));
-  const carPositions = props.spotListData.result.filter(
+  const carPositions = props.spotListData.result.spotList.filter(
     (spots) => spots.name === '주차장' || spots.introduction.includes('주차'),
   );
-  const carSpots = carPositions.map((position) => ({
+  const carparkSpots = carPositions.map((position) => ({
+    lat: position.latitude,
+    lng: position.longitude,
+  }));
+  const startPositions = props.spotListData.result.spotList.filter(
+    (spots) => spots.name === '시종점' || spots.introduction.includes('이정'),
+  );
+  const startSpots = startPositions.map((position) => ({
     lat: position.latitude,
     lng: position.longitude,
   }));
 
-  // 마커이미지의 주소입니다. 스프라이트 이미지 입니다
-  const markerImageSrc =
-    'https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/category.png';
-  const imageSize = { width: 22, height: 26 };
-  const spriteSize = { width: 36, height: 98 };
-  // 화장실 마커가 표시될 좌표 배열입니다
-  const coffeePositions = toiletSpots;
+  const imageSize = { width: 24, height: 24 };
 
-  const coffeeOrigin = { x: 10, y: 0 };
-  // 음수대 마커가 표시될 좌표 배열입니다
-  const storePositions = waterSpots;
-  const storeOrigin = { x: 10, y: 36 };
-  // 주차장 마커가 표시될 좌표 배열입니다
-  const carparkPositions = carSpots;
+  const [selectedCategory, setSelectedCategory] = useState('all');
 
-  const carparkOrigin = { x: 10, y: 72 };
-  const [selectedCategory, setSelectedCategory] = useState('coffee');
-
-  const selectCategoryHandler = () => {
-    console.log('selectCategoryHandler');
+  const selectCategoryHandler = (e: any) => {
+    setSelectedCategory(e);
   };
   useEffect(() => {
-    const coffeeMenu = document.getElementById('coffeeMenu');
-    const storeMenu = document.getElementById('storeMenu');
+    setState((prev) => ({
+      ...prev,
+      center: {
+        lat: paths.length ? paths[paths.length - 1].lat : 37.5009759,
+        lng: paths.length ? paths[paths.length - 1].lng : 127.0373502,
+      },
+      isLoading: true,
+    }));
+    setPathState(paths);
+    console.log(pathState);
+  }, [props.trailListData]);
+
+  useEffect(() => {
+    const allMenu = document.getElementById('allMenu');
+    const toiletMenu = document.getElementById('toiletMenu');
+    const practiceMenu = document.getElementById('practiceMenu');
+    const waterMenu = document.getElementById('waterMenu');
     const carparkMenu = document.getElementById('carparkMenu');
-    if (coffeeMenu && storeMenu && carparkMenu) {
-      if (selectedCategory === 'coffee') {
-        // 커피숍 카테고리를 선택된 스타일로 변경하고
-        coffeeMenu.className = 'menu_selected';
-        // 편의점과 주차장 카테고리는 선택되지 않은 스타일로 바꿉니다
-        storeMenu.className = '';
-        carparkMenu.className = '';
-      } else if (selectedCategory === 'store') {
+    const startMenu = document.getElementById('startMenu');
+
+    if (
+      allMenu &&
+      toiletMenu &&
+      practiceMenu &&
+      waterMenu &&
+      carparkMenu &&
+      startMenu
+    ) {
+      if (selectedCategory === 'all') {
+        allMenu.className = 'menu-selected';
+        toiletMenu.className = 'menu-unselected';
+        practiceMenu.className = 'menu-unselected';
+        waterMenu.className = 'menu-unselected';
+        carparkMenu.className = 'menu-unselected';
+        startMenu.className = 'menu-unselected';
+      } else if (selectedCategory === 'toilet') {
+        // 화장실 카테고리를 선택된 스타일로 변경하고
+        toiletMenu.className = 'menu-selected';
+        // 나머지 카테고리는 선택되지 않은 스타일로 바꿉니다
+        allMenu.className = 'menu-unselected';
+        practiceMenu.className = 'menu-unselected';
+        waterMenu.className = 'menu-unselected';
+        carparkMenu.className = 'menu-unselected';
+        startMenu.className = 'menu-unselected';
+      } else if (selectedCategory === 'practice') {
+        allMenu.className = 'menu-unselected';
+        toiletMenu.className = 'menu-unselected';
+        practiceMenu.className = 'menu-selected';
+        waterMenu.className = 'menu-unselected';
+        carparkMenu.className = 'menu-unselected';
+        startMenu.className = 'menu-unselected';
+      } else if (selectedCategory === 'water') {
         // 편의점 카테고리가 클릭됐을 때
         // 편의점 카테고리를 선택된 스타일로 변경하고
-        coffeeMenu.className = '';
-        storeMenu.className = 'menu_selected';
-        carparkMenu.className = '';
+        allMenu.className = 'menu-unselected';
+        toiletMenu.className = 'menu-unselected';
+        practiceMenu.className = 'menu-unselected';
+        waterMenu.className = 'menu-selected';
+        carparkMenu.className = 'menu-unselected';
+        startMenu.className = 'menu-unselected';
       } else if (selectedCategory === 'carpark') {
         // 주차장 카테고리가 클릭됐을 때
         // 주차장 카테고리를 선택된 스타일로 변경하고
-        coffeeMenu.className = '';
-        storeMenu.className = '';
-        carparkMenu.className = 'menu_selected';
+        allMenu.className = 'menu-unselected';
+        toiletMenu.className = 'menu-unselected';
+        practiceMenu.className = 'menu-unselected';
+        waterMenu.className = 'menu-unselected';
+        carparkMenu.className = 'menu-selected';
+        startMenu.className = 'menu-unselected';
+      } else if (selectedCategory === 'start') {
+        allMenu.className = 'menu-unselected';
+        toiletMenu.className = 'menu-unselected';
+        practiceMenu.className = 'menu-unselected';
+        waterMenu.className = 'menu-unselected';
+        carparkMenu.className = 'menu-unselected';
+        startMenu.className = 'menu-selected';
       }
     }
   }, [selectedCategory]);
+
+  const toMapCenter = () => {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition((position) => {
+        setCurrentPositionLat(position.coords.latitude);
+        setCurrentPositionLng(position.coords.longitude);
+        setState((prev) => ({
+          ...prev,
+          center: {
+            lat: currentPositionLat,
+            lng: currentPositionLng,
+          },
+          isLoading: false,
+          isPanto: true,
+        }));
+      });
+    }
+  };
+
+  const toFlagCenter = () => {
+    setState((prev) => ({
+      ...prev,
+      center: {
+        lat: paths.length ? paths[paths.length - 1].lat : 37.5009759,
+        lng: paths.length ? paths[paths.length - 1].lng : 127.0373502,
+      },
+      isLoading: true,
+      isPanto: true,
+    }));
+  };
   return (
-    <>
-      {/* <CategoryMarkerStyle /> */}
-      <div id="mapwrap">
+    <div className="map-trail-detail">
+      {/* 지도 위에 표시될 마커 카테고리 */}
+      <div className="category">
+        <div
+          id="allMenu"
+          className="button-selected"
+          role="presentation"
+          onClick={() => selectCategoryHandler('all')}
+          onKeyDown={() => selectCategoryHandler('all')}
+        >
+          전체
+        </div>
+        <div
+          id="toiletMenu"
+          className="button-unselected"
+          role="presentation"
+          onClick={() => selectCategoryHandler('toilet')}
+          onKeyDown={() => selectCategoryHandler('toilet')}
+        >
+          화장실
+        </div>
+        <div
+          id="practiceMenu"
+          className="button-unselected"
+          role="presentation"
+          onClick={() => selectCategoryHandler('practice')}
+          onKeyDown={() => selectCategoryHandler('practice')}
+        >
+          운동
+        </div>
+        <div
+          id="waterMenu"
+          className="button-unselected"
+          role="presentation"
+          onClick={() => selectCategoryHandler('water')}
+          onKeyDown={() => selectCategoryHandler('water')}
+        >
+          음수대
+        </div>
+        <div
+          id="carparkMenu"
+          className="button-unselected"
+          role="presentation"
+          onClick={() => selectCategoryHandler('carpark')}
+          onKeyDown={() => selectCategoryHandler('carpark')}
+        >
+          주차장
+        </div>
+        <div
+          id="startMenu"
+          className="button-unselected"
+          role="presentation"
+          onClick={() => selectCategoryHandler('start')}
+          onKeyDown={() => selectCategoryHandler('start')}
+        >
+          시종점
+        </div>
+      </div>
+      <div id="mapwrap" className="map-wrap">
         <Map // 지도를 표시할 Container
           id={`map`}
-          center={{
-            // 지도의 중심좌표
-            lat: 37.5711934678,
-            lng: 127.0880958443,
-          }}
+          center={state.center}
+          isPanto={state.isPanto}
           style={{
             // 지도의 크기
             width: '100%',
             height: '450px',
+            zIndex: '0',
           }}
-          level={4} // 지도의 확대 레벨
+          level={7} // 지도의 확대 레벨
+          // 지도 드래그시 이벤트
+          onDragEnd={(map) =>
+            setState((prev) => ({
+              ...prev,
+              center: {
+                lat: map.getCenter().getLat(),
+                lng: map.getCenter().getLng(),
+              },
+            }))
+          }
         >
-          {selectedCategory === 'coffee' &&
-            coffeePositions.map((position) => (
+          {/* 현재 등산로의 종점(정상) 빨간깃발 */}
+          <MapMarker
+            position={{
+              lat: paths.length > 0 ? paths[paths.length - 1].lat : 1,
+              lng: paths.length > 0 ? paths[paths.length - 1].lng : 1,
+            }}
+            image={{
+              src: redflag,
+              size: imageSize,
+              options: {
+                offset: {
+                  x: 2,
+                  y: 25,
+                },
+              },
+            }}
+          />
+          {/* 현재위치 마커표시 */}
+          {!state.isLoading && (
+            <CustomOverlayMap // 커스텀 오버레이를 표시할 Container
+              // 커스텀 오버레이가 표시될 위치입니다
+              position={{
+                lat: currentPositionLat,
+                lng: currentPositionLng,
+              }}
+            >
+              {/* 커스텀 오버레이에 표시할 내용입니다 */}
+              <div className="ramgi-here">
+                <img src={ramgiHere} alt="ramgiHere" />
+              </div>
+            </CustomOverlayMap>
+          )}
+          {selectedCategory === 'all' &&
+            allSpots.map((position) => (
               <MapMarker
-                key={`coffee-${position.lat},${position.lng}`}
+                key={`${position.lat},${position.lng}`}
                 position={position}
                 image={{
-                  src: markerImageSrc,
+                  src: dotimg,
                   size: imageSize,
                   options: {
-                    spriteSize: spriteSize,
-                    spriteOrigin: coffeeOrigin,
+                    offset: {
+                      x: 10,
+                      y: 13,
+                    },
                   },
                 }}
               />
             ))}
-          {selectedCategory === 'store' &&
-            storePositions.map((position) => (
+          {selectedCategory === 'toilet' &&
+            toiletSpots.map((position) => (
               <MapMarker
-                key={`store-${position.lat},${position.lng}`}
+                key={`toilet-${position.lat},${position.lng}`}
                 position={position}
                 image={{
-                  src: markerImageSrc,
+                  src: toiletimg,
                   size: imageSize,
-                  options: {
-                    spriteSize: spriteSize,
-                    spriteOrigin: storeOrigin,
-                  },
+                }}
+              />
+            ))}
+          {selectedCategory === 'practice' &&
+            practiceSpots.map((position) => (
+              <MapMarker
+                key={`practice-${position.lat},${position.lng}`}
+                position={position}
+                image={{
+                  src: practiceimg,
+                  size: imageSize,
+                }}
+              />
+            ))}
+          {selectedCategory === 'water' &&
+            waterSpots.map((position) => (
+              <MapMarker
+                key={`water-${position.lat},${position.lng}`}
+                position={position}
+                image={{
+                  src: waterimg,
+                  size: imageSize,
                 }}
               />
             ))}
           {selectedCategory === 'carpark' &&
-            carparkPositions.map((position) => (
+            carparkSpots.map((position) => (
               <MapMarker
                 key={`carpark-${position.lat},${position.lng}`}
                 position={position}
                 image={{
-                  src: markerImageSrc,
+                  src: carparkimg,
+                  size: imageSize,
+                }}
+              />
+            ))}
+          {selectedCategory === 'start' &&
+            startSpots.map((position) => (
+              <MapMarker
+                key={`start-${position.lat},${position.lng}`}
+                position={position}
+                image={{
+                  src: flaglight,
                   size: imageSize,
                   options: {
-                    spriteSize: spriteSize,
-                    spriteOrigin: carparkOrigin,
+                    offset: {
+                      x: 12,
+                      y: 20,
+                    },
                   },
                 }}
               />
             ))}
           {/* 지도에 지형정보를 표시하도록 지도타입을 추가합니다 */}
           <MapTypeId type={kakao.maps.MapTypeId.TERRAIN} />
+          {/* 버튼 클릭시 현재위치로 이동 */}
+          <div className="map-button-container">
+            <button className="map-button" type="button" onClick={toMapCenter}>
+              <img src={curMarker} alt="current location" />
+            </button>
+          </div>
 
+          <div className="flag-button-container">
+            <button
+              className="flag-button"
+              type="button"
+              onClick={toFlagCenter}
+            >
+              <img src={redflag} alt="flag location" />
+            </button>
+          </div>
           {/* 지도 위에 선그리기 */}
           <Polyline
             path={[paths]}
@@ -204,46 +436,8 @@ function MapTrailDetail(props: {
           />
         </Map>
         {/* 지도 위에 표시될 마커 카테고리 */}
-        <div className="category">
-          <button
-            type="button"
-            className="dropdown-category"
-            onChange={(e) => setIsOpenDropdown(!isOpenDropdown)}
-          >
-            선택하세요
-          </button>
-          <div className="dropdown-content">
-            <div
-              id="coffeeMenu"
-              role="presentation"
-              onClick={() => setSelectedCategory('coffee')}
-              onKeyDown={() => setSelectedCategory('coffee')}
-            >
-              <span className="ico_comm ico_coffee"></span>
-              화장실
-            </div>
-            <div
-              id="storeMenu"
-              role="presentation"
-              onClick={() => setSelectedCategory('store')}
-              onKeyDown={() => setSelectedCategory('store')}
-            >
-              <span className="ico_comm ico_store"></span>
-              음수대
-            </div>
-            <div
-              id="carparkMenu"
-              role="presentation"
-              onClick={() => setSelectedCategory('carpark')}
-              onKeyDown={() => setSelectedCategory('carpark')}
-            >
-              <span className="ico_comm ico_carpark"></span>
-              주차장
-            </div>
-          </div>
-        </div>
       </div>
-    </>
+    </div>
   );
 }
 

@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+/* eslint-disable react/jsx-key */
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -7,10 +8,13 @@ import { Scrollbar } from 'swiper';
 import MountainItemsButton from '@components/main/MountainItemsButton';
 
 // title, mountainList 전달받기
-function MountainItems(props: { title: string; data: Mountain[]; is100: boolean }) {
-  const { data } = props;
-  const { title } = props;
-  const { is100 } = props;
+function MountainItems(props: {
+  title: string;
+  data: Mountain[];
+  is100: boolean;
+  scrollPosition: number;
+}) {
+  const { data, title, is100 } = props;
 
   // 캐러셀 데이터 나누기
   const divdeData: Mountain[][] = [];
@@ -20,14 +24,17 @@ function MountainItems(props: { title: string; data: Mountain[]; is100: boolean 
     divdeData.push(chunk);
   }
 
-  if(is100){
-    console.log(is100);
-  }
-
   return (
     <div className="mountain-suggestion">
-      <div className="suggestion-text">{title}
-        {is100 && <MountainItemsButton></MountainItemsButton>}
+      <div
+        className={
+          props.scrollPosition > 100
+            ? 'suggestion-text'
+            : 'suggestion-text after'
+        }
+      >
+        {title}
+        {is100 && <MountainItemsButton />}
       </div>
       <Swiper
         scrollbar={{
@@ -37,18 +44,24 @@ function MountainItems(props: { title: string; data: Mountain[]; is100: boolean 
         className="mySwiper"
       >
         {divdeData &&
-          divdeData.map((onePage) => (
-            <SwiperSlide>
+          divdeData.map((onePage, index) => (
+            // eslint-disable-next-line react/no-array-index-key
+            <SwiperSlide key={index}>
               <div className="grid grid-rows-2 grid-flow-col grid-wrapper">
                 {onePage.map((oneMountain) => (
                   <NavLink
                     to={`/mountain/detail/${oneMountain.mountain.mountainSeq}`}
+                    key={oneMountain.mountain.mountainSeq}
                   >
                     <figure>
                       <img src={oneMountain.mountain.photo} alt="산이미지" />
                       <div>
-                        <figcaption className="figcaption-title">{oneMountain.mountain.name}</figcaption>
-                        <figcaption className="figcaption-discription">{oneMountain.mountain.gu}</figcaption>
+                        <figcaption className="figcaption-title">
+                          {oneMountain.mountain.name}
+                        </figcaption>
+                        <figcaption className="figcaption-discription">
+                          {oneMountain.mountain.gu}
+                        </figcaption>
                       </div>
                     </figure>
                   </NavLink>

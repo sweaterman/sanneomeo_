@@ -6,8 +6,9 @@ import static com.querydsl.core.types.dsl.MathExpressions.cos;
 import static com.querydsl.core.types.dsl.MathExpressions.radians;
 import static com.querydsl.core.types.dsl.MathExpressions.sin;
 
-import com.hikers.sanneomeo.dto.response.GetRecommendCourseResponseDto;
-import com.hikers.sanneomeo.dto.response.GetTrailLikeResponseDto;
+import com.hikers.sanneomeo.dto.response.MountainDetailResponseDto;
+import com.hikers.sanneomeo.dto.response.MountainSpotResponseDto;
+import com.hikers.sanneomeo.dto.response.RecommendCourseDto;
 import com.hikers.sanneomeo.dto.response.NearTrailResponseDto;
 import com.hikers.sanneomeo.dto.response.TrailListResponseDto;
 import com.querydsl.core.types.Path;
@@ -16,7 +17,6 @@ import com.querydsl.core.types.dsl.CaseBuilder;
 import com.querydsl.core.types.dsl.ComparableExpressionBase;
 import com.querydsl.core.types.dsl.Expressions;
 import com.querydsl.core.types.dsl.NumberExpression;
-import com.querydsl.jpa.JPAExpressions;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import java.math.BigDecimal;
 import java.util.List;
@@ -75,7 +75,9 @@ public class CourseRepositoryImpl implements CourseRepositoryCustom {
                   .when(course.difficultyMean.goe(new BigDecimal("1.3"))).then("어려움")
                   .when(course.difficultyMean.gt(new BigDecimal("1.0"))).then("중간")
                   .otherwise("쉬움")
-              , keep.courseSeq.count()
+              ,
+              new CaseBuilder()
+                  .when(keep.isKeep.eq(true)).then(keep.courseSeq).otherwise(Expressions.nullExpression()).count()
               ,course.time)
           )
         .from(course)
@@ -87,37 +89,51 @@ public class CourseRepositoryImpl implements CourseRepositoryCustom {
   }
 
     @Override
-    public Optional<GetRecommendCourseResponseDto> findCourseByCourseSequenceAndUserSeq(Long courseSeq, Long userSeq) {
+    public Optional<RecommendCourseDto> findCourseByCourseSequenceAndUserSeq(Long courseSeq, Long userSeq) {
         return Optional.ofNullable(queryFactory
-                .select(Projections.fields(GetRecommendCourseResponseDto.class,
-                        course.courseSeq.as("trailSeq"), course.name, course.mountainSeq,
+                .select(Projections.constructor(RecommendCourseDto.class,
+                        course.courseSeq, course.name, course.mountainSeq,
                         new CaseBuilder()
                                 .when(course.difficultyMean.goe(BigDecimal.valueOf(1.3))).then("어려움")
                                 .when(course.difficultyMean.lt(BigDecimal.valueOf(1.3)).and(course.difficultyMean.gt(BigDecimal.valueOf(1.0)))).then("중간")
                                 .otherwise("쉬움")
                                 .as("difficulty"),
-                        course.time, course.length, keep.isKeep))
-                .from(keep)
-                .join(course).on(keep.courseSeq.eq(course.courseSeq))
-                .where(keep.userSeq.eq(userSeq).and(course.courseSeq.eq(courseSeq)))
+                        course.time, course.length, keep.isKeep.as("isLike")))
+                .from(course)
+                .leftJoin(keep).on(course.courseSeq.eq(keep.courseSeq).and(keep.userSeq.eq(userSeq)))
+                .where(course.courseSeq.eq(courseSeq))
                 .fetchOne());
 
     }
 
     @Override
-    public Optional<GetRecommendCourseResponseDto> findCourseByCourseSequence(Long courseSeq) {
+    public Optional<RecommendCourseDto> findCourseByCourseSequence(Long courseSeq) {
         return Optional.ofNullable(queryFactory
-                .select(Projections.fields(GetRecommendCourseResponseDto.class,
-                        course.courseSeq.as("trailSeq"), course.name, course.mountainSeq,
+                .select(Projections.constructor(RecommendCourseDto.class,
+                        course.courseSeq, course.name, course.mountainSeq,
                         new CaseBuilder()
                                 .when(course.difficultyMean.goe(BigDecimal.valueOf(1.3))).then("어려움")
                                 .when(course.difficultyMean.lt(BigDecimal.valueOf(1.3)).and(course.difficultyMean.gt(BigDecimal.valueOf(1.0)))).then("중간")
-                                .otherwise("쉬움")
-                                .as("difficulty"),
-                        course.time, course.length, keep.isKeep))
-                .from(keep)
-                .join(course).on(keep.courseSeq.eq(course.courseSeq))
+                                .otherwise("쉬움"),
+
+                        course.time, course.length))
+                .from(course)
                 .where(course.courseSeq.eq(courseSeq))
                 .fetchOne());
     }
+
+  @Override
+  public Optional<MountainSpotResponseDto> findMountainAndCourseNameBySequence(Long courseSeq) {
+    return Optional.ofNullable(
+        queryFactory
+            .select(
+                Projections.constructor(MountainSpotResponseDto.class,mountain.name,course.name)
+            )
+            .from(course)
+            .leftJoin(mountain)
+            .on(course.mountainSeq.eq(mountain.mountainSeq))
+            .where(course.courseSeq.eq(courseSeq))
+            .fetchFirst()
+    );
+  }
 }

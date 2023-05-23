@@ -1,87 +1,177 @@
 .mountain-reviewItems {
-  background-color: $light-yellow;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 10px;
+  // background-color: $light-yellow;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // padding-top: 10px;
+  padding: 20px;
 
-  .oneReview {
-    width: 80%;
-    background-color: white;
-    border-radius: 10px;
-    padding: 10px;
+  .review-title {
+    font-size: $font-h3;
+    font-weight: 700;
     margin-bottom: 10px;
+  }
 
-    .firstline {
-      display: flex;
-      justify-content: space-between;
-
-      .userInfo {
+  .review-body {
+    .review-list {
+      .review-filter {
         display: flex;
+        justify-content: left;
+        gap: 10px;
+        font-size: $font-h5;
+        font-weight: 500;
+        color: rgba(128, 128, 128, 0.66);
 
-        img {
-          width: 30px;
-          height: 30px;
-          border-radius: 70%;
-          margin-right: 10px;
+        .black-button {
+          font-weight: 600 !important;
+          color: black !important;
         }
       }
 
-      .star {
-        display: flex;
+      .review-hr {
+        width: 100%;
+        margin: 10px 0px;
+        height: 2px;
+        border: 0;
+        background: $light-green;
+      }
 
-        img {
-          width: 20px;
-          height: 20px;
+      .oneReview {
+        width: 100%;
+        padding: 10px;
+
+        .oneRiveiw-hr {
+          width: 100%;
+          margin: 10px 0px;
+          height: 0.3px;
+          border: 0;
+          background: grey;
+        }
+
+        .firstline {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 10px;
+
+          .userInfo {
+            display: flex;
+
+            .userName {
+              font-size: $font-h4;
+              font-weight: 500;
+            }
+
+            img {
+              width: 30px;
+              height: 30px;
+              border-radius: 70%;
+              margin-right: 10px;
+            }
+          }
+
+          .star {
+            display: flex;
+
+            img {
+              width: 20px;
+              height: 20px;
+            }
+          }
+
+          .dayTime {
+            font-size: $font-h5;
+            text-align: right;
+            color: $over-lightgray;
+            margin-top: 5px;
+          }
+        }
+
+        .content {
+          white-space: pre-wrap;
+          font-size: $font-h5;
+        }
+
+        .delete-review {
+          display: flex;
+          justify-content: flex-end;
+
+          img {
+            height: 20px;
+          }
         }
       }
-    }
-
-    .dayTime {
-      font-size: $font-h5;
-      text-align: right;
-      color: $over-lightgray;
-    }
-
-    .content {
-      white-space: pre-wrap;
-    }
-
-    .delete-review {
-      display: flex;
-      justify-content: flex-end;
     }
   }
 
   .write-form {
-    width: 80%;
     border-radius: 10px;
     padding: 10px;
-    background-color: $light-green;
     display: flex;
     flex-direction: column;
+    border: 1px solid $heavy-yellow;
+    border-radius: 5px;
+    padding: 15px;
 
-    .choice-rate {
+    .write-button {
       display: flex;
       justify-content: space-between;
-      margin-bottom: 10px;
-    }
+      font-size: $font-h5;
+      font-weight: 600;
+      color: rgb(94, 94, 94);
+      align-items: center;
 
-    .write-title {
-      color: white;
-    }
+      .write-rate {
+        display: flex;
+        form {
+          margin-left: 5px;
 
-    .submit-parent {
-      display: flex;
-      justify-content: flex-end;
+          &:focus {
+            outline: 1px solid black;
+            // background-color: $light-yellow;
+          }
+        }
+      }
 
       .submit-button {
         display: inline-block;
         padding: 0px 10px;
         text-align: center;
         text-decoration: none;
-        background-color: white;
+        background-color: rgb(244, 244, 244);
         border-radius: 0.25em;
+        color: rgb(94, 94, 94);
+        font-weight: 600;
+      }
+    }
+
+    .write-hr {
+      width: 100%;
+      margin: 10px 0px;
+      height: 1px;
+      border: 0;
+      background: $light-green;
+    }
+
+    // .choice-rate {
+    //   display: flex;
+    //   justify-content: space-between;
+    //   margin-bottom: 10px;
+    // }
+
+    // .write-title {
+    //   color: white;
+    // }
+
+    .write-input {
+      font-size: $font-h5;
+
+      textarea {
+        height: 100px;
+        &:focus {
+          background-color: rgba(234, 234, 234, 0.192);
+          outline: none;
+        }
       }
     }
   }

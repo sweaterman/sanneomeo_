@@ -3,15 +3,16 @@ import axios from 'axios';
 import { baseURL } from '@features/port';
 import { RootState } from '@app/store';
 
-const initialTrailState: TrailLike = {
-  trailSeq: 0,
+const initialTrailState: Trail = {
+  sequence: 0,
   name: '',
   mountainSeq: '',
   difficulty: '',
-  uptime: 0,
-  downtime: 0,
+  time: 0,
   length: 0,
-  keep: false,
+  isLike: false,
+  keepCount: 0,
+  recommend: null,
 };
 
 // API 명세서 15번. 찜 등록
@@ -38,10 +39,8 @@ export const trailKeepSlice = createSlice({
   reducers: {},
   extraReducers: (builder) => {
     // API 명세서 15번. 찜 등록
-    builder.addCase(updateTrailKeep.fulfilled, (state, action) => {
-      console.log('15 성공!');
-    });
-    builder.addCase(updateTrailKeep.rejected, (state, action) => {
+    builder.addCase(updateTrailKeep.fulfilled, () => {});
+    builder.addCase(updateTrailKeep.rejected, (_, action) => {
       console.log('15 실패!', action.error);
     });
   },

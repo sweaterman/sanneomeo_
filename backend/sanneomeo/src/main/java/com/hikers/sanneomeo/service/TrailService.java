@@ -4,6 +4,7 @@ import com.hikers.sanneomeo.dto.response.*;
 
 import java.math.BigDecimal;
 import java.util.List;
+import java.util.Optional;
 
 public interface TrailService {
 
@@ -19,9 +20,9 @@ public interface TrailService {
   NearTrailResponseDto getNearTrailByDistance(String sequence,
       BigDecimal latitude, BigDecimal longitude);
 
-  String getTargetCourseSeqFlask(int level, String region, int purpose, int time);
+  Optional<RecommendCourseDto> getTargetCourseFlask(int level, int region, int purpose, int time);
 
-  List<GetRecommendCourseResponseDto> getRecommendCoursesFlask(String targetCourseSeq);
+  List<RecommendCourseDto> getRecommendCoursesFlask(Long targetCourseSeq);
 
 
 }

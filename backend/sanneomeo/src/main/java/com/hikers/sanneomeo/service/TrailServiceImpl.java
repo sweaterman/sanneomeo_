@@ -13,15 +13,18 @@ import com.hikers.sanneomeo.repository.KeepRepository;
 import com.hikers.sanneomeo.repository.TrailPathRepository;
 import com.hikers.sanneomeo.repository.TrailRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.ResponseEntity;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
 
 import javax.transaction.Transactional;
+import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import java.util.Optional;
 
 
@@ -81,53 +84,78 @@ public class TrailServiceImpl implements TrailService {
     }
 
     @Override
-    public String getTargetCourseSeqFlask(int level, String region, int purpose, int time) {
+    public Optional<RecommendCourseDto> getTargetCourseFlask(int level, int region, int purpose, int time) {
         // 로그인상태인지 확인
         Long userSeq = 0L;
         if (SecurityContextHolder.getContext().getAuthentication().getPrincipal() != "anonymousUser") {
             userSeq = Long.parseLong(SecurityContextHolder.getContext().getAuthentication().getPrincipal().toString());
         }
-//        String flaskUrl = ymlConfig.getFlaskEndPoint() + "/targetCourse" +
-//                "?userSeq=" + userSeq + "&level=" + level + "&region=" + region + "&purpose=" + purpose + "&time=" + time;
-        String flaskUrl = "http://localhost:5000/targetCourse" + "?userSeq="+userSeq + "&level=" + level + "&region=" + region + "&purpose=" + purpose + "&time=" + time;
-        RestTemplate restTemplate = new RestTemplate();
-        ResponseEntity<String> targetCourse = restTemplate.getForEntity(flaskUrl, String.class);
-        return targetCourse.getBody();
+        String flaskUrl = ymlConfig.getFlaskEndPoint() + "/targetCourse" +
+                "?userseq=" + userSeq + "&level=" + level + "&region=" + region + "&purpose=" + purpose + "&time=" + time;
+        OkHttpClient client = new OkHttpClient();
+        Request request = new Request.Builder().url(flaskUrl).build();
+        try(Response response = client.newCall(request).execute()) {
+            if (!response.isSuccessful()) {
+                throw new IOException("Unexpected code " + response);
+            }
+            String res = response.body().string();
+            // target이 없는 경우
+            if(res.isEmpty()) {
+                return Optional.empty();
+            }
+
+            Long targetCourseSeq = Long.parseLong(res);
+
+            // 찜여부 같이 보냄
+            if(userSeq == 0L) return courseRepository.findCourseByCourseSequence(targetCourseSeq);
+            return courseRepository.findCourseByCourseSequenceAndUserSeq(targetCourseSeq, userSeq);
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 
     @Override
-    public List<GetRecommendCourseResponseDto> getRecommendCoursesFlask(String targetCourseSeq) {
-//        String flaskUrl = ymlConfig.getFlaskEndPoint() + "/recommendCourse/" + targetCourseSeq;
-        String flaskUrl = "http://localhost:5000/recommendCourse/" + targetCourseSeq;
-        RestTemplate restTemplate = new RestTemplate();
-        ResponseEntity<String> response = restTemplate.getForEntity(flaskUrl, String.class);
-        ObjectMapper objectMapper = new ObjectMapper(); // JSON 형식의 문자열을 객체로 변환하기 위한 ObjectMapper 생성
-        try {
-            // JSON 형식의 문자열을 응답 객체로 변환
-            String responseJson = response.getBody();
-            JsonNode responseNode = objectMapper.readTree(responseJson);
-            List<GetRecommendCourseResponseDto> result = new ArrayList<>();
-            JsonNode recommendedResultNode = responseNode.get("recommended_result");
-            if (recommendedResultNode != null && recommendedResultNode.isArray()) {
-                //로그인 유저가 있을때 isKeep정보도 가져와야함
-                if (SecurityContextHolder.getContext().getAuthentication().getPrincipal() != "anonymousUser") {
-                    Long authUserSeq = Long.parseLong(SecurityContextHolder.getContext().getAuthentication().getPrincipal().toString());
-                    for (JsonNode trailNode : recommendedResultNode) {
-                        Optional<GetRecommendCourseResponseDto> courseDto = courseRepository.findCourseByCourseSequenceAndUserSeq(trailNode.asLong(), authUserSeq);
-                        courseDto.ifPresent(result::add);
-                    }
-                } else {
-                    for (JsonNode trailNode : recommendedResultNode) {
-                        Optional<GetRecommendCourseResponseDto> courseDto = courseRepository.findCourseByCourseSequence(trailNode.asLong());
-                        courseDto.ifPresent(result::add);
+    public List<RecommendCourseDto> getRecommendCoursesFlask(Long targetCourseSeq) {
+        String flaskUrl = ymlConfig.getFlaskEndPoint() + "/recommendCourse/" + targetCourseSeq;
+        OkHttpClient client = new OkHttpClient();
+        Request request = new Request.Builder()
+                .url(flaskUrl)
+                .build();
+        try (Response response = client.newCall(request).execute()) {
+            if (!response.isSuccessful()) {
+                throw new IOException("Unexpected code " + response);
+            }
+
+            String responseBody = response.body().string();
+
+            ObjectMapper objectMapper = new ObjectMapper();
+            try {
+                JsonNode responseNode = objectMapper.readTree(responseBody);
+                List<RecommendCourseDto> result = new ArrayList<>();
+                JsonNode recommendedResultNode = responseNode.get("recommended_result");
+                if (recommendedResultNode != null && recommendedResultNode.isArray()) {
+                    if (SecurityContextHolder.getContext().getAuthentication().getPrincipal() != "anonymousUser") {
+                        Long authUserSeq = Long.parseLong(SecurityContextHolder.getContext().getAuthentication().getPrincipal().toString());
+                        for (JsonNode trailNode : recommendedResultNode) {
+                            Optional<RecommendCourseDto> courseDto = courseRepository.findCourseByCourseSequenceAndUserSeq(trailNode.asLong(), authUserSeq);
+                            courseDto.ifPresent(result::add);
+                        }
+                    } else {
+                        for (JsonNode trailNode : recommendedResultNode) {
+                            Optional<RecommendCourseDto> courseDto = courseRepository.findCourseByCourseSequence(trailNode.asLong());
+                            courseDto.ifPresent(result::add);
+                        }
                     }
                 }
-
+                return result;
+            } catch (JsonProcessingException e) {
+                e.printStackTrace();
+                return null;
             }
-            return result; // 처리 결과에 맞게 반환값 설정
-        } catch (JsonProcessingException e) {
-            // 예외 처리
-            return null; // 예외 발생시 처리 결과에 맞게 반환값 설정
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
         }
     }
 }

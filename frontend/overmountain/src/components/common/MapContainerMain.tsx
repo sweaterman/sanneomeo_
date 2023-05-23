@@ -1,26 +1,68 @@
 import React, { useEffect, useState } from 'react';
-import { Map, MapMarker, MapTypeId } from 'react-kakao-maps-sdk';
+import {
+  Map,
+  MapMarker,
+  MapTypeId,
+  CustomOverlayMap,
+} from 'react-kakao-maps-sdk';
 import { useNavigate } from 'react-router-dom';
 import mapMarker from '@assets/images/map-marker.png';
 import curMarker from '@assets/images/target.png';
+import closeMarker from '@assets/images/close.png';
 
-function MapContainerMain(searchPlace: any) {
+function MapContainerMain(props: { searchResult: ElasticMountain }) {
   // 검색결과 담기
-  const [Place, setPlace] = useState('');
+  const result = props.searchResult;
 
   // 인포윈도우 관리
   const [isOpen, setIsOpen] = useState(false);
   const [state, setState] = useState({
     center: {
-      lat: 33.450701,
-      lng: 126.570667,
+      lat: result.latitude > 0 ? result.latitude : 37.5009759,
+      lng: result.latitude > 0 ? result.longitude : 127.0373502,
     },
     errMsg: null,
     isLoading: true,
     isPanto: false,
   });
+  const [currentPositionLat, setCurrentPositionLat] = useState(
+    state.center.lat,
+  );
+  const [currentPositionLng, setCurrentPositionLng] = useState(
+    state.center.lng,
+  );
 
   const navigate = useNavigate();
+
+  const toMapCenter = () => {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition((position) => {
+        setCurrentPositionLat(position.coords.latitude);
+        setCurrentPositionLng(position.coords.longitude);
+        setState((prev) => ({
+          ...prev,
+          center: {
+            lat: currentPositionLat,
+            lng: currentPositionLng,
+          },
+          isLoading: false,
+          isPanto: true,
+        }));
+      });
+    }
+  };
+
+  useEffect(() => {
+    setState((prev) => ({
+      ...prev,
+      center: {
+        lat: result.latitude, // 위도
+        lng: result.longitude, // 경도
+      },
+      isLoading: true,
+      isPanto: true,
+    }));
+  }, [result]);
 
   useEffect(() => {
     if (navigator.geolocation) {
@@ -33,7 +75,7 @@ function MapContainerMain(searchPlace: any) {
               lat: position.coords.latitude, // 위도
               lng: position.coords.longitude, // 경도
             },
-            isLoading: false,
+            isLoading: true,
           }));
         },
         (err) => {
@@ -52,34 +94,22 @@ function MapContainerMain(searchPlace: any) {
         isLoading: false,
       }));
     }
-
-    const ps = new kakao.maps.services.Places();
-    ps.keywordSearch(searchPlace, placeSearchCB);
-
-    function placeSearchCB(data: any, status: any) {
-      if (status === kakao.maps.services.Status.OK) {
-        let bounds = new kakao.maps.LatLngBounds();
-      }
-    }
+    toMapCenter();
+    toMapCenter();
   }, []);
+
   const toMountainDetail = () => {
-    navigate('/mountain/detail');
+    navigate(`/mountain/detail/${result.sequence}`);
   };
 
-  const toMapCenter = () => {
-    setState({
-      ...state,
-      center: {
-        lat: state.center.lat,
-        lng: state.center.lng,
-      },
-      errMsg: null,
-      isLoading: false,
-      isPanto: true,
-    });
-    console.log(state);
-    console.log(state.center.lat);
-    console.log(state.center.lng);
+  const altitudeString = `${Math.floor(result.altitude)}m`;
+
+  const customMaker = {
+    src: { mapMarker },
+    size: {
+      width: 27,
+      height: 40,
+    },
   };
 
   return (
@@ -87,69 +117,96 @@ function MapContainerMain(searchPlace: any) {
       <Map
         center={state.center}
         isPanto={state.isPanto}
-        style={{ width: '320px', height: '360px', zIndex: '1' }}
-        level={6}
+        style={{ width: '100%', height: '360px', zIndex: '1' }}
+        level={7}
+        // 지도 드래그시 이벤트
+        onDragStart={() => {
+          setState((prev) => ({
+            ...prev,
+            isLoading: true,
+          }));
+          setIsOpen(false);
+        }}
+        // 중심이동시 해당위치로 좌표갱신
+        onCenterChanged={(map) =>
+          setState((prev) => ({
+            ...prev,
+            center: {
+              lat: map.getCenter().getLat(),
+              lng: map.getCenter().getLng(),
+            },
+          }))
+        }
       >
-        <MapMarker
-          position={state.center}
-          clickable
-          onClick={() => setIsOpen(true)}
-        >
-          {/* MapMarker의 자식을 넣어줌으로 해당 자식이 InfoWindow로 만들어지게 합니다 */}
-          {/* 인포윈도우에 표출될 내용으로 HTML 문자열이나 React Component가 가능합니다 */}
-          {isOpen && (
-            <div style={{ minWidth: '150px' }}>
+        {result && (
+          <MapMarker
+            image={{
+              src: mapMarker,
+              size: customMaker.size,
+            }}
+            position={{
+              lat: result.latitude,
+              lng: result.longitude,
+            }}
+            clickable
+            onClick={() => setIsOpen(true)}
+          />
+        )}
+
+        {/* MapMarker의 자식을 넣어줌으로 해당 자식이 InfoWindow로 만들어지게 합니다 */}
+        {/* 인포윈도우에 표출될 내용으로 HTML 문자열이나 React Component가 가능합니다 */}
+        {isOpen && (
+          <CustomOverlayMap
+            position={{
+              lat: result ? result.latitude : currentPositionLat,
+              lng: result ? result.longitude : currentPositionLng,
+            }}
+          >
+            <div className="custom-info-window">
               <img
                 alt="close"
-                width="14"
-                height="13"
-                src={mapMarker}
-                // src="https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/2x/bt_close.gif"
-                style={{
-                  position: 'absolute',
-                  right: '5px',
-                  top: '5px',
-                  cursor: 'pointer',
-                }}
+                src={closeMarker}
+                className="delete-button"
                 role="presentation"
                 onClick={() => setIsOpen(false)}
                 onKeyDown={() => setIsOpen(false)}
               />
-              <div
-                style={{ padding: '5px', color: '#000' }}
-                role="presentation"
-                onClick={toMountainDetail}
-                onKeyDown={toMountainDetail}
-              >
-                도봉산
+              <div className="info-container">
+                <div className="info-title">
+                  <div className="info-name">
+                    {result.name === '' ? `잘못된 위치에요!` : result.name}{' '}
+                  </div>
+                  <div className="info-address">
+                    {result.si} {result.gu} {result.dong}
+                  </div>
+                </div>
+                <div className="info-body">
+                  <div className="info-altitude">
+                    {result.name === '' ? `` : altitudeString}
+                  </div>
+                  {result.name !== '' && (
+                    <div
+                      className="info-route"
+                      role="presentation"
+                      onClick={toMountainDetail}
+                      onKeyDown={toMountainDetail}
+                    >
+                      상세보기&gt;
+                    </div>
+                  )}
+                </div>
               </div>
+              <div className="info-triangle"></div>
             </div>
-          )}
-        </MapMarker>
+          </CustomOverlayMap>
+        )}
+
         {/* 지도에 지형정보를 표시하도록 지도타입을 추가합니다 */}
         <MapTypeId type={kakao.maps.MapTypeId.TERRAIN} />
-        <div className = "map-button-container">
-          <button className= "map-button" type="button" onClick={toMapCenter}>
-            <img src={curMarker} alt="current location"/>
+        <div className="map-button-container">
+          <button className="map-button" type="button" onClick={toMapCenter}>
+            <img src={curMarker} alt="current location" />
             {/* 현재 위치 */}
-          </button>
-          <h1>|</h1>
-          <button
-            type="button"
-            onClick={() =>
-              setState({
-                center: {
-                  lat: state.center.lat,
-                  lng: state.center.lng,
-                },
-                errMsg: null,
-                isLoading: false,
-                isPanto: false,
-              })
-            }
-          >
-            {/* ehdeh 이동 */}
-            <img src={curMarker} alt="current location"/>
           </button>
         </div>
       </Map>

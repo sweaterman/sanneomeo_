@@ -1,7 +1,7 @@
 .recom-question {
   margin: 10px;
 
-  .recom-banner{
+  .recom-banner {
     border-radius: 20px;
     width: 100%;
     height: 300px;
@@ -9,19 +9,19 @@
     background-color: $light-green;
     padding: 10px 0px;
 
-    .recom-title{
+    .recom-title {
       position: absolute;
       text-align: center;
       width: 100%;
 
-      h1{
+      h1 {
         font-size: $font_h2;
         color: white;
         font-weight: 700;
         margin: 5px 0px;
       }
 
-      span{
+      span {
         font-size: $font_h4;
         color: rgb(47, 47, 47);
         font-weight: 500;
@@ -29,43 +29,47 @@
     }
   }
 
-  form{
+  form {
     margin-top: 20px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    hr{
-      width:100%;
+    hr {
+      width: 100%;
     }
 
     .level-text {
       margin: 15px 0px;
-      font-size: $font_h3;
+      font-size: 1.5rem;
       font-weight: 500;
     }
     .like-text {
       margin: 15px 0px;
-      font-size: $font_h3;
+      font-size: 1.5rem;
       font-weight: 500;
     }
     .purpose-text {
       margin: 15px 0px;
-      font-size: $font_h3;
+      font-size: 1.5rem;
       font-weight: 500;
     }
     .time-text {
       margin: 20px 0px;
-      font-size: $font_h3;
+      font-size: 1.5rem;
       font-weight: 500;
     }
 
-    .question-text{
+    .question-text {
       color: $heavy-green;
       font-size: $font_h4;
       font-weight: 600;
       margin: 5px;
+    }
+
+    .time-specific-text {
+      font-size: $font-h4;
     }
   }
 }
@@ -81,33 +85,11 @@ hr {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  .korea-map {
-    display: none;
-    color: black;
-    position: relative;
-    .seoul {
-      position: absolute;
-      top: 10%;
-      left: 20%;
-      z-index: 9;
-      color: black;
-    }
-    .gyeonggi {
-      position: absolute;
-      top: 5%;
-      left: 20%;
-    }
-    .incheon {
-      position: absolute;
-      top: 5%;
-      left: -10%;
-    }
-  }
   .select-area {
     display: flex;
     justify-content: center;
     margin: 14px;
-    background-color: $midi-yellow;;
+    background-color: $midi-yellow;
     border-radius: 30px;
     width: 80px;
     filter: grayscale(1);
@@ -129,7 +111,7 @@ hr {
   .select-time {
     display: flex;
     justify-content: center;
-    margin: 20px;
+    margin: 5px;
     background-color: $midi-yellow;
     border-radius: 30px;
     width: 290px;
@@ -140,10 +122,11 @@ hr {
     }
     img {
       margin: 10px;
+      height: 30px;
     }
     div {
       margin: auto;
-      font-size: large;
+      font-size: 1rem;
     }
   }
 }
@@ -158,12 +141,24 @@ hr {
 }
 
 .question-finish {
-  margin-right: 30px;
-  text-align: right;
+  width: 100%;
+  margin-bottom: 20px;
+
+  .finish-text {
+    font-size: $font-h5;
+    margin: 10px;
+    font-weight: 500;
+    color: rgb(122, 122, 122);
+  }
+
   .submit-button {
-    background-color: white;
+    width: 100%;
+    background-color: $heavy-green;
     border: none;
-    color: $over-red;
+    color: white;
     font-size: large;
+    font-weight: 500;
+    height: 50px;
+    border-radius: 10px;
   }
 }

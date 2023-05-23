@@ -1,15 +1,16 @@
-.search-bar{
+.search-bar {
   width: 80%;
 
-  .search-title{
+  .search-title {
     margin-top: 20px;
   }
 
   .search-container {
     margin: 20px 0px 20px 0px;
     display: flex;
-    justify-content:space-around;
-    background-color: rgb(224, 224, 224);
+    justify-content: space-around;
+    position: relative;
+    background-color: rgb(231, 231, 231);
     height: 40px;
     font-size: 20px;
     color: black;
@@ -19,24 +20,59 @@
     padding-left: 20px;
     padding-right: 20px;
     align-items: center;
-  
+
+    &.squared {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
     input {
       background-color: rgba(209, 209, 209, 0);
       font-size: $font-h5;
       width: 80%;
-      &:focus{
+      &:focus {
         outline: none;
       }
     }
 
-  
-
     svg {
       fill: grey;
+      z-index: 0;
     }
-    
 
+    .search-result-container {
+      position: absolute;
+      top: 40px;
+      z-index: 1;
+      width: 100%;
+      font-size: $font-h5;
+      height: auto;
+      max-height: 340px;
+      background-color: rgb(244, 244, 244);
+      text-align: left;
+      overflow: hidden;
+      .result-box {
+        margin-top: 5%;
+        .mountain-name {
+          margin-left: 5%;
+          font-weight: 700;
+        }
+        .mountain-address {
+          margin-left: 5%;
+          display: flex;
 
+          .mountain-address-marker {
+            width: 20px;
+            // margin-right:/px;
+            margin-left: -3px;
+          }
+        }
+        hr {
+          color: black;
+        }
+      }
+    }
   }
-  
 }
